@@ -6,8 +6,8 @@ chatroomsn=session("Ba_jxqy_userchatroomsn")
 servername=Request.ServerVariables("server_name")
 scriptname=lcase(Request.ServerVariables("script_name"))
 if instr(scriptname,"chatroom.asp")=0 then Response.Redirect "../error.asp?id=012"
-useragent=Request.ServerVariables("http_user_agent")
-if instr(useragent,"MSIE ")=0 then Response.Redirect "../error.asp?id=013"
+//useragent=Request.ServerVariables("http_user_agent")
+//if instr(useragent,"MSIE ")=0 then Response.Redirect "../error.asp?id=013"
 allhttp=Request.ServerVariables("all_http")
 if Instr(allhttp,"proxy")<>0 or Instr(allhttp,"http_via")<>0 or Instr(allhttp,"http_pragma")<>0 then Response.Redirect "error.asp?id=014"
 onlinenum=Application("Ba_jxqy_allonlinenum")
@@ -151,7 +151,11 @@ var masklist=' ';
 function listmask(){resfrm.location.href='masklist.asp?masklist='+masklist;}
 function mask(un){if(masklist.indexOf(' '+un+' ')==-1){masklist=masklist+un+' ';}else{var regexp=eval('/ '+un+' /gi');masklist=masklist.replace(regexp,' ');}}
 function getmasklist(){return(masklist);}
-function lrclutch(){if(this.talkfrm.document.talkform.lrclutch.value=="开功能菜单"){this.talkfrm.document.talkform.lrclutch.value="关功能菜单";this.talkfrm.document.talkform.talkmsg.size=46;this.mainfrm.cols="60,*,140";}else{this.talkfrm.document.talkform.lrclutch.value="开功能菜单";this.talkfrm.document.talkform.talkmsg.size=56;this.mainfrm.cols="0,*,140";}this.talkfrm.document.talkform.talkmsg.focus();}
+function lrclutch(){
+	var mf = document.getElementById("mainfrm");
+	//alert(mf);
+	if(this.talkfrm.document.talkform.lrclutch.value=="开功能菜单"){this.talkfrm.document.talkform.lrclutch.value="关功能菜单";this.talkfrm.document.talkform.talkmsg.size=46;this.mainfrm.cols="60,*,140";}else{this.talkfrm.document.talkform.lrclutch.value="开功能菜单";this.talkfrm.document.talkform.talkmsg.size=56;this.mainfrm.cols="0,*,140";}this.talkfrm.document.talkform.talkmsg.focus();
+	}
 function tbclutch(){if(this.talkfrm.document.talkform.tbclutch.value=="关分屏窗口"){this.talkfrm.document.talkform.tbclutch.value="开分屏窗口";this.msgfrm.rows=advertisemenheight+",*,0,70,0,0";tbclu=false;}else{this.talkfrm.document.talkform.tbclutch.value="关分屏窗口";this.msgfrm.rows=advertisemenheight+",*,*,70,0,0";tbclu=true;}this.talkfrm.document.talkform.talkmsg.focus();}
 function chgsendto(st){this.talkfrm.document.talkform.sendto.options[0].value=st;this.talkfrm.document.talkform.sendto.options[0].text=st;this.talkfrm.document.talkform.sendto.options[0].selected=true;this.talkfrm.document.talkform.talkmsg.focus();}
 function showmsg(isact,isprivacy,username,sendto,expression,namecolor,wordcolor,msg){var msgtmp='';
@@ -175,7 +179,7 @@ function showmsg(isact,isprivacy,username,sendto,expression,namecolor,wordcolor,
 	if(masklist.indexOf(' '+username+' ')==-1 | ( masklist.indexOf(' '+username+' ')!=-1 & isact=="2" & sendto==myname)){if(tbclu==false){this.msgfrm0.document.write(msgtmp);}else{if(myname==username | myname==sendto){this.msgfrm1.document.write(msgtmp);}else{this.msgfrm0.document.write(msgtmp);}}}}
 </script>
 </head>
-<frameset name=mainfrm cols="0,*,140" border=0>
+<frameset id=mainfrm name=mainfrm cols="0,*,140" border=0>
 	<frame name="optfrm" src="option.asp" marginheight=0 marginwidth=0 scrolling=yes>
 	<frameset name="msgfrm" rows="<%=advertisemenheight%>,1*,1*,70,0,0"  >
 		<frame name="topfrm" src="welcome.asp" marginheight=0 marginwidth=0 scrolling=no>

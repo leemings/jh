@@ -49,7 +49,7 @@ else {return true;}
     <table width="100%" border="0" align="center"> 
        
       <tr> 
-        <td align="center" valign="middle">程序修改：<a href="http://www.tl99.com"><font color="#993300">世纪联网</font></a>   
+        <td align="center" valign="middle">程序修改：<a href="#"><font color="#993300">兔子鸡</font></a>   
           授权给：<font color="#993300">   
           <% response.write Application("Ba_jxqy_userright")%>   
           </font> 序列号：<font color="#993300">   
@@ -71,8 +71,10 @@ else {return true;}
     <br>  
     <table width="611" border="0">  
       <tr>  
-        <td height="29"><font color="#CC0000">【神话虚幻联盟】</font>‘世纪联网’以后不会在更换江湖版本！欢迎各个神话江湖的站长和我联盟共同发展！
-          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <td height="29"><font color="#CC0000">【神话虚幻】</font>‘忆江湖’:回忆匆匆那几年，你是否还记得……
+		
+          <!--
+		  <table b<!-- order="0" cellpadding="0" cellspacing="0" width="100%">
             <tr>
               <td width="17%" bgcolor="#0000FF" align="center"><font color="#FFFFFF"><b>您的位置</b></font></td>
               <td width="17%" bgcolor="#0000FF" align="center"><font color="#FFFFFF"><b>您的位置</b></font></td>
@@ -81,9 +83,13 @@ else {return true;}
               <td width="16%" bgcolor="#0000FF" align="center"><font color="#FFFFFF"><b>您的位置</b></font></td>
               <td width="16%" bgcolor="#0000FF" align="center"><font color="#FFFFFF"><b>您的位置</b></font></td>
             </tr>
-          </table>
+          </table> 
+		  -->
         </td>  
       </tr>  
+	  <tr>
+	  <td height="29"><font color="#CC0000">网站初步建设中，预计8月10号左右能完成对外开放，欢迎提前体验，有问题可以联系站长qq865240608</font>
+	  </tr>
     </table>  
   </form>  
 </div>  

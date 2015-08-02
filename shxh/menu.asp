@@ -13,7 +13,7 @@ bgimage=Application("Ba_jxqy_backgroundimage")
 <tr align=center><td bgcolor="#FFFFFF"><a href='myhome/myhome.asp' target=rulfrm onmouseover="window.status='我的爱我的梦我的家';return true;" onmouseout="window.status='';return true;" title="我的爱我的梦我的家">我 的 家</a></td></tr>
 <tr align=center><td><a href='chatroom/announce.htm' target=rulfrm onmouseover="window.status='观看官府临时公告';return true;" onmouseout="window.status='';return true;" title="观看官府临时公告">会员须知</a></td></tr>
 <tr align=center><td bgcolor="#FFFFFF" ><a href='#' onclick="javascript:admwin=window.open('admin/administrator.asp','admin','left=0,top=0,status=yes,scrollbars=yes,resizable=yes');admwin.resizeTo(screen.availWidth,screen.availHeight);" onmouseover="window.status='进入官府';return true;" onmouseout="window.status='';return true;" title="进入官府">官&nbsp;&nbsp;&nbsp;&nbsp;府</a></td></tr>
-<tr align=center><td><a href='#' onclick="javascript:chatwin=window.open('chatroom/chatroom.asp','chatroom','left=0,top=0,status=yes,scrollbars=yes,resizable=yes');chatwin.resizeTo(screen.availWidth,screen.availHeight);" onmouseover="window.status='进入聊天室';return true;" onmouseout="window.status='';return true;" title="进入聊天室">聊 神 谷</a></td></tr>
+<tr align=center><td><a href='#' onclick="javascript:chatwin=window.open('chatroom/chatroom.asp','_blank');" onmouseover="window.status='进入聊天室';return true;" onmouseout="window.status='';return true;" title="进入聊天室">聊 神 谷</a></td></tr>
 <tr align=center><td bgcolor="#FFFFFF"><a href='#' onclick="javascript:bbswin=window.open('bbs/index.asp','bbs','left=0,top=0,status=yes,scrollbars=yes,resizable=yes');bbswin.resizeTo(screen.availWidth,screen.availHeight);" onmouseover="window.status='进入聚贤山庄';return true;" onmouseout="window.status='';return true;" title="进入聚贤山庄">聚贤山庄</a></td></tr>
 <tr align=center><td ><a href='#' onclick="javascript:advwin=window.open('adventure/adventure.asp','adventure','left=100,top=50,status=yes,scrollbars=yes,resizable=yes');advwin.resizeTo(screen.availWidth*2/3,screen.availHeight*3/4);" onmouseover="window.status='开始你的冒险生涯';return true;" onmouseout="window.status='';return true;" title="开始你的冒险生涯">探 险 谷</a></td></tr>
 <tr align=center><td bgcolor="#FFFFFF"><a href='street/street.asp' target=rulfrm onmouseover="window.status='商旅云集行人接踵处';return true;" onmouseout="window.status='';return true;" title="在这儿买卖物品">十里长街</a></td></tr>
@@ -33,10 +33,6 @@ bgimage=Application("Ba_jxqy_backgroundimage")
     练 室</a></td></tr>
 <tr align=center><td bgcolor="#FFE4CA"><a href='#' onclick="javascript:chatwin=window.open('myjinmao/index.asp','chatroom','left=0,top=0,status=yes,scrollbars=yes,resizable=yes');chatwin.resizeTo(screen.availWidth,screen.availHeight);" onmouseover="window.status='进入聊天室';return true;" onmouseout="window.status='';return true;" title="进入聊天室">抗击伪寇</a></td></tr>
 <tr align=center><td bgcolor="#FFFFFF"><a href='#' onclick="javascript:chatwin=window.open('yhy/index.asp','chatroom','left=0,top=0,status=yes,scrollbars=yes,resizable=yes');chatwin.resizeTo(screen.availWidth,screen.availHeight);" onmouseover="window.status='进入聊天室';return true;" onmouseout="window.status='';return true;" title="进入聊天室">江湖妓院</a></td></tr>
-<tr align=center><td bgcolor="#FFE4CA">新 功 能</td></tr>
-<tr align=center><td bgcolor="#FFFFFF">新 功 能</td></tr>
-<tr align=center><td bgcolor="#FFE4CA">新 功 能</td></tr>
-<tr align=center><td bgcolor="#FFFFFF">新 功 能</td></tr>
 <tr align=center><td bgcolor="#FFE4CA"><a href='welcome.asp' target=rulfrm onmouseover="window.status='重返首页';return true;" onmouseout="window.status='';return true;" title="重返首页">返&nbsp;&nbsp;&nbsp;&nbsp;回</a></td></tr>
 <tr align=center><td bgcolor="#FFFFFF"><a href='exit.asp' target=rulfrm onmouseover="window.status='退出并重新进入';return true;" onmouseout="window.status='';return true;" title="退出并重新进入">退&nbsp;&nbsp;&nbsp;&nbsp;出</a></td></tr>
 </table>
