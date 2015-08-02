@@ -1,0 +1,31 @@
+BODY {
+	COLOR: #65A5E4; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt}
+TD {
+	COLOR: #65A5E4; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt
+}
+A:link {
+	COLOR: #FFCC00; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; TEXT-DECORATION: none
+; cursor: e-resize
+}
+A:visited {
+	COLOR: #D5BE66; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; TEXT-DECORATION: none
+; cursor: e-resize
+}
+A:hover {
+	COLOR: #CC9900; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt
+; text-decoration: underline  blink
+; cursor: hand
+}
+SELECT {
+FONT-SIZE: 9pt
+; border: solid
+; background-color: #FFCC00
+; border-color: #999900 #FFCC66 #FFCC66 #999900
+}
+INPUT {
+COLOR: #ffffff; FONT-SIZE: 9pt
+; border: 1px groove
+; background-color: #7292E4
+}
+TD {
+	

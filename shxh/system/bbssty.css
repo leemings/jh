@@ -1,0 +1,94 @@
+BODY
+{
+    BACKGROUND-COLOR: #886438;
+    BACKGROUND-IMAGE: url(../images/back1.gif);
+    FONT-FAMILY: свт╡;
+    FONT-SIZE: 12px;
+    LINE-HEIGHT: 12px
+}
+A:link
+{
+    COLOR: #0033cc;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: #0033cc;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: #0000ff;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: #ff6666;
+    TEXT-DECORATION: none
+}
+.css A:link
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.css A:visited
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.css A:active
+{
+    BACKGROUND-COLOR: #ccffcc;
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.css A:hover
+{
+    BACKGROUND-COLOR: #ccffcc;
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.tab A:link
+{
+    COLOR: #0000cc;
+    FONT-SIZE: 8px;
+    TEXT-DECORATION: none
+}
+.tab A:visited
+{
+    COLOR: #0000cc;
+    FONT-SIZE: 8px;
+    TEXT-DECORATION: none
+}
+.tab A:active
+{
+    COLOR: #0000cc;
+    FONT-SIZE: 8px;
+    TEXT-DECORATION: none
+}
+.tab A:hover
+{
+    COLOR: #0000cc;
+    FONT-SIZE: 8px;
+    TEXT-DECORATION: none
+}
+.norsty
+{
+    BACKGROUND-COLOR: #886438;
+    BORDER-BOTTOM-COLOR: #333333;
+    BORDER-BOTTOM-STYLE: solid;
+    BORDER-LEFT-COLOR: #333333;
+    BORDER-LEFT-STYLE: solid;
+    BORDER-RIGHT-COLOR: #333333;
+    BORDER-RIGHT-STYLE: solid;
+    BORDER-TOP-COLOR: #333333;
+    BORDER-TOP-STYLE: solid;
+    COLOR: #ffffff;
+    FONT-FAMILY: свт╡;
+    FONT-SIZE: 10pt
+}
+.tab
+{
+    FONT-FAMILY: свт╡;
+    FONT-SIZE: 12px
+}
