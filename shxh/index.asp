@@ -4,9 +4,39 @@ bgimage=Application("Ba_jxqy_backgroundimage")
 %>
 <head>
 <title><%=Application("Ba_jxqy_systemname")%></title>
-<bgsound src="mid/bg.mid">
 <LINK href="style.css" rel=stylesheet>
 <script language=javascript>
+
+function getOs() 
+{ 
+    var OsObject = ""; 
+   if(isChrome=navigator.userAgent.indexOf("Chrome")!=-1){ 
+        return "<audio src='/mid/bg.mp3' type='audio/mp3' autoplay='autoplay' hidden='true'></audio> "; 
+   }
+   else if(isIE = navigator.userAgent.indexOf("MSIE")!=-1) { 
+//        return "<embed autostart='true' loop='-1' controls='ControlPanel' width='0' height='0' src='/mid/bg.mp3'/>"; 
+		return "<bgsound src='mid/bg.mp3'>";
+   }
+   else {
+	   return "<embed autostart='true' loop='-1' controls='ControlPanel' width='0' height='0' src='/mid/bg.mp3'/>"; 
+   }
+   /*if(isFirefox=navigator.userAgent.indexOf("Firefox")!=-1){ 
+        return "Firefox"; 
+   } 
+   if(isChrome=navigator.userAgent.indexOf("Chrome")!=-1){ 
+        return "<audio src='/mid/anqi.wav' type='audio/mp3' autoplay='autoplay' hidden='true'></audio> "; 
+   } 
+   if(isSafari=navigator.userAgent.indexOf("Safari")!=-1) { 
+        return "Safari"; 
+   }  
+   if(isOpera=navigator.userAgent.indexOf("Opera")!=-1){ 
+        return "Opera"; 
+   }
+   */
+} 
+
+document.write(getOs());
+
 function check(){
 if(document.forms[0].username.value.length<=1){alert('请填入您已经申请成功的用户名称！');document.forms[0].username.select();return false;}
 else if(document.forms[0].username.value.indexOf("\'")!=-1||document.forms[0].username.value.indexOf("\"")!=-1){alert('请勿使用非法字符，好吗？');document.forms[0].username.select();return false;}
