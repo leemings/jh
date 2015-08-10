@@ -158,6 +158,7 @@ function lrclutch(){
 	}
 function tbclutch(){if(this.talkfrm.document.talkform.tbclutch.value=="关分屏窗口"){this.talkfrm.document.talkform.tbclutch.value="开分屏窗口";this.msgfrm.rows=advertisemenheight+",*,0,70,0,0";tbclu=false;}else{this.talkfrm.document.talkform.tbclutch.value="关分屏窗口";this.msgfrm.rows=advertisemenheight+",*,*,70,0,0";tbclu=true;}this.talkfrm.document.talkform.talkmsg.focus();}
 function chgsendto(st){this.talkfrm.document.talkform.sendto.options[0].value=st;this.talkfrm.document.talkform.sendto.options[0].text=st;this.talkfrm.document.talkform.sendto.options[0].selected=true;this.talkfrm.document.talkform.talkmsg.focus();}
+function settalk(str1,str2){this.talkfrm.document.talkform.talkmsg.value=str1+' '+str2;this.talkfrm.document.talkform.talkmsg.focus();}
 function showmsg(isact,isprivacy,username,sendto,expression,namecolor,wordcolor,msg){var msgtmp='';
 	msg=msg.replace(/(\[msg\])(.+)(\[\/msg\])(<font class=timsty>\S+)/i,"<marquee><font color=FF0000>【传言】</font>"+username+"：$2$4<\/marquee>")
 	msg=msg.replace(/(\[img\])(\S+)(\[\/img\])/gi,"<img src=\'..\/images\/image\/$2\'></img>");
