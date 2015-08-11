@@ -152,6 +152,8 @@ select case errorid
 		errormsg="对不起，您已将投过票了无法再行投票！"		
 	case "073"
 		errormsg="对不起，投票截止时间已过，您的投票无效！"		
+	case "074"
+		errormsg="你填写的介绍人不存在"		
 	case "100"
 		errormsg="数据库查询错误，BOF或EOF中一个值为真，如果疑问，请访问我们的主页<br><a href='http://www.mxcz.org'>梦想成真工作室</a>"
 	case "101"

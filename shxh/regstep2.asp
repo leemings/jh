@@ -47,13 +47,25 @@
           <tr>
             <td>E_Mail**</td>
             <td>
-              <input name="e_mail" maxlength="30" size="30">
-              请正确输入</td>
+              <input name="e_mail" maxlength="30" size="25">
+              重要：密码找回需要</td>
+          </tr>
+		  <tr>
+            <td>联系方式</td>
+            <td>
+              <input name="contact" maxlength="20" size="20"> QQ/手机
+			</td>
+          </tr>
+		  <tr>
+            <td>介绍人</td>
+            <td>
+              <input name="recommend" maxlength="20" size="20"> 没有请留空
+              </td>
           </tr>
           <tr>
             <td>签名档</td>
             <td>
-              <input name="sign" maxlength="100" size="40">
+              <input name="sign" maxlength="100" size="40" value="快乐江湖">
             </td>
           </tr>
           <tr>

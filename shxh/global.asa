@@ -1,6 +1,6 @@
 <SCRIPT LANGUAGE="VBScript" RUNAT="Server">
 sub Application_OnStart
-	connstr="Data Source="&server.MapPath("system/mxcz.asp")&";Provider=Microsoft.Jet.OLEDB.4.0;"
+	connstr="Data Source="&server.MapPath("system/mxcz.mdb")&";Provider=Microsoft.Jet.OLEDB.4.0;"
 	Application("Ba_jxqy_connstr")=connstr
 	Set conn=Server.CreateObject("ADODB.CONNECTION")
 	Set rst=Server.CreateObject("ADODB.RecordSet")

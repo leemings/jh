@@ -9,6 +9,8 @@ account=trim(Request.Form("account"))
 username=trim(Request.Form("username"))
 password=trim(Request.Form("password"))
 repassword=trim(Request.Form("repassword"))
+contact=trim(Request.Form("contact"))
+recommender=trim(Request.Form("recommend"))
 sex=Request.Form("sex")
 e_mail=server.HTMLEncode(trim(Request.Form("e_mail")))
 sign=server.HTMLEncode(trim(Request.Form("sign")))
@@ -35,21 +37,42 @@ if IsArray(illegidimacyname) then
 	for i=1 to ubound(illegidimacyname)-1
 		if instr(username,illegidimacyname(i))<>0 then Response.Redirect "error.asp?id=057"
 	next
-end if
+end If
+
+set conn=server.CreateObject("adodb.connection")
+conn.Open Application("Ba_jxqy_connstr")
+set rst=server.CreateObject("adodb.recordset")
+rst.Open "select 银两,注册IP,最后登录IP from 用户 where 姓名='"&recommender&"'",conn
+if rst.EOF or rst.BOF then Response.Redirect "error.asp?id=074"
+recommendMoney = rst("银两")
+recommendIP = rst("注册IP")
+recommendLoginIP = rst("最后登录IP")
 regtime=now()
 regip=Request.ServerVariables("REMOTE_ADDR")
 on error resume next
-set conn=server.CreateObject("adodb.connection")
-conn.Open Application("Ba_jxqy_connstr")
 conn.BeginTrans
-conn.Execute "insert into 用户(帐号,密码,电子邮箱,签名档,注册IP,注册时间,最后登录ip,最后登录时间,最后领钱日期,状态,姓名,性别,门派,身份,配偶,精力,等级,银两,积分,体力,内力,攻击,防御,资质,道德,特技,存款,结算日期,会员,会员时间,protect) values('"&account&"','"&password&"','"&e_mail&"','"&sign&"','"&regip&"','"&regtime&"','"&regip&"','"&regtime&"','"&regtime&"','正常','"&username&"','"&sex&"','无','无','无',0,1,100,0,100,100,10,10,0,100,';',0,'"&regtime&"',false,'"&regtime&"','"&regtime&"')"
+conn.Execute "insert into 用户(帐号,密码,电子邮箱,contact,recommender,签名档,注册IP,注册时间,最后登录ip,最后登录时间,最后领钱日期,状态,姓名,性别,门派,身份,配偶,精力,等级,银两,积分,体力,内力,攻击,防御,资质,道德,特技,存款,结算日期,会员,会员时间,protect) values('"&account&"','"&password&"','"&e_mail&"','"&contact&"','"&recommender&"','"&sign&"','"&regip&"','"&regtime&"','"&regip&"','"&regtime&"','"&regtime&"','正常','"&username&"','"&sex&"','无','无','无',0,1,100,0,100,100,10,10,0,100,';',0,'"&regtime&"',false,'"&regtime&"','"&regtime&"')"
 if conn.Errors.Count=0 then
 	conn.CommitTrans
+	
+	if (recommendIP == regip || recommendLoginIP == regip) {
+
+	}
+	Else {
+		money = money + 1000000
+		conn.Execute "update 用户 set 银两='"&money&"' where 姓名='"&recommender&"'"
+		if conn.Errors.Count=0 Then
+			conn.CommitTrans
+		Else
+			conn.RollbackTrans
+		end if
+	}
 else	
 	conn.RollbackTrans
 	if conn.Errors(0).Number =-2147467259 then Response.Redirect "error.asp?id=009"
 	Response.Redirect "error.asp?id=104&errormsg="&conn.Errors(0).Description
-end if	
+end if
+
 conn.Close
 set conn=nothing
 response.write "<head><link rel=stylesheet href=style.css></head><body bgcolor='"&bgcolor&"' background='"&bgimage&"' topmargin=100><div align=center><font color=0000FF size=6>注册成功，请牢记帐号和密码</font><p><input type='button' value='关闭' onclick='javascript:top.window.close();' id=button1 name=button1></div>"

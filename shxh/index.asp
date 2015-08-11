@@ -118,7 +118,7 @@ else {return true;}
         </td>  
       </tr>  
 	  <tr>
-	  <td height="29"><font color="#CC0000">网站初步建设中，预计8月10号左右能完成对外开放，欢迎提前体验，有问题可以联系站长qq865240608</font>
+	  <td height="29"><font color="#CC0000">网站初步建设中，预计8月20号左右能完成对外开放，欢迎提前体验，有问题可以联系站长qq865240608</font>
 	  </tr>
     </table>  
   </form>  

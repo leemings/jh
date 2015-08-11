@@ -10,7 +10,7 @@ set conn=server.CreateObject("adodb.connection")
 conn.Open Application("Ba_jxqy_connstr")
 set rst=server.CreateObject("adodb.recordset")
 rst.Open "select * from ”√ªß where –’√˚='"&username&"'",conn
-for i=11 to 25
+for i=13 to 27
 	msg=msg&"<tr><td><font color=FF0000>"&rst.Fields(i).Name&"</font></td><td>"&rst.Fields(i).Value&"</td></tr>"
 next
 rst.Close
