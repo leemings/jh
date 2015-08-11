@@ -54,19 +54,15 @@ conn.BeginTrans
 conn.Execute "insert into 用户(帐号,密码,电子邮箱,contact,recommender,签名档,注册IP,注册时间,最后登录ip,最后登录时间,最后领钱日期,状态,姓名,性别,门派,身份,配偶,精力,等级,银两,积分,体力,内力,攻击,防御,资质,道德,特技,存款,结算日期,会员,会员时间,protect) values('"&account&"','"&password&"','"&e_mail&"','"&contact&"','"&recommender&"','"&sign&"','"&regip&"','"&regtime&"','"&regip&"','"&regtime&"','"&regtime&"','正常','"&username&"','"&sex&"','无','无','无',0,1,100,0,100,100,10,10,0,100,';',0,'"&regtime&"',false,'"&regtime&"','"&regtime&"')"
 if conn.Errors.Count=0 then
 	conn.CommitTrans
-	
-	if (recommendIP == regip || recommendLoginIP == regip) {
-
-	}
-	Else {
-		money = money + 1000000
-		conn.Execute "update 用户 set 银两='"&money&"' where 姓名='"&recommender&"'"
-		if conn.Errors.Count=0 Then
-			conn.CommitTrans
-		Else
-			conn.RollbackTrans
-		end if
-	}
+	nowtimetype="#"&month(regtime)&"/"&day(regtime)&"/"&year(regtime)&" "&hour(regtime)&":"&minute(regtime)&":"&second(regtime)&"#"
+	if recommendIP = regip or recommendLoginIP = regip then
+		conn.execute "insert into 信件(收信人,标题,内容,写信人,写信时间,观看) values('"&recommender&"','拉人有奖','恭喜你拉来了〖"&username&"〗，但是别用小号刷奖励啦','系统',"&nowtimetype&",False)"
+	else
+		recommendMoneyNew = recommendMoney + 1000000
+		conn.Execute "update 用户 set 银两='"&recommendMoneyNew&"' where 姓名='"&recommender&"'"
+		conn.execute "insert into 信件(收信人,标题,内容,写信人,写信时间,观看) values('"&recommender&"','拉人有奖','恭喜你拉来了〖"&username&"〗，特意奖励你1000000两银子，请再接再励，江湖有你更精彩','系统',"&nowtimetype&",False)"
+	end if
+		
 else	
 	conn.RollbackTrans
 	if conn.Errors(0).Number =-2147467259 then Response.Redirect "error.asp?id=009"

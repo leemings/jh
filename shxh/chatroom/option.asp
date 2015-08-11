@@ -99,6 +99,10 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
     <tr> 
       <td align="center" valign="middle"><a href="protect.asp" target="resfrm" onmouseover="window.status='会员功能开放时，只有会员能申请保护';return true;" onmouseout="window.status='';return true;" title='会员功能开放时，只有会员能申请保护'>保护</a></td>
     </tr>
+	<tr> 
+      <td align="center" valign="middle"><a href="#" onclick=javascript:window.open('../bbs/getpm.asp','','left=100,top=50,width='+screen.availwidth*2/3+',height='+screen.availheight*3/4+',status=yes,scrollbars=yes,resizable=no'); onmouseover="window.status='系统消息，留言消息';return true;" onmouseout="window.status='';return true;" title='系统消息，留言消息'>消息</a>
+	  </td>
+    </tr>
     <tr> 
       <td align="center" valign="middle" bgcolor="#FFFFFF"><a href="#" onclick='javascript:exitchat();' onmouseover="window.status='退出聊天室';return true;" onmouseout="window.status='';return true;" title='退出聊天室'>退出</a></td>
     </tr>
