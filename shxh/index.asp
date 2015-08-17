@@ -76,32 +76,10 @@ else {return true;}
         </td></tr>     
     </table>     
     　 
-    <table width="100%" border="0" align="center"> 
-       
-      <tr> 
-        <td align="center" valign="middle">程序修改：<a href="#"><font color="#993300">兔子鸡</font></a>   
-          授权给：<font color="#993300">   
-          <% response.write Application("Ba_jxqy_userright")%>   
-          </font> 序列号：<font color="#993300">   
-          <% response.write Application("Ba_jxqy_seriesnumber")%>   
-          </font>开放时间：<font color="#993300">   
-          <%=Application("Ba_jxqy_opendata")%></font> 
-          访问统计：<font color="#993300">  
-          <%=Application("Ba_jxqy_visitor")%>  <Br>
-          </font>会员功能：<font color="#993300">  
-          <%if Application("Ba_jxqy_fellow")=true then%>
-          开放
-          <%else%>
-          关闭
-          <%end if%>
-          </font>  
-        </td>  
-      </tr>  
-    </table>  
-    <br>  
+
     <table width="611" border="0">  
       <tr>  
-        <td height="29"><font color="#CC0000">【神话虚幻】</font>‘忆江湖’:回忆匆匆那几年，你是否还记得……
+        <td height="29"><font color="#CC0000">【神话虚幻】</font>‘快乐江湖’:回忆匆匆那几年，你是否还记得……
 		
           <!--
 		  <table b<!-- order="0" cellpadding="0" cellspacing="0" width="100%">
@@ -118,8 +96,36 @@ else {return true;}
         </td>  
       </tr>  
 	  <tr>
-	  <td height="29"><font color="#CC0000">网站初步建设中，预计8月20号左右能完成对外开放，欢迎提前体验，有问题可以联系站长qq865240608</font>
+	  <td height="29"><font color="#CC0000">庆祝网站通过通信管理局审核，现对外开放，欢迎前来玩耍。有问题可以联系站长qq865240608</font>
 	  </tr>
+    </table>  
+    <br>  
+	<br>
+	<br>
+    <table width="100%" border="0" align="center">       
+      <tr> 
+        <td align="center" valign="middle">
+          授权给：<font color="#993300">   
+          <% response.write Application("Ba_jxqy_userright")%>
+          </font>开放时间：<font color="#993300">   
+          <%=Application("Ba_jxqy_opendata")%></font> 
+          访问统计：<font color="#993300">  
+          <%=Application("Ba_jxqy_visitor")%>
+          </font>会员功能：<font color="#993300">  
+          <%if Application("Ba_jxqy_fellow")=true then%>
+          开放
+          <%else%>
+          关闭
+          <%end if%>
+          </font>  
+        </td>  
+      </tr>  
+    </table>
+	<table width="611" border="0">  
+      <tr>  
+        <td height="29"><font color="#000000"><div class="text" style=" text-align:center;">CopyRight 2015-2015  备案号：粤ICP备15072406号</div></font>
+        </td>  
+      </tr>
     </table>  
   </form>  
 </div>  

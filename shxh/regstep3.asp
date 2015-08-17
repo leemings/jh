@@ -60,7 +60,7 @@ if conn.Errors.Count=0 then
 	else
 		recommendMoneyNew = recommendMoney + 1000000
 		conn.Execute "update 用户 set 银两='"&recommendMoneyNew&"' where 姓名='"&recommender&"'"
-		conn.execute "insert into 信件(收信人,标题,内容,写信人,写信时间,观看) values('"&recommender&"','拉人有奖','恭喜你拉来了〖"&username&"〗，特意奖励你1000000两银子，请再接再励，江湖有你更精彩','系统',"&nowtimetype&",False)"
+		conn.execute "insert into 信件(收信人,标题,内容,写信人,写信时间,观看) values('"&recommender&"','拉人有奖','恭喜你拉来了〖"&username&"〗，特意奖励你100000两银子，拉来的朋友，每升级到3，6，9，12级，你都会获得奖励, 请再接再励，江湖有你更精彩。','系统',"&nowtimetype&",False)"
 	end if
 		
 else	
