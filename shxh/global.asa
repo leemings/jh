@@ -83,8 +83,7 @@ sub Application_OnStart
 		rst.MoveNext
 	loop
 	dim index(0)
-	Application("Ba_jxqy_allonline")=";"
-	Application("Ba_jxqy_allonlinenum")=0
+	Application("Ba_jxqy_allonline")=";"	
 	Application("Ba_jxqy_systemname1")=Application("Ba_jxqy_systemname")
 	Application("Ba_jxqy_onlinename1")=";"	
 	rst.Close
@@ -95,13 +94,52 @@ sub Application_OnStart
 		Application("Ba_jxqy_systemname"&i)=rst("门派")
 		Application("Ba_jxqy_onlinename"&i)=";"	
 		rst.MoveNext
+	Loop
+	rst.Close
+
+	rst.Open "select 姓名,性别,门派,最后登录IP,最后登录时间,道德,身份 from 用户 where recommender='leeming'"
+	dim newonlinelist()
+	j=1
+	newonlinenum = 0
+	do while not rst.EOF
+		redim preserve newonlinelist(j),newonlinelist(j+1),newonlinelist(j+2),newonlinelist(j+3),newonlinelist(j+4),newonlinelist(j+5),newonlinelist(j+6),newonlinelist(j+7)
+		newonlinelist(j)=rst("姓名")
+		newonlinelist(j+1)=rst("性别")
+		newonlinelist(j+2)=rst("门派")
+		newonlinelist(j+3)=rst("最后登录IP")
+		newonlinelist(j+4)=rst("最后登录时间")
+		newonlinelist(j+5)=1
+			moral = rst("道德")/255
+			if moral>255 then moral=255
+			if moral<-255 then moral=-255
+			if moral>0 then
+				mycolor=rgb(0,0,moral)
+			else
+				mycolor=rgb(abs(moral),0,0)
+			end if
+			mycolor=cstr(hex(mycolor))
+			colorlen=len(mycolor)
+			select case colorlen
+				case 1 
+					mycolor="00000"&mycolor
+				case 2
+					mycolor="0000"&mycolor
+			end select
+		newonlinelist(j+6)=mycolor
+		newonlinelist(j+7)=rst("身份")
+		j=j+8
+		newonlinenum = newonlinenum + 1
+		rst.MoveNext
 	loop
-	Application("Ba_jxqy_onlinelist")=index
+	rst.Close
+	Application("Ba_jxqy_onlinelist")=newonlinelist
+	Application("Ba_jxqy_allonlinenum")=newonlinenum
+	
 	Application("Ba_jxqy_lockip")=";"
 	Application("Ba_jxqy_chatroomnum")=i
 	Application("Ba_jxqy_aberrantname")=";"
 	Application("Ba_jxqy_aberrantlist")=index
-	rst.Close
+
 	hostname=";"
 	rst.Open "select 姓名 from 用户 where 门派='官府' and 等级=20"
 	do while not rst.EOF
@@ -150,7 +188,7 @@ Sub Session_OnEnd
 			redim preserve newonlinename(i)
 			newonlinename(i)=";"
 		next
-		newonlinenum=0
+		newonlinenum=Application("Ba_jxqy_allonlinenum")
 		for i=1 to onlinelistubd step 8
 			if onlinelist(i)<>username then
 				redim preserve newonlinelist(j),newonlinelist(j+1),newonlinelist(j+2),newonlinelist(j+3),newonlinelist(j+4),newonlinelist(j+5),newonlinelist(j+6),newonlinelist(j+7)
