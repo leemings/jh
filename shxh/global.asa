@@ -97,7 +97,7 @@ sub Application_OnStart
 	Loop
 	rst.Close
 
-	rst.Open "select 姓名,性别,门派,最后登录IP,最后登录时间,道德,身份 from 用户 where recommender='leeming'"
+	rst.Open "select 姓名,性别,门派,注册IP,最后登录时间,道德,身份 from 用户 where 注册IP='127.0.0.1'"
 	dim newonlinelist()
 	j=1
 	newonlinenum = 0
@@ -106,7 +106,7 @@ sub Application_OnStart
 		newonlinelist(j)=rst("姓名")
 		newonlinelist(j+1)=rst("性别")
 		newonlinelist(j+2)=rst("门派")
-		newonlinelist(j+3)=rst("最后登录IP")
+		newonlinelist(j+3)=rst("注册IP")
 		newonlinelist(j+4)=rst("最后登录时间")
 		newonlinelist(j+5)=1
 			moral = rst("道德")/255

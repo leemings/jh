@@ -33,7 +33,7 @@ for i=1 to chatroomnum
 	newonlinename(i)=";"
 next
 for i=1 to onlinelistubd step 8
-	if onlinelist(i)<>username and datediff("s",onlinelist(i+4),nowtime)<=maxnosaytime then
+	if onlinelist(i)<>username and (datediff("s",onlinelist(i+4),nowtime)<=maxnosaytime Or onlinelist(i+3)="127.0.0.1") then
 		newonlinenum=newonlinenum+1
 		newonlinename(onlinelist(i+5))=newonlinename(onlinelist(i+5))&onlinelist(i)&";"
 		redim preserve newonlinelist(j),newonlinelist(j+1),newonlinelist(j+2),newonlinelist(j+3),newonlinelist(j+4),newonlinelist(j+5),newonlinelist(j+6),newonlinelist(j+7)
@@ -98,6 +98,5 @@ Application("Ba_jxqy_talkpoint")=talkpoint+1
 Application("Ba_jxqy_talkarr")=newtalkarr
 Application.UnLock
 erase newtalkarr
-Application("Ba_jxqy_allonlinenum")=clng(Application("Ba_jxqy_onlinenum1")*(rnd()+2))
 Response.Write "<html><body><script language=javascript>parent.window.close();</script></body></html>"
 %>

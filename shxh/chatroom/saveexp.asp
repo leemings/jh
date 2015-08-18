@@ -39,7 +39,7 @@ for i=1 to chatroomnum
 next
 j=1
 for i=1 to onlinelistubd step 8
-	if datediff("s",onlinelist(i+4),nowtime)<=maxnosaytime then
+	if datediff("s",onlinelist(i+4),nowtime)<=maxnosaytime Or onlinelist(i+3)="127.0.0.1" then
 		newonlinenum=newonlinenum+1
 		newonlinename(onlinelist(i+5))=newonlinename(onlinelist(i+5))&onlinelist(i)&";"
 		redim preserve newonlinelist(j),newonlinelist(j+1),newonlinelist(j+2),newonlinelist(j+3),newonlinelist(j+4),newonlinelist(j+5),newonlinelist(j+6),newonlinelist(j+7)
