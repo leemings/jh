@@ -96,7 +96,7 @@ else {return true;}
         </td>  
       </tr>  
 	  <tr>
-	  <td height="29"><font color="#CC0000">庆祝网站通过通信管理局审核，现对外开放，欢迎前来玩耍。有问题可以联系站长qq865240608</font>
+	  <td height="29"><font color="#CC0000">本江湖初开，招收副站长，官府管理员，有意者联系站长QQ865240608。另外拉人有奖励哦</font>
 	  </tr>
     </table>  
     <br>  
