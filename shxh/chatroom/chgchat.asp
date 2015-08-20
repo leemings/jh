@@ -33,7 +33,7 @@ for i=1 to chatroomnum
 next
 newonlinenum=0
 for i=1 to onlinelistubd step 8
-	if (datediff("s",onlinelist(i+4),nowtime)<=maxnosaytime Or onlinelist(i+3)="127.0.0.1") and onlinelist(i)=username then
+	if (datediff("s",onlinelist(i+4),nowtime)<=maxnosaytime or onlinelist(i+3)="127.0.0.1") and onlinelist(i)=username then
 		newonlinenum=newonlinenum+1
 		newonlinename(newchatroomsn)=newonlinename(newchatroomsn)&username&";"
 		redim preserve newonlinelist(j),newonlinelist(j+1),newonlinelist(j+2),newonlinelist(j+3),newonlinelist(j+4),newonlinelist(j+5),newonlinelist(j+6),newonlinelist(j+7)
@@ -46,7 +46,7 @@ for i=1 to onlinelistubd step 8
 		newonlinelist(j+6)=onlinelist(i+6)
 		newonlinelist(j+7)=onlinelist(i+7)
 		j=j+8
-	elseif (datediff("s",onlinelist(i+4),nowtime)<=maxnosaytime Or onlinelist(i+3)="127.0.0.1") and onlinelist(i)<>username then
+	elseif (datediff("s",onlinelist(i+4),nowtime)<=maxnosaytime or onlinelist(i+3)="127.0.0.1") and onlinelist(i)<>username then
 		newonlinenum=newonlinenum+1
 		newonlinename(onlinelist(i+5))=newonlinename(onlinelist(i+5))&onlinelist(i)&";"
 		redim preserve newonlinelist(j),newonlinelist(j+1),newonlinelist(j+2),newonlinelist(j+3),newonlinelist(j+4),newonlinelist(j+5),newonlinelist(j+6),newonlinelist(j+7)
