@@ -247,7 +247,7 @@ Sub Session_OnEnd
 		Application.Lock
 		Application("Ba_jxqy_talkpoint")=talkpoint+1
 		Application("Ba_jxqy_talkarr")=newtalkarr
-		Application("Ba_jxqy_allonline")=replace(application("Ba_jxqy_allonline"),";"&username&";",";")
+		Application("Ba_jxqy_allonline")=replace(Application("Ba_jxqy_allonline"),";"&username&";",";")
 		Application.UnLock
 	end if	
 End sub

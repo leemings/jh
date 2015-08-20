@@ -56,9 +56,9 @@ set rst=nothing
 conn.Execute "update 用户 set 最后登录IP='"&lastip&"',最后登录时间="&lastlogintimetype&",状态='正常',会员="&fellow&" where 姓名='"&username&"'"
 conn.Close
 set conn=nothing
-if session("Ba_jxqy_username")<>"" then Response.Redirect "myhome.asp"
+'if session("Ba_jxqy_username")<>"" then Response.Redirect "myhome.asp"
 Application.Lock
-application("Ba_jxqy_allonline")=application("Ba_jxqy_allonline")&username&";"
+Application("Ba_jxqy_allonline")=replace(application("Ba_jxqy_allonline"),";"&username&";",";")
 session("Ba_jxqy_username")=username
 session("Ba_jxqy_usersex")=mysex
 session("Ba_jxqy_usercorp")=mycorp
@@ -75,4 +75,4 @@ session.Abandon
 </head>
 <body bgcolor="<%=bgcolor%>" background="<%=bgimage%>"><center>
 </body>  
-<p align="center">已经成功处理非法掉线问题！</font></p>
+<p align="center">已经成功处理非法掉线问题！<%=application("Ba_jxqy_allonline")%></font></p>

@@ -68,5 +68,6 @@ session("Ba_jxqy_usergrade")=mygrade
 session("Ba_jxqy_userip")=lastip
 session("Ba_jxqy_usermoral")=mycolor
 session("Ba_jxqy_userchatroomsn")=1
+session("Ba_jxqy_userlasttalktime")=now()
 Response.Redirect "myhome.asp"
 %>
