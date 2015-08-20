@@ -20,10 +20,33 @@ for(i=0;i<maxlingual;i++){lingualarr[i]='';}
 function checklingual(){if(document.talkform.talkmsg.value==''){alert('请选择语言或动作！');document.talkform.talkmsg.focus();return false;}if (lingualnum<maxlingual+1){lingualarr[lingualnum]=document.talkform.talkmsg.value;lingualnum++;}else{for (i=0;i<maxlingual;i++)lingualarr[i]=lingualarr[i+1];lingualarr[i]=document.talkform.talkmsg.value;}pos=lingualnum;{document.talkform.talkmsgtmp.value=document.talkform.talkmsg.value;document.talkform.talkmsg.value='';document.talkform.allownosaytime.value=nosaytime;document.talkform.subm.disabled=true;setTimeout('document.talkform.subm.disabled=false;',3000);document.talkform.talkmsg.focus();document.talkform.filter.value='';document.talkform.action.value='';return true;}return false;}
 function goback(){if(pos>0)pos--;document.talkform.talkmsg.value=lingualarr[pos];document.talkform.talkmsg.focus();}
 function goforw(){if(pos<lingualnum-1)pos++;document.talkform.talkmsg.value=lingualarr[pos];document.talkform.talkmsg.focus();}
-function nosay(){document.talkform.allownosaytime.value=document.talkform.allownosaytime.value-1;setTimeout('nosay()',1000);if(document.talkform.allownosaytime.value==300){window.open('goback.asp','goback','Status=yes,scrollbars=no,resizable=no');}if(document.talkform.allownosaytime.value<0){top.location.href='chaterror.asp?id=001';}}
+function nosay(){
+	document.talkform.allownosaytime.value=document.talkform.allownosaytime.value-1;
+	if (document.talkform.allownosaytime.value < nosaytime - 120)
+	{
+		autoSay();
+	}
+	setTimeout('nosay()',1000);if(document.talkform.allownosaytime.value==300){window.open('goback.asp','goback','Status=yes,scrollbars=no,resizable=no');}if(document.talkform.allownosaytime.value<0){top.location.href='chaterror.asp?id=001';}}
 function init(){var rndcolor=Math.floor(Math.random()*18);document.talkform.namecolor.value=document.talkform.namecolor.options[rndcolor].value;rndcolor=Math.floor(Math.random()*18);document.talkform.wordcolor.value=document.talkform.wordcolor.options[rndcolor].value;parent.msgfrm0.document.open();parent.msgfrm0.document.writeln("<html><head><meta http-equiv=Content-Type content='text/html; charset=gb2312'><link rel='stylesheet' href='css.css'></head><\Script Language=JavaScript>var autoScroll=1;function chgautoscroll(){if(!parent.talkfrm.document.talkform.autoscroll.checked){autoScroll=0;}else{autoScroll=1;autoscrollnow();}return true;}function autoscrollnow(){if(autoScroll==1){this.scroll(0,65000);parent.msgfrm1.window.scroll(0,65000);setTimeout('autoscrollnow()',200);}}autoscrollnow();<\/script><body text=000000 oncontextmenu=self.event.returnValue=false><font color=FF0000>【浏览器涮新】</font>欢迎<font color=FF0000>〖<a href='javascript:parent.chgsendto(\"<%=username%>\");' target='talkfrm' onmouseover=\"window.status='选择说话或动作对象';return true;\" onmouseout=\"window.status='';return true;\"><font color=FF0000><%=username%></font></a>〗</font>光临<%=chatroomname%><font class=timsty><%=time()%></font><br>");parent.msgfrm1.document.open();parent.msgfrm1.document.writeln("<html><head><meta http-equiv=Content-Type content='text/html; charset=gb2312'><link rel='stylesheet' href='css.css'></head><body text=000000 ><font color=FF0000>【浏览器涮新】</font>欢迎<font color=FF0000>〖<a href='javascript:parent.chgsendto(\"<%=username%>\");' target='talkfrm' onmouseover=\"window.status='选择说话或动作对象';return true;\" onmouseout=\"window.status='';return true;\"><font color=FF0000><%=username%></font></a>〗</font>光临<%=chatroomname%><font class=timsty><%=time()%></font><br>");parent.getfrm.location.replace('getmsg.asp');parent.chgfrm.location.replace('selectchat.asp');nosay();}
 function settalk(str1,str2){document.talkform.talkmsg.value=str1+' '+str2;document.talkform.talkmsg.focus();}
 function addtalk(str1){document.talkform.talkmsg.value=document.talkform.talkmsg.value+str1+' ';}
+function autoSayclick() {
+	document.talkform.autosay.checked=!(document.talkform.autosay.checked);
+	document.talkform.talkmsg.focus();
+	if (document.talkform.autosay.checked == true)
+	{
+		document.talkform.talkmsg.value='你开启自动泡点功能';
+		document.talkform.subm.click();
+	}
+	else {
+		document.talkform.talkmsg.value='';
+	}
+	
+}
+function autoSay() {
+	document.talkform.talkmsg.value='/#笑呵呵的对%%说，我开启自动泡点功能啦，再也不担心掉线了';
+	document.talkform.subm.click();
+}
 </script>
 </head>
 <body oncontextmenu='self.event.returnValue=false' background="../images/bg.gif" bgcolor="#FFE4CA" onload='init();' leftmargin="5" topmargin="7" marginwidth="5" marginheight="5">
@@ -166,6 +189,10 @@ function addtalk(str1){document.talkform.talkmsg.value=document.talkform.talkmsg
   <a href="#" onmouseover="window.status='悄悄话悄悄儿的说，别怕人听见！';return true;" onmouseout="window.status='';return true;" onclick="javascript:document.talkform.isprivacy.checked=!(document.talkform.isprivacy.checked);document.talkform.talkmsg.focus();">私聊</a> 
   <input type=checkbox name="autoscroll" class=norstyle checked onclick="javascript:document.talkform.talkmsg.focus();parent.msgfrm0.chgautoscroll();">
   <a href="#" onmouseover="window.status='自动/手动滚屏设置！';return true;" onmouseout="window.status='';return true;" onclick="javascript:document.talkform.autoscroll.checked=!(document.talkform.autoscroll.checked);document.talkform.talkmsg.focus();parent.msgfrm0.chgautoscroll();">滚屏</a> 
+
+  <input type=checkbox name="autosay" class=norstyle checked onclick="javascript:autoSayclick()">
+  <a href="#" onmouseover="window.status='自动/手动滚屏设置！';return true;" onmouseout="window.status='';return true;" onclick="javascript:autoSayclick()">自动泡点</a> 
+  
   <font color="#FF0000">[<b><a href=# onClick="javascript:window.open('../readme.htm','readme',' width=550,height=500,left=200,top=100,status=no,toolbars=yes,menubars=yes,scrollbars=yes,resize=no')" title=新手入门>帮助</a></b></font>] 
   <b>
  <%if session("Ba_jxqy_usercorp")="官府" then%> 
