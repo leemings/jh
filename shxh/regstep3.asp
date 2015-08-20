@@ -55,7 +55,7 @@ regtime=now()
 regip=Request.ServerVariables("REMOTE_ADDR")
 on error resume next
 conn.BeginTrans
-conn.Execute "insert into 用户(帐号,密码,电子邮箱,contact,recommender,签名档,注册IP,注册时间,最后登录ip,最后登录时间,最后领钱日期,状态,姓名,性别,门派,身份,配偶,精力,等级,银两,积分,体力,内力,攻击,防御,资质,道德,特技,存款,结算日期,会员,会员时间,protect) values('"&account&"','"&password&"','"&e_mail&"','"&contact&"','"&recommender&"','"&sign&"','"&regip&"','"&regtime&"','"&regip&"','"&regtime&"','"&regtime&"','正常','"&username&"','"&sex&"','无','无','无',0,1,100,0,100,100,10,10,0,100,';',0,'"&regtime&"',false,'"&regtime&"','"&regtime&"')"
+conn.Execute "insert into 用户(帐号,密码,电子邮箱,contact,recommender,签名档,注册IP,注册时间,最后登录ip,最后登录时间,最后领钱日期,状态,姓名,性别,门派,身份,配偶,精力,等级,银两,积分,体力,内力,攻击,防御,资质,道德,特技,存款,结算日期,会员,会员时间,protect) values('"&account&"','"&password&"','"&e_mail&"','"&contact&"','"&recommender&"','"&sign&"','"&regip&"','"&regtime&"','"&regip&"','"&regtime&"','"&regtime&"','正常','"&username&"','"&sex&"','无','无','无',0,1,100,0,1000000,100,10,10,0,100,';',0,'"&regtime&"',false,'"&regtime&"','"&regtime&"')"
 if conn.Errors.Count=0 then
 	conn.CommitTrans
 	If recommender<>"" then
