@@ -102,25 +102,27 @@ else {return true;}
     <br>  
 	<br>
 	<br>
-    <table width="100%" border="0" align="center">       
-      <tr> 
-        <td align="center" valign="middle">
-          授权给：<font color="#993300">   
-          <% response.write Application("Ba_jxqy_userright")%>
-          </font>开放时间：<font color="#993300">   
-          <%=Application("Ba_jxqy_opendata")%></font> 
-          访问统计：<font color="#993300">  
-          <%=Application("Ba_jxqy_visitor")%>
-          </font>会员功能：<font color="#993300">  
-          <%if Application("Ba_jxqy_fellow")=true then%>
-          开放
-          <%else%>
-          关闭
-          <%end if%>
-          </font>  
+	<table width="611" border="0">  
+      <tr>  
+        <td height="29">
+			<div class="text" style=" text-align:center;">
+				授权给：<font color="#993300">   
+			  <% response.write Application("Ba_jxqy_userright")%>
+			  </font>开放时间：<font color="#993300">   
+			  <%=Application("Ba_jxqy_opendata")%></font> 
+			  访问统计：<font color="#993300">  
+			  <%=Application("Ba_jxqy_visitor")%>
+			  </font>会员功能：<font color="#993300">  
+			  <%if Application("Ba_jxqy_fellow")=true then%>
+			  开放
+			  <%else%>
+			  关闭
+			  <%end if%>
+			  </font>  
+			</div>
         </td>  
-      </tr>  
-    </table>
+      </tr>
+    </table> 
 	<table width="611" border="0">  
       <tr>  
         <td height="29"><font color="#000000"><div class="text" style=" text-align:center;">CopyRight 2015-2015  备案号：粤ICP备15072406号</div></font>
