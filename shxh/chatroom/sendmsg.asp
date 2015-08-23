@@ -121,10 +121,11 @@ if left(msg,2)="//" then
 		Response.Write "<script language=javascript>alert('你不是本帮弟子，岂能在此撒野！');</script>"
 		Response.End
 	end if
-elseif left(msg,2)="/#" then
-	msg="##<font color="&wordcolor&">"&mid(msg,3)&"</font>"
-	act=1
 else
+	if left(msg,2)="/#" then
+		msg="##<font color="&wordcolor&">"&mid(msg,3)&"</font>"
+		act=1
+	end if
 	randomize()
 	rnd1=cint(rnd()*300)
 	if rnd1<8 then

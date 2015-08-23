@@ -44,8 +44,21 @@ function autoSayclick() {
 	
 }
 function autoSay() {
-	document.talkform.talkmsg.value='/#笑呵呵的对%%说，我开启自动泡点功能啦，再也不担心掉线了';
-	document.talkform.subm.click();
+	if (document.talkform.autosay.checked == true)
+	{
+		var chars = [
+			"/#笑呵呵的对%%说，我开启自动泡点功能啦，再也不担心掉线了",
+			"/#对%%大笑一声，一泡在我手，天下谁有",
+			"/#仰天大笑的对%%说，我开启自动泡点功能啦，勾选底部的‘自动泡点’就可以无限挂机了"
+		];
+		var id = Math.ceil(Math.random()*4)-1;		
+		if (id >=3 || id <=0)
+		{
+			id = 0;
+		}
+		document.talkform.talkmsg.value=chars[id] + ",," + id;
+		document.talkform.subm.click();
+	}
 }
 </script>
 </head>
