@@ -11,14 +11,14 @@ function getOs()
 { 
     var OsObject = ""; 
    if(isChrome=navigator.userAgent.indexOf("Chrome")!=-1){ 
-        return "<audio src='/mid/bg.mp3' type='audio/mp3' autoplay='autoplay' hidden='true'></audio> "; 
+        return "<audio src='mid/b11g.mp3' type='audio/mp3' autoplay='autoplay' hidden='true'></audio> "; 
    }
    else if(isIE = navigator.userAgent.indexOf("MSIE")!=-1) { 
 //        return "<embed autostart='true' loop='-1' controls='ControlPanel' width='0' height='0' src='/mid/bg.mp3'/>"; 
-		return "<bgsound src='mid/bg.mp3'>";
+		return "<bgsound src='mid/b11g.mp3'>";
    }
    else {
-	   return "<embed autostart='true' loop='-1' controls='ControlPanel' width='0' height='0' src='/mid/bg.mp3'/>"; 
+	   return "<embed autostart='true' loop='-1' controls='ControlPanel' width='0' height='0' src='mid/b11g.mp3'/>"; 
    }
    /*if(isFirefox=navigator.userAgent.indexOf("Firefox")!=-1){ 
         return "Firefox"; 

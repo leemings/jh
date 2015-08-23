@@ -56,7 +56,7 @@ function autoSay() {
 		{
 			id = 0;
 		}
-		document.talkform.talkmsg.value=chars[id] + ",," + id;
+		document.talkform.talkmsg.value=chars[id];
 		document.talkform.subm.click();
 	}
 }
