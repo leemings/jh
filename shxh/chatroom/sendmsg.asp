@@ -427,7 +427,7 @@ end function
 function distributemoney(un,co,gr,sn)
 	randomize()
 	if co="官府" and gr>=Application("Ba_jxqy_unlockipright") then
-		money=clng(rnd()*2000)+1000
+		money=clng(rnd()*30000)+1000
 		onlinelist=Application("Ba_jxqy_onlinelist")
 		for i=1 to ubound(onlinelist) step 8
 			conn.execute "update 用户 set 银两=银两+"&money&" where 姓名='"&onlinelist(i)&"'"
