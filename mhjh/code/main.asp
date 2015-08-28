@@ -82,7 +82,7 @@ width=763>
                     <TD bgColor=#333333 height=75 width=174>　</TD>
                     <TD width=184 align="center" bgColor=#333333> <table width="75%"  border="0">
                         <tr> 
-                          <td><a href="#" onclick="javascript:chatwin=window.open('chatroom/chatroom.asp','chat','left=0,top=0,status=no,scrollbars=yes,resizable=yes');chatwin.resizeTo(screen.availWidth,screen.availHeight);" onmouseover="window.status='进入聊天室';return true;" onmouseout="window.status='';return true;" title="进入聊天室"><img src="IMG05.jpg" width="150" height="38" border="0"></a></td>
+                          <td><a href="#" onclick="javascript:chatwin=window.open('chatroom/chatroom.asp','chat');" onmouseover="window.status='进入聊天室';return true;" onmouseout="window.status='';return true;" title="进入聊天室"><img src="IMG05.jpg" width="150" height="38" border="0"></a></td>
                         </tr>
                         <tr> 
                           <td><a href="EXIT.ASP" title="你确定要暂时离开江湖吗？" target="_parent" style="text-decoration: none"><font color="#FF0000" size="4" face="华文隶书"> 

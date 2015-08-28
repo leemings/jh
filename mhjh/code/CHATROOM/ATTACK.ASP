@@ -12,7 +12,7 @@ msgarr=";"
 do while not (rst.EOF or rst.BOF)
 attackname=rst("招式")
 msgarr=msgarr&attackname&";"
-msg=msg+"<tr><td bgcolor=FEE3AB><a href=javascript:settalk('//攻击','"&attackname&"'); target='talkfrm' onmouseover=""window.status='使用武功攻击他人';return true;"" onmouseout=""window.status='';return true;"" title='使用武功攻击他人'><font color=FF0000 valign='middle'>"&attackname&"</font></a></td><td>"&rst("基本攻击")&"</td></tr>"
+msg=msg+"<tr><td bgcolor=FEE3AB><a href=javascript:parent.settalk('//攻击','"&attackname&"'); target='talkfrm' onmouseover=""window.status='使用武功攻击他人';return true;"" onmouseout=""window.status='';return true;"" title='使用武功攻击他人'><font color=FF0000 valign='middle'>"&attackname&"</font></a></td><td>"&rst("基本攻击")&"</td></tr>"
 rst.movenext
 loop
 rst.Close

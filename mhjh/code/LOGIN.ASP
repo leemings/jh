@@ -15,7 +15,6 @@ password=trim(Request.Form("password"))
 lip=Application("yx8_mhjh_lockip")
 if instr(username,"'")<>0  then Response.Redirect "error.asp?id=524"
 if Application("yx8_mhjh_systemname")="" then Response.Redirect "error.asp?id=001"
-if InStr(Request.ServerVariables("HTTP_USER_AGENT"),"MSIE")=0 then Response.Redirect "error.asp?id=250"
 if username="" or password="" then Response.Redirect "error.asp?id=002"
 for each element in Request.Form
 elevalue=Request.Form(element)

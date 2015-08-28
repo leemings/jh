@@ -5,14 +5,12 @@ Response.CacheControl="no-cache"
 Response.AddHeader "pragma","no-cache"
 Response.Expires=-1
 thesoft=Request.ServerVariables("HTTP_USER_AGENT")
-if instr(thesoft,"MSIE 6")=0 and instr(thesoft,"MSIE 5")=0 and instr(thesoft,"MSIE 4")=0 then Response.Redirect "../error.asp?id=250"
 session("yx8_mhjh_inchat")="in"
 chatroomsn=session("yx8_mhjh_userchatroomsn")
 servername=Request.ServerVariables("server_name")
 scriptname=lcase(Request.ServerVariables("script_name"))
 if instr(LCase(scriptname),"chatroom.asp")=0 then Response.Redirect "../error.asp?id=012"
 useragent=Request.ServerVariables("http_user_agent")
-if instr(useragent,"MSIE ")=0 then Response.Redirect "../error.asp?id=013"
 allhttp=Request.ServerVariables("all_http")
 if Instr(allhttp,"proxy")<>0 or Instr(allhttp,"http_via")<>0 or Instr(allhttp,"http_pragma")<>0 then Response.Redirect "error.asp?id=014"
 onlinenum=Application("yx8_mhjh_allonlinenum")
@@ -210,6 +208,7 @@ function lrclutch(){if(this.talkfrm.document.talkform.lrclutch.value=="功能开"){
 function youxia(){if(this.talkfrm.document.talkform.youxia.value=="→"){this.talkfrm.document.talkform.youxia.value="←";this.talkfrm.document.talkform.talkmsg.size=46;this.mainfrm.cols="0,*,0";}else{this.talkfrm.document.talkform.youxia.value="→";this.talkfrm.document.talkform.talkmsg.size=56;this.mainfrm.cols="0,*,150";}this.talkfrm.document.talkform.talkmsg.focus();}
 function tbclutch(){if(this.talkfrm.document.talkform.tbclutch.value=="关分屏"){this.talkfrm.document.talkform.tbclutch.value="开分屏";this.msgfrm.rows="20,*,0,11,70,0,0";tbclu=false;}else{this.talkfrm.document.talkform.tbclutch.value="关分屏";this.msgfrm.rows="20,*,*,11,70,0,0";tbclu=true;}this.talkfrm.document.talkform.talkmsg.focus();}
 function chgsendto(st){this.talkfrm.document.talkform.sendto.options[0].value=st;this.talkfrm.document.talkform.sendto.options[0].text=st;this.talkfrm.document.talkform.sendto.options[0].selected=true;this.talkfrm.document.talkform.talkmsg.focus();}
+function settalk(str1,str2){this.talkfrm.document.talkform.talkmsg.value=str1+' '+str2;this.talkfrm.document.talkform.talkmsg.focus();}
 function showmsg(isact,isprivacy,username,sendto,expression,namecolor,wordcolor,msg){var msgtmp='';
 if (this.talkfrm.document.talkform.tupian.checked != true){msg=msg.replace(/(\[xq\])(\S+)(\[\/xq\])/gi,"");}else{msg=msg.replace(/(\[xq\])(\S+)(\[\/xq\])/gi,"<img src=\'..\/chatroom\/image\/image\/$2\'></img>");}
 msg=msg.replace(/(\[img\])(\S+)(\[\/img\])/gi,"<img src=\'..\/chatroom\/image\/image\/$2\'></img>");
@@ -258,7 +257,7 @@ parent.msgfrm0.document.writeln("<html><head><meta http-equiv=Content-Type conte
 }
 </script>
 </head>
-<frameset name=mainfrm cols="0,*,148" border=0 frameborder="0" framespacing="0">
+<frameset name=mainfrm id=mainfrm cols="0,*,148" border=0 frameborder="0" framespacing="0">
 <frame name="optfrm" src="option.asp" marginheight=0 marginwidth=0 scrolling=no target="_self">
 <frameset name="msgfrm" rows="20,1*,1*,11,70,0,0">
 <frame name="topfrm" src="welcome.asp" marginheight=0 marginwidth=0 scrolling=no>
