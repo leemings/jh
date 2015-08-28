@@ -1,0 +1,26 @@
+BODY {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: "宋体"
+}
+TD {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: "宋体"
+}
+A:link {
+	FONT-SIZE: 9pt; CURSOR: e-resize; COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 9pt; CURSOR: e-resize; COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 9pt; CURSOR: hand; COLOR: #FFFF00; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #0000FF; TEXT-DECORATION: underline blink
+}
+SELECT { BACKGROUND-COLOR: #ffcc00; BORDER-BOTTOM: 
+#ffcc66 solid; BORDER-LEFT: #999900 solid; BORDER-RIGHT: #ffcc66 solid; BORDER-TOP: 
+#999900 solid; FONT-SIZE: 9pt
+ } 
+INPUT { BACKGROUND-COLOR: #7292e4; BORDER-BOTTOM: 
+1px groove; BORDER-LEFT: 1px groove; BORDER-RIGHT: 1px groove; BORDER-TOP: 1px 
+groove; COLOR: #ffffff; FONT-SIZE: 9pt
+ }
+TD {
+	
+}

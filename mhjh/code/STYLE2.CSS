@@ -1,0 +1,154 @@
+TD {
+	FONT-FAMILY: 宋体,arial; FONT-SIZE: 9.5pt
+}
+BODY {
+	FONT-FAMILY: 宋体,arial; FONT-SIZE: 9.5pt
+}
+SELECT {
+	FONT-FAMILY: 宋体,arial; FONT-SIZE: 9.5pt
+}
+A {
+	COLOR: #ffffff; FONT-FAMILY: 宋体,arial; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff8888; FONT-FAMILY: 宋体,arial; TEXT-DECORATION: underline
+}
+BODY {
+	COLOR: #ffffff; FONT-FAMILY: 宋体; FONT-SIZE: 9.5pt
+}
+.button {
+	BACKGROUND-COLOR: #c9c2b8; BORDER-BOTTOM: #4d4d4d 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #4d4d4d 1px solid; BORDER-TOP: medium none; COLOR: #000000; HEIGHT: 17px
+}
+
+
+.TDBKLINK {
+	BACKGROUND: #000000; COLOR: #ffffff; CURSOR: hand; HEIGHT: 20px; WIDTH: 450px
+}
+.TDBKLINK TD {
+	HEIGHT: 20px; WIDTH: 48px; align: bottom
+}
+.TDBKLINK TD A {
+	COLOR: #ffffff; HEIGHT: 20px; LETTER-SPACING: 4px; PADDING-TOP: 4px; WIDTH: 48px
+}
+.TDBKLINK TD A:hover {
+	BACKGROUND-COLOR: #006c88
+}
+.TDBKLINK A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.TDBKLINK A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.TDBKLINK A:hover {
+	COLOR: #ff9900; TEXT-DECORATION: none
+}
+.Logonfromindex {
+	BACKGROUND: #f5f5f5; BORDER-BOTTOM: #cccccc 1px dotted; BORDER-LEFT: #cccccc 1px dotted; BORDER-RIGHT: #cccccc 1px dotted; BORDER-TOP: #cccccc 1px dotted
+}
+.search {
+	BACKGROUND-COLOR: #f5f5f5; BORDER-BOTTOM: 0px dotted; BORDER-LEFT: 0px dotted; BORDER-RIGHT: 0px dotted; BORDER-TOP: 0px dotted; COLOR: #990000; FONT-SIZE: 10.5pt; HEIGHT: 22px; PADDING-TOP: 4px; VERTICAL-ALIGN: middle; WIDTH: 150px
+}
+.Logonfromindex {
+	BACKGROUND: #f5f5f5; BORDER-BOTTOM: #cccccc 1px dotted; BORDER-LEFT: #cccccc 1px dotted; BORDER-RIGHT: #cccccc 1px dotted; BORDER-TOP: #cccccc 1px dotted
+}
+.search {
+	BACKGROUND-COLOR: #f5f5f5; BORDER-BOTTOM: 0px dotted; BORDER-LEFT: 0px dotted; BORDER-RIGHT: 0px dotted; BORDER-TOP: 0px dotted; COLOR: #990000; FONT-SIZE: 10.5pt; HEIGHT: 22px; PADDING-TOP: 5px; VERTICAL-ALIGN: middle; WIDTH: 150px
+}
+.coolfont_1 {
+	FILTER: DropShadow(Color=#EDE9E4, OffX=1, OffY=1, Positive=1); FONT: 9pt "宋体"; TEXT-DECORATION: none
+}
+.coolfont_2 {
+	FILTER: DropShadow(Color=#000000, OffX=1, OffY=1, Positive=1); FONT: 9pt "宋体"; TEXT-DECORATION: none
+}
+.button {
+	BACKGROUND: #dddddd; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #c5c5c5 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #c5c5c5 1px solid; COLOR: #000000; FONT-SIZE: 12px; FONT-STYLE: normal; FONT-VARIANT: normal; FONT-WEIGHT: normal; HEIGHT: 19px; LINE-HEIGHT: normal
+}
+.input {
+	BACKGROUND-COLOR: #f1f0ef; BORDER-BOTTOM: #4d4d4d 1px solid; BORDER-LEFT: #4d4d4d 1px solid; BORDER-RIGHT: #4d4d4d 1px solid; BORDER-TOP: #4d4d4d 1px solid; COLOR: #333300; FONT-SIZE: 9pt; HEIGHT: 17px
+}
+.button1 {
+	BACKGROUND: #ff9933; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #ffab2d 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #ffab2d 1px solid; COLOR: #ffffff; FONT-SIZE: 12px; FONT-STYLE: normal; FONT-VARIANT: normal; FONT-WEIGHT: normal; HEIGHT: 17px; LINE-HEIGHT: normal
+}
+.lian {
+	COLOR: #000000; FONT-FAMILY: "宋体"; FONT-SIZE: 14px;
+}
+.a105px {
+	FONT-FAMILY: Verdana,宋体; FONT-SIZE: 10.5pt; FONT-STYLE: normal; LETTER-SPACING: 0.1em; LINE-HEIGHT: 120%; WORD-SPACING: 0.5em
+}
+.a17px {
+	FONT-FAMILY: Verdana,宋体; FONT-SIZE: 9pt; FONT-STYLE: normal; LETTER-SPACING: 0.1em; LINE-HEIGHT: 120%; WORD-SPACING: 0.5em
+}
+.jslogo { padding-top: 25px} 
+.jsmenu { padding-top: 24px; font-size: 12.5px; line-height: 18px} 
+.p9 { font-size: 12.5px; line-height: 20px} 
+.inputfont { font-size: 12.5px; color: #B57d29} 
+.yellowp9 { font-size: 12.5px; line-height: 20px; color: #C77E19} 
+.yellowp14 { font-size: 14.5px; line-height: 20px; color: #C77E19} 
+.textbg { background-image:    url(/images/page_text_bg.gif); background-repeat: no-repeat; background-position: right bottom} 
+.title { font-size: 14.8px; line-height: 20pt; color: #990000; font-weight: bolder} 
+.p14 { font-size: 14.5px; line-height: 25px} 
+.p9black { font-size: 12.5px; line-height: 20px ; color: black} 
+.mountain {  background-image: url(/images/page_bottom_mountain.gif); background-repeat: no-repeat; background-position: right bottom}
+
+.table1 {  border: 1px #CC9933 outset}
+
+.p9white { font-size: 12.5px; line-height: 20px ; color: #ffffff} 
+.p9gray { font-size: 12.5px; line-height: 20px ; color: #808080} 
+.p14white { font-size: 14.5px; line-height: 25px ; color: #ffffff}
+.s01 {
+	BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: 2px inset; BORDER-LEFT: 2px inset; BORDER-RIGHT: 2px inset; BORDER-TOP: 2px inset; VERTICAL-ALIGN: text-bottom
+}
+.s02 {
+	BACKGROUND-COLOR: #cccccc; BORDER-BOTTOM: 1px ridge; BORDER-LEFT: #ffffff 1px ridge; BORDER-RIGHT: 1px ridge; BORDER-TOP: #ffffff 1px ridge
+}
+.s03 {
+	FONT-SIZE: 9pt; HEIGHT: 16px
+}
+.text_i_t {
+	COLOR: #ea0505; FILTER: DropShadow(Color=B6B6B6, OffX=3, OffY=2, Positive=yes); FONT-SIZE: 14px; LINE-HEIGHT: 125%
+}
+.color_r {
+	COLOR: #ea0505
+}
+.color_l {
+	COLOR: #336699
+}
+.color_w {
+	COLOR: #ffffff
+}
+.color_h {
+	COLOR: #505050
+}
+.color_shenlan {
+	COLOR: #094d85
+}
+.color_b {
+	COLOR: #000000
+}
+.color_blue {
+	COLOR: #0033ff
+}
+.color_g {
+	COLOR: #7c8c51
+}
+.filter {
+	FILTER: DropShadow(Color=B6B6B6, OffX=3, OffY=2, Positive=yes)
+}
+.filter5 {
+	FILTER: Shadow(Color=B6B6B6,direction=135)
+}
+.bgc {
+	BACKGROUND-COLOR: #a8d659
+}
+.big1 {
+	COLOR: #ffffff; FONT-SIZE: 15px; FONT-WEIGHT: bold; LINE-HEIGHT: 125%
+}
+.big2 {
+	FONT-SIZE: 15px; FONT-WEIGHT: bold; LINE-HEIGHT: 125%
+}
+.big3 {
+	COLOR: #ffffff; FONT-WEIGHT: bold; LINE-HEIGHT: 125%
+}
+.big4 {
+	FONT-SIZE: 15px; FONT-WEIGHT: bold; LINE-HEIGHT: 125%
+}

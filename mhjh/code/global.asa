@@ -1,0 +1,163 @@
+<SCRIPT LANGUAGE="VBScript" RUNAT="Server">
+    sub Application_OnStart
+	connstr="Provider=Microsoft.Jet.OLEDB.4.0;"&_
+	"Data Source="& Server.MapPath("js/chaoliu.asp")&_
+    ";jet oledb:database password=ysqxxpjh" & password
+	Application("yx8_mhjh_connstr")=connstr
+	Set conn=Server.CreateObject("ADODB.CONNECTION")
+	Set rst=Server.CreateObject("ADODB.RecordSet")
+	conn.open connstr
+	rst.open "x",conn,1,2
+	do while Not rst.EOF
+		Select Case rst("a")
+			Case "用户名"
+				Application("yx8_mhjh_systemname")=rst("b")
+			Case "序列号"
+				Application("yx8_mhjh_seriesnumber")=rst("b")
+			Case "访问量"
+				Application("yx8_mhjh_visitor")=rst("b")
+			Case"不发言时间"
+                Application("yx8_mhjh_nosaytime")=rst("b")
+			case "版本号"
+				Application("yx8_mhjh_banbenhao")=rst("b")
+			case "泡点设置"
+				Application("yx8_mhjh_paycent")=clng(rst("b"))
+			Case "最大攻击"
+				Application("yx8_mhjh_Maxattack")=clng(rst("b"))
+		   	Case "打架开关"
+				Application("yx8_mhjh_chatroomsnkb")=clng(rst("b"))
+			Case "站长"			
+			    Application("yx8_mhjh_admin")=rst("b")
+				end select
+		rst.MoveNext
+	loop
+	dim index(0)
+	Application("yx8_mhjh_allonline")=";"
+	Application("yx8_mhjh_allonlinenum")=0
+	Application("yx8_mhjh_systemname1")=Application("yx8_mhjh_systemname")
+	Application("yx8_mhjh_onlinename1")=";"	
+	Application("yx8_mhjh_systemname2")="论剑大厅"
+	Application("yx8_mhjh_onlinename2")=";"		
+	rst.Close
+	rst.Open "select 门派 from 门派 where chaton=true",conn
+	i=2
+	do while not (rst.EOF or rst.BOF)
+		i=i+1
+		Application("yx8_mhjh_systemname"&i)=rst("门派")
+		Application("yx8_mhjh_onlinename"&i)=";"	
+		rst.MoveNext
+	loop
+	rst.Close
+	set rst=nothing
+	conn.Close
+	set conn=nothing
+	Application("yx8_mhjh_onlinelist")=index
+	Application("yx8_mhjh_lockip")=";"
+	Application("yx8_mhjh_chatroomnum")=i
+	Application("yx8_mhjh_aberrantname")=";"
+	Application("yx8_mhjh_aberrantlist")=index
+	dim talkarr(600)
+	for i=0 to 600
+		talkarr(i)=0
+	next
+	Application("yx8_mhjh_talkarr")=talkarr
+	Application("yx8_mhjh_talkpoint")=0
+	Application("yx8_mhjh_webicqnum")=0
+	Application("yx8_mhjh_webicq")=index
+	Application("yx8_mhjh_webicqname")=";"
+	Application("yx8_mhjh_zlname")=";"
+End sub
+</SCRIPT>
+<SCRIPT LANGUAGE="VBScript" RUNAT="Server">
+Sub Session_OnStart
+	Session.Timeout=3
+	Application.Lock 
+	Application("yx8_mhjh_visitor")=Application("yx8_mhjh_visitor")+1
+	Application.UnLock
+End Sub
+</SCRIPT>
+<SCRIPT LANGUAGE="VBScript" RUNAT="Server">
+Sub Session_OnEnd
+	username=session("yx8_mhjh_username")
+	chatroomsn=session("yx8_mhjh_userchatroomsn")
+	if username<>"" then
+		msg=replace("##~精神不济打瞌睡，导致滚落山谷","@#",Application("yx8_mhjh_systemname"&chatroomsn))
+		nowtime=now()
+		chatroomnum=Application("yx8_mhjh_chatroomnum")
+		maxnosaytime=Application("yx8_mhjh_nosaytime")
+		onlinelist=Application("yx8_mhjh_onlinelist")
+		onlinelistubd=ubound(onlinelist)
+		j=1
+		dim newonlinelist()
+		dim newonlinename()
+		for i=1 to chatroomnum
+			redim preserve newonlinename(i)
+			newonlinename(i)=";"
+		next
+		newonlinenum=0
+		for i=1 to onlinelistubd step 6
+			if onlinelist(i)<>username then
+				redim preserve newonlinelist(j),newonlinelist(j+1),newonlinelist(j+2),newonlinelist(j+3),newonlinelist(j+4),newonlinelist(j+5)
+				newonlinelist(j)=onlinelist(i)
+				newonlinelist(j+1)=onlinelist(i+1)
+				newonlinelist(j+2)=onlinelist(i+2)
+				newonlinelist(j+3)=onlinelist(i+3)
+				newonlinelist(j+4)=onlinelist(i+4)
+				newonlinelist(j+5)=onlinelist(i+5)
+				j=j+6
+				newonlinenum=newonlinenum+1
+				newonlinename(onlinelist(i+5))=newonlinename(onlinelist(i+5))&onlinelist(i)&";"
+			end if
+		next
+		Application.Lock
+		if newonlinenum=0 then
+			dim index(0)
+			Application("yx8_mhjh_onlinelist")=index
+		else
+			Application("yx8_mhjh_onlinelist")=newonlinelist
+		end if
+		Application("yx8_mhjh_allonlinenum")=newonlinenum
+		for i=1 to chatroomnum
+			Application("yx8_mhjh_onlinename"&i)=newonlinename(i)
+		next
+		Application.UnLock
+		talkarr=Application("yx8_mhjh_talkarr")
+		talkpoint=Application("yx8_mhjh_talkpoint")
+		dim newtalkarr(600)
+		j=1
+		for i=11 to 600 step 10
+			newtalkarr(j)=talkarr(i)
+			newtalkarr(j+1)=talkarr(i+1)
+			newtalkarr(j+2)=talkarr(i+2)
+			newtalkarr(j+3)=talkarr(i+3)
+			newtalkarr(j+4)=talkarr(i+4)
+			newtalkarr(j+5)=talkarr(i+5)
+			newtalkarr(j+6)=talkarr(i+6)
+			newtalkarr(j+7)=talkarr(i+7)
+			newtalkarr(j+8)=talkarr(i+8)
+			newtalkarr(j+9)=talkarr(i+9)
+			j=j+10
+		next
+		newtalkarr(591)=talkpoint+1
+		newtalkarr(592)=1
+		newtalkarr(593)=0
+		newtalkarr(594)=username
+		newtalkarr(595)="大家"
+		newtalkarr(596)=""
+		newtalkarr(597)="000000"
+		newtalkarr(598)="000000"
+		newtalkarr(599)="<font color=FF0000>【公告】</font>"&msg&"<font class=timsty>"&nowtime&"</font>"
+		newtalkarr(600)=chatroomsn
+		Application.Lock
+		Application("yx8_mhjh_talkpoint")=talkpoint+1
+		Application("yx8_mhjh_talkarr")=newtalkarr
+		Application("yx8_mhjh_allonline")=replace(Application("yx8_mhjh_allonline"),";"&username&";",";")
+		Application.UnLock
+	end if	
+End sub
+</SCRIPT>
+<SCRIPT LANGUAGE="VBScript" RUNAT="Server">
+Sub Application_OnEnd
+End sub
+</SCRIPT>
+

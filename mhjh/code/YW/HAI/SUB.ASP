@@ -1,0 +1,4 @@
+<%
+sub news
+end sub
+%>

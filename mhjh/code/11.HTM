@@ -1,0 +1,238 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>魔幻皇城</title>
+<script language="JavaScript">
+<!--
+var zudza,myname
+function MyShowMenu(menuid,x,y,np)
+{
+//Layer2.style.visibility='hidden';
+document.getElementById(menuid).style.visibility='visible';
+document.getElementById(menuid).style.left=x+20+'px';
+document.getElementById(menuid).style.top=y+'px'
+document.mainmove.nowpos.value=np;
+//Layer2.style.visibility='visible';
+return true;
+}
+function MyHideMenu(menuid)
+{
+//Layer1.style.visibility='hidden';
+document.getElementById(menuid).style.visibility='hidden';
+//document.getElementById('zuza').style.disabled=false;
+//Layer1.style.visibility='visible';
+return true;
+}
+function MySetXY(menuid,x,y)
+{
+var obj=document.getElementById(menuid)
+if(obj!=null){
+obj.style.left=x+'px';
+obj.style.top=y+'px'}
+return true;
+}
+//-->
+</script>
+
+<script language="JavaScript">
+document.onmousedown=click;
+function click(){if(event.button==2){if(confirm("欢迎光临魔幻皇城，点击功能按钮，可以进入另外的天地，完全模拟现实构景，如果你找不到哪个功能，那你就想一想这个功能应该属于哪一类的，就看看相关的功能吧，比如，我想离婚，那当然就要去婚介所了！","侠客提示")){myopenwindow('http://www.yx8.net/','wupin','scrollbars=yes,resizable=yes,width=800,height=600');}}}
+</script>
+<script language="JavaScript">
+function guanfuyamen(wpath,n,wtype){
+woiwo=window.open(wpath,n,wtype);
+startnodo();
+//woiwo.moveTo(x,y);
+}
+</script>
+</head>
+<body topmargin="0" leftmargin="0"  background="cs.jpg" oncontextmenu="return false;">
+  <div id="pm" style="position:absolute; left:400px; top:10px; width:40px; height:40px;z-index:2;visibility:visible"> 
+    
+  <div id="player0" style="position: absolute; left: 0; top: 0; width: 108; height: 65; z-index: 2; visibility: visible"> 
+    <img width="80" height="69" src=adv/images/004.gif> </div>
+    <div id="player1" style="position:absolute; left:0px; top:0px; width:40px; height:40px;z-index:2;visibility:hidden"> 
+      <img width="40" height="40" src=adv/images/004.gif>
+    </div>
+    <div id="player2" style="position:absolute; left:0px; top:0px; width:40px; height:40px;z-index:2;visibility:hidden"> 
+      <img width="40" height="40" src=adv/images/004.gif>
+    </div>
+    <div id="player3" style="position:absolute; left:0px; top:0px; width:40px; height:40px;z-index:2;visibility:hidden"> 
+      <img width="40" height="40" src=adv/images/004.gif>
+    </div>
+</div>
+<form method=POST  name=mainmove>
+  <div id="Layer1" style="position:absolute; left:5px; top:0px; width:571px; height:3px; z-index:1"> 
+	<input name=nowpos value='' type=hidden>
+	<div style="position:absolute;left:300px;top:0px;z-index:1">
+    <input type="hidden" name="oldx" size="3" maxlength="3" readonly="true">
+    <input name="oldy" type="hidden" size="3" maxlength="3" readonly="true">
+	</div>  
+  </div> 
+
+
+<script language="Javascript">
+var tmid;
+var xp,yp,czmc,rt,pstep,curd,offx,offy; //,ismoving
+if(screen.height==0){
+offx=0;offy=0;}
+else{
+offx=0;offy=0;
+
+}
+
+xp=offx;yp=offy;pstep=0;
+curd=0;//ismoving=0;
+var ox,oy;
+ox=xp;oy=yp;
+function changedes(fx)
+{
+   document.getElementById('player'+fx).style.visibility='visible';
+   for(var i=0;i<4;i++)
+   {
+      if(i!=fx)
+        document.getElementById('player'+i).style.visibility='hidden';
+   }
+   
+}
+function MovePlayer(tx,ty)
+{
+//alert('ok');
+pstep++;
+document.mainmove.oldx.value=xp;
+document.mainmove.oldy.value=yp;  
+
+//if (ismoving>1)
+//{   
+//   ismoving=0;
+   //return true;
+//}
+
+ox=tx;
+oy=ty;
+
+if (xp<=ox&&(((oy-yp)<(ox-xp)&&oy>=yp)||(-(oy-yp)<(ox-xp)&&oy<yp))) //abs
+{
+if(oy>yp)
+   curd=3;
+else
+   curd=3;
+changedes(curd);
+}
+else if(xp<=ox&&(((oy-yp)>(ox-xp)&&oy>=yp)||(-(oy-yp)>(ox-xp)&&oy<yp)))
+{
+if(oy>yp)
+   curd=0;
+else if(oy<yp)
+   curd=2;
+else
+   curd=1;
+changedes(curd);
+}
+else if(xp>ox&&(((oy-yp)<(ox-xp)&&oy>=yp)||(-(oy-yp)<(ox-xp)&&oy<yp)))
+{
+if(oy>yp)
+   curd=1;
+else
+   curd=1;
+changedes(curd);
+}
+else if(xp>ox&&(((oy-yp)>(ox-xp)&&oy>=yp)||(-(oy-yp)>(ox-xp)&&oy<yp)))
+{
+if(oy>yp)
+   curd=0;
+else if(oy<yp)
+   curd=2;
+else
+   curd=1;
+changedes(curd);
+}
+
+if(xp<ox)
+   xp+=1;
+else if(xp>ox)
+   xp-=1;
+if(yp<oy)
+   yp+=1;
+else if(yp>oy)
+   yp-=1; 
+
+if(xp==ox&&yp==oy)
+{
+   if(czmc!='')
+   {
+      if(czmc=='chat')
+	     chat();
+	  else if(czmc.indexOf('/')==-1)
+	     location.href=czmc;
+	  else if(czmc.indexOf('adv/')==0)
+	     location.href=czmc;
+	  else
+         window.open(czmc,"魔幻场景","width=640,height=480,left='+(screen.700)+',top='+(screen.450)+',resizable=no,scrollbars=yes,toolbar=no,menubar=no");//MyShowMenu('CD',ox,oy,czmc);
+   }
+   else
+     {ox+=400;oy+=400;}
+   
+   rt=0;
+   //ismoving=0;
+   document.mainmove.oldx.value=ox;
+   document.mainmove.oldy.value=oy;   
+}
+
+document.getElementById('pm').style.left=xp+'px';
+document.getElementById('pm').style.top=yp+'px';
+if(tmid!=null)
+{
+  clearTimeout(tmid);
+  tmid=null;
+}
+if(rt>0)
+   tmid=setTimeout('MovePlayer('+ox+','+oy+')',rt);
+return true;
+}
+
+  </script>
+
+<script language='Javascript'>xp=offx+document.body.scrollLeft+345;yp=offy+document.body.scrollTop+140;document.mainmove.oldx.value=xp;document.mainmove.oldy.value=yp;document.getElementById('pm').style.left=xp+'px';document.getElementById('pm').style.top=yp+'px';</script>
+<div id='bingqi' style='position:absolute; left:52px; top:28px; width: 56px; height: 24px;'><input onClick='javascript:rt=30;czmc="gf/Showgov.asp";MovePlayer(35+offx,30+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='官府衙门' type='button' name=sy2 readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('bingqi',35+offx,30+offy);</script>
+<div id='fangju' style='position:absolute;left:289px; top:267px;'><input onclick='javascript:rt=30;czmc="yuele.asp";MovePlayer(540+offx,165+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='娱乐城' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('fangju',540+offx,165+offy);</script>
+<div id='daoju' style='position:absolute;left:237px; top:283px;'><input onclick='javascript:rt=30;czmc="hy/Cardshop.asp";MovePlayer(365+offx,245+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='道具店' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('daoju',365+offx,245+offy);</script>
+<div id='biao2ju' style='position:absolute;left:15px; top:130px;'><input onclick='javascript:rt=30;czmc="gf/Prison.asp";MovePlayer(15+offx,130+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='监狱' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('biaoju',15+offx,135+offy);</script>
+<div id='kezan' style='position:absolute;left:375px; top:178px;'><input onclick='javascript:rt=30;czmc="t/ys/xx.asp";MovePlayer(227+offx,183+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='要塞物资' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('kezan',227+offx,183+offy);</script>
+<div id='cufang' style='position:absolute;left:160px; top:156px;'><input onclick='javascript:rt=30;czmc="hjs.htm";MovePlayer(620+offx,190+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='婚介所' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('cufang',620+offx,190+offy);</script>
+<div id='ducang' style='position:absolute;left:173px; top:142px;'><input onclick='javascript:rt=30;czmc="js/Pawnshop.asp";MovePlayer(160+offx,138+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='万利当铺' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('ducang',160+offx,138+offy);</script>
+<div id='gaoligui' style='position:absolute;left:218px; top:453px;'><input onclick='javascript:rt=30;czmc="wuqi.asp";MovePlayer(432+offx,270+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='武器店' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('gaoligui',432+offx,270+offy);</script>
+<div id='diedapi' style='position:absolute;left:83px; top:208px;'><input onclick='javascript:rt=30;czmc="hy/BAOZANG/diaoyu.asp";MovePlayer(80+offx,100+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='挖掘宝藏' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('diedapi',80+offx,100+offy);</script>
+<div id='yaopu' style='position:absolute;left:175px; top:271px;'><input onclick='javascript:rt=30;czmc="js/curativeshop.asp";MovePlayer(510+offx,300+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='十全药铺' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('yaopu',510+offx,300+offy);</script>
+<div id='sasoutang' style='position:absolute;left:115px; top:278px;'><input onclick='javascript:rt=30;czmc="qmbp.asp";MovePlayer(300+offx,200+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='七门八派' type='button' name=sy readonly size=6 maxlength='7' ></div><script language='Javascript'>MySetXY('sasoutang',300+offx,200+offy);</script>
+<div id='jiaowai' style='position:absolute;left:483px; top:128px;'><input onclick='javascript:rt=30;czmc="gupiao/index.asp";MovePlayer(400+offx,90+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='证券所' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('jiaowai',400+offx,90+offy);</script>
+<div id='adv' style='position:absolute;left:301px; top:451px;'><input onclick='javascript:rt=30;czmc="yw/hai/index2.asp";MovePlayer(200+offx,350+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='出海探宝' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('adv',200+offx,350+offy);</script>
+<div id='ct' style='position:absolute;left:449px; top:391px;'><input onclick='javascript:rt=30;czmc="js/Bank.asp";MovePlayer(310+offx,66+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='魔幻钱庄' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('ct',310+offx,66+offy);</script>
+<div id='lao1fang' style='position:absolute;left:158px; top:10px;'><input onclick='javascript:rt=30;czmc="fw/fangwu.asp";MovePlayer(158+offx,10+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='房产中心' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('lao1fang',158+offx,10+offy);</script>
+<div id='laofang' style='position:absolute;left:520px; top:15px;'><input onclick='javascript:rt=30;czmc="myhome.asp";MovePlayer(520+offx,15+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='我的家' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('laofang',520+offx,15+offy);</script>
+<div id='pi1fa' style='position:absolute;left:475px; top:357px;'><input onclick='javascript:rt=30;czmc="jiudian/jd.asp";MovePlayer(475+offx,357+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='魔幻酒店' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('pifa',475+offx,357+offy);</script>
+<div id='pifa' style='position:absolute;left:295px; top:117px;'><input onclick='javascript:rt=30;czmc="adventure/adventure.asp";MovePlayer(630+offx,317+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='冒险世界' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('pifa',630+offx,317+offy);</script>
+<div id='er1sou' style='position:absolute;left:40px; top:206px;'><input onclick='javascript:rt=30;czmc="mp/wl/meeting.asp";MovePlayer(40+offx,208+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='君临天下' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('ersou',40+offx,306+offy);</script>
+<div id='ersou' style='position:absolute;left:101px; top:236px;'><input onclick='javascript:rt=30;czmc="jishi/market.asp";MovePlayer(135+offx,248+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='自由市场' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('ersou',135+offx,248+offy);</script>
+<div id='fang2ju' style='position:absolute;left:610px; top:37px;'><input onclick='javascript:rt=30;czmc="yw/zhongji/peiyao.asp";MovePlayer(610+offx,37+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='武具铸造' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('fangju',540+offx,165+offy);</script>
+<div id='ersou' style='position:absolute;left:40px; top:406px;'><input onclick='javascript:rt=30;czmc="yw/work/ice/icemain.asp";MovePlayer(40+offx,408+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='极地采冰' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('ersou',125+offx,248+offy);</script>
+<div id='biaoju' style='position:absolute;left:40px; top:370px;'><input onclick='javascript:rt=30;czmc="yw/work/mine/minemain.asp";MovePlayer(40+offx,370+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='高山采矿' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('biaoju',40+offx,370+offy);</script>
+<div id='dao3ju' style='position:absolute;left:40px; top:340px;'><input onclick='javascript:rt=30;czmc="yw/work/tie/tiemain.asp";MovePlayer(40+offx,340+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='高炉炼铁' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('dao3ju',40+offx,341+offy);</script>
+<div id='pi4fa' style='position:absolute;left:105px; top:197px;'><input onclick='javascript:rt=30;czmc="yw/dy/d.asp";MovePlayer(300+offx,397+offy);' onMouseOut="this.style.backgroundColor='#800000';this.style.color='#FFFFFF';" onMouseOver="this.style.backgroundColor='#FFDBAC';this.style.color='#0000FF';" style='background-color: #800000; color: #FFFFFF; border-style: solid; border-width: 1' value='渔人码头' type='button' name=sy readonly size=6 maxlength='8' ></div><script language='Javascript'>MySetXY('pi4fa',300+offx,397+offy);</script>
+
+
+   <div id="CD" style="position:absolute; left:243px; top:108px; width:72px; height:153px; z-index:1; visibility: hidden"> 
+    </div>
+</form>
+  
+<!-- onMouseMove="document.mainmove.oldx.value=event.x+document.body.scrollLeft;document.mainmove.oldy.value=event.y+document.body.scrollTop;" -->
+<center>
+<p></p>
+</center>
+
+
+</body>
+</html>

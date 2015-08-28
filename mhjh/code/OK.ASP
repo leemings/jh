@@ -1,0 +1,140 @@
+<%
+Response.Expires=0
+bgcolor=Application("yx8_mhjh_backgroundcolor")
+bgimage=Application("yx8_mhjh_backgroundimage")
+errorid=Request.QueryString("id")
+select case errorid
+Case "001"
+errormsg="本系统需要虚拟目录支持！"
+Case "002"
+errormsg="姓名和密码不能为空"
+case "003"
+errormsg="只允许用中文和片假名做为你的昵称！"
+case "004"
+errormsg="帐号至少应有六位，姓名应该至少有两位,密码至少应有六位长"
+case "005"
+errormsg="密码只允许用英文大小写和数字"
+case "006"
+errormsg="帐号只允许用英文大小写和数字"
+case "007"
+errormsg="密码与确认不一致，请重新输入"
+case "008"
+errormsg="请选择你的性别"
+case "009"
+errormsg="该姓名已有人使用，请重换姓名登记"
+case "010"
+errormsg="对不起，你没有注册或密码错误"
+case "011"
+errormsg="本程序仅授权给"&application("yx8_mhjh_userright")&"使用"
+case "012"
+errormsg="本程序不能在这台服务器上运行，如有问题请<A href='mailto:lxyx@yx8.net'>与作者联系</a>"
+case "013"
+errormsg="请使用IE5以上的版本浏览"
+case "014"
+errormsg="对不起，请勿通过代理服务上网"
+case "015"
+errormsg="对不起，你已经在聊天室中了是吗？"
+case "016"
+errormsg="对不起，你没有登录或已超时断开连接，请重新登录."
+case "017"
+errormsg="对不起，此人业已在线，无法重新登录"
+case "018"
+errormsg="对不起，你业已死亡，请到<a href='#' onclick=javascript:window.open('gr/relive.asp','relive','status=no,toolbars=no,menubars=no,scrollbars=no,resize=no');><font color=FF0000>这儿</font></a>复活"
+case "019"
+errormsg="对不起，请重新输入你的帐号，姓名或密码，三者中至少有一个不对!"
+case "020"
+errormsg="对不起，我想你并没有死亡，所以不用复活!"
+case "021"
+errormsg="对不起，你要等到"&Request.QueryString("allowtime")&"之后才能复活!"
+case "022"
+errormsg="对不起，你被关在官府牢房中了，"&Request.QueryString("allowtime")&"会被释放,你也可以请人出钱来打通关节！"
+case "023"
+errormsg="对不起，你带的钱好象不够1000000两，我们无法放人"
+case "024"
+errormsg="参数错误！！"
+case "025"
+errormsg="没有错吗？我们确信我们并没有关押这个犯人！"
+case "026"
+errormsg="对不起，你的权限不够。我们无法放人！"
+case "027"
+errormsg="对不起，你被关入监狱，并且不是保释！快去想想办法吧"
+case "028"
+errormsg="对不起，你一次只能寄售同一样物品一个或你根本没有此物品可供出售！"
+case "029"
+errormsg="对不起，没有此样物品可供出售！"
+case "030"
+errormsg="对不起，你的钱好象不够哟！"
+case "031"
+errormsg="对不起，你好象并没有在我们这儿寄售此物品"
+case "032"
+errormsg="对不起，以此价格我们无法出售"
+case "033"
+errormsg="对不起，我们不能准确为您的物品估价，所以无法典当"
+case "034"
+errormsg="对不起，请问多长时间，我不太明白！"
+case "035"
+errormsg="对不起，我想你应该多体息一下才对！"
+case "036"
+errormsg="对不起，睡眠中，无法登录！"
+case "037"
+errormsg="对不起，个人主页和签名档中不能使用脚本关键字"
+case "038"
+errormsg="你确信没有人会告你重婚罪吗？"
+case "039"
+errormsg="你也太花心了吧，这样可不好哟！"
+case "040"
+errormsg="好听的话说一遍也就够了！"
+case "041"
+errormsg="请求失败：原因可以是因为：1.对象没有出生，2.性别相同"
+case "042"
+errormsg="你的心情我们理解，但是你无需请求离婚了！"
+case "043"
+errormsg="这样重大的事情，能请你说两句吗？"
+case "044"
+errormsg="你确信吗？好象有点儿问题"
+case "045"
+errormsg="对不起我想问一下，你是想自杀还是想谋杀"
+case "046"
+errormsg="对不起，你的权限不够！"
+case "047"
+errormsg="对不起，你没有达到我们的基本条件，所以我们无法给你安排这项工作"
+case "100"
+errormsg="数据库查询错误，BOF或EOF中一个值为真，如果疑问，请访问我们的主页<br><a href='http://www.yx8.net'>辽西游戏网</a>"
+case "101"
+errormsg="数据查询错误，没有找到该用户，请检查你的输入是否正确"
+case "102"
+errormsg="数据更新错误，所需资料填写不全，请重新检查所填各项"
+case "103"
+errormsg="查询错误，EOF或BOF中有一个为真"
+case "500"
+errormsg="你的权限不够，如果你是站长，请和我们聊系。<p align=center><a href='http://www.yx8.net'>辽西游戏网</a></p>"
+case "501"
+errormsg="只听里面传来一片尖叫，你慌慌张张的逃了出来。"
+case "502"
+errormsg="你好象没有带那么多钱了吧？"
+case "503"
+errormsg="对不起，你今天已经很干静了，温泉浴每天只可以洗一次。"
+case "504"
+errormsg="经过漫长的洗浴，你发现自己清爽了不少，精神也好多了，也许该到家里睡一觉会更加开心吧。"
+case else
+errormsg="该错误类型没有登记"
+end select
+%>
+<html>
+<head><LINK href="style.css" rel=stylesheet>
+<title> 操 作 成 功 </title>
+</head>
+<body oncontextmenu=self.event.returnValue=false background="<%=bgimage%>" bgcolor="<%=bgcolor%>" topmargin="100" >
+<table width="50%" border="3" bordercolor="#990000" cellspacing="2" cellpadding="4" align=center>
+<tr>
+<td align="center"><img src="images/error.gif" width="32" height="32"> </td>
+</tr>
+<tr><td><%=errormsg%></td></tr>
+<tr>
+<td align="center">
+<input type="button"  value="确定" onClick=javascript:history.back() name="button" >
+</td>
+</tr>
+</table>
+</body>
+</html>
