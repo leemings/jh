@@ -58,7 +58,7 @@ else
 // -->
 </script>
 <body bgcolor="#FFFFFF" text="#000000" style="font-size: 8pt; background-color: #FFCCFF; border: 1 solid #F5A0E2">
-<p align="center"><font size="4" face="楷体_GB2312"><b class="3d"><font size="5">魔幻江湖 
+<p align="center"><font size="4" face="楷体_GB2312"><b class="3d"><font size="5">快乐江湖 
   之 周公解梦</font></b></font></p>
 <div align="center"><table border="0" width="85%" cellpadding="0" cellspacing="0">
   <tr><form method="POST" action="search.asp" name="searchs">

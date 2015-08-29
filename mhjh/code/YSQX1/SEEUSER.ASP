@@ -12,7 +12,7 @@ if session("jxqy_adminbok")="" or session("yx8_mhjh_usercorp")<>"官府" then Resp
 <link rel="stylesheet" href="../chatroom/css.css">
 </head>
 <body oncontextmenu=self.event.returnValue=false background='../chatroom/bg1.gif' topmargin="0">
-<p align="center">魔幻江湖数据库</p><br>
+<p align="center">快乐江湖数据库</p><br>
 <p align="center"><font color="#808000"><b>此项查询为命令查询，当命令错误、或者输入字段不存在时都会返回错误</b></font></p>
 <p align="left">请输入条件查询用户：<br>
   如：身份='掌门' 查询身份为掌门的用户。<br>   

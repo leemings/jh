@@ -17,7 +17,7 @@ conn.Open Application("yx8_mhjh_connstr")
 set rst = server.createobject("adodb.recordset") 
     conn.execute("update 用户 set 体力=体力-"&Application("yx8_mhjh_klt3")*2000&" where 姓名='" & username & "'")
 case 4
-	mess="<table align=center><td><table border=0 cellpadding=0 cellspacing=0 ><tr><td><img src=../chatroom/image/rightct3.gif ></td><td background=../chatroom/image/rightct4.gif ></td> <td><img  src=../chatroom/image/rightct1.gif ></td></tr><tr><td background=../chatroom/image/rightct8.gif ></td><td valign=center align=center><table align=center border=0 cellpadding=1 cellspacing=0 ><tr> <td valign=center align=center>皇城公告</td> </tr> <tr><td valign=center align=center >魔幻江湖的动武时间是每小时的后30分钟；前30分钟可以自由打怪物，同样能增加您的状态；但一定要小心啊，别被怪物咬死，即使你开启了保护也无法抵挡怪物的袭击！所以，一定要给自己加一些体力和内力，内力没了也一样要死人的！现在泡分得状态很少,主要依靠不断的修炼来提高自己的各种状态.魔幻之神不欢迎懒汉哦,呵呵</td></tr></table></td><td background=../chatroom/image/rightct08.gif></td></tr><tr><td><img src=../chatroom/image/rightct9.gif></td><td background=../chatroom/image/rightct10.gif></td><td><img src=../chatroom/image/rightct11.gif></td></tr></table></td></table>"
+	mess="<table align=center><td><table border=0 cellpadding=0 cellspacing=0 ><tr><td><img src=../chatroom/image/rightct3.gif ></td><td background=../chatroom/image/rightct4.gif ></td> <td><img  src=../chatroom/image/rightct1.gif ></td></tr><tr><td background=../chatroom/image/rightct8.gif ></td><td valign=center align=center><table align=center border=0 cellpadding=1 cellspacing=0 ><tr> <td valign=center align=center>皇城公告</td> </tr> <tr><td valign=center align=center >快乐江湖的动武时间是每小时的后30分钟；前30分钟可以自由打怪物，同样能增加您的状态；但一定要小心啊，别被怪物咬死，即使你开启了保护也无法抵挡怪物的袭击！所以，一定要给自己加一些体力和内力，内力没了也一样要死人的！现在泡分得状态很少,主要依靠不断的修炼来提高自己的各种状态.魔幻之神不欢迎懒汉哦,呵呵</td></tr></table></td><td background=../chatroom/image/rightct08.gif></td></tr><tr><td><img src=../chatroom/image/rightct9.gif></td><td background=../chatroom/image/rightct10.gif></td><td><img src=../chatroom/image/rightct11.gif></td></tr></table></td></table>"
 case 5
 Application("yx8_mhjh_klt4")=r
 	mess="<font color=green>【怪物偷袭】</font><font color=red>聊天室突然一阵震荡，一只巨大的尸王蹒跚而来，吸取<font color=#0000FF>" & username & "</font>内力"&Application("yx8_mhjh_klt4")*1000&"！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc3.asp?r="&Application("yx8_mhjh_klt4")&" target=optfrm><img src=img/mon22.gif   border=0></a></marquee><bgsound src=../mid/Ye150.wav loop=3>"
@@ -47,7 +47,7 @@ set rst = server.createobject("adodb.recordset")
     conn.execute("update 用户 set 体力=体力-"&Application("yx8_mhjh_klt6")*2000&" where 姓名='" & username & "'")
 case 9
 Application("yx8_mhjh_klt7")=r
-	mess="<font color=green>【怪物袭击】</font><font color=red>金奥克在深山被一股野火驱赶下山，游荡进魔幻江湖，饥不择食，吸收<font color=#0000FF>" & username & "</font>道德"&Application("yx8_mhjh_klt7")*500&"点！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc7.asp?r="&Application("yx8_mhjh_klt7")&" target=optfrm><img src=img/mon28.gif border=0></a></marquee><bgsound src=../mid/Ye150.wav loop=3>"
+	mess="<font color=green>【怪物袭击】</font><font color=red>金奥克在深山被一股野火驱赶下山，游荡进快乐江湖，饥不择食，吸收<font color=#0000FF>" & username & "</font>道德"&Application("yx8_mhjh_klt7")*500&"点！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc7.asp?r="&Application("yx8_mhjh_klt7")&" target=optfrm><img src=img/mon28.gif border=0></a></marquee><bgsound src=../mid/Ye150.wav loop=3>"
 Set conn=server.CreateObject("adodb.connection")
 conn.Open Application("yx8_mhjh_connstr")
 set rst = server.createobject("adodb.recordset") 
@@ -61,14 +61,14 @@ set rst = server.createobject("adodb.recordset")
     conn.execute("update 用户 set 资质=资质-"&Application("yx8_mhjh_klt8")*100&" where 姓名='" & username & "'")
 case 11
 Application("yx8_mhjh_klt9")=r
-	mess="<font color=green>【怪物偷袭】</font><font color=red>哇~~~好酷的一只鸭!真是林子大了，什么鸟都有，一只蹩脚鸭跑进魔幻江湖，偷了<font color=#0000FF>" & username & "</font>白银"&Application("yx8_mhjh_klt9")*5000&"点！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc8.asp?r="&Application("yx8_mhjh_klt9")&" target=optfrm><img src=img/mon3.gif border=0></a></marquee><bgsound src=../mid/Ye150.wav loop=3>"
+	mess="<font color=green>【怪物偷袭】</font><font color=red>哇~~~好酷的一只鸭!真是林子大了，什么鸟都有，一只蹩脚鸭跑进快乐江湖，偷了<font color=#0000FF>" & username & "</font>白银"&Application("yx8_mhjh_klt9")*5000&"点！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc8.asp?r="&Application("yx8_mhjh_klt9")&" target=optfrm><img src=img/mon3.gif border=0></a></marquee><bgsound src=../mid/Ye150.wav loop=3>"
 Set conn=server.CreateObject("adodb.connection")
 conn.Open Application("yx8_mhjh_connstr")
 set rst = server.createobject("adodb.recordset") 
     conn.execute("update 用户 set 银两=银两-"&Application("yx8_mhjh_klt9")*5000&" where 姓名='" & username & "'")
 case 12
 Application("yx8_mhjh_klt10")=r
-	mess="<font color=green>【怪物偷袭】</font><font color=red>闪电龙突然冲进魔幻江湖，一道霹雳把<font color=#0000FF>" & username & "</font>打得浑身黑糊糊的，并夺取积分"&Application("yx8_mhjh_klt10")*10&"点！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc9.asp?r="&Application("yx8_mhjh_klt10")&" target=optfrm><img src=img/mon4.gif border=0></a></marquee><bgsound src=../mid/Ye150.wav loop=3>"
+	mess="<font color=green>【怪物偷袭】</font><font color=red>闪电龙突然冲进快乐江湖，一道霹雳把<font color=#0000FF>" & username & "</font>打得浑身黑糊糊的，并夺取积分"&Application("yx8_mhjh_klt10")*10&"点！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc9.asp?r="&Application("yx8_mhjh_klt10")&" target=optfrm><img src=img/mon4.gif border=0></a></marquee><bgsound src=../mid/Ye150.wav loop=3>"
 Set conn=server.CreateObject("adodb.connection")
 conn.Open Application("yx8_mhjh_connstr")
 set rst = server.createobject("adodb.recordset") 
@@ -82,7 +82,7 @@ set rst = server.createobject("adodb.recordset")
     conn.execute("update 用户 set 体力=体力+"&Application("yx8_mhjh_klt11")*4000&" where 姓名='" & username & "'")
 case 14
 Application("yx8_mhjh_klt12")=r
-	mess="<font color=green>【怪物袭击】</font><font color=red>一只火史莱姆蹦蹦跳跳闯进魔幻江湖，向<font color=#0000FF>" & username & "</font>挑衅似的吸取内力"&Application("yx8_mhjh_klt12")*1000&"点！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc11.asp?r="&Application("yx8_mhjh_klt12")&" target=optfrm><img src=img/mon9.gif border=0></a></marquee><bgsound src=../mid/Ye150.wav loop=3>"
+	mess="<font color=green>【怪物袭击】</font><font color=red>一只火史莱姆蹦蹦跳跳闯进快乐江湖，向<font color=#0000FF>" & username & "</font>挑衅似的吸取内力"&Application("yx8_mhjh_klt12")*1000&"点！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc11.asp?r="&Application("yx8_mhjh_klt12")&" target=optfrm><img src=img/mon9.gif border=0></a></marquee><bgsound src=../mid/Ye150.wav loop=3>"
 Set conn=server.CreateObject("adodb.connection")
 conn.Open Application("yx8_mhjh_connstr")
 set rst = server.createobject("adodb.recordset") 
@@ -200,7 +200,7 @@ conn.Open Application("yx8_mhjh_connstr")
 set rst = server.createobject("adodb.recordset") 
     conn.execute("update 用户 set 银两=银两-"&Application("yx8_mhjh_klt28")*3000&" where 姓名='" & username & "'")
 case 30
-	mess="<table align=center><td><table border=0 cellpadding=0 cellspacing=0 ><tr><td><img src=../chatroom/image/rightct3.gif ></td><td background=../chatroom/image/rightct4.gif ></td> <td><img  src=../chatroom/image/rightct1.gif ></td></tr><tr><td background=../chatroom/image/rightct8.gif ></td><td valign=center align=center><table align=center border=0 cellpadding=1 cellspacing=0 ><tr> <td valign=center align=center>皇城公告</td> </tr> <tr><td valign=center align=center >魔幻江湖的动武时间是每小时的后30分钟；前30分钟可以自由打怪物，同样能增加您的状态；但一定要小心啊，别被怪物咬死，即使你开启了保护也无法抵挡怪物的袭击！所以，一定要给自己加一些体力和内力，内力没了也一样要死人的,现在泡分得状态很少,主要依靠不断的修炼来提高自己的各种状态.魔幻之神不欢迎懒汉哦,呵呵！</td></tr></table></td><td background=../chatroom/image/rightct08.gif></td></tr><tr><td><img src=../chatroom/image/rightct9.gif></td><td background=../chatroom/image/rightct10.gif></td><td><img src=../chatroom/image/rightct11.gif></td></tr></table></td></table>"
+	mess="<table align=center><td><table border=0 cellpadding=0 cellspacing=0 ><tr><td><img src=../chatroom/image/rightct3.gif ></td><td background=../chatroom/image/rightct4.gif ></td> <td><img  src=../chatroom/image/rightct1.gif ></td></tr><tr><td background=../chatroom/image/rightct8.gif ></td><td valign=center align=center><table align=center border=0 cellpadding=1 cellspacing=0 ><tr> <td valign=center align=center>皇城公告</td> </tr> <tr><td valign=center align=center >快乐江湖的动武时间是每小时的后30分钟；前30分钟可以自由打怪物，同样能增加您的状态；但一定要小心啊，别被怪物咬死，即使你开启了保护也无法抵挡怪物的袭击！所以，一定要给自己加一些体力和内力，内力没了也一样要死人的,现在泡分得状态很少,主要依靠不断的修炼来提高自己的各种状态.魔幻之神不欢迎懒汉哦,呵呵！</td></tr></table></td><td background=../chatroom/image/rightct08.gif></td></tr><tr><td><img src=../chatroom/image/rightct9.gif></td><td background=../chatroom/image/rightct10.gif></td><td><img src=../chatroom/image/rightct11.gif></td></tr></table></td></table>"
 end select
 conn.close
 set conn=nothing

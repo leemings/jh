@@ -119,7 +119,7 @@ dim newtalkarr(600)
 		newtalkarr(596)="" 
 		newtalkarr(597)="000000" 
 		newtalkarr(598)="000000" 
-		newtalkarr(599)="<font color=red>【新人注册】</font><font color=blue>魔幻江湖大家庭又增加新人口，<font color=red>"&username&"</font>成功注册，他所属的国家是"&country&"，大家要多照顾啊!谁先对"&username&"使用常用命令里的<font color=red>帮扶</font>功能,好处多多呢!</font>" 
+		newtalkarr(599)="<font color=red>【新人注册】</font><font color=blue>快乐江湖大家庭又增加新人口，<font color=red>"&username&"</font>成功注册，他所属的国家是"&country&"，大家要多照顾啊!谁先对"&username&"使用常用命令里的<font color=red>帮扶</font>功能,好处多多呢!</font>" 
 newtalkarr(600)=Session("yx8_mhjh_userchatroomsn")
 Application.Lock
 Application("yx8_mhjh_talkpoint")=talkpoint+1
@@ -196,7 +196,7 @@ href="reg/clubcom.css" rel=stylesheet type=text/css>
             <tr> 
               <td colspan="2" height="36"> 
                 <p align="center">&nbsp; 
-                <p align="center">恭喜你成为魔幻江湖超级战将！请牢记你的帐号、姓名和密码，以便登陆 
+                <p align="center">恭喜你成为快乐江湖超级战将！请牢记你的帐号、姓名和密码，以便登陆 
                 <p align="center"> 
                   <input type='button' value='关闭' onClick='javascript:top.window.close();' id=button1 name=button1>
                            </td>

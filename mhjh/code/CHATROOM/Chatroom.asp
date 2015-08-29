@@ -117,21 +117,21 @@ end if
 if sr>9 then
 msg="在江湖路上，江湖通缉犯%%正鬼头鬼脑溜进江湖，大家赶快为江湖除害呀，打死了还有赏金呢！”<bgsound src=../mid/scream.wav loop=3>"
 elseif xt="鬼魂" then
-msg="人生自古谁无死？留取丹心照汗青！此仇不报非君子，忍辱偷生看明朝。突然之间，江湖道上刮起一阵阴风，冤死之魂%%悄悄飘进魔幻江湖，哎~~~好可怜，赶紧去城外的凤凰蘖盘吧！<bgsoundsrc=../mid/scream.wav loop=3>"
+msg="人生自古谁无死？留取丹心照汗青！此仇不报非君子，忍辱偷生看明朝。突然之间，江湖道上刮起一阵阴风，冤死之魂%%悄悄飘进快乐江湖，哎~~~好可怜，赶紧去城外的凤凰蘖盘吧！<bgsoundsrc=../mid/scream.wav loop=3>"
 elseif jifen<500 then
-msg="少年不识愁滋味，欲罢还修，欲乐还忧，却道天凉好个秋。新人%%满怀期望进入魔幻江湖，愿大家给%%以帮助和照顾，赶紧使用命令里‘帮扶’功能吧，好处多多呢！<bgsoundsrc=../mid/scream.wav loop=3>"
+msg="少年不识愁滋味，欲罢还修，欲乐还忧，却道天凉好个秋。新人%%满怀期望进入快乐江湖，愿大家给%%以帮助和照顾，赶紧使用命令里‘帮扶’功能吧，好处多多呢！<bgsoundsrc=../mid/scream.wav loop=3>"
 elseif username=Application("yx8_mhjh_admin") then
-msg="此生自断天休问，独倚危楼。独倚危楼，不信人间别有愁。江湖站长%%进入魔幻江湖"
+msg="此生自断天休问，独倚危楼。独倚危楼，不信人间别有愁。江湖站长%%进入快乐江湖"
 elseif usercop="官府" then
-msg="新丰美酒斗十千，咸阳游侠多少年。相逢意气为君饮，系马高楼垂柳边。官府捕头%%进入魔幻江湖，大家小心了！"
+msg="新丰美酒斗十千，咸阳游侠多少年。相逢意气为君饮，系马高楼垂柳边。官府捕头%%进入快乐江湖，大家小心了！"
 elseif sf="掌门" then
-msg="何事沉吟？小窗斜日，立遍春阴。翠袖天寒，青衫人老，一样伤心。"&usercop&"掌门%%进入魔幻江湖"
+msg="何事沉吟？小窗斜日，立遍春阴。翠袖天寒，青衫人老，一样伤心。"&usercop&"掌门%%进入快乐江湖"
 elseif sf="副掌门" then
-msg="男儿生世间，及壮当封侯。战伐有功业，焉能守旧丘？"&usercop&"副掌门%%进入魔幻江湖"
+msg="男儿生世间，及壮当封侯。战伐有功业，焉能守旧丘？"&usercop&"副掌门%%进入快乐江湖"
 elseif hy="True" then
-msg="五陵年少金市东，银鞍白马度春风。落花踏尽游何处，笑入胡姬酒肆中。江湖会员%%进入魔幻江湖"
+msg="五陵年少金市东，银鞍白马度春风。落花踏尽游何处，笑入胡姬酒肆中。江湖会员%%进入快乐江湖"
 elseif zs<>"无" then
-msg="天外有天，人外有人，十年磨一剑，潇洒江湖行！<img src=image/bt.gif width=52 height=41>"&zs&"%%进入魔幻江湖"
+msg="天外有天，人外有人，十年磨一剑，潇洒江湖行！<img src=image/bt.gif width=52 height=41>"&zs&"%%进入快乐江湖"
 else
 msg=replace(yx8_mhjh_guestjoin,"@#",Application("yx8_mhjh_systemname"&chatroomsn))
 end if
@@ -185,7 +185,7 @@ session("yx8_mhjh_usertalkpoint")=talkpoint
 end if
 %>
 <head>
-<title>魔幻江湖</title>
+<title>快乐江湖</title>
 <script language=javascript>
 if(window.name!="chat")
 { var i=1;
@@ -249,11 +249,11 @@ this.talkfrm.document.talkform.talkmsg.focus();
 }
 function refresh1(tx){
 parent.msgfrm0.document.open();
-parent.msgfrm0.document.writeln("<html><head><meta http-equiv=Content-Type content='text/html; charset=gb2312'><link rel='stylesheet' href='css.css'></head><\script src=data/"+tx+" ><\/script><body oncontextmenu=self.event.returnValue=false text=000000><\Script Language=JavaScript>var autoScroll=1;function chgautoscroll(){if(!parent.talkfrm.document.talkform.autoscroll.checked){autoScroll=0;}else{autoScroll=1;autoscrollnow();}return true;}function autoscrollnow(){if(autoScroll==1){this.scroll(0,65000);parent.msgfrm1.window.scroll(0,65000);setTimeout('autoscrollnow()',200);}}autoscrollnow();<\/script><font color=FF0000>【风云变－震天下】</font>欢迎<font color=FF0000>〖<a href='javascript:parent.chgsendto(\"<%=username%>\");' target='talkfrm' onmouseover=\"window.status='选择说话或动作对象';return true;\" onmouseout=\"window.status='';return true;\"><font color=FF0000><%=username%></font></a>〗</font>光临魔幻江湖<font class=timsty><%=time()%></font><br>");
+parent.msgfrm0.document.writeln("<html><head><meta http-equiv=Content-Type content='text/html; charset=gb2312'><link rel='stylesheet' href='css.css'></head><\script src=data/"+tx+" ><\/script><body oncontextmenu=self.event.returnValue=false text=000000><\Script Language=JavaScript>var autoScroll=1;function chgautoscroll(){if(!parent.talkfrm.document.talkform.autoscroll.checked){autoScroll=0;}else{autoScroll=1;autoscrollnow();}return true;}function autoscrollnow(){if(autoScroll==1){this.scroll(0,65000);parent.msgfrm1.window.scroll(0,65000);setTimeout('autoscrollnow()',200);}}autoscrollnow();<\/script><font color=FF0000>【风云变－震天下】</font>欢迎<font color=FF0000>〖<a href='javascript:parent.chgsendto(\"<%=username%>\");' target='talkfrm' onmouseover=\"window.status='选择说话或动作对象';return true;\" onmouseout=\"window.status='';return true;\"><font color=FF0000><%=username%></font></a>〗</font>光临快乐江湖<font class=timsty><%=time()%></font><br>");
 }
 function ziti(ttx){
 parent.msgfrm0.document.open();
-parent.msgfrm0.document.writeln("<html><head><meta http-equiv=Content-Type content='text/html; charset=gb2312'><link rel='stylesheet' href="+ttx+"></head><\Script Language=JavaScript>var autoScroll=1;function chgautoscroll(){if(!parent.talkfrm.document.talkform.autoscroll.checked){autoScroll=0;}else{autoScroll=1;autoscrollnow();}return true;}function autoscrollnow(){if(autoScroll==1){this.scroll(0,65000);parent.msgfrm1.window.scroll(0,65000);setTimeout('autoscrollnow()',200);}}autoscrollnow();<\/script><body text=000000 oncontextmenu=self.event.returnValue=false><font color=FF0000>【风云变－震天下】</font>欢迎<font color=FF0000>〖<a href='javascript:parent.chgsendto(\"<%=username%>\");' target='talkfrm' onmouseover=\"window.status='选择说话或动作对象';return true;\" onmouseout=\"window.status='';return true;\"><font color=FF0000><%=username%></font></a>〗</font>光临魔幻江湖<font class=timsty><%=time()%></font><br>");parent.msgfrm1.document.open();parent.msgfrm1.document.writeln("<html><head><meta http-equiv=Content-Type content='text/html; charset=gb2312'><link rel='stylesheet' href="+ttx+"></head><body text=000000 ><font color=FF0000>【风云变－震天下】</font>欢迎<font color=FF0000>〖<a href='javascript:parent.chgsendto(\"<%=username%>\");' target='talkfrm' onmouseover=\"window.status='选择说话或动作对象';return true;\" onmouseout=\"window.status='';return true;\"><font color=FF0000><%=username%></font></a>〗</font>光临魔幻江湖<font class=timsty><%=time()%></font><br>");
+parent.msgfrm0.document.writeln("<html><head><meta http-equiv=Content-Type content='text/html; charset=gb2312'><link rel='stylesheet' href="+ttx+"></head><\Script Language=JavaScript>var autoScroll=1;function chgautoscroll(){if(!parent.talkfrm.document.talkform.autoscroll.checked){autoScroll=0;}else{autoScroll=1;autoscrollnow();}return true;}function autoscrollnow(){if(autoScroll==1){this.scroll(0,65000);parent.msgfrm1.window.scroll(0,65000);setTimeout('autoscrollnow()',200);}}autoscrollnow();<\/script><body text=000000 oncontextmenu=self.event.returnValue=false><font color=FF0000>【风云变－震天下】</font>欢迎<font color=FF0000>〖<a href='javascript:parent.chgsendto(\"<%=username%>\");' target='talkfrm' onmouseover=\"window.status='选择说话或动作对象';return true;\" onmouseout=\"window.status='';return true;\"><font color=FF0000><%=username%></font></a>〗</font>光临快乐江湖<font class=timsty><%=time()%></font><br>");parent.msgfrm1.document.open();parent.msgfrm1.document.writeln("<html><head><meta http-equiv=Content-Type content='text/html; charset=gb2312'><link rel='stylesheet' href="+ttx+"></head><body text=000000 ><font color=FF0000>【风云变－震天下】</font>欢迎<font color=FF0000>〖<a href='javascript:parent.chgsendto(\"<%=username%>\");' target='talkfrm' onmouseover=\"window.status='选择说话或动作对象';return true;\" onmouseout=\"window.status='';return true;\"><font color=FF0000><%=username%></font></a>〗</font>光临快乐江湖<font class=timsty><%=time()%></font><br>");
 }
 </script>
 </head>

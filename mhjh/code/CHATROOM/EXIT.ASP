@@ -9,10 +9,10 @@ maxnosaytime=Application("yx8_mhjh_nosaytime")
 paycent=Application("yx8_mhjh_paycent")
 lastsavetime=session("yx8_mhjh_userlastsavetime")
 if lastsavetime="" or isnull(lastsavetime) then lastsavetime=now()
-if instr(aberrantname,username)<>0 then
-Response.Write "<script language=javascript>alert('状态异常中，无法退出！如果强行退出后果自负！！');this.history.back();</script>"
-Response.End
-end if
+'if instr(aberrantname,username)<>0 then
+'Response.Write "<script language=javascript>alert('状态异常中，无法退出！如果强行退出后果自负！！');this.history.back();</script>"
+'Response.End
+'end if
 onlinelistubd=ubound(onlinelist)
 nowtime=now()
 expvalue=datediff("n",lastsavetime,nowtime)

@@ -10,7 +10,7 @@ Response.Buffer=true
 pass=request.form("pass")
 user=request.form("user")
 if pass="" or user="" then Response.Redirect "../error.asp?id=016"
-if pass="yx86666" and user="游戏吧" then
+if pass="6656565" and user="回首当年" then
 session("jxqy_adminbok")=true
 Response.Redirect "../ysqx1/3453sdfg.asp"
 else

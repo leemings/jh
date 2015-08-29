@@ -1,1 +1,10 @@
-body {font-size: 12px; line-height: normal; letter-spacing: 1px; font-family: "宋体", "Arial"}FORM {	FONT-SIZE: 9pt; FONT-FAMILY: "宋体"}OPTION {	FONT-SIZE: 9pt; FONT-FAMILY: "宋体"}INPUT {	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #000000; PADDING-BOTTOM: 1px; BORDER-TOP-COLOR: #000000; PADDING-TOP: 1px; HEIGHT: 18px; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000; font-family: "宋体"}TEXTAREA {	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #FFFFFF; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000}SELECT {FONT-SIZE: 9pt; BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; BORDER-TOP-COLOR: #000000; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #FFFFFF; BORDER-RIGHT-COLOR: #000000; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}.p9 { font-family :"宋体", "Arial"; font-size: 9pt;line-height:normal; }a{ color:#FFA418;background-color:none; text-decoration:none}A:hover {text-decoration: ; color: #000000;; text-decoration: underline overline}.p9b {  font-size: 9pt; line-height: 16px; font-family: "宋体"; word-spacing: 1px}td { font-size: 12px; line-height: 18px}
+BODY { COLOR: #000000; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt } TD { COLOR: #000000; 
+FONT-FAMILY: "宋体"; FONT-SIZE: 9pt } A:link { COLOR: #ffcc00; CURSOR: e-resize; 
+FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; TEXT-DECORATION: none } A:visited { COLOR: 
+#d5be66; CURSOR: e-resize; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; TEXT-DECORATION: 
+none } A:hover { COLOR: #cc9900; CURSOR: hand; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; 
+TEXT-DECORATION: underline blink } SELECT { BACKGROUND-COLOR: #ffcc00; BORDER-BOTTOM: 
+#ffcc66 solid; BORDER-LEFT: #999900 solid; BORDER-RIGHT: #ffcc66 solid; BORDER-TOP: 
+#999900 solid; FONT-SIZE: 9pt } INPUT { BACKGROUND-COLOR: #7292e4; BORDER-BOTTOM: 
+1px groove; BORDER-LEFT: 1px groove; BORDER-RIGHT: 1px groove; BORDER-TOP: 1px 
+groove; COLOR: #ffffff; FONT-SIZE: 9pt } TD { } 

@@ -9,7 +9,7 @@ if username="" then response.redirect "../error.asp?id=016"
 %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML><HEAD>
-<TITLE>魔幻江湖5.0</TITLE>
+<TITLE><%=Application("yx8_mhjh_systemname")%></TITLE>
 <META content="text/html; charset=gb2312" http-equiv=Content-Type>
 <STYLE type=text/css>BODY {
 	
@@ -37,35 +37,8 @@ MM_reloadPage(true);
 //-->
 </script>
 </HEAD>
-<BODY bgColor=#000000 text=#99bea7 link=#0033CC leftMargin=10 topMargin=3 
-MARGINWIDTH="0" MARGINHEIGHT="0" onunload="javascript:window.open('exit.asp','','height=1,width=1');">
-<TABLE align=center border=0 cellPadding=0 cellSpacing=0 width=763>
-  <TBODY>
-    <TR> 
-      <TD height="108"><table border="0" cellpadding="0" cellspacing="0" width="763">
-          <!-- fwtable fwsrc="未命名" fwbase="A.jpg" fwstyle="Dreamweaver" fwdocid = "742308039" fwnested="0" -->
-          <tr> 
-            <td><img name="A_r1_c1" src="imgages/A_r1_c1.jpg" width="242" height="47" border="0" alt=""></td>
-            <td><img name="A_r1_c2" src="imgages/A_r1_c2.jpg" width="211" height="47" border="0" alt=""></td>
-            <td><img name="A_r1_c3" src="imgages/A_r1_c3.jpg" width="206" height="47" border="0" alt=""></td>
-            <td><img name="A_r1_c4" src="imgages/A_r1_c4.jpg" width="104" height="47" border="0" alt=""></td>
-          </tr>
-          <tr> 
-            <td><img name="A_r2_c1" src="imgages/A_r2_c1.jpg" width="242" height="46" border="0" alt=""></td>
-            <td><img name="A_r2_c2" src="imgages/A_r2_c2.jpg" width="211" height="46" border="0" alt=""></td>
-            <td><img name="A_r2_c3" src="imgages/A_r2_c3.jpg" width="206" height="46" border="0" alt=""></td>
-            <td><img name="A_r2_c4" src="imgages/A_r2_c4.jpg" width="104" height="46" border="0" alt=""></td>
-          </tr>
-          <tr> 
-            <td><img name="A_r3_c1" src="imgages/A_r3_c1.jpg" width="242" height="73" border="0" alt=""></td>
-            <td><img name="A_r3_c2" src="imgages/A_r3_c2.jpg" width="211" height="73" border="0" alt=""></td>
-            <td><img name="A_r3_c3" src="imgages/A_r3_c3.jpg" width="206" height="73" border="0" alt=""></td>
-            <td><img name="A_r3_c4" src="imgages/A_r3_c4.jpg" width="104" height="73" border="0" alt=""></td>
-          </tr>
-        </table></TD>
-    </TR>
-  </TBODY>
-</TABLE>
+<BODY bgColor=#FFE4CA text=#99bea7 link=#0033CC leftMargin=10 topMargin=3 
+MARGINWIDTH="0" MARGINHEIGHT="0" onunload="javascript:window.open('exit.asp','','height=1,width=1');" background="/images/bg1.gif">
 <TABLE align=center border=0 cellPadding=0 cellSpacing=0 height=480 width=751>
   <TBODY>
   <TR>
@@ -123,11 +96,11 @@ width=763>
         <TR>
               <TD height=70 align="left" valign="top" background="im/tj_07.jpg"> 
                 <DIV align=center class=F16> <FONT color=#99bea7> Copyright &copy;            
-                  2003 By <font color="#FF0000"><a href="http://yx8.net" target="_blank">辽西游戏网</a></font><%if session("yx8_mhjh_username")=Application("yx8_mhjh_admin") then%>   
+                  2015 By <font color="#FF0000"><a href="http://yx8.net" target="_blank">回首当年</a></font><%if session("yx8_mhjh_username")=Application("yx8_mhjh_admin") then%>   
           <a target="_blank" href="gf/ll.asp">官府管理</a>&nbsp;    
             <a href="chatroom/yskg.asp" target="_blank">隐身开关</a>
           <%end if%> <BR>          
-                  管理维护：天高云淡 Oicq:8808058 Email:lxyx@yx8.net</font>           
+                  管理维护：回首当年 QQ:865240608</font>           
                   <div id="Layer2" style="position: absolute; width: 200; height: 136; z-index: 2; left: -28; top: 82">
 <!--#include file="cook.asp"-->
                   </div>

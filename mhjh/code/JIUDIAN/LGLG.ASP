@@ -17,7 +17,7 @@ text=#000000 topMargin=0>
   <TR>
     <TD width=48><IMG src="jd.files/empty.gif"></TD>
     <TD width=34><IMG src="jd.files/position.gif" width="22" height="22"></TD>
-    <TD class=head-l width=660>您当前位置：<a href="../jh.asp"><font color="#FFFFFF">魔幻江湖</font></a>-&gt;<a href="jd.asp"><font color="#FFFFFF">江湖大酒店</font></a>-&gt;流光飞舞宴会</TD>
+    <TD class=head-l width=660>您当前位置：<a href="../jh.asp"><font color="#FFFFFF">快乐江湖</font></a>-&gt;<a href="jd.asp"><font color="#FFFFFF">江湖大酒店</font></a>-&gt;流光飞舞宴会</TD>
     <TD align=right vAlign=top width=18><IMG 
   src="jd.files/rc.gif"></TD></TR></TBODY></TABLE>
 <TABLE border=0 cellPadding=0 cellSpacing=0 width=760 align="center">

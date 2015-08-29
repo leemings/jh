@@ -14,7 +14,7 @@ if session("yx8_mhjh_usercorp")<>"官府"  then response.redirect "../error.asp?id
 <form method="post" action="asking.asp">
 <table width="300" border="1" cellspacing="0" cellpadding="3" align="center" bordercolorlight="#000000" bordercolordark="#FFFFFF">
 <tr align="center" bgcolor="#33CCCC">
-<td colspan="2" height="27" >魔幻江湖抢答</td>
+<td colspan="2" height="27" >快乐江湖抢答</td>
 </tr>
 <tr>
 <td valign="top">问：</td>

@@ -31,7 +31,7 @@ exit function
 	end if
 conn.execute "update 用户 set 银两=银两+"&mg*0.97&",积分=积分+500,体力=体力+"&mg/2&",内力=内力+"&mg/5&" where 姓名='"&st&"'"
 conn.execute "update 用户 set 银两=银两-"&mg&",体力=体力-"&mg/2&",内力=内力-"&mg/5&",防御=防御+"&mg/50&",道德=道德+"&mg/50&" where 姓名='"&un&"'"
-bangfu="<font color=FF0000>【帮扶新人】</font>##发挥魔幻江湖的优良传统，热心帮助新人，把自己的"&mg&"两银子、"&mg/2&"体力、"&mg/5&"内力送给了%%，而他自己获得官府奖励防御"&mg/50&"，道德"&mg/50&"，向官府救灾中心交纳税金3%<bgsound src='../mid/thanks.wav' loop=1>"
+bangfu="<font color=FF0000>【帮扶新人】</font>##发挥快乐江湖的优良传统，热心帮助新人，把自己的"&mg&"两银子、"&mg/2&"体力、"&mg/5&"内力送给了%%，而他自己获得官府奖励防御"&mg/50&"，道德"&mg/50&"，向官府救灾中心交纳税金3%<bgsound src='../mid/thanks.wav' loop=1>"
 end if
 end if
 end if

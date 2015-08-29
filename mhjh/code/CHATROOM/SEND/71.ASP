@@ -3,7 +3,7 @@ function gd(un,st,mg)
 timetmp=now()
 f=Minute(time())
 if f<30 or chatroomsn<>1 then
-	     Response.Write "<script language=JavaScript>{alert('攻打要塞的时间是每个小时的后30分钟!而且必须在[魔幻江湖]中进行！');}</script>"
+	     Response.Write "<script language=JavaScript>{alert('攻打要塞的时间是每个小时的后30分钟!而且必须在[快乐江湖]中进行！');}</script>"
          Response.End
 end if
 Set connb = Server.CreateObject("ADODB.Connection")

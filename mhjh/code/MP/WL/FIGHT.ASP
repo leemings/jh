@@ -159,7 +159,7 @@ dim newtalkarr(600)
 		newtalkarr(596)="" 
 		newtalkarr(597)="000000" 
 		newtalkarr(598)="000000" 
-		newtalkarr(599)="<font color=red>【消息】</font><font color=#9900ff>恭喜！！<font color=#ff0000>"& my &"</font>参加魔幻江湖的武林大会，战胜"& xm &"，成功登上了<font color=#ff0000>"& classes & typeses&"</font>的宝座！并夺得"& xm &"的积分2000点！实在是威风八面！</font>" 
+		newtalkarr(599)="<font color=red>【消息】</font><font color=#9900ff>恭喜！！<font color=#ff0000>"& my &"</font>参加快乐江湖的武林大会，战胜"& xm &"，成功登上了<font color=#ff0000>"& classes & typeses&"</font>的宝座！并夺得"& xm &"的积分2000点！实在是威风八面！</font>" 
 newtalkarr(600)=Session("yx8_mhjh_userchatroomsn")
 Application.Lock
 Application("yx8_mhjh_talkpoint")=talkpoint+1

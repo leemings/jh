@@ -226,7 +226,7 @@ Set Rs=conn.Execute(sql)
     </td>
   </tr>
   <tr align="center"> 
-    <td width="500" height="2"><font color="#000000">魔幻江湖版权所有</font></td>
+    <td width="500" height="2"><font color="#000000">快乐江湖版权所有</font></td>
   </tr>
 </table>
 <div align="center"><font color="#000000">条件个数:</font><b><font color="#0000FF"><%=(jl)%></font></b><font color="#000000"></font> 
@@ -323,7 +323,7 @@ set conn=nothing
       </td>
     </tr>
     <tr align="center"> 
-      <td  width="500" height="5"><font color="#000000">魔幻江湖－游戏吧版权所有</font></td>
+      <td  width="500" height="5"><font color="#000000">快乐江湖－游戏吧版权所有</font></td>
     </tr>
   </table>
   <div align="center"><font color="#000000">条件个数:</font><b><font color="#0000FF"><%=(jl)%></font></b><font color="#000000"></font> 

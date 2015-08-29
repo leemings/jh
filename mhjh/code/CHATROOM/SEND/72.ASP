@@ -3,7 +3,7 @@ function xw(un,st,mg)
 timetmp=now()
 f=Minute(time())
 if f>30 and chatroomsn<>1 then
-	     Response.Write "<script language=JavaScript>{alert('随师傅学习武功需要在每个小时的前30分钟，而且必须在魔幻江湖中进行！');}</script>"
+	     Response.Write "<script language=JavaScript>{alert('随师傅学习武功需要在每个小时的前30分钟，而且必须在快乐江湖中进行！');}</script>"
          Response.End
 end if
 Set connb = Server.CreateObject("ADODB.Connection")

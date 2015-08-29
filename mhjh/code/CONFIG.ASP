@@ -9,7 +9,7 @@ const lockipright=104
 const unlockipright=105
 const bombright=110
 const quzhu=103
-const yx8_mhjh_advertisemen="欢迎光临魔幻江湖，希望这里能给你快乐的家;但愿欢笑永远充满在江湖中"
+const yx8_mhjh_advertisemen="欢迎光临快乐江湖，希望这里能给你快乐的家;但愿欢笑永远充满在江湖中"
 %>
 
 

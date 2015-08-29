@@ -15,7 +15,7 @@ conn.Open Application("yx8_mhjh_connstr")
 set rst=server.CreateObject("adodb.recordset")
 rst.Open "select 体力,防御 from 用户 where 姓名='"&username&"' and 体力>=100000",conn
 if rst.EOF or rst.BOF then
-msg="<FONT color=#ff0000>【操作错误】</FONT>你的体力眼看要消耗光了,没有力气逃跑,赶快使用千里传音到魔幻江湖去喊人来救你吧!<br>"
+msg="<FONT color=#ff0000>【操作错误】</FONT>你的体力眼看要消耗光了,没有力气逃跑,赶快使用千里传音到快乐江湖去喊人来救你吧!<br>"
 else
 fhp=rst("体力")
 fdefence=rst("防御")

@@ -273,7 +273,7 @@ function count() {
 <META content="Microsoft FrontPage 4.0" name=GENERATOR></HEAD>
 <BODY bgColor=#70ac58 topMargin=0 onload=doPreload(); MARGINWIDTH="0" MARGINHEIGHT="0" >
 <br><font color=red>种花可以得到很多练功必须的精力,共5种花 ,每收获一朵可以得到3个种子;紫色的花得精力最多,一朵15万精力,注意,别乱开垦哦</font><TR>
-<table width=100%><tr><td height=350> </td></tr><tr><td align=center><p align=center><font style=font-size:9pt><font color="#FFFF00"><img border="0" src="30.gif"></font></font><font style=font-size:9pt><font color="#000000">魔幻江湖　</font></font><font style=font-size:9pt color=#FF0000>Copyright 
+<table width=100%><tr><td height=350> </td></tr><tr><td align=center><p align=center><font style=font-size:9pt><font color="#FFFF00"><img border="0" src="30.gif"></font></font><font style=font-size:9pt><font color="#000000">快乐江湖　</font></font><font style=font-size:9pt color=#FF0000>Copyright 
       2002-2003</font><font color="#000000"><font style=font-size:9pt>　</font><font style="font-size: 9pt">程序修改:</font><acronym title="QQ:8808058 E-Mail:lxyx@yx8.net"><a href="http://www.yx8.net/"></a></acronym></font><a href="http://www.yx8.net/"><acronym title="QQ:8808058 E-Mail:lxyx@yx8.net"><font style="font-size: 9pt" color="#000000">游戏吧</font><font style="font-size: 9pt" color="#800000"><img border="0" src="21.gif"></font></acronym></a></p></table>
 
 <DIV id=field style="Z-INDEX: 3; LEFT: 160px; WIDTH: 367px; POSITION: absolute; TOP: 40px; HEIGHT: 253px">

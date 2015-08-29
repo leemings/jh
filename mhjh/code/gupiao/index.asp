@@ -2,7 +2,7 @@
 <!--#include file="const.asp"-->
 <html><head>
 <META http-equiv=Content-Type content=text/html; charset=gb2312>
-<meta name=keywords content="魔幻江湖股票市场">
+<meta name=keywords content="快乐江湖股票市场">
 <META HTTP-EQUIV="luxiaoqing" CONTENT="no-cache">
 <meta http-equiv="refresh" content="<%=Gupiao_Setting(1)%>">
 <title><%=Gupiao_Setting(5)%>-<%=membername%></title>

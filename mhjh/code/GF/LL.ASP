@@ -18,11 +18,11 @@ if username<>Application("yx8_mhjh_admin") then Response.Redirect "../exit.asp"
 <p>
 <center>
 <br>
-魔幻江湖管理登陆窗口</p>
+快乐江湖管理登陆窗口</p>
 <form action=do123.asp method=post>
 请输入超级管理帐号:<input type=text size=20 name=user><br>请输入超级管理密码:<input type=password size=20 name=pass><br><input type=submit value='确认'>
 </form>
 </center>
-<p align="center">游戏吧 2002-7-25</p>
+<p align="center"> 2015-8-29</p>
 </body>
 </html>

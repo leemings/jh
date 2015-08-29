@@ -18,7 +18,7 @@ if username="" then Response.Redirect "../../error.asp?id=016"
 <tr>
 <td width="847">
 <form method="POST" action="CHECKSEX.ASP">
-<p align="center"><b><font face="宋体" size="4">魔幻江湖嘉宾俱乐部</font></b></p>
+<p align="center"><b><font face="宋体" size="4">快乐江湖嘉宾俱乐部</font></b></p>
 <p align="center"><font size="2" face="宋体">欢迎光临，我们有最好的按摩小姐为你服务，请你慢慢享受温泉浴</font></p>
 <table width="100%" cellspacing="0" height="126"  border="1" bordercolordark="#FFFFFF" bordercolorlight="#000000">
 <tr bgcolor="#33FF33">

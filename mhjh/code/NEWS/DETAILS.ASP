@@ -1,7 +1,7 @@
 
 <html>
 <head>
-<title>[魔幻江湖]之[官府公告]</title>
+<title>[快乐江湖]之[官府公告]</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <LINK href="style.css" rel=stylesheet>
 </head>

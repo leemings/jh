@@ -20,7 +20,7 @@
           <table height="366">
             <tr>
               <td vAlign="top" align="middle" width="15" height="7"></td>
-              <td height="7"><b>[魔幻江湖]：新增任务一览表<font color="#FF0000"><br>
+              <td height="7"><b>[快乐江湖]：新增任务一览表<font color="#FF0000"><br>
                 <br>
                 </font></b><font color="#FFFF00">要想完成下列任务，需要先唤醒任务，唤醒人物NPC需要大量的任务数值才能开启，任务数值可以通过任务系统获得。</font><font color="#000000"><br>
                 <br>

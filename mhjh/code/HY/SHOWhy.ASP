@@ -23,7 +23,7 @@ if username="" then Response.Redirect "../error.asp?id=016"
 cellpadding="0" bordercolor="#000000">
 <tr>
 <td colspan="7" width="571">
-<div align="center"><font color="#FF6600">魔幻江湖会员列表<br>
+<div align="center"><font color="#FF6600">快乐江湖会员列表<br>
 
 </font></div>
 </td>

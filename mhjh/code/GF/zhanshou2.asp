@@ -19,7 +19,7 @@ sql="update ÓÃ»§ set ×îºóµÇÂ¼Ê±¼ä=now()+"&shi&",×´Ì¬='ËÀÍö',µÈ¼¶=µÈ¼¶-2,ÌåÁ¦=ÌåÁ
 conn.execute sql
 sql="insert into Ó¢ÁÒÌÃ(ËÀÕß,Ê±¼ä,Ğ×ÊÖ,ËÀÒò) values ('"&Request("name")&"',now(),'"&username&"','ÀÎ·¿±»Õ¶')"
 conn.execute sql
-sql="insert into ÁÄÎñ¼ÇÂ¼(¹ÜÀíÀàĞÍ,¹ÜÀíÈËÔ±,±»¹ÜÀíÈË,¹ÜÀíÔ­Òò,¹ÜÀíÊ±¼ä,¹ÜÀí·¿¼ä) values ('Õ¶Ê×','"&username&"','"&Request("name")&"','ÀÎ·¿±»Õ¶',now(),'Ä§»Ã½­ºş')"
+sql="insert into ÁÄÎñ¼ÇÂ¼(¹ÜÀíÀàĞÍ,¹ÜÀíÈËÔ±,±»¹ÜÀíÈË,¹ÜÀíÔ­Òò,¹ÜÀíÊ±¼ä,¹ÜÀí·¿¼ä) values ('Õ¶Ê×','"&username&"','"&Request("name")&"','ÀÎ·¿±»Õ¶',now(),'¿ìÀÖ½­ºş')"
 conn.execute sql
 talkarr=Application("yx8_mhjh_talkarr")
 talkpoint=Application("yx8_mhjh_talkpoint")

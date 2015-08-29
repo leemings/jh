@@ -1,6 +1,6 @@
 <%my=session("yx8_mhjh_username")%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD><TITLE>魔幻江湖-女性画廊</TITLE>
+<HTML><HEAD><TITLE>快乐江湖-女性画廊</TITLE>
 <META content="text/html; charset=gb2312" http-equiv=Content-Type><LINK 
 href="../../style4.css" rel=stylesheet>
 <META content="Microsoft FrontPage 4.0" name=GENERATOR><style fprolloverstyle TYPE="text/css"><!--A:link{text-decoration:none}A:visited{text-decoration:none} -->A:hover {color: #ff00ff}</style></HEAD>
@@ -13,7 +13,7 @@ href="../../style4.css" rel=stylesheet>
       <TABLE border=0 cellPadding=0 cellSpacing=0 width="601" height="124">
           <TBODY>
             <TR> 
-              <TD width="321" height="28"> <font size="2"><font color="#ffffff" size="2"><font color="#696969"><font color="#373737">|</font><font color="#505050">|</font>|</font><font color="#828282">|</font><font color="#9b9b9b">|</font><font color="#b4b4b4">|</font><font color="#cdcdcd">|</font><font color="#e6e6e6">|</font></font></font><font color="#00FF00">|[</font><font color="#00FF00" face="Abadi MT Condensed Light">魔幻江湖</font><font color="#00FF00"><img height="11" src="a12.gif" width="15">女性画廊]</font><font size="2">|<font color="#e6e6e6">|</font><font color="#cdcdcd">|</font><font color="#b4b4b4">|</font><font color="#9b9b9b">|</font><font color="#828282">|</font><font color="#696969">|<font color="#505050">|</font><font color="#373737">|</font></font></font></TD>
+              <TD width="321" height="28"> <font size="2"><font color="#ffffff" size="2"><font color="#696969"><font color="#373737">|</font><font color="#505050">|</font>|</font><font color="#828282">|</font><font color="#9b9b9b">|</font><font color="#b4b4b4">|</font><font color="#cdcdcd">|</font><font color="#e6e6e6">|</font></font></font><font color="#00FF00">|[</font><font color="#00FF00" face="Abadi MT Condensed Light">快乐江湖</font><font color="#00FF00"><img height="11" src="a12.gif" width="15">女性画廊]</font><font size="2">|<font color="#e6e6e6">|</font><font color="#cdcdcd">|</font><font color="#b4b4b4">|</font><font color="#9b9b9b">|</font><font color="#828282">|</font><font color="#696969">|<font color="#505050">|</font><font color="#373737">|</font></font></font></TD>
               <TD width="82" height="28"> <p align="center"><a href="index.asp"><font color="#C0C0C0">[返回]</font></a></p></TD>
               <TD width="77" height="28"> <p align="center"><a href="javascript:window.close()"><font color="#C0C0C0">[关闭]</font></a></p></TD>
               <TD width="77" height="54" rowspan="3"> <img border="0" src="m004.gif"></TD>

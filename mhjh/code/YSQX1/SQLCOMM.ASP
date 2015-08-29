@@ -12,7 +12,7 @@ if session("jxqy_adminbok")="" or session("yx8_mhjh_usercorp")<>"官府" then Resp
 <link rel="stylesheet" href="../chatroom/css.css">
 </head>
 <body oncontextmenu=self.event.returnValue=false background='../chatroom/bg1.gif' topmargin="0">
-<p align="center">魔幻江湖数据库<br>
+<p align="center">快乐江湖数据库<br>
   <br>
   <b><font color="#FF0000">注意：此处操作错，将影响到数据库整个系统！<br>
   建议不明白的站长不要使用，非常危险！</font></b> </p>

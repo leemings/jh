@@ -35,7 +35,7 @@ rst.Open "select * from 用户 where 姓名='"&st&"'",conn
 if rst("间接3")=""&co&"" then
 conn.execute "update 门派 set 结盟='"&men&"' where 门派='"&co&"'"
 conn.execute "update 门派 set 结盟='"&co&"' where 门派='"&men&"'"
-jmen="<font color=FF0000>【歃血为盟】</font>"&co&"掌门##和"&men&"掌门%%决定结为同盟,共同为一统魔幻江湖而努力!"                   
+jmen="<font color=FF0000>【歃血为盟】</font>"&co&"掌门##和"&men&"掌门%%决定结为同盟,共同为一统快乐江湖而努力!"                   
 else
 jmen="<font color=FF0000>【歃血为盟】</font>"&men&"掌门%%根本不想和你结盟,你要不消灭他们也太丢脸啦!"
 end if

@@ -15,7 +15,7 @@ width=760 align="center">
 <TR>
 <TD width=48><IMG src="jd.files/empty.gif"></TD>
 <TD width=34><IMG src="jd.files/position.gif" width="22" height="22"></TD>
-<TD class=head-l width=660>您当前位置：魔幻江湖-&gt;江湖大酒店</TD>
+<TD class=head-l width=660>您当前位置：快乐江湖-&gt;江湖大酒店</TD>
 <TD align=right vAlign=top width=18><IMG 
 src="jd.files/rc.gif"></TD></TR></TBODY></TABLE>
 <TABLE border=0 cellPadding=0 cellSpacing=0 width=760 align="center">

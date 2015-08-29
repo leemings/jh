@@ -165,7 +165,7 @@ function showme()
 	if (!(!document.all&&!document.getElementById))
 	{
 		var cro=document.getElementById? document.getElementById("CopyRight"): document.all.CopyRight
-		cro.innerHTML = "<a href='/xajh' class=cgray target='_blank' title='制作小组：yx8.net'>CopyRight 2002～2003 魔幻江湖</a>" 
+		cro.innerHTML = "<a href='/xajh' class=cgray target='_blank' title='制作小组：yx8.net'>CopyRight 2002～2003 快乐江湖</a>" 
 	}
 }
 function makeRectangularDropShadow(el, color, size)

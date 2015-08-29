@@ -41,7 +41,7 @@ href="../../style4.css" rel=stylesheet>
                       <p>　
                       </TD></TR>
                     <TR>
-                      <TD align=middle class=redtext height=15 width="478"><font size="2"><font color="#ffffff" size="2"><font color="#696969"><font color="#373737">|</font><font color="#505050">|</font>|</font><font color="#828282">|</font><font color="#9b9b9b">|</font><font color="#b4b4b4">|</font><font color="#cdcdcd">|</font><font color="#e6e6e6">|</font>|</font></font><font color="#ff0000" size="4">魔幻江湖<img height="11" src="a12.gif" width="15">女人画廊</font><font size="2">|<font color="#e6e6e6">|</font><font color="#cdcdcd">|</font><font color="#b4b4b4">|</font><font color="#9b9b9b">|</font><font color="#828282">|</font><font color="#696969">|<font color="#505050">|</font><font color="#373737">|</font></font></font></TD>
+                      <TD align=middle class=redtext height=15 width="478"><font size="2"><font color="#ffffff" size="2"><font color="#696969"><font color="#373737">|</font><font color="#505050">|</font>|</font><font color="#828282">|</font><font color="#9b9b9b">|</font><font color="#b4b4b4">|</font><font color="#cdcdcd">|</font><font color="#e6e6e6">|</font>|</font></font><font color="#ff0000" size="4">快乐江湖<img height="11" src="a12.gif" width="15">女人画廊</font><font size="2">|<font color="#e6e6e6">|</font><font color="#cdcdcd">|</font><font color="#b4b4b4">|</font><font color="#9b9b9b">|</font><font color="#828282">|</font><font color="#696969">|<font color="#505050">|</font><font color="#373737">|</font></font></font></TD>
                     </TR>
                     <TR>
                       <TD background=../pic/wtdrbg2.gif height="6" width="478">
