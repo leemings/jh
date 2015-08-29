@@ -27,7 +27,6 @@ sername=Request.ServerVariables("SERVER_NAME")
 ip=Request.ServerVariables("LOCAL_ADDR")
 sip=split(ip,".")
 num=cint(sip(0))*256*256*256+cint(sip(1))*256*256+cint(sip(2))*256+cint(sip(3))-1
-if InStr(Request.ServerVariables("HTTP_USER_AGENT"),"MSIE")=0 then Response.Redirect "error.asp?id=010"
 allhttp=LCase(Request.ServerVariables("ALL_HTTP"))
 if sjjh_disproxy="1" and (Instr(allhttp,"proxy")<>0 or Instr(allhttp,"http_via")<>0 or Instr(allhttp,"http_pragma")<>0) then Response.Redirect "error.asp?id=011"
 n=Year(date())

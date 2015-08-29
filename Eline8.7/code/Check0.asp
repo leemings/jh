@@ -25,9 +25,9 @@ server_v2=Cstr(Request.ServerVariables("SERVER_NAME"))
 if Application("sjjh_room")="" then Response.Redirect "error.asp?id=000"
 sername=Request.ServerVariables("SERVER_NAME")
 ip=Request.ServerVariables("LOCAL_ADDR")
+ip = "127.0.0.1"
 sip=split(ip,".")
 num=cint(sip(0))*256*256*256+cint(sip(1))*256*256+cint(sip(2))*256+cint(sip(3))-1
-if InStr(Request.ServerVariables("HTTP_USER_AGENT"),"MSIE")=0 then Response.Redirect "error.asp?id=010"
 allhttp=LCase(Request.ServerVariables("ALL_HTTP"))
 if sjjh_disproxy="1" and (Instr(allhttp,"proxy")<>0 or Instr(allhttp,"http_via")<>0 or Instr(allhttp,"http_pragma")<>0) then Response.Redirect "error.asp?id=011"
 n=Year(date())
@@ -54,6 +54,7 @@ sjjj=n+1 & "-" & y+2-12 & "-" & r
 end if
 huiqi=n+1 & "-" & y & "-" & r
 userip=Request.ServerVariables("REMOTE_ADDR")
+userip = "127.0.0.1"
 if Application("sjjh_closedoor")="1" then
 Response.Write "<script Language=Javascript>alert('欢迎您的光临！\n由于最近服务器不太稳定，所以站长决定暂时关闭聊天室的登录功能\n现在不能进行登录，请过些时间再来！\n—— —— —— —— —— —— —— —— —— —— —— —— —— —— ——\n感谢您对本江湖的支持和厚爱！\n给您带来的不便，甚感抱歉！\nSEE YOU\n\n2003-11-10');window.parent.close();</script>"
 Response.End

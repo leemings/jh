@@ -4,7 +4,7 @@ Response.AddHeader "Pragma","No-Cache"
 Response.AddHeader "Cache-Control","Private"
 Response.CacheControl = "No-Cache"
 %>
-document.write("<select name=select style=background-color:#009933;font-size:9pt;color:ccccff>");
+document.write("<select name=select style=background:FFFF00>");
 <%
 sjjh_roominfo=split(Application("sjjh_room"),";")
 chatroomnum=ubound(sjjh_roominfo)-1

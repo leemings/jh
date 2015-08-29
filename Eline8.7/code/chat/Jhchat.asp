@@ -390,7 +390,7 @@ erase banners
 %>
 function shake(n) {if (window.top.moveBy) {for (i = 10; i > 0; i--) {for (j = n; j > 0; j--) {window.top.moveBy(0,i);window.top.moveBy(i,0);window.top.moveBy(0,-i);window.top.moveBy(-i,0);}}}}
 if(window!=window.top){window.alert("ÇëÊ¹ÓÃieä¯ÀÀÆ÷Ê¹ÓÃ±¾ÏµÍ³£¡");top.location.href="../exit.asp"}
-if(window.name!="sjjh"){ var i=1;while (i<=50){window.alert("ÄãÏë×÷Ê²Ã´Ñ½£¬ºÚÎÒ£¿ÕâÀïÊÇ²»ÐÐµÄ£¬È¥±ð´¦Íæ°É£¡ÂýÂýµã50´Î£¡");i=i+1;}top.location.href="../exit.asp"}
+//if(window.name!="sjjh"){ var i=1;while (i<=50){window.alert("ÄãÏë×÷Ê²Ã´Ñ½£¬ºÚÎÒ£¿ÕâÀïÊÇ²»ÐÐµÄ£¬È¥±ð´¦Íæ°É£¡ÂýÂýµã50´Î£¡");i=i+1;}top.location.href="../exit.asp"}
 var crm="<%=chatroomname%>",bgc="<%=Application("sjjh_chatcolor")%>",systitle="<%=Application("sjjh_tltie")%>";
 var figo='<%=Application("figo")%>';
 var myn="<%=sjjh_name%>",mywife="<%=mywife%>",chatbgcolor="<%=chatbgcolor%>",chatimage="<%=chatimage%>";
@@ -429,7 +429,7 @@ this.f1.document.writeln("<span class=l><font color=red>¡¾ä¯ÀÀÆ÷Ë¢ÐÂ¡¿</font>ÈÈÁ
 this.f1.document.writeln("<%=roomtemp%><br>");
 this.f0.document.open();
 this.f0.document.writeln("<html><head><title>·ÖÆÁÏÔÊ¾</title><meta http-equiv=Content-Type content=\"text/html; charset=gb2312\">");
-this.f0.document.writeln("<style type=text/css>.p{font-size:20pt}.l{line-height:" + lheight + "%}.t{color:FF00FF;font-size:9pt;}body{font-family:\"ËÎÌå\";font-size:" + fsize + "pt;CURSOR: url('aixin.ani');scrollbar-face-color:#effaff;scrollbar-shadow-color:#eeeeee;scrollbar-highlight-color:#ffffff;scrollbar-3dlight-color:#eeeeee;scrollbar-darkshadow-color:#ffffff;scrollbar-track-color:#ffffff;scrollbar-arrow-color:#dddddd;}A{text-decoration:none}A:Hover{text-decoration:underline}A:visited{color:blue}BODY{background-image: URL(jjchatbg.gif);background-position:'top right';background-repeat: no-repeat;background-attachment: fixed;}</style></head>");
+this.f0.document.writeln("<style type=text/css>.p{font-size:20pt}.l{line-height:" + lheight + "%}.t{color:FF00FF;font-size:9pt;}body{font-family:\"ËÎÌå\";font-size:" + fsize + "pt;CURSOR: url('aixin.ani');scrollbar-face-color:#effaff;scrollbar-shadow-color:#eeeeee;scrollbar-highlight-color:#ffffff;scrollbar-3dlight-color:#eeeeee;scrollbar-darkshadow-color:#ffffff;scrollbar-track-color:#ffffff;scrollbar-arrow-color:#dddddd;}A{text-decoration:none}A:Hover{text-decoration:underline}A:visited{color:blue}BODY{background-position:'top right';background-repeat: no-repeat;background-attachment: fixed;}</style></head>");
 this.f0.document.writeln("<body background='"+bgimg+"'oncontextmenu=window.event.returnValue=false onselectstart=event.returnValue=false ondragstart=window.event.returnValue=false bgcolor=" + bgc + " text=660099>");
 this.f0.document.writeln("<span class=l><font color=red>¡¾ä¯ÀÀÆ÷Ë¢ÐÂ¡¿</font>ÈÈÁÒ»¶Ó­<font color=red>¡¾"+myn+"¡¿</font>À´µ½¡¶"+crm+"¡·- 51eline.com<font class=t>(<%=t%>)</font></span><br><b>¡¾½­ºþ¹«¸æ¡¿</b><%=jrht%><br>"+jsjsstr);
 this.t.location.href="t.asp";parent.DB();parent.mytitle(systitle);}
@@ -811,51 +811,45 @@ var nullframe = '<HTML><BODY BGCOLOR=#000000 text=#ffffff><center><H3 color=yell
 </script>
 </head>
 <frameset cols="1,*,1,160,1" name=tbgn1 rows="*" border="0" framespacing="0" frameborder="NO">
-<frameset rows="47,*,72" cols="*" frameborder="no" name=tbymd7>
-<frame src="ico/wfy24.htm" name="llmbt1" scrolling="no">
-<frame src="ico/wfy26.htm" name="llmbt2" scrolling="no">
-<frame src="ico/wfy25.htm" name="llmbt3" scrolling="no">
-</frameset>
+	<frameset rows="47,*,72" cols="*" frameborder="no" name=tbymd7>
+		<frame src="ico/wfy24.htm" name="llmbt1" scrolling="no">
+		<frame src="ico/wfy26.htm" name="llmbt2" scrolling="no">
+		<frame src="ico/wfy25.htm" name="llmbt3" scrolling="no">
+	</frameset>
 
-<frameset rows="24,*,0,0,0,25,76,0,1" cols="*">
-<frameset name=msgfrm cols="*">
-<frame src="ico/eline_time.htm" name="yt" scrolling="no" marginwidth="0" marginheight="0">
-<frameset name=msgfrm rows="*,*" cols="*">
-//<frame src="about:blank" name="f0" scrolling="AUTO" marginheight="3" marginwidth="5" frameborder="yes">
-//<frame src="about:blank" name="f1" scrolling="AUTO" marginheight="3" marginwidth="5" frameborder="no">
-<frame src="javascript:parent.nullframe" name="f0" scrolling="AUTO" framespacing="0" marginheight="3" marginwidth="5" frameborder="yes">
-<frame src="javascript:parent.nullframe" name="f1" scrolling="AUTO" framespacing="0" marginheight="3" marginwidth="5" frameborder="no">
-</frameset>
+	<frameset rows="24,*,0,0,0,25,76,0,1" cols="*">
+			<frame src="ico/eline_time.htm" name="yt" scrolling="no" marginwidth="0" marginheight="0">
+		<frameset name=msgfrm rows="*,*" cols="*">
+			<frame src="javascript:parent.nullframe" name="f0" scrolling="AUTO" framespacing="0" marginheight="3" marginwidth="5" frameborder="yes">
+			<frame src="javascript:parent.nullframe" name="f1" scrolling="AUTO" framespacing="0" marginheight="3" marginwidth="5" frameborder="no">
+		</frameset>
 
-<frame src="guanggao.asp" scrolling="NO"  name="gg" marginwidth="3" marginheight="3">
-<frame src="about:blank" name="mess" scrolling="no" >
-<frame src="about:blank" name="t" marginwidth="5" marginheight="5"  scrolling="NO">
-<frame src="about:blank" name="title" scrolling="no" >
-<frame src="f22.asp" name="f2" scrolling="NO" marginwidth="3" marginheight="8">
-<frame src="about:blank" name="d" scrolling="NO">
-<frame src="ico/wfy15.htm" name="zt" scrolling="no" marginwidth="0" marginheight="0">
-</frameset>
-<frameset rows="47,*,72" cols="*" frameborder="no" name=tbymd>
-<frame src="ico/wfy20.htm" name="lmbt1" scrolling="no">
-<frame src="ico/wfy19.htm" name="lmbt2" scrolling="no">
-<frame src="ico/wfy18.htm" name="lmbt3" scrolling="no">
-</frameset>
-<frameset rows="1,0,*,0,182" name=tbymd>
-<frame src="ico/wfy16.htm" name="st" scrolling="no">
-<frameset cols="*" name=tbymd>
-<frame src="about:blank" name="m">
-<frameset cols="*" name=tbymd>
-<frame src="about:blank" marginwidth="5" marginheight="5" name="f3">
-<frameset cols="*" name=tbymd>
-<frame src="about:blank" marginwidth="5" marginheight="5" name="ps">
-<frameset cols="*" name=tbymd>
-<frame src="F4.asp" name="F4" scrolling="no">
-</frameset>
-<frameset rows="47,*,72" cols="*" frameborder="no" name=tbymd>
-<frame src="ico/wfy23.htm" name="rmbt1" scrolling="no">
-<frame src="ico/wfy22.htm" name="rmbt2" scrolling="no">
-<frame src="ico/wfy21.htm" name="rmbt3" scrolling="no">
-</frameset>
+		<frame src="guanggao.asp" scrolling="NO"  name="gg" marginwidth="3" marginheight="3">
+		<frame src="about:blank" name="mess" scrolling="no" >
+		<frame src="about:blank" name="t" marginwidth="5" marginheight="5"  scrolling="NO">
+		<frame src="about:blank" name="title" scrolling="no" >
+		<frame src="f22.asp" name="f2" scrolling="NO" marginwidth="3" marginheight="8">
+		<frame src="about:blank" name="d" scrolling="NO">
+		<frame src="ico/wfy15.htm" name="zt" scrolling="no" marginwidth="0" marginheight="0">
+	</frameset>
+
+	<frameset rows="47,*,72" cols="*" frameborder="no" name=tbymd>
+		<frame src="ico/wfy20.htm" name="lmbt1" scrolling="no">
+		<frame src="ico/wfy19.htm" name="lmbt2" scrolling="no">
+		<frame src="ico/wfy18.htm" name="lmbt3" scrolling="no">
+	</frameset>
+	<frameset rows="1,0,*,0,182" name=tbymd>
+		<frame src="ico/wfy16.htm" name="st" scrolling="no">
+			<frame src="about:blank" name="m">
+			<frame src="about:blank" marginwidth="5" marginheight="5" name="f3">
+			<frame src="about:blank" marginwidth="5" marginheight="5" name="ps">
+			<frame src="F4.asp" name="F4" scrolling="no">
+	</frameset>
+	<frameset rows="47,*,72" cols="*" frameborder="no" name=tbymd>
+		<frame src="ico/wfy23.htm" name="rmbt1" scrolling="no">
+		<frame src="ico/wfy22.htm" name="rmbt2" scrolling="no">
+		<frame src="ico/wfy21.htm" name="rmbt3" scrolling="no">
+	</frameset>
 </frameset>
 
 </noframes>

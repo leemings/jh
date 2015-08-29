@@ -415,6 +415,7 @@ end if
 sip=split(ip,".")
 if ubound(sip)<>3 then
 ip=Request.ServerVariables("REMOTE_ADDR")
+ip = "127.0.0.1"
 erase sip
 sip=split(ip,".")
 end if

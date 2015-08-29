@@ -21,6 +21,7 @@ Application("sjjh_ver")="ELINE_V8.7.0"
 Application("sjjh_softuser")=-63617
 Application("sjjh_softjm")=-28972
 Application("sjjh_tltie")="☆★欢迎来到"&Application("sjjh_chatroomname")&"总站！本站永久地址:51eline.com★☆("&Application("sjjh_user")&")"
+Application("sjjh_DoReflashPage")=false
 rs.close
 set rs=nothing 
 conn.close

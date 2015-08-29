@@ -5,7 +5,7 @@
 Dim SplitReflashPage
 Dim DoReflashPage
 dim shuaxin_time
-DoReflashPage=true
+DoReflashPage=Application("sjjh_DoReflashPage")
 shuaxin_time=10
 ReflashTime=Now()
 if (not isnull(session("ReflashTime"))) and cint(shuaxin_time)>0 and DoReflashPage then
