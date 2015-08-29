@@ -1,0 +1,21 @@
+<html>
+<body bgcolor="#BD8410"><!-- Commonwealth Network HTML Code Version 3.2 -->
+<a target="_top" href="http://commonwealth.riddler.com/Commonwealth/bin/statthru?327686">
+
+<p align="center"><img height="60" width="468" border="0"
+src="http://commonwealth.riddler.com/Commonwealth/bin/statdeploy?327686"
+alt="Check out our sponsor!" ISMAP></a> <br>
+<font size="1"><i><a target="_top"
+href="http://commonwealth.riddler.com/Commonwealth/doc/bannersplash.html">Commonwealth 
+Network</a> </i></font></p>
+
+<CENTER>
+<CENTER>
+<APPLET  CODE="Riddler_Solitaire.class" WIDTH = 570 HEIGHT = 404>
+<PARAM NAME="VIEW_ID" VALUE = "6757769">
+<PARAM NAME="SYNDICATE" VALUE = "riddler">
+</APPLET>
+<BR>
+</CENTER>
+</body>
+</html>

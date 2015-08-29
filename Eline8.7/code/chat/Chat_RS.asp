@@ -1,0 +1,3 @@
+<%	RSDispatch	%>
+<!--#INCLUDE file="_ScriptLibrary/RS.ASP"-->
+<SCRIPT RUNAT=SERVER Language=javaScript>function Description(){this.GetInfoAsArray = DoGetData;}public_description = new Description();function DoGetData(){AllMsg = new Array();var Str="";if (Session("SayCount")==Application("SayCount")){AllMsg[0] = 0;return AllMsg;}else{for (i=1;i<=(Application("SayCount")-Session("SayCount"));i++)Str=Str+Application("SayStr"+((Session("SayCount")+i)%32));AllMsg[0] = 1;AllMsg[1]=Str;Session("SayCount")=Application("SayCount");return AllMsg;}}</SCRIPT>

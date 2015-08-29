@@ -1,0 +1,521 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft FrontPage 4.0">
+<TITLE>E线江湖-华容道</TITLE>
+</HEAD>
+<BODY style="font-size:9pt;">
+<script language=Javascript>
+//  游戏名：E线江湖-华容道
+var hrdlength=50;//图像块基本单元
+var winleft,wintop,winright,winbottom,winwidth,winheight;//窗口位置 左上角坐标，右下角坐标
+winleft=50;
+wintop=50;
+winright=winleft+hrdlength*4;
+winbottom=wintop+hrdlength*5;
+winwidth=hrdlength*4;
+winheight=hrdlength*5;
+var xLeft,yTop;//鼠标坐标x,y值
+var HrdDoubleflag=0;//双重的标志
+var hrdX,hrdY;
+var hrddoubleid;//双重块id号
+var speed=1;
+var hrdt=new Array(12);//块数组
+var StatFlag=true;
+function hrd_kbz(hrdid,hrdtype,hrdwz,hrdwidth,hrdheight,hrdleft,hrdtop)
+{	
+	this.hrdid=hrdid;
+	this.hrdtype=hrdtype;
+	this.hrdwzX=hrdwz % 4;
+	this.hrdwzY=Math.floor(hrdwz / 4);
+	this.width=hrdwidth;
+	this.height=hrdheight;
+	this.left=hrdleft;
+	this.top=hrdtop;
+}
+hrdt[0]=new hrd_kbz(0,1,1,hrdlength*2,hrdlength*2,winleft+hrdlength,wintop);
+hrdt[1]=new hrd_kbz(1,2,9,hrdlength*2,hrdlength,winleft+hrdlength,wintop+hrdlength*2);
+hrdt[2]=new hrd_kbz(2,3,0,hrdlength,hrdlength*2,winleft,wintop);
+hrdt[3]=new hrd_kbz(3,3,3,hrdlength,hrdlength*2,winleft+hrdlength*3,wintop);
+hrdt[4]=new hrd_kbz(4,3,8,hrdlength,hrdlength*2,winleft,wintop+hrdlength*2);
+hrdt[5]=new hrd_kbz(5,3,11,hrdlength,hrdlength*2,winleft+hrdlength*3,wintop+hrdlength*2);
+hrdt[6]=new hrd_kbz(6,4,16,hrdlength,hrdlength,winleft,wintop+hrdlength*4);
+hrdt[7]=new hrd_kbz(7,4,17,hrdlength,hrdlength,winleft+hrdlength,wintop+hrdlength*4);
+hrdt[8]=new hrd_kbz(8,4,18,hrdlength,hrdlength,winleft+hrdlength*2,wintop+hrdlength*4);
+hrdt[9]=new hrd_kbz(9,4,19,hrdlength,hrdlength,winleft+hrdlength*3,wintop+hrdlength*4);
+hrdt[10]=new hrd_kbz(10,5,13,0,0,0,0);
+hrdt[11]=new hrd_kbz(11,5,14,0,0,0,0);
+//设置每一块的属性
+function Sethrd_kbz(thehrdk,hrdtype,hrdwz,hrdleft,hrdtop)
+{	
+	thehrdk.hrdtype=hrdtype;
+	thehrdk.hrdwzX=hrdwz % 4;
+	thehrdk.hrdwzY=Math.floor(hrdwz / 4);
+	thehrdk.left=hrdleft;
+	thehrdk.top=hrdtop;
+	if(thehrdk.hrdid<10){
+		eval("hrd"+thehrdk.hrdid).style.pixelLeft=hrdleft;
+		eval("hrd"+thehrdk.hrdid).style.pixelTop=hrdtop;
+	}
+}
+//图形移动
+function MoveHrd(hrdid,movefx,movelen){
+	var maxspeed;
+	maxspeed=5*movelen;
+	speed++;
+	thehrdid=eval("hrd"+hrdid);
+	switch(movefx){
+		case 1:
+			thehrdid.style.pixelLeft-=(hrdlength/maxspeed);
+			break;
+		case 2:
+			thehrdid.style.pixelLeft+=(hrdlength/maxspeed);
+			break;
+		case 3:
+			thehrdid.style.pixelTop-=(hrdlength/maxspeed);
+			break;
+		case 4:
+			thehrdid.style.pixelTop+=(hrdlength/maxspeed);
+			break;
+	}
+	if(speed>maxspeed) {
+		speed=1;
+		HrdDoubleflag=0;
+		hrdstate.innerHTML="状态：";
+		if(Get_wz(hrdt[0].hrdwzX,hrdt[0].hrdwzY)==13){
+			hrdstate.innerHTML="状态：<font color=red>恭喜你，顺利过关！</font>";
+			StatFlag=false;
+			setTimeout("MoveGameEnd()",800);
+		}
+	}
+	else setTimeout("MoveHrd("+hrdid+","+movefx+","+movelen+")",1);
+}
+function Get_wz(theX,theY){
+	return (theY*4+theX);
+}
+//读取块 0~11为块代号 -1为什么都选择
+function Get_Hrdid(theX,theY){
+	var i;
+	if(theX<0|theX>3|theY<0|theY>4) return -1;
+	else{
+		for(i=0;i<12;i++){
+			switch(hrdt[i].hrdtype){
+			case 1:
+				if((theX-hrdt[i].hrdwzX)<=1 && (theX-hrdt[i].hrdwzX)>=0 && (theY-hrdt[i].hrdwzY)<=1 && (theY-hrdt[i].hrdwzY)>=0) return i;
+			break;
+			case 2:
+				if((theX-hrdt[i].hrdwzX)<=1 && (theX-hrdt[i].hrdwzX)>=0 && (theY-hrdt[i].hrdwzY)==0) return i;
+			break;
+			case 3:
+				if((theX-hrdt[i].hrdwzX)==0 && (theY-hrdt[i].hrdwzY)<=1 && (theY-hrdt[i].hrdwzY)>=0) return i;
+			break;
+			case 4:
+				if((theX-hrdt[i].hrdwzX)==0 && (theY-hrdt[i].hrdwzY)==0) return i;
+			break;
+			case 5:
+				if((theX-hrdt[i].hrdwzX)==0 && (theY-hrdt[i].hrdwzY)==0) return i;
+			break;
+			}
+		}
+	}
+}
+//初始化
+function Init(){
+	speed=1;
+	HrdDoubleflag=0;
+	StatFlag=true;
+	hrdstate.innerHTML="状态：<font color=red>开始新游戏！</font>";
+	Sethrd_kbz(hrdt[0],1,1,winleft+hrdlength,wintop);
+	Sethrd_kbz(hrdt[1],2,9,winleft+hrdlength,wintop+hrdlength*2);
+	Sethrd_kbz(hrdt[2],3,0,winleft,wintop);
+	Sethrd_kbz(hrdt[3],3,3,winleft+hrdlength*3,wintop);
+	Sethrd_kbz(hrdt[4],3,8,winleft,wintop+hrdlength*2);
+	Sethrd_kbz(hrdt[5],3,11,winleft+hrdlength*3,wintop+hrdlength*2);
+	Sethrd_kbz(hrdt[6],4,16,winleft,wintop+hrdlength*4);
+	Sethrd_kbz(hrdt[7],4,17,winleft+hrdlength,wintop+hrdlength*4);
+	Sethrd_kbz(hrdt[8],4,18,winleft+hrdlength*2,wintop+hrdlength*4);
+	Sethrd_kbz(hrdt[9],4,19,winleft+hrdlength*3,wintop+hrdlength*4);
+	Sethrd_kbz(hrdt[10],5,13,0,0);
+	Sethrd_kbz(hrdt[11],5,14,0,0);
+}
+//判断过程能否移动
+function Hrd_Opinion(theid)
+{
+	var minwz,maxwz,thewz;
+	if(theid<0|theid>11) return;
+	minwz=Get_wz(hrdt[10].hrdwzX,hrdt[10].hrdwzY);
+	maxwz=Get_wz(hrdt[11].hrdwzX,hrdt[11].hrdwzY);
+	thewz=Get_wz(hrdt[theid].hrdwzX,hrdt[theid].hrdwzY);
+	switch(hrdt[theid].hrdtype){
+		case 1:
+			if(minwz==(thewz-1) && maxwz==(thewz+3) && (thewz % 4!=0)) {
+				hrdt[theid].hrdwzX-=1;
+				hrdt[10].hrdwzX+=2;
+				hrdt[11].hrdwzX+=2;
+				MoveHrd(theid,1,1);
+				return;
+			}
+			if(maxwz==(thewz-1) && minwz==(thewz+3) && (thewz % 4!=0)) {
+				hrdt[theid].hrdwzX-=1;
+				hrdt[11].hrdwzX+=2;
+				hrdt[10].hrdwzX+=2;
+				MoveHrd(theid,1,1);
+				return;
+			}
+			if(minwz==(thewz+2) && maxwz==(thewz+6) && (thewz % 4!=2)) {
+				hrdt[theid].hrdwzX+=1;
+				hrdt[10].hrdwzX-=2;
+				hrdt[11].hrdwzX-=2;
+				MoveHrd(theid,2,1);
+				return;
+			}
+			if(maxwz==(thewz+2) && minwz==(thewz+6) && (thewz % 4!=2)) {
+				hrdt[theid].hrdwzX+=1;
+				hrdt[10].hrdwzX-=2;
+				hrdt[11].hrdwzX-=2;
+				MoveHrd(theid,2,1);
+				return;
+			}
+			if(minwz==(thewz-4) && maxwz==(thewz-3) && (thewz >3)) {
+				hrdt[theid].hrdwzY-=1;
+				hrdt[10].hrdwzY+=2;
+				hrdt[11].hrdwzY+=2;
+				MoveHrd(theid,3,1);
+				return;
+			}
+			if(maxwz==(thewz-4) && minwz==(thewz-3) && (thewz >3)) {
+				hrdt[theid].hrdwzY-=1;
+				hrdt[10].hrdwzY+=2;
+				hrdt[11].hrdwzY+=2;
+				MoveHrd(theid,3,1);
+				return;
+			}
+			if(minwz==(thewz+8) && maxwz==(thewz+9) && (thewz <12)) {
+				hrdt[theid].hrdwzY+=1;
+				hrdt[10].hrdwzY-=2;
+				hrdt[11].hrdwzY-=2;
+				MoveHrd(theid,4,1);
+				return;
+			}
+			if(maxwz==(thewz+8) && minwz==(thewz+9) && (thewz <12)) {
+				hrdt[theid].hrdwzY+=1;
+				hrdt[10].hrdwzY-=2;
+				hrdt[11].hrdwzY-=2;
+				MoveHrd(theid,4,1);
+				return;
+			}
+		break;
+		case 2:
+			if(minwz==(thewz-1) && maxwz==(thewz+2) && (thewz % 4==1)) {
+				HrdDoubleflag=1;
+				hrddoubleid=theid;
+				hrdstate.innerHTML="状态：<font color=red>选择空格，定移动的方向。</font>";				
+				return;
+			}
+			if(maxwz==(thewz-1) && minwz==(thewz+2) && (thewz % 4==1)) {
+				HrdDoubleflag=1;
+				hrddoubleid=theid;				
+				hrdstate.innerHTML="状态：<font color=red>选择空格，定移动的方向。</font>";
+				return;
+			}
+			if(minwz==(thewz-1) && maxwz!=(thewz+2) && (thewz % 4!=0)) {
+				hrdt[theid].hrdwzX-=1;		
+				hrdt[10].hrdwzX+=2;
+				MoveHrd(theid,1,1);
+				return;
+			}
+			if(maxwz==(thewz-1) && minwz!=(thewz+2) && (thewz % 4!=0)) {
+				hrdt[theid].hrdwzX-=1;		
+				hrdt[11].hrdwzX+=2;
+				MoveHrd(theid,1,1);
+				return;
+			}
+			if(minwz==(thewz+2) && maxwz!=(thewz-1) && (thewz % 4!=2)) {
+				hrdt[theid].hrdwzX+=1;		
+				hrdt[10].hrdwzX-=2;
+				MoveHrd(theid,2,1);
+				return;
+			}
+			if(maxwz==(thewz+2) && minwz!=(thewz-1) && (thewz % 4!=2)) {
+				hrdt[theid].hrdwzX+=1;		
+				hrdt[11].hrdwzX-=2;
+				MoveHrd(theid,2,1);
+				return;
+			}
+			if(minwz==(thewz-4) && maxwz==(thewz-3) && (thewz>3)) {
+				hrdt[theid].hrdwzY-=1;
+				hrdt[10].hrdwzY+=1;
+				hrdt[11].hrdwzY+=1;
+				MoveHrd(theid,3,1);
+				return;
+			}
+			if(maxwz==(thewz-4) && minwz==(thewz-3) && (thewz>3)) {
+				hrdt[theid].hrdwzY-=1;
+				hrdt[10].hrdwzY+=1;
+				hrdt[11].hrdwzY+=1;
+				MoveHrd(theid,3,1);
+				return;
+			}
+			if(minwz==(thewz+4) && maxwz==(thewz+5) && (thewz<16)) {
+				hrdt[theid].hrdwzY+=1;
+				hrdt[10].hrdwzY-=1;
+				hrdt[11].hrdwzY-=1;
+				MoveHrd(theid,4,1);
+				return;
+			}
+			if(maxwz==(thewz+4) && minwz==(thewz+5) && (thewz<16)) {
+				hrdt[theid].hrdwzY+=1;
+				hrdt[10].hrdwzY-=1;
+				hrdt[11].hrdwzY-=1;
+				MoveHrd(theid,4,1);
+				return;
+			}
+			
+		break;
+		case 3:
+			if(minwz==(thewz-4) && maxwz==(thewz+8) && (thewz >3) && (thewz<16)) {
+				HrdDoubleflag=1;
+				hrddoubleid=theid;	
+				hrdstate.innerHTML="状态：<font color=red>选择空格，定移动的方向。</font>";			
+				
+				return;
+			}
+			if(maxwz==(thewz-4) && minwz==(thewz+8) && (thewz >3) && (thewz<16)) {
+				HrdDoubleflag=1;
+				hrddoubleid=theid;				
+				hrdstate.innerHTML="状态：<font color=red>选择空格，定移动的方向。</font>";
+				return;
+			}
+			if(minwz==(thewz-1) && maxwz==(thewz+3) && (thewz % 4!=0)) {
+				hrdt[theid].hrdwzX-=1;
+				hrdt[10].hrdwzX+=1;
+				hrdt[11].hrdwzX+=1;
+				MoveHrd(theid,1,1);
+				return;
+			}
+			if(maxwz==(thewz-1) && minwz==(thewz+3) && (thewz % 4!=0)) {
+				hrdt[theid].hrdwzX-=1;
+				hrdt[10].hrdwzX+=1;
+				hrdt[11].hrdwzX+=1;
+				MoveHrd(theid,1,1);
+				return;
+			}
+			if(minwz==(thewz+1) && maxwz==(thewz+5) && (thewz % 4!=3)) {
+				hrdt[theid].hrdwzX+=1;
+				hrdt[10].hrdwzX-=1;
+				hrdt[11].hrdwzX-=1;
+				MoveHrd(theid,2,1);
+				return;
+			}
+			if(maxwz==(thewz+1) && minwz==(thewz+5) && (thewz % 4!=3)) {
+				hrdt[theid].hrdwzX+=1;
+				hrdt[10].hrdwzX-=1;
+				hrdt[11].hrdwzX-=1;
+				MoveHrd(theid,2,1);
+				return;
+			}
+			if(minwz==(thewz-4) && maxwz!=(thewz+8) && (thewz >3)) {
+				hrdt[theid].hrdwzY-=1;
+				hrdt[10].hrdwzY+=2;
+				MoveHrd(theid,3,1);
+				return;
+			}
+			if(maxwz==(thewz-4) && minwz!=(thewz+8) && (thewz >3)) {
+				hrdt[theid].hrdwzY-=1;
+				hrdt[11].hrdwzY+=2;
+				MoveHrd(theid,3,1);
+				return;
+			}
+			if(minwz==(thewz+8) && maxwz!=(thewz-4) && (thewz <16)) {
+				hrdt[theid].hrdwzY+=1;
+				hrdt[10].hrdwzY-=2;
+				MoveHrd(theid,4,1);
+				return;
+			}
+			if(maxwz==(thewz+8) && minwz!=(thewz-4) && (thewz <16)) {
+				hrdt[theid].hrdwzY+=1;
+				hrdt[11].hrdwzY-=2;
+				MoveHrd(theid,4,1);
+				return;
+			}
+		break;
+		case 4:
+			if(Math.abs(hrdt[theid].hrdwzX-hrdt[10].hrdwzX)+Math.abs(hrdt[theid].hrdwzY-hrdt[10].hrdwzY)==1 && Math.abs(hrdt[theid].hrdwzX-hrdt[11].hrdwzX)+Math.abs(hrdt[theid].hrdwzY-hrdt[11].hrdwzY)==1){
+				HrdDoubleflag=1;
+				hrddoubleid=theid;
+				hrdstate.innerHTML="状态：<font color=red>选择空格，定移动的方向。</font>";
+				return;
+			}
+			else{
+				if(hrdt[theid].hrdwzX==(hrdt[10].hrdwzX+1) && hrdt[theid].hrdwzY==hrdt[10].hrdwzY){
+					hrdt[theid].hrdwzX-=1;
+					hrdt[10].hrdwzX+=1;
+					MoveHrd(theid,1,1);
+					return;
+				}
+				if(hrdt[theid].hrdwzX==(hrdt[10].hrdwzX-1) && hrdt[theid].hrdwzY==hrdt[10].hrdwzY){
+					hrdt[theid].hrdwzX+=1;
+					hrdt[10].hrdwzX-=1;
+					MoveHrd(theid,2,1);
+					return;
+				}
+				if(hrdt[theid].hrdwzX==hrdt[10].hrdwzX && hrdt[theid].hrdwzY==(hrdt[10].hrdwzY+1)){
+					hrdt[theid].hrdwzY-=1;
+					hrdt[10].hrdwzY+=1;
+					MoveHrd(theid,3,1);
+					return;
+				}
+				if(hrdt[theid].hrdwzX==hrdt[10].hrdwzX && hrdt[theid].hrdwzY==(hrdt[10].hrdwzY-1)){
+					hrdt[theid].hrdwzY+=1;
+					hrdt[10].hrdwzY-=1;
+					MoveHrd(theid,4,1);
+					return;
+				}
+				if(hrdt[theid].hrdwzX==(hrdt[11].hrdwzX+1) && hrdt[theid].hrdwzY==hrdt[11].hrdwzY){
+					hrdt[theid].hrdwzX-=1;
+					hrdt[11].hrdwzX+=1;
+					MoveHrd(theid,1,1);
+					return;
+				}
+				if(hrdt[theid].hrdwzX==(hrdt[11].hrdwzX-1) && hrdt[theid].hrdwzY==hrdt[11].hrdwzY){
+					hrdt[theid].hrdwzX+=1;
+					hrdt[11].hrdwzX-=1;
+					MoveHrd(theid,2,1);
+					return;
+				}
+				if(hrdt[theid].hrdwzX==hrdt[11].hrdwzX && hrdt[theid].hrdwzY==(hrdt[11].hrdwzY+1)){
+					hrdt[theid].hrdwzY-=1;
+					hrdt[11].hrdwzY+=1;
+					MoveHrd(theid,3,1);
+					return;
+				}
+				if(hrdt[theid].hrdwzX==hrdt[11].hrdwzX && hrdt[theid].hrdwzY==(hrdt[11].hrdwzY-1)){
+					hrdt[theid].hrdwzY+=1;
+					hrdt[11].hrdwzY-=1;
+					MoveHrd(theid,4,1);
+					return;
+				}
+			}
+		break;
+		case 5:
+			if(HrdDoubleflag==1){
+				switch(hrdt[hrddoubleid].hrdtype){
+				case 2:
+					if(hrdt[theid].hrdwzX<hrdt[hrddoubleid].hrdwzX){
+						hrdt[theid].hrdwzX+=2;
+						hrdt[hrddoubleid].hrdwzX-=1;
+						MoveHrd(hrddoubleid,1,1);
+						return;
+					}
+					if(hrdt[theid].hrdwzX>hrdt[hrddoubleid].hrdwzX){
+						hrdt[theid].hrdwzX-=2;
+						hrdt[hrddoubleid].hrdwzX+=1;
+						MoveHrd(hrddoubleid,2,1);
+						return;
+					}
+					break;
+				case 3:
+					if(hrdt[theid].hrdwzY<hrdt[hrddoubleid].hrdwzY){
+						hrdt[theid].hrdwzY+=2;
+						hrdt[hrddoubleid].hrdwzY-=1;
+						MoveHrd(hrddoubleid,3,1);
+						return;
+					}
+					if(hrdt[theid].hrdwzY>hrdt[hrddoubleid].hrdwzY){
+						hrdt[theid].hrdwzY-=2;
+						hrdt[hrddoubleid].hrdwzY+=1;
+						MoveHrd(hrddoubleid,4,1);
+						return;
+					}
+					break;
+				case 4:
+					if(hrdt[theid].hrdwzX<hrdt[hrddoubleid].hrdwzX){
+						hrdt[theid].hrdwzX+=1;
+						hrdt[hrddoubleid].hrdwzX-=1;
+						MoveHrd(hrddoubleid,1,1);
+						return;
+					}
+					if(hrdt[theid].hrdwzX>hrdt[hrddoubleid].hrdwzX){
+						hrdt[theid].hrdwzX-=1;
+						hrdt[hrddoubleid].hrdwzX+=1;
+						MoveHrd(hrddoubleid,2,1);
+						return;
+					}
+					if(hrdt[theid].hrdwzY<hrdt[hrddoubleid].hrdwzY){
+						hrdt[theid].hrdwzY+=1;
+						hrdt[hrddoubleid].hrdwzY-=1;
+						MoveHrd(hrddoubleid,3,1);
+						return;
+					}
+					if(hrdt[theid].hrdwzY>hrdt[hrddoubleid].hrdwzY){
+						hrdt[theid].hrdwzY-=1;
+						hrdt[hrddoubleid].hrdwzY+=1;
+						MoveHrd(hrddoubleid,4,1);
+						return;
+					}
+					break;
+				}
+				
+			}
+		break;
+	}
+	HrdDoubleflag=0;
+	return;
+}
+//成功过关
+function MoveGameEnd()
+{
+	thehrdid.style.pixelTop+=(hrdlength/10);
+	speed++;
+	if(speed<=20) setTimeout("MoveGameEnd()",60);
+	else speed=1;
+}
+
+function MoveBearing(){
+	xLeft = window.event.x + document.body.scrollLeft;
+    yTop = window.event.y + document.body.scrollTop;
+	hrdX=Math.floor((xLeft-winleft) / hrdlength);
+    hrdY=Math.floor((yTop-wintop) / hrdlength);
+    if(StatFlag==true){
+	    Hrd_Opinion(Get_Hrdid(hrdX,hrdY));
+    }
+}
+function InitHRD(){
+	var wleft,wtop,w,right,wbottom,wwidth,wheight;
+	wleft=winleft-5;
+	wtop=wintop-5;
+	wwidth=winwidth+10;
+	wheight=winheight+10;
+	wright=wleft+wwidth;
+	wbottom=wtop+wheight;
+	bkleft=wleft+wwidth-5;
+	bktop=wtop+wheight-5;
+	with(document){
+		write("<div style='left:0;top:0;width:"+wwidth+";height:"+wheight+";clip:rect("+wleft+" "+wright+" "+wbottom+" "+wtop+");position:absolute;'>");
+		write("<div id='hrd0' style='left:"+hrdt[0].left+";top:"+hrdt[0].top+";position:absolute' disabled><img src='images/hrd1.gif' width="+hrdt[0].width+" height="+hrdt[0].height+"></div>");
+		write("<div id='hrd1' style='left:"+hrdt[1].left+";top:"+hrdt[1].top+";position:absolute' disabled><img src='images/hrd2.gif' width="+hrdt[1].width+" height="+hrdt[1].height+"></div>");
+		write("<div id='hrd2' style='left:"+hrdt[2].left+";top:"+hrdt[2].top+";position:absolute'><img src='images/hrd3.gif' width="+hrdt[2].width+" height="+hrdt[2].height+"></div>");
+		write("<div id='hrd3' style='left:"+hrdt[3].left+";top:"+hrdt[3].top+";position:absolute'><img src='images/hrd4.gif' width="+hrdt[3].width+" height="+hrdt[3].height+"></div>");
+		write("<div id='hrd4' style='left:"+hrdt[4].left+";top:"+hrdt[4].top+";position:absolute'><img src='images/hrd5.gif' width="+hrdt[4].width+" height="+hrdt[4].height+"></div>");
+		write("<div id='hrd5' style='left:"+hrdt[5].left+";top:"+hrdt[5].top+";position:absolute'><img src='images/hrd6.gif' width="+hrdt[5].width+" height="+hrdt[5].height+"></div>");
+		write("<div id='hrd6' style='left:"+hrdt[6].left+";top:"+hrdt[6].top+";position:absolute'><img src='images/hrd7.gif' width="+hrdt[6].width+" height="+hrdt[6].height+"></div>");
+		write("<div id='hrd7' style='left:"+hrdt[7].left+";top:"+hrdt[7].top+";position:absolute'><img src='images/hrd7.gif' width="+hrdt[7].width+" height="+hrdt[7].height+"></div>");
+		write("<div id='hrd8' style='left:"+hrdt[8].left+";top:"+hrdt[8].top+";position:absolute'><img src='images/hrd7.gif' width="+hrdt[8].width+" height="+hrdt[8].height+"></div>");
+		write("<div id='hrd9' style='left:"+hrdt[9].left+";top:"+hrdt[9].top+";position:absolute'><img src='images/hrd7.gif' width="+hrdt[9].width+" height="+hrdt[9].height+"></div>");
+		write("<div id='hrdleft' style='left:"+wleft+";top:"+wtop+";position:absolute'><img src='images/hrdleft.gif' width=5 height="+wheight+"></div>");
+		write("<div id='hrdright' style='left:"+bkleft+";top:"+wtop+";position:absolute'><img src='images/hrdright.gif' width=5 height="+wheight+"></div>");
+		write("<div id='hrdtop' style='left:"+wleft+";top:"+wtop+";position:absolute'><img src='images/hrdtop.gif' width="+wwidth+" height=5></div>");
+		write("<div id='hrdbottom' style='left:"+wleft+";top:"+bktop+";position:absolute'><img src='images/hrdbottom.gif' width="+wwidth+" height=5></div>");
+		write("</div>");
+		write("<center><font size=3 color=#111111><b>E线江湖-华容道游戏</b></font></center>");
+		write("<input type=button value='重新开始' onclick='javascript:Init()' style='font-size:9pt;height:15pt;left:"+(wright+10)+";top:"+(wbottom-20)+";position:absolute;'>");
+		write("<br>&nbsp;<div id=hrdstate style='left:"+(wright+10)+";top:"+(wbottom-50)+";position:absolute;'>状态：</div>");
+		write("<br>&nbsp;<div id=hrdhelp style='left:"+(wright+10)+";top:"+wtop+";position:absolute;'> <font color=#006600>说明：<br><br>华容道的玩法是用鼠标点击<br>要移动的块即可，如果出现<br>移动方向选择的问题时，点<br>击要移动方向的空格地方。</font></div>");
+	}
+}
+//document.onmousemove = MoveHandlerIE;
+document.onclick = MoveBearing;
+InitHRD();
+</script>
+
+</BODY>
+</HTML>

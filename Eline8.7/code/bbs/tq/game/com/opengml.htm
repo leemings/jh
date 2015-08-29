@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>游戏系列</title>
+</head>
+<body bgcolor=black scroll=no topmargin="0" leftmargin="0">
+<script>
+	function _GXonCmd_FBOX(type,cmd)
+	{
+		switch(type){
+			case "appinit":FBOX.OnGameInit();break;
+			case "runfun":eval(cmd);break;
+			case "script":execScript(cmd,"javascript");break;
+		}
+	}
+	function StdGameXMain()
+	{
+		var web="<SCRIPT LANGUAGE=javascript FOR=FBOX EVENT=OnCmd(type,cmd)>_GXonCmd_FBOX(type,cmd)</"+"SCRIPT>"
+		web+="<OBJECT ID=FBOX CLASSID='CLSID:2D4851FD-0BFE-11D4-9260-9AF666D52059' width=100% height=100% VIEWASTEXT></OBJECT>"
+		document.write(web);
+		document.close();
+		var obj=document.all["FBOX"]
+		obj.OnGameInit=StdGameXInit;
+	}
+	function StdGameXInit()
+	{
+		var cmd="<sys setid="+this.id+"><sys roothtm="+self.document.location.href+">";
+		cmd+="<sys roothtm="+document.location.href+"><sys include=*_opener_link>";
+		this.Cmd(cmd);
+	}
+	StdGameXMain(self)
+	function window.close()
+	{
+		FBOX.Cmd("<:desktop _opener_del=1>")
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,287 @@
+<html>
+<head>
+<title>找相同的图片</title>
+<style type="text/css">
+<!--
+body {  font-family: "宋体"; font-size: 9pt; margin-top: 0px; margin-left: 0px; margin-right: 0px}
+A { COLOR: black; FONT-SIZE: 9pt; FONT-WEIGHT: 400; TEXT-DECORATION: none }
+ A:hover { COLOR: red; FONT-SIZE: 9pt; FONT-WEIGHT: 400; TEXT-DECORATION: underline }
+a:active     { font: 9pt "宋体"; cursor: hand; color: #FF0033 }
+
+-->
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</head>
+
+<body bgcolor="#fef4d9" OnLoad="init()">
+<br>
+<br>
+<center><font color=red face="隶书" size=6>找相同的图片</font></center>
+<br>
+<center>
+<table border=5 bordercolor=blue borderlight=green>
+<tr><td align=center><font size=5 color=red face="Arial, Helvetica, sans-serif"><strong>稍等片刻就能看到效果!</strong></font></td></tr><tr><td align=center><SCRIPT LANGUAGE="JavaScript">
+
+<!-- Begin
+var pics = new Array();
+for (i = 0; i <= 18; i++) {
+pics[i] = new Image();
+pics[i].src = 'image' + i + '.gif';
+}
+var map=new Array(1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15, 16, 16, 17, 17, 18, 18);
+var user = new Array();
+var temparray = new Array();
+var clickarray = new Array(0, 0);
+var ticker, sec, min, ctr, id, oktoclick, finished;
+function init() {
+clearTimeout(id);
+for (i = 0; i <= 35 ;i++) {
+user[i] = 0;
+}
+ticker = 0;
+min = 0;
+sec = 0;
+ctr = 0;
+oktoclick = true;
+finished = 0;
+document.f.b.value = "";
+scramble();
+runclk();
+for (i = 0; i <= 35; i++) {
+document.f[('img'+i)].src = "image0.gif";
+   }
+}
+function runclk() {
+min = Math.floor(ticker/60);
+sec = (ticker-(min*60))+'';
+if(sec.length == 1) {sec = "0"+sec};
+ticker++;
+document.f.b.value = min+":"+sec;
+id = setTimeout('runclk()', 1000);
+}
+function scramble() {
+for (z = 0; z < 5; z++) {
+for (x = 0; x <= 35; x++) {
+temparray[0] = Math.floor(Math.random()*36);
+temparray[1] = map[temparray[0]];
+temparray[2] = map[x];
+map[x] = temparray[1];
+map[temparray[0]] = temparray[2];
+      }
+   }
+}
+function showimage(but) {
+if (oktoclick) {
+oktoclick = false; 
+document.f[('img'+but)].src = 'image'+map[but]+'.gif';
+if (ctr == 0) {
+ctr++;
+clickarray[0] = but;
+oktoclick = true;
+} else {
+clickarray[1] = but;
+ctr = 0;
+setTimeout('returntoold()', 600);
+      }
+   }
+}
+function returntoold() {
+if ((clickarray[0] == clickarray[1]) && (!user[clickarray[0]])) {
+document.f[('img'+clickarray[0])].src = "image0.gif";
+oktoclick = true;
+} else {
+if (map[clickarray[0]] != map[clickarray[1]]) {
+if (user[clickarray[0]] == 0) {
+document.f[('img'+clickarray[0])].src = "image0.gif";
+}
+if (user[clickarray[1]] == 0) {
+document.f[('img'+clickarray[1])].src = "image0.gif";
+   }
+}
+if (map[clickarray[0]] == map[clickarray[1]]) {
+if (user[clickarray[0]] == 0&&user[clickarray[1]] == 0) { finished++; }
+user[clickarray[0]] = 1;
+user[clickarray[1]] = 1;
+}
+if (finished >= 18) {
+alert('恭喜你，你用了 '+document.f.b.value+' !');
+init();
+} else {
+oktoclick = true;
+      }
+   }
+}
+//  End -->
+</script>
+<h2>找相同图片</h2>
+<form name="f"> 
+<table cellpadding="0" cellspacing="0" border="0">
+<script language="javascript">
+<!-- Begin
+for (r = 0; r <= 5; r++) {
+document.write('<tr>');
+for (c = 0; c <= 5; c++) {
+document.write('<td align="center">');
+document.write('<a href="javascript:showimage('+((6*r)+c)+')" onClick="document.f.b.focus()">');
+document.write('<img src="image0.gif" name="img'+((6*r)+c)+'" border="0">');
+document.write('</a></td>');
+}
+document.write('</tr>');
+}
+// End -->
+</script>
+</table>
+<br><br>
+<input type="button" value="         " name="b" onClick="init()">
+</form>
+</td></tr>
+</table></center>
+<br>
+<br>
+<center>
+<textarea name=source rows=12 cols=55 class=yk9>
+脚本说明:
+第一步:把如下代码加入<body>区域中
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- Begin
+var pics = new Array();
+for (i = 0; i <= 18; i++) {
+pics[i] = new Image();
+pics[i].src = 'image' + i + '.gif';
+}
+var map=new Array(1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15, 16, 16, 17, 17, 18, 18);
+var user = new Array();
+var temparray = new Array();
+var clickarray = new Array(0, 0);
+var ticker, sec, min, ctr, id, oktoclick, finished;
+function init() {
+clearTimeout(id);
+for (i = 0; i <= 35 ;i++) {
+user[i] = 0;
+}
+ticker = 0;
+min = 0;
+sec = 0;
+ctr = 0;
+oktoclick = true;
+finished = 0;
+document.f.b.value = "";
+scramble();
+runclk();
+for (i = 0; i <= 35; i++) {
+document.f[('img'+i)].src = "image0.gif";
+   }
+}
+function runclk() {
+min = Math.floor(ticker/60);
+sec = (ticker-(min*60))+'';
+if(sec.length == 1) {sec = "0"+sec};
+ticker++;
+document.f.b.value = min+":"+sec;
+id = setTimeout('runclk()', 1000);
+}
+function scramble() {
+for (z = 0; z < 5; z++) {
+for (x = 0; x <= 35; x++) {
+temparray[0] = Math.floor(Math.random()*36);
+temparray[1] = map[temparray[0]];
+temparray[2] = map[x];
+map[x] = temparray[1];
+map[temparray[0]] = temparray[2];
+      }
+   }
+}
+function showimage(but) {
+if (oktoclick) {
+oktoclick = false; 
+document.f[('img'+but)].src = 'image'+map[but]+'.gif';
+if (ctr == 0) {
+ctr++;
+clickarray[0] = but;
+oktoclick = true;
+} else {
+clickarray[1] = but;
+ctr = 0;
+setTimeout('returntoold()', 600);
+      }
+   }
+}
+function returntoold() {
+if ((clickarray[0] == clickarray[1]) && (!user[clickarray[0]])) {
+document.f[('img'+clickarray[0])].src = "image0.gif";
+oktoclick = true;
+} else {
+if (map[clickarray[0]] != map[clickarray[1]]) {
+if (user[clickarray[0]] == 0) {
+document.f[('img'+clickarray[0])].src = "image0.gif";
+}
+if (user[clickarray[1]] == 0) {
+document.f[('img'+clickarray[1])].src = "image0.gif";
+   }
+}
+if (map[clickarray[0]] == map[clickarray[1]]) {
+if (user[clickarray[0]] == 0&&user[clickarray[1]] == 0) { finished++; }
+user[clickarray[0]] = 1;
+user[clickarray[1]] = 1;
+}
+if (finished >= 18) {
+alert('恭喜你，你用了 '+document.f.b.value+' !');
+init();
+} else {
+oktoclick = true;
+      }
+   }
+}
+//  End -->
+</script>
+<h2>找相同图片</h2>
+<form name="f"> 
+<table cellpadding="0" cellspacing="0" border="0">
+<script language="javascript">
+<!-- Begin
+for (r = 0; r <= 5; r++) {
+document.write('<tr>');
+for (c = 0; c <= 5; c++) {
+document.write('<td align="center">');
+document.write('<a href="javascript:showimage('+((6*r)+c)+')" onClick="document.f.b.focus()">');
+document.write('<img src="image0.gif" name="img'+((6*r)+c)+'" border="0">');
+document.write('</a></td>');
+}
+document.write('</tr>');
+}
+// End -->
+</script>
+</table>
+<br><br>
+<input type="button" value="         " name="b" onClick="init()">
+</form>
+
+
+第二步:把<body>改为
+<body bgcolor="#fef4d9" OnLoad="init()">
+</textarea>
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- hide
+
+function goHist(a) 
+
+{
+
+   history.go(a);
+
+}
+
+//-->
+
+</script>
+
+<FORM METHOD="post">
+<INPUT TYPE="button" VALUE="返回" onClick="goHist(-1)" style="background-color: #8000FF; color: rgb(255,255,255)">
+</form>
+</center>
+<br>
+<br>
+</body>
+</html>

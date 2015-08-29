@@ -1,0 +1,30 @@
+BODY {
+FONT-FAMILY: 宋体; FONT-SIZE: 9pt
+}
+SELECT {
+FONT-FAMILY: 宋体; FONT-SIZE: 9pt
+}
+TD {
+FONT-FAMILY: 宋体; FONT-SIZE: 9pt
+}
+A {
+FONT-FAMILY: 宋体; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A:hover {
+COLOR: #cc0000; FONT-FAMILY: 宋体; FONT-SIZE: 9pt; TEXT-DECORATION: underline
+}
+.big {
+FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt
+}
+.p1{background:#FFCB32}
+.p2{background:#FFF8D9}
+.p3{background:#FFFBEC}
+.p4{background:#FFFBEC;font-family:"宋体"}
+.p5{background:#FFF8D9;font-family:"宋体"}
+.p6{background:#FFCB32;font-family:"宋体"}
+.p7{background:#FFFFFF;font-family:"宋体"}
+FORM{font-family:"宋体";FONT-SIZE: 12px;
+MARGIN-BOTTOM: 0pt;
+MARGIN-TOP: 0pt
+}
+<STYLE></STYLE>

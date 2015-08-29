@@ -1,0 +1,111 @@
+BODY {
+	BACKGROUND: #5e4300; SCROLLBAR-FACE-COLOR: #cc3300; SCROLLBAR-HIGHLIGHT-COLOR: #cc3300; SCROLLBAR-SHADOW-COLOR: #cc3300; SCROLLBAR-3DLIGHT-COLOR: #fedf63; SCROLLBAR-ARROW-COLOR: #fedf63; SCROLLBAR-TRACK-COLOR: #fedf63; SCROLLBAR-DARKSHADOW-COLOR: #5e4300
+}
+TD {
+	FONT-SIZE: 12px
+}
+.eng {
+	FONT-FAMILY: "Verdana", "Arial"; FONT-SIZE: 12px
+}
+.large {
+	FONT-SIZE: 14px
+}
+.white {
+	COLOR: #ffffff
+}
+.line_h18 {
+	LINE-HEIGHT: 18px
+}
+.line_h20 {
+	LINE-HEIGHT: 20px
+}
+.line_h22 {
+	LINE-HEIGHT: 22px
+}
+.line_h24 {
+	LINE-HEIGHT: 24px
+}
+.box {
+	BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid
+}
+.line_white {
+	BACKGROUND: #ffffff; HEIGHT: 1px
+}
+A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A.menu {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu:hover {
+	COLOR: #c05601; TEXT-DECORATION: none
+}
+A.menu1 {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu1:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.menu2 {
+	COLOR: #ffffff
+}
+A.submenu {
+	COLOR: #993300; TEXT-DECORATION: none
+}
+A.submenu:hover {
+	COLOR: #993300; TEXT-DECORATION: none
+}
+.line_menu {
+	BACKGROUND: #fedf63; HEIGHT: 1px
+}
+.normal {
+	BACKGROUND: #ff9000; FONT-SIZE: 14px; HEIGHT: 26px
+}
+.current {
+	BACKGROUND: #cc3300; FONT-SIZE: 14px; HEIGHT: 53px
+}
+.sub {
+	BACKGROUND: #ffcc00; FONT-SIZE: 14px; HEIGHT: 26px
+}
+.subcurrent {
+	BACKGROUND: #e98d12; FONT-SIZE: 14px; HEIGHT: 26px
+}
+.left_title {
+	BACKGROUND: #ff9000; COLOR: #ffffff; FONT-SIZE: 14px
+}
+.left_line {
+	BACKGROUND: #fedf63
+}
+.left_text {
+	COLOR: #993300
+}
+.left_bg {
+	BACKGROUND: #ffcc00
+}
+.button {
+	BACKGROUND: #ea7f00; BORDER-BOTTOM: #b07900 1px solid; BORDER-LEFT: #ffd467 1px solid; BORDER-RIGHT: #b07900 1px solid; BORDER-TOP: #ffd467 1px solid; COLOR: #ffffff; FONT-SIZE: 12px; HEIGHT: 20px; PADDING-TOP: 2px
+}
+.title_tab {
+	COLOR: #5b5b5b; FONT-SIZE: 14px
+}
+.title_doc {
+	COLOR: #000000; FONT-SIZE: 14px
+}
+.list {
+	COLOR: #5b5b5b; FONT-SIZE: 14px
+}
+.text {
+	COLOR: #5b5b5b
+}
+.box_m {
+	BORDER-BOTTOM: #d9d9d9 1px solid; BORDER-LEFT: #d9d9d9 1px solid; BORDER-RIGHT: #d9d9d9 1px solid; BORDER-TOP: #d9d9d9 1px solid
+}
+.line_box_m {
+	BACKGROUND: #d9d9d9; HEIGHT: 1px
+}
+.ttest {
+	COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}

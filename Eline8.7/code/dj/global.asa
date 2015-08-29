@@ -1,0 +1,17 @@
+<SCRIPT Language="VBScript" RunAt="Server">
+Sub Application_OnStart()
+   Application("Counter") = 0
+End Sub
+
+Sub Session_OnStart()
+   Application.Lock
+   Application("Counter") = Application("Counter") + 1
+   Application.UnLock
+End Sub
+
+Sub Session_OnEnd()
+   Application.Lock
+   Application("Counter") = Application("Counter") - 1
+   Application.UnLock
+End Sub
+</SCRIPT>

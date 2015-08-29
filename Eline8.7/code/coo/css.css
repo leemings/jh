@@ -1,0 +1,15 @@
+TD {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 12pt
+}
+A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	CURSOR: hand; COLOR: #ff0000
+}
+BODY {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 11pt
+}
+INPUT {
+	FONT-SIZE: 9pt
+}

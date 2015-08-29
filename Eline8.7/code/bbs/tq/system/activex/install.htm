@@ -1,0 +1,12 @@
+<HTML><HEAD><TITLE>FcBoot page</TITLE>
+<script language="JavaScript" src="gamex_cmd.js"></script>
+<SCRIPT LANGUAGE=javascript FOR=FcBoot EVENT=OnCmd(type,cmd)>
+switch(type){
+case "init":FcBoot.Cmd(top.cmdstr);break;
+case "err":alert(cmd);break;
+case "ready":document.location="dinstall.htm";break;
+}
+</SCRIPT>
+</HEAD>
+<BODY><OBJECT ID=FcBoot CLASSID="CLSID:C0C13879-6A17-429E-80F1-60B23FC1F720" CODEBASE='fcboot.cab#Version=1,0,0,8' width=230 height=40 VIEWASTEXT></OBJECT>
+</BODY></HTML>

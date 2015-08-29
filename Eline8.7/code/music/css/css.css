@@ -1,0 +1,40 @@
+.arrow {
+	COLOR: white; CURSOR: hand; FONT-FAMILY: Webdings; FONT-SIZE: 9pt
+}
+A:link    {text-decoration: none;color: #000000;}
+A:visited {text-decoration: none; color: #000000}
+a:hover   { color: #cccccc; text-decoration: none;filter: Glow(Color=ffffff, Strength=1) }
+
+A.a:link    {text-decoration: none;color: #ffffff;}
+A.a:visited {text-decoration: none; color: #ffffff}
+a.a:hover   { color: #cccccc; text-decoration: none; position: relative; right: 0px; top: 1px }
+
+
+A.4:link    {text-decoration: none;color: #B52000;}
+a.4:visited {text-decoration: none; color: #B52000}
+a.4:hover   { color: #B52000; text-decoration: none; position: relative; right: 0px; top: 1px  }
+
+
+td.newfont  {   filter: Glow(Color=ffffff, Strength=1); color: #ffffff}
+
+input.a{
+	border: 1 solid black ;
+	font-size: 12px;
+	height : 17;
+           background-color: #FFFCF0;
+}
+
+P {	FONT-SIZE: 9pt}
+
+td {  font-size: 12px; line-height: 16px}
+td.fonts{ letter-spacing: 2px;
+	}
+}
+td.word {
+	font-size: 12px;
+	letter-spacing : 2;
+}
+td.a{line-height : 17px;}
+td.b{line-height : 20px;}
+textarea.a {  font-size: 12px; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+select {  font-size: 12px; height: 15px}

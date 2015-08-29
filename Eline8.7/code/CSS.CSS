@@ -1,0 +1,7 @@
+TD {FONT-SIZE: 9pt; LINE-HEIGHT: 12pt}
+A {COLOR: #000000; TEXT-DECORATION: none}
+A:hover {COLOR: #ff0000; cursor: hand}
+BODY {FONT-SIZE: 9pt; CURSOR: url('banana.ani');LINE-HEIGHT: 11pt}
+INPUT {FONT-SIZE: 9pt}
+.go { BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; CURSOR: hand; FONT-FAMILY: "ËÎÌו"; COLOR: #FFFFFF; FONT-SIZE: 9pt; HEIGHT: 18px }
+.smallInput{background:#eaedbe;border-bottom-color:#009933; border-bottom-width:1px;border-top-width:0px;border-left-width:0px;border-right-width:0px; solid #009933; color: #000000; FONT-SIZE: 9pt; FONT-STYLE: normal; FONT-VARIANT: normal; FONT-WEIGHT: normal; HEIGHT: 14px; LINE-HEIGHT: normal}

@@ -1,0 +1,21 @@
+A.tr_on {
+	FONT-SIZE: 9pt; COLOR: lime; TEXT-DECORATION: none
+}
+A.tr_on:hover {
+	FONT-SIZE: 9pt; COLOR: yellow; TEXT-DECORATION: none
+}
+A {
+	FONT-SIZE: 9pt; COLOR: white; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 9pt; COLOR: yellow; TEXT-DECORATION: none
+}
+SPAN {
+	FONT-WEIGHT: 400; FONT-SIZE: 9pt; COLOR: lime; FONT-FAMILY: ËÎÌו
+}
+TD {
+	FONT-WEIGHT: 400; FONT-SIZE: 9pt; COLOR: lime; FONT-FAMILY: ËÎÌו
+}
+BODY {
+	FONT-WEIGHT: 400; FONT-SIZE: 9pt; COLOR: lime; SCROLLBAR-ARROW-COLOR: #fff788; FONT-FAMILY: ËÎÌו; SCROLLBAR-BASE-COLOR: #6495ed
+}

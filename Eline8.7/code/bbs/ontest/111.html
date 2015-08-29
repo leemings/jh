@@ -1,0 +1,117 @@
+<html>
+
+<head><script Language="JavaScript">
+function processForm(form){
+var xf=0;
+if (form.c1[0].checked==1) xf+=1;
+if (form.c1[1].checked==1) xf+=3;
+if (form.c1[2].checked==1) xf+=2;
+if (form.c2[0].checked==1) xf+=3;
+if (form.c2[1].checked==1) xf+=1;
+if (form.c2[2].checked==1) xf+=2;
+if (form.c3[0].checked==1) xf+=1;
+if (form.c3[1].checked==1) xf+=2;
+if (form.c3[2].checked==1) xf+=3;
+if (form.c4[0].checked==1) xf+=1;
+if (form.c4[1].checked==1) xf+=3;
+if (form.c4[2].checked==1) xf+=2;
+if (form.c5[0].checked==1) xf+=3;
+if (form.c5[1].checked==1) xf+=1;
+if (form.c5[2].checked==1) xf+=2;
+if (form.c6[0].checked==1) xf+=3;
+if (form.c6[1].checked==1) xf+=2;
+if (form.c6[2].checked==1) xf+=1;
+if (form.c7[0].checked==1) xf+=3;
+if (form.c7[1].checked==1) xf+=2;
+if (form.c7[2].checked==1) xf+=1;
+if (form.c8[0].checked==1) xf+=1;
+if (form.c8[1].checked==1) xf+=3;
+if (form.c8[2].checked==1) xf+=2;
+if (form.c9[0].checked==1) xf+=3;
+if (form.c9[1].checked==1) xf+=2;
+if (form.c9[2].checked==1) xf+=1;
+if (form.c10[0].checked==1) xf+=3;
+if (form.c10[1].checked==1) xf+=1;
+if (form.c10[2].checked==1) xf+=2;
+if (xf>23) form.answer.value="积极向上，成功在望！你心目中有远大的目标，为了实现理想你会坚持不懈，即使遇到困难挫折也不会罢手。你同时具备积极性和成就欲，由于你充满自信，故任何事在你眼中都是轻而易举的，但小心自视过高会弄巧反拙，你应该听过“聪明反被聪明误”，凡事都要适可而止。";
+if (xf>15 && xf<24) form.answer.value="野心不大，尚算积极！你在实现一个目标时，有一定的积极性，但却缺乏持续性和主动性。当追求的目标一旦实现时，你就会停手。你很容易满足，亦没有大野心，只是感到面临危机时，你才会着手计划下一步行动。";
+if (xf>0 && xf<16) form.answer.value="安于现状，自得其乐！你比较安于现状，不习惯接受新事物、新挑战。即使现实生活需要你做出抉择时，你不是犹豫不决就是退避三舍。虽然成就欲和积极性都欠缺，但你甘于接受简单易做的工作，并自得其乐。";
+}</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+td {font-family: "宋体"; font-size: 9pt; color: #0076ae;}
+a:link {color:#005570;text-decoration: none}
+a:visited {color:#005570;text-decoration: none}
+a:hover {color:#005570;text-decoration: underline;}
+-->
+</style>
+<title>成功自测:你的成功指数有多少？</title>
+</head>
+
+<body bgcolor="ffffe1" text="#0076AE">
+
+<form name="see">
+  <div align="left"><table border="0" cellpadding="10" cellspacing="0" width="586"
+  height="1" bgcolor="ffffe1">
+    <tr align="center">
+      <td height="49" align="center"><div align="left"><p><span
+      style="font-size: 9pt; line-height: 20px">实力相当，但为何最终跑赢的是他而不是你？要想在事业上取得成就，先要问问自己有否成就欲和积极性？究竟如何，通过下面这个测验就知道。 
+      </span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">1、你认为一个人在事业上的成功，主要取决于：<br>
+      <input name="c1" type="radio" value="12">命运和际遇。　　<input name="c1"
+      type="radio" value="32">自身奋斗。　　<input name="c1" type="radio" value="33">两样都有。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">2、当你在工作上遇到困难时，你会：<br>
+      <input name="c2" type="radio" value="1">想办法自己解决。　　<input name="c2"
+      type="radio" value="2">选择逃避。　　<input name="c2" type="radio" value="3">求助他人。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">3、对于失败，你的理解是：<br>
+      <input name="c3" type="radio" value="1">羞辱、挫折。　　<input name="c3"
+      type="radio" value="2">不巧，偏偏选中你。　　<input name="c3" type="radio"
+      value="3">是一个教训。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">4、以下哪种工作你最向往：<br>
+      <input name="c4" type="radio" value="1">轻轻松松下午5时下班。　　<input
+      name="c4" type="radio" value="2">新奇刺激，充满挑战。　　<input name="c4"
+      type="radio" value="3">有权有势做统帅。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">5、你现在的工作态度是：<br>
+      <input name="c5" type="radio" value="1">要出人头地。　　<input name="c5"
+      type="radio" value="2">干得和大家差不多就行了。　　<input name="c5"
+      type="radio" value="3">做得比别人好一点点。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">6、你部门刚好有一个管理职位的空缺，你认为自己可以胜任，你会：<br>
+      <input name="c6" type="radio" value="1">当仁不让，积极争取。　　<input
+      name="c6" type="radio" value="2">等上司钦点。　　<input name="c6" type="radio"
+      value="3">有得做就做，没得做就算。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">7、公司突然停电，你会：<br>
+      <input name="c7" type="radio" value="1">帮忙查明停电原因及想法解决。<br>
+      <input name="c7" type="radio" value="2">等人维修后再继续工作。<br>
+      <input name="c7" type="radio" value="3">反正停电，不如出去歇歇。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">8、你在公司暗恋的对象被人追求，你会：<br>
+      <input name="c8" type="radio" value="1">当无事发生。　　<input name="c8"
+      type="radio" value="2">誓要把心爱的人抢到手。　　<input name="c8"
+      type="radio" value="3">另选第二个目标。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">9、“要赢人，先要赢自己”，你认为：<br>
+      <input name="c9" type="radio" value="1">是真理。　　<input name="c9" type="radio"
+      value="2">未必人人做到。　　<input name="c9" type="radio" value="3">十分老套。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">10、你认为驾车应该：<br>
+      <input name="c10" type="radio" value="1">有多快开多快，享受高速快感。　　<input
+      name="c10" type="radio" value="2">只不过开车而已。　　<input name="c10"
+      type="radio" value="3">悠游看风景。</span></p>
+      </div><div align="center"><center><p><input type="button"
+      value="都选择完了，结果怎样?" onClick="processForm(this.form)"
+      style="font-size: 9pt; font-family: 宋体">　　<input type="reset" value="重新选！"
+      onClick="processForm(this.form)" style="font-size: 9pt; font-family: 宋体"><br>
+      <textarea rows="5" name="answer" cols="48" wrap="virtual"
+      style="font-family: 宋体; font-size: 9pt; line-height: 15px; color: rgb(255,0,0)"></textarea></td>
+    </tr>
+  </table>
+  </div>
+</form>
+</body>
+</html>
+ght: 15px; color: rgb(255,0,0)"></textarea></td>
+    </tr>
+  </table>
+  </div>
+</form>
+</body>
+</html>

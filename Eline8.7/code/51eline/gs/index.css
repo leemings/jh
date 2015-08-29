@@ -1,0 +1,11 @@
+body { scrollbar-face-color:#C4DF9B;scrollbar-highlight-color:#ffffff;scrollbar-3dlight-color:#197B30;scrollbar-darkshadow-color:#005826;scrollbar-shadow-color:#005826;scrollbar-arrow-color:#FFFF00;scrollbar-track-color:#39B54A 
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #2d2d2d; LINE-HEIGHT: 20px
+}
+A {
+	FONT-SIZE: 12px; COLOR: #006600; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}

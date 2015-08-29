@@ -1,0 +1,141 @@
+.redtext {
+FONT-SIZE: 12px; COLOR: #65251c; FONT-FAMILY: 宋体
+}
+.redtext:link {
+COLOR: #65251c; TEXT-DECORATION: none
+}
+.redtext:visited {
+COLOR: #65251c; TEXT-DECORATION: none
+}
+.redtext:active {
+COLOR: #202c64; TEXT-DECORATION: underline
+}
+.redtext:hover {
+COLOR: #202c64; TEXT-DECORATION: underline
+}
+.ct-def1 {
+FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体
+}
+.ct-def1:link {
+COLOR: #000000; TEXT-DECORATION: none
+}
+.ct-def1:visited {
+COLOR: #000000; TEXT-DECORATION: none
+}
+.ct-def1:active {
+COLOR: #000000; TEXT-DECORATION: none
+}
+.ct-def1:hover {
+COLOR: #505960; TEXT-DECORATION: underline
+}
+.ct-def2 {
+FONT-SIZE: 12px; COLOR: #65251c; FONT-FAMILY: 宋体
+}
+.ct-def2:link {
+COLOR: #65251c; TEXT-DECORATION: none
+}
+.ct-def2:visited {
+COLOR: #65251c; TEXT-DECORATION: none
+}
+.ct-def2:active {
+COLOR: #202c64; TEXT-DECORATION: underline
+}
+.ct-def2:hover {
+COLOR: #202c64; TEXT-DECORATION: underline
+}
+.copy1 {
+FONT-SIZE: 12px; COLOR: #2f302f; FONT-FAMILY: 宋体
+}
+.copy1:link {
+COLOR: #2f302f; TEXT-DECORATION: none
+}
+.copy1:visited {
+COLOR: #2f302f; TEXT-DECORATION: none
+}
+.copy1:active {
+COLOR: #2f302f; TEXT-DECORATION: none
+}
+.copy1:hover {
+COLOR: #2f302f; TEXT-DECORATION: none
+}
+.moreb1 {
+FONT-SIZE: 12px; COLOR: #1e2a63; FONT-FAMILY: 宋体; LETTER-SPACING: 2px
+}
+.moreb1:link {
+COLOR: #1e2a63; TEXT-DECORATION: none
+}
+.moreb1:visited {
+COLOR: #1e2a63; TEXT-DECORATION: none
+}
+.moreb1:active {
+COLOR: #202c64; TEXT-DECORATION: underline
+}
+.moreb1:hover {
+COLOR: #202c64; TEXT-DECORATION: underline
+}
+.moreb2 {
+FONT-SIZE: 12px; COLOR: #1e2a63; FONT-FAMILY: 宋体
+}
+.moreb2:link {
+COLOR: #1e2a63; TEXT-DECORATION: none
+}
+.moreb2:visited {
+COLOR: #1e2a63; TEXT-DECORATION: none
+}
+.moreb2:active {
+COLOR: #202c64; TEXT-DECORATION: underline
+}
+.moreb2:hover {
+COLOR: #202c64; TEXT-DECORATION: underline
+}
+.bredtext {
+FONT-SIZE: 14px; COLOR: #65251c; FONT-FAMILY: 宋体
+}
+.bredtext:link {
+COLOR: #65251c; TEXT-DECORATION: none
+}
+.bredtext:visited {
+COLOR: #65251c; TEXT-DECORATION: none
+}
+.bredtext:active {
+COLOR: #202c64; TEXT-DECORATION: underline
+}
+.bredtext:hover {
+COLOR: #202c64; TEXT-DECORATION: underline
+}
+.bredtext2 {
+FONT-SIZE: 14px; COLOR: #65251c; LINE-HEIGHT: 1.4; FONT-FAMILY: 宋体
+}
+.redlist {
+FONT-SIZE: 12px; COLOR: #65251c; LINE-HEIGHT: 1.6; FONT-FAMILY: 宋体
+}
+.ctleft1 {
+FONT-SIZE: 12px; COLOR: #050504; FONT-FAMILY: 宋体
+}
+A:link {
+CURSOR: hand; COLOR: #000000; FONT-STYLE: normal; TEXT-DECORATION: underline
+}
+A:visited {
+COLOR: #000000; FONT-STYLE: normal; TEXT-DECORATION: underline
+}
+A:active {
+COLOR: #fff99d; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A:hover {
+COLOR: #fff99d; FONT-STYLE: normal; TEXT-DECORATION: underline
+}
+SELECT {
+BACKGROUND-COLOR: #fffddf
+}
+.gr {
+FILTER: alpha(Opacity=30)
+}
+.gr2 {
+FILTER: alpha(Opacity=75)
+}
+.gr3 {
+FILTER: gray
+}
+.nogr {
+FILTER: alpha(Opacity=100)
+}

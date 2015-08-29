@@ -1,0 +1,116 @@
+TD.NON {font-family :宋体, Arial; font-size :12px; color :#C0C0C0; font-weight :normal;}
+TD.TOP {font-family :宋体, Arial; font-size :12px; color :#0000FF; font-weight :bold;}
+TD.Some {font-family :宋体, Arial; font-size :12px; color :#000000; font-weight :normal;}
+TD.Today {font-family :宋体, Arial; font-size :12px; background-color :khaki; font-weight :normal;}
+TD.Selected {font-family :宋体, Arial; font-size :12px; background-color :silver; font-weight :normal;}
+TD.HL {font-family :宋体, Arial; font-size :12px; color :#000000; font-weight :normal;}
+TD.NON2 {font-family: 宋体, Arial; font-size :12px; background-color :lightgrey; font-weight :normal}
+A.NOEVENT:link
+{
+    COLOR: #000000;
+    CURSOR: nw-resize;
+    FONT-FAMILY: 宋体, Arial;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.NOEVENT:visited
+{
+    COLOR: #000000;
+    CURSOR: nw-resize;
+    FONT-FAMILY: 宋体, Arial;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.NOEVENT:hover
+{
+    BACKGROUND-COLOR: silver;
+    COLOR: #000000;
+    CURSOR: nw-resize;
+    FONT-FAMILY: 宋体, Arial;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.EVENT:link
+{
+    COLOR: green;
+    CURSOR: nw-resize;
+    FONT-FAMILY: 宋体, Arial;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.EVENT:visited
+{
+    COLOR: green;
+    CURSOR: nw-resize;
+    FONT-FAMILY: 宋体, Arial;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.EVENT:hover
+{
+    BACKGROUND-COLOR: khaki;
+    COLOR: green;
+    CURSOR: nw-resize;
+    FONT-FAMILY: 宋体, Arial;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+A.MONTH:link
+{
+    COLOR: black;
+    FONT-FAMILY: 宋体, Arial;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.MONTH:visited
+{
+    COLOR: black;
+    FONT-FAMILY: 宋体, Arial;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.MONTH:hover
+{
+    COLOR: black;
+    FONT-FAMILY: 宋体, Arial;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.NORMAL:link
+{
+    COLOR: #000000;
+    FONT-FAMILY: 宋体, Arial;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.NORMAL:visited
+{
+    COLOR: #000000;
+    FONT-FAMILY: 宋体, Arial;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+A.NORMAL:hover
+{
+    COLOR: #000000;
+    FONT-FAMILY: 宋体, Arial;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+.createdby
+{
+    FONT-STYLE: italic;
+    TEXT-ALIGN: right
+}
+.bluetext
+{
+    COLOR: #336699
+}
+.month
+{
+    FONT-WEIGHT: bold
+}
+.eventname
+{
+    FONT-WEIGHT: bold
+}

@@ -1,0 +1,95 @@
+<SCRIPT LANGUAGE="VBScript" RUNAT="Server">
+sub Application_OnStart
+Application("sjjh_usermdb")="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & Server.MapPath("Eline_Home_db/eline_8.7.0_db.asa")
+
+Set conn=Server.CreateObject("ADODB.CONNECTION")
+Set rs=Server.CreateObject("ADODB.RecordSet")
+conn.open Application("sjjh_usermdb")
+rs.open "SELECT * FROM r",conn
+ do while Not rs.Eof
+	Application("sjjh_room")=Application("sjjh_room")&rs("a")&"|"&rs("b")&"|"&rs("c")&"|"&rs("d")&"|"&rs("e")&"|"&rs("f")&"|"&rs("g")&"|"&rs("h")&"|"&rs("i")&"|"&rs("j")&";"
+	rs.MoveNext
+ loop
+'江湖系统设置不要修改，否则江湖会不正常运行！
+'购买[E线江湖 V8.7极限版]请联系QQ:249357828！
+Application("sjjh_chatroomname")="ｅ线江湖"
+Application("sjjh_homepage")="http://www.51eline.com"
+Application("sjjh_sn")="ELINE-20030316-080700"
+Application("sjjh_user")="一线天"
+Application("sjjh_copyright")="『一线网络』"
+Application("sjjh_ver")="ELINE_V8.7.0"
+Application("sjjh_softuser")=-63617
+Application("sjjh_softjm")=-28972
+Application("sjjh_tltie")="☆★欢迎来到"&Application("sjjh_chatroomname")&"总站！本站永久地址:51eline.com★☆("&Application("sjjh_user")&")"
+rs.close
+set rs=nothing 
+conn.close
+set conn=nothing
+ Dim nameindex(0)
+sjjh_roominfo=split(Application("sjjh_room"),";")
+for roomsn=0 to ubound(sjjh_roominfo)-1
+	 Application("sjjh_onlinelist"&roomsn)=nameindex
+	 fenroom=split(sjjh_roominfo(roomsn),"|")
+	 application("sjjh_chatroomname"&roomsn)=fenroom(0)
+	Application("sjjh_useronlinename"&roomsn)=""
+
+next 
+
+ Dim wbq(0)
+ Application("sjjh_webicq")=wbq
+ webicqname=" "
+ Application("sjjh_webicqname")=webicqname
+End sub
+
+Sub Session_OnStart
+ Session.Timeout=1
+End Sub
+
+Sub Session_OnEnd
+roomsn=session("nowinroom")
+nickname=Session("sjjh_name")
+if nickname="" then exit sub
+useronlinename=Application("sjjh_useronlinename"&roomsn)
+
+if InStr(useronlinename," " & nickname & " ")<>0  then
+Application.Lock
+	onlinelist=Application("sjjh_onlinelist"&roomsn)
+	onno=ubound(onlinelist)
+	for i=1 to onno
+	 if InStr(onlinelist(i),nickname & "|")=1 then
+		  for j=i to onno-1
+			   onlinelist(j)=onlinelist(j+1)
+		  next
+		  ReDim Preserve onlinelist(onno-1)
+	  exit for
+	 end if
+	next
+Application("sjjh_onlinelist"&roomsn)=onlinelist
+Application("sjjh_useronlinename"&roomsn)=Replace(Application("sjjh_useronlinename"&roomsn)," " & nickname & " ","")
+Application.UnLock
+act="退出"
+towhoway=0
+towho="大家"
+addwordcolor="660099"
+saycolor="008888"
+addsays="对"
+says="<font color=black>【公告】</font><font color=F08000>" & Replace("“砰”的一声，%%重重地摔了下了马，回家养伤去了，好倒霉啊……","%%","<font color=black>" & nickname & "</font>") & "</font><font class=t>(" & time() & ")</font>"
+Msg="<"&"script>parent.sh("& chr(39) & addwordcolor & chr(39) &","& chr(39) & saycolor & chr(39) &","& chr(39) & act & chr(39) &","& chr(39) & nickname & chr(39) &","& chr(39) & addsays & chr(39) &","& chr(39) & towho & chr(39) &"," & chr(39) & says & chr(39) &"," & towhoway &  "," & roomsn & ");<"&"/script>"
+addmsg msg
+end if
+End sub
+
+Function Yushu(a)
+	Yushu=(a and 31)
+End Function
+
+Sub AddMsg(Str)
+	Application.Lock()
+		Application("SayCount")=Application("SayCount")+1
+		i="SayStr"&YuShu(Application("SayCount"))
+		Application(i)=Str
+	Application.UnLock()
+End Sub
+Sub Application_OnEnd
+End sub
+</SCRIPT>

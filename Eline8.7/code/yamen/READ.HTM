@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>用户协议</title>
+<LINK href="../css.css" rel=stylesheet><meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+.aq {  font-size: 9pt; line-height: 150%; color: #efefef; filter: DropShadow(Color=#efefef, OffX=1, OffY=1, Positive=1)}
+</style>
+</head>
+<body bgcolor="#b7d4f1" leftmargin="0" topmargin="0">
+<div align="center">
+  <script language="JavaScript">
+if (navigator.appName.indexOf("Internet Explorer") != -1)	
+document.onmousedown = noright;
+function noright()
+{
+if (event.button == 2 | event.button == 3)
+{
+	alert("不要这样嘛 ^_^");
+	 location.replace("#")
+}
+}
+</script>
+</div>
+<table width="400" border="1" align="center" cellpadding="0" cellspacing="10" bgcolor="#000000">
+  <tr bgcolor="#FFFFFF">
+    <td bgcolor="#b7d4f1"> 
+      <div align="center"><font color="#FF0000"><strong>用 户 协 议</strong></font> 
+      </div>
+	  <script>
+info="江湖程序由一线天独立改版美化.使用权归一线天个人所有.免费提供休闲娱乐、交友交流.注册用户初始化一级会员.三个月内若表现良好、等级达60级将自动升为二级会员.如若不是则自动取消会员资格.请记住.";
+infoLen=info.length;
+pos=0;
+document.write("<div id='div1'></div>");
+var pos=0;
+function gogo()
+{
+    ++pos;
+    pos=(pos>(infoLen-1))?0:pos;
+    pos=(pos<0)?(infoLen-1):pos;
+    div1.innerHTML=info.substring(0,pos)+"<font color='red'>"+info.substring(pos,pos+1)+"</font>"+info.substring(pos+1,infoLen);
+}
+setInterval("gogo()",300);
+</script>
+        <br>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="aq">
+	      <font color="#006699">用户在申请和使用本系统时，必须遵守以下规则：<br>
+      <br>
+      一、用户对所申请的帐号和密码安全负全部责任.<br>
+      <br>
+      二、用户对该帐户中的所有活动和事件负全部责任.<br>
+      <br>
+      同时包括：<br>
+      （1）用户不得发布任何非法的、骚扰性的、中伤他人的、辱骂性的、恐吓性的、伤害性的、庸俗的.淫秽等信息资料.<br>
+      （2）用户不能发布任何教唆他人构成犯罪行为的资料.用户不能发布助长国内不利条件和涉及国家安全的资料.<br>
+      （3）用户不能发布任何不符合当地法规、国家法律和国际法律的资料<br>
+      若用户的行为不符合以上提到的服务条款将立即删除用户帐号.<br>
+      <br>
+      三、同意承担系统由于管理.升级等因素造成的数据库清零(删帐号)的风险.</div> </font>
+	</td>
+  </tr>
+</table>
+
+      <p align=center ><a href=joinjh.asp><font color="#FF6600">我同意</font></a>　|　<a href=javascript:window.close()><font color="#FF6600">不同意</font></a><br><br>
+        <%=Application("sjjh_chatroomname")%><br>
+        <font color="#000000">『E线江湖』&#8482;</font><font color="#FFFFFF"><br>
+        <br>
+        </font></p>
+</td>
+</tr>
+</table>

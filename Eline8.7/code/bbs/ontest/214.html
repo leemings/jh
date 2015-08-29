@@ -1,0 +1,103 @@
+<html>
+
+<head><script Language="JavaScript">
+<!--
+var i=number=0;
+var result="";
+function processForm01(form){
+if (form.b1.value!="已选"){
+i+=1;
+number="家庭";
+form.b1.value="已选";
+result+="第"+i+"位的是："+number+"；";
+if (i=="5") form.answer.value="在你的生活中，"+result;
+}
+}
+function processForm02(form){
+if (form.b2.value!="已选"){
+i+=1;
+number="金钱";
+form.b2.value="已选";
+result+="第"+i+"位的是："+number+"；";
+if (i=="5") form.answer.value="在你的生活中，"+result;
+}
+}
+function processForm03(form){
+if (form.b3.value!="已选"){
+i+=1;
+number="事业";
+form.b3.value="已选";
+result+="第"+i+"位的是："+number+"；";
+if (i=="5") form.answer.value="在你的生活中，"+result;
+}
+}
+function processForm04(form){
+if (form.b4.value!="已选"){
+i+=1;
+number="朋友";
+form.b4.value="已选";
+result+="第"+i+"位的是："+number+"；";
+if (i=="5") form.answer.value="在你的生活中，"+result;
+}
+}
+function processForm05(form){
+if (form.b5.value!="已选"){
+i+=1;
+number="性";
+form.b5.value="已选";
+result+="第"+i+"位的是："+number+"；";
+if (i=="5") form.answer.value="在你的生活中，"+result;
+}
+}
+function processForm(form){
+i=number=0;
+result="";
+form.b1.value="孩子哭了！";
+form.b2.value="水龙头在哗哗地流水！";
+form.b3.value="电话在响！";
+form.b4.value="有人敲门！";
+form.b5.value="突然下雨，而外面还晾着衣服！";
+}
+//-->
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+td {font-family: "宋体"; font-size: 9pt; color: #0076ae;}
+a:link {color:#005570;text-decoration: none}
+a:visited {color:#005570;text-decoration: none}
+a:hover {color:#005570;text-decoration: underline;}
+-->
+</style>
+<title>心理自测:人生重点排座次</title>
+</head>
+
+<body bgcolor="ffffe1" text="#0076AE">
+
+<form name="see">
+  <div align="left"><table border="0" cellpadding="10" cellspacing="0" width="586"
+  height="1" bgcolor="ffffe1">
+    <tr align="center">
+      <td height="49" align="center"><div align="left"><p><span
+      style="font-size: 9pt; line-height: 20px">当你在家时，同时发生下面几件事，你会先作哪一件？请依次选择一下，你的人生主次就出来了。</span></p>
+      </div><div align="left"><p><input type="button" value="孩子哭了！"
+      onClick="processForm01(this.form)" style="font-size: 9pt; font-family: 宋体" name="b1"><br>
+      <input type="button" value="水龙头在哗哗地流水！"
+      onClick="processForm02(this.form)" style="font-size: 9pt; font-family: 宋体" name="b2"><br>
+      <input type="button" value="电话在响！" onClick="processForm03(this.form)"
+      style="font-size: 9pt; font-family: 宋体" name="b3"><br>
+      <input type="button" value="有人敲门！" onClick="processForm04(this.form)"
+      style="font-size: 9pt; font-family: 宋体" name="b4"><br>
+      <input type="button" value="突然下雨，而外面还晾着衣服！"
+      onClick="processForm05(this.form)" style="font-size: 9pt; font-family: 宋体" name="b5"></p>
+      </div><div align="center"><center><p><input type="reset" value="重新选!"
+      onClick="processForm(this.form)" style="font-size: 9pt; font-family: 宋体"></p>
+      </center></div><p><textarea rows="4" name="answer" cols="48" wrap="virtual"
+      style="font-family: 宋体; font-size: 9pt; line-height: 15px; color: rgb(255,0,0)"></textarea></td>
+    </tr>
+  </table>
+  </div>
+</form>
+</body>
+</html>

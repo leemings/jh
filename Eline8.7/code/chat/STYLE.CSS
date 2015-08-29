@@ -1,0 +1,9 @@
+BODY { COLOR: #000000; CURSOR: url('banana.ani');FONT-FAMILY: "宋体"; FONT-SIZE: 9pt } TD { COLOR: #000000;
+FONT-FAMILY: "宋体"; FONT-SIZE: 9pt } A:link { COLOR: #ffcc00; CURSOR: e-resize;
+FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; TEXT-DECORATION: none } A:visited { COLOR:
+#d5be66; CURSOR: e-resize; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; TEXT-DECORATION:
+none } A:hover { COLOR: #cc9900; CURSOR: hand; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt;
+TEXT-DECORATION: underline blink } SELECT { BACKGROUND-COLOR: #8A2D00; BORDER-BOTTOM:
+#ffcc66 solid; BORDER-LEFT: #999900 solid; BORDER-RIGHT: #ffcc66 solid; BORDER-TOP:
+#999900 solid; FONT-SIZE: 9pt } INPUT { BACKGROUND-COLOR: #7292e4;
+COLOR: #000000; FONT-SIZE: 9pt } TD { }

@@ -1,0 +1,140 @@
+<METHOD   NAME="ShowIMG3"/>
+<ATTACH   EVENT="ondocumentready" HANDLER="ShowIMG3"/>
+
+<script language="jscript">
+function ShowIMG3()
+{
+
+	var w=element.width;
+	var h=element.height;
+	var s="";
+	var x=posX;
+	var y=posY;
+	var posWidth=140;
+	var posHeight=226;
+	var itemnos = visual;
+	var showArray = itemnos.split('|');
+	
+	if(x==0) {
+		posWidth=w;
+		posHeight=h;
+	}
+	s+="<DIV style='padding:0;position:relative;top:0;left:0;width:"+w+";height:"+h+";overflow:hidden'>";
+	s+="<DIV style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+posWidth+";height:"+posHeight+"'>";
+	//1	背景1
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:1;'>";
+	//2	背景2
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:2;'>";
+	//3	右身后
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:3;'>";
+	//4	左身后
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:4;'>";
+	//5	后背
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:5;'>";
+	//6	后帽子
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:6;'>";
+	//7	※后头发
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:7;'>";
+	//8	※下身
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:8;'>";
+	//9	※上身
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:9;'>";
+	//10	项饰
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:10;'>";
+	//11	※脸型
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:11;'>";
+	//12	脸纹
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:12;'>";
+	//13	※口鼻
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:13;'>";
+	//14	※眼眉
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:14;'>";
+	//15	耳饰
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:15;'>";
+	//16	胡子
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:16;'>";
+	//17	面纱
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:17;'>";
+	//18	※前头发
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:18;'>";
+	//19	耳罩
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:19;'>";
+	//20	发饰
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:20;'>";
+	//21	眼镜
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:21;'>";
+	//22	右身前
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:22;'>";
+	//23	左身前
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:23;'>";
+	//24	前景1
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:24;'>";
+	//25	前景2
+	s+="<IMG style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:none;z-index:25;'>";
+	//50	
+	s+="<IMG src";
+	s+="="+baseName+" style='padding:0;position:absolute;top:0;left:0;width:"+posWidth+";height:"+posHeight+";display:inline;z-index:50;'>";
+	s+="</DIV>";
+	s+="</DIV>";
+	//alert(s);
+	element.innerHTML=s;
+	InitShow(showArray);
+}
+
+function InitShow(showArray)
+{
+	var t, j, x;
+	for (var i=0; i<25; i++)
+	{
+		if(showArray[i] != '')
+		{
+			j = i + 1;
+			if(showArray[i].indexOf('.')<0)
+				TakeLayerIMG(j, showArray[i]);
+			else
+				TakeLayerIMG(j, (showArray[i].split('.'))[0]);
+		}
+	}
+	return 0;
+}
+
+function GetPart(layerno)
+{
+	t=element.children[0].children[0].children[layerno-1];
+	return t;
+
+}
+
+function TakeLayerIMG(nType,itemNo)	
+{
+	var t;
+		
+	t = GetPart(nType);
+	if(itemNo == -1)
+	{
+		t.style.display	= "none";
+		t.preFileNo = '';
+		t.src = '';
+	}
+	else
+	{
+		var fileN = GetFileName(nType, itemNo);
+		t.preFileNo = itemNo + '.' + nType;
+	
+		t.src = fileN;
+		t.style.display	= "inline";
+	}
+}
+
+function GetFileName(nType, itemNo)
+{
+	var fileN;
+	if(localpic!=0){
+		var itemN = ("0000" + itemNo);
+		itemN = itemN.substring(itemN.length-4,itemN.length);
+		fileN = ImagePath + nType + "/" + itemN + ".GIF";
+	}
+	else fileN = ImagePath + itemNo + "/" + nType + "/00/";
+	return fileN;
+}
+</script>

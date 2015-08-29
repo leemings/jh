@@ -1,0 +1,151 @@
+<%@ LANGUAGE=VBScript codepage ="936" %>
+<%Response.Expires=0
+Response.ExpiresAbsolute = Now() - 1
+Response.AddHeader "Pragma","No-Cache"
+Response.AddHeader "Cache-Control","Private"
+Response.CacheControl = "No-Cache"
+
+sjjh_name=Session("sjjh_name")
+sjjh_grade=Session("sjjh_grade")
+sjjh_jhdj=Session("sjjh_jhdj")
+if sjjh_name="" then Response.Redirect "../error.asp?id=440"
+%>
+<html>
+<head>
+<title><%=Application("sjjh_chatroomname")%>门派管理</title>
+<style type="text/css">
+<!--
+p            { line-height: 20px; font-size: 9pt }
+table        { font-size: 9pt }
+a:link       { color: #FF9900; text-decoration: none }
+-->
+</style>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+</head>
+
+<body text="#000000" vlink="#FF9900" topmargin="0"
+leftmargin="0" background="../jhimg/bk_hc3w.gif">
+<p align="center">
+<%
+id=request("id")
+if instr(id,"官")<>0 then
+		Response.Write "<script language=JavaScript>{alert('严重警告，不要搞乱');window.close();}</script>"
+		Response.End
+end if
+my=request("my")
+%>
+<font color="#CC0000" face="幼圆"><a href="javascript:this.location.reload()">刷新</a></font>
+<table border="0" width="500" cellspacing="0" cellpadding="0"
+background="bg.gif" align="center">
+<tr align="center">
+<td background="top1.gif" width="500" height="26"><font
+color="#FF6600"><b><font size="+1">江 湖 门 派</font></b></font></td>
+</tr>
+<tr align="center">
+<td>
+<table width="470" border="1" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF" height="13">
+<tr>
+<%
+Set conn=Server.CreateObject("ADODB.CONNECTION")
+Set rs=Server.CreateObject("ADODB.RecordSet")
+conn.open Application("sjjh_usermdb")
+rs.open "SELECT * FROM 用户 where 门派='"&id&"'",conn
+%>
+<td width="31">
+<div align="center"><font color="#FFFFFF">ID</font></div>
+</td>
+<td width="54">
+<div align="center"><font color="#FFFFFF">姓名</font></div>
+</td>
+<td width="27">
+<div align="center"><font color="#FFFFFF">性别</font></div>
+</td>
+<td width="74">
+<div align="center"><font color="#FFFFFF">身份</font></div>
+</td>
+<td width="66">
+<div align="center"><font color="#FFFFFF">注册ip</font></div>
+</td>
+<td width="65">
+<div align="center"><font color="#FFFFFF">注册时间</font></div>
+</td>
+<td width="32">
+<div align="center"><font color="#FFFFFF">登录</font></div>
+</td>
+<td width="73">
+<div align="center"><font color="#FFFFFF">掌门操作</font></div>
+</td>
+<td width="28">
+<div align="center"><font color="#FFFFFF">删除</font></div>
+</td>
+</tr>
+<%
+do while not rs.bof and not rs.eof
+%>
+<tr>
+<td width="31" height="30">
+<div align="center"><font color="#FFFFFF"><%=rs("ID")%></font></div>
+</td>
+<td width="54" height="30">
+<div align="center"><a href="../yamen/mt.asp?action=<%=rs("姓名")%>"><font color="#FFFFFF"><%=rs("姓名")%></font></a></div>
+</td>
+<td width="27" height="30">
+<div align="center"><font color="#FFFFFF"><%=rs("性别")%></font></div>
+</td>
+<td width="74" height="30">
+<div align="center"><font color="#FFFFFF"><%=rs("身份")%></font></div>
+</td>
+<td width="66" height="30">
+<div align="center"><font color="#FFFFFF">
+<%if sjjh_grade>=9 then%>
+	<%=rs("regip")%>
+<%else%>
+	无权查看
+<%end if%>
+</font></div>
+</td>
+<td width="65" height="30">
+<div align="center"><font color="#FFFFFF">
+<%if sjjh_grade>=9 then%>
+	<%=rs("regtime")%><br>
+	<%=rs("lasttime")%>
+<%else%>
+	<%=rs("regtime")%>
+<%end if%>
+</font></div>
+</td>
+<td width="32" height="30">
+<div align="center"><font color="#FFFFFF"><%=rs("times")%></font></div>
+</td>
+<td width="73" height="30">
+<div align="center"><a href="mp3.asp?you=<%=rs("姓名")%>&amp;id=<%=rs("门派")%>"><font color="#FFFFFF">逐出师门</font></a></div>
+</td>
+<td width="28" height="30">
+<div align="center"><a href="mp4.asp?you=<%=rs("姓名")%>&id=<%=rs("门派")%>"><font color="#FFFFFF">
+<%if sjjh_grade>=9 then%>
+	删除
+<%else%>
+	无权
+<%end if%>
+</font></a></div>
+</td>
+</tr>
+<%
+rs.movenext
+loop
+rs.close
+set rs=nothing
+conn.close
+set conn=nothing
+%>
+</table>
+</td>
+</tr>
+<tr align="center">
+<td background="top3.gif" width="500" height="28"><font color="#FFFFFF"><%=Application("sjjh_chatroomname")%>版权所有</font></td>
+</tr>
+</table>
+</body>
+</html>
+

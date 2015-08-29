@@ -1,0 +1,767 @@
+<PROPERTY NAME="localpic"/>	
+<PROPERTY NAME="userid"/>	
+<PROPERTY NAME="cookies"/>	
+<PROPERTY NAME="ImagePath"/>
+<PROPERTY NAME="usergender"/>
+<METHOD   NAME="InitTable"/>
+<METHOD   NAME="clickDress"/>
+<METHOD   NAME="ShowIMG"/>
+<METHOD   NAME="DisplayTakeOnRecord"/>	
+
+<EVENT    NAME="setCookies" ID="UpdateCookies"  />
+<ATTACH   EVENT="ondocumentready" HANDLER="ShowIMG"/>
+
+<script language="jscript">
+function ShowIMG()
+{
+
+	var w=element.width;
+	var h=element.height;
+	
+	var srcHTML=element.innerHTML;
+	var s="";
+	var x=0;
+	var y=0;
+	
+	cookies=eval(cookies);
+	//alert(cookies);
+	s+="<DIV style='padding:0;position:relative;top:0;left:0;width:"+w+";height:"+h+"'>";		
+	//1	背景1
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:1;'>";
+	//2	背景2
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:2;'>";
+	//3	右身后
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:3;'>";
+	//4	左身后
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:4;'>";
+	//5	后背
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:5;'>";
+	//6	后帽子
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:6;'>";
+	//7	※后头发
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:7;'>";
+	//8	※下身
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:8;'>";
+	//9	※上身
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:9;'>";
+	//10	项饰
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:10;'>";
+	//11	※脸型
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:11;'>";
+	//12	脸纹
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:12;'>";
+	//13	※口鼻
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:13;'>";
+	//14	※眼眉
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:14;'>";
+	//15	耳饰
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:15;'>";
+	//16	胡子
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:16;'>";
+	//17	面纱
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:17;'>";
+	//18	※前头发
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:18;'>";
+	//19	耳罩
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:19;'>";
+	//20	发饰
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:20;'>";
+	//21	眼镜
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:21;'>";
+	//22	右身前
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:22;'>";
+	//23	左身前
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:23;'>";
+	//24	前景1
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:24;'>";
+	//25	前景2
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:25;'>";
+	//50	
+	s+="<IMG src";
+	s+="="+baseName+" style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:inline;z-index:50;'>";
+	s+="</DIV>";
+		
+	s+="<DIV style='display:inline'></DIV>";
+	element.innerHTML=s;
+		
+	//换装记录
+	var t			=element.children[1];
+	t.innerHTML		=srcHTML;
+	t.children[0].style.display="inline";
+	element.DressOnShow		=new Array;
+	
+	var ret = InitShow();
+	if(ret == -1)
+	{
+		InitIMG();
+	}
+
+	
+	//通过cookie，初始化穿衣记录
+	InitDressList();
+}
+
+function clickDress()
+{
+
+	var t=window.event.srcElement;
+	if(t.tagName=="IMG")	
+	{
+		if(!t.itemno)
+			return;
+		var itemno=t.itemno; //365, 1023
+		var layerno=t.layerno; //8, 8_9
+		var itemgender=t.itemgender;
+		
+//		var usergender = getCookie('usergender');
+		if ((itemgender != '2') && (itemgender))
+		{
+			if(itemgender != usergender)
+			{
+				alert("对不起，性别不符，您无法试穿");
+				return;
+			}
+		}
+
+		var nPos=layerno.indexOf('_');
+		if(nPos<0) //如果是单件
+		{
+			t = GetPart(layerno);
+//alert("clickimg:single:t.preFileNo=" + t.preFileNo);
+			if((!t.preFileNo)||(t.preFileNo != itemno+'.'+layerno))
+			{
+				//单件穿
+				TakeOnSingle(layerno, itemno);
+			}
+			else
+			{
+				//单件脱
+				TakeOffSingle(layerno);
+
+			}
+
+		}	
+		else  //如果是多件
+		{
+			t = GetPart(layerno.substring(0, nPos));
+//alert("clickimg:multi:t.preFileNo=" + t.preFileNo);
+			if((!t.preFileNo)||(t.preFileNo != itemno+'.'+layerno))
+			{
+				//多件穿 
+				TakeOnMulti(itemno, layerno);
+			}
+			else
+			{
+				//多件脱
+				TakeOffMulti(layerno);
+				
+			}
+
+		}
+	}
+
+
+}
+function GetPart(layerno)
+{
+	t=element.children[0].children[layerno-1];
+	return t;
+
+}
+
+//单件穿
+//TakeOnSingle(8, 365);
+function TakeOnSingle(layerno, itemno)
+{
+	//得到preFileNo
+		var t = GetPart(layerno);
+	//如果该部件没有着装, 直接穿
+		if(!t.preFileNo)
+		{
+			TakeLayerIMG(layerno, itemno);
+			return 0;
+		}
+			
+	//判断子项数目
+//alert("takeonsingle:" + t.preFileNo);
+		var nPos = t.preFileNo.indexOf('_');
+		if (nPos < 0) //单换单
+		{
+			TakeLayerIMG(layerno, itemno);
+			return 0;
+		}
+		else //多换单
+		{
+		//preFileNo = 1023.8_9
+			var layerArray = t.preFileNo.split('.');		
+			//多件脱
+			TakeOffMulti(layerArray[1]);
+			
+			//单换单
+			TakeLayerIMG(layerno, itemno);
+			return 0;
+		}
+}
+
+//单件脱
+//TakeOffSingle(8);
+function TakeOffSingle(layerno)
+{
+	SetGenderIMG(layerno);
+}
+
+//多件穿
+//TakeOnMulti(1023, 8_9);
+function TakeOnMulti(itemno, layers)
+{
+	var layerArray = layers.split('_');
+	var layerArrayLen = layerArray.length;	
+	for(i=0; i < layerArrayLen; i++)
+	{
+		//将各个部件穿上模板先
+		var genderItemNo = GetGenderItemNo(layerArray[i]);
+		TakeOnSingle(layerArray[i], genderItemNo);
+	}
+	for(i=0; i < layerArrayLen; i++)
+	{
+		//单换单
+		TakeOnSingle(layerArray[i], itemno);
+		t = GetPart(layerArray[i]);
+//alert("TakeOnMulti::" + layerArray[i] + "," + itemno + "," + layers);
+        //如果该部件没有着装, 直接穿
+                if(!t.preFileNo)
+                {
+                        TakeLayerIMG(layerno, itemno);
+                        return 0;
+                }
+		t.preFileNo = itemno + "." + layers;
+	}
+}
+
+//多件脱
+//TakeOffMulti(8_9);
+function TakeOffMulti(layers)
+{
+	var layerArray = layers.split('_');
+	var layerArrayLen = layerArray.length;
+	//循环进行单件脱
+	for(i=0; i < layerArrayLen; i++)
+	{
+		TakeOffSingle(layerArray[i]);
+	}
+}
+
+//TakeLayerIMG(8, 1023);
+function TakeLayerIMG(nType,itemNo)				//设置单个部件的图像。
+{
+	var t;
+		
+	t = GetPart(nType);
+	
+	if(itemNo == -1)
+	{
+		t.style.display	= "none";
+		t.preFileNo = '';
+		t.src = '';
+	}
+	else
+	{
+		var fileN = GetFileName(nType, itemNo);
+		t.preFileNo = itemNo + '.' + nType;
+	
+		t.src = fileN;
+		t.style.display	= "inline";
+	}
+
+	SaveCookieShow();
+	
+}
+
+//穿上符合用户性别的部件
+function SetGenderIMG(nType)			
+{
+	var itemNo = GetGenderItemNo(nType);
+		
+	TakeLayerIMG(nType, itemNo);
+}
+
+//得到用户的某个基本部件
+function GetGenderItemNo(nType)
+{
+	var itemNo;
+//	var usergender = getCookie('usergender');
+	if(usergender == '1')			
+	{
+		switch(nType)
+		{
+			case '7':
+				itemNo = 14;
+				break;
+			case '8':
+				itemNo = 13;
+				break;
+			case '9':
+				itemNo = 12;
+				break;
+			case '11':
+				itemNo = 11;
+				break;
+			case '13':
+				itemNo = 10;
+				break;
+			case '14':
+				itemNo = 9;
+				break;
+			case '18':
+				itemNo = 8;
+				break;
+			default:
+				return -1;
+		}
+
+
+	}
+	else
+	{
+		switch(nType)
+		{
+			case '7':
+				itemNo = 7;
+				break;
+			case '8':
+				itemNo = 6;
+				break;
+			case '9':
+				itemNo = 5;
+				break;
+			case '11':
+				itemNo = 4;
+				break;
+			case '13':
+				itemNo = 3;
+				break;
+			case '14':
+				itemNo = 2;
+				break;
+			case '18':
+				itemNo = 1;
+				break;
+			default:
+				return -1;
+		}
+	}
+	return itemNo;
+}
+
+function InitIMG()
+{
+	if(!enableLayers)	return;
+	var layerArray = enableLayers.split('_');		
+	var layerArrayLen = layerArray.length;
+	for(var i=0;i<layerArrayLen;i++)
+	{
+		//alert("var layerFileNo = layer"+layerArray[i]+";");
+		eval("var layerFileNo = layer"+layerArray[i]+";");
+		var tmpArray = layerFileNo.split('.');	
+		TakeLayerIMG(layerArray[i], tmpArray[0]);
+		//alert( "set " + layerArray[i] +  "=[" + tmpArray[0] +  "] ok!!");
+
+		t = GetPart(layerArray[i]);
+		t.preFileNo = layerFileNo;
+
+		//TakeLayerIMG(layerArray[i], layerFileNo);
+		//TakeLayerIMG(7, 1023_7);
+	}
+}
+
+//从cookie取出个人形象编号，进行组成人物形象，如果不符合规格，则返回-1
+function InitShow()
+{
+	var t, j, x;
+	var layers, count;
+	if(userid != null && userid != '')
+		var itemnos = getCookie('myshow_my'+userid);
+	else
+		var itemnos = '';
+	if(itemnos == '')
+	{
+		return -1;
+	}
+	var showArray = itemnos.split('|');
+	var ret = CheckIllegal(showArray);
+	if(ret != 0)
+		return -1;
+	for (var i=0; i<25; i++)
+	{
+		if(showArray[i] != '')
+		{
+			j = i + 1;
+			TakeLayerIMG(j, showArray[i]);
+			
+			//查看各层中有无相同的item号，如果有，该层FileNo为x1_x2_x3...
+//alert("查看各层中有无相同的item号");
+			layers = '';
+			count=0;
+			for(x=0; x<25; x++)
+			{
+//if(showArray[x] != '')
+//alert(i + ":当前itemno[" + showArray[i] + "], 层" + (x+1) + "的itemno[" + showArray[x] + "]...now layers[" + layers + "]");
+				if(showArray[x] == showArray[i])
+				{
+					if(count == 0)
+						layers = (x+1);
+					else
+						layers = layers + '_' + (x+1);
+
+					count ++;
+//alert("相等!count=" + count + ", layers=" + layers);
+				}
+			}
+
+			t = GetPart(j)
+			t.preFileNo = showArray[i] + '.' + layers;
+		}
+	}
+	return 0;
+}
+
+//检查层编号是否合法, 7,8,9,11,13,14,18 七个基本层不可为空
+function CheckIllegal(showArray)
+{
+	
+//alert(showArray[6] + "," + showArray[7]);
+	if((showArray[6] != '')
+		&& (showArray[7] != '')
+		&& (showArray[8] != '')
+		&& (showArray[10] != '')
+		&& (showArray[12] != '')
+		&& (showArray[13] != '')
+		&& (showArray[17] != ''))
+		return 0;
+	else
+		return -1;
+
+}
+
+
+//将整体形象编号存入cookie，格式为myshow=xx|xx|xx|...|xx|xx
+function SaveCookieShow()
+{
+	var tFileNo;
+	var tmpArray;
+	var itemnos;
+
+	//得到整体形象编号
+	var t = GetPart(1);
+	if(t.preFileNo)
+	{
+		tmpArray = t.preFileNo.split('.');
+		itemnos = tmpArray[0];
+	}
+	else
+	{
+		itemnos='';
+	}
+	for (var i=2; i<26; i++)
+	{
+		t = GetPart(i);
+		if(t.preFileNo)
+		{
+			tmpArray = t.preFileNo.split('.');
+			itemnos = itemnos + '|' + tmpArray[0];
+		}
+		else
+		{
+			itemnos = itemnos + '|';
+		}
+	}
+		//存入cookie
+		//setCookie('myshow', itemnos);
+		if(userid != null && userid != '') 
+			cookies	= "myshow_my" + userid + "=" + itemnos;
+		UpdateCookies.fire();
+
+}
+
+//GetFileNo(365, 8);
+//GetFileNo(1023, 8_9);
+function GetFileNo(itemno, layerno)
+{		
+	var fileNo;
+	var nPos=layerno.indexOf('_');
+	if(nPos<0) //如果是单件
+	{
+		fileNo = itemno + "_" + layerno;
+		return(fileNo);
+	}
+	else
+	{
+		var layerNoArray = layerno.split('_');
+		var layerNoArrayLen = layerNoArray.length;
+		for(var i=0; i<layerNoArray; i++)
+		{
+			fileNo[i] = layerNoArray[i] + "";
+
+		}
+		
+	}
+}
+function GetFileName(nType, itemNo)
+{
+	var fileN;
+	if(localpic!=0){
+		var itemN = ("0000" + itemNo);
+		itemN = itemN.substring(itemN.length-4,itemN.length);
+		fileN = ImagePath + nType + "/" + itemN + ".GIF";
+	}
+	else fileN = ImagePath + itemNo + "/" + nType + "/00/";
+	return fileN;
+}
+
+/******************************************************************************
+* Cookie functions.                                                           *
+******************************************************************************/
+
+function setCookie (name, value) {
+
+  document.cookie = name + "=" + escape(value) + "; path=/";
+}
+
+function getCookie(name) {
+
+  var search;
+
+	if(!cookies||cookies=="") return "";
+  search = name + "=";
+  offset = cookies.indexOf(search);
+  if (offset != -1) {
+    offset += search.length ;
+    end = cookies.indexOf(";", offset) ;
+    if (end == -1) end = cookies.length;
+    return unescape(cookies.substring(offset, end));
+  }
+  else
+    return "";
+}
+
+/******************************************************************************
+* End of cookie functions.                                                    *
+******************************************************************************/
+
+
+function GetObj(child,name,startIndex)
+{
+	for(var i=startIndex;i<child.length;i++)
+	{
+		if(child[i].name==name)
+		{
+			return i;
+		}
+	}
+	return -1;
+}
+
+function InitDressList()
+{
+	
+	//读取Cookie。
+	if(userid != null && userid != "")
+		var 	itemList	=getCookie('myshow_my' + userid);
+	
+	var 	parent		=element.children[1];
+
+	var childSet = parent.all;
+	
+	var child;
+	
+	parent.leftIndex=0;
+
+	var index = GetObj(childSet,"btnClose",0);
+	if(index>=0)
+	{
+		child = childSet[index];
+		child.onclick = DisplayTakeOnRecord;
+	}
+	
+	if(itemList != "")
+	{
+		var tFileNo;
+		var itemnoArray = new Array;
+		parent.itemList = new Array;
+		var itemno;
+		var tmpArray;
+		var itemnos='';
+		var j, t;
+		var count=0;
+		var flag;
+		for (var i=1; i<26; i++)
+		{
+			flag = 0;
+			t = GetPart(i);
+			if(!t.preFileNo)
+				continue;
+			tFileNo = t.preFileNo;
+			tmpArray = tFileNo.split('.');
+			if(tmpArray[0] < 15)
+				continue;
+			itemno = tFileNo;	
+			for(j=0;j<i;j++){
+				if(!itemnoArray[j]) continue;
+				if(itemnoArray[j] == itemno)  
+				{
+					flag = 1;
+					break;
+				}
+			}
+			if(flag == 0)
+			{
+				itemnoArray[count] = itemno;
+				if (count != 0)
+					itemnos = itemnos + '|';
+				itemnos = itemnos + itemno;
+				count ++;
+			}
+		}
+		parent.itemList = itemnoArray;
+	
+		var index,count;
+				
+		index = GetObj(childSet,"takeonrecord",0);
+		if(index>=0)
+		{
+			child = childSet[index];
+			child = child.all;
+				
+			var i,t;
+			index=-1;
+					
+			for(i=0;i<parent.itemList.length;i++)
+			{
+				index=GetObj(child,"IMG",index+1);
+			
+				if(index>=0)
+				{
+					t=child[index];
+					element.DressOnShow[i]	=t;
+					t.onclick = clickDress;
+				}
+				else
+				{
+					count=i;
+					break;
+				}
+			}
+		}
+		
+		if(parent.itemList.length>count)
+		{
+			parent.viewCount = count;
+					
+			index = GetObj(childSet,"btnMoveLeft",0);
+			if(index!=null)
+			{
+				child = childSet[index];
+				child.onclick = LeftMove;
+				
+				child=child.children; 
+				child[0].style.display	="none";
+				child[1].style.display	="inline";
+			}
+					
+			index		=GetObj(childSet,"btnMoveRight",0);
+			if(index!=null)
+			{
+				child	=childSet[index];
+				child.onclick			=RightMove;
+				
+				child=child.children;
+				child[0].style.display	="none";
+				child[1].style.display	="inline";
+			}
+		}
+		else
+		{
+			parent.viewCount=parent.itemList.length;
+		}
+				
+		refreshShowIMG();
+	}
+	else
+	{
+		parent.itemList	="";
+		parent.viewCount	=0;
+	}
+}
+function RightMove()
+{
+	var parent=element.children[1];
+	if(parent.viewCount>=parent.itemList.length)
+	{
+		return ;
+	}
+	
+	parent.leftIndex++;
+	
+	parent.leftIndex	%=parent.itemList.length;
+
+	refreshShowIMG();
+	
+}
+function LeftMove()
+{
+	var parent=element.children[1];
+	
+	if(parent.viewCount>=parent.itemList.length)
+	{
+		return;
+	}
+	
+	parent.leftIndex--;
+	
+	(parent.leftIndex<0)?parent.leftIndex+=parent.itemList.length:0;
+
+	refreshShowIMG();
+}
+function refreshShowIMG()
+{
+	var	parent			=element.children[1];
+	
+	var child			=element.DressOnShow;
+
+	var baseIndex		=parent.leftIndex;
+	
+	var nCount			=parent.itemList.length;
+
+	var nIndex,tFileNo,nAct,fileN,t, tmpArray;
+	var	itemno, layerno;
+	
+	for(var i=0;i<parent.viewCount;i++)
+	{
+		nIndex	=(baseIndex+i)%nCount;
+		
+		tFileNo		=parent.itemList[nIndex];
+		tmpArray = tFileNo.split('.');
+		itemno = tmpArray[0];
+		layerno = tmpArray[1];
+		
+		var itemN = ("0000" + itemno);
+		itemN = itemN.substring(itemN.length-4,itemN.length);
+		var fileN;
+		if(localpic!=0)	fileN = ImagePath + "0/" +itemN + ".GIF";
+		else fileN = ImagePath + itemno + "/" + "00" + "/00/";
+		//alert(fileN);
+		if(child[i]!=null)
+		{
+			child[i].itemno = itemno;
+			child[i].layerno = layerno;
+			child[i].src=fileN;
+			child[i].style.display	="inline";
+		}
+	}
+}
+function InitTable(parent)
+{
+	parent.onclick = clickDress;
+}
+
+</script>

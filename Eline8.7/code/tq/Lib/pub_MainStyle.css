@@ -1,0 +1,32 @@
+
+a					{ color: #000000; font-family: 宋体; text-decoration: none; font-size: 9pt }
+
+td					{ font-family:宋体; font-size: 9pt }
+
+input				{ font-family: 宋体; font-size: 9pt }
+
+body				{ font-family: 宋体; 
+                      font-size: 9pt;
+					}
+
+select				{ font-family: 宋体; font-size: 9pt }
+
+textarea            { font-family: 宋体; font-size: 9pt }
+
+A:link				{ text-decoration: none; color: 2825b2 }
+
+A:visited			{ text-decoration: none; color: 2825b2 }
+
+A:active			{ text-decoration: none; color: ff0000 }
+
+A:hover				{ text-decoration: none; color: ff0000 }
+
+
+.stbtm				{
+					  BORDER-RIGHT: #665b8e 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #ffffff 1px solid; WIDTH: 80px; COLOR: black; BORDER-BOTTOM: #665b8e 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #d6d3ce
+                    }
+.stbtmshort			{
+					  BORDER-RIGHT: #665b8e 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #ffffff 1px solid; WIDTH: 40px; COLOR: black; BORDER-BOTTOM: #665b8e 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #d6d3ce
+					}
+table				{ border-collapse: collapse ;border-color: #111111; }
+td					{ font-family:宋体; font-size: 10pt; border-color: #111111;}

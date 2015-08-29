@@ -1,0 +1,16 @@
+body {  color: #000000; font-size: 12px}
+td {  font-size: 12px; color: #000000; line-height: 140%}
+.f1 {  color: #FFFFFF}
+input { font-size: 9pt; background-color: #FFFFFF; color: #000000; border: 1px #000000 double}
+textarea{ border:1px double rgb(88,88,88);font:9pt }a {  text-decoration: none; color: #3E2B04}
+a:hover {  color: #FCE700; text-decoration: none}
+.img {  margin-left:0px; padding-left:0px}
+.select{ border:1px double rgb(88,88,88);font:9pt }.f2 {  color: #BAC4D4}
+.td1 {  color: #000000; font-size: 12px; margin-right: 3px; margin-left: 3px; padding-right: 3px; padding-left: 3px}
+.tb2 {  font-size: 12px; color: #666666; margin-right: 3px; margin-left: 3px; padding-right: 3px; padding-left: 3px; margin-top: 3px; padding-top: 3px}
+.a1 {  color: #FFCC00}
+.input {  background-color: 3F557E; height: 20px}
+.text {  background-color: 3F557E; border: 1px #9DABC2 double; font-size: 12px; color: 9DABC2}
+.yy {  filter: DropShadow(Color=#cccccc, OffX=1, OffY=1, Positive=true)}
+.yy {  }
+.yy1 {  filter: DropShadow(Color=#ffffff, OffX=1, OffY=1, Positive=true)?)}.sendd {  filter: DropShadow(Color=#ffffff, OffX=1, OffY=1, Positive=true)?)}

@@ -1,0 +1,638 @@
+<html>
+
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=GB2312'>
+<meta http-equiv='Pragma' content='no-cache'>
+<meta http-equiv='reply-to' content='Space-time@NBnetS.com'>
+<meta name="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<meta name='description' CONTENT="供求信息/ 商业公告板/商业贸易机会/进出口贸易机会/电子商务/">
+<meta name='Keywords' CONTENT="供求信息,商业公告板,商业机会,进出口,商情公告板,商业BBS,进出口BBS,贸易机会,供求信息,贸易机会,商业机会,电子商务,免费贸易机会,供求信息,商业公告板,商业机会,进出口,商情公告板,商业BBS,进出口BBS,贸易机会,供求信息,贸易机会,商业机会,电子商务,免费贸易机会,供求信息,商业公告板,商业机会,进出口,商情公告板,商业BBS,进出口BBS,贸易机会,供求信息,贸易机会,商业机会,电子商务,免费贸易机会,求购,出售,贸易,求购,出售,贸易">
+<meta name='Identifier-URL' CONTENT='http://www.nbnets.com'>
+<meta name='Coverage' CONTENT='Worldwide'>
+<meta name='author' content='Space-time DAK (http://space-time.nbnets.com)'>
+<meta name='robots' content='ALL'>
+<meta name='distribution' content='Global'>
+<meta name='rating' content='General'>
+<meta name='copyright' content="2001(c) - NBnetS.com">
+<link href='http://www.nbnets.com/images/nbnets.ico' rel = 'Shortcut Icon'>
+<link href='http://www.nbnets.com/user_manager.css' rel='STYLESHEET' type='text/css'>
+<script language='javascript' src='http://www.nbnets.com/up_down.js'></script>
+<!--------------------------------------------------------------------->
+<!--                  NBnetS 企业网站管理系统 V1.12                  -->
+<!--------------------------------------------------------------------->
+<!--                                                                 -->
+<!--       NBnetS.com：http://www.NBnetS.com                         -->
+<!--       慈溪贝特商务信息有限公司 Tel:63812345                     -->
+<!--       宁波企业信息网：http://cn.nbnets.com                      -->
+<!--       E-mail: Info@NBnetS.com Space-time@NBnetS.com             -->
+<!--                                                                 -->
+<!--       Designed By OneLeaf 2001. 888888888888@netease.com        -->
+<!--------------------------------------------------------------------->
+
+<link href='images/index1_text.css' rel='STYLESHEET' type='text/css'>
+<title>NBnetS 商务信息网</title>
+</head>
+<script>window.name='NBnetS_window';</script><script language='javascript'>function killErrors() {return true;}window.onerror = killErrors;</script><!--body oncontextmenu='window.event.returnValue=false' onselectstart='return false'-->
+<script language=javascript>if (window!= top)top.location.href=location.href</script>
+<SCRIPT language=javascript>
+function showhs()
+{window.open("hsquery_view.cgi","hsquery_view","width=400,height=400,location=no,toolbar=no,status,resizable=no,scrollbars=yes");}
+function showcode()
+{window.open("area_code.cgi","area_code","width=400,height=400,location=no,toolbar=no,status,resizable=no,scrollbars=yes");}
+function domain()
+{window.open("/?job=domain&uid=JBh01g.6.c","domain","width=580,height=460,location=no,toolbar=no,status,resizable=no,scrollbars=yes");}
+</script>
+<body bgcolor='303880' topmargin='0' leftmargin='0'>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+		var str = navigator.userAgent;
+		if ((str.indexOf('Mozilla/') != -1) && (str.indexOf('/2') == -1))
+		{
+		button0=new Image();
+		button1=new Image();
+		button2=new Image();
+		button3=new Image();
+		button0.src="images/web_add_c.gif";
+		button1.src="images/web_add_c1.gif";
+		button2.src="images/web_add_m.gif";
+		button3.src="images/web_add_m1.gif";
+		}
+		function display(num) {
+		if ((str.indexOf('Mozilla/') != -1) && (str.indexOf('/2') == -1))
+		{
+		if (num=="0") document.nav1Img.src=button0.src;
+		if (num=="1") document.nav1Img.src=button1.src;
+		if (num=="2") document.nav2Img.src=button2.src;
+		if (num=="3") document.nav2Img.src=button3.src;
+		}
+		}
+//-->
+</SCRIPT>
+<div align='center'><center>
+<table border='0' width='760' cellspacing='0' cellpadding='0'>
+  <tr>
+    <td width='100%'><table border='0' width='100%' cellspacing='0' cellpadding='0'>
+      <tr>
+        <td><font color='#FFFFFF' face=Verdana>NBnetS</font> <font color=ffffff>商务信息网</font></td>
+        <td align='right'><font color='#FFFFFF'><a href='http://old.nbnets.com' target='_blank'><font color='#ffffff'><font face=Verdana>NBnetS</font>旧版</font></a>┊<a href='javascript:showhs();'><font color='#FFFFFF'><font face='Verdana'>HS</font>编码</font></a>┊<a href='javascript:domain();'><font color='#ffffff'>域名查询</font></a>┊<a href='javascript:showcode();'><font color='#FFFFFF'>区号查询</font></a>┊<a href='/?job=enchiridion&uid=JBh01g.6.c'><font color='#ffffff'>投资指南</font></a>┊<a href='/?job=feedback&uid=JBh01g.6.c'><font color='#ffffff'>信息反馈</font></a>┊<a href='/?&uid=JBh01g.6.c'><font color='#FFFFFF'><img src='images/index_home.gif' width='17'
+        height='20' align='absmiddle' border='0'>返回首页</font></a> </font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width='100%' bgcolor='#FFFFFF'></td>
+  </tr>
+  <tr>
+    <td width='100%'><table border='0' width='100%' cellspacing='0' cellpadding='0'
+    height='70'>
+      <tr>
+        <td width='65'><img src='images/NBnetS_tm.gif' width='60' height='59'></td>
+        <td style='font-size: 7.5pt'><font face='Verdana,Arial,Helvetica' color='ffffff'>Welcome 
+        to NBnetS.com<br>
+        Enterprise Business Information Net</font><br>
+        <u><a href='/?job=index1_main&sort=&charset=en&uid=JBh01g.6.c'><font
+        face='Verdana,Arial,Helvetica' color='ffffff'><u>Click here &gt;&gt; [English Version]</u></font></a></u><br>
+        <font color='ffffff'><span class='a9px'>当前在线/会员：<font color='ff9000'
+        face='Verdana'>16/1</font></span></font>
+	</td><td align='right' width='468'><img src='type/NBnetS_top.gif' width='468' height='60' border='0'></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width='100%'><table border='0' width='100%' cellspacing='0' cellpadding='0'
+    height='36'>
+      <tr>
+        <td width='178' align='center' rowspan='2' background='images/index1_table1_bg1.gif'>
+<a href='/?job=s_web&uid=JBh01g.6.c' onMouseOver='display(1);return true;' onMouseOut='display(0);return true;'><img src='images/web_add_c.gif' width='128' height='26' border='0' alt='通过NBnetS企业建站平台
+快速建立起真正属于您的企业网站' name='nav1Img'></a></td>
+        <td width='581' height='16'><img src='images/index1_top_menu.gif' width='581' height='16' usemap='#NBnetS_top_Menu1' border='0'><map name='NBnetS_top_Menu1'><area shape='rect' coords='36,0,77,15' href='/?&uid=JBh01g.6.c' alt='NBnetS首页' title='NBnetS首页'><area shape='rect' coords='77,0,133,15' href='/?job=corp&uid=JBh01g.6.c' alt='企业信息' title='企业信息'><area shape='rect' coords='133,0,190,15' href='/?job=product&uid=JBh01g.6.c' alt='产品信息' title='产品信息'><area shape='rect' coords='190,0,246,15' href='/?job=trade&uid=JBh01g.6.c' alt='贸易信息' title='贸易信息'><area shape='rect' coords='246,0,304,15' href='/?job=stock&uid=JBh01g.6.c' alt='采购信息' title='采购信息'><area shape='rect' coords='304,0,361,15' href='/?job=cm&uid=JBh01g.6.c' alt='招商引资' title='招商引资'><area shape='rect' coords='361,0,418,15' href='/?job=want&uid=JBh01g.6.c' alt='招聘信息' title='招聘信息'><area shape='rect' coords='418,0,475,15' href='/?job=ad&uid=JBh01g.6.c' alt='广告信息' title='广告信息'><area shape='rect' coords='475,1,532,15' href='/?job=web&uid=JBh01g.6.c' alt='会员企业网站' title='会员企业网站'><area shape='rect' coords='532,0,580,15' href='/?job=index1_main&sort=&charset=en&uid=JBh01g.6.c' alt='English Version' title='English Version'></map></td>
+        <td width='1' bgcolor='#875600' rowspan='2'></td>
+      </tr>
+      <tr>
+        <td width='581' height='20' bgcolor='#FFA200'><table border='0' width='100%'
+        cellspacing='0' cellpadding='0'>
+          <tr>
+            <td></td>
+            <td align='right'><font face=Verdana>NBnetS</font>分站：<a href='http://cn.nbnets.com' target='_blank' title='宁波企业信息网'>宁波</a> <a href="http://www.5987.com" title="测试企业信息网" target='_blank'>测试</a> <a href="http://www.corpinfo.net" title="江西企业信息网" target='_blank'>江西</a> <a href="http://www.cnebi.com" title="江苏企业信息网" target='_blank'>江苏</a></td>
+            <td width='7'></td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+</center></div>
+
+<div align='center'><center>
+<table border='0' width='760' cellspacing='0' cellpadding='0' bgcolor='FFA200'>
+  <tr>
+    <td width='1' rowspan='2' bgcolor='#FFDDA2'></td>
+    <td width='758' align='center'><table border='0' width='745' bgcolor='#000000'
+    cellspacing='1' cellpadding='0' style='POSITION: relative'>
+      <tr>
+        <td bgcolor='#FFFFFF' width='170' valign='top'>
+
+<table border='0' width='100%'
+        cellspacing='0' cellpadding='0'>
+          <tr>
+            <td width='100%' bgcolor='#f8da9d'><table border='0' width='100%' cellspacing='0'
+            cellpadding='0' height='19'>
+              <tr>
+                <td width='9'><img src='images/index1_jf1.gif' width='9' height='14'></td>
+                <td align='center' valign='bottom'><font face=Verdana>NBnetS</font>会员登录</td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#000000'></td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#FFFFEE' align='center'><table border='0' width='90%'
+            cellspacing='0' cellpadding='0'>
+              <tr>
+                <td width='100%' align='center' height='5'></td>
+              </tr>
+              <tr>
+                <td width='100%' align='center'><form name='login' method='POST'
+        action='login.cgi'
+onsubmit="userpassword.value=UserPwd000.value;UserPwd000.value='';return true;"><input type=hidden name=job value=login><input type=hidden name=oldjob value=''><input type=hidden name=sort value=''><input type=hidden name=uid value='JBh01g.6.c'>用户名：<input type='text' name='username' size='12' class='input' value='' style='font-family: Verdana;'><br>
+        密&nbsp; 码：<INPUT name=userpassword type=hidden><input type='password' name='UserPwd000' size='12' class='input' style='font-family: Verdana;'><br>
+                  <input type='image' src='images/index1_btd.gif' width='66' height='20' alt='登录' name='goto'><a
+                  href='/?job=user_reg&uid=JBh01g.6.c'><img src='images/index1_zc.gif' width='66' height='20'
+                  alt='注册' border='0'></a></p>
+                </td></form>
+              </tr>
+              <tr>
+                <td width='100%' align='center'></td>
+              </tr>
+              <tr>
+                <td width='100%' align='center'><script language='javascript'>
+function get_pass()
+	{
+var win = window.open('/?job=get_pass', 'get_pass', 'width=348,height=225,SCROLLBARS=0,TOP=50,LEFT=100');
+	}
+</script> <table border='0'
+                cellspacing='1' cellpadding='0'>
+                  <tr>
+                    <td><img src='images/ico01.gif' width='18' height='18'></td>
+                    <td><a href='javascript:get_pass();' style='CURSOR: e-resize'
+                    title='按照相应步骤操作，您可以轻松取回密码！'>寻找丢失的密码</a></td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+            </table>
+
+            </td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#000000'></td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#f8da9d'><table border='0' width='100%' cellspacing='0'
+            cellpadding='0' height='19'>
+              <tr>
+                <td width='9'><img src='images/index1_jf1.gif' width='9' height='14'></td>
+                <td align='center' valign='bottom'><font face=Verdana>NBnetS</font>推荐企业</td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#000000'></td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#FFFFEE' align='center'><table border='0' width='90%'
+            cellspacing='0' cellpadding='0'>
+<tr><td height=19><a href='http://www.zgyl.cc' target=_blank title='欢迎访问-->中广艺龙杭州文化传播有限公司'><img src='images/index_home.gif' width=17 height=20 border=0 align=absmiddle>中广艺龙杭州文化传播..</a></td></tr>
+<tr><td height=19><a href='http://www.nenshi.com' target=_blank title='欢迎访问-->能士通讯设备有限公司'><img src='images/index_home.gif' width=17 height=20 border=0 align=absmiddle>能士通讯设备有限公司</a></td></tr>
+<tr><td height=19><a href='http://www.jlhi.com' target=_blank title='欢迎访问-->慈溪金磊美容器具有限公司'><img src='images/index_home.gif' width=17 height=20 border=0 align=absmiddle>慈溪金磊美容器具有限..</a></td></tr>
+<tr><td height=19><a href='http://www.chinasy.com' target=_blank title='欢迎访问-->宁波三亚轴承有限公司'><img src='images/index_home.gif' width=17 height=20 border=0 align=absmiddle>宁波三亚轴承有限公司</a></td></tr>
+<tr><td height=19><a href='http://www.nbbest.com' target=_blank title='欢迎访问-->宁波贝士达电动工具公司'><img src='images/index_home.gif' width=17 height=20 border=0 align=absmiddle>宁波贝士达电动工具公..</a></td></tr>
+<tr><td height=19><a href='http://www.zchz.com' target=_blank title='欢迎访问-->慈溪市横中电子有限公司'><img src='images/index_home.gif' width=17 height=20 border=0 align=absmiddle>慈溪市横中电子有限公..</a></td></tr>
+<tr><td height=19><a href='http://www.wndq.com' target=_blank title='欢迎访问-->慈溪国年电器有限公司'><img src='images/index_home.gif' width=17 height=20 border=0 align=absmiddle>慈溪国年电器有限公司</a></td></tr>
+
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#000000'></td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#f8da9d'><table border='0' width='100%' cellspacing='0'
+            cellpadding='0' height='19'>
+              <tr>
+                <td width='9'><img src='images/index1_jf1.gif' width='9' height='14'></td>
+                <td align='center' valign='bottom'><font face=Verdana>NBnetS</font>信息索引</td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#000000'></td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#FFFFEE' align='center'><table border='0' width='90%'
+            cellspacing='0' cellpadding='0'>
+<tr><td width='100%' height='19'><img src='images/index1_jj.gif' width='5' height='6'> 企业信息：<font color=006000>114</font> 条</td></tr><tr><td width='100%' height='19'><img src='images/index1_jj.gif' width='5' height='6'> 产品信息：<font color=006000>793</font> 条</td></tr><tr><td width='100%' height='19'><img src='images/index1_jj.gif' width='5' height='6'> 贸易信息：<font color=006000>579</font> 条</td></tr><tr><td width='100%' height='19'><img src='images/index1_jj.gif' width='5' height='6'> 会员网站：<font color=006000>62</font> 个</td></tr>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#000000'></td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#f8da9d'><table border='0' width='100%' cellspacing='0'
+            cellpadding='0' height='19'>
+              <tr>
+                <td width='9'><img src='images/index1_jf1.gif' width='9' height='14'></td>
+                <td align='center' valign='bottom'><font face=Verdana>NBnetS</font>相关产品</td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#000000'></td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#FFFFEE' align='center'><table border='0' width='90%'
+            cellspacing='0' cellpadding='0'>
+              <tr>
+                <td width='100%' height='5'></td>
+              </tr>
+<tr><td width='100%' height='19'><img src='images/index1_tj.gif' width='10' height='10'> <a href='http://www.cxinfo.net/bin' target='_blank'>综合成绩查询系统</a></td></tr>
+<tr><td width='100%' height='19'><img src='images/index1_tj.gif' width='10' height='10'> <a href='http://www.cxinfo.net/cos' target='_blank'>贝特协同办公系统</a></td></tr>
+
+              <tr>
+                <td width='100%' height='5'></td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#000000'></td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#f8da9d'><table border='0' width='100%' cellspacing='0'
+            cellpadding='0' height='19'>
+              <tr>
+                <td width='9'><img src='images/index1_jf1.gif' width='9' height='14'></td>
+                <td align='center' valign='bottom'><font face=Verdana>NBnetS</font>合作网站</td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#000000'></td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#F6F6F6' align='center'><table border='0' width='90%'
+            cellspacing='0' cellpadding='0'>
+              <tr>
+                <td width='100%' align='center' height='5'></td>
+              </tr>
+<tr><td width='100%' align='center'><a href='http://cn.nbnets.com' target='_blank'><img src='http://www.nbnets.com/images/nbnetslogo.gif' alt='宁波企业网' border=0></a></td></tr><tr><td width='100%' align='center'><a href='http://www.cxinfo.net' target='_blank'><img src='http://www.nbnets.com/images/cxinfo2000.gif' alt='慈溪在线媒体信息网' border=0></a></td></tr><tr><td width='100%' align='center' height=10></td></tr><tr><td width='100%' align='center'><a href='http://www.cn-etrading.com' target='_blank'><img src='http://www.nbnets.com/images/cn-etrading.gif' alt='中国电子商务网' border=0></a></td></tr><tr><td width='100%' align='center' height=10></td></tr><tr><td width='100%' align='center'><a href='http://www.jsqyw.com' target='_blank'><img src='http://www.nbnets.com/images/jsqyw.gif' alt='江苏企业网' border=0></a></td></tr><tr><td width='100%' align='center' height=10></td></tr>
+              <tr>
+                <td width='100%' align='center' height='5'></td>
+              </tr>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td width='100%' bgcolor='#F6F6F6' align='center' height='100%'></td>
+          </tr>
+        </table>
+
+</td>
+        <td bgcolor="#FFFFFF" width="575" valign="top">
+<table border='0' width='575' cellspacing='0' cellpadding='0' height='100%'>
+  <tr>
+    <td width='4'></td>
+    <td width='567' height='4'></td>
+    <td width='4'></td>
+  </tr>
+  <tr>
+    <td width='4'></td>
+    <td width='567' valign=top>
+
+<table border="0" width="100%" cellspacing="0"
+    cellpadding="0">
+      <tr>
+        <td colspan="2">
+<!--<a href='/?job=surrogate&uid=JBh01g.6.c'><img src='images/index1_surrogate.jpg' width=567 height=80 alt='NBnetS 诚征地区代理' border=0></a><br>-->
+<a href='/?job=greet&uid=JBh01g.6.c'><img src='images/NBnetS_Greet.gif' width='565' height='75' alt='NBnetS手机短信息群发中心' border='0'></a>
+<SCRIPT language=JavaScript>
+<!--
+//show alert
+function show(ShowLayer) {
+	if (navigator.appName == 'Netscape') {
+
+			document.eval(ShowLayer).visibility='show';
+			return false;
+
+	} else {
+
+			document.all[ShowLayer].style.visibility='visible';
+			return false;
+
+	}
+	}
+
+	function hide(HideLayer) {
+		if (navigator.appName == 'Netscape') {
+
+		document.eval(HideLayer).visibility='hide';
+		return false;
+
+	} else {
+
+		document.all[HideLayer].style.visibility='hidden';
+		return false;
+
+	}
+}
+function urlencode(str) {
+	var ns = (navigator.appName=='Netscape') ? 1 : 0;
+	if (ns) { return escape(str); }
+	var ms = '%25#23 20+2B?3F<3C>3E{7B}7D[5B]5D|7C^5E~7E`60';
+	var msi = 0;
+	var i,c,rs,ts ;
+	while (msi < ms.length) {
+
+		c = ms.charAt(msi);
+		rs = ms.substring(++msi, msi +2);
+		msi += 2;
+		i = 0;
+		while (true)	{ 
+			i = str.indexOf(c, i);
+			if (i == -1) break;
+			ts = str.substring(0, i);
+			str = ts + '%' + rs + str.substring(++i, str.length);
+		}
+
+	}
+	
+	return str;
+
+}
+function tosearch(listv,modev,keyv){
+	if (listv=='NBnetS')
+	{
+        var filter=/^[\W][\W+_-]{0,}$/;
+        if (modev=='txt' && !filter.test(keyv)) {alert('全文搜索时关键字只能使用中文！');}
+		else if (keyv.length<2) {alert('输入关键字必须大于<1>个字符！');}
+else {location.href='/?job=Go_search&mode='+modev+'&sort=&oldjob=index1_main&uid=JBh01g.6.c&key='+keyv;}
+	} else {
+		window.open(listv+urlencode(keyv),'','');
+	}
+}
+function select_list1(listv) {
+if (listv=='NBnetS') {document.search.mode.disabled=false;}
+else {document.search.mode.disabled=true;}
+}
+//-->
+</script>
+<table>
+  <tr>
+    <td style='POSITION: relative'>
+
+<DIV id=alert>
+					<table border=0 cellpadding=0 cellspacing=0>
+						<tr>
+							<td colspan=3><img src='images/prat_4.gif' width=161 height=6></td>
+						</tr>
+						<tr>
+							<td background='images/prat_2.gif' width=3><img src='images/spacer.gif'></td>
+							<td bgcolor=white width=157>
+							<table cellpadding=5 cellspacing=0 border=0>
+							<tr>
+								<td>&nbsp;·可以用“+”来分隔搜索关键字实现精确搜索，单个关键字不要太长。</td>
+							</tr>
+							</table>
+							</td>
+							<td width=1 align=right><img src='images/c_black.gif' width=1 height=100%></td>
+						</tr>
+						<tr>
+							<td colspan=3><img src='images/prat_1.gif' width=161 height=15></td>
+						</tr>
+					</table>
+				</DIV>
+
+<table border='0' width='100%' cellspacing='1'
+            cellpadding='0'>
+              <tr>
+                <td><u>□&nbsp;&nbsp; <font face='Arial'><em><strong>NBnetS</strong></em></font>数据库</u>↓</td>
+                <td width='0'>
+<form name=search onsubmit="tosearch(this.list.options[this.list.selectedIndex].value,this.mode.value,this.key.value);return false;">
+<table border='0' cellspacing='1' cellpadding='0'>
+                  <tr>
+                    <td><select name='list' class='input' size='1' onchange='javascript:select_list1(document.search.list.options[document.search.list.selectedIndex].value);'>
+                      <option selected value='NBnetS'>NBnetS搜索</option>
+                      <option value='http://cn.nbnets.com/search.asp?key='>宁波企业</option>
+                      <option value='http://cn.search.yahoo.com/search/cn?p='>雅虎搜索</option>
+                      <option value='http://search.sina.com.cn/cgi-bin/search/search.cgi?_searchkey='>新浪搜索 </option>
+                      <option value='http://search.163.com/cgi-bin/search/engine/search.fcgi?q='>网易搜索 </option>
+                      <option
+                      value='http://meta.3721.com/search.php?a=0&amp;Z=0&amp;C=1&amp;T=20&amp;L=A&amp;X=1_1_2_3_5_169_38377_6_10148_193920&amp;x=17&amp;y=5&amp;q='>大陆网站 </option>
+                      <option
+                      value='http://meta.3721.com/search.php?a=0&amp;Z=0&amp;C=1&amp;T=20&amp;L=A&amp;X=1_4023242527284344464841&amp;x=31&amp;y=12&amp;q='>港台网站 </option>
+                      <option value='http://search.163.com/cgi-bin/search/engine/search2.fcgi?lang=all&amp;key='>所有网页 </option>
+                      <option value='http://search.163.com/cgi-bin/search/engine/searchnews.fcgi?key='>新闻搜索</option>
+                      <option value='http://stock2.163.com/stock/show_full.php?code='>股票搜索</option>
+                    </select><select name='mode' class='input' size='1'><option value=''>┍选择信息类型</option><option value='corp'>┝所有企业信息</option><option value='pro'>┝所有产品信息</option><option value='trade'>┝所有贸易信息</option><option value='stock'>┝所有采购信息</option><option value='cm'>┝所有招商信息</option><option value='want'>┝所有招聘信息</option><option value='ad'>┝所有广告信息</option><option value='web'>┝所有会员企业</option><option value='txt'>┕本站所有文本</option></select></td>
+                    <td>
+<input name='key' size='20' maxsize='25' class='input' onclick="document.search.key.value=''" onmouseout="hide('alert');" onmouseover="show('alert');" value=''></td>
+                    <td><input type='submit' value='搜索' name='search' class='button1'></td>
+                  </tr></form>
+                </table>
+                </td>
+              </tr>
+            </table>
+</td></tr></table>
+
+<table border="1" borderColorDark="#ffffff" borderColorLight="#222222"
+        cellPadding="0" cellSpacing="0" height="60" width="100%">
+<tr bgColor=#f6f6f6><td height='19'><a href='/?job=all&sort=00&uid=JBh01g.6.c'>□农业、林业、牧业</a>(<font color=008000>74</font>)</td><td height='19'><a href='/?job=all&sort=01&uid=JBh01g.6.c'>□服装鞋帽、皮革</a>(<font color=008000>108</font>)</td><td height='19'><a href='/?job=all&sort=02&uid=JBh01g.6.c'>□化学化工业</a>(<font color=008000>35</font>)</td></tr><tr bgColor=#ffffff><td height='19'><a href='/?job=all&sort=03&uid=JBh01g.6.c'>□电子、电器、通讯</a>(<font color=008000>283</font>)</td><td height='19'><a href='/?job=all&sort=04&uid=JBh01g.6.c'>□仪器仪表、度量衡器</a>(<font color=008000>63</font>)</td><td height='19'><a href='/?job=all&sort=05&uid=JBh01g.6.c'>□体育、文化、艺术</a>(<font color=008000>6</font>)</td></tr><tr bgColor=#f6f6f6><td height='19'><a href='/?job=all&sort=06&uid=JBh01g.6.c'>□动力、电力、机电设备</a>(<font color=008000>33</font>)</td><td height='19'><a href='/?job=all&sort=07&uid=JBh01g.6.c'>□食品、粮油、副食品</a>(<font color=008000>25</font>)</td><td height='19'><a href='/?job=all&sort=08&uid=JBh01g.6.c'>□医疗、卫生事业</a>(<font color=008000>28</font>)</td></tr><tr bgColor=#ffffff><td height='19'><a href='/?job=all&sort=09&uid=JBh01g.6.c'>□机械制造、配件</a>(<font color=008000>109</font>)</td><td height='19'><a href='/?job=all&sort=10&uid=JBh01g.6.c'>□冶金工业、矿产</a>(<font color=008000>27</font>)</td><td height='19'><a href='/?job=all&sort=11&uid=JBh01g.6.c'>□车辆制造、销售维修</a>(<font color=008000>11</font>)</td></tr><tr bgColor=#f6f6f6><td height='19'><a href='/?job=all&sort=12&uid=JBh01g.6.c'>□建筑、安装、装潢</a>(<font color=008000>39</font>)</td><td height='19'><a href='/?job=all&sort=13&uid=JBh01g.6.c'>□进出口贸易、国内贸易</a>(<font color=008000>20</font>)</td><td height='19'><a href='/?job=all&sort=14&uid=JBh01g.6.c'>□纺织、印染</a>(<font color=008000>88</font>)</td></tr><tr bgColor=#ffffff><td height='19'><a href='/?job=all&sort=15&uid=JBh01g.6.c'>□商场、百货</a>(<font color=008000>6</font>)</td><td height='19'><a href='/?job=all&sort=16&uid=JBh01g.6.c'>□家用电器</a>(<font color=008000>174</font>)</td><td height='19'><a href='/?job=all&sort=17&uid=JBh01g.6.c'>□电子计算机</a>(<font color=008000>25</font>)</td></tr><tr bgColor=#f6f6f6><td height='19'><a href='/?job=all&sort=18&uid=JBh01g.6.c'>□通用零部件</a>(<font color=008000>38</font>)</td><td height='19'><a href='/?job=all&sort=19&uid=JBh01g.6.c'>□五金、模具磨具、金属材料制品</a>(<font color=008000>134</font>)</td><td height='19'><a href='/?job=all&sort=20&uid=JBh01g.6.c'>□船舶、航空航天工业</a>(<font color=008000>1</font>)</td></tr><tr bgColor=#ffffff><td height='19'><a href='/?job=all&sort=21&uid=JBh01g.6.c'>□造纸、印刷、包装</a>(<font color=008000>28</font>)</td><td height='19'><a href='/?job=all&sort=22&uid=JBh01g.6.c'>□玻璃、陶瓷、保温材料</a>(<font color=008000>22</font>)</td><td height='19'><a href='/?job=all&sort=23&uid=JBh01g.6.c'>□木材、家具、竹制品</a>(<font color=008000>3</font>)</td></tr><tr bgColor=#f6f6f6><td height='19'><a href='/?job=all&sort=24&uid=JBh01g.6.c'>□工艺美术品、礼品</a>(<font color=008000>60</font>)</td><td height='19'><a href='/?job=all&sort=25&uid=JBh01g.6.c'>□餐饮、娱乐酒吧</a>(<font color=008000>1</font>)</td><td height='19'><a href='/?job=all&sort=26&uid=JBh01g.6.c'>□宾馆、旅游业</a>(<font color=008000>0</font>)</td></tr><tr bgColor=#ffffff><td height='19'><a href='/?job=all&sort=27&uid=JBh01g.6.c'>□广播电视、新闻出版</a>(<font color=008000>1</font>)</td><td height='19'><a href='/?job=all&sort=28&uid=JBh01g.6.c'>□公证、事务所、咨询信息</a>(<font color=008000>5</font>)</td><td height='19'><a href='/?job=all&sort=29&uid=JBh01g.6.c'>□教育事业、科研机构</a>(<font color=008000>1</font>)</td></tr><tr bgColor=#f6f6f6><td height='19'><a href='/?job=all&sort=30&uid=JBh01g.6.c'>□财政、金融、保险、财务</a>(<font color=008000>3</font>)</td><td height='19'><a href='/?job=all&sort=31&uid=JBh01g.6.c'>□文娱体育、办公用品</a>(<font color=008000>32</font>)</td><td height='19'><a href='/?job=all&sort=32&uid=JBh01g.6.c'>□城市绿化环保</a>(<font color=008000>0</font>)</td></tr><tr bgColor=#ffffff><td height='19'><a href='/?job=all&sort=33&uid=JBh01g.6.c'>□广告、公共关系</a>(<font color=008000>11</font>)</td><td height='19'><a href='/?job=all&sort=34&uid=JBh01g.6.c'>□房地产开发</a>(<font color=008000>5</font>)</td><td height='19'><a href='/?job=all&sort=35&uid=JBh01g.6.c'>□日常生活服务</a>(<font color=008000>99</font>)</td></tr>
+        </table>
+
+        </td>
+      </tr>
+      <tr>
+        <td colspan='2' align='center'></td>
+      </tr>
+      <tr>
+        <td background='images/NBnetS_main_bg1.gif'><img src='images/NBnetS_main1.gif' width='302' height='27'></td>
+        <td background='images/NBnetS_main_bg1.gif' align='right'><img src='images/NBnetS_main1_.gif' width='210' height='27' usemap='#Map' border='0'><map name='Map'><area shape='rect' coords='8,12,61,26' href='/?job=trade_1&uid=JBh01g.6.c' title='贸易信息[求购]'><area shape='rect' coords='61,11,110,26' href='/?job=trade_2&uid=JBh01g.6.c' title='贸易信息[供应]'><area shape='rect' coords='110,11,160,26' href='/?job=trade_3&uid=JBh01g.6.c' title='贸易信息[合作]'><area shape='rect' coords='160,11,209,26' href='/?job=trade_4&uid=JBh01g.6.c' title='贸易信息[转让]'></map></td>
+      </tr>
+      <tr>
+        <td colspan='2' height=5></td>
+      </tr>
+      <tr>
+        <td colspan='2'>
+<table border='0' width='100%'>
+<tr><td width='50%'><img src='images/index1_jj.gif'> <a href='/?look=trade*579*2&uid=JBh01g.6.c' title='查看贸易-->求购电缆'>[<font color=600000>购买</font>]求购电缆</a></td>
+<td width='50%'><img src='images/index1_jj.gif'> <a href='/?look=trade*578*2&uid=JBh01g.6.c' title='查看贸易-->滚筒式喷砂设备'>[<font color=006000>出售</font>]滚筒式喷砂设备</a><img src=images/img.gif width=16 height=11 border=0 align=absmiddle></td></tr>
+<tr><td width='50%'><img src='images/index1_jj.gif'> <a href='/?look=trade*577*2&uid=JBh01g.6.c' title='查看贸易-->供应各种规格出口瓦楞钉，出口水泥钉'>[<font color=006000>出售</font>]供应各种规格出口瓦楞钉，出口水泥..</a></td>
+<td width='50%'><img src='images/index1_jj.gif'> <a href='/?look=trade*576*2&uid=JBh01g.6.c' title='查看贸易-->全新产品诚招代理 '>[<font color=006000>出售</font>]全新产品诚招代理 </a></td></tr>
+<tr><td width='50%'><img src='images/index1_jj.gif'> <a href='/?look=trade*575*2&uid=JBh01g.6.c' title='查看贸易-->新版《宝宝出生纪念册》招商  '>[<font color=006000>出售</font>]新版《宝宝出生纪念册》招商  </a></td>
+<td width='50%'><img src='images/index1_jj.gif'> <a href='/?look=trade*574*2&uid=JBh01g.6.c' title='查看贸易-->PANTONE色卡'>[<font color=006000>出售</font>]PANTONE色卡</a></td></tr>
+<tr><td width='50%'><img src='images/index1_jj.gif'> <a href='/?look=trade*573*2&uid=JBh01g.6.c' title='查看贸易-->铝管，角铝，铝槽，扁条'>[<font color=006000>出售</font>]铝管，角铝，铝槽，扁条</a></td>
+<td width='50%'><img src='images/index1_jj.gif'> <a href='/?look=trade*572*2&uid=JBh01g.6.c' title='查看贸易-->通用铝材，异型铝材，工业铝材'>[<font color=006000>出售</font>]通用铝材，异型铝材，工业铝材</a></td></tr>
+<tr><td width='50%'><img src='images/index1_jj.gif'> <a href='/?look=trade*571*2&uid=JBh01g.6.c' title='查看贸易-->对外经济贸易合作'>[<font color=006000>出售</font>]对外经济贸易合作</a></td>
+<td width='50%'><img src='images/index1_jj.gif'> <a href='/?look=trade*570*2&uid=JBh01g.6.c' title='查看贸易-->电子元器件'>[<font color=006000>出售</font>]电子元器件</a></td></tr>
+<tr><td width='50%'><img src='images/index1_jj.gif'> <a href='/?look=trade*569*2&uid=JBh01g.6.c' title='查看贸易-->通信产品'>[<font color=006000>出售</font>]通信产品</a></td>
+<td width='50%'><img src='images/index1_jj.gif'> <a href='/?look=trade*568*2&uid=JBh01g.6.c' title='查看贸易-->玻璃工艺品生产开发'>[<font color=006000>出售</font>]玻璃工艺品生产开发</a><img src=images/img.gif width=16 height=11 border=0 align=absmiddle></td></tr>
+
+</table></td>
+      </tr>
+      <tr>
+        <td colspan='2' background='images/NBnetS_main_bg1.gif'><img src='images/NBnetS_main3.gif' width='302'
+        height='27'></td>
+      </tr>
+      <tr>
+        <td colspan='2' height=5></td>
+      </tr>
+      <tr>
+        <td colspan='2'>
+<table border='0' width='100%' cellspacing=0>
+<tr><td><font color=aa6000>产品名称：</font>NS2R-A-M<br><font color=aa6000>供应商：</font><a href='http://www.nenshi.com' title='查看供应商-->Nenshi Communication Equipment Co.,Ltd' target='_blank'>Nenshi Communication Equipment Co.,Ltd</a><br><font color=aa6000>简介：</font><a href='http://www.nbnets.com//?job=lookpro&pro=NS2R-A-M&url=nenshi' title='查看产品-->NS2R-A-M' target='_blank'>Two Electrode Ceramic Gas Tube ArresterElectrical Characteristics >>>详细内容</a></td><td width='5'></td><td width='100' align=right><img src='http://www.nbnets.com/com/nenshi/upload/4.jpg' height=70 border=1 width=92 align=absmiddle alt='NS2R-A-M'></td></tr>
+<tr><td height=5></td><td colspan='2'></td></tr><tr><td background='images/line_bg.gif'></td><td colspan='2'></td></tr><tr><td height=7></td><td colspan='2'></td></tr>
+<tr><td><font color=aa6000>产品名称：</font>GRASS TRIMMER-3SRT500<br><font color=aa6000>供应商：</font><a href='http://www.nbbest.com' title='查看供应商-->CIXI BEST POWER TOOLS CO.,LTD.' target='_blank'>CIXI BEST POWER TOOLS CO.,LTD.</a><br><font color=aa6000>简介：</font><a href='http://www.nbnets.com//?job=lookpro&pro=GRASS TRIMMER-3SRT500&url=nbbest' title='查看产品-->GRASS TRIMMER-3SRT500' target='_blank'>Subject: 3SRT500 Power supply: 230v~\50Hz or 110v~\50\60Hz Power consumption: 450W Idle speed: 11000rpm Cutting diameter: 300mm or 360mm Cutting line: 1.2mm single Qty./color box: 1pc Dim./color .. >>>详细内容</a></td><td width='5'></td><td width='100' align=right><img src='http://www.nbnets.com/com/nbbest/upload/3srt500.jpg' height=70 border=1 width=92 align=absmiddle alt='GRASS TRIMMER-3SRT500'></td></tr>
+<tr><td height=5></td><td colspan='2'></td></tr><tr><td background='images/line_bg.gif'></td><td colspan='2'></td></tr><tr><td height=7></td><td colspan='2'></td></tr>
+<tr><td><font color=aa6000>产品名称：</font>JL-2000 double use automatic changing plate_black<br><font color=aa6000>供应商：</font><a href='http://www.jlhi.com' title='查看供应商-->Ningbo JinLei Hairdressing Instrument Co.,LTD' target='_blank'>Ningbo JinLei Hairdressing Instrument Co.,LTD</a><br><font color=aa6000>简介：</font><a href='http://www.nbnets.com//?job=lookpro&pro=JL-2000 double use automatic changing plate_black&url=jlhi' title='查看产品-->JL-2000 double use automatic changing plate_black' target='_blank'>JL-2000 double use automatic changing plate_black >>>详细内容</a></td><td width='5'></td><td width='100' align=right><img src='http://www.nbnets.com/com/jlhi/upload/jl_djb2.gif' height=70 border=1 width=92 align=absmiddle alt='JL-2000 double use automatic changing plate_black'></td></tr>
+
+</table></td>
+      </tr>
+<!--
+      <tr>
+        <td colspan='2' background='images/NBnetS_main_bg1.gif'><img src='images/NBnetS_main4.gif' width='302'
+        height='27'></td>
+      </tr>
+      <tr>
+        <td colspan='2' height=5></td>
+      </tr>
+      <tr>
+        <td colspan='2'>:::本站诚征友情链接及合作网站！友情链接对象：日IP访问量大于3000企业相关网站！</td>
+      </tr>
+-->
+      <tr>
+        <td colspan='2' height=10></td>
+      </tr>
+    </table>
+
+    <td width='4'></td>
+  </tr>
+  <tr>
+    <td width='4'></td>
+    <td height='70' align=center><script language='JavaScript' src='NBnetS_bot_Url.js'></script></td>
+    <td width='4'></td>
+  </tr>
+  <tr>
+    <td width='4'></td>
+    <td width='567' height='4'></td>
+    <td width='4'></td>
+  </tr>
+</table>
+	</td>
+      </tr>
+    </table>
+    </td>
+    <td width="1" rowspan="2" bgcolor="#875600"></td>
+  </tr>
+  <tr>
+    <td width='758' align='center'><table border='0' width='745' height='25' cellspacing='0'
+    cellpadding='0'>
+      <tr>
+        <td width='100%' align='right'><font color='ffffff'><b><a href='/?job=erector&uid=JBh01g.6.c'><font color='#FFFFFF'>网站建设</font></a>┊<a href='/?job=web_ad&uid=JBh01g.6.c'><font color='#FFFFFF'>网络广告</font></a>┊<a href='/?job=marketing&uid=JBh01g.6.c'><font color='#FFFFFF'>网络行销</font></a>┊<a href='/?job=service&uid=JBh01g.6.c'><font color='#FFFFFF'>客户服务</font></a>┊<a href='http://www.cxinfo.net/bbs/ddblist.cgi?db=NBnetS' target='_blank'><font color='#ffffff'>客户投诉</font></a></b></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFDDA2"></td>
+    <td bgcolor="#875600"></td>
+    <td bgcolor="#875600"></td>
+  </tr>
+</table>
+</center></div>
+
+<div align='center'><center>
+<table border='0' width='760' cellspacing='0' cellpadding='0' height='120'>
+  <tr>
+    <td width='1' bgcolor='#FFDDA2'></td>
+    <td width='758' bgcolor='#cccccc'><table border='0' width='100%' cellspacing='0'
+    cellpadding='0'>
+      <tr>
+        <td align='left' vAlign='bottom'><table border='0' cellPadding='1' cellSpacing='1'
+        width='150'>
+<TBODY>
+          <tr>
+            <td height='20' vAlign='bottom'><a href='/?job=surrogate&uid=JBh01g.6.c'><img src='images/index1_surrogate.gif' width='78' height='14' border='0' alt='NBnetS诚征代理'></a></td>
+          </tr>
+          <tr>
+            <td height='15'><a href='/?job=manifesto&uid=JBh01g.6.c'><img src='images/index1_manifesto.gif' width='78' height='14' border='0' alt='NBnetS免责声明'></a></td>
+          </tr>
+</TBODY>
+        </table>
+        <p><br>
+        </p>
+        <table border='0' cellPadding='0' cellSpacing='0' height='20' width='400'>
+<TBODY>
+          <tr><td width=5></td>
+
+            <td vAlign='bottom'><script>document.write("<a href='http://www.nbnets.com/stats.cgi?&db=nbnets' target='_blank'><img src='http://www.nbnets.com/stats.cgi?&db=nbnets&out=img&referURL="+escape(document.referrer)+"' border='0' align='absmiddle'></a>");</script> <img src='count1.cgi?mode=count&name=nbnets&length=8' border='0' align='absmiddle' height=16> <font color='#666666'><FONT face=Verdana,Arial,Helvetica style='font-size: 7.5pt'>&copy; 1998-2001 NBnetS.com All rights reserved.</FONT> 版权所有，未经书面许可，任何人不得转载使用。</font><img src='http://www.nbnets.com/images/m.jpg' width='15' height='15' border='0'> <a
+            href='mailto:Space-time@NBnetS.com'><img border='0' height='12' src='images/index1_mail2.gif'
+            width='13'><font color=666666>管理员</font></a> <a href='mailto:Market@NBnetS.com'><font color=666666>市场部</font></a></td>
+          </tr>
+</TBODY>
+        </table>
+        </td>
+        <td vAlign='center'><table align='center' border='0' cellPadding='0' cellSpacing='0'
+        height='44' width='179'>
+<TBODY>
+          <tr>
+            <td background='images/index1_msearch1.gif' vAlign='center'>
+<SCRIPT language=JavaScript>
+<!--
+function index1_tosearch(modev,keyv){
+        var filter=/^[\W][\W+_-]{0,}$/;
+        if (modev=='txt' && !filter.test(keyv)) {alert('全文搜索时关键字只能使用中文！');}
+	else if (keyv.length<2) {alert('输入关键字必须大于<1>个字符！');}
+	else {location.href='/?job=Go_search&mode='+modev+'&sort=&oldjob=index1_main&uid=JBh01g.6.c&key='+keyv;}
+}
+//-->
+</script>
+<form name=index1_search onsubmit="index1_tosearch(this.mode.value,this.key.value);return false;" method="POST">
+<table border='0' width='100%' cellspacing='1'>
+              <tr>
+                <td align='center'><input name='key' size='12' maxlength='25'
+                style='BORDER-COLLAPSE: collapse' width='50%' bordercolor='#666666' onclick="this.value=''"> <select name='mode' class='input' size='1'><option value='corp'>企业</option><option value='pro'>产品</option><option value='trade'>贸易</option><option value='stock'>采购</option><option value='cm'>招商</option><option value='want'>招聘</option><option value='ad'>广告</option><option value='web'>网站</option><option value='txt'>文本</option></select></td>
+                <td align='center'><input border='0' height='15' src='images/index1_go1.gif'
+                type='image' width='25'></td>
+              </tr></form>
+            </table>
+            </td>
+          </tr>
+</TBODY>
+        </table>
+        </td>
+      </tr>
+    </table>
+    </td>
+    <td width='1' bgcolor='#875600'></td>
+  </tr>
+  <tr>
+    <td width='1' bgcolor='#875600'></td>
+    <td bgcolor='#875600' width='758'></td>
+    <td width='1' bgcolor='#875600'></td>
+  </tr>
+</table>
+</center></div>
+</body></html>
+<!-- CPU Time 0.54 seconds -->
+

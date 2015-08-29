@@ -1,0 +1,1168 @@
+Archive-name: gambling-faq/blackjack
+URL: http://www.conjelco.com/faq/bj.html
+
+-----------------------
+Frequently Asked Questions about Blackjack
+
+This is the Blackjack section of the rec.gambling Frequently Asked
+Questions (FAQ) list.
+
+Changes or additions to this section of the FAQ should be submitted to:
+jacobs@xmission.com.
+
+Page last modified: 3-15-95
+    ------------------------------------------------------------------------
+
+
+Table of Contents
+
+Section B: Blackjack Questions
+B1 What do these funny acronyms mean ...
+B2 What special terminology is used by blackjack players?
+B3 What special terminology is used by card counters?
+B4 Why is there so much talk about blackjack in rec.gambling?
+B5 Is casino blackjack a "beatable" game.
+B6 How much of an advantage can card counting give?
+B7 Is card counting illegal?
+B8 Can the casino ban card counters?
+B9 What is the correct basic strategy for single deck Blackjack?
+B10 What is the correct basic strategy for Atlantic City blackjack?
+B11 What is the house edge when playing basic strategy?
+B12 Why are single deck games better than multi-deck games?
+B14 Do 'bad' players at third base have any effect on expected gain?
+B15 Where is the best place to sit at a blackjack table.
+B16 How is card counting done?
+B17 What counting system is "best"?
+B18 What counting system is easiest to use?
+B19 What BJ counting system is most effective?
+B20 Does penetration have any effect on basic strategy expectation?
+B21 What is the correct strategy for late surrender?
+B22 What is the correct strategy for "multi action" blackjack?
+B23 What is "Over/Under" Blackjack?
+B24 What is the counting strategy for Over/Under blackjack?
+B25 What are some good/bad books on Blackjack?
+B26 What are some other sources of blackjack/gambling information?
+B27 Is Ken Uston Dead?
+
+    ------------------------------------------------------------------------
+
+
+Q:B1 What do these funny acronyms mean ...
+A:B1 (Michael Hall)
+
+The acronyms that are often used in blackjack articles in rec.gambling are
+listed below.
+
+Abbreviations:
+     BSE = Basic Strategy Edge
+     H17 = Hit soft 17 (dealer must hit)
+     S17 = Stand on any 17 (dealer must stand)
+     DOA = Double On Any first two cards
+     D10 = Double on 10 or 11 only
+     DAS = Double After Splitting is allowed
+     RSA = Re-Splitting Aces is allowed
+     ESR = Early Surrender
+     LSR = Late Surrender
+     O/U = Over/Under 13 side bets are allowed
+
+    ------------------------------------------------------------------------
+
+
+Q:B2 What special terminology is used by blackjack players?
+A:B2 (Steve Jacobs, Dave Everett)
+
+Blackjack Terminology:
+
+basic strategy
+     a playing strategy that is designed to minimize the house edge as much
+     as possible without using techniques such as card counting, shuffle
+     tracking, or dealer tells. Basic strategy is used as a foundation for
+     card counting, but is also used by many non-counters.
+
+burn card(s)
+     cards that are discarded without being dealt to the players. After the
+     cards are shuffled by the dealer and cut by one of the players, one or
+     more cards are "burned" before any cards are dealt to the players.
+
+bust
+     after a "hit", the player is said to "bust" if the new card causes the
+     player's total to exceed 21.
+
+card counting
+     a system for improving the player's edge by assigning "weights" to
+     each card face and summing the card weights as each new card is turned
+     face up. The "count" indicates when the game is favorable for the
+     player, so that the player can place larger bets and/or make changes
+     in playing strategy.
+
+cut card
+     a (usually colored plastic) card that is used to cut the cards after
+     they have been shuffled by the dealer.
+
+double down
+     to double the initial bet and receive exactly one more card. The
+     option to double is often allowed on the players first two cards only,
+     although some casinos allow doubling after splitting a pair. Many
+     Northern Nevada casinos allowing doubling only with a two-card total
+     of 10 or 11. It is very rare to find games that allow doubling of
+     hands that have more than two cards.
+
+double for less
+     to double down with less than 2X the original bet. Generally, when
+     doubling is allowed, the player does not have to actually double his
+     bet, but may increase it by any amount up to (but not more than) the
+     original bet.
+
+early surrender
+     surrender which is allowed even when the dealer has a natural. Very
+     valuable to the player, but rarely offered by the casinos.
+
+even money
+     taking insurance when holding a blackjack results in a net gain of one
+     bet. Some casinos will allow the player to be paid without actually
+     placing the insurance bet. This is called "taking even money". (See
+     "insurance")
+
+first base
+     the first player at a table to act on his/her hand is said to be
+     sitting at "first base".
+
+flat bet
+     to bet the same amount on each successive hand.
+
+hard hand
+     any hand that is not a soft hand.
+
+heads up
+     playing at a table that has no other players.
+
+hit
+     drawing a new card to add to the player's or dealer's hand.
+
+hole card
+     the dealer's card that is placed face down.
+
+insurance
+     a side bet, of up to 1/2 the original bet, that is offered when the
+     dealer's upcard is an ace. This bet pays 2:1 if the dealer has a
+     natural 21. (Also see "even money")
+
+late surrender
+     surrender which is only allowed when the dealer does not have a
+     natural. If the dealer has a natural 21 (blackjack), the player's bet
+     still loses in its entirety. If the dealer does not have a blackjack,
+     the player loses half the bet and doesn't play the rest of the hand.
+
+natural
+     a hand that totals 21 on the first two cards.
+
+over/under
+     a rare bet that the first two player's cards will total over 13, or
+     under 13, when aces are counted as one.
+
+preferential shuffling
+     shuffling when the deck is favorable to the players, while avoiding a
+     shuffle when the deck is unfavorable to the players.
+
+push
+     a tie hand, the original bet is returned to the player.
+
+shoe
+     a "box" for holding the undealt cards, usually used in multi-deck
+     games.
+
+soft hand
+     any hand that includes an ace that can be counted as 11 without having
+     the value of the hand exceed 21. It is always possible to draw one
+     card to a soft hand without busting.
+
+split hand
+     hands that start with two cards of the same rank can be split to form
+     two independent hands. This option is exercised by adding a new bet to
+     the second hand, and these hands are played independently.
+
+spread
+     to place more than one bet before the cards are dealt.
+
+stand
+     to stop drawing cards.
+
+stiff (hand)
+     any hand that has a small chance of winning regardless of how the hand
+     is played (usually 12 - 16).
+
+surrender
+     the option to give back the player's first two cards in exchange for a
+     refund of 1/2 of the original bet (rarely allowed). Some hands, such
+     as 16 vs. dealer's 10, are so bad that surrender is less costly than
+     playing the hand.
+
+third base
+     the last player at a table to act on his/her hand is said to be
+     sitting at "third base".
+
+upcard
+     the dealer's first card, dealt face up. The correct playing decision
+     often involves some consideration of the dealer's upcard.
+
+    ------------------------------------------------------------------------
+
+
+Q:B3 What special terminology is used by card counters?
+A:B3 (Steve Jacobs)
+
+Card Counting Terminology
+
+betting correlation
+     a measure of how well the card weights correlate to the change in the
+     player's favorability when the cards are seen by the player and
+     removed from the deck. This gives an estimate of the accuracy of the
+     card counting system.
+
+back counting
+     counting cards and waiting for the count to become favorable before
+     sitting down to play. Usually done standing in back of the players.
+
+balanced count
+     any counting system that has a count starting at zero when the cards
+     are shuffled, and ending at zero when all cards in the deck(s) have
+     been exposed. Most counting systems use a balanced count.
+
+bet spread
+     the ratio between maximum and minimum bet size. A player who uses $20
+     maximum bets and $5 minimum bets is using a 4:1 bet spread.
+
+card weight
+     the "value" assigned to each card face. This weight is added to the
+     "count" as each new card is exposed. Weights are usually small integer
+     values like -1, +1, or +2.
+
+count
+     (noun) -- a number that represents the player's estimate of how
+     favorable or unfavorable.
+
+cover bet
+     a bet (usually large) placed at the "wrong" time, in order to fool the
+     pit critters into thinking that the player is not counting cards.
+
+insurance correlation
+     a measure of how well the card weights correlate to the change in the
+     player's favorability for placing insurance bets. This gives an
+     estimate of the accuracy of the card counting system for predicting
+     when to take insurance.
+
+penetration
+     the number of cards that are dealt before the cards are shuffled.
+     Penetration is usually expressed as a percentage of the cards, as in
+     "75% penetration". Good penetration is extremely important to card
+     counters.
+
+playing efficiency
+     effectiveness of strategy variations in tracking the optimal playing
+     strategy as the deck composition changes. Efficiency is given by E =
+     AG / PG, where AG is the actual gain from making the strategy changes,
+     and PG is the possible gain that could be made by using a playing
+     strategy that is "computer perfect".
+
+running count
+     the total of the weights of all cards that have been exposed since the
+     cards were shuffled.
+
+shuffle tracking
+     a system to predict which sections of the deck/shoe will be favorable
+     to the player, based on the locations of favorable sections of the
+     previous deck/shoe, and on studying the method used to shuffle the
+     cards.
+
+side count
+     a count in addition to the "main" count, usually involving a single
+     card face, as in "ace side count".
+
+strategy variations
+     varying from basic strategy when the count indicates that it is
+     profitable to do so.
+
+ten poor
+     a deck that has a lower than average density of tens and face cards.
+
+ten rich
+     a deck that has a higher than average density of tens and face cards.
+
+true count
+     a count that is adjusted according to the number of undealt cards,
+     usually by dividing the running count by the number of undealt *decks*
+     (or half-decks).
+
+unbalanced count
+     any counting system that has a count that starts or ends on a non-zero
+     value (see "balanced count"). Red 7 is an example of an unbalanced
+     count.
+
+wonging
+     improving the player's edge by placing bets only when the count is
+     favorable for the player, and "sitting out" when the count is
+     unfavorable.
+
+    ------------------------------------------------------------------------
+
+
+Q:B4 Why is there so much talk about blackjack in rec.gambling?
+A:B4 (Steve Jacobs)
+
+Blackjack is the most popular table game in American casinos, and the
+abundance of blackjack articles in rec.gambling is a reflection of this
+popularity. Unlike many other casino games, skillful play in blackjack
+allows the player to gain a slight advantage over the casino. However,
+there is no single form of the game that is found in all casinos, and it is
+often possible to find several slightly different forms of blackjack within
+the same casino. When playing blackjack, the "correct" strategy to use will
+depend on the number of card decks used and on the particular "house rules"
+that are in effect during play. All of these factors combine to make
+blackjack a very complicated topic.
+    ------------------------------------------------------------------------
+
+
+Q:B5 Is casino blackjack a "beatable" game.
+A:B5 (Matt Wilding)
+
+Background: Many books have been written that claim that BJ is beatable.
+
+Answer: Simulations performed by rec.gamblers show different amounts of
+potential player advantage in theory in BJ, depending on strategies, exact
+rules, and playing conditions. These numbers typically approach 1% (an
+average penny gain for every dollar bet) though in certain particular,
+ideal circumstances this can get somewhat higher. There is disagreement on
+the net about how much advantage this translates into in "real-world"
+casinos, but it's generally believed that players can play with a small,
+long-run advantage in BJ. The variance is very high in this game, however,
+which makes the slight advantage in BJ far from a sure thing.
+    ------------------------------------------------------------------------
+
+
+Q:B6 How much of an advantage can card counting give?
+A:B6 (Steve Jacobs)
+
+A typical card counter will have an edge of 1.5% or less, depending on the
+counting system used, the skill of the player, and the particular house
+rules that the player is fighting against. It is quite unusual to find
+playing conditions that allow the player to get more than a 2% edge against
+the house, even against single deck games. The player's edge against
+multi-deck games is generally less than 1%.
+    ------------------------------------------------------------------------
+
+
+Q:B7 Is card counting illegal?
+A:B7 (Steve Jacobs)
+
+No. The casinos would like you to believe that card counting is illegal,
+immoral, and fattening, but the fact is that card counters are simply using
+a greater level of skill than the typical blackjack player. The Nevada
+courts have ruled that blackjack players are free to use any information
+that is made available to them, provided that there is no collusion between
+a player and casino personnel. For example, if a dealer accidentally
+handles the cards in such a way that a player can see the dealer's hole
+card, the player can make use of this information without breaking the law.
+    ------------------------------------------------------------------------
+
+
+Q:B8 Can the casino ban card counters?
+A:B8 (Steve Jacobs)
+
+This depends on where you play. In Atlantic City, where games of skill are
+not permitted, the casinos are not allowed to ban skillful players. In
+Nevada, casinos are allowed to refuse service to anyone at any time for any
+reason. Players are routinely "barred", usually by being asked to leave or
+by being told that they are welcome to play any game other than blackjack.
+If you are barred but persist in trying to play, the casino can have you
+arrested for trespassing.
+    ------------------------------------------------------------------------
+
+
+Q:B9 What is the correct basic strategy for single deck Blackjack?
+A:B9 (Steve Jacobs)
+
+The following basic strategy is for single deck games without DAS
+(double-after-splits).
+
+   +--  Player's hand
+   |
+   |     dealer         dealer
+   |   |-might bust-||-might stand-|
+   V   2  3  4  5  6  7  8  9  X  A  <------- dealer's upcard
+  ---+-------------------------------
+  XX | S  S  S  S  S  S  S  S  S  S   never, ever, ever split
+  99 | PS PS PS PS PS S  PS ps s  s   split if (d <= 9), except 7
+  88 | Ps Ps Ps Ps Ps Ph ph ph ph ph  always split
+  77 | ps ps Ps Ps Ps ph h  h  s  h   split if (d <= 7), stand against 10
+  66 | ph ps ps Ps ps h  h  h  h  h   split if (d <= 6)
+  55 | DH DH DH DH DH DH DH DH H  H   never split, treat like hard 10
+  44 | h  H  H  DH DH H  h  h  h  h   never split, double against 5, 6
+  33 | h  h  Ph PH PH ph h  h  h  h   split if (d >= 4) and (d <= 7)
+  22 | h  ph Ph PH PH ph h  h  h  h   split if (d >= 3) and (d <= 7)
+  AA | PH PH PH PD PD PH PH Ph Ph Ph  always split
+  ---+-------------------------------
+  A9 | S  S  S  S  S  S  S  S  S  S   always stand
+  A8 | S  S  S  S *DS S  S  S  S  S   double against a 6
+  A7 | S  DS DS DS DS S  S  h  h  h*  double 3-6, hit against 9, 10, A
+  A6 | DH DH DH DH DH H  h  h  h  h   double low, hit high
+  A5 | h  h  DH DH DH h  h  h  h  h   \
+  A4 | h  H  DH DH DH H  h  h  h  h    \ double against 4,5,6
+  A3 | H  H  DH DH DH H  H  h  h  h    /
+  A2 | H  H  DH DH DH H  H  h  h  h   /
+  ---+-------------------------------
+  21 | S  S  S  S  S  S  S  S  S  S   always stand
+  20 | S  S  S  S  S  S  S  S  S  S   always stand
+  19 | S  S  S  S  S  S  S  S  S  S   always stand
+  18 | S  S  S  S  S  S  S  s  s  s   always stand
+  17 | s  s  s  s  s  s  s  s  s  s   always stand on HARD 17 or above
+
+  16 | s  s  s  s  s  h  h  h  h  h   \
+  15 | s  s  s  s  s  h  h  h  h  h    \
+  14 | s  s  s  s  s  h  h  h  h  h     > hit if dealer might stand,
+  13 | s  s  s  s  s  h  h  h  h  h    /    stand if dealer might bust
+  12 | h  h  s  s  s  h  h  h  h  h   /   (special case against 2, 3)
+
+  11 | D  D  D  D  D  D  D  D  D  D   always double
+  10 | D  D  D  D  D  D  D  D  H  H   double if (d < 10)
+   9 | DH DH DH DH DH H  H  h  h  h   double if dealer might bust
+   8 | h  H  H  DH DH H  h  h  h  h   double only against 5, 6
+   7 | h  h  h  H  H  h  h  h  h  h
+   6 | h  h  h  H  H  h  h  h  h  h   (4-2)
+   5 | h  h  h  H  H  h  h  h  h  h   (3-2)
+   4 | h  h  h  H  H  h  h  h  h  h   (2-2 pair if no more splitting allowed)
+  ---+-------------------------------
+  S=stand H=hit D=double P=pair(split)
+  DH= double if allowed, otherwise hit
+  DS= double if allowed, otherwise stand
+  [uppercase] = "strong" hand, favorable to player
+  [lowercase] = "weak" hand, favorable to house
+
+  (*) notes:
+     Playing A7 against dealer's ace:
+        hitting gains 4.08% if dealer must hit on soft 17
+        standing gains 0.74% if dealer must stand on soft 17
+
+     Playing A8 against dealer's 6:
+        doubling gains 1.96% if dealer must hit on soft 17
+        doubling gains 0.03% if dealer must stand on soft 17
+        (this rule may be ignored to simplify the strategy)
+
+    ------------------------------------------------------------------------
+
+
+Q:B10 What is the correct basic strategy for Atlantic City blackjack?
+A:B10 (Steve Jacobs)
+
+The following basic strategy is for typical Atlantic City rules.
+
+  HOUSE RULES:
+     Cards are dealt from 6 decks.
+     Dealer must stand on any 17.
+       Double-down allowed on soft hands.
+     Pairs may be split only once.
+       Player may double-down after splitting pairs.
+     Surrender is not allowed.
+
+
+                   Strategy Table
+
+       |---might bust---|  |---might stand---|  <---- dealer possibility
+  ---+----------------------------------------
+       2   3   4   5   6   7   8   9   X   A    <---- dealer's up card
+  ---+----------------------------------------  Pairs
+  XX | S   S   S   S   S   S   S   S   S   S
+  99 | PS  PS  PS  PS  PS  S   PS  ps  s   s
+  88 | Ps  Ps  Ps  Ps  Ps  Ph  ph  ph  ph  ph
+  77 | ps  ps  Ps  Ps  Ps  ph  h   h   h   h
+  66 | ph  ph  ps  Ps  Ps  h   h   h   h   h
+  55 | DH  DH  DH  DH  DH  DH  DH  DH  H   H
+  44 | h   H   H   PH  PH  H   h   h   h   h
+  33 | ph  ph  Ph  Ph  Ph  ph  h   h   h   h
+  22 | ph  ph  Ph  Ph  PH  ph  h   h   h   h
+  AA | PH  PH  PH  PH  PDH PH  PH  Ph  Ph  Ph
+  ---+----------------------------------------  Soft Hands
+  AX | S   S   S   S   S   S   S   S   S   S
+  A9 | S   S   S   S   S   S   S   S   S   S
+  A8 | S   S   S   S   S   S   S   S   S   S
+  A7 | S   DS  DS  DS  DS  S   S   h   h   h
+  A6 | H   DH  DH  DH  DH  H   h   h   h   h
+  A5 | h   H   DH  DH  DH  h   h   h   h   h
+  A4 | h   H   DH  DH  DH  H   h   h   h   h
+  A3 | H   H   H   DH  DH  H   H   h   h   h
+  A2 | H   H   H   DH  DH  H   H   h   h   h
+  AA | H   H   H   H   DH  H   H   h   h   h
+  ---+----------------------------------------  Hard Hands
+  21 | S   S   S   S   S   S   S   S   S   S
+  20 | S   S   S   S   S   S   S   S   S   S
+  19 | S   S   S   S   S   S   S   S   S   S
+  18 | S   S   S   S   S   S   S   s   s   s
+  17 | s   s   s   s   S   s   s   s   s   s
+
+  16 | s   s   s   s   s   h   h   h   h   h
+  15 | s   s   s   s   s   h   h   h   h   h
+  14 | s   s   s   s   s   h   h   h   h   h
+  13 | s   s   s   s   s   h   h   h   h   h
+  12 | h   h   s   s   s   h   h   h   h   h
+
+  11 | DH  DH  DH  DH  DH  DH  DH  DH  DH  H
+  10 | DH  DH  DH  DH  DH  DH  DH  DH  H   H
+   9 | H   DH  DH  DH  DH  H   H   h   h   h
+   8 | h   H   H   H   H   H   h   h   h   h
+   7 | h   h   h   H   H   h   h   h   h   h
+   6 | h   h   h   h   h   h   h   h   h   h
+   5 | h   h   h   h   H   h   h   h   h   h
+   4 | h   h   h   h   H   h   h   h   h   h
+  ---+----------------------------------------
+  S=stand H=hit D=double P=split Q=surrender
+
+  NOTES:
+       1) If more than one option is listed,
+          options to the left are preferred
+          over options to the right.  Options
+          less favorable than STAND or HIT are
+          not shown.
+
+       2) Use the "Hard Hands" table only
+          when the other tables do not apply.
+
+       3) If splitting Aces is not allowed,
+          use the "Soft Hands" table.
+
+       4) Uppercase options favor the player,
+          lowercase options favor the house.
+
+    ------------------------------------------------------------------------
+
+
+Q:B11 What is the house edge when playing basic strategy?
+A:B11 (Steve Jacobs)
+
+The expected gain for basic strategy play depends on the house rules and
+the number of decks. The following table summarizes the player's
+expectation for a variety of games. All numbers are in units of percent of
+initial bet.
+
+                           <-- number of decks -->
+                  |    1  |   2   |   4   |   6   |  20   |  100  |
+  ----------------+-------+-------+-------+-------+-------+-------+
+  AC              | .1541  -.2228  -.3991  -.4569  -.5368  -.5638 |
+  AC + LSR        | .1761  -.1717  -.3323  -.3843  -.4552  -.4790 |
+  AC + ESR        | .7694   .3952   .2265   .1721   .0968   .0714 |
+  ----------------+-------+-------+-------+-------+-------+-------+
+  strip           | .0409  -.3214  -.4889  -.5437  -.6245  -.6447 |
+  strip + LSR     | .0707  -.2685  -.4239  -.4744  -.5429  -.5659 |
+  strip + DAS     | .1809  -.1795  -.3472  -.4021  -.4779  -.5034 |
+  strip + ESR     | .6511   .2927   .1320   .0801   .0084  -.0157 |
+  ----------------+-------+-------+-------+-------+-------+-------+
+  vegas           |-.1527  -.5257  -.7015  -.7590  -.8445  -.8663 |
+  vegas + LSR     |-.1095  -.4594  -.6221  -.6747  -.7469  -.7713 |
+  vegas + DAS     |-.0103  -.3813  -.5570  -.6146  -.6951  -.7223 |
+  vegas + ESR     | .5403   .1720   .0046  -.0493  -.1245  -.1500 |
+  ----------------+-------+-------+-------+-------+-------+-------+
+  reno            |-.4291  -.7400  -.8906  -.9404 -1.0154 -1.0337 |
+  reno + LSR      |-.3858  -.6737  -.8113  -.8560  -.9178  -.9387 |
+  reno + DAS      |-.3121  -.6176  -.7658  -.8151  -.8840  -.9073 |
+  reno + ESR      | .2639  -.0423  -.1846  -.2307  -.2307  -.3174 |
+  ----------------+-------+-------+-------+-------+-------+-------+
+
+  "AC" rules: (typical of Atlantic City)
+        dealer stands on soft 17
+        double down on any two cards
+        double after splits
+        no resplitting
+
+  "strip" rules: (typical of Vegas Strip)
+        dealer stands on soft 17
+        double down on any two cards (but not after splits)
+
+  "vegas" rules: (typical of Vegas Downtown)
+        dealer hits soft 17
+        double down on any two cards (but not after splits)
+
+  "reno" rules:  (typical of Reno, northern Nevada)
+        dealer hits soft 17
+        double down allowed on two card total of 10 or 11 only
+
+  DAS = Double After Splitting
+  LSR = Late Surrender
+  ESR = Early Surrender (no longer available)
+
+    ------------------------------------------------------------------------
+
+
+Q:B12 Why are single deck games better than multi-deck games?
+A:B12 (Michael Hall)
+
+There are some surface differences, such as single and double deck usually
+being hand-held, while four or more decks are dealt from a shoe, but there
+are fundamental mathematical differences too.
+
+Single deck blackjack is usually better than multiple deck blackjack for
+card counters, basic strategists, and the clueless. Additional decks make
+busts less likely, since one can draw to hands like 2,2,2,2,2,2,2,2,2 (for
+18) which are improbable/impossible in single deck. Busting less often
+helps the dealer's hand more than yours, since the dealer is forced by the
+rigid rules to hit more often than you. Blackjacks are also less frequent,
+which is bad since you get paid 3 to 2 for those. All in all, multiple
+decks will cost a basic strategist nearly 0.5% in advantage, which is more
+than all but the very best package of favorable extra rules will give you.
+This was an intuitive explanation; a complete mathematically sound (albeit
+huge) proof can be generated by a combinatorial analysis program.
+
+Card counters face the additional problem that the count is less volatile
+with multiple decks and hence offers less frequent opportunities for large
+favorable bets. Consider the difference between an urn with 1 black and 1
+white marble versus an urn with 100 black and 100 white marbles. Draw half
+the marbles: what is the probability that all the remaining marbles are
+white? In the 1 and 1 case, there is a 1 in 2 chance. In the 100 and 100
+case, there is only a 1 in 100,891,344,545,564,193,334,812,497,256 chance!
+    ------------------------------------------------------------------------
+
+
+Q:B14 Do 'bad' players at third base have any effect on expected gain?
+A:B14 (Steve Jacobs)
+
+No. It is a common misconception that incorrect plays by the player at
+third base will "take the dealer's bust card" or "leave the dealer a good
+card". As long as the shuffle is sufficient to randomize the cards,
+improper play of other players will be just as likely to help as it is to
+hurt. However, bad players can cause frustration and anxiety which may
+increase the likelihood of making mistakes. It is best to avoid the
+temptation to strangle bad players.
+    ------------------------------------------------------------------------
+
+
+Q:B15 Where is the best place to sit at a blackjack table.
+A:B15 (Steve Jacobs)
+
+It depends. For basic strategy players, seat position has no significant
+effect on the player's expected return. For card counters who use strategy
+variations, it is probably best to sit at third base in order to see as
+many cards as possible before playing the hand. When playing against a
+"front loading" dealer, the best seat is whichever seat gives you the best
+shot at getting a glimpse of the dealer's hole card. When playing at the
+Rio, the best seat is the one that gives the best view of the cocktail
+waitresses.
+    ------------------------------------------------------------------------
+
+
+Q:B16 How is card counting done?
+A:B16 (Steve Jacobs)
+
+The card counting system described below is an unbalanced 10 count that is
+100% accurate for determining when to take insurance. As a general purpose
+card counting system, it is relatively weak and not particularly
+recommended, but it illustrates many of the principles behind card
+counting. This is intended only to give a feel for how card counting is
+done, and is not recommended for actual practice, although I've used it
+because of its simplicity. This counting strategy is listed as "Unbalanced
+10 Count" in other parts of the FAQ list.
+
+For single deck games:
+     1) Start the count at -4 when the deck is shuffled.
+     2) Count -2 for 10, J, Q, K
+     3) Count +1 for everything else (including aces)
+     4) Bet low when the count is negative, high when the count is positive
+     (actually, simulations show that you can bet high for a count of -2 or
+     above).
+     5) Take insurance when the count is positive.
+     6) Play basic strategy at all times.
+
+---------------------------------------------------------------
+
+For N deck games:
+     1) Start the count at (-4 * N).
+     2) all other rules are the same.
+
+---------------------------------------------------------------
+
+Notes:
+
+The unique feature of this counting method is that it is perfectly accurate
+for dealing with insurance. When the count is positive, the player has the
+advantage when taking the insurance bet. When the count is negative, the
+house has the advantage, so insurance should not be taken.
+
+Counting is best done by counting several cards at once. It is easy to
+practice this counting method in the following way:
+
+1)
+     Count through a deck of cards, counting one card at a time. Start at
+     -4, and count through the entire deck. After all of the cards have
+     been seen, the count should be ZERO. If it is not zero, a mistake has
+     been made somewhere. Repeat counting through the deck one card at a
+     time, until you can do it quickly without making mistakes.
+
+2)
+     Count through the deck, counting two cards at a time. Look for the
+     following patterns, adding the correct amount for each pattern
+     (X = 10, N = non-ten)
+          NN: +2
+          XN: -1
+          XX: -4
+     Again, the count should be zero after all cards have been seen. Repeat
+     until you can do it efficiently.
+
+3)
+     Count through the deck, counting three cards at a time. Look for the
+     following patterns, adding the correct amount for each pattern.
+     (X = 10, N = non-ten)
+          NNN +3
+          XNN 0 (this pattern is common)
+          XXN -3
+
+4)
+     Practice against a computer blackjack game. When I play, I usually
+     count the cards by counting an entire hand (player's or dealers) at
+     once. If there are more than three cards in the hand, I mentally break
+     it up into groups of 1, 2, or 3 cards (I usually look for "XNN"
+     patterns and ignore those cards, since they add up to zero). I usually
+     count the cards just before the dealer picks up the hand (exception:
+     for insurance, you should count your cards and the dealer's up card
+     immediately).
+
+    ------------------------------------------------------------------------
+
+
+Q:B17 What counting system is "best"?
+A:B17 (Matt Wilding)
+
+This has been answered by rec.gamblers using different approaches.
+
+The first approach is to evaluate different systems by simulation. This
+approach obscures the particular advantages of each system, but it's easy
+to see how a system will perform in one particular realistic casino playing
+situation, and not hard to judge the tradeoff between performance and ease
+of use (see Q/A B18 for more details).
+
+The second approach estimates several performance parameters of each system
+that collectively approximate the system's inherent potential. This allows
+the strengths of different BJ systems to be studied in detail, which should
+allow better, more precise comparison of different systems and aid efforts
+to improve a particular system. This approach gives results which may be
+used to determine which counting system is theoretically most profitable,
+but does not address the issue of how easy it is to use the counting system
+under actual playing conditions (see Q/A B19 for more details).
+
+It's not yet clear how these two studies relate, and no rec.gambling
+consensus has emerged as to how the more sophisticated performance
+parameters actually translate to advantage at the tables as in the
+simulations.
+    ------------------------------------------------------------------------
+
+
+Q:B18 What counting system is easiest to use?
+A:B18 (Matt Wilding)
+
+Background: Lots of systems are available. There is an important tradeoff
+between complexity and theoretical power, as more complex systems are
+harder to use and more error-prone.
+
+Answer: You pick'em. A rec.gambling study was accomplished that compared
+different systems, and here a summary of what came out:
+
+Complexity is a subjective measure with guidelines described in the results
+paper. Power is the integer closest to p/0.05%, where p is the % advantage
+of the strategy one-on-one in a single deck, dealer hits on soft 17, no
+DDAS, resplitting-allowed game that's dealt down to 20 cards and using a
+1-4 betting spread. 15,000,000 hands guarantee correctness to within 1
+point 99% of the time.
+
+   name             complex power      card weights             reference
+                                A  2  3  4  5  6  7  8  9  X
+  --------------------------------------------------------------------------
+  BASIC               0     -5                                 Steve Jacobs
+  UNBALANCED 10       2     13   1  1  1  1  1  1  1  1  1 -2  Steve Jacobs
+  SUPER-SIMPLE OPT-I 2.5    16         1  1  1  1          -1  WGBJB (1)
+  REVERE PM          3.5    16  -1  1  1  1  1  1          -1  PBaaB
+  RED SEVEN          3.5    19  -1  1  1  1  1  1 R:1      -1  BiB
+  OPT1-6+6            5     18         1  1  1  1          -1  WGBJB
+  WONG HIGH-LOW       5     19  -1  1  1  1  1  1          -1  PB
+  ZEN                 5     19  -1  1  1  2  2  2  1       -2  BiB
+  HORSESHOE           6     14      1  2  2  3  2  2  1 -1 -3  MDB (2)
+  REVERE POINT COUNT  6     17  -2  1  2  2  2  2  1       -2  PBaaB
+  OPT1-6+6 W/ ACE     7     23         1  1  1  1          -1  WGBJB
+  ANDERSEN           9.5    16  -2  1  1  1  2  1  1    -1 -1  TtToLV
+  USTON APC          10     22      1  2  2  3  2  2  1 -1 -3  MDB
+
+  WGBJB: "World's Greatest BlackJack Book" by Humble and Cooper
+  PBaaB: "Playing Blackjack as a Business" by Lawrence Revere
+  BiB: "Blackbelt in Blackjack" by Arnold Snyder
+  PB: "Professional Blackjack" by Stanford Wong
+  TtToLV: "Turning the Tables on Las Vegas" by Ian Andersen
+  MDB: "Million Dollar Blackjack" by Ken Uston
+  (1) with modifications by Matthew Wilding
+  (2) with modifications by Paul C. Kim
+
+    ------------------------------------------------------------------------
+
+
+Q:B19 What BJ counting system is most effective?
+A:B19 (Michael Hall, Jeff Jennings)
+
+The playing efficiency, betting correlation, and insurance correlation is
+listed below for several counting systems. These numbers give an indication
+of the effectiveness of the counting system. When two numbers are listed,
+the second number results from adding an ace side count in addition to the
+"main" count.
+
+See answer B3 for definitions of "betting correlation", "playing
+efficiency", and "insurance correlation".
+
+                  EXPLANATION OF COUNTING SYSTEMS
+  ===========================================================================
+  COUNTING           COUNTING VALUES         "BEST" EFFICIENCY  CORRELATION
+  SYSTEMS      2  3  4  5  6  7  8  9  X  A  SOURCE  PLAY+ace  BET+ace INSURE
+  --------     ----------------------------  ------  -------- -------- ------
+  Griffin      0  0  1  1  1  1  0  0 -1  0  Griffin  64-64+  .85-.95  .85
+  Hi-Opt I     0  1  1  1  1  0  0  0 -1  0  Humble   61-63   .88-.97  .85
+  Hi-Opt II    1  1  2  2  1  1  0  0 -2  0  Humble   67-67+  .91-.99  .91
+  High-Low     1  1  1  1  1  0  0  0 -1 -1  Wong     51-63   .97      .76-.85
+  Ita          1  1  1  1  1  1  0 -1 -1 -1  Sys.Res. 53-63+  .96      .69-.76
+  Red 7's      1  1  1  1  1 **  0  0 -1 -1  Snyder   54-64+  .98      .78-.87
+  Unbal 10's   1  1  1  1  1  1  1  1 -2  1  Roberts  61-61+  .73-.94 1.00
+  Uston +-     0  1  1  1  1  1  0  0 -1 -1  Uston    55-64+  .95      .76-.85
+  Uston APC    1  2  2  3  2  2  1 -1 -3  0  Uston    69-69+  .91-.99  .90
+  Wong Halves  1  2  2  3  2  1  0 -1 -2 -2  Wong     57-67+  .99      .72-.85
+  Zen          1  1  2  2  2  1  0  0 -2 -1  Snyder   63-67+  .97      .85-.91
+                           ** red 7's +1, black 7's 0
+
+  Note: Playing efficiencies have a practical maximum of about 0.7.
+        "Unbal 10's" is short for "Unbalanced 10 Count"
+
+
+    ------------------------------------------------------------------------
+
+
+Q:B20 Does penetration have any effect on basic strategy expectation?
+A:B20 (Steve Jacobs)
+
+Probably not. Unless the dealer is cheating, the cards will be in a random
+order after the shuffle. If the player is not counting cards or using other
+techniques to gain an advantage, it will not matter if there are several
+rounds or only a single round between shuffles. But, if the dealer if using
+preferential shuffling, this will hurt the basic strategy players as well
+as the card counters.
+    ------------------------------------------------------------------------
+
+
+Q:B21 What is the correct strategy for late surrender?
+A:B21 (Michael Hall)
+
+Basic strategy for late surrender in AC multi-deck games is:
+
+     Surrender hard 16 (but not 8-8) vs. 9, 10, ace
+     Surrender hard 15 vs. 10
+
+If you are the least bit risk-averse, you should also:
+
+     Surrender hard 15 vs. ace
+
+At some casinos you can surrender your first two cards. You lose half your
+bet in return for not having to play through the hand. With early
+surrender, you get back half your bet even if the dealer has blackjack,
+while with late surrender you lose anyway when the dealer has blackjack.
+    ------------------------------------------------------------------------
+
+
+Q:B22 What is the correct strategy for "multi action" blackjack?
+A:B22 (Steve Jacobs)
+
+Multi Action blackjack allows the player to place up to three bets
+simultaneously on the same blackjack hand. The player is dealt a single
+hand, and the three bets are played out against the same dealer upcard, but
+with different "drawn" cards for each bet. Many players feel nervous about
+hitting stiff hands against a high dealer's upcard (7 or higher), since
+they will lose all three bets if they bust. However, basic strategy is
+COMPLETELY UNCHANGED for this game, and the correct strategy is no
+different than if the player had only a single bet at risk.
+    ------------------------------------------------------------------------
+
+
+Q:B23 What is "Over/Under" Blackjack?
+A:B23 (Steve Jacobs)
+
+Caesar's Tahoe introduced the Over-13 and Under-13 side bets that are
+allowed at some blackjack tables. These bets are based on the player's
+total for the first two cards, when aces are counted as one. Over-13 bets
+win when the player's cards total 14 or higher, while under-13 bets win
+when the player's cards total 12 or under. Either bet will lose when the
+player's total is exactly 13. These bets are placed at the same time as the
+blackjack bet, and usually the side bet can be no larger than the bet on
+the blackjack hand. Over/under games are usually dealt from a 6 or 8 deck
+shoe, and the player's first two cards are always dealt face up. Although
+these are "sucker" bets for basic strategy players, with a house edge of 6%
+to 10%, special card counting strategies can be used to give the player a
+significant edge on these bets.
+    ------------------------------------------------------------------------
+
+
+Q:B24 What is the counting strategy for Over/Under blackjack?
+A:B24 (Steve Jacobs)
+
+The card weights used for the Over/Under count are as follows: count +1 for
+Ace, 2, 3, and 4, and count -1 for tens and face cards. The deck becomes
+favorable for counts of +2 and above, and for counts -4 and below. Over-13
+bets should be placed when the count is +3 and above. Under-13 bets should
+be placed when the count is -4 and below.
+
+When playing Over/Under blackjack with this counting scheme, virtually all
+of the player's profit comes from the over-13 and under-13 side bets. This
+counting scheme is very poor for playing the blackjack portion of the bet,
+and will only allow the player to play about even with the house on the
+blackjack bets. However, the over/under bets can be very profitable if the
+game has good penetration. A 6-deck over/under game with good penetration
+can give the player an advantage of 1.5% or more. Single deck over/under
+games with good penetration (very rare) can give the player an edge of over
+4% when using the over/under count.
+
+Snyder's "Over/Under Report" discusses the over/under game in detail, and
+is available from RGE at an outrageous price.
+    ------------------------------------------------------------------------
+
+
+Q:B25 What are some good/bad books on Blackjack?
+A:B25
+
+The individual book reviews given below are grouped according to the person
+doing the review. If you have an opposing view or wish to express another
+view of any of these books, write your own review and send it to the
+maintainer of the FAQ list, and it will be included. Reviews of books that
+are not mentioned here are especially welcome.
+
+There are undoubtedly many good books that are not listed here, as well as
+many terrible books that are not listed here. These reviews are only the
+opinions of the reviewers, and your mileage may vary.
+
+Review by Michael Dalton (as reported by Michael Hall)
+
+     Dalton, Michael. Blackjack: A Professional Reference. Spur of the
+     Moment Publishing, PO BOX 541967, Merritt Island, FL; 1991. (1964
+     pages)
+
+     Written by a NASA computer systems engineer, this book is a
+     comprehensive reference to the game of blackjack. Over 1000
+     entries listing books, magazines, publications, newsletters,
+     articles, reports, videos, software and other products available
+     for serious players of the game twenty-one. Also included is the
+     most comprehensive blackjack dictionary ever compiled explaining
+     blackjack terminology, system and strategy descriptions, rules,
+     and miscellaneous blackjack trivia. Complete basic strategy
+     charts that cover most blackjack games in the world are also
+     presented. Fully cross-referenced with recommendations.
+
+Reviews by Edmund Hack:
+
+     Blackjack Video: Winning at Blackjack with Bobby Singer, JCI
+     Video, 1987, 103 minutes. This video is a tape of a sales
+     pitch/introduction to card counting seminar hosted by Bobby
+     Singer, billed as the "World's biggest winner at the game of
+     Blackjack" on the back cover. The tape covers 5 areas: Basic
+     Strategy, Card Counting, Money Management, Team Play and Casino
+     Awareness. Unfortunately, the information is incomplete. For
+     example, the basic strategy section only covers hard and soft
+     hands and the card counting section only covers the card values
+     for the Hi-Lo count, but no bet sizing or strategy adjustments.
+     The rest of the information is available for $149.00. For this
+     price, you get a set of notebooks with lessons and audio tapes
+     covering the Hi-Lo count and an 800 number you can call to find
+     out where the best games are in the city you plan to play. I
+     rented the tape for $1.50 and maybe got my money's worth.
+
+     One interesting point covered in moderate detail is team play.
+     Singer advocates playing 4 deck or up shoes with the "Big Player"
+     approach pioneered by Uston and others. He advised using a
+     counter at one or more tables who flat bets and uses hand signals
+     (i.e. scratching the head) to call in a big money player. The
+     current count is signaled to the Big Player by the stacking of
+     chips in front of the counter in a particular way. The Big Player
+     can then play out the rest of the shoe, presumably free of heat.
+     If the count goes bad, the big player leaves, proclaiming a trip
+     to the restroom is needed. The home study course is said to have
+     info on bet sizing related/risk of ruin for teams and
+     individuals.
+
+     The Winner's Guide to Casino Gambling, Edwin Silberstang, Plume,
+     1980 and 1989. This is a general overview of casino gambling with
+     chapters on casino operations, comps, junkets, credit and the
+     games offered. Detailed sections on craps, baccarat, roulette,
+     keno, slots, video poker (89 edition only) and blackjack give the
+     staff, rules, and procedures of each game, the house advantage, a
+     glossary, and the best plays for each. In addition, there are
+     anecdotes about playing the games. As the author has separate
+     books on poker and sports betting, there is little information on
+     them here and Red Dog and Pai Gow poker are not covered. The
+     blackjack section has correct basic strategy information for 1,2,
+     and 4+ deck games with and without DAS, and a discussion of
+     Strip, Reno and Downtown rules variations. He presents the Hi-Opt
+     I count (not by that name) and how to use it for bet sizing and
+     insurance bets, but no strategy adjustments. There is a section
+     written by a professional blackjack player on how to hide the
+     fact that you are counting and life as a pro. If you want a
+     single book as an introduction to casino gambling, this is it.
+     [Note: there are 2 versions of the book out - a small green
+     paperback from 1980 and a black trade paperback from 1989 that
+     has been updated.]
+
+Reviews by Michael Hall:
+
+     Fundamentals of Blackjack by Chambliss and Roginski - this book
+     is pretty much a standard blackjack book, but it has
+     exceptionally good tables of information. I advise buying this
+     book as a supplement to whatever book you use for your counting
+     system (probably either Professional Blackjack, The World's
+     Greatest Blackjack Book, Blackbelt in Blackjack or Million Dollar
+     Blackjack.) The counting system discussed in "Fundamentals..." is
+     not one that you would actually want to use, but the tables don't
+     assume this system is used. Unfortunately, many of the tables
+     were generated using Snyder's Blackjack Formula, and so the
+     accuracy is not as good as would be the case with computer
+     simulations.
+
+     Card Counting for the Casino Executive by Bill Zender - this book
+     is written for casino executives, as you might suspect, which
+     makes it insightful reading for card counters. The book goes into
+     detail about how pit critters should go about identifying and
+     discouraging card counters. It also lists all kinds of ways the
+     players can win, both honestly and by cheating. The author is
+     fairly counter-tolerant, which is refreshing. Alas, the book is
+     spiral bound, only 138 pages long, and *full* of white space.
+
+Reviews by Steve Jacobs:
+
+     Million Dollar Blackjack by Ken Uston. This is a good all-around
+     blackjack book, although the advanced counting scheme is much
+     more difficult than most. Ken gives a balanced view of blackjack,
+     without the exaggerated claims that many BJ authors are fond of.
+
+     World's Greatest Blackjack Book by Humble & Cooper. This is a
+     good book with a pretty reasonable counting scheme. The authors
+     are _way_ too paranoid about cheating, to the extent that they
+     attribute virtually all of their losses to cheating. Otherwise,
+     it is a good book. These guys have absolutely nothing nice to say
+     about Lawrence Revere, so if you've read Playing Blackjack as a
+     Business and would like to read an opposing viewpoint, this is
+     the book for you.
+
+     Blackbelt in Blackjack by Arnold Snyder. The Red Seven count in
+     this book is simple, and quite effective against single deck
+     games. The Zen count is more difficult, but more powerful. Snyder
+     includes some interesting ideas that aren't found in other books,
+     such as "depth charging". This book is probably not as good for
+     beginners as are the previous two books, but is a good book for
+     more advanced readers.
+
+     Theory of Blackjack by Peter Griffin. This is one of the few good
+     books that cover the mathematical considerations of the game.
+     This book is either a complete must or a complete waste of time,
+     depending on how you feel about mathematics.
+
+     Beat the Dealer by Edward Thorp. This book is a classic, and is
+     still worth reading. The card counting schemes are now somewhat
+     dated, but it is still a good book for card counters.
+
+     Professional Blackjack by Stanford Wong. Some people really like
+     this book, but I didn't find it all that exciting. It is
+     considered a classic, and has a lot of good material.
+
+     Playing Blackjack as a Business by Lawrence Revere. This is one
+     of the most accurate books for basic strategy, and the color
+     charts are very nice. The numbers in the tables were provided by
+     Julian Braun, and are about as accurate as any available, but
+     don't believe the numbers that Revere gives for player's expected
+     gain. Revere's counting scheme isn't widely used today, and
+     Revere's "I'm right and everyone else is a dope" attitude is very
+     annoying, although partially justified if you account for the
+     date of first publication and the scarcity of good books at that
+     time. Revere also makes many inflated claims about player's
+     expectation, which Humble & Cooper would attribute to character
+     flaw.
+
+     Scarne on Cards by John Scarne. This book is simply wrong when it
+     comes to blackjack, and Scarne was too arrogant to even consider
+     the possibility that he might have been wrong. He spends a lot of
+     time trying to discredit Thorp. This book has _negative_ value
+     for serious blackjack players, and should probably be avoided
+     completely.
+
+     Turning the Tables on Las Vegas by Ian Andersen. This is an
+     entertaining book that describes techniques for disguising your
+     play to avoid detection by pit critters.
+
+     Casino Tournament Strategy by Stanford Wong. This book combines
+     previous Tournament Blackjack and Tournament Craps book together
+     at a reasonable price. Covers many of the unique situations that
+     come up in tournament play. Worth reading if you plan to play in
+     tournaments.
+
+    ------------------------------------------------------------------------
+
+
+Q:B26 What are some other sources of blackjack/gambling information?
+A:B26 (Jonathan Rosenberg, Michael Hall, Jack Mcgee)
+
+RGE Publishing, 414 Santa Clara Avenue, Oakland, CA 94610, (510) 465-6452
+Publishes Blackjack Forum, $30/year (4 issues). Call for their very
+interesting catalog. Includes books, videos, PC based BJ practice programs,
+analyzers and simulators, and back issues of Blackjack Forum.
+
+Current Blackjack News, by Stanford Wong. $95/year (12 issues). Available
+through RGE.
+
+Blackjack Confidential Magazine, 513 Salsbury Road, Cherry Hill, NJ 08034
+$99/year (10 issues).
+
+Win Magazine, 16760 Stagg St. #213, Van Nuys, CA 91406, (818) 781-9355
+Formerly Gambling Times. $36/year (12 issues). Covers all gambling and
+gaming topics. [Some reports of irregular publishing schedule]
+
+The Experts Blackjack Newsletter, Gambling Times Incorporated, 16760 Stagg
+St. #213, Van Nuys, CA 91406, (818) 781-9355 New, advertised in WIN
+Magazine. $30/year (6 issues)
+
+The International Gamblers' Club Newsletter, P.O. Box 73, Thornhill,
+Ontario, Canada L3T 3N1 $24/year (4 issues). Founded by Lance Humble.
+They'll send you a free but dated sample if you write. Mainly BJ but
+contains some sports betting information. (I wasn't impressed with my
+sample).
+
+Gambler's Book Club, 630 South 11th Street, Box 4115, Las Vegas, NV 89127,
+(800) 634-6243. Not a newsletter but call for their awesome, awesome,
+awesome catalog containing not only just about every blackjack book ever
+written but practically every book ever written on any gambling topic. They
+also operate a book store at the above address in Las Vegas. [And they have
+gambling experts (including card counters) working at the store most of the
+time, willing to answer questions -- Michael Hall]
+
+Las Vegas Advisor, Huntington Press, PO Box 28041, Las Vegas, Nevada 89126,
+(702) 597-1884. $45/year (12 issues) (add $5 for first class delivery).
+Produced by Anthony Curtis. Lots of information on deals and freebies
+available in Las Vegas. Sometimes includes valuable coupons or arranges
+special deals for subscribers. (I have personally more than recouped the
+cost in actual cash back from coupons for about half year's worth of the
+subscription. -Hall)
+
+Casino Player, 2424 Arctic Ave., Atlantic City, NJ 08401, 609-344-9000.
+$24/yr, (12 issues). It covers most gambling jurisdictions, with particular
+attention paid to AC and LV. Articles on all games, by Wong, Caro, Frome,
+Malmuth, Snyder, and others. It's a full color, slick, well produced
+magazine, about 60 pages.
+    ------------------------------------------------------------------------
+
+
+Q:B27 Is Ken Uston dead?
+A:B27 (John Schwab)
+
+Yes. He was found dead in a rented apartment in Paris, France, on September
+19, 1987. The cause of death remains undetermined, since an autopsy was not
+performed and the body was cremated. The local police found no evidence of
+foul play. Alcohol and drug abuse were strongly suspected by several people
+who knew Uston intimately. Reference: Stanley Roberts, "A Double Dose of
+Death", Roberts' Rules (column), _Gambling Times_, Jan./Feb., 1988, pp. 8,
+41
+
+That article is the only printed mention that I have seen on Uston's death.
+Maybe someone else has the citation for the Card Player article?
+    ------------------------------------------------------------------------
+
+.

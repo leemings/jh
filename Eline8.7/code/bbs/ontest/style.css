@@ -1,0 +1,95 @@
+P {
+	FONT-SIZE: 9pt; FONT-FAMILY: "宋体"
+}
+TD {
+	FONT-SIZE: 9pt; FONT-FAMILY: "宋体"
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.lanmu {
+	FONT-SIZE: 9pt; FONT-FAMILY: "宋体"
+}
+.lanmu1 {
+	FONT-SIZE: 9pt; FONT-FAMILY: "宋体"
+}
+.font {
+	COLOR: #008000; FONT-SIZE: 9pt; FONT-FAMILY: "宋体"
+}
+.hotimage {
+	FONT-SIZE: 9pt; FONT-FAMILY: "宋体"
+}
+.hotimage A {
+	COLOR: #57444a; TEXT-DECORATION: none; TEXT-TRANSFORM: none
+}
+.hotimage A:hover {
+	COLOR: #57444a; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #57444a; TEXT-DECORATION: underline
+}
+.lanmu A {
+	COLOR: #212171; TEXT-DECORATION: none; TEXT-TRANSFORM: none
+}
+.lanmu1 A {
+	COLOR: #212171; TEXT-DECORATION: none; TEXT-TRANSFORM: none
+}
+.font A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.lanmu A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.lanmu1 A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A {
+	TEXT-DECORATION: none; TEXT-TRANSFORM: none
+}
+LINK {
+	COLOR: #fee9c0; FONT-SIZE: 9pt
+}
+.a10 {
+	FONT-SIZE: 9pt
+}
+.a9engB {
+	FONT-FAMILY: Arial; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+SELECT {
+	FONT-FAMILY: "&#23435;&#20307;"; FONT-SIZE: 9pt
+}
+A {
+	COLOR: #000000; FONT-FAMILY: "&#23435;&#20307;"; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; FONT-FAMILY: "&#23435;&#20307;"; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+#parent {
+	FONT-SIZE: 9pt; HEIGHT: 12pt; POSITION: relative; WIDTH: 150px
+}
+#child {
+	FILTER: revealTrans(duration=1,transition=6); HEIGHT: 12pt; POSITION: relative; TEXT-ALIGN: center; TOP: 2px; WIDTH: 150px
+}
+A.headlines {
+	COLOR: white; FONT-FAMILY: &#23435; TEXT-DECORATION: none; 20307;,Arial,Helvetica;: 9pt
+}
+.a1 {
+	FONT-FAMILY: "&#23435;&#20307;"; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+P {
+	FONT-SIZE: 9pt
+}
+
+#floater {
+	LEFT: 600px; POSITION: absolute; TOP: 200px; VISIBILITY: visible; WIDTH: 125px; Z-INDEX: 10
+}
+

@@ -1,0 +1,54 @@
+<METHOD   NAME="ShowIMG2"/>
+<METHOD   NAME="ShowThisIMG"/>
+<ATTACH   EVENT="ondocumentready" HANDLER="ShowIMG2"/>
+
+<script language="jscript">
+function ShowIMG2()
+{
+
+	var w=element.width;
+	var h=element.height;
+	
+	var srcHTML=element.innerHTML;
+	var s="";
+	var x=0;
+	var y=0;
+	
+	s+="<DIV style='padding:0;position:relative;top:0;left:0;width:"+w+";height:"+h+"'>";		
+	s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:none;z-index:1;'>";
+	s+="<IMG itemno='"+itemno+"' layerno='"+layerno+"' itemgender='"+itemgender+"' src";
+	s+="='"+baseName+"' style='padding:0;position:absolute;top:"+y+";left:"+x+";width:"+w+";height:"+h+";display:inline;z-index:2;'>";
+	s+="</DIV>";
+	element.innerHTML=s;
+	ShowThisIMG(itemno);
+}
+
+function ShowThisIMG(itemNo)	
+{
+	var t;
+		
+	t = element.children[0].children[0];
+	
+	var fileN = GetFileName(itemNo);
+
+	if(fileN!="") 
+		t.src = fileN;
+	else
+		t.src = baseName;
+	t.style.display	= "inline";
+	
+}
+
+function GetFileName(itemNo)
+{
+	if(itemNo=="") return "";
+	var fileN;
+	if(localpic!=0){
+		var itemN = ("0000" + itemNo);
+		itemN = itemN.substring(itemN.length-4,itemN.length);
+		fileN = ImagePath + "0/" + itemN + ".GIF";
+	}
+	else fileN = ImagePath + itemNo + "/00/00/";
+	return fileN;
+}
+</script>

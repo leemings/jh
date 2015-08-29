@@ -1,0 +1,191 @@
+<html>
+<head>
+<title>下图</title>
+<META HTTP-EQUIV="refresh" content="720; url="#">
+<META http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+.aq {  font-size: 9pt; line-height: 150%; color: #efefef; filter: DropShadow(Color=#efefef, OffX=1, OffY=1, Positive=1)}
+A {COLOR: #ffffff; TEXT-DECORATION: none}
+td{font-size:9pt;color:ffffff}
+input, select {
+	border-left: 1px solid Black; 
+	border-right: 1px solid Black;
+	border-top: 1px solid Black;
+	border-bottom: 1px solid Black;
+	font-size: 9pt;
+	color:Black;
+background:ffffff;
+}
+</style>
+</head>
+
+<body bgcolor="#b7d4f1" background="" text="#FFFFFF" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF" leftmargin="0" topmargin="0" bgproperties="fixed" marginwidth="0" marginheight="0" oncontextmenu=window.event.returnValue=false onselectstart=event.returnValue=false ondragstart=window.event.returnValue=false>
+<table width="100%" height="20" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="85" valign="middle"><img src="pigbb.gif" width="85" height="20"> 
+    </td>
+    <td width="72" align="center" valign="middle" class="aq"> 
+      <script>
+function tick() {
+var hours, minutes, seconds, xfile;
+var intHours, intMinutes, intSeconds;
+var today;
+today = new Date();
+intHours = today.getHours();
+intMinutes = today.getMinutes();
+intSeconds = today.getSeconds();
+if (intHours == 0) {
+hours = "12:";
+xfile = "AM ";
+} else if (intHours < 12) {
+hours = intHours+":";
+xfile = "AM ";
+} else if (intHours == 12) {
+hours = "12:";
+xfile = "PM ";
+} else {
+intHours = intHours - 12
+hours = intHours + ":";
+xfile = "PM ";
+}
+if (intMinutes < 10) {
+minutes = "0"+intMinutes+":";
+} else {
+minutes = intMinutes+":";
+}
+if (intSeconds < 10) {
+seconds = "0"+intSeconds+" ";
+} else {
+seconds = intSeconds+" ";
+}
+timeString = xfile+hours+minutes+seconds;
+Clock.innerHTML = timeString;
+window.setTimeout("tick();", 100);
+}
+window.onload = tick;
+</script>
+      <font id="Clock" align="center" style="font-size: 12; color:#006699">&nbsp;</font> 
+    </td>
+	<td width="10"><img src="blank.gif" width="1" height="1"></td>
+    <td align="left" valign="middle" class="aq"> <div align="left">
+        <script language="JavaScript">
+<!--
+var mess1="";
+var mess2=""
+document.write("<left><font color='#006699'>")
+day = new Date();
+hr = day.getHours();
+mt = day.getMinutes();
+if (( hr >= 0 && mt < 30 ))
+mess1="朋友，夜深了！还不休息？！明天不用上课或上班吗？"
+if (( hr >= 0 && mt >= 30 ))
+mess1="朋友，夜深了！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 1 && mt < 30 ))
+mess1="朋友，夜深了！还不休息？！明天不用上课或上班吗？"
+if (( hr >= 1 && mt >= 30 ))
+mess1="朋友，夜深了！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 2 && mt < 30 ))
+mess1="朋友，夜深了！还不休息？！明天不用上课或上班吗？"
+if (( hr >= 2 && mt >= 30 ))
+mess1="朋友，夜深了！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 3 && mt < 30 ))
+mess1="朋友，夜深了！还不休息？！明天不用上课或上班吗？"
+if (( hr >= 3 && mt >= 30 ))
+mess1="朋友，夜深了！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 4 && mt < 30 ))
+mess1="朋友，凌晨了！一觉醒来，看看窗外的天——嗯，还可以再睡一会儿！"
+if (( hr >= 4 && mt >= 30 ))
+mess1="朋友，凌晨了！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 5 && mt < 30 ))
+mess1="朋友，凌晨了！一觉醒来，看看窗外的天——嗯，还可以再睡一会儿！"
+if (( hr >= 5 && mt >= 30 ))
+mess1="朋友，凌晨了！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 6 && mt < 30 ))
+mess1="朋友，早晨好！一觉醒来，看看窗外的天——嗯，还可以再睡一会儿！"
+if (( hr >= 6 && mt >= 30 ))
+mess1="朋友，早晨好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 7 && mt < 30 ))
+mess1="朋友，早晨好！小鸟把你从睡梦中叫醒。呼吸着新鲜的空气——新的一天开始了！"
+if (( hr >= 7 && mt >= 30 ))
+mess1="朋友，早晨好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 8 && mt < 30 ))
+mess1="朋友，上午好！小鸟把你从睡梦中叫醒。呼吸着新鲜的空气——新的一天开始了！"
+if (( hr >= 8 && mt >= 30 ))
+mess1="朋友，上午好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 9 && mt < 30 ))
+mess1="朋友，上午好！今天有什么灵感吗？开始闯荡E线吧 ：P"
+if (( hr >= 9 && mt >= 30 ))
+mess1="朋友，上午好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 10 && mt < 30 ))
+mess1="朋友，上午好！今天有什么灵感吗？开始闯荡E线吧 ：P"
+if (( hr >= 10 && mt >= 30 ))
+mess1="朋友，上午好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 11 && mt < 30 ))
+mess1="朋友，上午好！今天有什么灵感吗？开始闯荡E线吧 ：P"
+if (( hr >= 11 && mt >= 30 ))
+mess1="朋友，上午好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 12 && mt < 30 ))
+mess1="朋友，中午好！好困哟，可又不敢睡，下午还要工作呢。哎~"
+if (( hr >= 12 && mt >= 30 ))
+mess1="朋友，中午好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 13 && mt < 30 ))
+mess1="朋友，中午好！好困哟，可又不敢睡，下午还要工作呢。哎~"
+if (( hr >= 13 && mt >= 30 ))
+mess1="朋友，中午好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 14 && mt < 30 ))
+mess1="朋友，下午好！敲几下键盘，打上N个你好，是否在聊天、灌水？~~"
+if (( hr >= 14 && mt >= 30 ))
+mess1="朋友，下午好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 15 && mt < 30 ))
+mess1="朋友，下午好！敲几下键盘，打上N个你好，是否在聊天、灌水？~~"
+if (( hr >= 15 && mt >= 30 ))
+mess1="朋友，下午好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 16 && mt < 30 ))
+mess1="朋友，下午好！敲几下键盘，打上N个你好，是否在聊天、灌水？~~"
+if (( hr >= 16 && mt >= 30 ))
+mess1="朋友，下午好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 17 && mt < 30 ))
+mess1="朋友，下午好！敲几下键盘，打上N个你好，是否在聊天、灌水？~~"
+if (( hr >= 17 && mt >= 30 ))
+mess1="朋友，下午好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 18 && mt < 30 ))
+mess1="朋友，傍晚好！现在总算可以歇歇了，好好的与朋友在E线相聚，好惬意哟！"
+if (( hr >= 18 && mt >= 30 ))
+mess1="朋友，傍晚好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 19 && mt < 30 ))
+mess1="朋友，晚上好！现在总算可以歇歇了，好好的与朋友在E线相聚，好惬意哟！"
+if (( hr >= 19 && mt >= 30 ))
+mess1="朋友，晚上好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 20 && mt < 30 ))
+mess1="朋友，晚上好！现在是上网好时光哦，跟朋友聊聊天、叙叙旧吧！"
+if (( hr >= 20 && mt >= 30 ))
+mess1="朋友，晚上好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 21 && mt < 30 ))
+mess1="朋友，晚上好！现在是上网好时光哦，跟朋友聊聊天、叙叙旧吧！"
+if (( hr >= 21 && mt >= 30 ))
+mess1="朋友，晚上好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 22 && mt < 30 ))
+mess1="朋友，晚上好！现在是上网好时光哦，跟朋友聊聊天、叙叙旧吧！"
+if (( hr >= 22 && mt >= 30 ))
+mess1="朋友，晚上好！现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+if (( hr >= 23 && mt < 30 ))
+mess1="朋友，晚上好！辛勤了一天的你可要睡个好觉了！说不定今晚能做个好梦呢！"
+if (( hr >= 23 && mt >= 30 ))
+mess1="朋友，晚上好，现在是PK（比武）时间，你可以尽情PK，但别伤和气哦^_^"
+document.write("<blink>")
+document.write(mess1)
+document.write("</blink>")
+document.write(mess2)
+document.write("</b></i></font></center>")
+//--->
+</script>
+      </div></td>
+  </tr>
+</table>
+<table width="100%" height="1" border="0" cellpadding="0" cellspacing="0" bgcolor="#000000">
+  <tr>
+    <td><img src="blank.gif" width="1" height="1"></td>
+  </tr>
+</table>
+</body>
+</html>

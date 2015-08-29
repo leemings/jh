@@ -1,0 +1,89 @@
+BODY {
+FONT-SIZE: 12px;
+CURSOR: url('images/mouse.ani');
+scrollbar-face-color:#ededed; 
+scrollbar-shadow-color:#cccccc; 
+scrollbar-highlight-color:#efefef;
+scrollbar-3dlight-color:#ededed;
+scrollbar-darkshadow-color:#ededed;
+scrollbar-track-color:#ffffff;
+scrollbar-arrow-color:#0993f4;
+}
+TD {
+	FONT-SIZE: 12px
+}
+.line {
+	FONT-SIZE: 12px; LINE-HEIGHT: 15pt
+}
+A:link {
+	FILTER: dropshadow(color=E0F2FC, offx=1, offy=1,position=true); COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: red; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: none
+}
+A.MenuLink:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.MenuLink:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.MenuLink:active {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.MenuLink:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.FootLink:link {
+	COLOR: #1170ff; TEXT-DECORATION: none
+}
+A.FootLink:visited {
+	COLOR: #1170ff; TEXT-DECORATION: none
+}
+A.FootLink:active {
+	COLOR: #f75b09; TEXT-DECORATION: underline
+}
+A.FootLink:hover {
+	COLOR: #f75b09; TEXT-DECORATION: underline
+}
+A.MainMenu:link {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.MainMenu:visited {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.MainMenu:active {
+	COLOR: #9096d0; TEXT-DECORATION: none
+}
+A.MainMenu:hover {
+	COLOR: #9096d0; TEXT-DECORATION: none
+}
+.input {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #737270 1px solid; FONT-SIZE: 9px; BORDER-LEFT: #737270 1px solid; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: "Verdana", "Arial", "ËÎÌו"; HEIGHT: 16px
+}
+.fontshadow {
+	FILTER: dropshadow(color=E0F2FC, offx=1, offy=1);
+	WIDTH: 100%;
+	POSITION: relative;
+	left: 5px;
+	top: 1px;
+
+
+}
+.link-top {
+	COLOR: #ff0000
+}
+A.hover {
+	COLOR: #009ace; TEXT-DECORATION: underline
+}
+.9font {
+	FONT-SIZE: 9pt
+}
+.logo {
+	BORDER-LEFT-COLOR: #f27c14; BORDER-BOTTOM-COLOR: #f27c14; BORDER-TOP-COLOR: #f27c14; BORDER-RIGHT-COLOR: #f27c14
+}

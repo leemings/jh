@@ -1,0 +1,113 @@
+<html>
+
+<head><script Language="JavaScript">
+function processForm(form){
+var xf=0;
+if (form.c1[0].checked==1) xf+=3;
+if (form.c1[1].checked==1) xf+=2;
+if (form.c1[2].checked==1) xf+=1;
+if (form.c2[0].checked==1) xf+=3;
+if (form.c2[1].checked==1) xf+=2;
+if (form.c2[2].checked==1) xf+=1;
+if (form.c3[0].checked==1) xf+=3;
+if (form.c3[1].checked==1) xf+=2;
+if (form.c3[2].checked==1) xf+=1;
+if (form.c4[0].checked==1) xf+=3;
+if (form.c4[1].checked==1) xf+=2;
+if (form.c4[2].checked==1) xf+=1;
+if (form.c5[0].checked==1) xf+=3;
+if (form.c5[1].checked==1) xf+=2;
+if (form.c5[2].checked==1) xf+=1;
+if (form.c6[0].checked==1) xf+=3;
+if (form.c6[1].checked==1) xf+=2;
+if (form.c6[2].checked==1) xf+=1;
+if (form.c7[0].checked==1) xf+=3;
+if (form.c7[1].checked==1) xf+=2;
+if (form.c7[2].checked==1) xf+=1;
+if (form.c8[0].checked==1) xf+=3;
+if (form.c8[1].checked==1) xf+=2;
+if (form.c8[2].checked==1) xf+=1;
+if (form.c9[0].checked==1) xf+=3;
+if (form.c9[1].checked==1) xf+=2;
+if (form.c9[2].checked==1) xf+=1;
+if (form.c10[0].checked==1) xf+=3;
+if (form.c10[1].checked==1) xf+=2;
+if (form.c10[2].checked==1) xf+=1;
+if (xf>23) form.answer.value="你的理财EQ相当高，对投资的资讯掌握度很高，而且不容易受市场左右。这样的人在市场反转向下的时候，往往能全身而退。唯一需要注意的是资金的调配。应可多尝试跨国性投资，以分散风险，追求更高的获利增长。";
+if (xf>15 && xf<24) form.answer.value="你的理财EQ中等。社会上大多数人都属于这种类型。平常非常了解理财投资的重要性，但对自己的判断力没有信心。有时运气好尝到甜头，但缺乏全盘性的规划，到头来恐怕也没赚到多少。建议最好做中长期投资，以避免情绪受到市场波动的影响，追高杀低。";
+if (xf>0 && xf<16) form.answer.value="你的理财EQ恐怕低于你的IQ，非常极端。你可能是说得一口股票经，却不敢行动的保守投资人，或者你可能是在市场追高杀低的大散户，投资时任何利空消息对你都会产生效果。建议这类投资人，将大部分资金交给专家管理，保留一小部分资金，继续享受追逐市场的操作乐趣。";
+}</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+td {font-family: "宋体"; font-size: 9pt; color: #0076ae;}
+a:link {color:#005570;text-decoration: none}
+a:visited {color:#005570;text-decoration: none}
+a:hover {color:#005570;text-decoration: underline;}
+-->
+</style>
+<title>成功自测:你是理性投资者吗？</title>
+</head>
+
+<body bgcolor="ffffe1" text="#0076AE">
+
+<form name="see">
+  <div align="left"><table border="0" cellpadding="10" cellspacing="0" width="586"
+  height="1" bgcolor="ffffe1">
+    <tr align="center">
+      <td height="49" align="center"><div align="left"><p><span
+      style="font-size: 9pt; line-height: 20px">你的投资行为模式，是属于“高EQ型”、“随波逐流”型，还是“极端型”？以下问题，就是测试投资人的“理财EQ”。请选择：</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">1、我喜欢刺激的休闲活动，例如高空弹跳、激流泛舟。<br>
+      <input name="c1" type="radio" value="12">完全一样。　　<input name="c1"
+      type="radio" value="32">有些一样。　　<input name="c1" type="radio" value="33">完全不同。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">2、好朋友急于向我借钱，基于深厚的交情，我一定会设法帮助他。<br>
+      <input name="c2" type="radio" value="1">完全一样。　　<input name="c2" type="radio"
+      value="2">有些一样。　　<input name="c2" type="radio" value="3">完全不同。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">3、虽然我对股市不是很熟悉，但是有可靠消息透露某只股票即将有主力介入炒作，我会考虑投入全部存款购买。 
+      <br>
+      <input name="c3" type="radio" value="1">完全一样。　　<input name="c3" type="radio"
+      value="2">有些一样。　　<input name="c3" type="radio" value="3">完全不同。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">4、我喜欢运用不同的理财工具，例如股票，基金或是期货来投资。当行情看涨时，我也会利用借款来扩张我的额度。 
+      <br>
+      <input name="c4" type="radio" value="1">完全一样。　　<input name="c4" type="radio"
+      value="2">有些一样。　　<input name="c4" type="radio" value="3">完全不同。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">5、拥有移动电话、BP机、家用电脑、空气清净机、健康俱乐部会员中的任何两项。<br>
+      <input name="c5" type="radio" value="1">完全一样。　　<input name="c5" type="radio"
+      value="2">有些一样。　　<input name="c5" type="radio" value="3">完全不同。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">6、我对于参加投资说明会，意愿颇高。<br>
+      <input name="c6" type="radio" value="1">完全一样。　　<input name="c6" type="radio"
+      value="2">有些一样。　　<input name="c6" type="radio" value="3">完全不同。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">7、某天在公共电话亭打电话，赫然发现地上一个信封袋，一打开，里面有一万元，我会马上装起来。<br>
+      <input name="c7" type="radio" value="1">完全一样。　　<input name="c7" type="radio"
+      value="2">有些一样。　　<input name="c7" type="radio" value="3">完全不同。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">8、百货公司周年庆正举办消费满一万元，可参加捷达汽车抽奖，我一定会想办法凑到一万元的收据来参加抽奖。 
+      <br>
+      <input name="c8" type="radio" value="1">完全一样。　　<input name="c8" type="radio"
+      value="2">有些一样。　　<input name="c8" type="radio" value="3">完全不同。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">9、有关部门将要推行某项政策，与我自身利益相冲突，我一定会合法地表达我的不满。<br>
+      <input name="c9" type="radio" value="1">完全一样。　　<input name="c9" type="radio"
+      value="2">有些一样。　　<input name="c9" type="radio" value="3">完全不同。</span></p>
+      </div><div align="left"><p><span style="font-size: 9pt; line-height: 20px">10、当了多年上班族，几位高中同学决定要自己创业，开发一项颇具潜力的产品，虽然要两年后才能看出成果，我仍然看好他们，同时很愿意入股。 
+      <br>
+      <input name="c10" type="radio" value="1">完全一样。　　<input name="c10"
+      type="radio" value="2">有些一样。　　<input name="c10" type="radio" value="3">完全不同。</span></p>
+      </div><div align="center"><center><p><input type="button"
+      value="都选择完了，结果怎样?" onClick="processForm(this.form)"
+      style="font-size: 9pt; font-family: 宋体">　　<input type="reset" value="重新选！"
+      onClick="processForm(this.form)" style="font-size: 9pt; font-family: 宋体"><br>
+      <textarea rows="5" name="answer" cols="48" wrap="virtual"
+      style="font-family: 宋体; font-size: 9pt; line-height: 15px; color: rgb(255,0,0)"></textarea></td>
+    </tr>
+  </table>
+  </div>
+</form>
+</body>
+</html>
+ 15px; color: rgb(255,0,0)"></textarea></td>
+    </tr>
+  </table>
+  </div>
+</form>
+</body>
+</html>

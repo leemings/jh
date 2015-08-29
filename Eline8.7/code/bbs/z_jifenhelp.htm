@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>积分帮助</title>
+<style type="text/css">
+BODY{FONT-FAMILY: "宋体"; FONT-SIZE: 12px;}
+td, p, div, br{FONT-FAMILY: "宋体"; FONT-SIZE: 12px;Color:<%=TableContentColor%>;}
+</style>
+
+</head>
+
+<body>
+<table width="100%" border="1" align="center" bordercolor="#0099FF">
+  <tr> 
+    <td align="center" bgcolor="#0099FF">
+<p><font color="#FF0000">积分帮助</font></p></td>
+  </tr>
+  <tr height="18">
+    <td align="center" bgcolor="#CAEAFF"><br>
+      <p>============= <font color="#0066FF">功能简介 </font>============= </p>
+      <p> 1. 根据用户在线时间计算财产值、经验 <br>
+        值、魅力值的增加值，加到相应属性项中<br>
+        2. 提供后台管理功能，管理方便&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <p>============= <font color="#0066FF">积分规则</font> ============= </p>
+      <p>
+        在线 T 分钟以上才可以保存积分 
+      <br>保存积分的时间间隔为 T 分钟
+      <br>系统不提供自动保存积分功能 
+      <br>积分保存后在线时间重零开始计算 </p>
+      <p>============= <font color="#0066FF">计算方法</font> =============</p>
+      <p> 算法一: 一般算法</p>
+      <p>财产值 = 在线时间 / W <br>
+        魅力值 = 在线时间 / C <br>
+        经验值 = 在线时间 / E </p>
+      <p> 算法二: 四舍五入算法</p>
+      <p>财产值 = (在线时间+5) / W <br>
+        魅力值 = (在线时间+5) / C <br>
+        经验值 = (在线时间+5) / E </p>
+      <p> 算法三: 四舍五入、最小值不小于1算法</p>
+      <p>财产值 = MAX（(在线时间+5) / W ，1）<br>
+        魅力值 = MAX（(在线时间+5) / C ，1）<br>
+        经验值 = MAX（(在线时间+5) / E ，1）</p>
+      <p>其中，T,W,C,E 由管理员在后台设定</p>
+      <hr size=1 color=gray width="95%">
+      <em><font color="#999999">E线论坛</font></em></td>
+  </tr>
+</table>
+</body>
+</html>

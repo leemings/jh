@@ -1,0 +1,97 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>E线江湖-在线游戏-51eline.com</title>
+<style type="text/css">
+td           { font-family: 宋体; font-size: 12px }
+body         { font-family: 宋体; font-size: 12px;
+scrollbar-track-color:#ffffff;
+SCROLLBAR-FACE-COLOR:#effaff;
+SCROLLBAR-HIGHLIGHT-COLOR:#ffffff;
+SCROLLBAR-SHADOW-COLOR:#eeeeee;
+SCROLLBAR-3DLIGHT-COLOR:#eeeeee;
+SCROLLBAR-ARROW-COLOR:#dddddd;
+SCROLLBAR-DARKSHADOW-COLOR:#ffffff}
+select       { font-family: 宋体; font-size: 12px }
+a            { color: #000000; font-family: 宋体; font-size: 12px; text-decoration: none }
+a:hover      { color: #ff00ff; font-family: 宋体; font-size: 12px; text-decoration: 
+               underline }
+</style>
+<base target="_blank">
+</head>
+
+<body bgcolor="#006699" leftmargin="0" topmargin="0">
+<div align="center">
+  <center>
+    <table border="1" width="140" cellspacing="0" cellpadding="0" bgcolor="#993300" height="16" align="center" bordercolorlight="#000000" bordercolordark="#FFFFFF">
+      <tr> 
+        <td width="100%" height="28"> <div align="center"><font color="#CCCCFF" size="2"><strong>在线小游戏</strong></font></div></td>
+      </tr>
+    </table>
+    <table border="1" cellspacing="0" width="140" bordercolorlight="#000000"
+bordercolordark="#FFFFFF" cellpadding="4" align="center">
+      <tr bgcolor="#83a8d5"> 
+        <td colspan="2" align="center"><a href="../200/index.asp" target="_blank"><font color="#0066CC" size="2"><strong>网络大富翁</strong></font></a></td>
+      </tr>
+      <%do while not rs.eof%>
+      <tr bgcolor="#83a8d5"> 
+        <td align="center" width="65"><b><a href="hrd/hrd.htm">华容道</a></b></td>
+        <td align="center" width="65"><b><a href="flash/slayer.swf">魔鬼园</a></b></td>
+      </tr>
+	  <tr bgcolor="#83a8d5"> 
+        <td align="center" width="65"><b><a href="flash/mines.swf">冒&nbsp;险</a></b></td>
+        <td align="center" width="65"><b><a href="flash/flashout.swf">弹子球</a></b></td>
+      </tr>
+	  <tr bgcolor="#83a8d5"> 
+        <td align="center" width="65"><b><a href="flash/SporeCubes.swf">新方块</a></b></td>
+        <td align="center" width="65"><b><a href="flash/Lawn_Pac.swf">除&nbsp;草</a></b></td>
+      </tr>
+	  <tr bgcolor="#83a8d5"> 
+        <td align="center" width="65"><b><a href="flash/dyno.swf">打泡泡</a></b></td>
+        <td align="center" width="65"><b><a href="flash/Mancala_Rocketsn.swf">抓蜗牛</a></b></td>
+      </tr>
+	  <tr bgcolor="#83a8d5"> 
+        <td align="center" width="65"><b><a href="flash/flashpoker.swf">梭&nbsp;哈</a></b></td>
+        <td align="center" width="65"><b><a href="flash/10pin[1].swf">保龄球</a></b></td>
+      </tr>
+	  <tr bgcolor="#83a8d5"> 
+        <td align="center" width="65"><b><a href=# target="_self" onclick="javascript:window.showModelessDialog('../../desktop/flash/flash14.htm','','dialogWidth:508px;dialogHeight:277px;scroll:0;status:0;edge:raised')">精灵鼠</a></b></td>
+        <td align="center" width="65"><b><a href="flash/Flashbox.swf">方&nbsp;块</a></b></td>
+      </tr>
+	  <tr bgcolor="#83a8d5"> 
+        <td align="center" width="65"><b><a href="flash/Coccinel.swf">打瓢虫</a></b></td>
+        <td align="center" width="65"><b><a href="flash/pyramid.swf">移&nbsp;墓</a></b></td>
+      </tr>
+	  <tr bgcolor="#83a8d5"> 
+        <td align="center" width="65"><b><a href="flash/Panic_Pipes.swf">接水管</a></b></td>
+        <td align="center" width="65"><b><a href="flash/3dcrates[1].swf">推箱子</a></b></td>
+      </tr>
+	  <tr bgcolor="#83a8d5"> 
+        <td align="center" width="65"><b><a href="flash/boardn.swf">滑板赛</a></b></td>
+        <td align="center" width="65"><b><a href="flash/rubikscube.swf">魔&nbsp;方</a></b></td>
+      </tr>
+	  <tr bgcolor="#83a8d5"> 
+        <td align="center" width="65"><b><a href="flash/bp2.swf">炸弹人</a></b></td>
+        <td align="center" width="65"><b><a href=# target="_self" onclick="javascript:window.showModelessDialog('../../desktop/flash/flash12.htm','','dialogWidth:808px;dialogHeight:627px;scroll:0;status:0;edge:raised')"><font color="#FF0000">台&nbsp;球</font></a></b></td>
+      </tr>
+      <%
+rs.movenext
+filename=filename+1
+if filename>19 then Exit Do
+loop
+end if
+rs.Close
+set rs=nothing
+conn.close
+set conn=nothing
+%>
+    </table>
+  </center>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>我的状态</title>
+<style type=text/css>
+<!--
+td{font-size:9pt;}
+a:link {color:#ffCC00;}
+a:visited {color:0000ff;}
+a:hover{color:#FF9900;; cursor: hand}
+.hand{background-color:rgb(208,207,192);cursor:hand;}
+-->
+</style>
+</head>
+
+<body>
+<table width="160" height="317" border="0" cellpadding="0" cellspacing="0">
+    <tr> 
+      <td height="16" colspan="3" align="right" valign="middle" background="images/head.gif"> 
+        <div align="right"><a href="#" onClick="MM_showHideLayers('Layer1','','hide')"><img src="IMAGES/guanbi.gif" width="16" height="14" border="0"></a><img src="IMAGES/blank.gif" width="1" height="1"></div></td>
+    </tr>
+    <tr> 
+      <td width="1" bgcolor="#666699"><img src="IMAGES/blank.gif" width="1" height="1"></td>
+      <td width="158" align="left" valign="top">
+	  <table width="160" height="317" border="0" cellpadding="0" cellspacing="0" background="images/bg.gif">
+          <TD COLSPAN=5 ROWSPAN=3 valign="top"> 
+      <%Set conn=Server.CreateObject("ADODB.CONNECTION")
+Set rs=Server.CreateObject("ADODB.RecordSet")
+conn.open Application("sjjh_usermdb")
+rs.open "Select * from 用户 where 姓名='" & sjjh_name &"'",conn,3,3
+wgj=rs("武功加")
+nlj=rs("内力加")
+tlj=rs("体力加")
+%><br>
+      &nbsp;&nbsp;姓名:<%=rs("姓名")%><br>              
+      &nbsp;&nbsp;性别:<%=rs("性别")%><br>              
+      &nbsp;&nbsp;配偶:<%=rs("配偶")%><br>              
+      &nbsp;&nbsp;情人:<%=rs("情人")%><br>              
+      &nbsp;&nbsp;职业:<%=rs("职业")%> <br>              
+      &nbsp;&nbsp;门派:<%=rs("门派")%><br>              
+      &nbsp;&nbsp;身份:<%=rs("身份")%><br>
+      &nbsp;&nbsp;等级:<%=rs("等级")%>级<br>              
+      &nbsp;&nbsp;管理:<%=rs("grade")%>级 <br>              
+      &nbsp;&nbsp;金卡:<%=rs("会员金卡")%>元<br>              
+      &nbsp;&nbsp;金币:<%=rs("金币")%>个<br>              
+      &nbsp;&nbsp;银两:<%=rs("银两")%>两<br>              
+      &nbsp;&nbsp;存款:<%=rs("存款")%>两 <br>              
+      &nbsp;&nbsp;攻击:<%=rs("攻击")%><br>              
+      &nbsp;&nbsp;防御:<%=rs("防御")%><br>              
+      &nbsp;&nbsp;道德:<%=rs("道德")%><br>              
+      &nbsp;&nbsp;魅力:<%=rs("魅力")%><br>              
+      &nbsp;&nbsp;总杀人:<%=rs("总杀人")%>个<br>              
+      &nbsp;&nbsp;体力:               
+      <%if int((rs("体力")/(rs("等级")*sjjh_tlsx+5260+tlj))*100)<100 then              
+abc=int(int((rs("体力")/(rs("等级")*sjjh_tlsx+5260+tlj))*100)/100)+1              
+fi="chat/img/"&abc&".gif"%>              
+      <img height=12 src="<%=fi%>" width=<%=int((rs("体力")/(rs("等级")*sjjh_tlsx+5260+tlj))*100)%>  title="<%=rs("体力")%><%if sjjh_sx=1 then%>/<%=rs("等级")*sjjh_tlsx+5260+tlj%><%end if%>"><img height=12 src="chat/img/5.gif" width=<%=100-int((rs("体力")/(rs("等级")*sjjh_tlsx+5260+tlj))*100)%> title="<%=rs("体力")%><%if sjjh_sx=1 then%>/<%=rs("等级")*sjjh_tlsx+5260+tlj%><%end if%>">               
+      <%else%>              
+      <img height=12 src="chat/img/4.gif" width=100 title="<%=rs("体力")%><%if sjjh_sx=1 then%>/<%=rs("等级")*sjjh_tlsx+5260+tlj%><%end if%>">               
+      <%end if%>              
+      <br>
+	  &nbsp;&nbsp;内力:               
+      <%if int((rs("内力")/(rs("等级")*sjjh_nlsx+2000+tlj))*100)<100 then             
+abc=int(int((rs("内力")/(rs("等级")*sjjh_nlsx+2000+tlj))*100)/100)+1               
+fi="chat/img/"&abc&".gif"%>              
+      <img height=12 src="<%=fi%>" width=<%=int((rs("内力")/(rs("等级")*sjjh_nlsx+2000+tlj))*100)%> title="<%=rs("内力")%><%if sjjh_sx=1 then%>/<%=rs("等级")*sjjh_nlsx+2000+tlj%><%end if%>"><img height=12 src="chat/img/5.gif" width=<%=100-int((rs("内力")/(rs("等级")*sjjh_nlsx+2000+tlj))*100)%> title="<%=rs("内力")%><%if sjjh_sx=1 then%>/<%=rs("等级")*sjjh_nlsx+2000+tlj%><%end if%>">               
+      <%else%>              
+      <img height=12 src="chat/img/4.gif" width=100 title="<%=rs("内力")%><%if sjjh_sx=1 then%>/<%=rs("等级")*sjjh_nlsx+2000+tlj%><%end if%>">               
+      <%end if%>              
+      <br>
+	  &nbsp;&nbsp;武功:               
+      <%if int((rs("武功")/(rs("等级")*sjjh_wgsx+3800+tlj))*100)<100 then               
+abc=int(int((rs("武功")/(rs("等级")*sjjh_wgsx+3800+tlj))*100)/100)+1               
+fi="chat/img/"&abc&".gif"%>              
+      <img height=12 src="<%=fi%>" width=<%=int((rs("武功")/(rs("等级")*sjjh_wgsx+3800+tlj))*100)%> title="<%=rs("武功")%><%if sjjh_sx=1 then%>/<%=rs("等级")*sjjh_wgsx+3800+tlj%><%end if%>"><img height=12 src="chat/img/5.gif" width=<%=100-int((rs("武功")/(rs("等级")*sjjh_wgsx+3800+tlj))*100)%> title="<%=rs("武功")%><%if sjjh_sx=1 then%>/<%=rs("等级")*sjjh_wgsx+3800+tlj%><%end if%>">               
+      <%else%>              
+      <img height=12 src="chat/img/4.gif" width=100 title="<%=rs("武功")%><%if sjjh_sx=1 then%>/<%=rs("等级")*sjjh_wgsx+3800+tlj%><%end if%>">               
+      &nbsp; 
+      <p align="center">
+    <%end if%></table>
+	  </td>
+      <td width="1" bgcolor="#666699"><img src="IMAGES/blank.gif" width="1" height="1"></td>
+    </tr>
+    <tr bgcolor="#666699"> 
+      <td height="1" colspan="3"><img src="IMAGES/blank.gif" width="1" height="1"></td>
+    </tr>
+  </table>
+</body>
+</html>

@@ -1,0 +1,9 @@
+TD {
+	FONT-SIZE: 12px; COLOR: #2d2d2d; LINE-HEIGHT: 20px
+}
+A {
+	FONT-SIZE: 12px; COLOR: #006600; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}

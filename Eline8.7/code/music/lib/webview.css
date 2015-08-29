@@ -1,0 +1,47 @@
+body		{
+		font-size: 75%;  
+		font-family: ËÎÌו; 
+                }
+ td{ 		font-size:9pt;         
+      	  } 
+ p{ 
+		font-size:9pt;
+      	  }
+ li{ 
+		font-size:9pt;
+      	  }
+BigFont{
+                font-size:11pt;
+}
+textarea
+     {
+     font-size:9pt;
+     background-color: white;
+     color: rgb(0,0,0) ;
+     }
+.txtinput
+     {   
+    border:1px solid #9a9999; font-size:12px; background-color:#f8f8f8
+     }
+a:link {color: #ffffff; text-decoration: none}
+a:visited {color: #ffffff;text-decoration:none}
+a:hover {text-decoration:underline}
+
+.zt1 {  filter: Shadow(Color=7ba2e7, Direction=135)}
+.zt {  filter: Shadow(Color=999999, Direction=135)}.hang {  line-height: 18px; color: #FFFFFF; font-style: normal}
+.tie {
+	font-style: normal;
+	line-height: 18px;
+	color: #5f5f5f;
+
+}
+img {border-color:#ffffff}
+.gx {
+	line-height: 15px;
+	color: #ff6c00;
+}
+.share {
+	color: #FFFFFF;
+}.top {
+	line-height: 18px;
+}

@@ -1,0 +1,18 @@
+<%
+	mailbody="<html>"
+	mailbody=mailbody & "<title>注册信息</title>"
+	mailbody=mailbody & "<body>"
+	mailbody=mailbody & "<TABLE border=0 width='95%' align=center><TBODY><TR>"
+	mailbody=mailbody & "<TD valign=middle align=top>"
+	mailbody=mailbody & htmlencode(username)&"，您好：<br><br>"
+	mailbody=mailbody & "欢迎您注册本论坛，我们将提供给您最好的论坛服务！<br>"
+	mailbody=mailbody & "下面是您的注册信息：<br>"
+	mailbody=mailbody & "注册名："&htmlencode(username)&"<br>"
+	mailbody=mailbody & "密  码："&getpass&"<br>"
+	mailbody=mailbody & "<br><br>"
+	mailbody=mailbody & "<center><font color=red>再次感谢您注册本系统，让我们一起来建设这个网上家园！</font>"
+	mailbody=mailbody & "</TD></TR></TBODY></TABLE><br><hr width=95% size=1>"
+	mailbody=mailbody & "<p align=center>" & Copyright & " &nbsp;&nbsp; " & Version & "</p>"
+	mailbody=mailbody & "</body>"
+	mailbody=mailbody & "</html>"
+%>

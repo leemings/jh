@@ -1,0 +1,271 @@
+<METHOD   NAME="ShowIMG3"/>
+<ATTACH   EVENT="ondocumentready" HANDLER="ShowIMG3"/>
+
+<script language="jscript">
+function ShowIMG3()
+{
+
+	var w=visualwidth;
+	var h=visualheight;
+	
+	var s="";
+	var x=visualtop;
+    var xx=-x;
+	var y=0;
+    var yy=-2;
+    var itemnos = visual;
+	var showArray = itemnos.split('|');
+	if(!itemnos || itemnos == '' || itemnos.indexOf('|') < 0) {
+			s+="<DIV style='padding:0;position:relative;top:"+y+";left:"+x+";width:"+w+";height:"+h+"'>";	s+="<DIV style='padding:0;position:absolute;top:"+yy+";left:"+y+";width:"+w+";height:"+h+";display:inline;z-index:40;'>";
+                        s+=username+"<tr><td align=center><br><br><FONT color=white><b>没有<br>形象</b><font></td></tr></table></DIV>"
+
+			//50	
+			s+="<IMG src";
+			s+="="+baseName+" style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:inline;z-index:50;'>";
+			s+="</DIV>";
+			element.innerHTML=s;
+	} else {
+		var ret = CheckIllegal(showArray);
+		if(ret != 0) {
+			s+="<DIV style='padding:0;position:relative;top:"+y+";left:"+x+";width:"+w+";height:"+h+"'>";	s+="<DIV style='padding:0;position:absolute;top:"+yy+";left:"+y+";width:"+w+";height:"+h+";display:inline;z-index:40;'>";
+                        s+=username+"<tr><td align=center><br><br><FONT color=white><b>形象<br>不全</b><font></td></tr></table></DIV>"
+
+			//50	
+			s+="<IMG src";
+			s+="="+baseName+" style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:inline;z-index:50;'>";
+			s+="</DIV>";
+			element.innerHTML=s;
+		} else {
+			s+="<DIV style='padding:0;position:relative;top:"+y+";left:"+x+";width:"+w+";height:"+h+"'>";		
+			//1	背景1
+			s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+xx+";width:"+w+";height:"+h+";display:none;z-index:1;'>";
+			//2	背景2
+			s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+xx+";width:"+w+";height:"+h+";display:none;z-index:2;'>";
+			//3	右身后
+			s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+xx+";width:"+w+";height:"+h+";display:none;z-index:3;'>";
+			//4	左身后
+			s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+xx+";width:"+w+";height:"+h+";display:none;z-index:4;'>";
+			//5	后背
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:5;'>";
+			//6	后帽子
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:6;'>";
+			//7	※后头发
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:7;'>";
+			//8	※下身
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:8;'>";
+			//9	※上身
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:9;'>";
+			//10	项饰
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:10;'>";
+			//11	※脸型
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:11;'>";
+			//12	脸纹
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:12;'>";
+			//13	※口鼻
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:13;'>";
+			//14	※眼眉
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:14;'>";
+			//15	耳饰
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:15;'>";
+			//16	胡子
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:16;'>";
+			//17	面纱
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:17;'>";
+			//18	※前头发
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:18;'>";
+			//19	耳罩
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:19;'>";
+			//20	发饰
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:20;'>";
+			//21	眼镜
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:none;z-index:21;'>";
+			//22	右身前
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+xx+";width:"+w+";height:"+h+";display:none;z-index:22;'>";
+			//23	左身前
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+xx+";width:"+w+";height:"+h+";display:none;z-index:23;'>";
+			//24	前景1
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+xx+";width:"+w+";height:"+h+";display:none;z-index:24;'>";
+			//25	前景2
+			//s+="<IMG style='padding:0;position:absolute;top:"+y+";left:"+xx+";width:"+w+";height:"+h+";display:none;z-index:25;'>";
+			//40	
+			s+="<DIV style='padding:0;position:absolute;top:"+yy+";left:"+y+";width:"+w+";height:"+h+";display:inline;z-index:40;'>";
+                        s+=username+"</table></DIV>"
+
+			//50	
+			s+="<IMG src";
+			s+="="+baseName+" style='padding:0;position:absolute;top:"+y+";left:"+y+";width:"+w+";height:"+h+";display:inline;z-index:50;'>";
+			s+="</DIV>";
+			element.innerHTML=s;
+                        InitShow(showArray);
+            
+		}
+	}
+}
+
+function InitShow(showArray,lshow,hshow)
+{
+	var t, j, x;
+	for (var i=0; i<4; i++)
+	{
+		if(showArray[i] != '')
+		{
+			j = i + 1;
+			if(showArray[i].indexOf('.')<0)
+				TakeLayerIMG(j, showArray[i]);
+			else
+				TakeLayerIMG(j, (showArray[i].split('.'))[0]);
+		}
+	}
+	return 0;
+}
+
+function GetPart(layerno)
+{
+	t=element.children[0].children[layerno-1];
+	return t;
+
+}
+
+function TakeLayerIMG(nType,itemNo)	
+{
+	var t;
+		
+	t = GetPart(nType);
+	if(itemNo == -1)
+	{
+		t.style.display	= "none";
+		t.preFileNo = '';
+		t.src = '';
+	}
+	else
+	{
+		var fileN = GetFileName(nType, itemNo);
+		t.preFileNo = itemNo + '.' + nType;
+	
+		t.src = fileN;
+		t.style.display	= "inline";
+	}
+}
+
+function GetGenderItemNo(nType)
+{
+	var itemNo;
+	if(usergender == '1')			
+	{
+		switch(nType)
+		{
+			case '7':
+				itemNo = 14;
+				break;
+			case '8':
+				itemNo = 13;
+				break;
+			case '9':
+				itemNo = 12;
+				break;
+			case '11':
+				itemNo = 11;
+				break;
+			case '13':
+				itemNo = 10;
+				break;
+			case '14':
+				itemNo = 9;
+				break;
+			case '18':
+				itemNo = 8;
+				break;
+			default:
+				return -1;
+		}
+	}
+	else
+	{
+		switch(nType)
+		{
+			case '7':
+				itemNo = 7;
+				break;
+			case '8':
+				itemNo = 6;
+				break;
+			case '9':
+				itemNo = 5;
+				break;
+			case '11':
+				itemNo = 4;
+				break;
+			case '13':
+				itemNo = 3;
+				break;
+			case '14':
+				itemNo = 2;
+				break;
+			case '18':
+				itemNo = 1;
+				break;
+			default:
+				return -1;
+		}
+	}
+	return itemNo;
+}
+
+function CheckIllegal(showArray)
+{
+	if(showArray[6] == '') showArray[6] = GetGenderItemNo(7);
+	if(showArray[7] == '') showArray[7] = GetGenderItemNo(8);
+	if(showArray[8] == '') showArray[8] = GetGenderItemNo(9);
+	if(showArray[10] == '') showArray[10] = GetGenderItemNo(11);
+	if(showArray[12] == '') showArray[12] = GetGenderItemNo(13);
+	if(showArray[13] == '') showArray[13] = GetGenderItemNo(14);
+	if(showArray[17] == '') showArray[17] = GetGenderItemNo(18);
+	
+	if(showArray[7].indexOf('.') < 0)
+		var item7=showArray[7];
+	else
+		var item7=(showArray[7].split('.'))[0];
+	if(showArray[8].indexOf('.') < 0)
+		var item8=showArray[8];
+	else
+		var item8=(showArray[8].split('.'))[0];
+	
+	if(eval(item7) > 20 && eval(item8) > 20)
+		return 0;
+	else
+		return -1;
+}
+
+function GetFileNo(itemno, layerno)
+{		
+	var fileNo;
+	var nPos=layerno.indexOf('_');
+	if(nPos<0) //如果是单件
+	{
+		fileNo = itemno + "_" + layerno;
+		return(fileNo);
+	}
+	else
+	{
+		var layerNoArray = layerno.split('_');
+		var layerNoArrayLen = layerNoArray.length;
+		for(var i=0; i<layerNoArray; i++)
+		{
+			fileNo[i] = layerNoArray[i] + "";
+
+		}
+	}
+}
+
+function GetFileName(nType, itemNo)
+{
+	var fileN;
+	if(localpic!=0){
+		var itemN = ("0000" + itemNo);
+		itemN = itemN.substring(itemN.length-4,itemN.length);
+		fileN = ImagePath + nType + "/" + itemN + ".GIF";
+	}
+	else fileN = ImagePath + itemNo + "/" + nType + "/00/";
+	return fileN;
+}
+</script>
