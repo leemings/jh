@@ -21,7 +21,7 @@ randomize timer
 regjm=int(rnd*8998)+1000
 %>
 <head>
-<title><%=Application("Ba_jxqy_systemname")%></title>
+<title><%=Application("sjjh_chatroomname")%></title>
 <LINK href="style.css" rel=stylesheet>
 <script language=javascript>
 
@@ -84,13 +84,14 @@ else {return true;}
         </td> 
           
       </tr> 
-       <tr ><td width="595" align="center" colspan="2">&nbsp;<input onClick="javascript:window.open('regstep1.asp','register','left=200,top=100,width=500,height=360,status=no,toolbars=no,menubars=no,scrollbars=no,resize=no')" title=注册帐号 type=button value="注  册" name="button"> 
-          <input onClick="javascript:window.open('relive.asp','relive',' width=300,height=210,left=200,top=100,status=no,toolbars=no,menubars=no,scrollbars=no,resize=no')" title=帐号复活 type=button value="复  活" name="button">     
-          <input onClick="javascript:window.open('suicide.asp','suicide',' width=300,height=350,left=200,top=100,status=no,toolbars=no,menubars=no,scrollbars=no,resize=no')" title=自 杀 type=button value="自  杀" name="button">     
-          <input onClick="javascript:window.open('zj/help.asp','readme',' width=500,height=300,left=200,top=100,status=no,toolbars=yes,menubars=yes,scrollbars=yes,resize=no')" title=新手入门 type=button value="自 救" name="button">     
-          <input onClick="javascript:window.open('faq.htm','faq',' width=500,height=300,left=100,top=100,status=no,toolbars=yes,menubars=yes,scrollbars=yes,resize=no')" title=问题解答 type=button value="问题解答" name="button">     
-                    <input onClick="javascript:window.open('chgpw.asp','chgpassword',' width=300,height=300,left=200,top=100,status=no,toolbars=no,menubars=no,scrollbars=no,resize=no')" title=更改密码 type=button value="更改密码" name="button">     
-          <input onClick="javascript:window.open('chgdatu1.asp','chgdatum',' width=500,height=300,left=200,top=100,status=no,toolbars=no,menubars=no,scrollbars=no,resize=no')" title=资料更新 type=button value="资料更新" name="button">     
+       <tr ><td width="595" align="center" colspan="2">&nbsp;
+		  <input onClick="window.open('yamen/read.htm','','width=400,height=502,menubar=no,top=100,left=200')" title=注册帐号 type=button value="注  册" name="button"> 
+          <input onClick="window.open('yamen/disp.asp','casper','width=400,height=300,top=200,left=300')" title=帐号复活 type=button value="复  活" name="button">     
+		  <input onClick="window.open('yamen/baoshi.asp','baoshi','width=400,height=320,top=200,left=300')" title=保 释 type=button value="保  释" name="button">
+          <input onClick="window.open('yamen/getid.asp','','width=400,height=250,menubar=no,top=200,left=300')" title=取回ID type=button value="取回ID" name="button">
+          <input onClick="window.open('yamen/close.asp','close','width=400,height=320,top=200,left=300')" title=掉线自救 type=button value="掉线自救" name="button">
+          <input onClick="window.open('yamen/modify.asp','modify','width=400,height=350,top=200,left=300')" title=更改密码 type=button value="更改密码" name="button">     
+          <input onClick="window.open('yamen/jiejiu.asp','jiejiu','width=400,height=350,top=200,left=300')" title=睡眠自救 type=button value="睡眠自救" name="button">
         </td></tr>     
     </table>     
     　 
@@ -112,11 +113,11 @@ else {return true;}
         <td height="29">
 			<div class="text" style=" text-align:center;">
 				授权给：<font color="#993300">   
-			  <% response.write Application("Ba_jxqy_userright")%>
+			  <% =Application("sjjh_user")%>
 			  </font>开放时间：<font color="#993300">   
-			  <%=Application("Ba_jxqy_opendata")%></font> 
+			  <%=Application("sjjh_sn")%></font> 
 			  访问统计：<font color="#993300">  
-			  <%=Application("Ba_jxqy_visitor")%>
+			  <%=10240%>
 			  </font>会员功能：<font color="#993300">  
 			  <%if Application("Ba_jxqy_fellow")=true then%>
 			  开放

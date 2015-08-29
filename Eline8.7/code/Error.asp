@@ -451,7 +451,7 @@ Case "000"%>
     </td>
   </tr>
   <tr> 
-    <td colspan="2" align="center" valign="top" height="17"> <a href="http://www.51eline.com" onMouseOut=MM_swapImgRestore() onMouseOver="MM_swapImage('back','','jhimg/err_but2.gif',1)">
+    <td colspan="2" align="center" valign="top" height="17"> <a href="index.asp" onMouseOut=MM_swapImgRestore() onMouseOver="MM_swapImage('back','','jhimg/err_but2.gif',1)">
 <img border=0 height=20 name=back src="jhimg/err_but1.gif" width=73></a><br>
       <img height=5 src="jhimg/err_bot.gif" 
         width=400></td>
