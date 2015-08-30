@@ -45,7 +45,7 @@ if pgnum>0 then rs.AbsolutePage=page
 %>
 <html>
 <head>
-<title>会员在线申请♀wWw.51eline.com♀</title>
+<title>会员在线申请♀wWw.happyjh.com♀</title>
 <link rel="stylesheet" type="text/css" href="../style.css">
 <style>td           { font-size: 14; color: #000000 }
 </style>

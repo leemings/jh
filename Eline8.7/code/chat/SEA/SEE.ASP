@@ -16,7 +16,7 @@ set rs=conn.execute("select * from 航海物品 where 拥有者='"& name &"'")
 %>
 <html>
 <head>
-<title>商品一缆♀wWw.51eline.com♀</title>
+<title>商品一缆♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type="text/css">
 <!--
@@ -59,7 +59,7 @@ set conn=nothing
 </table>
 <table width="60%" border="0" cellspacing="0" cellpadding="0" align="center">
   <tr align="center"> 
-    <td height="32"><br>『E线江湖』<br>
+    <td height="32"><br>『快乐江湖』<br>
     </td>
   </tr>
 </table>

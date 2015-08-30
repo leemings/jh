@@ -1,7 +1,7 @@
 <%@ LANGUAGE=VBScript codepage ="936" %><html>
 <head>
 <META http-equiv='content-type' content='text/html; charset=gb2312'>
-<title>关闭窗口♀wWw.51eline.com♀</title>
+<title>关闭窗口♀wWw.happyjh.com♀</title>
 </head>
 <body oncontextmenu=self.event.returnValue=false bgcolor=FFFFFF>
 <script LANGUAGE="JavaScript">

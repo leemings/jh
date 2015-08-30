@@ -10,12 +10,12 @@ if sjjh_grade<>10 or instr(Application("sjjh_admin"),sjjh_name)=0  then Response
 %>
 <html>
 <head>
-<title>『E线江湖』管理员设置程序♀wWw.51eline.com♀</title>
+<title>『快乐江湖』管理员设置程序♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="../chat/READONLY/STYLE.CSS">
 </head>
 <body bgcolor="#FFFFFF" background="../jhimg/bk_hc3w.gif">
-<div align="center"><font size="+2" face="楷体_GB2312">『E线江湖』管理员设置程序</font><br>
+<div align="center"><font size="+2" face="楷体_GB2312">『快乐江湖』管理员设置程序</font><br>
   <%Set conn=Server.CreateObject("ADODB.CONNECTION")
 Set rs=Server.CreateObject("ADODB.RecordSet")
 conn.open Application("sjjh_usermdb")

@@ -21,7 +21,7 @@ conn.close
 set conn=nothing
 Response.Write "<script Language=Javascript>;parent.show.fm1.innerHTML="&chr(34)&"<div align='center'>"&wpsl&"<img src='images/tong4.gif'></div>"&chr(34)&";parent.show.fm2.innerHTML="&chr(34)&"<div align='center'>0<img src='images/tong4.gif'></div>"&chr(34)&";parent.show.fm3.innerHTML="&chr(34)&"<div align='center'><img src='images/tong0.gif'></div>"&chr(34)&"</script>"
 %>
-<HTML><HEAD><TITLE>E线江湖</TITLE>
+<HTML><HEAD><TITLE>快乐江湖</TITLE>
 <META content="text/html; charset=gb2312" http-equiv=Content-Type>
 <SCRIPT src="images/icenew.js"></SCRIPT>
 <META content="MSHTML 5.00.2920.0" name=GENERATOR></HEAD>

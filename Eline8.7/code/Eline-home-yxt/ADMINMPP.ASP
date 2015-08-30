@@ -10,7 +10,7 @@ if sjjh_grade<>10 or instr(Application("sjjh_admin"),sjjh_name)=0  then Response
 %>
 <html>
 <head>
-<title>门派管理♀wWw.51eline.com♀</title>
+<title>门派管理♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type=text/css><!----></style>
 <script language="JavaScript">

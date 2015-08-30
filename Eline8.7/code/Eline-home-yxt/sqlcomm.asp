@@ -11,7 +11,7 @@ if sjjh_grade<>10 or instr(Application("sjjh_admin"),sjjh_name)=0  then Response
 %>
 <html>
 <head>
-<title>『E线江湖』sql指令系统♀wWw.51eline.com♀</title>
+<title>『快乐江湖』sql指令系统♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="../chat/READONLY/STYLE.CSS">
 </head>
@@ -74,7 +74,7 @@ update 用户 set W3='无情剑|1;' where 姓名='小李十一' <br>
 update 用户 set zw='蚊子|土龍|2002-7-22 21:05:06|75000|21000|14000|4|2002-9-20 4:13:49' where 姓名='小李十一' <br>
 
 <font color=#cc0000>给某人一个小孩，注意其配偶也要给</font> <br>
-update 用户 set boy='星月|baby|2003-5-4 18:44:26|235|40830|11380|20|2003-10-19 21:38:32',boysex='images/boy.gif' where 姓名='一线天' <br>
+update 用户 set boy='星月|baby|2003-5-4 18:44:26|235|40830|11380|20|2003-10-19 21:38:32',boysex='images/boy.gif' where 姓名='回首当年' <br>
 
 <font color=#cc0000>监禁ip解开</font> <br>
 update 用户  set 状态='正常',事件原因='无' where lastip='他的ip'<br>
@@ -119,6 +119,6 @@ update 用户 set 会员金卡=会员金卡+50,金币=金币+200,银币=银币+500,银两=银两+50000
  <%else%>
   <div align="center">您非授权站长，此项禁止使用！</div>
  <%end if%>
-<p align="center">『E线江湖』</p>
+<p align="center">『快乐江湖』</p>
 </body>
 </html>

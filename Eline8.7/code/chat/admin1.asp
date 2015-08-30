@@ -22,7 +22,7 @@ end if
 
 <html>
 <head>
-<title>掌门发放操作♀一线网络→wWw.51eline.com♀</title>
+<title>掌门发放操作♀一线网络→wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312"></head>
 <body bgcolor="#006699" leftmargin="0" topmargin="0" bgproperties="fixed" oncontextmenu=self.event.returnValue=false>
 <table border="1" width="140" cellspacing="0" cellpadding="0" bgcolor="#0099CC" height="16" align="center" bordercolorlight="#000000" bordercolordark="#FFFFFF">

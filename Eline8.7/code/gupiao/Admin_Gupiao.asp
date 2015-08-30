@@ -1,6 +1,6 @@
 <!--#include file="conn.asp"-->
 <!--#include file="const.asp"-->
-<html><head><title><%=Gupiao_Setting(5)%>-股市控制面板♀wWw.51eline.com♀</title>
+<html><head><title><%=Gupiao_Setting(5)%>-股市控制面板♀wWw.happyjh.com♀</title>
 <!--#include file="css.asp"-->
 </head><body bgcolor="#ffffff" text="#000000" style="FONT-SIZE: 9pt" topmargin=5 leftmargin=0 oncontextmenu=self.event.returnValue=false>
 <table  width="98%" border=0 cellspacing=1 cellpadding=0 align=center bgcolor="#0066CC">

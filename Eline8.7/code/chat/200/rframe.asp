@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>E线江湖--游戏在线-51eline.com</title>
+<title>快乐江湖--游戏在线-happyjh.com</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <a href="rich.asp"></a>
 <style type="text/css">

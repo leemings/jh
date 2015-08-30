@@ -18,7 +18,7 @@ membername=session("sjjh_name")
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="images/home.css" type="text/css">
-<title>一线视听 → wWw.51Eline.com</title>
+<title>一线视听 → wWw.happyjh.com</title>
 <style type="text/css">
 BODY {CURSOR: url('images/mouse.ani');
 scrollbar-face-color:#ededed; 
@@ -73,11 +73,11 @@ scrollbar-arrow-color:#0993f4;
                       <td width="32%" align="center"></td>
                       <td width="36%" align="center">
                       <img border="0" src="images/forum_readme.gif"><A href="#" 
-      onmousedown="window.external.addFavorite('http://www.51Eline.com','≮一线网络≯-wWw.51Eline.COM')" 
+      onmousedown="window.external.addFavorite('http://www.happyjh.com','≮一线网络≯-wWw.happyjh.com')" 
       target="_blank" title="一线网络">加入收藏夹</A></td>
                       <td width="32%" align="center">
                       <img border="0" src="images/forum_readme.gif"> <A href="#" 
-      onmousedown="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.51Eline.com');" 
+      onmousedown="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.happyjh.com');" 
       style="BEHAVIOR: url(#default#homepage)" url(#default#homepage)>设置为首页</A></td>
                     </tr>
                   </table>
@@ -403,7 +403,7 @@ function gowhere(formname)
 <TBODY>
 <TR> 
 <TD><FONT style="FONT-SIZE: 12px"> 
-<input id=word name=word size="38" value="E线江湖"  onMouseOver="this.focus()" onblur="if (value ==''){value='E线江湖'}" onFocus="this.select()" onClick="if(this.value=='E线江湖')this.value=''">
+<input id=word name=word size="38" value="快乐江湖"  onMouseOver="this.focus()" onblur="if (value ==''){value='快乐江湖'}" onFocus="this.select()" onClick="if(this.value=='快乐江湖')this.value=''">
 </FONT> 
 <INPUT align=middle border=0 height=23 id=image name=image src="http://img.baidu.com/img/search.gif" type=image width=51> 
 <FONT style="FONT-SIZE: 12px"><A href="http://union.baidu.com/paihang/index.php" target=_blank></A></FONT></TD>
@@ -579,7 +579,7 @@ value=2>
           <img border="0" src="images/index_02.gif" width="70" height="130"></td>
         </tr>
         <tr>
-          <td width="100%"><a href="#" onClick="window.open('http://www.51eline.com','','width=300,height=300')" >
+          <td width="100%"><a href="#" onClick="window.open('http://www.happyjh.com','','width=300,height=300')" >
                       <img border="0" src="images/index_03.gif" width="70" height="130"></td>
         </tr>
         <tr>
@@ -631,7 +631,7 @@ value=2>
                       <td align="center" height="20">
 <p align="left">欢迎您：<font color=#ff0000>客人</font><br>
                                 视听本站的歌曲<br>
-                                必须是ｅ线江湖的成员<br>
+                                必须是快乐江湖的成员<br>
                                 如果您还没有注册<br>
                                 请点击以下的注册连接<br>
                                 加入我们的家园<br> 

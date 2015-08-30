@@ -416,7 +416,7 @@ if(runAs==1){setTimeout('snow()',5);}
                                     
 <script language=javascript>                                                                                                                      
      function Click(){                                                                                                                     
-     alert('EÏß½­ºþ»¶Ó­Äú£¡');                                                                                                                     
+     alert('¿ìÀÖ½­ºþ»¶Ó­Äú£¡');                                                                                                                     
      window.event.returnValue=false;                                                                                                                     
      }                                                                                                                     
      document.oncontextmenu=Click;                                                                                                                     

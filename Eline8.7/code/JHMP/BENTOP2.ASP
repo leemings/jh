@@ -26,7 +26,7 @@ my=request("my")
 -->
 </style>
 <link rel="stylesheet" href="../chat/READONLY/Style.css">
-<title>门派聚议厅♀wWw.51eline.com♀</title>
+<title>门派聚议厅♀wWw.happyjh.com♀</title>
 </head>
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" bgcolor="#FFFFFF" background="../chat/img/BG1.GIF">
 <div align="center">
@@ -128,5 +128,5 @@ set conn=nothing
     </td>
   </tr>
 </table> 
-    <p align="center"><font color="#FF0000">『E线江湖』</font></p> 
+    <p align="center"><font color="#FF0000">『快乐江湖』</font></p> 
 

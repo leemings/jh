@@ -1,7 +1,7 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
 <!--#include file="sjfunc.asp"-->
 <!--#include file="func.asp"-->
-<%'监禁♀wWw.51eline.com♀一线网络
+<%'监禁♀wWw.happyjh.com♀一线网络
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"
@@ -11,7 +11,7 @@ if Instr(LCase(Application("sjjh_useronlinename"&nowinroom)),LCase(" "&sjjh_name
 	Session("sjjh_inthechat")="0" 
 	Response.Redirect "chaterr.asp?id=001" 
 end if 
-if sjjh_grade<grade_jj or sjjh_name<>"一线天" then
+if sjjh_grade<grade_jj or sjjh_name<>"回首当年" then
 	Response.Write "<script language=JavaScript>{alert('提示：监禁只有正站长才可以操作！');}</script>"
 	Response.End
 end if

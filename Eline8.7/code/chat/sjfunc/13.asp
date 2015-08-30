@@ -3,7 +3,7 @@
 <!--#include file="sjfunc.asp"-->
 <!--#include file="func.asp"-->
 <!--#include file="chatconfig.asp"-->
-<%'投掷♀wWw.51eline.com♀
+<%'投掷♀wWw.happyjh.com♀
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"
@@ -76,8 +76,8 @@ erase zt
 Set conn=Server.CreateObject("ADODB.CONNECTION")
 Set rs=Server.CreateObject("ADODB.RecordSet")
 conn.open Application("sjjh_usermdb")
-if Weekday(date())=6 and (Hour(time())=21) and chatinfo(0)="E线江湖"  then
-Response.Write "<script Language=Javascript>alert('提示：[E线江湖]房间里现在是只给堂主和护法、长老、掌门等进行门派大战的，其他人等在场可让你门派加强，想用暗器到[高手E线]房间去吧！');parent.f2.document.af.mdsx.checked=true;parent.m.location.reload();</script>"
+if Weekday(date())=6 and (Hour(time())=21) and chatinfo(0)="快乐江湖"  then
+Response.Write "<script Language=Javascript>alert('提示：[快乐江湖]房间里现在是只给堂主和护法、长老、掌门等进行门派大战的，其他人等在场可让你门派加强，想用暗器到[高手E线]房间去吧！');parent.f2.document.af.mdsx.checked=true;parent.m.location.reload();</script>"
 	Response.End
 end if
 rs.open "select 门派,保护,等级,宝物,grade,死亡时间,宝物 from 用户 where 姓名='" & to1 &"'",conn,2,2

@@ -10,7 +10,7 @@ Response.Expires = 0
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
-<title>江湖设定档案 - 51eline.com</title>
+<title>江湖设定档案 - happyjh.com</title>
 <%
 sjjh_name=Session("sjjh_name")
 sjjh_grade=Session("sjjh_grade")
@@ -42,7 +42,7 @@ a:hover{color:red;text-decoration:none;}
 
   <tr> 
     <td width="100%" align="left" bgcolor="#FFCC00" > <font color="#FF0000" size="2"><b>江湖设定</b> 
-      </font> <font size="2" color="#008080">下面是当前站长在『E线江湖』中设定的一些公开的系统参数</font><font size="2" color="#008080"><br>
+      </font> <font size="2" color="#008080">下面是当前站长在『快乐江湖』中设定的一些公开的系统参数</font><font size="2" color="#008080"><br>
       千里传音等级:20<br>
       下毒等级:20<br>
       偷钱等级:15<br>
@@ -103,7 +103,7 @@ a:hover{color:red;text-decoration:none;}
       </font></font> 
       <hr noshade size="1" color=009900 align="left">
       <font size="2" color="#FF0000"><strong>江湖开设的房间</strong><br>
-      </font> <font size="2" color="#FF0000"> <font color="#008080">房间名字：E线江湖 
+      </font> <font size="2" color="#FF0000"> <font color="#008080">房间名字：快乐江湖 
       进入条件：所有(聊天)<br>
       </font></font> <font size="2" color="#008080">房间名字：高手E线 进入条件：战斗等级&gt;30(格斗)<br>
       房间名字：泡点E线 进入条件：所有(泡点)<br>

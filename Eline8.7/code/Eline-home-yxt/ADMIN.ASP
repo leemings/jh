@@ -10,7 +10,7 @@ if sjjh_grade<>10 or instr(Application("sjjh_admin"),sjjh_name)=0  then Response
 %>
 <html>
 <head>
-<title>『E线江湖』--超级管理</title>
+<title>『快乐江湖』--超级管理</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 </head>
 <frameset cols="90,652" rows="*">

@@ -17,7 +17,7 @@ conn.open Application("awjh_l_usermdb")
 %>
 <html>
 <head>
-<title>申冤状纸一览♀wWw.51eline.com♀</title>
+<title>申冤状纸一览♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="../css.css">
 </head>

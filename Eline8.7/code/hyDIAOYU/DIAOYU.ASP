@@ -11,6 +11,6 @@
 <p align="center"><font color="#008000">动静了就用鼠标点动的地方，就有机会钓到鱼，每15分钟</font></p>
 <p align="center"><font color="#008000">可以进行钓鱼一次，如果鱼跑了只有等下一次了。</font></p>
 <p align="center">　</p>
-<p align="center"><font color="#800000">『E线江湖』</font></p>
+<p align="center"><font color="#800000">『快乐江湖』</font></p>
 </BODY>
 </HTML>

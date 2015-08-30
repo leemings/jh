@@ -11,7 +11,7 @@ if chatbgcolor="" then chatbgcolor="008888"
 %>
 <html>
 <head>
-<title>E线江湖竞标♀一线网络→wWw.51eline.com♀</title>
+<title>快乐江湖竞标♀一线网络→wWw.happyjh.com♀</title>
 <script language="JavaScript">
 function s(list){parent.f2.document.af.sytemp.value=list;parent.f2.document.af.sytemp.focus();}
 function rc(list){if(list!="0"){parent.f2.document.af.sytemp.value=list;parent.f2.document.af.sytemp.focus();}}

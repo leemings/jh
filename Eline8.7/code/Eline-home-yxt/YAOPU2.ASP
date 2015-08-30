@@ -10,7 +10,7 @@ if sjjh_grade<>10 or instr(Application("sjjh_admin"),sjjh_name)=0  then Response
 %>
 <html>
 <head>
-<title>¡âwWw.51eline.com¡â</title>
+<title>¡âwWw.happyjh.com¡â</title>
 <link rel="stylesheet" href="setup.css">
 </head>
 <body text="#000000" background="../jhimg/bk_hc3w.gif" link="#0000FF" vlink="#0000FF" alink="#0000FF">

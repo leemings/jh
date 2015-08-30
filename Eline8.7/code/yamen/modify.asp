@@ -9,7 +9,7 @@ regjm=int(rnd*9998)+1
 %>
 <html>
 <head>
-<title>修改密码♀wWw.51eline.com♀</title>
+<title>修改密码♀wWw.happyjh.com♀</title>
 <LINK href="../css.css" rel=stylesheet>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312"></head>
 <body bgcolor="#006699">

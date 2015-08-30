@@ -408,7 +408,7 @@ var askjs="【系统】已存在脚本引用，这条指令自动清除，请使用清屏指令";
 var askqp2="<br><font size=2><font color=red>【提示】</font>对话区超载，10秒钟后自动清屏。</font><br>";
 var writeNUM=0;
 var askqp="<br><font size=2><font color=red>【提示】</font>请点击<a href='javascript:parent.qp()'>[清]</a>屏节约您的资源，提示三次后自动清屏！</font><br>";
-document.write("<title>欢迎来到≮<%=Application("sjjh_chatroomname")%>≯,祝您聊的开心！本站永久国际域名 - 51eline.com</title>");
+document.write("<title>欢迎来到≮<%=Application("sjjh_chatroomname")%>≯,祝您聊的开心！本站永久国际域名 - happyjh.com</title>");
 function write(cls){var fsize,lheight;
 //if(cls==1){fsize=this.f2.document.af.fs.value;lheight=this.f2.document.af.lh.value;}else
 {fsize='10.5';lheight='125';}
@@ -425,13 +425,13 @@ this.f1.document.writeln("scrollOnFunction=new Function('scrollOn()');");
 this.f1.document.writeln("scrollOffFunction=new Function('scrollOff()');");
 this.f1.document.writeln("StartUp();</\script>");
 this.f1.document.writeln("<body background='"+bgimg+"' oncontextmenu=window.event.returnValue=false onselectstart=event.returnValue=false ondragstart=window.event.returnValue=false bgcolor=" + bgc + " text=660099>");
-this.f1.document.writeln("<span class=l><font color=red>【浏览器刷新】</font>热烈欢迎<font color=red>【"+myn+"】</font>来到《"+crm+"》- 51eline.com<font class=t>(<%=t%>)</font></span><br>");
+this.f1.document.writeln("<span class=l><font color=red>【浏览器刷新】</font>热烈欢迎<font color=red>【"+myn+"】</font>来到《"+crm+"》- happyjh.com<font class=t>(<%=t%>)</font></span><br>");
 this.f1.document.writeln("<%=roomtemp%><br>");
 this.f0.document.open();
 this.f0.document.writeln("<html><head><title>分屏显示</title><meta http-equiv=Content-Type content=\"text/html; charset=gb2312\">");
 this.f0.document.writeln("<style type=text/css>.p{font-size:20pt}.l{line-height:" + lheight + "%}.t{color:FF00FF;font-size:9pt;}body{font-family:\"宋体\";font-size:" + fsize + "pt;CURSOR: url('aixin.ani');scrollbar-face-color:#effaff;scrollbar-shadow-color:#eeeeee;scrollbar-highlight-color:#ffffff;scrollbar-3dlight-color:#eeeeee;scrollbar-darkshadow-color:#ffffff;scrollbar-track-color:#ffffff;scrollbar-arrow-color:#dddddd;}A{text-decoration:none}A:Hover{text-decoration:underline}A:visited{color:blue}BODY{background-position:'top right';background-repeat: no-repeat;background-attachment: fixed;}</style></head>");
 this.f0.document.writeln("<body background='"+bgimg+"'oncontextmenu=window.event.returnValue=false onselectstart=event.returnValue=false ondragstart=window.event.returnValue=false bgcolor=" + bgc + " text=660099>");
-this.f0.document.writeln("<span class=l><font color=red>【浏览器刷新】</font>热烈欢迎<font color=red>【"+myn+"】</font>来到《"+crm+"》- 51eline.com<font class=t>(<%=t%>)</font></span><br><b>【江湖公告】</b><%=jrht%><br>"+jsjsstr);
+this.f0.document.writeln("<span class=l><font color=red>【浏览器刷新】</font>热烈欢迎<font color=red>【"+myn+"】</font>来到《"+crm+"》- happyjh.com<font class=t>(<%=t%>)</font></span><br><b>【江湖公告】</b><%=jrht%><br>"+jsjsstr);
 this.t.location.href="t.asp";parent.DB();parent.mytitle(systitle);}
 //sh:s0:名色 s1:色彩 s2:动作 s3:说话者 s4:表情 s5:受话 s6:内容 s7:私聊 s8:房间
 function sh(s0,s1,s2,s3,s4,s5,s6,s7,s8){
@@ -600,7 +600,7 @@ function md2(data){
 	if (showtype != 0){if (showstr.search(showseek) != -1 || lis[0]==myn){wmd(ss);}}else{wmd(ss);}}}
 function md3(){
 	if (this.f2.document.af.mdsx.checked == false){return;}
-		wmd("<br><div align=\"center\"><a href=http://51eline.com target=_blank><img src=../logo.gif width=88 height=31 border=0 alt=全力打造精彩江湖与论坛></a><HR size=1 color=b3d4ff><font class=banq>版权:ｅ线江湖总站<br>版本:ELINE 8.7.0<br>程序//美工:一线天<br>");
+		wmd("<br><div align=\"center\"><a href=http://happyjh.com target=_blank><img src=../logo.gif width=88 height=31 border=0 alt=全力打造精彩江湖与论坛></a><HR size=1 color=b3d4ff><font class=banq>版权:快乐江湖总站<br>版本:ELINE 8.7.0<br>程序//美工:回首当年<br>");
 	if (listfaces==true){wmd("为自己.<img src='../jhimg/self.gif' width='12' height='12'><img src='../jhimg/friend.gif' width='12' height='12'>.为好友</font></div>");}
 	wmd("</td></tr></table></body></html>")
 	this.f3.document.close();

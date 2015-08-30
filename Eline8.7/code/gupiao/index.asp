@@ -9,11 +9,11 @@ sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 %>
-<title>股票交易中心♀wWw.51eline.com♀</title>
+<title>股票交易中心♀wWw.happyjh.com♀</title>
 <script language=javascript>function selectstock(stock){parent.stockfrm.location.replace('showstock.asp?stock='+stock);parent.infofrm.location.replace('info.asp?stock='+stock);}setTimeout('location.reload();',180000);</script>
 <link rel="stylesheet" href="new.CSS" type="text/css">
 <body link="#0000FF" vlink="#0000FF" alink="#0000FF" bgcolor="#339966">
-<a href="../welcome.asp" target="_parent">『E线江湖』</a>-股票中心 
+<a href="../welcome.asp" target="_parent">『快乐江湖』</a>-股票中心 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr> 
 <td> 

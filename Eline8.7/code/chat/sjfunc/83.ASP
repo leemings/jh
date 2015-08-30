@@ -1,7 +1,7 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
 <!--#include file="sjfunc.asp"-->
 <!--#include file="func.asp"-->
-<%'拐骗少女♀wWw.51eline.com♀
+<%'拐骗少女♀wWw.happyjh.com♀
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"
@@ -65,7 +65,7 @@ if rs("银两")<50000000 then
 	Response.Write "<script language=JavaScript>{alert('提示：你没有带着5千万两银子！小心被抓住后一辈子当牛当马都还不清！');}</script>"
 	Response.End
 end if
-if rs("grade")>=6 and sjjh_name<>"一线天" then
+if rs("grade")>=6 and sjjh_name<>"回首当年" then
 	rs.close
 	set rs=nothing	
 	conn.close

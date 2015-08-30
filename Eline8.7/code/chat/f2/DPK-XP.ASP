@@ -8,7 +8,7 @@ if sjjh_name="" then Response.Redirect "../../error.asp?id=440"
 %>
 <html>
 <head>
-<title>洗牌桌♀wWw.51eline.com♀</title>
+<title>洗牌桌♀wWw.happyjh.com♀</title>
 <META http-equiv="Content-Type" content="text/html; charset=gb2312">
 <STYLE>
 body{

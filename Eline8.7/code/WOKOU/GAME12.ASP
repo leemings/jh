@@ -24,7 +24,7 @@ conn.close
 set rs=nothing
 set conn=nothing
 Session("usepro")= false 
-Response.Write "<script Language=Javascript>alert('大侠，你打击倭寇有功，『E线江湖』奖内力、体力、攻击、防御各1000点，银两2000两！');</script>"
+Response.Write "<script Language=Javascript>alert('大侠，你打击倭寇有功，『快乐江湖』奖内力、体力、攻击、防御各1000点，银两2000两！');</script>"
 response.end
 %>
 <script language="vbscript">
@@ -39,7 +39,7 @@ rs.close
 conn.close
 
 
-ff="<font color=#ff0000>消息</font>"&my&"大侠打击倭寇有功：『E线江湖』奖内力、体力、攻击、防御各1000点，银两2000两！"	'聊天数据
+ff="<font color=#ff0000>消息</font>"&my&"大侠打击倭寇有功：『快乐江湖』奖内力、体力、攻击、防御各1000点，银两2000两！"	'聊天数据
 
 
 

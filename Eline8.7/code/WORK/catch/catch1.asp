@@ -26,8 +26,9 @@ conn.open Application("sjjh_usermdb")
 rs.open "select 银两,状态,体力,内力,操作时间 from 用户 where 姓名='"&sjjh_name&"'",conn
 ca=rs("状态")
 sj=DateDiff("n",rs("操作时间"),now())
+kk=rs("操作时间")
 if sj<8 then
-	ss=1-sj
+	ss=8-sj
 	rs.close
 	set rs=nothing
 	conn.close
@@ -456,7 +457,7 @@ if(runAs==1){setTimeout('snow()',5);}
                                    
 <script language=javascript>                                                                                                                     
      function Click(){                                                                                                                    
-     alert('E线江湖欢迎您！本画面不支持滑鼠右键！');                                                                                                                    
+     alert('快乐江湖欢迎您！本画面不支持滑鼠右键！');                                                                                                                    
      window.event.returnValue=false;                                                                                                                    
      }                                                                                                                    
      document.oncontextmenu=Click;                                                                                                                    

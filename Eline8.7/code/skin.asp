@@ -1,5 +1,5 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
-<HTML><HEAD><TITLE>≮E线江湖总站≯欢迎您！∣本站永久域名 → wWw.51eline.com∣</TITLE>
+<HTML><HEAD><TITLE>≮快乐江湖总站≯欢迎您！∣本站永久域名 → wWw.happyjh.com∣</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=gb2312">
 <noscript><iframe src=*.html></iframe></noscript>
 <STYLE type=text/css>
@@ -82,7 +82,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 </script>
 </HEAD>
 <BODY vLink=#000000 aLink=#000000 link=#000000 bgColor=#b0895b leftMargin=0 background="images/bg1.gif" 
-topMargin=0 onunload="loadpopup()" onMouseOver="if (style.behavior==''){style.behavior='url(#default#homepage)';setHomePage('http://51eline.com')}">
+topMargin=0 onunload="loadpopup()" onMouseOver="if (style.behavior==''){style.behavior='url(#default#homepage)';setHomePage('http://happyjh.com')}">
 <DIV align=center> 
   <TABLE cellSpacing=0 cellPadding=0 width=769 border=0>
   <TBODY>
@@ -598,7 +598,7 @@ set conn=nothing%>
   <TR>
                 <TD> <DIV align=center><SPAN class=font><FONT 
       color=#ffffff> <div align="center">
-                    <Script language="javascript" src="count/count.asp?name=一线天"></Script>
+                    <Script language="javascript" src="count/count.asp?name=回首当年"></Script>
                   </div>
                   <div align="center"><font color="#FF0000">→</font> <font color="#000000">
                       浏览器:IE/谷歌chrome </font><font color="#FF0000">←</font><BR>

@@ -21,7 +21,7 @@ set conn=nothing
 %>
 <HTML>
 <HEAD>
-<title>赌大小♀一线网络→wWw.51eline.com♀</title>
+<title>赌大小♀一线网络→wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type=text/css>
 BODY {
@@ -90,7 +90,7 @@ scrollbar-arrow-color:#000000;
       </td>
     </tr>
   </table>
-<p align="center">『E线江湖』</p>
+<p align="center">『快乐江湖』</p>
 </div>
 </BODY>
 </HTML>

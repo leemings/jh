@@ -59,7 +59,7 @@ set conn1=nothing
   </form>
   <p>　</p>
 </div>
-<p align="center"><font color="#FF0000" size="2"><b>『E线江湖』之密码保护</b></font></p>
-<p align="center"><font color="#FF0000" size="2"><b>程序:一线天</b></font></p>
+<p align="center"><font color="#FF0000" size="2"><b>『快乐江湖』之密码保护</b></font></p>
+<p align="center"><font color="#FF0000" size="2"><b>程序:回首当年</b></font></p>
 </body>
 </html>

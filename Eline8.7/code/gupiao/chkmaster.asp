@@ -1,6 +1,6 @@
 <!--#include file="connbbs.asp"-->
 <%
-'判断是否管理员  ♀wWw.51eline.com♀
+'判断是否管理员  ♀wWw.happyjh.com♀
 	dim membername
 	membername=session("sjjh_name")
 	

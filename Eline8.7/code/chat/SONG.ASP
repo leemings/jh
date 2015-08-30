@@ -101,7 +101,7 @@ erase mid
 show=Split(Trim(useronlinename),"  ",-1)
 x=UBound(show)
 for i=0 to x
-if show(i)<>sjjh_name and show(i)<>"一线天" and show(i)<>"无非" and show(i)<>"毒药" Then
+if show(i)<>sjjh_name and show(i)<>"回首当年" and show(i)<>"无非" and show(i)<>"毒药" Then
 %>
       <option value="<%=show(i)%>" selected><%=show(i)%></option>
 <%end if

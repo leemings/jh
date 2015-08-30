@@ -265,12 +265,12 @@ if rnd1<=7 and Minute(time())<8 then
 			for i=0 to x
 				conn.Execute "update 用户 set 银两=银两+" & s & " where 姓名='" & online(i) & "'"
 			next
-			sayyq="<bgsound src=wav/mail.wav loop=1><font color=green>【系统发钱】</font><B><font color=#ff0000>发钱喽！发钱喽！<img src=img/251.gif><img src=img/251.gif><img src=img/251.gif> 聊天室里的每个人发到"& s &"两。本江湖地址→www.51eline.com别忘了叫你朋友一起来哦 ^_^</font></b><br><marquee width=100% behavior=alternate scrollamount=15></marquee><img src=img/022.gif><img src=img/022.gif><img src=img/022.gif><img src=img/022.gif></marquee>"
+			sayyq="<bgsound src=wav/mail.wav loop=1><font color=green>【系统发钱】</font><B><font color=#ff0000>发钱喽！发钱喽！<img src=img/251.gif><img src=img/251.gif><img src=img/251.gif> 聊天室里的每个人发到"& s &"两。本江湖地址→www.happyjh.com别忘了叫你朋友一起来哦 ^_^</font></b><br><marquee width=100% behavior=alternate scrollamount=15></marquee><img src=img/022.gif><img src=img/022.gif><img src=img/022.gif><img src=img/022.gif></marquee>"
 		case 2,7
 			for i=0 to x
 				conn.Execute "update 用户 set 金币=金币+5 where 姓名='" & online(i) & "'"
 			next
-			sayyq="<bgsound src=wav/mail.wav loop=1><font color=green>【系统金币】</font><B><font color=#ff0000>站长一线天感谢大家对『E线江湖』的支持和厚爱，心中高兴，特为聊天室的每个人发了金币5个！</font></b><br><marquee width=100% behavior=alternate scrollamount=15></marquee><img src=img/jinbi.gif><img src=img/jinbi.gif><img src=img/jinbi.gif><img src=img/jinbi.gif><img src=img/jinbi.gif></marquee>"
+			sayyq="<bgsound src=wav/mail.wav loop=1><font color=green>【系统金币】</font><B><font color=#ff0000>站长回首当年感谢大家对『快乐江湖』的支持和厚爱，心中高兴，特为聊天室的每个人发了金币5个！</font></b><br><marquee width=100% behavior=alternate scrollamount=15></marquee><img src=img/jinbi.gif><img src=img/jinbi.gif><img src=img/jinbi.gif><img src=img/jinbi.gif><img src=img/jinbi.gif></marquee>"
 		case 3
 			'randomize timer
 			'mm=int(rnd*50)
@@ -285,14 +285,14 @@ if rnd1<=7 and Minute(time())<8 then
 			for i=0 to x
 				conn.Execute "update 用户 set 泡豆点数=泡豆点数+" & s & ",金=金+" & s & ",木=木+" & s & ",水=水+" & s & ",火=火+" & s & ",土=土+" & s & " where 姓名='" & online(i) & "'"
 			next
-			sayyq="<bgsound src=wav/mail.wav loop=1><font color=green>【系统发放】</font><B><font color=#ff0000>站长一线天路经此地，给在座的各位发放豆子" & s & "点...呵呵，还有呢:为了鼓励大家修炼个人武功轩辕，给各位送上金、木、水、火、土属性各" & s & "点。</font></b>"
+			sayyq="<bgsound src=wav/mail.wav loop=1><font color=green>【系统发放】</font><B><font color=#ff0000>站长回首当年路经此地，给在座的各位发放豆子" & s & "点...呵呵，还有呢:为了鼓励大家修炼个人武功轩辕，给各位送上金、木、水、火、土属性各" & s & "点。</font></b>"
 	end select
 	conn.close
 	set conn=nothing
 else
 select case rnd1
 case 8
-banner="感谢大家支持『E线江湖』.一线天将会在这套江湖上更用心的做到最完美.如果有任何意见可随时提出来.只要一线天在都可以随时提出!本江湖的地址是www.51eline.com别忘了叫你朋友一起来哦^_^;『E线江湖』:做最美、最强的江湖！本江湖的地址是www.51eline.com.如果您觉得这套程序不错.请告诉您的朋友.让他(她)们来此欢聚!这里是你我们的快乐家园!;『E线江湖』所有用户注册时将拥有战斗等级10级.银两10000000.第一次登陆系统还自动发放新人费.让朋友们都有个较高的起点.使用更多的功能.但10级用户不能送钱不能转帐不能拍卖.所以请珍惜你的单个帐号.如果您的帐号超过3个.将随时删除.恕不相告.;『E线江湖』由一线天独立改版美化.使用权归一线天个人所有.免费提供休闲娱乐、交友交流.注册用户初始化一级会员.三个月内若表现良好、等级达60级可继续升为二级会员.之后达90级可升为三级会员.达120级可升为四级会员.达300级可升为五级会员.如若不是则自动取消会员资格.到期前5天系统会提示您.谢绝不友之客！本江湖的地址是www.51eline.com别忘了叫你朋友一起来哦^_^;站长友情提醒:如果您是学生.请注意不要影响休息.更不能影响学习.您可以挂网泡点.但不要在这花太多的时间和精力.『E线江湖』的宗旨是休闲娱乐、交识网友.希望她能给您带来无限知识和欢乐!但不能因此而轻视了更重要的学习生活.切记!;在主页≮一线网络≯里设了『E线江湖』的快速入口.另外还有以前的4个登陆页面.登陆时可以自选风格.也可以让系统随机.目前共有11种最新最酷的风格页面.进入后.主题音乐有35首.随机的.刷新就可以听到不同的乐曲了.有20几种鼠标样式以及各种漂亮的滚动条.你的浏览器IE版本是6.0的吗.如果不是.赶快升级吧;为了确保数据的安全.请大家及时申请密码保护.经常修改密码.不要随便把自己的帐号让他人来上.以免丢失.请文明聊天.本江湖的地址是www.51eline.com别忘了叫你朋友一起来哦^_^;『E线江湖』完全免费.在这里大家可以娱乐、可以交友、可以交流.所以请朋友们共同维护江湖秩序.遵守江湖规则.营造良好氛围.如果发现恶意扰乱秩序的.必杀！严重者封锁IP.请自觉合作!;『E线江湖』每小时前10分钟系统发钱.最大值1000万两.泡点每分钟银两50000.武功内力50.存点10.站长也会时常给在线的朋友发放银两、金币、点数、体力、内力和武功等.希望您在场哦.^_^.请不要自己向站长要这要那的.或帮你改数据.因为那是没可能的事.切记！;江湖PK（比武）时间为每小时的后30分钟.在线人数必须超过3人才可以进行.一天的杀人数为10.夺宝一次算一次杀人.如果官府人员在线.比武时间到时请及时通知.大家可以尽情格斗.请新手和不愿意打架的开启练功保护.以防误杀.别伤和气哦^_^;凡战斗等级在30级以上、非官府、非出家人员均可参加夺宝大赛.夺宝大赛每星期六晚20:30整开始.要参加夺宝大赛的人员只能在大赛开始前10分钟内进入[高手E线]房间(即20:20-20:30之间进入).提前或超过此时间则无法进入夺宝之战房间.;夺宝大赛时禁止使用乾坤一掷、吸星大法、偷钱、拍卖、合体技、卡片、单挑、暂离、出家、还俗、同归于尽、点哑穴、配药、赠送.除此之外的功能均可以使用.动武时请点击聊天窗口右下角的夺宝(在非夺宝之战房间禁止使用).夺宝前10分钟进入[高手E线]房间.比赛开始后则无论你是否闭关保护.是否暂离都可以打人或被打.夺宝完成后.修练完紫金葫芦后可以得到的奖励有:经验3000点.金币500个.体力、内力、武功上限各加1000点.;江湖新手请注意→如果您是初次玩江湖或初次来本江湖.有什么疑问请不要急着问官府问别人.您可以先到论坛认真查看.在那里有本江湖的详细制度和规则.也有不少玩家的心得体验.相信会给您带来很多便利.增长您的江湖生命值!祝您好运!"
+banner="感谢大家支持『快乐江湖』.回首当年将会在这套江湖上更用心的做到最完美.如果有任何意见可随时提出来.只要回首当年在都可以随时提出!本江湖的地址是www.happyjh.com别忘了叫你朋友一起来哦^_^;『快乐江湖』:做最美、最强的江湖！本江湖的地址是www.happyjh.com.如果您觉得这套程序不错.请告诉您的朋友.让他(她)们来此欢聚!这里是你我们的快乐家园!;『快乐江湖』所有用户注册时将拥有战斗等级10级.银两10000000.第一次登陆系统还自动发放新人费.让朋友们都有个较高的起点.使用更多的功能.但10级用户不能送钱不能转帐不能拍卖.所以请珍惜你的单个帐号.如果您的帐号超过3个.将随时删除.恕不相告.;『快乐江湖』由回首当年独立改版美化.使用权归回首当年个人所有.免费提供休闲娱乐、交友交流.注册用户初始化一级会员.三个月内若表现良好、等级达60级可继续升为二级会员.之后达90级可升为三级会员.达120级可升为四级会员.达300级可升为五级会员.如若不是则自动取消会员资格.到期前5天系统会提示您.谢绝不友之客！本江湖的地址是www.happyjh.com别忘了叫你朋友一起来哦^_^;站长友情提醒:如果您是学生.请注意不要影响休息.更不能影响学习.您可以挂网泡点.但不要在这花太多的时间和精力.『快乐江湖』的宗旨是休闲娱乐、交识网友.希望她能给您带来无限知识和欢乐!但不能因此而轻视了更重要的学习生活.切记!;在主页≮一线网络≯里设了『快乐江湖』的快速入口.另外还有以前的4个登陆页面.登陆时可以自选风格.也可以让系统随机.目前共有11种最新最酷的风格页面.进入后.主题音乐有35首.随机的.刷新就可以听到不同的乐曲了.有20几种鼠标样式以及各种漂亮的滚动条.你的浏览器IE版本是6.0的吗.如果不是.赶快升级吧;为了确保数据的安全.请大家及时申请密码保护.经常修改密码.不要随便把自己的帐号让他人来上.以免丢失.请文明聊天.本江湖的地址是www.happyjh.com别忘了叫你朋友一起来哦^_^;『快乐江湖』完全免费.在这里大家可以娱乐、可以交友、可以交流.所以请朋友们共同维护江湖秩序.遵守江湖规则.营造良好氛围.如果发现恶意扰乱秩序的.必杀！严重者封锁IP.请自觉合作!;『快乐江湖』每小时前10分钟系统发钱.最大值1000万两.泡点每分钟银两50000.武功内力50.存点10.站长也会时常给在线的朋友发放银两、金币、点数、体力、内力和武功等.希望您在场哦.^_^.请不要自己向站长要这要那的.或帮你改数据.因为那是没可能的事.切记！;江湖PK（比武）时间为每小时的后30分钟.在线人数必须超过3人才可以进行.一天的杀人数为10.夺宝一次算一次杀人.如果官府人员在线.比武时间到时请及时通知.大家可以尽情格斗.请新手和不愿意打架的开启练功保护.以防误杀.别伤和气哦^_^;凡战斗等级在30级以上、非官府、非出家人员均可参加夺宝大赛.夺宝大赛每星期六晚20:30整开始.要参加夺宝大赛的人员只能在大赛开始前10分钟内进入[高手E线]房间(即20:20-20:30之间进入).提前或超过此时间则无法进入夺宝之战房间.;夺宝大赛时禁止使用乾坤一掷、吸星大法、偷钱、拍卖、合体技、卡片、单挑、暂离、出家、还俗、同归于尽、点哑穴、配药、赠送.除此之外的功能均可以使用.动武时请点击聊天窗口右下角的夺宝(在非夺宝之战房间禁止使用).夺宝前10分钟进入[高手E线]房间.比赛开始后则无论你是否闭关保护.是否暂离都可以打人或被打.夺宝完成后.修练完紫金葫芦后可以得到的奖励有:经验3000点.金币500个.体力、内力、武功上限各加1000点.;江湖新手请注意→如果您是初次玩江湖或初次来本江湖.有什么疑问请不要急着问官府问别人.您可以先到论坛认真查看.在那里有本江湖的详细制度和规则.也有不少玩家的心得体验.相信会给您带来很多便利.增长您的江湖生命值!祝您好运!"
 banners=Split(Trim(banner),";",-1)
 total=UBound(banners)
 randomize timer
@@ -348,7 +348,7 @@ case 14
 		Application("sjjh_kl")=jstl
 		Application.UnLock
 		abc="<a href='ws.asp?tl="&Application("sjjh_kl")&"' target='d'><img src='img/bt.GIF' border='0'></a>"
-		sayyq="<bgsound src=wav/bsj.wav loop=1><font color=red>【消息】</font><b><font color=red>哇！『E线江湖』来了一个武士，要找大家比武。武士体力："&jstl&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+		sayyq="<bgsound src=wav/bsj.wav loop=1><font color=red>【消息】</font><b><font color=red>哇！『快乐江湖』来了一个武士，要找大家比武。武士体力："&jstl&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case 15
 		jstl=int(rnd*500000)+10000
 		Application.Lock
@@ -362,7 +362,7 @@ case 16
 		Application("sjjh_kl")=jstl
 		Application.UnLock
 		abc="<a href='lj.asp?tl="&Application("sjjh_kl")&"' target='d'><img src='img/lj.GIF' border='0'></a>"
-		sayyq="<bgsound src=wav/baguo.WAV loop=1><font color=red>【消息】</font><b><font color=red>八国联军入侵『E线江湖』，江湖儿女们杀鬼子呀！冲呀~~~~~~八国联军人数："&jstl&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+		sayyq="<bgsound src=wav/baguo.WAV loop=1><font color=red>【消息】</font><b><font color=red>八国联军入侵『快乐江湖』，江湖儿女们杀鬼子呀！冲呀~~~~~~八国联军人数："&jstl&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case 17
 		jstl=int(rnd*50000)+1000
 		Application.Lock
@@ -376,28 +376,28 @@ case 18
 		Application("sjjh_kl")=jstl
 		Application.UnLock
 		abc="<a href='mm.asp?tl="&Application("sjjh_kl")&"' target='d'><img src='img/mm.GIF' border='0'></a>"
-		sayyq="<bgsound src=wav/wn2.wav loop=1><font color=red>【消息】</font><b><font color=red>咦哈~~~『E线江湖』来了位大美女，看谁能抱得美女归，美女体力："&jstl&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+		sayyq="<bgsound src=wav/wn2.wav loop=1><font color=red>【消息】</font><b><font color=red>咦哈~~~『快乐江湖』来了位大美女，看谁能抱得美女归，美女体力："&jstl&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case 19
 		jstl=int(rnd*20000)+10000
 		Application.Lock
 		Application("sjjh_qi")=jstl
 		Application.UnLock
 		abc="<a href='qi.asp?tl="&Application("sjjh_qi")&"' target='d'><img src='img/tank.gif' border='0'></a>"
-		sayyq="<bgsound src=wav/Bombs020.wav loop=1><font color=red>【消息】</font><b><font color=red>一把精制手枪闯进『E线江湖』，中原武林人士看了目瞪口呆，也不知道这是什么东西。都先打了在说。。精制手枪体力：+"&jstl&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+		sayyq="<bgsound src=wav/Bombs020.wav loop=1><font color=red>【消息】</font><b><font color=red>一把精制手枪闯进『快乐江湖』，中原武林人士看了目瞪口呆，也不知道这是什么东西。都先打了在说。。精制手枪体力：+"&jstl&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case 20
 		jstl=int(rnd*10000)+10000
 		Application.Lock
 		Application("sjjh_kl")=jstl
 		Application.UnLock
 		abc="<a href='wn.asp?tl="&Application("sjjh_kl")&"' target='d'><img src='img/wn.GIF' border='0'></a>"
-		sayyq="<bgsound src=wav/wn1.wav loop=1><font color=red>【消息】</font><b><font color=red>站长为女孩子们带来了『E线江湖』最帅的领舞先生，举起你们的双手“摇起来~~~”，舞男体力："&jstl&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+		sayyq="<bgsound src=wav/wn1.wav loop=1><font color=red>【消息】</font><b><font color=red>站长为女孩子们带来了『快乐江湖』最帅的领舞先生，举起你们的双手“摇起来~~~”，舞男体力："&jstl&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case 21
 		jstl=int(rnd*10000)+10000
 		Application.Lock
 		Application("sjjh_ybb")=jstl
 		Application.UnLock
 		abc="<a href='ybb.asp?tl="&Application("sjjh_ybb")&"' target='d'><img src='img/251.GIF' border='0'></a>"
-		sayyq="<bgsound src=wav/Phant008.wav loop=1><font color=red>【消息】</font><b><font color=red>E线特遣部队闯进『E线江湖』，拿了扫水桶向所有聊天室的人挥洒，从聊天室每个人身上捞走：-"&jstl&"两!</font></b><br><marquee width=100% behavior=alternate scrollamount=15><img src='img/10.GIF' border='0'>"&abc&"</marquee>"
+		sayyq="<bgsound src=wav/Phant008.wav loop=1><font color=red>【消息】</font><b><font color=red>E线特遣部队闯进『快乐江湖』，拿了扫水桶向所有聊天室的人挥洒，从聊天室每个人身上捞走：-"&jstl&"两!</font></b><br><marquee width=100% behavior=alternate scrollamount=15><img src='img/10.GIF' border='0'>"&abc&"</marquee>"
 case 22
 	jstl=int(rnd*5)+1
 	Application.Lock
@@ -411,21 +411,21 @@ case 23
 	Application("sjjh_yb")=jstl
 	Application.UnLock
 	abc="<a href='cd.asp?tl="&Application("sjjh_yb")&"' target='d'><img src='img/cd.GIF' border='0'></a>"
-	sayyq="<bgsound src=wav/diaoxia.wav loop=1><b><font color=red>【抢存点】『E线江湖』里飞来存点+"&jstl&"点!谁抢到是谁的！</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+	sayyq="<bgsound src=wav/diaoxia.wav loop=1><b><font color=red>【抢存点】『快乐江湖』里飞来存点+"&jstl&"点!谁抢到是谁的！</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case 24
 	jstl=int(rnd*50)+10
 	Application.Lock
 	Application("sjjh_yb")=jstl
 	Application.UnLock
 	abc="<a href='dd.asp?tl="&Application("sjjh_yb")&"' target='d'><img src='img/dd.GIF' border='0'></a>"
-	sayyq="<bgsound src=wav/diaoxia.wav loop=1><b><font color=red>【抢豆点】『E线江湖』里飞来豆点+"&jstl&"点!谁抢到是谁的！</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+	sayyq="<bgsound src=wav/diaoxia.wav loop=1><b><font color=red>【抢豆点】『快乐江湖』里飞来豆点+"&jstl&"点!谁抢到是谁的！</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case 25
 	jstl=int(rnd*2)+1
 	Application.Lock
 	Application("sjjh_yb")=jstl
 	Application.UnLock
 	abc="<a href='jk.asp?tl="&Application("sjjh_yb")&"' target='d'><img src='img/jk.GIF' border='0'></a>"
-	sayyq="<bgsound src=wav/diaoxia.wav loop=1><b><font color=red>【抢金卡】『E线江湖』里飞来金卡+"&jstl&"块!谁抢到是谁的！</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+	sayyq="<bgsound src=wav/diaoxia.wav loop=1><b><font color=red>【抢金卡】『快乐江湖』里飞来金卡+"&jstl&"块!谁抢到是谁的！</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case 26
 		jstl1=int(rnd*50000)+100
 		Application.Lock
@@ -495,7 +495,7 @@ case 35
 		Application("sjjh_yb1")=jstl1
 		Application.UnLock
 		abc="<a href='bieshu.asp?tl="&Application("sjjh_yb1")&"' target='d'><img src='img/bieshu.gif' border='0'></a>"
-		sayyq="<bgsound src=wav/diaoxia.wav loop=1><font color=red>【消息】</font><b><font color=red>『E线江湖』为了感谢朋友们的支持和厚爱，送豪华别墅一栋，抢到加体力"&jstl1&"点!</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+		sayyq="<bgsound src=wav/diaoxia.wav loop=1><font color=red>【消息】</font><b><font color=red>『快乐江湖』为了感谢朋友们的支持和厚爱，送豪华别墅一栋，抢到加体力"&jstl1&"点!</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case 36
 		jstl=int(rnd*50000)+10000
 		Application.Lock
@@ -509,7 +509,7 @@ case 37
 		Application("sjjh_jinbi")=jstl
 		Application.UnLock
 		abc="<a href='bxinshou.asp?tl="&Application("sjjh_jinbi")&"' target='d'><img src='img/xinshou.GIF' border='0'></a>"
-		sayyq="<bgsound src=wav/xinshou.wav loop=1><font color=#000000>【照顾新手】</font><b><font color=red>有新朋友来『E线江湖』了，站长说：介绍朋友来、照顾新人者奖:+"&jstl&"个金币!</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+		sayyq="<bgsound src=wav/xinshou.wav loop=1><font color=#000000>【照顾新手】</font><b><font color=red>有新朋友来『快乐江湖』了，站长说：介绍朋友来、照顾新人者奖:+"&jstl&"个金币!</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case 38,2
 '星期值*1000+小时值*100+分钟，星期五晚19点50则为6*10000+19*100+50=61950，星期五晚20:00则为6*10000+20*100+0=62000
 	if weekdate=7 and sjz<72030 then

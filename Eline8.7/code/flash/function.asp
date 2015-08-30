@@ -318,7 +318,7 @@ Public Function AdminMsgOut(Msg,href,mode)
 		response.write"<table border=""0""  bordercolor=""#111111"" width=""96%"" id=""AutoNumber1"" align=""center"">"
 		response.write"<tr><td width=""100%"" bgcolor=""#b0bcd0"" style=""border: 1px solid #002468"">"
 		response.write"<table border=""0""  bordercolor=""#111111"" width=""100%"" cellspacing=""0"" cellpadding=""2"" align=""center"">"
-		response.write"<tr><td width=""50%"">E线江湖总站----Flash动画频道</td><td width=""50%"" align=""right""> 程序/美工:一线天</td>"
+		response.write"<tr><td width=""50%"">快乐江湖总站----Flash动画频道</td><td width=""50%"" align=""right""> 程序/美工:回首当年</td>"
 		response.write"</tr></table>"
 		response.write"</td></tr></table>"
 '		Response.Write "<html><meta http-equiv=Content-Type content=text/html; charset=gb2312><head><meta' http-equiv=""Content-Type"" content=""text/html; charset=gb2312""></head>"

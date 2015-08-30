@@ -12,7 +12,7 @@ if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 %>
 <html>
 <head>
-<title>E线江湖-武林大会♀wWw.51eline.com♀</title>
+<title>快乐江湖-武林大会♀wWw.happyjh.com♀</title>
 <style type="text/css">
 td { font-family: 宋体; font-size: 9pt }
 body         { font-family: 宋体; font-size: 9pt;

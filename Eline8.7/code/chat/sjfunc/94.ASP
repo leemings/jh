@@ -1,6 +1,6 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
 <!--#include file="sjfunc.asp"-->
-<%'ËÍÒø±Ò¡âwWw.51eline.com¡â
+<%'ËÍÒø±Ò¡âwWw.happyjh.com¡â
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"

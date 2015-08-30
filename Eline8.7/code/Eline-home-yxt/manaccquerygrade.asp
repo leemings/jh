@@ -7,7 +7,7 @@ if session("sjjh_adminok")<>true then Response.Redirect "../chat/readonly/bomb.h
 if info(5)<>"官府" and info(2)<10 or info(0)<>Application("sjjh_admin") then Response.Redirect "manerr.asp?id=242"
 %><html>
 <head>
-<title>帐号管理♀wWw.51eline.com♀</title>
+<title>帐号管理♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="../chat/READONLY/STYLE.CSS">
 </head>

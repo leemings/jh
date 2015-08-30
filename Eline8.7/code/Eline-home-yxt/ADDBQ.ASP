@@ -13,7 +13,7 @@ conn.open Application("sjjh_usermdb")
 %>
 <html>
 <head>
-<title>装备添加♀wWw.51eline.com♀</title>
+<title>装备添加♀wWw.happyjh.com♀</title>
 <link rel="stylesheet" href="../setup.css">
 <script LANGUAGE="JavaScript">
 <!--

@@ -27,7 +27,7 @@ sex=rs("ÐÔ±ð")%>
 <head>
 <LINK 
 href="../css.css" rel=stylesheet>
-<title><%=title%>¡âwWw.51eline.com¡â</title>
+<title><%=title%>¡âwWw.happyjh.com¡â</title>
 </head>
 
 <body bgcolor="<%=bgcolor%>" text="<%=textcolor%>" link="<%=linkcolor%>">

@@ -32,7 +32,7 @@ end if
 %>
 <html>
 <head>
-<title>六合彩♀wWw.51eline.com♀</title>
+<title>六合彩♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="chat/READONLY/Style.css">
 <script language="JavaScript">
@@ -170,7 +170,7 @@ end if
 今日中大奖的用户是<%=ren%>,中奖金额可有<%=jin%>大洋哟!! 
 <%end if%>
 </font><font color="#FFFFFF"> </font> </p>
-<p align=center><font style=font-size:9pt color=#000000>E线江湖</font></p>
+<p align=center><font style=font-size:9pt color=#000000>快乐江湖</font></p>
 </body>
 </html>
 <%

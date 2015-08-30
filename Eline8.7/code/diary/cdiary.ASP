@@ -97,7 +97,7 @@ conn.close
 set conn=nothing
 %>
 <html>
-<title>日记书写成功！♀wWw.51eline.com♀</title>
+<title>日记书写成功！♀wWw.happyjh.com♀</title>
 <body background="../bgcheetah.gif">
 <table border=1 bgcolor="#BEE0FC" align=center width=336 cellpadding="10" cellspacing="13" height="293">
 <tr valign="top">

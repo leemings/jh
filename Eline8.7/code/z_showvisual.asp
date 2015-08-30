@@ -66,7 +66,7 @@ end sub
 
 %>
 <%
-'::一线网络www.51eline.com::%>
+'::一线网络www.happyjh.com::%>
 <DIV style='padding:0;position:absolute;top:-235;left:-1;'>
 <table border="1" width="140" cellspacing="0" cellpadding="0" bgcolor="#e7deed" height="230" align="center" bordercolorlight="#ccccff" bordercolordark="#333333">
   <tr> 

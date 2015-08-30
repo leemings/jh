@@ -84,7 +84,7 @@ set conn=nothing
 <br><br>
             <font color="#0000FF"><%=application("sjjh_chatroomname")%></font>之<font color="#FF0000">周公解梦</font></P>
         </BLOCKQUOTE>
-        <P align=center>『E线江湖』&#8482; 2003-2004<br><br><br>
+        <P align=center>『快乐江湖』&#8482; 2003-2004<br><br><br>
         </P>
       </TD><TD align=middle width=8 bgColor=#808080></TD></TR>
 <TR style="FONT-SIZE: 3pt" align=middle><TD width=16 height=8></TD><TD bgColor=#808080 height=8></TD>

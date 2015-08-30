@@ -9,7 +9,7 @@ if sjjh_name="" then Response.Redirect "../../error.asp?id=440"
 %>
 <html>
 <head>
-<title>E线江湖美容院♀wWw.51eline.com♀</title>
+<title>快乐江湖美容院♀wWw.happyjh.com♀</title>
 <meta content="text/html; charset=gb2312" http-equiv="Content-Type">
 <meta content="zh-cn" http-equiv="Content-Language">
 <meta content="Microsoft FrontPage 4.0" name="GENERATOR">

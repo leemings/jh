@@ -6,7 +6,7 @@ Response.Expires = 0
 %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <!-- saved from url=(0032)http://mforest.17173.com/top.htm -->
-<HTML><HEAD><TITLE>≮E线江湖≯- www.51eline.com</TITLE>
+<HTML><HEAD><TITLE>≮快乐江湖≯- www.happyjh.com</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=gb2312">
 <%
 sjjh_name=Session("sjjh_name")
@@ -56,16 +56,16 @@ MM_reloadPage(true);
 <TABLE class=font cellSpacing=0 cellPadding=0 width=100 border=0>
   <TBODY>
   <TR>
-    <TD><IMG height=44 src="51eline.com/top.files/index_01.jpg" width=388></TD>
-    <TD><IMG height=44 src="51eline.com/top.files/index_02.jpg" 
+    <TD><IMG height=44 src="happyjh.com/top.files/index_01.jpg" width=388></TD>
+    <TD><IMG height=44 src="happyjh.com/top.files/index_02.jpg" 
 width=387></TD></TR></TBODY></TABLE>
 <TABLE class=font cellSpacing=0 cellPadding=0 width=293 border=0>
   <TBODY>
   <TR>
-    <TD width=50><IMG height=148 src="51eline.com/top.files/index_03.jpg" width=50></TD>
+    <TD width=50><IMG height=148 src="happyjh.com/top.files/index_03.jpg" width=50></TD>
     <TD width=429>
       <TABLE height=148 cellSpacing=0 cellPadding=0 width=429 
-      background=51eline.com/top.files/index_04.jpg border=0>
+      background=happyjh.com/top.files/index_04.jpg border=0>
         <TBODY>
         <TR>
           <TD>
@@ -73,23 +73,23 @@ width=387></TD></TR></TBODY></TABLE>
             codeBase=http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0 
             height=148 width=429 
             classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000>
-                    <PARAM NAME="movie" VALUE="51eline.com/top.files/banner.swf"><PARAM NAME="quality" VALUE="high"><PARAM NAME="wmode" VALUE="transparent">
+                    <PARAM NAME="movie" VALUE="happyjh.com/top.files/banner.swf"><PARAM NAME="quality" VALUE="high"><PARAM NAME="wmode" VALUE="transparent">
                                                                             
-            <embed src="51eline.com/top.files/banner.swf" quality=high 
+            <embed src="happyjh.com/top.files/banner.swf" quality=high 
             pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" 
             type="application/x-shockwave-flash" width="429" height="148" 
             wmode="transparent">                 </embed> 
       </OBJECT></TD></TR></TBODY></TABLE></TD>
-    <TD width=246><IMG height=148 src="51eline.com/top.files/index_05.jpg" width=246></TD>
-    <TD width=8><IMG height=148 src="51eline.com/top.files/index_06.jpg" 
+    <TD width=246><IMG height=148 src="happyjh.com/top.files/index_05.jpg" width=246></TD>
+    <TD width=8><IMG height=148 src="happyjh.com/top.files/index_06.jpg" 
   width=50></TD></TR></TBODY></TABLE>
 <TABLE cellSpacing=0 cellPadding=0 width=457 border=0>
   <TBODY>
   <TR>
-    <TD width=50><IMG height=96 src="51eline.com/top.files/index_07.jpg" width=50></TD>
+    <TD width=50><IMG height=96 src="happyjh.com/top.files/index_07.jpg" width=50></TD>
     <TD width=675>
       <TABLE class=font height=96 cellSpacing=0 cellPadding=0 width=675 
-      background=51eline.com/top.files/index_08.jpg border=0>
+      background=happyjh.com/top.files/index_08.jpg border=0>
         <TBODY>
         <TR>
                 <TD><FONT color=#009300>| <A 
@@ -112,5 +112,5 @@ width=387></TD></TR></TBODY></TABLE>
 			<a href="#"onClick="window.open('hunyin/killer.asp','','scrollbars=no,resizable=no,width=700,height=400')">聘请杀手</A> | 
 			<a href="exit.asp" title=安全离开江湖 style="text-decoration: none">离开江湖</A> |</FONT></TD>
               </TR></TBODY></TABLE></TD>
-    <TD width=10><IMG height=96 src="51eline.com/top.files/index_09.jpg" 
+    <TD width=10><IMG height=96 src="happyjh.com/top.files/index_09.jpg" 
   width=50></TD></TR></TBODY></TABLE></DIV></BODY></HTML>

@@ -59,7 +59,7 @@ else
               <TR>
                     <TD width="2%"><IMG height=69 
                   src="images/down_t2.gif" width=124></TD>
-                    <TD align=middle width="95%"><a href="http://www.51eline.com" target="_blank"></a> 
+                    <TD align=middle width="95%"><a href="http://www.happyjh.com" target="_blank"></a> 
                     </TD>
                   </TR></TBODY></TABLE></TD>
           <tr> 

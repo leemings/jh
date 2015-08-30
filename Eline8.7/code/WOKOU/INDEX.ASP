@@ -11,7 +11,7 @@ sjjh_jhdj=Session("sjjh_jhdj")
 if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD><TITLE>『E线江湖』-抗击倭寇♀wWw.51eline.com♀</TITLE>
+<HTML><HEAD><TITLE>『快乐江湖』-抗击倭寇♀wWw.happyjh.com♀</TITLE>
 <META content="text/html; charset=gb2312" http-equiv=Content-Type><LINK 
 href="css.css" rel=stylesheet>
 <META content="Microsoft FrontPage 4.0" name=GENERATOR></HEAD>

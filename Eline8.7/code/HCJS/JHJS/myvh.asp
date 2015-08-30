@@ -95,7 +95,7 @@ set conn=nothing
 警    告：进入公告要是写得太无聊或无耻的话监禁ID或删ID没商量，请大家文明用语！</font>  
 <br><br><DIV align=center> 
 <font color="#FF00FF" size=4><a href="#" onClick="window.open('vehicle.asp',target='_self')"  title="去购买各式各样的交通工具">点击这儿返回[交通工具专卖店]页面</a></font><br><br> 
-<font color="#ff00ff" size=4>『E线江湖』</font></div> 
+<font color="#ff00ff" size=4>『快乐江湖』</font></div> 
 </body> 
 </html> 
 <script language=javascript> 

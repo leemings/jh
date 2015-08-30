@@ -34,7 +34,7 @@ else
 <HTML>
 <HEAD>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<TITLE>『E线江湖』</TITLE>
+<TITLE>『快乐江湖』</TITLE>
 <SCRIPT LANGUAGE=JavaScript>
 <!--
 id=70;

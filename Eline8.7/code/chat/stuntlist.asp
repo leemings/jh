@@ -5,7 +5,7 @@ if chatbgcolor="" then chatbgcolor="008888"
 %>
 <html>
 <head>
-<title>特技列表♀wWw.51eline.com♀</title>
+<title>特技列表♀wWw.happyjh.com♀</title>
 <style type="text/css">
 <!--body {CURSOR: url('3.ani');font-size: 9pt}a:link {  text-decoration: none}a:hover {  text-decoration: underline}-->
 </style>

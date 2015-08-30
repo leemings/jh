@@ -29,7 +29,7 @@ width=23 border=0><BR>
 <DIV style="BORDER-RIGHT: #808080 1px solid; BORDER-TOP: #808080 1px solid; LEFT: 68px; BORDER-LEFT: #808080 1px solid; WIDTH: 346px; BORDER-BOTTOM: #808080 1px solid; POSITION: absolute; TOP: 10px; HEIGHT: 200px; BACKGROUND-COLOR: #ffffff">
 <BR>&nbsp;&nbsp;
 <FONT style="FONT-SIZE: 10pt" face=宋体 color=#0000ff>
-<B>每日一贴 － E线江湖</B></FONT><br><br>
+<B>每日一贴 － 快乐江湖</B></FONT><br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 你知道吗? 
 <HR style="POSITION: relative; TOP: 10px" SIZE=1>
 <SPAN id=mtxt style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 9pt; PADDING-BOTTOM: 10px; OVERFLOW: auto; WIDTH: 100%; PADDING-TOP: 15px; FONT-FAMILY: Arial; POSITION: relative; TOP: 1px; HEIGHT: 118px"></SPAN></DIV>

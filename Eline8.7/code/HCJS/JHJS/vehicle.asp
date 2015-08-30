@@ -62,7 +62,7 @@ set conn=nothing
 </div>
 <div align="center">
 <br><font color="#FF00FF" size=4><a href="myvh.asp" target="_self"  title="装备交通工具及定制进入退出聊天室公告">点击这儿进入[装备座驾]页面</a></font><br><br>
-<font color="#ff00ff" size=4>E线江湖</font></div>
+<font color="#ff00ff" size=4>快乐江湖</font></div>
 
 </div>
 </body>

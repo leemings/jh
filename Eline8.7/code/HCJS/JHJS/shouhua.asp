@@ -19,7 +19,7 @@ window.close()
 end if%>
 <html>
 <head>
-<title><%=Application("sjjh_chatroomname")%>鲜花收购处♀wWw.51eline.com♀</title>
+<title><%=Application("sjjh_chatroomname")%>鲜花收购处♀wWw.happyjh.com♀</title>
 <link rel="stylesheet" href="../../css.css">
 </head>
 <body bgcolor="#FFFFFF" leftmargin="0" topmargin="7">
@@ -138,6 +138,6 @@ end sub
 </td> 
 </tr> 
 </table> 
-<br>版权：『E线江湖』&#8482;　版本：ELINE 7.0.0　站长：一线天</div>
+<br>版权：『快乐江湖』&#8482;　版本：ELINE 7.0.0　站长：回首当年</div>
 </body>
 </html>

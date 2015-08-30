@@ -12,7 +12,7 @@ if sjjh_name="" then Response.Redirect "../../error.asp?id=440"
 %>
 <html>
 <head>
-<title>E线江湖鲜花店♀wWw.51eline.com♀</title>
+<title>快乐江湖鲜花店♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 </head>
 <body bgcolor="#FFFFFF" text="#000000" background="huaimg/bg.gif" topmargin="0">

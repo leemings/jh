@@ -2,7 +2,7 @@
 <!--#include file="const.asp"-->
 <html><head>
 <META http-equiv=Content-Type content=text/html; charset=gb2312>
-<meta name=keywords content="『E线江湖』股票市场">
+<meta name=keywords content="『快乐江湖』股票市场">
 <title><%=Gupiao_Setting(5)%>-<%=membername%></title>
 <!--#include file="css.asp"-->
 </head><body bgcolor="#ffffff" text="#000000" style="FONT-SIZE: 9pt" topmargin=5 leftmargin=0 oncontextmenu=self.event.returnValue=false>

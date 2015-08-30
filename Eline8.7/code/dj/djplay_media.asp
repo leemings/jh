@@ -10,7 +10,7 @@ sjjh_name=Session("sjjh_name")
 sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if session("sjjh_name")="" then 
-	Response.Write "<script Language=Javascript>top.location.href='http://www.51eline.com';alert('提示：对不起，您还没有登陆江湖！');</script>"
+	Response.Write "<script Language=Javascript>top.location.href='http://www.happyjh.com';alert('提示：对不起，您还没有登陆江湖！');</script>"
 	Response.End
 end if
 if request("songid")<>"" then
@@ -52,7 +52,7 @@ alert("干你妈啦！吓看你妈了逼啊！再看整死你！草你妈的！");top.location="";
 </script>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>E线江湖总站→DJ舞吧→舞曲视听</title>
+<title>快乐江湖总站→DJ舞吧→舞曲视听</title>
 <style type=text/css>
 .font1  { color:red; }
 body, td, p  { font-size:12px; }

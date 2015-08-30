@@ -26,7 +26,7 @@ session("advtime")=now()
 %>
 <html>
 <head>
-<title>站长发放操作♀一线网络→wWw.51eline.com♀</title>
+<title>站长发放操作♀一线网络→wWw.happyjh.com♀</title>
 <style>
 body{
 scrollbar-track-color:#ffffff;

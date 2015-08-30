@@ -13,14 +13,14 @@ rs.open "SELECT * FROM r",conn
 '江湖系统设置不要修改，否则江湖会不正常运行！
 '购买[E线江湖 V8.7极限版]请联系QQ:249357828！
 Application("sjjh_chatroomname")="快乐江湖"
-Application("sjjh_homepage")="http://www.51eline.com"
+Application("sjjh_homepage")="http://www.happyjh.com"
 Application("sjjh_sn")="HAPPY-20150901-080700"
 Application("sjjh_user")="回首当年"
 Application("sjjh_copyright")="『回首当年』"
 Application("sjjh_ver")="HAPPY_V8.7.0"
 Application("sjjh_softuser")=-63617
 Application("sjjh_softjm")=-28972
-Application("sjjh_tltie")="☆★欢迎来到"&Application("sjjh_chatroomname")&"总站！本站永久地址:51eline.com★☆("&Application("sjjh_user")&")"
+Application("sjjh_tltie")="☆★欢迎来到"&Application("sjjh_chatroomname")&"总站！本站永久地址:happyjh.com★☆("&Application("sjjh_user")&")"
 Application("sjjh_DoReflashPage")=false
 rs.close
 set rs=nothing 

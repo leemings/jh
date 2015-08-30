@@ -2,7 +2,7 @@
 <HTML>
 <HEAD>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<TITLE>E线江湖-抗击倭寇</TITLE>
+<TITLE>快乐江湖-抗击倭寇</TITLE>
 <SCRIPT LANGUAGE=JavaScript>
 <!--
 

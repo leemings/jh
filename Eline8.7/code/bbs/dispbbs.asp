@@ -892,7 +892,7 @@ if Dispbbs_plus_ads<>"" then
 response.write "<hr size=1 color=#739ace>" & "<br>"
 response.write Dispbbs_plus_ads
 else
-Dispbbs_plus_ads="<a href=""http://www.51eline.com"" target=""_blank""><img src=""tiejian.jpg"" alt=""全力打造精彩江湖与论坛！"" border=""0""></a>"
+Dispbbs_plus_ads="<a href=""http://www.happyjh.com"" target=""_blank""><img src=""tiejian.jpg"" alt=""全力打造精彩江湖与论坛！"" border=""0""></a>"
 response.write "<hr size=1 color=#739ace>" & "<br>"
 response.write Dispbbs_plus_ads
 end if

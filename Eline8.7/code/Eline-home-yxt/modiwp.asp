@@ -22,10 +22,10 @@ else
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <link rel="stylesheet" href="setup.css">
-<title>『E线江湖』物品修改♀wWw.51eline.com♀</title></head>
+<title>『快乐江湖』物品修改♀wWw.happyjh.com♀</title></head>
 
 <body text="#000000" background="../jhimg/bk_hc3w.gif" link="#0000FF" vlink="#0000FF" alink="#0000FF">
-<p align="center"><font size="2" color="#000000">『E线江湖』物品修改程序！<br>
+<p align="center"><font size="2" color="#000000">『快乐江湖』物品修改程序！<br>
   对于物品修改，需要注意不要乱修改，否则会引起数据库的出错！<br>
   建议在修改之前作备份！ </font></p>
 <form method="post" action="modiwpok.asp">

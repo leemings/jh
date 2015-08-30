@@ -23,7 +23,7 @@ set conn=nothing
 %>
 <html>
 <link rel="stylesheet" href="../../css.css">
-<title>娱乐金币♀wWw.51eline.com♀</title>
+<title>娱乐金币♀wWw.happyjh.com♀</title>
 <body leftmargin="0" topmargin="0" bgcolor="#CCCCCC" background="../chat/back.jpg">
 <div align="center"><font color="#000000"><b>欢迎<font color=blue><%=sjjh_name%></font>光临娱乐金币转换处！</b></font></div>
 <br>

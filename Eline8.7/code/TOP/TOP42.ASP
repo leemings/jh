@@ -12,7 +12,7 @@ if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 %><html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>金童排行♀wWw.51eline.com♀</title>
+<title>金童排行♀wWw.happyjh.com♀</title>
 <meta name="GENERATOR" content="Microsoft FrontPage 3.0">
 <style type="text/css">
 <!--

@@ -2,7 +2,7 @@
 <!--#include file="../../mywp.asp"-->
 <!--#include file="sjfunc.asp"-->
 <!--#include file="func.asp"-->
-<%'Ö´ÐÐ¡âwWw.51eline.com¡â
+<%'Ö´ÐÐ¡âwWw.happyjh.com¡â
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"

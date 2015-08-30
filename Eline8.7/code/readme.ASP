@@ -44,23 +44,23 @@ a:hover{color:red;text-decoration:none;}
       <table width="100%" border="0" cellspacing="2" cellpadding="3">
 	  <tr> 
           <td width="15%"><div align="center"><font color="#00FF00">江湖名称</font></div></td>
-          <td width="85%"><font color="#FFFFFF">『E线江湖』</font></td>
+          <td width="85%"><font color="#FFFFFF">『快乐江湖』</font></td>
         </tr>
 		<tr> 
           <td width="15%"><div align="center"><font color="#00FF00">江湖地址</font></div></td>
-          <td width="85%"><a href="http://51eline.com" target="_blank"><font color="#FFFFFF">http://51eline.com</font></a></td>
+          <td width="85%"><a href="http://happyjh.com" target="_blank"><font color="#FFFFFF">http://happyjh.com</font></a></td>
         </tr>
 		<tr> 
           <td width="15%"><div align="center"><font color="#00FF00">论坛地址</font></div></td>
-          <td width="85%"><a href="http://bbs.51eline.com" target="_blank"><font color="#FFFFFF">http://bbs.51eline.com</font></a></td>
+          <td width="85%"><a href="http://bbs.happyjh.com" target="_blank"><font color="#FFFFFF">http://bbs.happyjh.com</font></a></td>
         </tr>
         <tr> 
           <td width="15%"><div align="center"><font color="#00FF00">江湖站长</font></div></td>
-          <td width="85%"><font color="#FFFFFF">一线天</font></td>
+          <td width="85%"><font color="#FFFFFF">回首当年</font></td>
         </tr>
         <tr> 
           <td width="15%"><div align="center"><font color="#00FF00">江湖程序</font></div></td>
-          <td width="85%"><font color="#FFFFFF">由一线天独立改版美化.使用权归一线天个人所有.</font></td>
+          <td width="85%"><font color="#FFFFFF">由回首当年独立改版美化.使用权归回首当年个人所有.</font></td>
         </tr>
         <tr> 
           <td width="15%"><div align="center"><font color="#00FF00">开通日期</font></div></td>
@@ -399,7 +399,7 @@ a:hover{color:red;text-decoration:none;}
         </tr>
 		<tr>
           <td width="15%"><font color="#00CC00">2003-05-21</font></td>
-          <td width="85%"><font color="#FFFFFF">聊天室界面全面改版，塑造『E线江湖』特有风格</font></td>
+          <td width="85%"><font color="#FFFFFF">聊天室界面全面改版，塑造『快乐江湖』特有风格</font></td>
         </tr>
 		<tr>
           <td width="15%" valign="top"><font color="#00CC00">2003-05-24</font></td>
@@ -579,7 +579,7 @@ a:hover{color:red;text-decoration:none;}
           <td width="15%" valign="top"><font color="#00CC00">2003-07-22</font></td>
           <td width="85%"><table width="100%" border="0" cellspacing="0" cellpadding="3">
               <tr>
-                <td><font color="#FFFFFF">应不少朋友的要求，E线江湖7.8.0提供下载，包含现有江湖的大部分功能
+                <td><font color="#FFFFFF">应不少朋友的要求，快乐江湖7.8.0提供下载，包含现有江湖的大部分功能
 
 </font></td>
               </tr>
@@ -685,7 +685,7 @@ a:hover{color:red;text-decoration:none;}
           <td width="15%" valign="top"><font color="#00CC00">2003-08-22</font></td>
           <td width="85%"><table width="100%" border="0" cellspacing="0" cellpadding="3">
               <tr>
-                <td><font color="#FFFFFF">完成E线江湖主页第三版（清新靓丽）的制作
+                <td><font color="#FFFFFF">完成快乐江湖主页第三版（清新靓丽）的制作
 </font></td>
               </tr>
             </table></td>
@@ -776,7 +776,7 @@ a:hover{color:red;text-decoration:none;}
         3.不允许在江湖中拉人</font> <font color="#FFFFFF">...... 最好不要在江湖中谈论其他的江湖(特别是站长禁止的网址)<br>
         <font color="#FFFF00">上面这些基本上是会立即被系统自动踢出的.</font></font><br>
         <font color="#FFFFFF">4.其他的最好是不要威胁恐吓站长.在聊天室中别人至少有几百种方法让你倒霉.<br>
-        5.不要试图做不该做的事.访问系统管理页面或进行破坏.『E线江湖』的这些地方都设置了炸弹保护.悠着点.</font> <br>
+        5.不要试图做不该做的事.访问系统管理页面或进行破坏.『快乐江湖』的这些地方都设置了炸弹保护.悠着点.</font> <br>
         <font color="#FFFFFF">6.做官府的管理员一定要尽职尽责.公正无私.每个管理员的操作都会被记录在管理日志中.供大家临督.<br>
         7.官府人员只管理刷屏、骂人.及违反中国有关互联网规定的对象.可以使用警告、逮捕、封锁IP的手段制止恶意捣乱的行为的发生.</font> <font color="#FFFFFF"><br>
         8.官府人员不得参与江湖恩怨.不可以偏向任何一方.只要没有捣乱行为出现.杀人的事情一般不应过问——滥杀新手除外.欺负新朋友的人一定要加以惩罚！</font> 

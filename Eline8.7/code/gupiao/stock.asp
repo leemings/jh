@@ -2,7 +2,7 @@
 <!--#include file="const.asp"-->
 <html><head>
 <META http-equiv=Content-Type content=text/html; charset=gb2312>
-<meta name=keywords content="『E线江湖』股票市场">
+<meta name=keywords content="『快乐江湖』股票市场">
 <META HTTP-EQUIV="luxiaoqing" CONTENT="no-cache">
 <meta http-equiv="refresh" content="<%=Gupiao_Setting(1)%>">
 <title><%=Gupiao_Setting(5)%>-<%=membername%></title>
@@ -480,7 +480,7 @@ end if
 	<tr>  
 		<td  height=32 background="images/footer.gif" valign=top>
 			<table border=0 width="100%" cellspacing=0 cellpadding=5 bordercolorlight="#ffffff" bordercolordark="#ffffff">
-				<tr valign="bottom"><td id="clock" width="185" align="left">欢迎你</td><td width="*" id="CopyRight" align="center">程序修改：一线天</td><td width="170" align="right">页面执行时间：<%=FormatNumber((timer()-startime)*1000,3)%>毫秒</td></tr>
+				<tr valign="bottom"><td id="clock" width="185" align="left">欢迎你</td><td width="*" id="CopyRight" align="center">程序修改：回首当年</td><td width="170" align="right">页面执行时间：<%=FormatNumber((timer()-startime)*1000,3)%>毫秒</td></tr>
 			</table>	
 		</td>
 	</tr>

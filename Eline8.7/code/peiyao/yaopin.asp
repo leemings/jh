@@ -11,7 +11,7 @@ if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 %>
 <html>
 <head>
-<title>配置药材♀wWw.51eline.com♀</title>
+<title>配置药材♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="style.css">
 </head>

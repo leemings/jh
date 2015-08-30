@@ -13,7 +13,7 @@ end if
 %>
 <html>
 <head>
-<title>★E线江湖总站-Flash频道☆</title>
+<title>★快乐江湖总站-Flash频道☆</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <meta name="author" content="Thirdsnow;Email:eline_email@etang.com;QQ:88617427">
 <link rel="stylesheet" href="index2.css" type="text/css">

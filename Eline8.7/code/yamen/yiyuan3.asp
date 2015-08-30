@@ -12,7 +12,7 @@ if sjjh_name="" then Response.Redirect "../error.asp?id=210"
 %>
 <html>
 <head>
-<title><%=Application("sjjh_chatroomname")%>医院♀wWw.51eline.com♀</title>
+<title><%=Application("sjjh_chatroomname")%>医院♀wWw.happyjh.com♀</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <style type="text/css">td           { font-family: 宋体; font-size: 9pt }
 body         { font-family: 宋体; font-size: 9pt }

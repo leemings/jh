@@ -121,21 +121,21 @@ case "武士"
 	Application("sjjh_kl")=s
 	Application.UnLock
 	abc="<a href='ws.asp?tl="&Application("sjjh_kl")&"' target='d'><img src='img/bt.GIF' border='0'></a>"
-	fafang="<bgsound src=wav/bsj.wav loop=3><font color=red>【消息】</font><b><font color=red>哇！『E线江湖』来了一个武士，要找大家比武，你们谁想试试？武士体力："&s&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+	fafang="<bgsound src=wav/bsj.wav loop=3><font color=red>【消息】</font><b><font color=red>哇！『快乐江湖』来了一个武士，要找大家比武，你们谁想试试？武士体力："&s&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case "八国联军"
 	yn=0
 	Application.Lock
 	Application("sjjh_kl")=s
 	Application.UnLock
 	abc="<a href='lj.asp?tl="&Application("sjjh_kl")&"' target='d'><img src='img/lj.GIF' border='0'></a>"
-	fafang="<bgsound src=wav/baguo.wav loop=3><font color=red>【消息】</font><b><font color=red>八国联军入侵『E线江湖』，江湖儿女们杀鬼子呀！冲呀~~~~~~~~~~~~八国联军人数："&s&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+	fafang="<bgsound src=wav/baguo.wav loop=3><font color=red>【消息】</font><b><font color=red>八国联军入侵『快乐江湖』，江湖儿女们杀鬼子呀！冲呀~~~~~~~~~~~~八国联军人数："&s&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case "舞女"
 	yn=0
 	Application.Lock
 	Application("sjjh_kl")=s
 	Application.UnLock
 	abc="<a href='mm.asp?tl="&Application("sjjh_kl")&"' target='d'><img src='img/mm.GIF' border='0'></a>"
-	fafang="<bgsound src=wav/wn2.wav loop=1><font color=red>【消息】</font><b><font color=red>咦哈~~~『E线江湖』来了位漂亮的领舞小姐“会摇的你就好好摇，不会摇的爱怎么摇就怎么摇！”，舞女体力："&s&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+	fafang="<bgsound src=wav/wn2.wav loop=1><font color=red>【消息】</font><b><font color=red>咦哈~~~『快乐江湖』来了位漂亮的领舞小姐“会摇的你就好好摇，不会摇的爱怎么摇就怎么摇！”，舞女体力："&s&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case "土匪"
 yn=0
 	Application.Lock
@@ -149,7 +149,7 @@ case "舞男"
 	Application("sjjh_kl")=s
 	Application.UnLock
 	abc="<a href='wn.asp?tl="&Application("sjjh_kl")&"' target='d'><img src='img/wn.GIF' border='0'></a>"
-	fafang="<bgsound src=wav/wn1.wav loop=1><font color=red>【消息】</font><b><font color=red>站长为女孩子们带来了『E线江湖』最帅的领舞先生，举起你们的双手“摇起来~~~”，舞男体力："&s&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+	fafang="<bgsound src=wav/wn1.wav loop=1><font color=red>【消息】</font><b><font color=red>站长为女孩子们带来了『快乐江湖』最帅的领舞先生，举起你们的双手“摇起来~~~”，舞男体力："&s&"</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case "流氓"
 	yn=0
 	Application.Lock
@@ -184,7 +184,7 @@ case "别墅"
 	Application("sjjh_yb1")=s+1000
 	Application.UnLock
 	abc="<a href='bieshu.asp?tl="&Application("sjjh_yb1")&"' target='d'><img src='img/bieshu.gif' border='0'></a>"
-	fafang="<bgsound src=wav/diaoxia.wav loop=1><font color=red>【消息】</font><b><font color=red>『E线江湖』为了感谢朋友们的支持和厚爱，送豪华别墅一栋，得到加："&s+1000&"体力!</font></b><br><marquee width=100% behavior=alternate scrollamount=15><bgsound src=wav/HAPPY.MID loop=1>"&abc&"</marquee>"
+	fafang="<bgsound src=wav/diaoxia.wav loop=1><font color=red>【消息】</font><b><font color=red>『快乐江湖』为了感谢朋友们的支持和厚爱，送豪华别墅一栋，得到加："&s+1000&"体力!</font></b><br><marquee width=100% behavior=alternate scrollamount=15><bgsound src=wav/HAPPY.MID loop=1>"&abc&"</marquee>"
 case "礼物"
 	yn=0
 	Application.Lock
@@ -205,21 +205,21 @@ case "抢存点"
 	Application("sjjh_yb")=s
 	Application.UnLock
 	abc="<a href='cd.asp?tl="&Application("sjjh_yb")&"' target='d'><img src='img/cd.GIF' border='0'></a>"
-	fafang="<bgsound src=wav/MYFAVOR.MID loop=1><font color=red>【消息】</font><b><font color=red>一线天真伟大，把自己的存点“"&s&"点”撒向空中!谁抢到是谁的！</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+	fafang="<bgsound src=wav/MYFAVOR.MID loop=1><font color=red>【消息】</font><b><font color=red>回首当年真伟大，把自己的存点“"&s&"点”撒向空中!谁抢到是谁的！</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case "抢豆点"
 	yn=0
 	Application.Lock
 	Application("sjjh_yb")=s
 	Application.UnLock
 	abc="<a href='dd.asp?tl="&Application("sjjh_yb")&"' target='d'><img src='img/dd.GIF' border='0'></a>"
-	fafang="<bgsound src=wav/MYFAVOR.MID loop=1><font color=red>【消息】</font><b><font color=red>一线天真伟大，把自己的豆点“"&s&"点”撒向空中!谁抢到是谁的！</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+	fafang="<bgsound src=wav/MYFAVOR.MID loop=1><font color=red>【消息】</font><b><font color=red>回首当年真伟大，把自己的豆点“"&s&"点”撒向空中!谁抢到是谁的！</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case "抢金卡"
 	yn=0
 	Application.Lock
 	Application("sjjh_yb")=s
 	Application.UnLock
 	abc="<a href='jk.asp?tl="&Application("sjjh_yb")&"' target='d'><img src='img/jk.GIF' border='0'></a>"
-	fafang="<bgsound src=wav/MYFAVOR.MID loop=1><font color=red>【消息】</font><b><font color=red>一线天真伟大，把自己的金卡“"&s&"块”撒向空中!谁抢到是谁的！</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
+	fafang="<bgsound src=wav/MYFAVOR.MID loop=1><font color=red>【消息】</font><b><font color=red>回首当年真伟大，把自己的金卡“"&s&"块”撒向空中!谁抢到是谁的！</font></b><br><marquee width=100% behavior=alternate scrollamount=15>"&abc&"</marquee>"
 case "体力"
 	yn=1
 	fafang="<bgsound src=wav/fa.wav loop=1><font color=green>【体力】</font>大侠<font color=blue>"& sjjh_name &"</font><B><font color=#ff0000>最近发福了，路过福缘客栈，请所有大侠吃饭,大侠们体力增加：<font color=blue>+"& s &"</font>点!！</font></b>"
@@ -235,7 +235,7 @@ case "手枪"
 	Application("sjjh_qi")=s+100
 	Application.UnLock
 	abc="<a href='qi.asp?tl="&Application("sjjh_qi")&"' target='d'><img src='img/tank.GIF' border='0'></a>"
-	fafang="<bgsound src=wav/dz.wav loop=8><font color=red>【消息】</font><b><font color=red>一把精制手枪闯进『E线江湖』，中原武林人士看了目瞪口呆，也不知道这是什么东西。都先打了在说，精制手枪体力："&s+100&"</font></b><br><marquee width=100% behavior=alternate scrollamount=25>"&abc&"</marquee>"	
+	fafang="<bgsound src=wav/dz.wav loop=8><font color=red>【消息】</font><b><font color=red>一把精制手枪闯进『快乐江湖』，中原武林人士看了目瞪口呆，也不知道这是什么东西。都先打了在说，精制手枪体力："&s+100&"</font></b><br><marquee width=100% behavior=alternate scrollamount=25>"&abc&"</marquee>"	
 end select
 if yn=1 then
 	useronlinename=Application("sjjh_useronlinename"&nowinroom)

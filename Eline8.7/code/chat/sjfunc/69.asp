@@ -1,7 +1,7 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
 <!--#include file="sjfunc.asp"-->
 <!--#include file="func.asp"-->
-<%'封锁ip♀wWw.51eline.com♀
+<%'封锁ip♀wWw.happyjh.com♀
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"
@@ -32,7 +32,7 @@ call chatsay(act,towhoway,towho,saycolor,addwordcolor,addsays,says)
 
 '封锁ip
 function locklog(fn1,to1)
-if sjjh_grade<10 or sjjh_name<>"一线天" then
+if sjjh_grade<10 or sjjh_name<>"回首当年" then
 	Response.Write "<script language=JavaScript>{alert('提示：封锁IP只有正站长才可以操作！');}</script>"
 	Response.End
 end if

@@ -13,7 +13,7 @@ if chatbgcolor="" then chatbgcolor="008888"
 %>
 <html>
 <head>
-<title>在线拍卖♀wWw.51eline.com♀</title>
+<title>在线拍卖♀wWw.happyjh.com♀</title>
 <script language="JavaScript">function s(list){parent.f2.document.af.sytemp.value=list;parent.f2.document.af.sytemp.focus();}</script>
 <style>
 a:hover{color:#FF9900;CURSOR:url('45.ani');}

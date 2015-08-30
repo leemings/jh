@@ -1,10 +1,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<link REL="SHORTCUT ICON" href="51eline.COM 一线视听">
-<meta name="TOJH.COM" content="51eline.COM 一线视听">
-<meta Author="Recall Star"51eline.COM 一线视听">
-<title>51eline.COM 一线视听</title>
+<link REL="SHORTCUT ICON" href="happyjh.com 一线视听">
+<meta name="TOJH.COM" content="happyjh.com 一线视听">
+<meta Author="Recall Star"happyjh.com 一线视听">
+<title>happyjh.com 一线视听</title>
 <link rel=stylesheet href=../images/style.css>
 </head>
 <body bgcolor="#DFFF9D" text="#395500">

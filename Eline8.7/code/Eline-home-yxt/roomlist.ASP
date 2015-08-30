@@ -13,14 +13,14 @@ conn.open Application("sjjh_usermdb")
 %>
 <html>
 <head>
-<title>房间列表♀wWw.51eline.com♀</title>
+<title>房间列表♀wWw.happyjh.com♀</title>
 <style></style>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="setup.css">
 </head>
 
 <body text="#000000" background="../jhimg/bk_hc3w.gif" link="#0000FF" vlink="#0000FF" alink="#0000FF">
-<p align="center"><font color="#0000FF">『E线江湖』房间列表</font><br>
+<p align="center"><font color="#0000FF">『快乐江湖』房间列表</font><br>
   <br>
   显示：0则表示允许，1则表示禁止，只有主站长可以修改资料以上资料,<br>
   修改完成需服务器重启或将虚拟目录文件：global.asa改名再改回来才会生效！ </p>

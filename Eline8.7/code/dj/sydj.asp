@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>E线江湖总站___DJ舞吧</title>
+<title>快乐江湖总站___DJ舞吧</title>
 
 <meta http-equiv="Content-Type" content="text/html;">
 

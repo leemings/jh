@@ -19,7 +19,7 @@ rs.open "select * from b where b='卡片' and h>0 order by h"
 %>
 <html>
 <head>
-<title>会员卡片♀wWw.51eline.com♀</title>
+<title>会员卡片♀wWw.happyjh.com♀</title>
 <link rel="stylesheet" href="../../chat/READONLY/Style.css">
 </head>
 <body bgcolor=#FFFFFF background="../bgcheetah.gif" text="#000000">

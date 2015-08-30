@@ -86,7 +86,7 @@ end if
 <span id="liveclock" style="position: absolute; left: 196; top: 139; width: 76; height: 29"> 
 <div align="center"><font color="#FFFFFF" size="2">消耗内力: <%=abc%></font> </div>
 </span> 
-<div id="Layer5" style="position:absolute; width:262px; height:21px; z-index:6; left: 119px; top: 382px"><font color="#FFFFFF" size="2">『E线江湖』&copy;版权所有 
+<div id="Layer5" style="position:absolute; width:262px; height:21px; z-index:6; left: 119px; top: 382px"><font color="#FFFFFF" size="2">『快乐江湖』&copy;版权所有 
   2003-2004</font><br>
 </div>
 </body> 

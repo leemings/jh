@@ -10,7 +10,7 @@ call endinfo("您没有资格操作")
 else %>
 <html>
 <head>
-<title>股市管理♀wWw.51eline.com♀</title>
+<title>股市管理♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 </head>
 

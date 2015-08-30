@@ -16,14 +16,14 @@ if lb="" then lb="药品"
 <html>
 
 <head>
-<title>『E线江湖』物品管理程序♀wWw.51eline.com♀</title>
+<title>『快乐江湖』物品管理程序♀wWw.happyjh.com♀</title>
 <style></style>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="setup.css">
 </head>
 
 <body text="#000000" background="../jhimg/bk_hc3w.gif" link="#0000FF" vlink="#0000FF" alink="#0000FF">
-<p align="center">『E线江湖』物品管理程序<br>
+<p align="center">『快乐江湖』物品管理程序<br>
   <br>
   <a href="wpadmin.asp?lb=左手">左手</a> <a href="wpadmin.asp?lb=右手">右手</a> 
   <a href="wpadmin.asp?lb=装饰">装饰</a> <a href="wpadmin.asp?lb=盔甲">盔甲</a> 

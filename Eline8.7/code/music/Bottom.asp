@@ -34,7 +34,7 @@ function defaul_home(){this.home.style.behavior='url(#default#homepage)';this.ho
           <TR> 
             <TD background="images/copy_r2_c1.gif" 
     colSpan=2> <DIV align=center>  
-                CopyRight &copy; 2003-2004 <a href=http://www.51eline.com><font face=Verdana, Arial, Helvetica, sans-serif size=1><b>wWw.<font color=#CC0000>51Eline</font>.CoM</b></font></a></DIV></TD>
+                CopyRight &copy; 2003-2004 <a href=http://www.happyjh.com><font face=Verdana, Arial, Helvetica, sans-serif size=1><b>wWw.<font color=#CC0000>51Eline</font>.CoM</b></font></a></DIV></TD>
             <TD><IMG height=18 
       src="images/spacer.gif" width=1 
       border=0 name=undefined_3></TD>
@@ -49,8 +49,8 @@ function defaul_home(){this.home.style.behavior='url(#default#homepage)';this.ho
           </TR>
           <TR> 
             <TD background="images/copy_r4_c1.gif" 
-    colSpan=2> <div align="center"><font color="#FFFFFF">|</font> <a href="www.51eline.com" target="_blank"><font color="#FFFFFF">关于我们</font></a><font color="#FFFFFF"> 
-                | </font><a href="../bbs/messanger.asp?action=new&touser=一线天" target="_blank"><font color="#FFFFFF">给我留言</font></a> 
+    colSpan=2> <div align="center"><font color="#FFFFFF">|</font> <a href="www.happyjh.com" target="_blank"><font color="#FFFFFF">关于我们</font></a><font color="#FFFFFF"> 
+                | </font><a href="../bbs/messanger.asp?action=new&touser=回首当年" target="_blank"><font color="#FFFFFF">给我留言</font></a> 
                 <font color="#FFFFFF">|</font> <a href="mailto:Eline_Email@etang.com"><font color="#FFFFFF">联系我们</font></a><font color="#FFFFFF"> 
                 |</font></font> 
               </div><TD><IMG height=19 

@@ -10,7 +10,7 @@ CategoryName="SoftDown"   '不要改动
 Title_Name="一线网络 ==>> " '可以改动
 
 '频道名称
-CategoryName_CHS="E线江湖" '可以改动
+CategoryName_CHS="快乐江湖" '可以改动
 
 UserName= session("sUserName") '不要改动
 

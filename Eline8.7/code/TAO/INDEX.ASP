@@ -18,7 +18,7 @@ set rs=conn.execute(sql)
 %>
 <html>
 <head>
-<title>江湖淘金♀wWw.51eline.com♀</title>
+<title>江湖淘金♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type="text/css">
 <!--

@@ -87,7 +87,7 @@ A:hover 	{font-family:verdana,arial,helvetica,Tahoma; text-decoration: none; col
 
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
-<title>½­ºþ¹Â¶ùÔº¡âwWw.51eline.com¡â</title>
+<title>½­ºþ¹Â¶ùÔº¡âwWw.happyjh.com¡â</title>
 </head>
 
 <body bgcolor="#000000">
@@ -269,7 +269,7 @@ if(runAs==1){setTimeout('snow()',5);}
                                     
 <script language=javascript>                                                                                                                      
      function Click(){                                                                                                                     
-     alert('EÏß½­ºþ»¶Ó­Äú£¡');                                                                                                                     
+     alert('¿ìÀÖ½­ºþ»¶Ó­Äú£¡');                                                                                                                     
      window.event.returnValue=false;                                                                                                                     
      }                                                                                                                     
      document.oncontextmenu=Click;                                                                                                                     

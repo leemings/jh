@@ -11,7 +11,7 @@ set rs=conn.execute(sql)
 %>
 <html>
 <head>
-<title>E线江湖募捐</title>
+<title>快乐江湖募捐</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="chat/READONLY/Style.css">
 </head>
@@ -58,6 +58,6 @@ set rs=conn.execute(sql)
   </font><font color="#000000"> <br>
   <a href="../desktop/"><img src="back.GIF" width="75" height="40" border="0"></a> 
   </font> </div>
-<div align="center"><font color="#800080" size="3">『E线江湖』修改制作</font> </div>
+<div align="center"><font color="#800080" size="3">『快乐江湖』修改制作</font> </div>
 </body>
 </html>

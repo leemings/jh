@@ -21,7 +21,7 @@ set conn=nothing
 %>
 <html>
 <link rel="stylesheet" href="../../css.css">
-<title>E线江湖♀wWw.51eline.com♀</title>
+<title>快乐江湖♀wWw.happyjh.com♀</title>
 <body leftmargin="0" topmargin="0" bgcolor="#CCCCCC" background="../bgcheetah.gif">
 <table border="0" cellspacing="0" cellpadding="0" width="97" align="center">
 <tr>
@@ -72,7 +72,7 @@ set conn=nothing
 </td>
 </tr>
 </table>
-<div align="center"><font color="#00FF66"><b><font color="#0000FF">E线江湖</font></b></font>
+<div align="center"><font color="#00FF66"><b><font color="#0000FF">快乐江湖</font></b></font>
 </div>
 </body>
 </html>

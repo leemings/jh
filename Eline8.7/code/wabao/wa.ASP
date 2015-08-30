@@ -29,7 +29,7 @@ set conn=nothing
 %>
 <html>
 <head>
-<title>挖掘宝藏♀wWw.51eline.com♀</title>
+<title>挖掘宝藏♀wWw.happyjh.com♀</title>
 <meta http-equiv="refresh" content="10">
 <style></style>
 <script language="JavaScript">
@@ -75,7 +75,7 @@ end if
 <span id="liveclock" style="position: absolute; left: 196; top: 139; width: 76; height: 29"> 
 <div align="center"><font color="#FFFFFF" size="2">消耗内力: <%=abc%></font> </div>
 </span> 
-<div id="Layer5" style="position:absolute; width:262px; height:21px; z-index:6; left: 119px; top: 382px"><font color="#FFFFFF" size="2">E线江湖版权所有 
+<div id="Layer5" style="position:absolute; width:262px; height:21px; z-index:6; left: 119px; top: 382px"><font color="#FFFFFF" size="2">快乐江湖版权所有 
   2003-2004</font><br>
 </div>
 </body> 

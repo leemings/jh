@@ -21,7 +21,7 @@ set conn=nothing
 %>
 <HTML>
 <HEAD>
-<title>赌骰子♀一线网络→wWw.51eline.com♀</title>
+<title>赌骰子♀一线网络→wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type=text/css>
 BODY {

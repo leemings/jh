@@ -9,7 +9,7 @@ chatbgcolor=Application("sjjh_chatbgcolor")
 chatimage=Application("sjjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"%><html>
 <head>
-<title>菜单♀wWw.51eline.com♀</title>
+<title>菜单♀wWw.happyjh.com♀</title>
 <META http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type='text/css'>
 body{font-size:9pt;

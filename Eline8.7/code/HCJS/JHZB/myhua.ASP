@@ -13,7 +13,7 @@ conn.open Application("sjjh_usermdb")
 %>
 <html>
 <head>
-<title>¡¼<%=Application("sjjh_chatroomname")%>¡½¡âwWw.51eline.com¡â</title>
+<title>¡¼<%=Application("sjjh_chatroomname")%>¡½¡âwWw.happyjh.com¡â</title>
 <link rel="stylesheet" href="../../css.css">
 </head>
 

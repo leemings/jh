@@ -314,7 +314,7 @@ set conn=nothing
 <option style="color:#FF6633" value="/屏蔽$ 查看">查看屏蔽
 <option style="color:#FF6633" value="/屏蔽$ 删除">去掉屏蔽
 <option style="color:#FF6633" value="/信息$">查看信息
-<option style="color:#FF6633" value="/标题$ ☆★大家好，请大家共同支持和爱护ｅ线江湖★☆">发 
+<option style="color:#FF6633" value="/标题$ ☆★大家好，请大家共同支持和爱护快乐江湖★☆">发 
 标 题 <% if Application("sjjh_baowu")>0 then%>
 <option style="color:#FF6633" value="/修练$ ">宝物修练 <%end if%>
 <option style="color:#FF6633" value="/夺宝胜利$ ">夺宝胜利

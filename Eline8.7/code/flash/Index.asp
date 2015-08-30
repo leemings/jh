@@ -9,7 +9,7 @@ sjjh_name=Session("sjjh_name")
 sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if session("sjjh_name")="" then 
-	Response.Write "<script Language=Javascript>top.location.href='http://www.51eline.com';alert('提示：对不起，您还没有登陆江湖！');</script>"
+	Response.Write "<script Language=Javascript>top.location.href='http://www.happyjh.com';alert('提示：对不起，您还没有登陆江湖！');</script>"
 	Response.End
 end if
 %>

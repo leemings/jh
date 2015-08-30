@@ -1,4 +1,4 @@
-<%'门派保护♀wWw.51eline.com♀
+<%'门派保护♀wWw.happyjh.com♀
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"
 Response.AddHeader "Cache-Control","Private"

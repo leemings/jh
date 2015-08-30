@@ -15,7 +15,7 @@ conn.open Application("sjjh_usermdb")
 %>
 <html>
 <head>
-<title><%=Application("sjjh_chatroomname")%>管理员名单♀wWw.51eline.com♀</title>
+<title><%=Application("sjjh_chatroomname")%>管理员名单♀wWw.happyjh.com♀</title>
 <link rel="stylesheet" href="../css.css">
 </head>
 <body bgcolor="#FFFFFF" leftmargin="0">

@@ -1,7 +1,7 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
 <html>
 <head>
-<title>武器♀wWw.51eline.com♀</title>
+<title>武器♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type="text/css">
 <!--a:hover {  color: #0000FF; cursor: hand}-->

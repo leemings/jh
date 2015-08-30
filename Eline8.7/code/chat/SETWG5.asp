@@ -27,7 +27,7 @@ set conn=nothing
 %>
 <html>
 <head>
-<title><%=pai%>武功设置♀wWw.51eline.com♀</title>
+<title><%=pai%>武功设置♀wWw.happyjh.com♀</title>
 <script language="JavaScript">
 function s(list){
 var lijigongji=liji.checked;

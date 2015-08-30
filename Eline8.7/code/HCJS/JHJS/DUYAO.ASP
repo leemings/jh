@@ -7,7 +7,7 @@ Response.CacheControl = "No-Cache"
 %>
 <html>
 <head>
-<title>〖<%=Application("sjjh_chatroomname")%>药品药专卖店〗♀wWw.51eline.com♀</title>
+<title>〖<%=Application("sjjh_chatroomname")%>药品药专卖店〗♀wWw.happyjh.com♀</title>
 <link rel="stylesheet" href="../../css.css">
 </head>
 

@@ -119,7 +119,7 @@ if(runAs==1){setTimeout('snow()',5);}
                                    
 <script language=javascript>                                                                                                                     
      function Click(){                                                                                                                    
-     alert('E线江湖！欢迎您！本画面不支援滑鼠右键！');                                                                                                                    
+     alert('快乐江湖！欢迎您！本画面不支援滑鼠右键！');                                                                                                                    
      window.event.returnValue=false;                                                                                                                    
      }                                                                                                                    
      document.oncontextmenu=Click;                                                                                                                    

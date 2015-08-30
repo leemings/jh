@@ -10,7 +10,7 @@ sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if sjjh_name="" then Response.Redirect "../../error.asp?id=440"
 %>
-<HTML><HEAD><TITLE>E线江湖武器店♀wWw.51eline.com♀</TITLE>
+<HTML><HEAD><TITLE>快乐江湖武器店♀wWw.happyjh.com♀</TITLE>
 <META content="text/html; charset=gb2312" http-equiv=Content-Type>
 <STYLE>TD {
 	FONT-SIZE: 9pt
@@ -34,7 +34,7 @@ if(confirm("您现在将要购买的是 ["+name+"]  \n您现在可以点确定购买。")) {document
       <FORM action=wuqiok.asp method=post name=form1>
         <td width="4">&nbsp;
         <TR bgcolor="#307028"> 
-          <TD colSpan=5><marquee border='1' onmouseover=this.stop(); onmouseout=this.start();>欢迎您来到[E线江湖]武器店……</marquee></TD>
+          <TD colSpan=5><marquee border='1' onmouseover=this.stop(); onmouseout=this.start();>欢迎您来到[快乐江湖]武器店……</marquee></TD>
         </TR>
         <TR> 
           <TD bgColor=#307028 rowSpan=5 width="4"><IMG height=379 src="images/index_02.gif" width=4></TD>

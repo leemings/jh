@@ -33,7 +33,7 @@ function mysubmit(theform)
     return (true);
 }
 </script>
-<title>E线江湖♀wWw.51eline.com♀</title>
+<title>快乐江湖♀wWw.happyjh.com♀</title>
 <meta name="generator" content="Microsoft FrontPage 4.0">
 <style type="text/css">A:visited {
  COLOR: #000000; TEXT-DECORATION: none
@@ -81,7 +81,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
               <form enctype="multipart/form-data" action="addpic.asp" method=post onSubmit="return mysubmit(this)">
                 <table border="0" width="100%" cellspacing="0" cellpadding="0">
                   <tr> 
-                    <td width="277" bgcolor="#a5cf7b" height=24><font color="#FFFFFF"><b>E线江湖-网友相片上传</b></font></td>
+                    <td width="277" bgcolor="#a5cf7b" height=24><font color="#FFFFFF"><b>快乐江湖-网友相片上传</b></font></td>
                   </tr>
                   <tr> 
                     <td width="331"> <br><br>

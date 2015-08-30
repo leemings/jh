@@ -27,7 +27,7 @@ conn.execute sql
 %>
 <html>
 <head>
-<title>E线江湖-宝物调查所</title>
+<title>快乐江湖-宝物调查所</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="../setup.css">
 <style type="text/css">
@@ -44,7 +44,7 @@ scrollbar-arrow-color:#000000;
 </head>
 
 <body  background='bg.gif' oncontextmenu=self.event.returnValue=false leftmargin="5" marginwidth="5">
-<div align="center"><font color="#FFFFFF"> </font> <font size="2"> <font color="#800000">[你花了88888两来到了E线江湖宝物调查所，这里有各种都市人士从不同的地方打探到的藏宝消息]</font><br>
+<div align="center"><font color="#FFFFFF"> </font> <font size="2"> <font color="#800000">[你花了88888两来到了快乐江湖宝物调查所，这里有各种都市人士从不同的地方打探到的藏宝消息]</font><br>
 </font><font size="2"><br>
   </font> <font color="#008080" size="4"><b>孤 岛 冒 险</b></font><font size="2"> 
   </font> </div>

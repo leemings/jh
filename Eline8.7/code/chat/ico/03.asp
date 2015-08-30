@@ -66,7 +66,7 @@ a:hover{color:ffffff;text-decoration:none;}
     <td width="100%" align="center">往后会不断提供免费的功能给各位</td>
   </tr>
   <tr>
-    <td width="100%" align="center"><a href="http://zhzx.jjedu.org/eline/" target="_blank">E线江湖</a></td>
+    <td width="100%" align="center"><a href="http://zhzx.jjedu.org/eline/" target="_blank">快乐江湖</a></td>
   </tr>
 </table>
 

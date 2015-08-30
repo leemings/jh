@@ -3,7 +3,7 @@
 <!--#include file="sjfunc.asp"-->
 <!--#include file="func.asp"-->
 <!--#include file="chatconfig.asp"-->
-<%'¶á±¦Í¶ÖÀ¡âwWw.51eline.com¡â
+<%'¶á±¦Í¶ÖÀ¡âwWw.happyjh.com¡â
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"

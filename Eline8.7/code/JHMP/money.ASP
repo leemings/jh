@@ -67,7 +67,7 @@ rs.open "Select * from 用户 where 姓名='"&sjjh_name&"'",conn
 %>
 <html>
 <head>
-<title>工资领取处♀wWw.51eline.com♀</title>
+<title>工资领取处♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <STYLE type=text/css>
 TD {FONT-FAMILY: "宋体"; FONT-SIZE: 9pt}

@@ -12,7 +12,7 @@ if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 %>
 <html>
 <link rel="stylesheet" href="../../css.css">
-<title>门派基金♀wWw.51eline.com♀</title>
+<title>门派基金♀wWw.happyjh.com♀</title>
 <body leftmargin="0" topmargin="0" bgcolor="#CCCCCC" background="../bgcheetah.gif">
 <table border="0" cellspacing="0" cellpadding="0" width="97" align="center">
 <tr>

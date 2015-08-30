@@ -35,7 +35,7 @@ a:hover {text-decoration:underline;color:#ff0033}
 <SCRIPT>
 function test()
 {
-if(event.ctrlKey) alert("一线网络 wWw.51Eline.com");
+if(event.ctrlKey) alert("一线网络 wWw.happyjh.com");
 }
 </SCRIPT>
 

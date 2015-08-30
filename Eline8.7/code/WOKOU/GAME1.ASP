@@ -22,7 +22,7 @@ set rs=nothing
 set conn=nothing
 Session("usepro")= false 
 
-says="<font color=#ff0000><b>【抗击倭寇】" & sjjh_name & "</b>大侠，你抗击倭寇有功，『E线江湖』奖你内力、体力、攻击、防御各10点，银两200两！继续努力哦：）</font>"			'聊天数据
+says="<font color=#ff0000><b>【抗击倭寇】" & sjjh_name & "</b>大侠，你抗击倭寇有功，『快乐江湖』奖你内力、体力、攻击、防御各10点，银两200两！继续努力哦：）</font>"			'聊天数据
 says=replace(says,chr(39),"\'")
 says=replace(says,chr(34),"\"&chr(34))
 act="消息"

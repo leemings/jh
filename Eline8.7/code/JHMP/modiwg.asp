@@ -23,7 +23,7 @@ end if
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <link rel="stylesheet" href="setup.css">
-<title>武功修改程序♀wWw.51eline.com♀</title></head>
+<title>武功修改程序♀wWw.happyjh.com♀</title></head>
 <body text="#000000" background="../jhimg/bk_hc3w.gif" link="#0000FF" vlink="#0000FF" alink="#0000FF">
 <div align="center">武功修改程序</div>
 <form method="post" action="modiwgok.asp" name="setmp" onsubmit="return(check());">

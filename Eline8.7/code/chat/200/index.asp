@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>E线江湖--游戏在线-51eline.com</title>
+<title>快乐江湖--游戏在线-happyjh.com</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type="text/css">
 BODY {
@@ -109,7 +109,7 @@ scrollbar-arrow-color:#000000;
   <tr> 
     <td width="41%">
     <p align="center">　
-      <p align="center"> <font color="#FFFFFF">COPYRIGHT 2003-2004 『E线江湖』 INC. 
+      <p align="center"> <font color="#FFFFFF">COPYRIGHT 2003-2004 『快乐江湖』 INC. 
         All Rights Reserved </font></p> 
     </td>
   </tr>

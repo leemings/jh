@@ -23,10 +23,10 @@ regjm=int(rnd*8998)+1000
 %>
 <HTML>
 <HEAD>
-<TITLE>≮E线江湖总站≯&#8482;欢迎您！本站永久域名 - www.51eline.com</TITLE>
+<TITLE>≮快乐江湖总站≯&#8482;欢迎您！本站永久域名 - www.happyjh.com</TITLE>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">
 <META HTTP-EQUIV="refresh" content="300; url="index.asp">
-<meta name=keywords content="江湖,E线江湖,E线江湖总站,江湖总站,一线江湖,一线天,eline,51eline,51eline.com,www.51eline.com">
+<meta name=keywords content="江湖,快乐江湖,快乐江湖总站,江湖总站,一线江湖,回首当年,eline,51eline,happyjh.com,www.happyjh.com">
 <style type="text/css">
 <!-- 
 a { text-decoration: none} 
@@ -120,7 +120,7 @@ function MM_swapImgRestore() { //v3.0
 <script lauguage="javascript" src="js/STARMOON.JS"></script>
 <script language=JavaScript1.2>
 if (document.all)
-document.body.onmousedown=new Function("if (event.button==2||event.button==3)window.external.addFavorite('http://www.51eline.com','『E线江湖』')")
+document.body.onmousedown=new Function("if (event.button==2||event.button==3)window.external.addFavorite('http://www.happyjh.com','『快乐江湖』')")
 </script>
 <TABLE WIDTH=780 BORDER=0 align="center" CELLPADDING=0 CELLSPACING=0>
   <TR>
@@ -308,7 +308,7 @@ document.body.onmousedown=new Function("if (event.button==2||event.button==3)win
 	<TR>    
 		    
     <TD COLSPAN=17 ROWSPAN=2 align="left" valign="bottom" background="img/login2_r15_c1.jpg"> 
-      <span class="p_one"><font color="#FFFFFF">&nbsp;&nbsp;【版权：<a href="http://www.51eline.com"><font color=#ffffff>『一线网络』&#8482;</font></a> 授权：≮<%=Application("sjjh_chatroomname")%>≯ 版本：ELINE V8.7极限版　站长：<%=Application("sjjh_admin")%>】</font></span> </TD>
+      <span class="p_one"><font color="#FFFFFF">&nbsp;&nbsp;【版权：<a href="http://www.happyjh.com"><font color=#ffffff>『一线网络』&#8482;</font></a> 授权：≮<%=Application("sjjh_chatroomname")%>≯ 版本：ELINE V8.7极限版　站长：<%=Application("sjjh_admin")%>】</font></span> </TD>
 		
     <TD COLSPAN=2> <IMG SRC="img/login2_r15_c18.jpg" WIDTH=51 HEIGHT=75 ALT=""></TD>
 		

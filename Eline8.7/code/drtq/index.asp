@@ -9,7 +9,7 @@ sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 %>
-<HTML><HEAD><TITLE>Е线江湖-单人台球♀wWw.51eline.com♀</TITLE>
+<HTML><HEAD><TITLE>Е线江湖-单人台球♀wWw.happyjh.com♀</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=gb2312">
 <SCRIPT src="gamexver.js"></SCRIPT>
 

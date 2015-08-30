@@ -11,7 +11,7 @@ if sjjh_grade<>10 or instr(Application("sjjh_admin"),sjjh_name)=0  then Response
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <link rel="stylesheet" href="setup.css">
-<title>『E线江湖』增加股票</title></head>
+<title>『快乐江湖』增加股票</title></head>
 <body text="#000000" background="../../jhimg/bk_hc3w.gif" link="#0000FF" vlink="#0000FF" alink="#0000FF">
 <div align="center"> 
 <p><font size="6" face="隶书">江湖股票管理</font><br>

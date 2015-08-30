@@ -57,7 +57,7 @@ If Session("sjjh_name") = "" Then Msg "您尚未登录，不能种花。"
 name = Session("sjjh_name")
 If name = "" Then Msg "您尚未登录，不能种花。"
 %>
-<HTML><HEAD><TITLE>神秘花园♀wWw.51eline.com♀</TITLE>
+<HTML><HEAD><TITLE>神秘花园♀wWw.happyjh.com♀</TITLE>
 <script>
 window.moveTo(40,30);
 </script>
@@ -278,7 +278,7 @@ function count() {
 <BODY bgColor=#70ac58 topMargin=0 onload=doPreload(); MARGINWIDTH="0" MARGINHEIGHT="0" >
 
 <table width=100%><tr><td height=350> </td></tr><tr><td align=center><p align=center>
-<acronym title="★→站长QQ→88617427  E-Mail→Eline_Email@etang.com"><a href="http://www.51eline.com"></a></acronym></font><a href="http://www.51eline.com"><acronym title="★→站长QQ→88617427  E-Mail→Eline_Email@etang.com"><font style="font-size: 9pt" color="#ffffff">『E线江湖』&#8482;　版本：ELINE V8.7.0　站长：一线天</font></acronym></a></p></table>
+<acronym title="★→站长QQ→88617427  E-Mail→Eline_Email@etang.com"><a href="http://www.happyjh.com"></a></acronym></font><a href="http://www.happyjh.com"><acronym title="★→站长QQ→88617427  E-Mail→Eline_Email@etang.com"><font style="font-size: 9pt" color="#ffffff">『快乐江湖』&#8482;　版本：ELINE V8.7.0　站长：回首当年</font></acronym></a></p></table>
 
 <DIV id=field style="Z-INDEX: 3; LEFT: 160px; WIDTH: 367px; POSITION: absolute; TOP: 40px; HEIGHT: 253px">
 <TABLE height=280 cellSpacing=0 cellPadding=0 width="100%" background=images/dw0.gif border=0>

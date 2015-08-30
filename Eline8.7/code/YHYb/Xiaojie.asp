@@ -98,5 +98,5 @@ set connt=nothing
 </table>
 <div align="center"><br>
   <a href="index.asp">返回</a></div><br><br>
-<div align="center"><font color="#000000"><b>『E线江湖』</b></font></div>
+<div align="center"><font color="#000000"><b>『快乐江湖』</b></font></div>
 </BODY></HTML> 

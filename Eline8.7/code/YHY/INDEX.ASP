@@ -40,7 +40,7 @@ dim conn,rs
   </tr>
   <tr>
     <td width="100%" height="19" colspan="2">
-      <p align="center"><span lang="zh-cn">版权所有:『E线江湖』&nbsp; 2003-2004</span>
+      <p align="center"><span lang="zh-cn">版权所有:『快乐江湖』&nbsp; 2003-2004</span>
     </td>
   </tr>
 </table>

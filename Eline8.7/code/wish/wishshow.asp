@@ -22,7 +22,7 @@ table {  font-size: 9pt}
 body,table,p,td,input {  font-size: 9pt} 
 -->
 </style>
-<title><%=rs("name")%> µÄÆíÔ¸ÅÆ¡âwWw.51eline.com¡â</title>
+<title><%=rs("name")%> µÄÆíÔ¸ÅÆ¡âwWw.happyjh.com¡â</title>
 </head>
 <body bgcolor="<%=bgcolor%>" text="<%=textcolor%>" link="<%=linkcolor%>">
 <form method="post" action="wish.asp">

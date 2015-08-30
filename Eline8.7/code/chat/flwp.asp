@@ -25,7 +25,7 @@ rs.open "SELECT * FROM w WHERE c='" & fl & "' and i>0  order by b",conn
 %>
 <html>
 <head>
-<title>物品管理♀一线网络→wWw.51eline.com♀</title>
+<title>物品管理♀一线网络→wWw.happyjh.com♀</title>
 <META http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="style.css">
 </head>

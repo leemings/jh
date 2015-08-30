@@ -13,7 +13,7 @@
     <tr>
       <td width="100%" bgcolor="#F7BE4A" height="34">&nbsp;
 <img src=sydj.gif width=88 height=31 border=0></a>&nbsp;&nbsp;
-<a href=http://www.51eline.com target=_blank><img src=http://zhzx.jjedu.org/eline/logo.gif width=88 height=31 border=0></a>
+<a href=http://www.happyjh.com target=_blank><img src=http://zhzx.jjedu.org/eline/logo.gif width=88 height=31 border=0></a>
 
 
 

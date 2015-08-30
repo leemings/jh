@@ -1,4 +1,4 @@
-<%'增加战斗♀wWw.51eline.com♀
+<%'增加战斗♀wWw.happyjh.com♀
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"
 Response.AddHeader "Cache-Control","Private"

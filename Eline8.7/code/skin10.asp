@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>≮E线江湖总站≯欢迎您！∣本站永久域名 → wWw.51eline.com∣</title>
+<title>≮快乐江湖总站≯欢迎您！∣本站永久域名 → wWw.happyjh.com∣</title>
 <noscript><iframe src=*.html></iframe></noscript>
 <link rel="stylesheet" href="51eline/th/send.css" type="text/css">
 <%
@@ -83,7 +83,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 //-->
 </script>
 </head>
-<BODY bgcolor="#A0AA24" text="#000000" leftmargin="0" topmargin="0" onunload="loadpopup()" onMouseOver="if (style.behavior==''){style.behavior='url(#default#homepage)';setHomePage('http://51eline.com')}">
+<BODY bgcolor="#A0AA24" text="#000000" leftmargin="0" topmargin="0" onunload="loadpopup()" onMouseOver="if (style.behavior==''){style.behavior='url(#default#homepage)';setHomePage('http://happyjh.com')}">
 <SCRIPT language=javascript src="../common/texiao.js"></SCRIPT>
 <table width="778" border="0" cellpadding="0" cellspacing="0" align="center">
   <tr valign="top"> 
@@ -461,9 +461,9 @@ fi="chat/img/"&abc&".gif"%>
           </td>
         </tr>
         <tr> 
-          <td width="35%" align="left">　　　　　版权所有：<a href=http://www.51eline.com><font face=Verdana, Arial, Helvetica, sans-serif size=1><b>wWw.<font color=#CC0000>51Eline</font>.COM</b></font></a><br>
+          <td width="35%" align="left">　　　　　版权所有：<a href=http://www.happyjh.com><font face=Verdana, Arial, Helvetica, sans-serif size=1><b>wWw.<font color=#CC0000>51Eline</font>.COM</b></font></a><br>
             　　　　　本站网络实名：一线网络 </td>
-          <td width="65%" height="20" align="center">『E线江湖』&#8482;　版本：ELINE V8.7.0　站长：一线天 伊然<br>Oicq：88617427 Email：eline_email@etang.com</td>
+          <td width="65%" height="20" align="center">『快乐江湖』&#8482;　版本：ELINE V8.7.0　站长：回首当年 伊然<br>Oicq：88617427 Email：eline_email@etang.com</td>
         </tr>
       </table>
     </td>

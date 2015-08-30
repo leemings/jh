@@ -5,7 +5,7 @@
 <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>E线江湖总站-DJ舞吧--->后台管理系统</title>
+<title>快乐江湖总站-DJ舞吧--->后台管理系统</title>
 </head>
 <style>
 td
@@ -40,7 +40,7 @@ A:hover {
   <tr>
     <td width="100%" height="55">
     <p align="center"><font size="6">后台管理系统</font><br>
-      如果您在使用中发现什么错误，请与作者“51eline.com”联系<br>
+      如果您在使用中发现什么错误，请与作者“happyjh.com”联系<br>
     邮箱：Eline_Email@etang.com，OICQ:88617427。</td>
   </tr>
 </table>

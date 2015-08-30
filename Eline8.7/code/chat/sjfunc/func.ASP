@@ -1,5 +1,5 @@
 <%
-'踢人模块♀wWw.51eline.com♀
+'踢人模块♀wWw.happyjh.com♀
 sub boot(to1,czsj)
 nowinroom=session("nowinroom")
 Application.Lock

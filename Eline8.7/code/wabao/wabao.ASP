@@ -2,7 +2,7 @@
 <HEAD>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link href="../dg/setup.css" rel=stylesheet type="text/css">
-<title>挖掘宝藏♀wWw.51eline.com♀</title></HEAD>
+<title>挖掘宝藏♀wWw.happyjh.com♀</title></HEAD>
 <body oncontextmenu=self.event.returnValue=false bgcolor="#000000" text="#ffffff">
 <%Session("diaoyu")=true%>
 <p align="center"><b><font color="#000000">想挖宝先进入聊天室！</font></b></p>
@@ -16,6 +16,6 @@
 
 <p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>
-<p align="center"><font size="2" color="#000000">E线江湖版权所有 2003-2004</font></p>
+<p align="center"><font size="2" color="#000000">快乐江湖版权所有 2003-2004</font></p>
 </BODY>
 </HTML>

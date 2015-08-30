@@ -1,4 +1,4 @@
-<%'E线江湖物品操作函数♀wWw.51eline.com♀
+<%'快乐江湖物品操作函数♀wWw.happyjh.com♀
 function mywpsl(wpdata,wpname)'取物品数量：数据
 wpdata=trim(lcase(wpdata))
 if isnull(wpdata) or wpdata="" then 

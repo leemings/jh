@@ -7,7 +7,7 @@ conn.Open "driver={Microsoft Access Driver (*.mdb)};dbq=" & DBPath
 
 
 ''''''''''''''''''''''''''''''''
-'♀一线网络→wWw.51eline.com♀
+'♀一线网络→wWw.happyjh.com♀
 ''''''''''''''''''''''''''''''''
 
 %>

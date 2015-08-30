@@ -79,7 +79,7 @@ A:hover 	{font-family:verdana,arial,helvetica,Tahoma; text-decoration: none; col
 
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
-<title>E线江湖--托儿所♀wWw.51eline.com♀</title>
+<title>快乐江湖--托儿所♀wWw.happyjh.com♀</title>
 </head>
 
 <body bgcolor="#000000">
@@ -265,7 +265,7 @@ if(runAs==1){setTimeout('snow()',5);}
                                    
 <script language=javascript>                                                                                                                     
      function Click(){                                                                                                                    
-     alert('E线江湖欢迎您！');                                                                                                                    
+     alert('快乐江湖欢迎您！');                                                                                                                    
      window.event.returnValue=false;                                                                                                                    
      }                                                                                                                    
      document.oncontextmenu=Click;                                                                                                                    

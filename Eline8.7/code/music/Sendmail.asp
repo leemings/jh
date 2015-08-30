@@ -41,8 +41,8 @@ set conn=nothing
 <%
 dim webname,weburl,forumurl
 webname="一线网络"
-weburl="http://wWw.51Eline.com" 
-forumurl="http://wWw.51Eline.com"
+weburl="http://wWw.happyjh.com" 
+forumurl="http://wWw.happyjh.com"
 %>
 <%
 dim name,mail,cname,cmail,dmail,email,fmail,heyan,biaote
@@ -93,8 +93,8 @@ if Trim(name) = "" or Trim(mail) = "" or Trim(cname) = "" or Trim(cmail) = "" or
 				bodys=bodys&"一线网络愿您天天都有好心情！"&chr(10)
 				bodys=bodys&chr(10)
 				bodys=bodys&"------------------------------------------------"&chr(10)
-				bodys=bodys&"欢迎您光临一线网络：http://wWw.51Eline.com "&chr(10)
-				bodys=bodys&"一线视听：http://wWw.51Eline.com "&chr(10)
+				bodys=bodys&"欢迎您光临一线网络：http://wWw.happyjh.com "&chr(10)
+				bodys=bodys&"一线视听：http://wWw.happyjh.com "&chr(10)
 				bodys=bodys&"------------------------------------------------"&chr(10)
 				mymail.body=bodys
 				mymail.send

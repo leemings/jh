@@ -9,7 +9,7 @@ sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 stock=Request.QueryString("stock")
-if stock="" then stock="『E线江湖』"
+if stock="" then stock="『快乐江湖』"
 msg="<head><link rel='stylesheet' href='../chat/readonly/style.css'><script language=javascript>setTimeout('location.reload();',300000);</script></head><body oncontextmenu=self.event.returnValue=false topmargin=0 bgcolor='#339966' text='FF0000'><center><font color=red><h3>实时行情</h3></font><center><table width=100% border=1 bordercolorlight=000000 cellspacing=0 cellpadding=2 bordercolordark=FFFFFF bgcolor=ffff00><tr align=center bgcolor=FFFF00><td>报价</td><td>数量</td></tr><tr align=center bgcolor=00FF00><td colspan=2><a href='sale.asp?stock="&stock&"' onmouseover="&chr(34)&"window.status='出售你手中的"&stock&"股份';return true;"&chr(34)&" onmouseout="&chr(34)&"window.status='';return true;"&chr(34)&">出售</a></td></tr>"
 set conn=server.CreateObject("adodb.connection")
 set rs=server.CreateObject("adodb.recordset")

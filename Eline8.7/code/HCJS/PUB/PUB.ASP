@@ -14,7 +14,7 @@ if sjjh_name="" then Response.Redirect "../../error.asp?id=440"
 </style>
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
-<title><%=Application("sjjh_chatroomname")%>客栈♀wWw.51eline.com♀</title><meta http-equiv="Content-Type" content="text/html; charset=gb2312"></head>
+<title><%=Application("sjjh_chatroomname")%>客栈♀wWw.happyjh.com♀</title><meta http-equiv="Content-Type" content="text/html; charset=gb2312"></head>
 <body text="#000000" background="../../images/bg.gif" link="#0000FF" vlink="#0000FF" alink="#0000FF">
 <p align="center" style="font-size:16;color:yellow"><font color="#000000">欢迎<%=sjjh_name%>光临本客栈休息
 </font>

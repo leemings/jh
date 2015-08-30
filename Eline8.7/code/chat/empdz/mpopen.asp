@@ -1,6 +1,6 @@
 <!--#include file="../sjfunc/sjfunc.asp"-->
 <!--#include file="../sjfunc/func.asp"-->
-<%'门派挑战♀wWw.51eline.com♀
+<%'门派挑战♀wWw.happyjh.com♀
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"

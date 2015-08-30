@@ -62,7 +62,7 @@ case "冰雪"
 			bb=rs("h")*wpsl
 			yin=int(bb/2)
 			conn.execute "update 用户 set w7='"&zstemp&"',会员金卡=会员金卡+" & yin & ",操作时间=now() where 姓名='"&sjjh_name&"'"
-			dan="{"&sjjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值会员金卡"&bb&"元拿到『E线花店』由一线天收购，赚了会员金卡"&yin&"元，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
+			dan="{"&sjjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值会员金卡"&bb&"元拿到『E线花店』由回首当年收购，赚了会员金卡"&yin&"元，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
 		end if
 	end if
 	
@@ -83,7 +83,7 @@ case "逸韵"
 			bb=rs("h")*wpsl
 			yin=int(bb/2)
 			conn.execute "update 用户 set w7='"&zstemp&"',会员金卡=会员金卡+" & yin & ",操作时间=now() where 姓名='"&sjjh_name&"'"
-			dan="{"&sjjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值会员金卡"&bb&"元拿到『E线花店』由一线天收购，赚了会员金卡"&yin&"元，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
+			dan="{"&sjjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值会员金卡"&bb&"元拿到『E线花店』由回首当年收购，赚了会员金卡"&yin&"元，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
 		end if
 	end if
 	
@@ -104,7 +104,7 @@ case "香芸"
 			bb=rs("h")*wpsl
 			yin=int(bb/2)
 			conn.execute "update 用户 set w7='"&zstemp&"',会员金卡=会员金卡+" & yin & ",操作时间=now() where 姓名='"&sjjh_name&"'"
-			dan="{"&sjjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值会员金卡"&bb&"元拿到『E线花店』由一线天收购，赚了会员金卡"&yin&"元，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
+			dan="{"&sjjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值会员金卡"&bb&"元拿到『E线花店』由回首当年收购，赚了会员金卡"&yin&"元，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
 		end if
 	end if
 
@@ -125,7 +125,7 @@ case "忧梦"
 			bb=rs("h")*wpsl
 			yin=int(bb/2)
 			conn.execute "update 用户 set w7='"&zstemp&"',会员金卡=会员金卡+" & yin & ",操作时间=now() where 姓名='"&sjjh_name&"'"
-			dan="{"&sjjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值会员金卡"&bb&"元拿到『E线花店』由一线天收购，赚了会员金卡"&yin&"元，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
+			dan="{"&sjjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值会员金卡"&bb&"元拿到『E线花店』由回首当年收购，赚了会员金卡"&yin&"元，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
 		end if
 	end if
 
@@ -146,7 +146,7 @@ case "烈焰"
 			bb=rs("h")*wpsl
 			yin=int(bb/2)
 			conn.execute "update 用户 set w7='"&zstemp&"',会员金卡=会员金卡+" & yin & ",操作时间=now() where 姓名='"&sjjh_name&"'"
-			dan="{"&sjjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值会员金卡"&bb&"元拿到『E线花店』由一线天收购，赚了会员金卡"&yin&"元，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
+			dan="{"&sjjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值会员金卡"&bb&"元拿到『E线花店』由回首当年收购，赚了会员金卡"&yin&"元，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
 		end if
 	end if
 	case "牡丹","雏菊","郁金香","点头的玫瑰","醉百合","昨日香","玫瑰","月季","迎风笑","飞杨","满天星","黑郁金香","雪莲花","牵手","蝴蝶兰","火烈鸟","想飞的玫瑰 ","马蹄莲","摇头的玫瑰","摇摆的玫瑰","蹦跳的玫瑰 ","跳舞的玫瑰","快凋谢的玫瑰","致谢的玫瑰","拍手的玫瑰"

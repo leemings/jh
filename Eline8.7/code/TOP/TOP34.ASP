@@ -15,7 +15,7 @@ if sjjh_grade<>10 then Response.Redirect "manerr.asp?id=255"
 %><html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>法器排行TOP50♀wWw.51eline.com♀</title>
+<title>法器排行TOP50♀wWw.happyjh.com♀</title>
 <meta name="GENERATOR" content="Microsoft FrontPage 3.0">
 <style type="text/css">
 <!--

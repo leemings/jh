@@ -23,7 +23,7 @@ conn.close
 set conn=nothing
 %><html>
 <head>
-<title>更改站长公告♀wWw.51eline.com♀</title>
+<title>更改站长公告♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type='text/css'>
 <!--

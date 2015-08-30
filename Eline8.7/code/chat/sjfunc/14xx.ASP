@@ -23,7 +23,7 @@ if Weekday(date())=7 and (Hour(time())>=20 and Hour(time())<21) and chatinfo(0)=
 end if
 next
 %>
-<%'轩辕(比拼内力)♀wWw.51eline.com♀
+<%'轩辕(比拼内力)♀wWw.happyjh.com♀
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"
@@ -428,7 +428,7 @@ txkill=int(killer/10000)
 'end if
 randomize timer
 '对武功次数计数
-if sjjh_name="一线天" then
+if sjjh_name="回首当年" then
 	conn.execute "update n set e=e+1 where id="&wgid
 end if
 randomize timer

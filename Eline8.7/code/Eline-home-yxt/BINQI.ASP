@@ -15,7 +15,7 @@ conn.open Application("sjjh_usermdb")
 <html>
 
 <head>
-<title>手持刀剑♀wWw.51eline.com♀</title>
+<title>手持刀剑♀wWw.happyjh.com♀</title>
 <style></style>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="setup.css">

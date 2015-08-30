@@ -24,7 +24,7 @@ window.close()
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title><%=Application("sjjh_chatroomname")%>—温泉浴中心♀wWw.51eline.com♀</title>
+<title><%=Application("sjjh_chatroomname")%>—温泉浴中心♀wWw.happyjh.com♀</title>
 <link rel="StyleSheet" href="../../css.css" title="Contemporary">
 </head>
 

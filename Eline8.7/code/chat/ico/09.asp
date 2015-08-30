@@ -1,5 +1,5 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
-<%'查看公告♀wWw.51eline.com♀
+<%'查看公告♀wWw.happyjh.com♀
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"

@@ -9,7 +9,7 @@ sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 stock=Request.QueryString("stock")
-if stock="" then stock="『E线江湖』"
+if stock="" then stock="『快乐江湖』"
 msg="<head><link rel='stylesheet' href='style.css'><script language=javascript>function petition(stock){parent.infofrm.location.replace('petition.asp?stock='+stock);}</script></head><body oncontextmenu=self.event.returnValue=false topmargin=0 bgcolor='#339966' text='FF0000'><center><font color=red><h3>"&stock&"</h3></font></center><table width=80% border=1 bordercolorlight=000000 cellspacing=0 cellpadding=2 bordercolordark=FFFFFF align=center>"
 set conn=server.CreateObject("adodb.connection")
 set rs=server.CreateObject("adodb.recordset")

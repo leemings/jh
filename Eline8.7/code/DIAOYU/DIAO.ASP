@@ -30,7 +30,7 @@ set conn=nothing
 %>
 <html>
 <head>
-<title>ЕігуЁтwWw.51eline.comЁт</title>
+<title>ЕігуЁтwWw.happyjh.comЁт</title>
 <meta http-equiv="refresh" content="10">
 <style></style>
 </head>

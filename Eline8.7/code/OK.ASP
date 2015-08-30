@@ -1,6 +1,6 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
 <%
-'::一线网络www.51eline.com::
+'::一线网络www.happyjh.com::
 %>
 
 <%Response.Expires=0

@@ -48,7 +48,7 @@ else
 %>
 <html>
 <head>
-<title>航海时代♀wWw.51eline.com♀</title>
+<title>航海时代♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type="text/css">
 <!--
@@ -106,7 +106,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 </table> 
 <table width="90%" border="0" cellspacing="0" cellpadding="0" align="center"> 
   <tr align="center">  
-    <td height="22"><br>『E线江湖』<br>
+    <td height="22"><br>『快乐江湖』<br>
     </td>
   </tr>
 </table>

@@ -35,7 +35,7 @@ tlj=rs("体力加")
 <html>
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=gb2312'>
-<title>E线江湖 - [<%=sjjh_name%>]状态</title>
+<title>快乐江湖 - [<%=sjjh_name%>]状态</title>
 <body style="BACKGROUND-COLOR: buttonface; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none; PADDING-BOTTOM: 6px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; PADDING-TOP: 6px" marginwidth="0" marginheight="0" leftmargin="0" topmargin="10" LANGUAGE="javascript"  >
 <table width="280" border="1" cellspacing="0" cellpadding="0" class="p150" bgcolor="#CCCCCC" bordercolorlight="#000000" bordercolordark="#FFFFFF" align="left">
   <tr valign="top" align="left"> 

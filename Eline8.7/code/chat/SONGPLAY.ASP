@@ -59,7 +59,7 @@ conn.open Application("sjjh_usermdb")
 rs.open "select 金币,银两 from 用户 where 姓名='" & sjjh_name &"'",conn
 if xzsj then 
 sj=DateDiff("n",Application("sjjh_zxdg"),now())
-if sj<xzsjs and sjjh_name<>"一线天" then
+if sj<xzsjs and sjjh_name<>"回首当年" then
 	rs.close
 	set rs=nothing
 	conn.close
@@ -68,7 +68,7 @@ if sj<xzsjs and sjjh_name<>"一线天" then
 	Response.End
 end if
 end if
-if rs("金币")<xyyl and sjjh_name<>"一线天" then
+if rs("金币")<xyyl and sjjh_name<>"回首当年" then
 	rs.close
 	set rs=nothing
 	conn.close
@@ -76,7 +76,7 @@ if rs("金币")<xyyl and sjjh_name<>"一线天" then
 	Response.Write "<script language=JavaScript>{alert('提示：你需要金币["&xyyl&"]才能点歌');}</script>"
 	Response.End
 end if
-if rs("银两")<xyyls and sjjh_name<>"一线天" then
+if rs("银两")<xyyls and sjjh_name<>"回首当年" then
 	rs.close
 	set rs=nothing
 	conn.close

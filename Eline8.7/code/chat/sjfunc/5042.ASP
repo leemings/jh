@@ -1,5 +1,5 @@
 <%@ LANGUAGE=VBScript codepage ="936" %><!--#include file="sjfunc.asp"-->
-<%'招收官府♀wWw.51eline.com♀
+<%'招收官府♀wWw.happyjh.com♀
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"
@@ -52,6 +52,6 @@ conn.close
 set conn=nothing
 randomize()
 regjm=int(rnd*3348998)+1
-zsdz="<bgsound src=wav/msg.WAV loop=1>站长一线天对聊天室的人喊到：["&mp&"]现在广招天下有能力、责任心强的弟子!"&fn1&"欢迎兄弟们加入!<input  type=button value='加入!' onClick=javascript:zsdz"&regjm&".disabled=1;window.open('jrgf.asp','d') name=zsdz"&regjm&">"
+zsdz="<bgsound src=wav/msg.WAV loop=1>站长回首当年对聊天室的人喊到：["&mp&"]现在广招天下有能力、责任心强的弟子!"&fn1&"欢迎兄弟们加入!<input  type=button value='加入!' onClick=javascript:zsdz"&regjm&".disabled=1;window.open('jrgf.asp','d') name=zsdz"&regjm&">"
 end function
 %>

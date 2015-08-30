@@ -162,7 +162,7 @@ connt.close%>
          <td><hr>
 
           <tr>
-            <td width="100%" align="center">『E线江湖』</td>
+            <td width="100%" align="center">『快乐江湖』</td>
           </tr>
         </table>
 

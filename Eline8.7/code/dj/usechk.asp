@@ -42,7 +42,7 @@ end if
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
-<title>E线江湖总站___DJ舞吧___wWw.51eline.com</title>
+<title>快乐江湖总站___DJ舞吧___wWw.happyjh.com</title>
 </head>
 
 <body>

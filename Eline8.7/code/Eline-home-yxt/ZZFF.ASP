@@ -10,7 +10,7 @@ if sjjh_grade<>10 or instr(Application("sjjh_admin"),sjjh_name)=0  then Response
 %>
 <html>
 <head>
-<title><%=Application("sjjh_chatroomname")%>站长发放操作♀wWw.51eline.com♀</title>
+<title><%=Application("sjjh_chatroomname")%>站长发放操作♀wWw.happyjh.com♀</title>
 </head>
 <body oncontextmenu=self.event.returnValue=false bgcolor="<%=chatbgcolor%>" background="<%=chatimage%>" bgproperties="fixed">
 <div align="center"><font color="#FFFF00" face="楷体_GB2312"><%=Application("sjjh_chatroomname")%>站长发放操作</font><br>

@@ -12,7 +12,7 @@ sjjh_jhdj=Session("sjjh_jhdj")
 %><html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>积分排行TOP20♀wWw.51eline.com♀</title>
+<title>积分排行TOP20♀wWw.happyjh.com♀</title>
 <meta name="GENERATOR" content="Microsoft FrontPage 3.0">
 <style type="text/css">
 <!--

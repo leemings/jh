@@ -185,7 +185,7 @@ A:hover 	{font-family:verdana,arial,helvetica,Tahoma; text-decoration: none; col
         <table border="0" width="100%">
 
           <tr>
-            <td width="100%" align="center">『E线江湖』创立帮派请慎选帮派名称</td>
+            <td width="100%" align="center">『快乐江湖』创立帮派请慎选帮派名称</td>
           </tr>
 
           <tr>
@@ -212,7 +212,7 @@ A:hover 	{font-family:verdana,arial,helvetica,Tahoma; text-decoration: none; col
          <td><hr> 
  
           <tr> 
-            <td width="100%" align="center">『E线江湖』</td> 
+            <td width="100%" align="center">『快乐江湖』</td> 
           </tr> 
         </table> 
       </td> 

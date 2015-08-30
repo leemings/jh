@@ -3,7 +3,7 @@
 chatimage=Application("sjjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"%>
 <head>
-<title>功能区♀wWw.51eline.com♀</title>
+<title>功能区♀wWw.happyjh.com♀</title>
 <style type="text/css">
 <!--
 a:active {  color: #0000FF; text-decoration: underline}

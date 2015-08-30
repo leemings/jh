@@ -132,7 +132,7 @@ set conn=nothing
 <p align="center"><b><font color="#FFFF00">你现在的密码为：</font><font color="#FFFFFF">123456</font></b></p>
 <p align="center"><font color="#FF0000" size="3"><b>请尽快修改你的密码，以防止密码再次丢失或被盗。</b></font></p>
 <p align="center">　</p>
-<p align="center"><font color="#FFFFFF" size="2">『E线江湖』</font></p>
+<p align="center"><font color="#FFFFFF" size="2">『快乐江湖』</font></p>
 <p align="center">　</p>
 <p align="center">　</p>
 </body>

@@ -1,5 +1,5 @@
 <!--#include file="sjfunc.asp"-->
-<%'ÆÁ±Î¡âwWw.51eline.com¡â
+<%'ÆÁ±Î¡âwWw.happyjh.com¡â
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"

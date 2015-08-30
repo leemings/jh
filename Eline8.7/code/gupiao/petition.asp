@@ -9,7 +9,7 @@ sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 stock=Request.QueryString("stock")
-if stock="" then stock="『E线江湖』"
+if stock="" then stock="『快乐江湖』"
 msg="<head><link rel='stylesheet' href='style.css'></head><body oncontextmenu=self.event.returnValue=false topmargin=0 bgcolor='#339966' text='FF0000'><h3>申购原始股</h3><hr>"
 set conn=server.CreateObject("adodb.connection")
 set rs=server.CreateObject("adodb.recordset")

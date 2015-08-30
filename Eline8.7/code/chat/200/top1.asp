@@ -10,7 +10,7 @@ RefreshTime =600
 
 <html>
 <head>
-<title>E线江湖--游戏在线-51eline.com</title>
+<title>快乐江湖--游戏在线-happyjh.com</title>
    <META HTTP-EQUIV="Refresh" CONTENT="<%= RefreshTime %>, URL=top1.asp">
 <style type="text/css">
 BODY {

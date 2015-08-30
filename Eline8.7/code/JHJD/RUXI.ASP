@@ -98,7 +98,7 @@ end if%>
 <%end if%>
 <%end if%>
 <html>
-<title>参加宴会成功...欢迎光临E线江湖 http://zhzx.jjedu.org/eline</title>
+<title>参加宴会成功...欢迎光临快乐江湖 http://zhzx.jjedu.org/eline</title>
 <style type="text/css">
 <!--
 table {  border: #000000; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}

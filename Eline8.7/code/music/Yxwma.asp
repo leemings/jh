@@ -8,7 +8,7 @@ sjjh_name=Session("sjjh_name")
 sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if session("sjjh_name")="" then 
-	Response.Write "<script Language=Javascript>top.location.href='http://www.51eline.com';alert('提示：对不起，您还没有登陆江湖！');</script>"
+	Response.Write "<script Language=Javascript>top.location.href='http://www.happyjh.com';alert('提示：对不起，您还没有登陆江湖！');</script>"
 	Response.End
 end if
 if Instr(LCase(Application("sjjh_useronlinename"&session("nowinroom")))," "&LCase(sjjh_name)&" ")=0 then
@@ -38,9 +38,9 @@ set conn=nothing
 %>
 <!--#include file="conn.asp"-->
 <ASX version = "3.0">
-<TITLE>一线视听 ← wWw.51Eline.COM</TITLE>
+<TITLE>一线视听 ← wWw.happyjh.com</TITLE>
 <author>
-一线视听</author> <abstract>一线视听</abstract> <copyright>wWw.51Eline.com</copyright> 
+一线视听</author> <abstract>一线视听</abstract> <copyright>wWw.happyjh.com</copyright> 
 <%
 if request("id")<>"" then
     set rs=server.createobject("adodb.recordset")
@@ -51,7 +51,7 @@ if request("id")<>"" then
 %>
 <entry SKIPIFREF="YES"> 
 <title><%=rs("Musicname")%></title>
-<author>一线视听</author><copyright>wWw.51Eline.com</copyright> <ref href="<%=rs("Wma")%>"/> <param name="Artist" value="<%=rs("Singer")%>"/> <param name="Album" value="一线视听"/> <param name="Title" value="<%=rs("Musicname")%>"/> 
+<author>一线视听</author><copyright>wWw.happyjh.com</copyright> <ref href="<%=rs("Wma")%>"/> <param name="Artist" value="<%=rs("Singer")%>"/> <param name="Album" value="一线视听"/> <param name="Title" value="<%=rs("Musicname")%>"/> 
 </ENTRY> 
 <% 
 rs.movenext

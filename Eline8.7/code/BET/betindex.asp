@@ -8,7 +8,7 @@ if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 %>
 <html>
 <head>
-<title>江湖赌场♀一线网络→wWw.51eline.com♀</title>
+<title>江湖赌场♀一线网络→wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">

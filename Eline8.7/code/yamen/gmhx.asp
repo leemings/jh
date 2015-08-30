@@ -11,7 +11,7 @@ regjm=int(rnd*9998)+1
 %>
 <html>
 <head>
-<title>¡¼<%=Application("sjjh_chatroomname")%>¡½¡âwWw.51eline.com¡â</title>
+<title>¡¼<%=Application("sjjh_chatroomname")%>¡½¡âwWw.happyjh.com¡â</title>
 <style type="text/css">body, td     { font-size: 14 }
 input        { font-size: 14; color: #000000 }
 .p1          { font-size: 21pt; color: #ff0000 }

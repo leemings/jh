@@ -18,6 +18,6 @@
 
 <p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>
-<p align="center"><font size="2" color="#000000">『E线江湖』</font></p>
+<p align="center"><font size="2" color="#000000">『快乐江湖』</font></p>
 </BODY>
 </HTML>

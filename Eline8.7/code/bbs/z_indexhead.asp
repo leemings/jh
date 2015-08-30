@@ -5,7 +5,7 @@
 				<%call ShowMyselfVisual(140,"tablebody1")%>
 			</td>					
 		<%else%>
-			<td align=center nowrap valign=middle class=tableBody1 rowspan=4 width=140><a href="http://www.51eline.com"><img src="images/welcome.gif" border="0" alt="一线网络欢迎您！"></a></td>
+			<td align=center nowrap valign=middle class=tableBody1 rowspan=4 width=140><a href="http://www.happyjh.com"><img src="images/welcome.gif" border="0" alt="一线网络欢迎您！"></a></td>
 		<%end if
 		if not founduser then%>
 			<td class=tableBody1 align=center valign=middle width=100% >欢迎您来参观,<a href=reg.asp class=cblue><font color=#ff0000>注册</font></a>或<a href=login.asp class=cblue><font color=#ff0000>登录</font></a>后才能查看您的信息!</td><%

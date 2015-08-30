@@ -27,7 +27,7 @@ if namelen>10 then
 	Response.Write "<script language=JavaScript>{alert('提示：小孩名最多为5个汉字！');}</script>"
 	Response.end
 end if
-badword="站长,管理,管理员,发全,发铨,陈发,一线,E线,一线天,色狼,yixiantian,yxt,eline,射精,奸,死,屎,妈,爹,娘,尻,操,王八,逼,贱,狗,婊,表,靠,叉,插,干,鸡巴,睾丸,蛋,包皮,龟头,屄,赑,妣,肏,奶,尻,屌,作爱,做爱,床,抱抱,鸡八,处女,处男,打炮,十八摸,爸,我儿,·,主席,泽民,法伦,洪志,六扇门,官府"
+badword="站长,管理,管理员,发全,发铨,陈发,一线,E线,回首当年,色狼,yixiantian,yxt,eline,射精,奸,死,屎,妈,爹,娘,尻,操,王八,逼,贱,狗,婊,表,靠,叉,插,干,鸡巴,睾丸,蛋,包皮,龟头,屄,赑,妣,肏,奶,尻,屌,作爱,做爱,床,抱抱,鸡八,处女,处男,打炮,十八摸,爸,我儿,·,主席,泽民,法伦,洪志,六扇门,官府"
 bad=split(badword,",")
 for i=0 to ubound(bad)-1
 	if InStr(LCase(newname),bad(i))<>0 then 
@@ -68,7 +68,7 @@ rs.close
 set rs=nothing
 conn.close
 set conn=nothing
-says="<font color=#ff0000><b>【小孩改名】</b></font>经过公安厅厅长一线天认可，##把给自己的小孩改名为[<font color=red><b>"&newname&"</b></font>]成功……"
+says="<font color=#ff0000><b>【小孩改名】</b></font>经过公安厅厅长回首当年认可，##把给自己的小孩改名为[<font color=red><b>"&newname&"</b></font>]成功……"
 zj="<a href=javascript:parent.sw(\'[" & sjjh_name & "]\'); target=f2>"& sjjh_name & "</a>"
 'br="<a href=javascript:parent.sw(\'[" & towho & "]\'); target=f2>" & towho & "</a>"
 says=replace(says,chr(39),"\'")

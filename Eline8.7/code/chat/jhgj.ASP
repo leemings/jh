@@ -10,7 +10,7 @@ Response.Expires = 0
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
-<title>江湖规矩 - 51eline.com</title>
+<title>江湖规矩 - happyjh.com</title>
 <%
 sjjh_name=Session("sjjh_name")
 sjjh_grade=Session("sjjh_grade")
@@ -48,7 +48,7 @@ a:hover{color:red;text-decoration:none;}
         3.不允许在江湖中拉人</font> <font size="2">......</font> 最好不要在江湖中谈论其他的江湖(特别是站长禁制了的网址)。<br>
         上面这些基本上是会立即被系统自动踢出的。</p>
       <p>4<font size="2">.</font>其他的最好是不要威胁恐吓站长，在聊天室中别人至少有几百种方法让你倒霉<br>
-        5<font size="2">.</font>不要试图做不该做的事，访问系统管理页面或进行破坏，『E线江湖』的这些地方都设置了炸弹保护，悠着点</p>
+        5<font size="2">.</font>不要试图做不该做的事，访问系统管理页面或进行破坏，『快乐江湖』的这些地方都设置了炸弹保护，悠着点</p>
       <p>6<font size="2">.</font>做官府的管理员一定要尽职尽责，公正无私，每个管理员的操作都会被记录在管理日志中，供大家临督。<br>
         7<font size="2">.官府人员只管理刷屏、骂人，及违反中国有关互联网规定的对象。可以使用警告、逮捕、封锁IP的手段制止恶意捣乱的行为的发生。</font> 
         <br>

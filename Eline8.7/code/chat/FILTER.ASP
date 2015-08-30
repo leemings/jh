@@ -16,7 +16,7 @@ chatimage=Application("sjjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"%><html>
 <head>
 <META http-equiv='content-type' content='text/html; charset=gb2312'>
-<title>屏蔽某人的话♀一线网络→wWw.51eline.com♀</title>
+<title>屏蔽某人的话♀一线网络→wWw.happyjh.com♀</title>
 <style type='text/css'>
 body {font-size:12pt;}
 td {font-size:10.5pt;line-height:130%}

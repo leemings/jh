@@ -8,7 +8,7 @@ sjjh_name=Session("sjjh_name")
 sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if session("sjjh_name")="" then 
-	Response.Write "<script Language=Javascript>top.location.href='http://www.51eline.com';alert('提示：对不起，您还没有登陆江湖！');</script>"
+	Response.Write "<script Language=Javascript>top.location.href='http://www.happyjh.com';alert('提示：对不起，您还没有登陆江湖！');</script>"
 	Response.End
 end if
 if Instr(LCase(Application("sjjh_useronlinename"&session("nowinroom")))," "&LCase(sjjh_name)&" ")=0 then
@@ -53,7 +53,7 @@ Wma=Wma
 <html>
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>一线视听 ← wWw.51Eline.COM</title>
+<title>一线视听 ← wWw.happyjh.com</title>
 <style type="text/css">
  <!--
 
@@ -79,7 +79,7 @@ Wma=Wma
     <td><object id="mPlayer1" width=300 height=250
  classid="CLSID:6BF52A52-394A-11D3-B153-00C04F79FAA6" type=application/x-oleobject standby="Loading Windows Media Player components...">
         <param name="URL" value="Yxwma.asp?id=<%=wma%>">
-                          <param name="Album" value="一线网络 wWw.51Eline.com"/>
+                          <param name="Album" value="一线网络 wWw.happyjh.com"/>
                           <param name="rate" value="1">
                           <param name="balance" value="0">
                           <param name="currentPosition" value="0">
@@ -140,4 +140,4 @@ function stopmouse(e) {
       window.captureEvents(Event.MOUSEDOWN); 
        window.onmousedown=stopmouse;  
       </script>
-<script language="javascript">kstatus();function kstatus(){self.status="一线网络→ | wWw.51Eline.com | ←以后请大家使用这个域名访问本站.";setTimeout("kstatus()",0);}</script>
+<script language="javascript">kstatus();function kstatus(){self.status="一线网络→ | wWw.happyjh.com | ←以后请大家使用这个域名访问本站.";setTimeout("kstatus()",0);}</script>

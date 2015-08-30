@@ -121,7 +121,7 @@ set conn=nothing
 </td>
 </tr>
 <tr align="center">
-<td background="top3.gif" width="500" height="28"><font color="#FFFFFF">『E线江湖』</font></td>
+<td background="top3.gif" width="500" height="28"><font color="#FFFFFF">『快乐江湖』</font></td>
 </tr>
 </table>
 </body>

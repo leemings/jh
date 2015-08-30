@@ -36,7 +36,7 @@ reno=Trim(cstr(session("players")))
 <html>
 <head>
 
-<title>E线江湖--游戏在线</title>
+<title>快乐江湖--游戏在线</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" type="text/css" href="forum.css">
 <style type="text/css">

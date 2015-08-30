@@ -1,6 +1,6 @@
 <!--#include file="conn.asp"-->
 <html>
-<title>E线江湖总站___DJ舞吧___wWw.51eline.com</title>
+<title>快乐江湖总站___DJ舞吧___wWw.happyjh.com</title>
 <body style='background:transparent'>
 <script src="js/js.js"></script>
 <style>

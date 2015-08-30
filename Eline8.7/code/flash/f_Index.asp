@@ -350,7 +350,7 @@ dim n
                       <td align="center" height="20">
 <p align="left"><br>欢迎您：<font color=#0000ff>客人</font> <br>
                                 欣赏本站的<strong>Flash</strong><br>
-                                必须是ｅ线江湖的成员<br>
+                                必须是快乐江湖的成员<br>
                                 如果您还没有注册<br>
                                 可以点击以下的注册连接加入我们的家园<br> 
                                 <br>

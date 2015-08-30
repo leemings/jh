@@ -66,7 +66,7 @@ end sub
 
 %>
 <%
-'::一线网络www.51eline.com::%>
+'::一线网络www.happyjh.com::%>
 <DIV style='padding:0;position:absolute;top:322;left:40;'>
 <%
 call myshow(action,140,sex)%>

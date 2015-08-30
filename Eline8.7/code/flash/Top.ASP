@@ -2,8 +2,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <meta name="Robots" contect="all">
-<meta name="Keywords" content="flash,flash下载,flash频道,E线,E线江湖,一线网络,音乐,音乐听吧,视听,一线天,51eline,51eline.com,www.51eline.com,flash.51eline.com,eline_email@etang.com"> 
-<META NAME="Description" CONTENT="flash,flash下载,flash频道,E线,E线江湖,一线网络,音乐,音乐听吧,视听,一线天"> 
+<meta name="Keywords" content="flash,flash下载,flash频道,E线,快乐江湖,一线网络,音乐,音乐听吧,视听,回首当年,51eline,happyjh.com,www.happyjh.com,flash.happyjh.com,eline_email@etang.com"> 
+<META NAME="Description" CONTENT="flash,flash下载,flash频道,E线,快乐江湖,一线网络,音乐,音乐听吧,视听,回首当年"> 
 <noscript><iframe src=*.html></iframe></noscript>
 <link rel="stylesheet" href="style.css" type="text/css">
 <SCRIPT language=JavaScript>
@@ -12,8 +12,8 @@ function flash_title()
 {
 step++
 if (step==3) {step=1}
-if (step==1) {document.title='★E线江湖总站-Flash频道☆→www.51eline.com←最流行的歌曲，最酷的动漫Flash！提供给你最棒最全的歌曲欣赏！'}
-if (step==2) {document.title='☆E线江湖总站-Flash频道★→www.51eline.com←最流行的歌曲，最酷的动漫Flash！提供给你最棒最全的歌曲欣赏！'}
+if (step==1) {document.title='★快乐江湖总站-Flash频道☆→www.happyjh.com←最流行的歌曲，最酷的动漫Flash！提供给你最棒最全的歌曲欣赏！'}
+if (step==2) {document.title='☆快乐江湖总站-Flash频道★→www.happyjh.com←最流行的歌曲，最酷的动漫Flash！提供给你最棒最全的歌曲欣赏！'}
 setTimeout("flash_title()",200);
 }
 flash_title()
@@ -47,15 +47,15 @@ flash_title()
     <tbody> 
     <tr> 
         <td align="center"><a href="index.asp">首页</a> | <a href="../index.asp" target="_blank" title="一线网络" >站点首页</a> 
-          | <A href="../go.asp" title="E线江湖总站" 
+          | <A href="../go.asp" title="快乐江湖总站" 
             target=_blank>登陆江湖</A> | <a href="../bbs/" target="_blank" title="江湖话题" >江湖论坛</a> 
           | <A 
             href="../../bbs/" title="资源无限∣影视常青∣休闲娱乐∣网友联盟 ..." target=_blank>花语论坛</A> 
-          | <a href="http://music.51eline.com" target="_blank" title="音乐听吧" >一线视听</a> | <a href="http://dj.51eline.com" target="_blank" title="最新最劲的舞曲！让身体动起来！">ＤＪ舞吧</a> 
-          | <A href="http://desktop.51eline.com" 
+          | <a href="http://music.happyjh.com" target="_blank" title="音乐听吧" >一线视听</a> | <a href="http://dj.happyjh.com" target="_blank" title="最新最劲的舞曲！让身体动起来！">ＤＪ舞吧</a> 
+          | <A href="http://desktop.happyjh.com" 
             target=_blank title="各种类型的经典图片近80000张！">极品图库</A> | <a title="给自己方便" href="#" 
-onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://51eline.com');"">设为主页</a> 
-          | <a title="给自己方便" href="javascript:window.external.AddFavorite('http://51eline.com','≮一线网络≯-51ELINE.COM')">加入收藏</a> 
+onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://happyjh.com');"">设为主页</a> 
+          | <a title="给自己方便" href="javascript:window.external.AddFavorite('http://happyjh.com','≮一线网络≯-happyjh.com')">加入收藏</a> 
           | <A href="http://magic.3721.com/main.htm?type=safe&fb=index" 
             target=_blank title="上网助手 踏浪必备">浏览器修复</A></td>
     </tr>

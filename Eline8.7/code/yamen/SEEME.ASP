@@ -20,7 +20,7 @@ set rs=conn.Execute(sql)
 %>
 <html>
 <head>
-<title>江湖档案♀wWw.51eline.com♀</title>
+<title>江湖档案♀wWw.happyjh.com♀</title>
 <LINK href="../css.css" rel=stylesheet>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 </head>

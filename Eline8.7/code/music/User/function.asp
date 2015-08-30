@@ -49,7 +49,7 @@ sub error()
 %>
 <html><head>
 <meta http-equiv=Content-Type content=text/html; charset=gb2312>
-<meta name=author content=51eline.COM 一线视听>
+<meta name=author content=happyjh.com 一线视听>
 <title>一线视听</title>
 <link rel=stylesheet href=images/style.css>
 </head>

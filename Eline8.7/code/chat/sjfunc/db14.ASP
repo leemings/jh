@@ -2,7 +2,7 @@
 <!--#include file="sjfunc.asp"-->
 <!--#include file="func.asp"-->
 <!--#include file="chatconfig.asp"-->
-<%'发招(比拼内力)♀wWw.51eline.com♀
+<%'发招(比拼内力)♀wWw.happyjh.com♀
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"

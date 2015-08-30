@@ -15,8 +15,8 @@ function defaul_home(){this.home.style.behavior='url(#default#homepage)';this.ho
       <tr> 
         <td width="766" height="34" bgcolor="#003366" valign="top" align="center"> 
           <p align="center"><font color="#FFFFFF"><font color="#FFFCF0" style="font-size: 9pt">Copyright 
-            (C) 2003-2004 一线网络 wWw.51Eline.com All Rights Reserved</font><font color="#FFFCF0"><span style="font-size: 9pt"><br>
-            站长：一线天 QQ：88617427 E-Mail:Eline_Email@etang.com</span></font></font><font color="#FFFFFF"><font color="#FFFCF0"><span style="font-size: 9pt"><br>
+            (C) 2003-2004 一线网络 wWw.happyjh.com All Rights Reserved</font><font color="#FFFCF0"><span style="font-size: 9pt"><br>
+            站长：回首当年 QQ：88617427 E-Mail:Eline_Email@etang.com</span></font></font><font color="#FFFFFF"><font color="#FFFCF0"><span style="font-size: 9pt"><br>
             </span></font></font></td>
       </tr>
     </table>

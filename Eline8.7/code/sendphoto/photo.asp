@@ -18,13 +18,13 @@ end if
 %>
 <html>
 <head>
-<title>网友照片♀wWw.51eline.com♀</title>
+<title>网友照片♀wWw.happyjh.com♀</title>
 <style></style>
 <link rel="stylesheet" href="../NEW.CSS" type="text/css">
 </head>
 <BODY  background="../bgcheetah.gif">
 <center>
-<table width=500 border=0><tr><td align=center><h2>E线江湖 ---- 网 友 照 片</h2></table>
+<table width=500 border=0><tr><td align=center><h2>快乐江湖 ---- 网 友 照 片</h2></table>
 
             <table width="500" border="0" style=font-size:9pt>
               <tr> 

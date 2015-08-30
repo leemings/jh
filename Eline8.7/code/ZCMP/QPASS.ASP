@@ -11,7 +11,7 @@ regjm=int(rnd*9998)+1
 %>
 <html>
 <head>
-<title>〖<%=Application("sjjh_chatroomname")%>〗♀wWw.51eline.com♀</title>
+<title>〖<%=Application("sjjh_chatroomname")%>〗♀wWw.happyjh.com♀</title>
 <style type="text/css">body, td     { font-size: 14 }
 input        { font-size: 14; color: #000000 }
 .p1          { font-size: 21pt; color: #ff0000 }
@@ -65,7 +65,7 @@ name="submit">
 </tr>
 </table>
 
-<p align="center"><font color="#FFFFFF" size="2">『E线江湖』</font></p>
+<p align="center"><font color="#FFFFFF" size="2">『快乐江湖』</font></p>
 
 </body>
 

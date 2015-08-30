@@ -19,7 +19,7 @@ A{color:black;text-decoration:none;}
 A:Hover{color:blue;text-decoration:underline;cursor: crosshair;}
 A:Active {color:black;text-decoration:none;}
 </style>
-<title>控制中心♀wWw.51eline.com♀</title>
+<title>控制中心♀wWw.happyjh.com♀</title>
 </head>
 <body bgcolor="#CCCCCC" background="../jhimg/bk_hc3w.gif" link="#000000" vlink="#000000" alink="#000000">
 <table border="1" width="70%" bordercolorlight="#000000" cellspacing="1" cellpadding="1" bordercolordark="#85C2E0" height="147" align="center">

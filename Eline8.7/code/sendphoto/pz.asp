@@ -20,7 +20,7 @@ set conn=nothing
 %> 
 <html><head>
 <meta http-equiv='content-type' content='text/html; charset=gb2312'>
-<title>提示信息♀wWw.51eline.com♀</title>
+<title>提示信息♀wWw.happyjh.com♀</title>
 </head>
 <style type="text/css">
 .p9,body {font-size: 14}

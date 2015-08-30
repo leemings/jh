@@ -105,7 +105,7 @@ randomize
 r=int(rnd*32)+1
 select case r
 case 1
-walk="<font color=red>【行走消息】</font><font color=#000080>位于"& texin &""& mapai &"<font color=red>【##】</font> 往" & fn1 & "<img src='img/ki17.gif' width='20' height='20'> 行走到了江湖铁打馆,铁打馆老板</font><font color=red>【陆乘风】说道</font>:<font color=#000080>这里可是『E线江湖』最有名的铁打馆什么好武器都有不知道"& mapai &"<font color=red>【##】 </font>想买些什么<font color=red>【##】</font>想了想真不知道买什么好最后有老板<font color=#ff0000>【陆乘风】</font>帮<font color=#ff0000>【##】</font>拿主意,卖了一把飞刀给<font color=#ff0000>【##】</font>算他2万银两而已.因为景气差只好半卖半送 "
+walk="<font color=red>【行走消息】</font><font color=#000080>位于"& texin &""& mapai &"<font color=red>【##】</font> 往" & fn1 & "<img src='img/ki17.gif' width='20' height='20'> 行走到了江湖铁打馆,铁打馆老板</font><font color=red>【陆乘风】说道</font>:<font color=#000080>这里可是『快乐江湖』最有名的铁打馆什么好武器都有不知道"& mapai &"<font color=red>【##】 </font>想买些什么<font color=red>【##】</font>想了想真不知道买什么好最后有老板<font color=#ff0000>【陆乘风】</font>帮<font color=#ff0000>【##】</font>拿主意,卖了一把飞刀给<font color=#ff0000>【##】</font>算他2万银两而已.因为景气差只好半卖半送 "
 	rs.open "SELECT w4 FROM 用户 WHERE 姓名='"&sjjh_name&"'",conn
 	duyao=add(rs("w4"),"飞刀",1)
 	conn.execute "update 用户 set  轻功=轻功-1000,银两=银两-20000,w4='"&duyao&"' where 姓名='"&sjjh_name&"'"
@@ -126,7 +126,7 @@ case 6
 walk="<font color=red>【行走消息】</font><font color=#000080>位于"& texin &""& mapai &"<font color=red>【##】</font> 往" & fn1 & "<img src='img/ki17.gif' width='20' height='20'> 探了探路,却完全没发现路口只好继续行走.<font color=#ff0000>【" & fn1 & "/东下】</font> "
 	conn.execute "update 用户 set 轻功=轻功-1000 where 姓名='"&sjjh_name&"'" 
 case 7
-walk="<font color=red>【行走消息】</font><font color=#000080>位于"& texin &""& mapai &"<font color=red>【##】</font> 往" & fn1 & "<img src='img/ki17.gif' width='20' height='20'> 行走到了宠物商店,宠物店老板娘</font><font color=red>【贵娘】说道</font>:<font color=#000080>这里可是『E线江湖』最有名的宠物商店喔"& mapai &"<font color=red>【##】 </font>想了一想还像没有什么好买的只好继续行走.临走前<font color=red>【贵娘】</font>送了三朵玫瑰给<font color=#ff0000>【##】</font>顺便说道:下次还要记得来看我贵娘喔嘻. "
+walk="<font color=red>【行走消息】</font><font color=#000080>位于"& texin &""& mapai &"<font color=red>【##】</font> 往" & fn1 & "<img src='img/ki17.gif' width='20' height='20'> 行走到了宠物商店,宠物店老板娘</font><font color=red>【贵娘】说道</font>:<font color=#000080>这里可是『快乐江湖』最有名的宠物商店喔"& mapai &"<font color=red>【##】 </font>想了一想还像没有什么好买的只好继续行走.临走前<font color=red>【贵娘】</font>送了三朵玫瑰给<font color=#ff0000>【##】</font>顺便说道:下次还要记得来看我贵娘喔嘻. "
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&sjjh_name&"'",conn
 	duyao=add(rs("w7"),"玫瑰",3)
 	conn.execute "update 用户 set  轻功=轻功-1000,w7='"&duyao&"' where 姓名='"&sjjh_name&"'"
@@ -201,7 +201,7 @@ walk="<font color=red>【行走消息】</font><font color=#000080>位于"& texin &""& m
 	conn.execute "update 用户 set 轻功=轻功-1000 where 姓名='"&sjjh_name&"'" 	
 
 case 24
-walk="<font color=red>【行走消息】</font><font color=#000080>位于"& texin &""& mapai &"<font color=red>【##】</font> 往" & fn1 & "<img src='img/ki17.gif' width='20' height='20'> 行走走到了大街钱庄.钱庄老板<font color=#ff0000>【钱万里】</font>立刻出来招呼<font color=#ff0000>【##】</font>客棺.客棺想来存点钱吗这里利息可高了.<font color=#ff0000>【##】</font>说道:现在『E线江湖』这么乱那有钱存<font color=#ff0000>【钱老板】</font>看了<font color=#ff0000>【##】</font>一下觉得他很可怜就从钱庄拿出一个金币给<font color=#ff0000>【##】</font>*******.<font color=#ff0000>【##】</font>高兴死了连忙跟<font color=#ff0000>【钱老板】</font>道谢..谢过完继续上路 "
+walk="<font color=red>【行走消息】</font><font color=#000080>位于"& texin &""& mapai &"<font color=red>【##】</font> 往" & fn1 & "<img src='img/ki17.gif' width='20' height='20'> 行走走到了大街钱庄.钱庄老板<font color=#ff0000>【钱万里】</font>立刻出来招呼<font color=#ff0000>【##】</font>客棺.客棺想来存点钱吗这里利息可高了.<font color=#ff0000>【##】</font>说道:现在『快乐江湖』这么乱那有钱存<font color=#ff0000>【钱老板】</font>看了<font color=#ff0000>【##】</font>一下觉得他很可怜就从钱庄拿出一个金币给<font color=#ff0000>【##】</font>*******.<font color=#ff0000>【##】</font>高兴死了连忙跟<font color=#ff0000>【钱老板】</font>道谢..谢过完继续上路 "
 	conn.execute "update 用户 set 轻功=轻功-1000,金币=金币+1 where 姓名='"&sjjh_name&"'" 
 	
 case 25

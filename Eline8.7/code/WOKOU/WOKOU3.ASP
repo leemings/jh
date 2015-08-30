@@ -13,7 +13,7 @@ if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 <HTML>
 <HEAD>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<TITLE>『E线江湖』抗击倭寇战场三</TITLE>
+<TITLE>『快乐江湖』抗击倭寇战场三</TITLE>
 <SCRIPT LANGUAGE=JavaScript>
 <!--
 //用户ID号码

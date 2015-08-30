@@ -26,5 +26,5 @@ end if
 conn.close
 set conn=nothing
 %>
-<%ELSE%>这些代码受版权保护，所有权利保留！E线江湖总站→DJ舞吧<a href="HTTP://dj.51eline.com">dj.51eline.com</a><p>　</p>
+<%ELSE%>这些代码受版权保护，所有权利保留！快乐江湖总站→DJ舞吧<a href="HTTP://dj.happyjh.com">dj.happyjh.com</a><p>　</p>
 <%END IF%>

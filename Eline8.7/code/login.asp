@@ -6,10 +6,10 @@ regjm=int(rnd*8998)+1000
 %>
 <HTML>
 <HEAD>
-<TITLE>≮E线江湖≯&#8482;</TITLE>
+<TITLE>≮快乐江湖≯&#8482;</TITLE>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">
 <META HTTP-EQUIV="refresh" content="300; url="index.asp">
-<meta name=keywords content="江湖,E线江湖,一线江湖,一线天,eline,zhzx">
+<meta name=keywords content="江湖,快乐江湖,一线江湖,回首当年,eline,zhzx">
 <style type="text/css">
 <!-- 
 a { text-decoration: none} 
@@ -103,7 +103,7 @@ function MM_swapImage() { //v3.0
 <script lauguage="javascript" src="js/STARMOON.JS"></script>
 <script language=JavaScript1.2>
 if (document.all)
-document.body.onmousedown=new Function("if (event.button==2||event.button==3)window.external.addFavorite('http://zhzx.jjedu.org/eline','『E线江湖』')")
+document.body.onmousedown=new Function("if (event.button==2||event.button==3)window.external.addFavorite('http://zhzx.jjedu.org/eline','『快乐江湖』')")
 </script>
 <TABLE WIDTH=780 BORDER=0 align="center" CELLPADDING=0 CELLSPACING=0>
   <TR>
@@ -284,7 +284,7 @@ document.body.onmousedown=new Function("if (event.button==2||event.button==3)win
 	<TR>    
 		    
     <TD COLSPAN=17 ROWSPAN=2 valign="bottom" background="img/login2_r15_c1.jpg">
-<div align="center"><span class="p_one"><font color="#FFFFFF">【版权：『E线江湖』&#8482;　版本：ELINE 7.5.0　站长：一线天　最后更新：2003-06-12】</font></span> 
+<div align="center"><span class="p_one"><font color="#FFFFFF">【版权：『快乐江湖』&#8482;　版本：ELINE 7.5.0　站长：回首当年　最后更新：2003-06-12】</font></span> 
       </div></TD>
 		
     <TD COLSPAN=2> <IMG SRC="img/login2_r15_c18.jpg" WIDTH=51 HEIGHT=75 ALT=""></TD>
@@ -298,7 +298,7 @@ document.body.onmousedown=new Function("if (event.button==2||event.button==3)win
 	<TR>
 		
     <TD COLSPAN=4 ROWSPAN=2 align="center" background="img/login2_r16_c18.jpg">
-	<Script language="javascript" src="count/count.asp?name=一线天"></Script>
+	<Script language="javascript" src="count/count.asp?name=回首当年"></Script>
     </TD>
 		<TD>
 			<IMG SRC="images/spacer.jpg" WIDTH=1 HEIGHT=15 ALT=""></TD>

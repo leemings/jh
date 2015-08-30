@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>E线江湖--游戏在线-51eline.com</title>
+<title>快乐江湖--游戏在线-happyjh.com</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" type="text/css" href="forum.css">
 <style type="text/css">
@@ -110,5 +110,5 @@ next
   </table>
 <%next%>
 </div>
-<p align="center"><span lang="zh-cn">『E线江湖』</span></p></body>
+<p align="center"><span lang="zh-cn">『快乐江湖』</span></p></body>
 </html>

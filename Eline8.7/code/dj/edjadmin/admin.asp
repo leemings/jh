@@ -26,7 +26,7 @@
         将同时删除属于该分类的下属分类及所有歌曲。<br>
         所以请您注意，在不知道数据库关系的情况切勿<br>
         胡乱修改，以免造成程序的错误带来麻烦。<br>
-        如有需要可与[一线网络]-wWw.51eline.com联系<br>OICQ：<font color="#FF0000">88617427</font></font></td>
+        如有需要可与[一线网络]-wWw.happyjh.com联系<br>OICQ：<font color="#FF0000">88617427</font></font></td>
       </tr>
     </table>
     </td>

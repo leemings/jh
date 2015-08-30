@@ -3,7 +3,7 @@
 <!--#include file="func.asp"-->
 <!--#include file="../../mywp.asp"-->
 <!--#include file="chatconfig.asp"-->
-<%'使用配药♀wWw.51eline.com♀
+<%'使用配药♀wWw.happyjh.com♀
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"

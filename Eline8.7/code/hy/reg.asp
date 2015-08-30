@@ -24,7 +24,7 @@
           具体说明请<a href="../chat/hy.asp" target="_blank"><font color="#0000FF"><b>点击这里!</b></font></a></p>
         <p align="center"> <a href=reg1.asp><font color="#6666FF">我要申请</font></a>　|　<a href=javascript:window.close()><font color="#6666FF">算了没能力</font></a><br>
           <br>
-          <%=Application("sjjh_chatroomname")%> E线江湖 2003-2004</p>
+          <%=Application("sjjh_chatroomname")%> 快乐江湖 2003-2004</p>
       </div>
       </td>
 </tr>

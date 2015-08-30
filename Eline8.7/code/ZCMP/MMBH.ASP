@@ -40,7 +40,7 @@ set conn=nothing
 <p><a href="mmbhcx.asp">查询密码保护资料（站长操作）</a></p>
 <%end if%>
 <p>　</p>
-<p align="center"><font color="#FF0000" size="2"><b>&nbsp;『E线江湖』之密码保护</b></font></p>
-<p align="center"><font color="#FF0000" size="2"><b>程序修改:一线天</b></font></p>
+<p align="center"><font color="#FF0000" size="2"><b>&nbsp;『快乐江湖』之密码保护</b></font></p>
+<p align="center"><font color="#FF0000" size="2"><b>程序修改:回首当年</b></font></p>
 </body>
 </html>

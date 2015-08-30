@@ -1,20 +1,20 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <HTML><HEAD>
-<TITLE>☆E线江湖总站→一线视听☆www.51eline.com←最新最全的音乐！新歌老歌全包揽！</TITLE>
+<TITLE>☆快乐江湖总站→一线视听☆www.happyjh.com←最新最全的音乐！新歌老歌全包揽！</TITLE>
 <SCRIPT language=JavaScript>
 step=0
 function flash_title()
 {
 step++
 if (step==3) {step=1}
-if (step==1) {document.title='★E线江湖总站-一线视听☆→www.51eline.com←最新最全的音乐！新歌老歌全包揽！'}
-if (step==2) {document.title='☆E线江湖总站-一线视听★→www.51eline.com←最新最全的音乐！新歌老歌全包揽！'}
+if (step==1) {document.title='★快乐江湖总站-一线视听☆→www.happyjh.com←最新最全的音乐！新歌老歌全包揽！'}
+if (step==2) {document.title='☆快乐江湖总站-一线视听★→www.happyjh.com←最新最全的音乐！新歌老歌全包揽！'}
 setTimeout("flash_title()",200);
 }
 flash_title()
 </SCRIPT>
 <meta name="description" content="一线视听">
-<meta name="keywords" content="一线网络,一线视听,E线江湖,一线天,Eline,51eline,51eline.com,在线试听,在线视听,MTV,MP3下载,音乐,WMA音乐,宽带音乐,新专辑,新专集,歌手,日韩,欧美,男歌手,女歌手">
+<meta name="keywords" content="一线网络,一线视听,快乐江湖,回首当年,Eline,51eline,happyjh.com,在线试听,在线视听,MTV,MP3下载,音乐,WMA音乐,宽带音乐,新专辑,新专集,歌手,日韩,欧美,男歌手,女歌手">
 <META http-equiv=Content-Type content="text/html; charset=gb2312">
 <META content="Microsoft FrontPage 5.0" name=GENERATOR>
 <META content=FrontPage.Editor.Document name=ProgId><LINK 
@@ -107,7 +107,7 @@ border=0>
 border=0>
                                     <TBODY>
                                       <TR> 
-                                          <TD width="50%"> <a href="http://www.51eline.com" target="_blank"><img src="images/ads.gif" width="468" height="60" alt="{一线网络} → {全力打造精彩论坛与江湖}" border="0"></a></TD>
+                                          <TD width="50%"> <a href="http://www.happyjh.com" target="_blank"><img src="images/ads.gif" width="468" height="60" alt="{一线网络} → {全力打造精彩论坛与江湖}" border="0"></a></TD>
                                         <TD width="50%" align=center><script src="online/online.asp"></script></TD>
                                       </TR>
                                     </TBODY>
@@ -160,7 +160,7 @@ border=0>
       </TR></TBODY>
     </TABLE>
 </CENTER></DIV><MAP name=Map>
-  <AREA shape=RECT coords=276,3,332,16 href="www.51eline.com" target="_blank">
+  <AREA shape=RECT coords=276,3,332,16 href="www.happyjh.com" target="_blank">
   <AREA shape=RECT coords=347,3,401,16 
   <a href="mailto:Eline_Email@etang.com"><AREA shape=RECT coords=413,2,464,17 
   href="#">

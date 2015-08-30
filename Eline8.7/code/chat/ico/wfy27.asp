@@ -7,7 +7,7 @@ rs.open "SELECT * FROM sm where a='广告'",conn,2,2
 %>
 <html>
 <head>
-<title>下图♀wWw.51eline.com♀</title>
+<title>下图♀wWw.happyjh.com♀</title>
 <META http-equiv="Content-Type" content="text/html; charset=gb2312">
 </head>
 <body bgcolor="<%=chatbgcolor%>" background="<%=chatimage%>" text="#996600" link="#996600" vlink="#996600" alink="#996600" leftmargin="0" topmargin="0" bgproperties="fixed" marginwidth="0" marginheight="0" oncontextmenu=self.event.returnValue=false>

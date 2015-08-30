@@ -8,7 +8,7 @@ if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 chatbgcolor=Application("sjjh_chatbgcolor")
 chatimage=Application("sjjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"
-%><html><head><title>图片♀wWw.51eline.com♀</title>
+%><html><head><title>图片♀wWw.happyjh.com♀</title>
 <META http-equiv="Content-Type" content="text/html; charset=gb2312">
 <script language="JavaScript">function s(list){parent.f2.document.af.sytemp.value=parent.f2.document.af.sytemp.value+"[IMG]"+list+"[/IMG]";parent.f2.document.af.sytemp.focus();}</script>
 <style TYPE="text/css">

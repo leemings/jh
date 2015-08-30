@@ -17,7 +17,7 @@ if len(f)=1 then f="0" & f
 if len(m)=1 then m="0" & m
 sj=n & "-" & y & "-" & r & " " & s & ":" & f & ":" & m
 Sub Msg (v)
- Response.Write "<html><head><meta http-equiv='Content-Type' content='text/html; charset=gb2312'><title>种花♀wWw.51eline.com♀</title><meta http-equiv='pragma' content='no-cache'><style type=text/css>body{color:black;font-family:宋体;font-size:9pt;background-color:buttonface;border-bottom:medium none;border-left:medium none;border-right:medium none;border-top:medium none;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px}</style></head><body leftMargin=0 topMargin=0 marginheight=0 marginwidth=0>"
+ Response.Write "<html><head><meta http-equiv='Content-Type' content='text/html; charset=gb2312'><title>种花♀wWw.happyjh.com♀</title><meta http-equiv='pragma' content='no-cache'><style type=text/css>body{color:black;font-family:宋体;font-size:9pt;background-color:buttonface;border-bottom:medium none;border-left:medium none;border-right:medium none;border-top:medium none;padding-bottom:0px;padding-left:0px;padding-right:0px;padding-top:0px}</style></head><body leftMargin=0 topMargin=0 marginheight=0 marginwidth=0>"
  Response.Write "<script Language=JavaScript>alert('" & v & "');window.close();</script></body></html>"
  Response.End
 End Sub

@@ -11,7 +11,7 @@ sjjh_jhdj=Session("sjjh_jhdj")
 %><html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>门派基金排行♀wWw.51eline.com♀</title>
+<title>门派基金排行♀wWw.happyjh.com♀</title>
 <meta name="GENERATOR" content="Microsoft FrontPage 3.0">
 <style type="text/css">
 <!--

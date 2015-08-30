@@ -13,7 +13,7 @@ conn.open Application("sjjh_usermdb")
 %>
 <html>
 <head>
-<title>物品买价格设整器♀wWw.51eline.com♀</title>
+<title>物品买价格设整器♀wWw.happyjh.com♀</title>
 <link rel="stylesheet" href="../setup.css">
 <script LANGUAGE="JavaScript">
 <!--

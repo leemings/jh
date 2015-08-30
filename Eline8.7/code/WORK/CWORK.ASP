@@ -10,7 +10,7 @@ sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 %>
-<title>职业转换♀wWw.51eline.com♀</title>
+<title>职业转换♀wWw.happyjh.com♀</title>
 <body bgcolor="#CCCCCC">
 <%ziye=trim(request.form("jiu"))
 if len(ziye)>3 then
@@ -87,7 +87,7 @@ if ziye="采冰" or ziye="采矿" or ziye="伐木" or ziye="郎中" or ziye="大夫" or zi
 	conn.execute "update 用户 set 银两=银两-500000,职业='"& ziye &"' where 姓名='"&sjjh_name&"'",conn
 	else
 	
-	if ziye="男贩" and (sjjh_jhdj<50 or (sjjh_grade>=6 and sjjh_name<>"一线天") or pi="出家" or sex<>"男") then
+	if ziye="男贩" and (sjjh_jhdj<50 or (sjjh_grade>=6 and sjjh_name<>"回首当年") or pi="出家" or sex<>"男") then
 		rs.close
 		set rs=nothing
 		conn.close
@@ -99,7 +99,7 @@ if ziye="采冰" or ziye="采矿" or ziye="伐木" or ziye="郎中" or ziye="大夫" or zi
 			conn.execute "update 用户 set 银两=银两-500000,职业='"& ziye &"' where 姓名='"& sjjh_name &"'",conn
 		end if
 	end if
-	if ziye="女贩" and (sjjh_jhdj<50 or (sjjh_grade>=6 and sjjh_name<>"一线天") or pi="出家" or (sex<>"女" and sjjh_name<>"一线天")) then
+	if ziye="女贩" and (sjjh_jhdj<50 or (sjjh_grade>=6 and sjjh_name<>"回首当年") or pi="出家" or (sex<>"女" and sjjh_name<>"回首当年")) then
 		rs.close
 		set rs=nothing
 		conn.close

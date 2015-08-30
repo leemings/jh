@@ -9,7 +9,7 @@ sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 %>
-<title>金卡转换轻功♀wWw.51eline.com♀</title>
+<title>金卡转换轻功♀wWw.happyjh.com♀</title>
 <body leftmargin="0" topmargin="0" bgcolor="#CCCCCC" background="../bgcheetah.gif">
 <%my=sjjh_name
 input=request.form("input")

@@ -76,7 +76,7 @@ if asc(usernamechr)>0 then Response.Redirect "../error.asp?id=60"
 next
 if instr(name,"or")<>0 or instr(sex,"or")<>0 or instr(psw,"or")<>0 or instr(pswc,"or")<>0 or instr(email,"or")<>0 or instr(oicq,"or")<>0 or instr(ask,"or")<>0 or instr(reply,"or")<>0 then Response.Redirect "../error.asp?id=54"
 if instr(name,"=")<>0 or instr(sex,"=")<>0 or instr(psw,"=")<>0 or instr(pswc,"=")<>0 or instr(email,"=")<>0 or instr(oicq,"=")<>0 or instr(ask,"=")<>0  or instr(reply,"or")<>0 then Response.Redirect "../error.asp?id=54"
-if Instr(name,"主席")>0 or Instr(name,"交易人名")>0 or Instr(name,"管理")>0 or Instr(name,"朋友名字")>0 or Instr(name,Application("sjjh_automanname"))>0 or Instr(name,"一线天")>0 or Instr(name,"伊然")>0 or Instr(name,"站长")>0 or Instr(name,"网管")>0 or Instr(name,"时代")>0 or Instr(name,"江湖")>0 or Instr(name,"中国")>0 or Instr(name,"严")>0 or Instr(name,"妈")>0 or Instr(name,"爸")>0 or Instr(name,"大家")>0 or Instr(name,"操")>0 or Instr(name,"黑客")>0 or Instr(name,"嘿客")>0 then Response.Redirect "../error.asp?id=130"
+if Instr(name,"主席")>0 or Instr(name,"交易人名")>0 or Instr(name,"管理")>0 or Instr(name,"朋友名字")>0 or Instr(name,Application("sjjh_automanname"))>0 or Instr(name,"回首当年")>0 or Instr(name,"伊然")>0 or Instr(name,"站长")>0 or Instr(name,"网管")>0 or Instr(name,"时代")>0 or Instr(name,"江湖")>0 or Instr(name,"中国")>0 or Instr(name,"严")>0 or Instr(name,"妈")>0 or Instr(name,"爸")>0 or Instr(name,"大家")>0 or Instr(name,"操")>0 or Instr(name,"黑客")>0 or Instr(name,"嘿客")>0 then Response.Redirect "../error.asp?id=130"
 if pswc<>psw then Response.Redirect "../error.asp?id=166"
 if trim(request.form("Name"))="" or trim(request.form("psw"))="" or trim(Request.Form("e_mail"))="" or trim(request.form("oicq"))="" then Response.Redirect "../error.asp?id=56"
 if trim(request.form("Name"))=trim(request.form("psw")) then Response.Redirect "../error.asp?id=129"
@@ -183,7 +183,7 @@ rs("保留2")="保留"
 rs("存款")=10000
 rs("结算日期")=date()
 rs("地区")="未知"
-rs("签名")="WWW.51ELINE.COM"
+rs("签名")="WWW.happyjh.com"
 rs("会员等级")=1
 rs("会员日期")=huiqi
 rs("会员金卡")=0
@@ -193,7 +193,7 @@ rs("介绍人")=jsr
 rs("泡豆点数")=0
 rs("暴豆时间")=now()-1
 rs("操作时间")=now()
-rs("好友名单")="|一线天|"
+rs("好友名单")="|回首当年|"
 rs("结婚次数")=0
 rs("结婚记念日")=date()
 rs("情人")="无"
@@ -257,7 +257,7 @@ set conn=nothing
 Function SqlStr(data)
 	SqlStr="'" & Replace(data,"'","''") & "'"
 End Function
-says="<bgsound src=wav/Global.wav loop=1><img src=../yamen/xinr.gif><font color=red>〖新人加入〗</font><font color=green>大侠</font><img src=../ico/"& touxiang &"-2.gif width=32 height=32><font color=#000000>[</font><font color=#cc0000>"& xinren &"</font>("& sex &")<font color=#000000>]</font><font color=green>ID</font><font color=#000000>[</font><font color=#cc0000>"& id &"</font><font color=#000000>]</font><font color=green>加入了ｅ线江湖总站，大家对新人要多照顾啊！</font><font color=green>介绍人</font><font color=#000000>[</font><font color=#cc0000>"& jsr &"</font><font color=#000000>]</font>(<font color=#ff00ff>" & regsj & "</font>)"			'聊天数据
+says="<bgsound src=wav/Global.wav loop=1><img src=../yamen/xinr.gif><font color=red>〖新人加入〗</font><font color=green>大侠</font><img src=../ico/"& touxiang &"-2.gif width=32 height=32><font color=#000000>[</font><font color=#cc0000>"& xinren &"</font>("& sex &")<font color=#000000>]</font><font color=green>ID</font><font color=#000000>[</font><font color=#cc0000>"& id &"</font><font color=#000000>]</font><font color=green>加入了快乐江湖总站，大家对新人要多照顾啊！</font><font color=green>介绍人</font><font color=#000000>[</font><font color=#cc0000>"& jsr &"</font><font color=#000000>]</font>(<font color=#ff00ff>" & regsj & "</font>)"			'聊天数据
 act="消息"
 towhoway=0
 towho="大家"

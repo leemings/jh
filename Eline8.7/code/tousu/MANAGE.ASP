@@ -21,7 +21,7 @@ conn.open Application("awjh_l_usermdb")
 
 <html>
 <head>
-<title>申冤状纸一览♀wWw.51eline.com♀</title>
+<title>申冤状纸一览♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type=text/css><!--td {  font-family: 宋体; font-size: 9pt}body {  font-family: 宋体; font-size: 9pt}select {  font-family: 宋体; font-size: 9pt}A {text-decoration: none; font-family: "宋体"; font-size: 9pt}A:hover {text-decoration: underline; color: #CC0000; font-family: "宋体"; font-size: 9pt} .big {  font-family: 宋体; font-size: 12pt}
 --></style>

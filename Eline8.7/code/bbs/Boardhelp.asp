@@ -60,10 +60,10 @@ sub main()%>
 				<p>&nbsp;&nbsp;<font color=red>[I]</font><i>文字</i><font color=red>[/I]</font>：在文字的位置可以任意加入您需要的字符，显示为斜体效果。
 				<p>&nbsp;&nbsp;<font color=red>[U]</font><u>文字</u><font color=red>[/U]</font>：在文字的位置可以任意加入您需要的字符，显示为下划线效果。
 				<p>&nbsp;&nbsp;<font color=red>[align=center]</font>文字<font color=red>[/align]</font>：在文字的位置可以任意加入您需要的字符，center位置center表示居中，left表示居左，right表示居右。
-				<p>&nbsp;&nbsp;<font color=red>[URL]</font><A HREF=HTTP://BBS.51ELINE.COM>HTTP://BBS.51ELINE.COM</A><font color=red>[/URL]</font>
-				<P>&nbsp;&nbsp;<font color=red>[URL=HTTP://BBS.51ELINE.COM]</font><A HREF=HTTP://BBS.51ELINE.COM>E线论坛</A><font color=red>[/URL]</font>：有两种方法可以加入超级连接，可以连接具体地址或者文字连接。
+				<p>&nbsp;&nbsp;<font color=red>[URL]</font><A HREF=HTTP://BBS.happyjh.com>HTTP://BBS.happyjh.com</A><font color=red>[/URL]</font>
+				<P>&nbsp;&nbsp;<font color=red>[URL=HTTP://BBS.happyjh.com]</font><A HREF=HTTP://BBS.happyjh.com>E线论坛</A><font color=red>[/URL]</font>：有两种方法可以加入超级连接，可以连接具体地址或者文字连接。
 				<p>&nbsp;&nbsp;<font color=red>[EMAIL]</font><A HREF=mailto:Eline_Email@etang.com>Eline_Email@etang.com</A><font color=red>[/EMAIL]</font>
-				<P>&nbsp;&nbsp;<font color=red>[EMAIL=MAILTO:Eline_Email@etang.com]</font><A HREF=mailto:Eline_Email@etang.com>一线天</A><font color=red>[/EMAIL]</font>：有两种方法可以加入邮件连接，可以连接具体地址或者文字连接。
+				<P>&nbsp;&nbsp;<font color=red>[EMAIL=MAILTO:Eline_Email@etang.com]</font><A HREF=mailto:Eline_Email@etang.com>回首当年</A><font color=red>[/EMAIL]</font>：有两种方法可以加入邮件连接，可以连接具体地址或者文字连接。
 				<P>&nbsp;&nbsp;<font color=red>[img]</font><img src=http://zhzx.jjedu.org/logo.gif><font color=red>[/img]</font>：在标签的中间插入图片地址可以实现插图效果。
 				<P>&nbsp;&nbsp;<font color=red>[flash]</font>Flash连接地址<font color=red>[/Flash]</font>：在标签的中间插入Flash图片地址可以实现插入Flash。
 				<P>&nbsp;&nbsp;<font color=red>[code]</font>文字<font color=red>[/code]</font>：在标签中写入文字可实现html中编号效果。

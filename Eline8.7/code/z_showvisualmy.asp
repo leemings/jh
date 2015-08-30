@@ -66,7 +66,7 @@ end sub
 
 %>
 <%
-'::一线网络www.51eline.com::%>
+'::一线网络www.happyjh.com::%>
 <DIV style='padding:0;position:absolute;top:33;left:4;'>
 <%
 call myshow(session("sjjh_name"),135,sex)%>

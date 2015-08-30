@@ -8,7 +8,7 @@ sjjh_name=Session("sjjh_name")
 sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if session("sjjh_name")="" then 
-	Response.Write "<script Language=Javascript>top.location.href='http://www.51eline.com';alert('提示：对不起，您还没有登陆江湖！');</script>"
+	Response.Write "<script Language=Javascript>top.location.href='http://www.happyjh.com';alert('提示：对不起，您还没有登陆江湖！');</script>"
 	Response.End
 end if
 if Instr(LCase(Application("sjjh_useronlinename"&session("nowinroom")))," "&LCase(sjjh_name)&" ")=0 then
@@ -72,7 +72,7 @@ set conn=nothing
 %><html>
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>一线视听 ← wWw.51Eline.COM</title>
+<title>一线视听 ← wWw.happyjh.com</title>
 <style type="text/css">
 
  <!--
@@ -161,4 +161,4 @@ function stopmouse(e) {
       window.captureEvents(Event.MOUSEDOWN); 
        window.onmousedown=stopmouse;  
       </script>
-<script language="javascript">kstatus();function kstatus(){self.status="一线网络→ | wWw.51Eline.com | ←以后请大家使用这个域名访问本站.";setTimeout("kstatus()",0);}</script>
+<script language="javascript">kstatus();function kstatus(){self.status="一线网络→ | wWw.happyjh.com | ←以后请大家使用这个域名访问本站.";setTimeout("kstatus()",0);}</script>

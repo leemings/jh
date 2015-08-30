@@ -23,7 +23,7 @@ leftmargin="0" bgcolor="#FFFFFF" background="../JHZB/bg.gif">
 <table width="778" border="0" cellspacing="0" cellpadding="4">
 <tr>
 <td width="101" align="center" valign="top"><img src="../../images/dj.gif" width="101" height="304"></td>
-    <td colspan="2" valign="top" align="center"><font color="#6633FF">¡¼<%=Application("sjjh_chatroomname")%>°µÆ÷µê¡½¡âwWw.51eline.com¡â</font><br>
+    <td colspan="2" valign="top" align="center"><font color="#6633FF">¡¼<%=Application("sjjh_chatroomname")%>°µÆ÷µê¡½¡âwWw.happyjh.com¡â</font><br>
 <br>
       <br>
       <table border="1" align="center" width="546" bordercolor="#000000" cellspacing="0">

@@ -2,7 +2,7 @@
 <HEAD>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link href="../dg/setup.css" rel=stylesheet type="text/css">
-<title>河畔钓鱼♀wWw.51eline.com♀</title></HEAD>
+<title>河畔钓鱼♀wWw.happyjh.com♀</title></HEAD>
 <body oncontextmenu=self.event.returnValue=false bgcolor="#000000" text="#ffffff" background="../jhimg/bk_hc3w.gif">
 <p align="center"><b><font color="#000000">想钓鱼先进入聊天室！</font></b></p>
 <p align="center"><A HREF="d.asp"><font color="#0000FF">开始钓鱼</font></A></p>

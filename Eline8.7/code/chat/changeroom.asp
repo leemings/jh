@@ -69,7 +69,7 @@ if sj_chat_info(0)="高手E线" and sjjh_grade<>10 then
 		end if
 	end if
 end if
-if (sjz>=72020 and sjz<=72030) and (sjjh_grade>=6 and sjjh_name<>"一线天") and chatroomname="高手E线" then
+if (sjz>=72020 and sjz<=72030) and (sjjh_grade>=6 and sjjh_name<>"回首当年") and chatroomname="高手E线" then
 		Response.Write "<script language=JavaScript>{alert('提示：官府人员不可参与夺宝！');}</script>"
 		Response.End
 	end if
@@ -159,7 +159,7 @@ end if
 '姓名,性别,门派,身份,头象,等级,id
 myzanli=0
 if Instr(LCase(application("sjjh_zanli")),LCase("!"&sjjh_name&"!"))>0 then myzanli=1
-if myzanli=1 and (sj_chat_info(0)="高手E线" or sj_chat_info(0)="E线江湖") then
+if myzanli=1 and (sj_chat_info(0)="高手E线" or sj_chat_info(0)="快乐江湖") then
 	set rs=nothing	
 	conn.close
 	set conn=nothing

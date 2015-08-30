@@ -11,7 +11,7 @@ if sjjh_grade<>10 or instr(Application("sjjh_admin"),sjjh_name)=0  then Response
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <link rel="stylesheet" href="setup.css">
-<title>E线江湖增加股票</title></head>
+<title>快乐江湖增加股票</title></head>
 <body text="#000000" background="../../jhimg/bk_hc3w.gif" link="#0000FF" vlink="#0000FF" alink="#0000FF">
 <p align=center><font color=0000ff size=4>增发新股</font></p>
 <form action=addstocknow.asp method=post>

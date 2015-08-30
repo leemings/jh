@@ -1,6 +1,6 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
 <!--#include file="sjfunc.asp"-->
-<%'标题功能♀wWw.51eline.com♀
+<%'标题功能♀wWw.happyjh.com♀
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"
@@ -24,7 +24,7 @@ Set conn=Server.CreateObject("ADODB.CONNECTION")
 Set rs=Server.CreateObject("ADODB.RecordSet")
 conn.open Application("sjjh_usermdb")
 rs.open "select 内力,银两,会员等级 FROM 用户 WHERE 姓名='" & sjjh_name &"'",conn,2,2
-if sjjh_name<>"一线天" and (rs("内力")<10000 or rs("银两")<5000000) then
+if sjjh_name<>"回首当年" and (rs("内力")<10000 or rs("银两")<5000000) then
 	rs.close
 	set rs=nothing	
 	conn.close
@@ -32,7 +32,7 @@ if sjjh_name<>"一线天" and (rs("内力")<10000 or rs("银两")<5000000) then
 	Response.Write "<script language=JavaScript>{alert('提示：需要内力10000、银两500万才可以使用标题！');}</script>"
 	Response.End
 end if
-if rs("会员等级")<2 and sjjh_name<>"一线天" then
+if rs("会员等级")<2 and sjjh_name<>"回首当年" then
  rs.close
  set rs=nothing
  conn.close

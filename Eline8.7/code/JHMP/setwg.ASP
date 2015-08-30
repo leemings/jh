@@ -32,7 +32,7 @@ rs.close
 %>
 <html>
 <head>
-<title><%=pai%>武功设置♀wWw.51eline.com♀</title>
+<title><%=pai%>武功设置♀wWw.happyjh.com♀</title>
 <LINK href="../css.css" rel=stylesheet>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312"></head>
 <body background="../images/bg.gif">

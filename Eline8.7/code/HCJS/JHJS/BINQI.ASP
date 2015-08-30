@@ -11,7 +11,7 @@ sjjh_jhdj=Session("sjjh_jhdj")
 if sjjh_name="" then Response.Redirect "../../error.asp?id=440"
 %><html>
 <head>
-<title><%=Application("sjjh_chatroomname")%>道具店♀wWw.51eline.com♀</title>
+<title><%=Application("sjjh_chatroomname")%>道具店♀wWw.happyjh.com♀</title>
 <link rel="stylesheet" href="../../css.css">
 </head>
 

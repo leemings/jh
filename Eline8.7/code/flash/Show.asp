@@ -8,7 +8,7 @@ sjjh_name=Session("sjjh_name")
 sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if session("sjjh_name")="" then 
-	Response.Write "<script Language=Javascript>top.location.href='http://www.51eline.com';alert('提示：对不起，您还没有登陆江湖！');</script>"
+	Response.Write "<script Language=Javascript>top.location.href='http://www.happyjh.com';alert('提示：对不起，您还没有登陆江湖！');</script>"
 	Response.End
 end if
 if Instr(LCase(Application("sjjh_useronlinename"&session("nowinroom")))," "&LCase(sjjh_name)&" ")=0 then
@@ -39,7 +39,7 @@ set conn=nothing
 <!--#include file="conn.asp"-->
 <html>
 <head>
-<title>★E线江湖总站-Flash频道★→观看动画</title>
+<title>★快乐江湖总站-Flash频道★→观看动画</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <meta name="author" content="Thirdsnow;Email:qb169@sohu.com;QQ:34608582">
 <link rel="stylesheet" href="style.css" type="text/css">

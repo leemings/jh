@@ -195,7 +195,7 @@ else
 	response.write "您的真实ＩＰ 是："&userip&"，"
 end if
 response.write usersysinfo(Request.ServerVariables("HTTP_USER_AGENT"),2)&"，"&usersysinfo(Request.ServerVariables("HTTP_USER_AGENT"),1)&"，"&Request.ServerVariables("HTTP_ACCEPT_LANGUAGE")
-response.write "</TD><TD class=tablebody1 vAlign=top height=25 align=right ><a href=http://www.51eline.Com title=站长的天地 网友的空间！><img border=0 src=Images/img_marry/_vti_cnf/link.gif width=88 height=31></a></TD></TR></table><BR>"
+response.write "</TD><TD class=tablebody1 vAlign=top height=25 align=right ><a href=http://www.happyjh.com title=站长的天地 网友的空间！><img border=0 src=Images/img_marry/_vti_cnf/link.gif width=88 height=31></a></TD></TR></table><BR>"
 if cint(forum_setting(13))=1 then
 	response.write "<table cellpadding=5 cellspacing=1 class=tableborder1 align=center style=""word-break:break-all;"">"
 	response.write "<TR><Th align=left colSpan=2 height=25>-=> 论坛回收站</Th></TR>"

@@ -1,7 +1,7 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
 <!--#include file="../sjfunc/sjfunc.asp"-->
 <!--#include file="../sjfunc/func.asp"-->
-<%'打扑克牌♀wWw.51eline.com♀
+<%'打扑克牌♀wWw.happyjh.com♀
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"

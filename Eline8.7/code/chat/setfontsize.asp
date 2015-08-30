@@ -14,7 +14,7 @@ if chatbgcolor="" then chatbgcolor="008888"%><html>
 function setfs(){parent.f2.document.af.fs.value=document.forms[0].ftsz.value;parent.f2.document.af.lh.value=document.forms[0].lheight.value;this.location.href="setfontsizeok.asp";}
 </script>
 <head>
-<title>设置字号及行距♀wWw.51eline.com♀</title>
+<title>设置字号及行距♀wWw.happyjh.com♀</title>
 <META http-equiv='content-type' content='text/html; charset=gb2312'>
 <link rel="stylesheet" href="readonly/style.css">
 </head>

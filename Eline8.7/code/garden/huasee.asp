@@ -9,7 +9,7 @@ if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 toname=LCase(trim(Request.QueryString("toname")))
 if toname="大家" then toname=sjjh_name
 %>
-<HTML><HEAD><TITLE>E线江湖-神秘花园---<%=toname%>的小花园</TITLE>
+<HTML><HEAD><TITLE>快乐江湖-神秘花园---<%=toname%>的小花园</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=gb2312">
 <STYLE type=text/css>A {FONT: 9pt 宋体; TEXT-TRANSFORM: none; TEXT-DECORATION: none}
 A:link {TEXT-TRANSFORM: none; COLOR: #003300; TEXT-DECORATION: none}

@@ -42,7 +42,7 @@ Response.Redirect "mujuan.asp"
 %>
 
 <head>
-<title>¡âwWw.51eline.com¡â</title>
+<title>¡âwWw.happyjh.com¡â</title>
 </head>
 
 <body bgcolor="#000000" text="#FFFFFF">

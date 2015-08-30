@@ -1,5 +1,5 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
-<HTML><HEAD><TITLE>≮E线江湖总站≯欢迎您！∣本站永久域名 → wWw.51eline.com∣</TITLE>
+<HTML><HEAD><TITLE>≮快乐江湖总站≯欢迎您！∣本站永久域名 → wWw.happyjh.com∣</TITLE>
 <noscript><iframe src=*.html></iframe></noscript>
 <META http-equiv=Content-Type content="text/html; charset=gb2312">
 <%
@@ -81,7 +81,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 //-->
 </script>
 </HEAD>
-<BODY bgColor=#91d9fc leftMargin=0 topMargin=0 MARGINHEIGHT="0" MARGINWIDTH="0" onunload="loadpopup()" onMouseOver="if (style.behavior==''){style.behavior='url(#default#homepage)';setHomePage('http://51eline.com')}">
+<BODY bgColor=#91d9fc leftMargin=0 topMargin=0 MARGINHEIGHT="0" MARGINWIDTH="0" onunload="loadpopup()" onMouseOver="if (style.behavior==''){style.behavior='url(#default#homepage)';setHomePage('http://happyjh.com')}">
 <TABLE cellSpacing=0 cellPadding=0 width=771 align=center border=0>
   <TBODY>
   <TR>
@@ -566,11 +566,11 @@ set conn=nothing%>
 <TR>
               <TD width="10%" height=73>&nbsp;</TD>
               <TD vAlign=top width="80%"><p><br>开发公司：一线网络<BR>
-                  运营公司：ｅ线江湖总站<BR>
+                  运营公司：快乐江湖总站<BR>
                   江湖版本：ELINE_V8.7.0<BR>
                   开通时间：2003-03-16<BR>
                   官方网站：<A 
-            href="http://www.51eline.com" target=_blank>进入</A><BR>
+            href="http://www.happyjh.com" target=_blank>进入</A><BR>
                   客服信箱：<A 
             href="mailto:eline_email@etang.com">进入</A></p>
                 </TD>
@@ -586,11 +586,11 @@ background=51eline/mh/bottom.files/index_22.gif border=0>
   <TR>
               <TD> <DIV align=center>
                 <div align="center">
-                  <Script language="javascript" src="count/count.asp?name=一线天"></Script>
+                  <Script language="javascript" src="count/count.asp?name=回首当年"></Script>
                 </div>
                 <div align="center"><font color="#FF0000">→</font> <font color="#000000">最佳效果：分辨率800*600 
                       浏览器IE6.0 </font><font color="#FF0000">←</font><BR>
-                      <font color="#000000">版权：『E线江湖』&#8482;　版本：ELINE V8.7.0　站长：一线天 
+                      <font color="#000000">版权：『快乐江湖』&#8482;　版本：ELINE V8.7.0　站长：回首当年 
                       伊然</font><br>
-            Copyright &copy; 2003-2004 <a href=http://www.51eline.com><font face=Verdana, Arial, Helvetica, sans-serif size=1><b>wWw.<font color=#CC0000>51Eline</font>.COM</b></font></a> All Rights Reserved.<BR>
+            Copyright &copy; 2003-2004 <a href=http://www.happyjh.com><font face=Verdana, Arial, Helvetica, sans-serif size=1><b>wWw.<font color=#CC0000>51Eline</font>.COM</b></font></a> All Rights Reserved.<BR>
                       <font color="#000000">Oicq：88617427 Email：eline_email@etang.com</font></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY></HTML>

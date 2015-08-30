@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=gb2312">
-<title>看电视♀一线网络→wWw.51eline.com♀</title><link rel="stylesheet" href="../cn.css">
+<title>看电视♀一线网络→wWw.happyjh.com♀</title><link rel="stylesheet" href="../cn.css">
 <script language="JavaScript">
 <!--
 function MM_reloadPage(init) {  //reloads the window if Nav4 resized

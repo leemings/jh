@@ -62,7 +62,7 @@ return true;
     <tr>
     <th valign=middle colspan=2 align=center height=25><font color=#cc0000>请完整、准确输入您的江湖资料登陆</font></td></tr>
     <tr>
-    <td valign=middle class=tablebody1 align=center colspan=2><img alt="E线江湖" border="0" height="32" src="images/eline.gif" width="162"><br>
+    <td valign=middle class=tablebody1 align=center colspan=2><img alt="快乐江湖" border="0" height="32" src="images/eline.gif" width="162"><br>
     <script language=JavaScript src="../online.asp"></script><br>
     </td>
     
@@ -277,6 +277,7 @@ Rem 用户在线
 sub activeonline()
 dim ComeFrom,actCome,statuserid
 statuserid=replace(replace(Request.ServerVariables("REMOTE_HOST"),".",""),"'","")
+'response.Write(Request.ServerVariables("REMOTE_HOST"))
 if not founduser then
 	session("userid")=statuserid
 	sql="select id,boardid from online where id="&cstr(session("userid"))
@@ -302,7 +303,8 @@ else
 		sql="insert into online(id,username,userclass,ip,startime,lastimebk,boardid,browser,stats,actforip,UserGroupID,actCome,userhidden,userid,usersex,uservip) values ("&statuserid&",'"&membername&"','"&memberclass&"','"&replace(Request.ServerVariables("REMOTE_HOST"),"'","")&"',Now(),Now(),"&boardid&",'"&replace(Request.ServerVariables("HTTP_USER_AGENT"),"'","")&";"&replace(Request.ServerVariables("HTTP_ACCEPT_LANGUAGE"),"'","")&"','"&replace(stats,"'","")&"','"&replace(Request.ServerVariables("HTTP_X_FORWARDED_FOR"),"'","")&"',"&UserGroupID&",'"&actCome&"',"&userhidden&","&userid&","&mysex&","&myvip&")"
 	else
 		sql="update online set lastimebk=Now(),boardid="&boardid&",stats='"&replace(stats,"'","")&"' where userid="&userid
-	end if
+	end If
+'	response.Write(sql)
 	conn.execute(sql)
 	rs.close
 	if session("userid")<>"" then
@@ -350,8 +352,8 @@ sub nav()
 <html>
 <head>
 <META http-equiv=Content-Type content="text/html; charset=gb2312">
-<meta name=keywords content="一线天,eline,51eline,一线,江湖,E线江湖,eline_email@etang.com,51eline.com,bbs.51eline.com,yxt_email@eatng.com,<%=forum_info(0)%>">
-<title><%=Forum_info(0)%> - http://bbs.51eline.com --<%=HTMLEncode(stats)%></title>
+<meta name=keywords content="回首当年,eline,51eline,一线,江湖,快乐江湖,eline_email@etang.com,happyjh.com,bbs.happyjh.com,yxt_email@eatng.com,<%=forum_info(0)%>">
+<title><%=Forum_info(0)%> - http://bbs.happyjh.com --<%=HTMLEncode(stats)%></title>
 <!--#include file="Forum_css.asp"-->
 <!--#include file="Forum_js.asp"-->
 <%if forum_setting(71)=1 then

@@ -20,7 +20,7 @@ pai=sjjh_name
 %>
 <html>
 <head>
-<title><%=pai%>ÐùÔ¯ÕÐÊ½¡âwWw.51eline.com¡â</title>
+<title><%=pai%>ÐùÔ¯ÕÐÊ½¡âwWw.happyjh.com¡â</title>
 <script language="JavaScript">
 function s(list){
 var lijigongji=liji.checked;

@@ -14,7 +14,7 @@ if chatbgcolor="" then chatbgcolor="008888"
 %>
 <html>
 <head>
-<title>夺宝专用♀一线网络→wWw.51eline.com♀</title>
+<title>夺宝专用♀一线网络→wWw.happyjh.com♀</title>
 <script language="JavaScript">
 function s(list){
 var lijigongji=liji.checked;

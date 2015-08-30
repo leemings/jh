@@ -66,7 +66,7 @@ end sub
 
 %>
 <%
-'::一线网络www.51eline.com::%>
+'::一线网络www.happyjh.com::%>
 <table border="0" width="135" cellspacing="0" cellpadding="0" bgcolor="" height="220" align="center" bordercolorlight="#a3dc98" bordercolordark="#333333">
   <tr> 
         <td width="100%" height="100%">

@@ -26,7 +26,7 @@ sjjh_name=Session("sjjh_name")
 sjjh_grade=Session("sjjh_grade")
 if sjjh_name="" then Response.Redirect "error.asp?id=440"
 %>
-<title>≮E线江湖≯ - 51eline.com</title>
+<title>≮快乐江湖≯ - happyjh.com</title>
 <style type="text/css">
 <!--
 .shakeimage{
@@ -88,7 +88,7 @@ BODY {CURSOR: url('chat/56.ani')}
 </style>
 </head>
 <script Language="javascript">window.name="_desktop";</script>
-<body onresize=setico(); scroll=no onMouseOver="if (style.behavior==''){style.behavior='url(#default#homepage)';setHomePage('http://51eline.com')}" onmousemove="s_t();" onload="setico();" id=bglayer background="f2.gif">
+<body onresize=setico(); scroll=no onMouseOver="if (style.behavior==''){style.behavior='url(#default#homepage)';setHomePage('http://happyjh.com')}" onmousemove="s_t();" onload="setico();" id=bglayer background="f2.gif">
 <script lauguage="javascript" src="STARMOON.JS"></script>
 <img id="bgimg" src="images/spacer.gif" width="100%" height="100%">
 
@@ -111,7 +111,7 @@ BODY {CURSOR: url('chat/56.ani')}
               <td width="24" align="center"><img title="启动 Internet Explorer 浏览器" border="0" onclick=pop("#") class=menuout onmouseover=over(this); onmouseout=out(this); onmousedown=down(this); onmouseup=up(this); src="51eline/start_menu/ie162.gif" width="20" height="20"></td>
               <td width="24" align="center"><img title="排列图标" onclick="setico()" border="0" class=menuout onmouseover=over(this); onmouseout=out(this); onmousedown=down(this); onmouseup=up(this); src="51eline/start_menu/desktop.gif" width="20" height="20"></td>
               <td width="24" align="center"><img title="启动 Outlook Express(Eline_Email@etang.com)" onclick=location.href="mailto:Eline_Email@etang.com" border="0" class=menuout onmouseover=over(this); onmouseout=out(this); onmousedown=down(this); onmouseup=up(this); src="51eline/start_menu/oe16.gif" width="21" height="20"></td>
-              <td width="24" align="center"><img title="E线江湖资源管理器" onclick=pop("explorer.htm") border="0" class=menuout onmouseover=over(this); onmouseout=out(this); onmousedown=down(this); onmouseup=up(this); src="51eline/start_menu/soft16.gif" width="20" height="20"></td>
+              <td width="24" align="center"><img title="快乐江湖资源管理器" onclick=pop("explorer.htm") border="0" class=menuout onmouseover=over(this); onmouseout=out(this); onmousedown=down(this); onmouseup=up(this); src="51eline/start_menu/soft16.gif" width="20" height="20"></td>
               <td width="10" align="center"><img border="0" src="51eline/start_menu/ii16.gif" width="7" height="22"></td>
             </tr>
           </table>
@@ -187,8 +187,8 @@ BODY {CURSOR: url('chat/56.ani')}
 <div  style="position: absolute;bottom:35; left:expression(screen.width-150) ; width: 150; height:45;color:#FFFFFF;align:right">
 <!--#include file="z_showvisual.asp"-->
 <!-- 版权信息请保留 -->
-版权：『E线江湖』&#8482;<br>
-制作：一线天<br>
+版权：『快乐江湖』&#8482;<br>
+制作：回首当年<br>
 版本：ELINE V8.7极限版<br>
 最后更新：2004-02-24<br>
 </div>
@@ -196,7 +196,7 @@ BODY {CURSOR: url('chat/56.ani')}
 <script Language="javascript" src="startmenu.asp"></script>
 <SCRIPT LANGUAGE="JavaScript">
 <!--
-menu.AddItem("logoff","xp/start_logoff","24","怀旧<font class=w2kfont>(<u>L</u>)</font>","rbpm","http://51eline.com/old.asp");
+menu.AddItem("logoff","xp/start_logoff","24","怀旧<font class=w2kfont>(<u>L</u>)</font>","rbpm","http://happyjh.com/old.asp");
 menu.AddItem("shut","xp/start_shut","24","退出<font class=w2kfont>(<u>U</u>)</font>","rbpm","exit.asp");
 document.writeln(menu.GetMenu());
 //-->

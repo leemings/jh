@@ -50,9 +50,9 @@ sub error()
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<meta name="Movie" content="flash,flash下载,flash频道,E线,E线江湖,一线网络,音乐,音乐听吧,视听,一线天,51eline,51eline.com,www.51eline.com,flash.51eline.com,eline_email@etang.com">
-<meta name="Author" content="www.51eline.com,flash.51eline.com">
-<title>E线江湖总站</title>
+<meta name="Movie" content="flash,flash下载,flash频道,E线,快乐江湖,一线网络,音乐,音乐听吧,视听,回首当年,51eline,happyjh.com,www.happyjh.com,flash.happyjh.com,eline_email@etang.com">
+<meta name="Author" content="www.happyjh.com,flash.happyjh.com">
+<title>快乐江湖总站</title>
 <link rel=stylesheet href=images/style.css>
 </head>
 <body topmargin="111" leftmargin="0" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">

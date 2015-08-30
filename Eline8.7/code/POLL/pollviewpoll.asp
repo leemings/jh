@@ -88,7 +88,7 @@ conn.close
 set conn=nothing
 %><html>
 <head>
-<title>投票♀wWw.51eline.com♀</title>
+<title>投票♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type='text/css'>
 <!--

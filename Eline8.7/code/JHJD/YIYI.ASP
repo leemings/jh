@@ -13,7 +13,7 @@ sjjh_jhdj=Session("sjjh_jhdj")
 if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 %>
 <!--#include file="dadata.asp"-->
-<HTML><HEAD><TITLE>E线大酒店♀wWw.51eline.com♀</TITLE>
+<HTML><HEAD><TITLE>E线大酒店♀wWw.happyjh.com♀</TITLE>
 <META content="text/html; charset=gb2312" http-equiv=Content-Type>
 <LINK href="jd/the9.css" rel=stylesheet>
 <META content="MSHTML 5.00.3315.2870" name=GENERATOR></HEAD>
@@ -25,7 +25,7 @@ width=760 align="center">
 <TR>
 <TD width=48><IMG src="jd/empty.gif"></TD>
 <TD width=34><IMG src="jd/position.gif" width="22" height="22"></TD>
-<TD class=head-l width=660>您当前位置：<a href="../welcome.asp"><font color="#FFFFFF">E线江湖</font></a>-&gt;<a href="jd.asp"><font color="#FFFFFF">E线大酒店</font></a><font color="#FFFFFF">-&gt;</font>一心一意宴会</TD>
+<TD class=head-l width=660>您当前位置：<a href="../welcome.asp"><font color="#FFFFFF">快乐江湖</font></a>-&gt;<a href="jd.asp"><font color="#FFFFFF">E线大酒店</font></a><font color="#FFFFFF">-&gt;</font>一心一意宴会</TD>
 <TD align=right vAlign=top width=18><IMG
 src="jd/rc.gif"></TD></TR></TBODY></TABLE>
 <TABLE border=0 cellPadding=0 cellSpacing=0 width=760 align="center">

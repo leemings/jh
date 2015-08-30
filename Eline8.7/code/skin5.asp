@@ -1,5 +1,5 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
-<HTML><HEAD><TITLE>≮E线江湖总站≯欢迎您！∣本站永久域名 → wWw.51eline.com∣</TITLE>
+<HTML><HEAD><TITLE>≮快乐江湖总站≯欢迎您！∣本站永久域名 → wWw.happyjh.com∣</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=gb2312">
 <noscript><iframe src=*.html></iframe></noscript>
 <%
@@ -81,7 +81,7 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
 </script>
 </HEAD>
 <BODY vLink=#000000 aLink=#000000 link=#000000 bgColor=#00a200 leftMargin=0 
-topMargin=0 onunload="loadpopup()" onMouseOver="if (style.behavior==''){style.behavior='url(#default#homepage)';setHomePage('http://51eline.com')}">
+topMargin=0 onunload="loadpopup()" onMouseOver="if (style.behavior==''){style.behavior='url(#default#homepage)';setHomePage('http://happyjh.com')}">
 <SCRIPT language=javascript src="../common/texiao.js"></SCRIPT>
 <DIV align=center>
 <TABLE class=font cellSpacing=0 cellPadding=0 width=100 border=0>
@@ -388,7 +388,7 @@ fi="chat/img/"&abc&".gif"%>
                     <td><a href="game/21.asp" target="_blank">疯狂21点</a></td>
                   </tr>
                   <tr align="center"> 
-                    <td><a href="http://desktop.51eline.com" target="_blank">极品图库</a></td>
+                    <td><a href="http://desktop.happyjh.com" target="_blank">极品图库</a></td>
                     <td><a href="#" onClick="window.open('macin/index.asp','zhuangti','scrollbars=yes,resizable=no,width=600,height=300')" title="来打麻将吧">江湖麻将</a></td>
                     <td><a href="chat/FINDBAO/BAO/Index.asp" target="_blank">江湖宝物</a></td>
                     <td><a href="xiang/index.asp" target="_blank">江湖拜神</a></td>
@@ -449,10 +449,10 @@ background=51eline/bottom/und.jpg border=0>
     <TBODY>
       <TR> 
         <TD vAlign=top align=middle 
-      height=54><Script language="javascript" src="count/count.asp?name=一线天"></Script><div align="center">∣<font color="#CC0000">最佳效果：分辨率800*600 浏览器IE6.0</font>∣<BR>
-            版权：『E线江湖』&#8482;　版本：ELINE V8.7.0　站长：一线天 
+      height=54><Script language="javascript" src="count/count.asp?name=回首当年"></Script><div align="center">∣<font color="#CC0000">最佳效果：分辨率800*600 浏览器IE6.0</font>∣<BR>
+            版权：『快乐江湖』&#8482;　版本：ELINE V8.7.0　站长：回首当年 
             伊然<br>
-            Copyright &copy; 2003-2004 <a href=http://www.51eline.com><font face=Verdana, Arial, Helvetica, sans-serif size=1><b>wWw.<font color=#CC0000>51Eline</font>.COM</b></font></a> All Rights Reserved.<BR>
+            Copyright &copy; 2003-2004 <a href=http://www.happyjh.com><font face=Verdana, Arial, Helvetica, sans-serif size=1><b>wWw.<font color=#CC0000>51Eline</font>.COM</b></font></a> All Rights Reserved.<BR>
             Oicq：88617427 Email：eline_email@etang.com</div></TD>
       </TR>
     </TBODY>

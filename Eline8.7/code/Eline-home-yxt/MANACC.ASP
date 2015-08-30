@@ -32,12 +32,12 @@ user3=musers
 %>
 <html>
 <head>
-<title>帐号管理♀wWw.51eline.com♀</title>
+<title>帐号管理♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="readonly/style.css">
 </head>
 <body bgcolor="#FFFFFF" class=p150 background="../jhimg/bk_hc3w.gif">
-<div align="center">『E线江湖』账号管理 <br>
+<div align="center">『快乐江湖』账号管理 <br>
 </div>
 <table width="390" border="1" cellspacing="0" bordercolorlight="#999999" bordercolordark="#FFFFFF" cellpadding="3" align="center">
 <tr bgcolor="#0099FF">

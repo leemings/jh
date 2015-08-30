@@ -17,7 +17,7 @@ username=sjjh_name
 %>
 <html>
 <head>
-<title><%=Application("sjjh_chatroomname")%>答对有奖♀wWw.51eline.com♀</title>
+<title><%=Application("sjjh_chatroomname")%>答对有奖♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="css1.css">
 <script language=javascript>window.moveTo(100,50);window.resizeTo(screen.availWidth*2/3,screen.availHeight*3/4);</script>

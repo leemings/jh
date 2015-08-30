@@ -27,7 +27,7 @@ else
     <tr>
     <th valign=middle colspan=2 align=center height=25><font color=#cc0000>请完整、准确输入您的江湖资料登陆</font></td></tr>
 <tr><td class=tablebody1 valign=middle align=center colspan=2> 
-     <img alt="『E线江湖』" border="0" height="32" src="images/eline.gif" width="162">
+     <img alt="『快乐江湖』" border="0" height="32" src="images/eline.gif" width="162">
     </td></tr>
     <tr><td class=tablebody1 valign=middle align=center colspan=2> 
      <script src="../online.asp"></script>

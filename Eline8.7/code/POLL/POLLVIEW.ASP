@@ -41,7 +41,7 @@ set rs=conn.execute(sql)
 %>
 <html>
 <head>
-<title>候选人管理♀wWw.51eline.com♀</title>
+<title>候选人管理♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <LINK href="../css.css" rel=stylesheet>
 <script language="JavaScript">

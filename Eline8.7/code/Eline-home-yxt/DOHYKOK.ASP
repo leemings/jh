@@ -293,7 +293,7 @@ rs.open "SELECT * FROM sethyk WHERE name='set'",conn
   </tr>
 
   </table>
-<p align="center">『E线江湖』</p>
+<p align="center">『快乐江湖』</p>
 </body>
 </html>
 <%

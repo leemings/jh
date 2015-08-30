@@ -49,7 +49,7 @@ if left(name1,3)="%20" OR InStr(name1,"=")<>0 or InStr(name1,"`")<>0 or InStr(na
 if chuser(name1) then Response.Redirect "../error.asp?id=120"
 if instr(name,"or")<>0 or instr(name,"'")<>0 or instr(name,"|")<>0 or instr(name," ")<>0 then Response.Redirect "../error.asp?id=120"
 if instr(name1,"or")<>0 or instr(name1,"'")<>0 or instr(name1,"|")<>0 or instr(name1," ")<>0 then Response.Redirect "../error.asp?id=120"
-if Instr(name1,"主席")>0 or Instr(name1,"管理")>0 or Instr(name1,"交易人名")>0 or Instr(name1,"朋友名字")>0 or Instr(name1,Application("sjjh_automanname"))>0 or Instr(name1,"一线天")>0 or Instr(name1,"站长")>0 or Instr(name1,"伊然")>0 or Instr(name1,"网管")>0 or Instr(name1,"时代")>0 or Instr(name1,"江湖")>0 or Instr(name1,"中国")>0 or Instr(name1,"严")>0 or Instr(name1,"妈")>0 or Instr(name1,"爸")>0 or Instr(name1,"大家")>0 or Instr(name1,"操")>0 then Response.Redirect "../error.asp?id=130"
+if Instr(name1,"主席")>0 or Instr(name1,"管理")>0 or Instr(name1,"交易人名")>0 or Instr(name1,"朋友名字")>0 or Instr(name1,Application("sjjh_automanname"))>0 or Instr(name1,"回首当年")>0 or Instr(name1,"站长")>0 or Instr(name1,"伊然")>0 or Instr(name1,"网管")>0 or Instr(name1,"时代")>0 or Instr(name1,"江湖")>0 or Instr(name1,"中国")>0 or Instr(name1,"严")>0 or Instr(name1,"妈")>0 or Instr(name1,"爸")>0 or Instr(name1,"大家")>0 or Instr(name1,"操")>0 then Response.Redirect "../error.asp?id=130"
 if name="" or name1="" or pass="" then Response.Redirect "../error.asp?id=56"
 if Instr(LCase(Application("sjjh_useronlinename"&session("nowinroom")))," "&LCase(name)&" ")<>0 then Response.Redirect "../error.asp?id=61"
 pass=md5(pass)

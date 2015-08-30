@@ -66,7 +66,7 @@ stunt1=""
 Set conn=Server.CreateObject("ADODB.CONNECTION")
 Set rs=Server.CreateObject("ADODB.RecordSet")
 conn.open Application("sjjh_usermdb")
-if Weekday(date())=6 and (Hour(time())=21) and chatinfo(0)="E线江湖"  then
+if Weekday(date())=6 and (Hour(time())=21) and chatinfo(0)="快乐江湖"  then
 Response.Write "<script Language=Javascript>alert('提示:现在是只给堂主和护法，长老，掌门等进行门派大战，其他人等在场可让你门派加强，想打架到[高手E线]房间去吧！');parent.f2.document.af.mdsx.checked=true;parent.m.location.reload();</script>"
 	Response.End
 end if

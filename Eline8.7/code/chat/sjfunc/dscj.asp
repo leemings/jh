@@ -1,7 +1,7 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
 <!--#include file="sjfunc.asp"-->
 <!--#include file="../../config.asp"-->
-<%'点石成金♀wWw.51eline.com♀
+<%'点石成金♀wWw.happyjh.com♀
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"
@@ -58,7 +58,7 @@ if rs("武功")<100000  then
 end if
 if rs("金币") then
 	conn.execute "update 用户 set 金币=金币+10,武功=武功-100000,操作时间=now() where 姓名='" & sjjh_name &"'"
-	dscj="##<bgsound src=wav/dscj.wav loop=1>使用【一线魔法】点石成金,武功失去<font color=red>-100000</font>点,金币增加<font color=red>+10</font>个,##觉的『E线江湖』实在太有意思了!"
+	dscj="##<bgsound src=wav/dscj.wav loop=1>使用【一线魔法】点石成金,武功失去<font color=red>-100000</font>点,金币增加<font color=red>+10</font>个,##觉的『快乐江湖』实在太有意思了!"
 	rs.close
 	set rs=nothing	
 	conn.close

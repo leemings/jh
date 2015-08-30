@@ -3,7 +3,7 @@
 <!--#include file="func.asp"-->
 <!--#include file="../../mywp.asp"-->
 
-<%'¾øÇéµ¶¡âwWw.51eline.com¡â
+<%'¾øÇéµ¶¡âwWw.happyjh.com¡â
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"

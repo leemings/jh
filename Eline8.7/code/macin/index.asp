@@ -103,7 +103,7 @@ A:hover 	{font-family:verdana,arial,helvetica,Tahoma; text-decoration: none; col
 
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
-<title>麻将♀wWw.51eline.com♀</title>
+<title>麻将♀wWw.happyjh.com♀</title>
 </head>
 
 <body bgcolor="#000000">
@@ -141,7 +141,7 @@ A:hover 	{font-family:verdana,arial,helvetica,Tahoma; text-decoration: none; col
          <td><hr>
 
           <tr>
-            <td width="100%" align="center">E线江湖</td>
+            <td width="100%" align="center">快乐江湖</td>
           </tr>
         </table>
       </td>

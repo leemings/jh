@@ -13,7 +13,7 @@ if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 %>
 <html>
 <head>
-<title><%=Application("sjjh_chatroomname")%>江湖门派♀wWw.51eline.com♀</title>
+<title><%=Application("sjjh_chatroomname")%>江湖门派♀wWw.happyjh.com♀</title>
 <LINK href="../css.css" rel=stylesheet>
 </head><body
 leftmargin="0" bgcolor="#FFFFFF" topmargin="7">

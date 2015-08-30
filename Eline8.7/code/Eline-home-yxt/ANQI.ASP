@@ -10,7 +10,7 @@ if sjjh_grade<>10 or instr(Application("sjjh_admin"),sjjh_name)=0  then Response
 %>
 <html>
 <head>
-<title>±øÆ÷ÆÌ¡âwWw.51eline.com¡â</title>
+<title>±øÆ÷ÆÌ¡âwWw.happyjh.com¡â</title>
 <style></style>
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">

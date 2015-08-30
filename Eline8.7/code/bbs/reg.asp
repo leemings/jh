@@ -4,7 +4,7 @@
 <!--#include file="inc/email.asp"-->
 <!--#include file="md5.asp"-->
 <%
-'世纪江湖动网论坛插件 一线天 www.51eline.com
+'世纪江湖动网论坛插件 回首当年 www.happyjh.com
 response.redirect "../yamen/read.htm"
 
 '=========================================================

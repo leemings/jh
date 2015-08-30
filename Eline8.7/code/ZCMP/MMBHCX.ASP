@@ -30,7 +30,7 @@ end if
 </form>
 <p>　</p>
 <p align="center"><a href="mmbhall.asp">查看所有人</a> </p>
-<p align="center"><font color="#FF0000" size="2"><b>『E线江湖』之密码保护</b></font></p>
-<p align="center"><font color="#FF0000" size="2"><b>程序修改:一线天</b></font></p>
+<p align="center"><font color="#FF0000" size="2"><b>『快乐江湖』之密码保护</b></font></p>
+<p align="center"><font color="#FF0000" size="2"><b>程序修改:回首当年</b></font></p>
 </body>
 </html>

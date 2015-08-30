@@ -168,7 +168,7 @@ A:hover 	{font-family:verdana,arial,helvetica,Tahoma; text-decoration: none; col
          <td><hr>
 
           <tr>
-            <td width="100%" align="center">E线江湖版权所有</td>
+            <td width="100%" align="center">快乐江湖版权所有</td>
           </tr>
         </table>
       </td>
@@ -246,7 +246,7 @@ if(runAs==1){setTimeout('snow()',5);}
                                    
 <script language=javascript>                                                                                                                     
      function Click(){                                                                                                                    
-     alert('E线江湖！欢迎您！本画面不支援滑鼠右键！');                                                                                                                    
+     alert('快乐江湖！欢迎您！本画面不支援滑鼠右键！');                                                                                                                    
      window.event.returnValue=false;                                                                                                                    
      }                                                                                                                    
      document.oncontextmenu=Click;                                                                                                                    

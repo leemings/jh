@@ -14,7 +14,7 @@ if chatbgcolor="" then chatbgcolor="008888"
 %>
 <html>
 <head>
-<title>查看物品♀wWw.51eline.com♀</title>
+<title>查看物品♀wWw.happyjh.com♀</title>
 <script language="JavaScript">
 function s(list){
 var lijigongji=liji.checked;

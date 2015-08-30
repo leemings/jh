@@ -47,10 +47,10 @@ sub eddulf()
 	select case eddi
 	case 1
 		addmoney=50
-		response.write "<li>一线天向你颁发美梦成真大奖 <font color=red>"&abs(addmoney)&"</font> 元！"
+		response.write "<li>回首当年向你颁发美梦成真大奖 <font color=red>"&abs(addmoney)&"</font> 元！"
 	case 2
 		addmoney=10
-		response.write "<li>一线天向你赠送开心活跃奖金 <font color=red>"&abs(addmoney)&"</font> 元！"
+		response.write "<li>回首当年向你赠送开心活跃奖金 <font color=red>"&abs(addmoney)&"</font> 元！"
 	case 3
 		addmoney=10
 		addcool=5

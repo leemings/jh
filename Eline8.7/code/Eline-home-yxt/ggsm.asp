@@ -19,7 +19,7 @@ rs.open "SELECT * FROM sm where a='广告"&cz&"'",conn,2,2
 %>
 <html>
 <head>
-<title>聊天室顶部广告修改♀wWw.51eline.com♀</title>
+<title>聊天室顶部广告修改♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 </head>
 <body bgcolor="#FFFFFF" background="../jhimg/bk_hc3w.gif">

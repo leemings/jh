@@ -21,7 +21,7 @@ end if
 %>
 <html>
 <head>
-<title>E线江湖--游戏在线</title>
+<title>快乐江湖--游戏在线</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type="text/css">
 BODY {
@@ -200,6 +200,6 @@ scrollbar-arrow-color:#000000;
     </tr>
   </table>
 </form>
-<p align="center"><span style="background-color: #FFFFFF" lang="zh-cn">『E线江湖』</span></p>
+<p align="center"><span style="background-color: #FFFFFF" lang="zh-cn">『快乐江湖』</span></p>
 </body>
 </html>

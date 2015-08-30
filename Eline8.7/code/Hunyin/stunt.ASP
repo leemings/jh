@@ -117,7 +117,7 @@ if s<5 then
   [杀伤力=<b><font color="#0000FF">((男方攻击+女方攻击)</font></b><font color="#FF0000">-对方防御</font>)+所用内力]<br>
 <br>
 <br>
-【授权:『E线江湖』 运行序列号：<%=Application("sjjh_sn")%> 】
+【授权:『快乐江湖』 运行序列号：<%=Application("sjjh_sn")%> 】
 </font></p>
 </body>
 </html>

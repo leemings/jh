@@ -225,7 +225,7 @@ a:visited {text-decoration:none;font-size:14; color:#000000}
 td {font-size:9pt; color:#ff0000; line-height:16pt}
 </style>
 <meta http-equiv='content-type' content='text/html; charset=gb2312'>
-<title>E线江湖-打扑克</title>
+<title>快乐江湖-打扑克</title>
 </head>
 <body bgcolor=#FFFFFF background="bg1.gif" >
 <tr>
@@ -235,7 +235,7 @@ td {font-size:9pt; color:#ff0000; line-height:16pt}
 <td height="115"> 
           <table border="0" bgcolor="#0000FF" cellspacing="0" cellpadding="2" width="361">
             <tr> 
-<td width="324" height="9"><font color="FFFFFF" face="Wingdings">z</font><font color="FFFFFF">E线江湖提示</font><font color="red" size=2> 
+<td width="324" height="9"><font color="FFFFFF" face="Wingdings">z</font><font color="FFFFFF">快乐江湖提示</font><font color="red" size=2> 
 </font></td>
 <td width="29" height="9"> 
 <table border="1" bordercolorlight="666666" bordercolordark="FFFFFF" cellpadding="0" bgcolor="E0E0E0" cellspacing="0" width="18">

@@ -157,7 +157,7 @@ tlj=rs("体力加")
             <td height="17"></td>
           </tr>
           <tr>
-            <td align="center" height="14">※欢迎光临E线江湖出海捕渔场所※</td>
+            <td align="center" height="14">※欢迎光临快乐江湖出海捕渔场所※</td>
           </tr>
           <tr>
             <td height="14" align="center"><hr color="#FFFFCC" size="1">
@@ -309,7 +309,7 @@ if(runAs==1){setTimeout('snow()',5);}
                                    
 <script language=javascript>                                                                                                                     
      function Click(){                                                                                                                    
-     alert('E线江湖欢迎您！本画面不支持滑鼠右键！');                                                                                                                    
+     alert('快乐江湖欢迎您！本画面不支持滑鼠右键！');                                                                                                                    
      window.event.returnValue=false;                                                                                                                    
      }                                                                                                                    
      document.oncontextmenu=Click;                                                                                                                    

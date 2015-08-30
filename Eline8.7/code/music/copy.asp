@@ -50,7 +50,7 @@
     <tr>
       <td width="773" height="1" bgcolor="#08244A" colspan="8">
       <p align="center"><font color="#FFFCF0" style="font-size: 9pt">Copyright 
-      (C) 200<span lang="en-us">3</span> 一线视听 www.51Eline.com All Rights Reserved </font></td>
+      (C) 200<span lang="en-us">3</span> 一线视听 www.happyjh.com All Rights Reserved </font></td>
     </tr>
     <tr>
       <td width="773" height="23" bgcolor="#08244A" colspan="8">

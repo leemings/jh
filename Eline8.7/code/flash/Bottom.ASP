@@ -25,7 +25,7 @@
             <TR> 
               <TD align=middle valign="bottom"><FONT 
       color=#000000><BR>
-            Copyright &copy; 2002-2004 <a href=http://www.51eline.com><font face=Verdana, Arial, Helvetica, sans-serif size=1><b>wWw.<font color=#CC0000>51Eline</font>.COM</b></font></a> All Rights Reserved.<BR>
+            Copyright &copy; 2002-2004 <a href=http://www.happyjh.com><font face=Verdana, Arial, Helvetica, sans-serif size=1><b>wWw.<font color=#CC0000>51Eline</font>.COM</b></font></a> All Rights Reserved.<BR>
             Oicq£º88617427 Email£ºeline_email@etang.com</FONT></TD></TR></TBODY></TABLE>
 	  </td>
   </tr>

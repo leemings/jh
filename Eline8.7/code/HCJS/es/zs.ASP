@@ -31,7 +31,7 @@ if rs.eof or rs.bof then
 end if
 wpname=rs("a")
 %>
-<title>江湖物品赠送♀wWw.51eline.com♀</title>
+<title>江湖物品赠送♀wWw.happyjh.com♀</title>
 <body background="../../JHIMG/BK_HC3W.GIF">
 <table border=1 bgcolor="#BEE0FC" align=center width=336 cellpadding="10" cellspacing="13" height="293">
 <tr valign="top">

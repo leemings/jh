@@ -21,7 +21,7 @@ rs.open "SELECT * FROM W WHERE b="& sjjh_id & " and i>0 and j=false and c<>'卡片
 %>
 <html>
 <head>
-<title>物品管理♀wWw.51eline.com♀</title>
+<title>物品管理♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="style.css">
 </head>

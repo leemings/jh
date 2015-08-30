@@ -50,7 +50,7 @@ set conn1=nothing
 <p align="center">提示问题：<%=wt%>-------<%=newwt%></p>
 <p align="center">答案：<%=da%>-------<%=newda%></p>
 <p align="center"><a href="mmbhcx.asp">返回</a></p>
-<p align="center"><font color="#FF0000" size="2"><b>『E线江湖』之密码保护</b></font></p>
-<p align="center"><font color="#FF0000" size="2"><b>程序修改:一线天</b></font></p>
+<p align="center"><font color="#FF0000" size="2"><b>『快乐江湖』之密码保护</b></font></p>
+<p align="center"><font color="#FF0000" size="2"><b>程序修改:回首当年</b></font></p>
 </body>
 </html>

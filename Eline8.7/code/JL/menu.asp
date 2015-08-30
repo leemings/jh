@@ -1,4 +1,4 @@
-<%@ LANGUAGE=VBScript codepage ="936" %><html><title><%=Application("sjjh_chatroomname")%>事件查看程序♀wWw.51eline.com♀</title>
+<%@ LANGUAGE=VBScript codepage ="936" %><html><title><%=Application("sjjh_chatroomname")%>事件查看程序♀wWw.happyjh.com♀</title>
 <body leftmargin="0" topmargin="7" bgcolor="#66CCCC">
 <table width="795" border="1" align="center" cellpadding="0" cellspacing="0">
 <tr>

@@ -17,7 +17,7 @@ rs.open ("SELECT * FROM 申冤 WHERE ID=" & id),conn,0,1
 
 <html>
 <head>
-<title>查看状词♀wWw.51eline.com♀</title>
+<title>查看状词♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type=text/css><!--td {  font-family: 宋体; font-size: 9pt}body {  font-family: 宋体; font-size: 9pt}select {  font-family: 宋体; font-size: 9pt}A {text-decoration: none; font-family: "宋体"; font-size: 9pt}A:hover {text-decoration: underline; color: #CC0000; font-family: "宋体"; font-size: 9pt} .big {  font-family: 宋体; font-size: 12pt}.txt {  font-family: "宋体"; font-size: 10.8pt}
 --></style>

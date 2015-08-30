@@ -1,6 +1,6 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
 <!--#include file="sjfunc.asp"-->
-<%'小孩♀wWw.51eline.com♀
+<%'小孩♀wWw.happyjh.com♀
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"
@@ -120,7 +120,7 @@ zstemp=huaname&"|"&huaname&"|"&now()&"|1000|1000|1000|0"&"|"&now()
 conn.execute "update 用户 set 银两=银两-" & yin & ",金币=金币-"&jinbi&",体力=体力-"&tili&",操作时间=now(),boy='"&zstemp&"',boysex='"&boysex&"' where 姓名='"&sjjh_name&"'"
 conn.execute "update 用户 set 操作时间=now(),boy='"&zstemp&"',boysex='"&boysex&"' where 姓名='"&zz&"'"
 
-xiaohai="##觉得婚姻太寂寞，经过一番思想斗争，##与<font color=red>"&zz&"</font>亲亲爱爱，经[E线江湖]计生所所长一线天批准，生下了一个宝宝，名字叫<font color=red>"&huaname&"</font>"
+xiaohai="##觉得婚姻太寂寞，经过一番思想斗争，##与<font color=red>"&zz&"</font>亲亲爱爱，经[快乐江湖]计生所所长回首当年批准，生下了一个宝宝，名字叫<font color=red>"&huaname&"</font>"
 
 rs.close
 set rs=nothing	

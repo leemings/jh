@@ -19,7 +19,7 @@ set rs1=conn.execute("select * from lb")
 %>
 <html>
 <head>
-<title>周公解梦♀wWw.51eline.com♀</title>
+<title>周公解梦♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="style.css" type="text/css">
 </head>
@@ -89,7 +89,7 @@ else
   conn.close
   set conn=nothing%>
 </table>
-  <p><font size="2">『E线江湖』&#8482; 2003-2004</font></p>
+  <p><font size="2">『快乐江湖』&#8482; 2003-2004</font></p>
 </div>
 </body>
 </html>

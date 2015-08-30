@@ -14,7 +14,7 @@ if sjjh_grade<10 or sjjh_name<>application("sjjh_user") then
 end if
 %><html>
 <head>
-<title>重新投票♀wWw.51eline.com♀</title>
+<title>重新投票♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type='text/css'>
 <!--

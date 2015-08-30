@@ -1,4 +1,4 @@
-<html><title><%=Application("sjjh_chatroomname")%>广场♀wWw.51eline.com♀</title>
+<html><title><%=Application("sjjh_chatroomname")%>广场♀wWw.happyjh.com♀</title>
 <body leftmargin="0" topmargin="7" bgcolor="#66CCCC">
 <table width="658" border="1" align="center" cellpadding="0" cellspacing="0">
 <tr>

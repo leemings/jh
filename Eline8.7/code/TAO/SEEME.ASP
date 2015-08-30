@@ -30,7 +30,7 @@ end if
 %>
 <html>
 <head>
-<title><%=sjjh_name%>的矿石一览♀wWw.51eline.com♀</title>
+<title><%=sjjh_name%>的矿石一览♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style type="text/css">
 <!--

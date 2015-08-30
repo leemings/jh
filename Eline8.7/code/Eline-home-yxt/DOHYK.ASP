@@ -3,7 +3,7 @@ Response.Buffer=true
 %>
 <html>
 <head>
-<title>会员数据库管理♀wWw.51eline.com♀</title>
+<title>会员数据库管理♀wWw.happyjh.com♀</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="../chat/READONLY/STYLE.CSS">
 </head>

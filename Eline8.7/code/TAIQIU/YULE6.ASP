@@ -24,7 +24,7 @@ set conn=nothing
 
 <head>
 <link rel="stylesheet" href="../../css.css">
-<title>ÓéÀÖ½ğ±Ò¡âwWw.51eline.com¡â</title>
+<title>ÓéÀÖ½ğ±Ò¡âwWw.happyjh.com¡â</title>
 </head>
 
 <body leftmargin="0" topmargin="0" bgcolor="#CCCCCC" background="../chat/back.jpg">

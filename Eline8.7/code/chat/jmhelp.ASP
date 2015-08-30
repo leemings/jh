@@ -10,7 +10,7 @@ Response.Expires = 0
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
-<title>聊天界面帮助 - 51eline.com</title>
+<title>聊天界面帮助 - happyjh.com</title>
 <%
 sjjh_name=Session("sjjh_name")
 sjjh_grade=Session("sjjh_grade")

@@ -14,7 +14,7 @@ chatroomname=Application("sjjh_chatroomname")%>
 <head>
 <META http-equiv='Content-Type' content='text/html; charset=gb2312'>
 <meta http-equiv=refresh content='300;url=selectchatroom.asp?roomsn=<%=roomsn%>'>
-<title>选择区♀wWw.51eline.com♀</title>
+<title>选择区♀wWw.happyjh.com♀</title>
 <style type='text/css'>
 body{
 CURSOR: url('40.ani');

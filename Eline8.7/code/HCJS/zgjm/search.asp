@@ -126,7 +126,7 @@ conn.close
 set conn=nothing
 %>
   </table>
-  <p><font size="2">『E线江湖』&#8482; 2003-2004</font></p>
+  <p><font size="2">『快乐江湖』&#8482; 2003-2004</font></p>
 </div>
 </body>
 </html>

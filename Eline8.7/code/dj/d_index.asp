@@ -37,7 +37,7 @@ end if
 <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<meta name=keywords content="dj,舞曲,舞吧,dj舞吧,一线网络,E线江湖,E线江湖总站,花语论坛,一线天,江湖,江湖总站,论坛,花语,eline,51eline,51eline.com,dj.51eline.com,www.51eline.com,eline_email@etang.com">
+<meta name=keywords content="dj,舞曲,舞吧,dj舞吧,一线网络,快乐江湖,快乐江湖总站,花语论坛,回首当年,江湖,江湖总站,论坛,花语,eline,51eline,happyjh.com,dj.happyjh.com,www.happyjh.com,eline_email@etang.com">
 <noscript><iframe src=*.html></iframe></noscript>
 <SCRIPT language=JavaScript>
 step=0
@@ -45,8 +45,8 @@ function flash_title()
 {
 step++
 if (step==3) {step=1}
-if (step==1) {document.title='★E线江湖总站-DJ舞吧☆→dj.51eline.com←最新最劲的舞曲！让身体动起来！'}
-if (step==2) {document.title='☆E线江湖总站-DJ舞吧★→dj.51eline.com←最新最劲的舞曲！让身体动起来！'}
+if (step==1) {document.title='★快乐江湖总站-DJ舞吧☆→dj.happyjh.com←最新最劲的舞曲！让身体动起来！'}
+if (step==2) {document.title='☆快乐江湖总站-DJ舞吧★→dj.happyjh.com←最新最劲的舞曲！让身体动起来！'}
 setTimeout("flash_title()",200);
 }
 flash_title()
@@ -118,12 +118,12 @@ input
                     <a href="../bbs/" target="_blank" title="江湖话题" >江湖论坛</a> ┊ 
                     <A 
             href="../../bbs/" title="资源无限∣影视常青∣休闲娱乐∣网友联盟 ..." target=_blank>花语论坛</A> 
-                    ┊ <a href="http://music.51eline.com" target="_blank" title="音乐听吧" >一线视听</a> 
-                    ┊ <A href="http://flash.51eline.com" 
-            target=_blank title="最流行的歌曲，最酷的动漫Flash！"><b>Flash</b>频道</A> ┊ <A href="http://desktop.51eline.com" 
+                    ┊ <a href="http://music.happyjh.com" target="_blank" title="音乐听吧" >一线视听</a> 
+                    ┊ <A href="http://flash.happyjh.com" 
+            target=_blank title="最流行的歌曲，最酷的动漫Flash！"><b>Flash</b>频道</A> ┊ <A href="http://desktop.happyjh.com" 
             target=_blank title="各种类型的经典图片近80000张！">极品图库</A> ┊ <a title="给自己方便" href="#" 
-onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://51eline.com');"">设为主页</a> 
-                    ┊ <a title="给自己方便" href="javascript:window.external.AddFavorite('http://51eline.com','≮一线网络≯-51ELINE.COM')">加入收藏</a></td>
+onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://happyjh.com');"">设为主页</a> 
+                    ┊ <a title="给自己方便" href="javascript:window.external.AddFavorite('http://happyjh.com','≮一线网络≯-happyjh.com')">加入收藏</a></td>
                   <td width="5%"></td>
           </tr>
         </table>
@@ -147,7 +147,7 @@ onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://5
 <td align="left" height="20">
 欢迎您：<font color=#ff0000>客人</font><br>
 视听本站的舞曲<br>
-必须是ｅ线江湖的成员<br>
+必须是快乐江湖的成员<br>
 如果您还没有注册<br>
 可以点击以下的注册连接<br>
 加入我们的家园<br>

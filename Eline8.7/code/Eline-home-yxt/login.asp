@@ -5,20 +5,20 @@ sjjh_name=Session("sjjh_name")
 sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if sjjh_name="" then Response.Redirect "../error.asp?id=440"
-if sjjh_grade<>10 and sjjh_name<>"一线天" then Response.Redirect "manerr.asp?id=255"
+if sjjh_grade<>10 and sjjh_name<>"回首当年" then Response.Redirect "manerr.asp?id=255"
 pass=request.form("pass")
 if pass="" then
 session("sjjh_adminok")=false
 %>
 <html>
 <head>
-<title><%=Application("sjjh_chatroomname")%>♀wWw.51eline.com♀</title>
+<title><%=Application("sjjh_chatroomname")%>♀wWw.happyjh.com♀</title>
 <style></style>
 <link rel="stylesheet" href="../chat/READONLY/Style.css">
 </head>
 <body bgcolor=#FFFFFF background="../bgcheetah.gif">
 <center>
-<font color="#000000"><b><font size="+2">E线江湖 V8.7极限版</font></b></font><br>
+<font color="#000000"><b><font size="+2">快乐江湖 V8.7极限版</font></b></font><br>
 <br>
 管理登陆口
 <form action=login.asp method=post>
