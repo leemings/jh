@@ -63,7 +63,7 @@ if jsr=name then response.redirect "../error.asp?id=57"
 if name="ÎÞ" or name="Î´¶¨" then response.redirect "../error.asp?id=130"
 if chuser(name) then Response.Redirect "../error.asp?id=120"
 if chuser(jsr) then Response.Redirect "../error.asp?id=60"
-if len(oicq)<4 or len(oicq)>=10 then Response.Redirect "../error.asp?id=50"
+if len(oicq)<4 or len(oicq)>=15 then Response.Redirect "../error.asp?id=50"
 if instr(e_mail,"@")=0 then Response.Redirect "../error.asp?id=51"
 if len(pswc)<5 then Response.Redirect "../error.asp?id=52"
 for i=1 to len(name)

@@ -57,7 +57,7 @@ if (event.button == 2 | event.button == 3)
                     <option value=女 style="color: #000000; background-color: #88B0D8; text-decoration: blink; border: 1px solid #ffffff" onMouseOver="this.style.backgroundColor = '#FFCC00'" onMouseOut="this.style.backgroundColor = '#88B0D8'">女 
                   </select>
                   <br>
-                  <font color="#FFFFFF">OICQ：</font> 
+                  <font color="#FFFFFF">Q  Q：</font> 
                   <input type="text" name="oicq" size="11" style="color: #000000; background-color: #88B0D8; text-decoration: blink; border: 1px solid #ffffff" onMouseOver="this.style.backgroundColor = '#FFCC00'" onMouseOut="this.style.backgroundColor = '#88B0D8'" maxlength="11">
                   <font color="#FF0000">*</font><font color="#FFFFFF">填写QQ好与朋友联系5位以上！</font> 
                   <br>
