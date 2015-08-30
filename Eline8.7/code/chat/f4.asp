@@ -82,7 +82,7 @@ function ex(){parent.t.location.href='about:blank';top.location.href="exitlt.asp
           <td> <a href="selectchatroom.asp" onClick="javascript:s()" onMouseOver="window.status='更换房间';return true" onMouseOut="window.status='';return true" target="f3" title="选择房间">房间</font></a></td>
           <td><a href="#" onMouseOver="window.status='立即更新在线聊友名单。';return true" onMouseOut="window.status='';return true" onClick="javascript:showname();" title="刷新在线聊友名单">名单</a></td>
           <td><a href="../CHANGAN/xiaowu.asp" onClick="javascript:s()" target="_blank" onMouseOver="window.status='爱情小屋';return true" onMouseOut="window.status='';return true" title="爱情小屋">小屋</a></td>
-          <td><a href="npc/npc.asp" onclick="javascript:s()" title="行走功能" target="f3">行走</a></td>
+          <td><a href="npc/a1.asp" onclick="javascript:s()" title="行走功能" target="f3">行走</a></td>
         </tr>
         <tr align="center"> 
           <td> <a href="caidan.asp" onClick="javascript:s()" onMouseOver="window.status='功能库';return true" onMouseOut="window.status='';return true" target="f3" title="功能库"><font color="#00FFFF">菜单</font></a></td>
