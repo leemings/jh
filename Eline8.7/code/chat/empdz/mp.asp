@@ -198,7 +198,7 @@ end if%>
     <tr>
       <td width="100%" align="center"><div align="center"><font color="#FFFFFF" size="2">杀伤力等于<br>
 所用内力+攻击力<br>
-<input type="checkbox" name="liji" value="on">
+<input type="checkbox" name="liji" id="liji" value="on">
 立即攻击 </font></div></td>
     </tr>
   </table>

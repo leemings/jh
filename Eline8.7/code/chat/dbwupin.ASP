@@ -41,7 +41,7 @@ td{font-size:9pt;}
         <td width="100%" height="28"> <div align="center"><font color="#FF0000" size="2"><strong>夺宝专用</strong></font></div></td>
       </tr>
     </table>
-<div align="center"><input type="checkbox" name="liji" value="on"><font color="#Ffffff" size="2">立即使用</font></div>
+<div align="center"><input type="checkbox" name="liji" id="liji" value="on"><font color="#Ffffff" size="2">立即使用</font></div>
 <table border="1" cellspacing="0" cellpadding="0" width="145" bordercolorlight="#000000" bordercolordark="#FFFFFF" bgcolor="#b7d4f1" align="center" >
   <tr> 
     <td width="80" > 

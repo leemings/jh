@@ -40,7 +40,7 @@ td{font-size:9pt;}
 </font><font color="#FFFFFF"><span style='font-size:9pt'><font size="3" color="#FF0000">【</font><font size="3"><%=sjjh_name%><font color="#FF3333">】<br>
 </font></font></span></font><font color="#FFFFFF"><a class=blue href="#" onClick="window.open('../hcjs/jhzb/index.asp','wupin','scrollbars=yes,resizable=yes,width=550,height=300')" title="当要使用药品、装备物品时点这里！"><font color="#FFFF00"><b>装备物品</b></font></a><br>
   <font color="#FFFF00" size="-1">装备、药品点上面 <b></b></font></font></p>
-<div align="center"><font color="#efefef" size="-1">右键进行赠送物品！ <br>点物品名进行丢弃<br><input type="checkbox" name="liji" value="on">立即使用</font></div>
+<div align="center"><font color="#efefef" size="-1">右键进行赠送物品！ <br>点物品名进行丢弃<br><input type="checkbox" name="liji" id="liji" value="on">立即使用</font></div>
 <table border="1" cellspacing="0" cellpadding="0" width="145" bordercolorlight="#000000" bordercolordark="#FFFFFF" bgcolor="#b7d4f1" align="center" >
   <tr> 
     <td width="80" > 

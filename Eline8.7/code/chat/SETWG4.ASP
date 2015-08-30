@@ -82,7 +82,7 @@ set conn=nothing%>
 </div>
 <p class=p1 align="center"><font color="#FFFFFF" size="2">杀伤力等于<br>
 所用内力+攻击力<br>
-<input type="checkbox" name="liji" value="on">
+<input type="checkbox" name="liji" id="liji" value="on">
 立即攻击 </font></p>
 </body>
 </html>
