@@ -612,8 +612,8 @@ if sjjh_grade>=10 then%>
  
                 <input type=text name='clock' style="text-align: right; font-size: 9pt; height: 18; background-color:006699;color:b7d4f1;border: 1 double" value="" size=3 readonly>                                                                           
  
-   			<input type="checkbox" name="addvalues" <%if (chatinfo(0)<>"泡点房间" or Instr(LCase(application("sjjh_zanli")),LCase("!"&sjjh_name&"!"))<=0) and sjjh_grade<6 then%>disabled<%end if%>>                                                                          
-			<a href="#" title='打开后，系统定时自动发言，自动存点，不在线一样泡，此功能只在泡点房间可用！' onClick='<%if chatinfo(0)<>"泡点房间" and sjjh_grade<6 then%>{alert("此房间禁止使用泡点功能！泡点请到{泡点房间}！")}return false;<%end if%><%if Instr(LCase(application("sjjh_zanli")),LCase("!"&sjjh_name&"!"))<=0 and sjjh_grade<6 then%>{alert("为了保障您的数据安全，请先使用暂离功能！")}return false;<%else%>document.af.addvalues.checked=!(document.af.addvalues.checked);<%end if%>document.af.sytemp.focus();'>泡点</a>                                                                           
+   			<input type="checkbox" name="addvalues">                                                                          
+			<a href="#" title='打开后，系统定时自动发言，自动存点，不在线一样泡，此功能只在泡点房间可用！' onClick='<%if Instr(LCase(application("sjjh_zanli")),LCase("!"&sjjh_name&"!"))<=0 and sjjh_grade<6 then%>{alert("为了保障您的数据安全，请先使用暂离功能！")}return false;<%else%>document.af.addvalues.checked=!(document.af.addvalues.checked);<%end if%>document.af.sytemp.focus();'>泡点</a>                                                                           
  
           <input type='checkbox' name='py' accesskey='v' value="ON">                                                                          
             <a href=# onClick='document.af.py.checked=!(document.af.py.checked);' title="你的好友(配偶)上线、离开时是否自动通知您">好友</a>                                                                           

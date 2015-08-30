@@ -19,11 +19,11 @@ if(list=="/пео╒$"){window.open('../yamen/mt.asp?action='+document.af.towho.value
 }
 function runnosay(){
 document.af.clock.value=document.af.clock.value-1;
-if(document.af.clock.value==300){
-if(document.af.addvalues.checked)		{
-parent.d.location.href='autosay.asp';
-startnosay();
-}else{window.open('comeon.asp','','Status=no,scrollbars=no,resizable=no,width=210,height=130');}
+if(document.af.clock.value<1500){
+	if(document.af.addvalues.checked)		{
+	parent.d.location.href='autosay.asp';
+	startnosay();
+	}else{window.open('comeon.asp','','Status=no,scrollbars=no,resizable=no,width=210,height=130');}
 }
 if(document.af.clock.value==0){top.location.href='nosaytimeout.asp';}if(document.af.clock.value<0){startnosay();parent.rn();}setTimeout('runnosay()',1000);}
 startnosay();
