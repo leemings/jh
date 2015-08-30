@@ -25,7 +25,7 @@ chatinfo=split(sjjh_roominfo(session("nowinroom")),"|")
 fjname=chatinfo(0)
 erase sjjh_roominfo
 erase chatinfo
-if fjname="高手E线" and Weekday(date())=7 and (Hour(time())>=20 and Hour(time())<=22) then
+if fjname="高手房间" and Weekday(date())=7 and (Hour(time())>=20 and Hour(time())<=22) then
 	Response.Write "<script language=javascript>{alert('夺宝期间不许购买暗器及药品！');parent.history.go(-1);}</script>" 
 	Response.End 
 end if

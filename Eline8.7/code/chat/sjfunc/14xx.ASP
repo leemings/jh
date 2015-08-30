@@ -13,11 +13,11 @@ for i=0 to chatroomnum
 sjjh_roominfo=split(Application("sjjh_room"),";")
 chatinfo=split(sjjh_roominfo(nowinroom),"|")
 onlinekill=onlinenow/40+1
-if onlinenow<3 and chatinfo(0)<>"高手E线" then
-	Response.Write "<script language=JavaScript>{alert('江湖在线人数低于3人不能动武！想打去[高手E线].那里没有限制');}</script>"
+if onlinenow<3 and chatinfo(0)<>"高手房间" then
+	Response.Write "<script language=JavaScript>{alert('江湖在线人数低于3人不能动武！想打去[高手房间].那里没有限制');}</script>"
 	Response.End
 end if
-if Weekday(date())=7 and (Hour(time())>=20 and Hour(time())<21) and chatinfo(0)="高手E线" then
+if Weekday(date())=7 and (Hour(time())>=20 and Hour(time())<21) and chatinfo(0)="高手房间" then
 	Response.Write "<script language=JavaScript>{alert('提示：现在是夺宝时间，打斗请使用夺宝武功！');}</script>"
 	Response.End 
 end if
@@ -35,7 +35,7 @@ sjjh_jhdj=Session("sjjh_jhdj")
 sjjh_roominfo=split(Application("sjjh_room"),";")
 chatinfo=split(sjjh_roominfo(nowinroom),"|")
 f=Minute(time())
-if f<33 and chatinfo(0)<>"高手E线" then
+if f<33 and chatinfo(0)<>"高手房间" then
 	Response.Write "<script language=JavaScript>{alert('动武时间为每小时的后30分钟！现在为赌博时间，买马中大奖！');window.close();}</script>"
 	Response.End 
 end if

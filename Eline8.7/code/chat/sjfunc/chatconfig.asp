@@ -10,7 +10,7 @@ if chatinfo(5)<>0 then
 	Response.End
 end if
 if bb=1 then
-	if chatinfo(0)="高手E线" then
+	if chatinfo(0)="高手房间" then
 		erase sjjh_roominfo
 		erase chatinfo
 		Response.Write "<script language=JavaScript>{alert('提示：夺宝大赛时请重新点击窗口右下角功能区中的功能或点击夺宝，不可以使用"&cz&"！');}</script>"
@@ -21,7 +21,7 @@ f=Minute(time())
 if f<30 and fjname="快乐江湖" then
 	erase sjjh_roominfo
 	erase chatinfo
-	Response.Write "<script language=JavaScript>{alert('提示："&fjname&"里只能在每小时的后30分钟才可以使用"&cz&"，想打架到『高手E线』房间去吧！"&fjname&"');}</script>"
+	Response.Write "<script language=JavaScript>{alert('提示："&fjname&"里只能在每小时的后30分钟才可以使用"&cz&"，想打架到『高手房间』房间去吧！"&fjname&"');}</script>"
 	Response.End
 end if
 erase sjjh_roominfo
@@ -34,8 +34,8 @@ sub roompd(zsm)
 	fjname=chatinfo(0)
 	erase chatinfo
 	erase sjjh_roominfo
-	if fjname<>"高手E线" then
-		Response.Write "<script language=JavaScript>{alert('提示："& zsm &"使用只有在『高手E线』房间才可以！');}</script>"
+	if fjname<>"高手房间" then
+		Response.Write "<script language=JavaScript>{alert('提示："& zsm &"使用只有在『高手房间』房间才可以！');}</script>"
 		Response.End
 	end if
 	s=Hour(time())
@@ -92,7 +92,7 @@ function exitltzxpd(inroom) '退出聊天室判断
 	fjname=chatinfo(0)
 	erase sjjh_roominfo
 	erase chatinfo
-	if fjname<>"高手E线" then
+	if fjname<>"高手房间" then
 		exitltzxpd=""
 		exit function
 	end if

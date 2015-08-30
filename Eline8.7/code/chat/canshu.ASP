@@ -105,9 +105,9 @@ a:hover{color:red;text-decoration:none;}
       <font size="2" color="#FF0000"><strong>江湖开设的房间</strong><br>
       </font> <font size="2" color="#FF0000"> <font color="#008080">房间名字：快乐江湖 
       进入条件：所有(聊天)<br>
-      </font></font> <font size="2" color="#008080">房间名字：高手E线 进入条件：战斗等级&gt;30(格斗)<br>
-      房间名字：泡点E线 进入条件：所有(泡点)<br>
-      <font size="2" color="#008080">房间名字：烂漫E线 进入条件：江湖等级&gt;50(情聊)</font> </font></td>
+      </font></font> <font size="2" color="#008080">房间名字：高手房间 进入条件：战斗等级&gt;30(格斗)<br>
+      房间名字：泡点房间 进入条件：所有(泡点)<br>
+      <font size="2" color="#008080">房间名字：烂漫房间 进入条件：江湖等级&gt;50(情聊)</font> </font></td>
   </tr>
 </table>
 </body>

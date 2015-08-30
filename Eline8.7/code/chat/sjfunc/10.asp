@@ -18,7 +18,7 @@ chatinfo=split(sjjh_roominfo(nowinroom),"|")
 if chatinfo(5)<>0 then
 	call mess ("提示：在["&chatinfo(0)&"]房间不可以下毒！",1)
 end if
-if Weekday(date())=7 and (Hour(time())>=20 and Hour(time())<21) and chatinfo(0)="高手E线" then
+if Weekday(date())=7 and (Hour(time())>=20 and Hour(time())<21) and chatinfo(0)="高手房间" then
 	Response.Write "<script language=JavaScript>{alert('提示：现在是夺宝时间，打斗请使用夺宝武功！');}</script>"
 	Response.End 
 end if
@@ -72,7 +72,7 @@ Set conn=Server.CreateObject("ADODB.CONNECTION")
 Set rs=Server.CreateObject("ADODB.RecordSet")
 conn.open Application("sjjh_usermdb")
 if Weekday(date())=6 and (Hour(time())=21) and chatinfo(0)="快乐江湖"  then
-Response.Write "<script Language=Javascript>alert('提示：[快乐江湖]房间里现在是只给堂主和护法、长老、掌门等进行门派大战的，其他人等在场可让你门派加强，想下毒到[高手E线]房间去吧！');parent.f2.document.af.mdsx.checked=true;parent.m.location.reload();</script>"
+Response.Write "<script Language=Javascript>alert('提示：[快乐江湖]房间里现在是只给堂主和护法、长老、掌门等进行门派大战的，其他人等在场可让你门派加强，想下毒到[高手房间]房间去吧！');parent.f2.document.af.mdsx.checked=true;parent.m.location.reload();</script>"
 	Response.End
 end if
 rs.open "select 门派,保护,等级,宝物,grade,死亡时间 from 用户 where 姓名='" & to1 &"'",conn,2,2

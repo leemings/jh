@@ -20,7 +20,7 @@ chatinfo=split(sjjh_roominfo(nowinroom),"|")
 fjname=chatinfo(0)
 erase sjjh_roominfo
 erase chatinfo
-if fjname="高手E线" then
+if fjname="高手房间" then
 	Response.Write "<script language=JavaScript>{alert('提示：在夺宝大赛期间不可以使用点别人哑穴！');}</script>"
 	Response.End
 end if

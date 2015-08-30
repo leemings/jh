@@ -58,7 +58,7 @@ chatinfo=split(sjjh_roominfo(nowinroom),"|")
 fjname=chatinfo(0)
 erase sjjh_roominfo
 erase chatinfo
-if fjname="高手E线" and Weekday(date())=7 and (Hour(time())>=20 and Hour(time())<=22) then
+if fjname="高手房间" and Weekday(date())=7 and (Hour(time())>=20 and Hour(time())<=22) then
 	if instr(fn1,"千年人参")=0 or instr(fn1,"万年灵芝")=0 then
 		Response.Write "<script language=JavaScript>{alert('提示：夺宝期间只可以服用[千年人参]及[万年灵芝]两种药品来补充体力内力！');}</script>"
 		Response.End

@@ -17,7 +17,7 @@ chatinfo=split(sjjh_roominfo(session("nowinroom")),"|")
 fjname=chatinfo(0)
 erase sjjh_roominfo
 erase chatinfo
-if Weekday(date())=7 and (Hour(time())>=20 and Hour(time())<21) and fjname="高手E线" then
+if Weekday(date())=7 and (Hour(time())>=20 and Hour(time())<21) and fjname="高手房间" then
  Response.Write "<script language=javascript>{alert('提示：现在是夺宝时间，不可以使用振臂一呼！');}</script>"
  Response.End
 end if

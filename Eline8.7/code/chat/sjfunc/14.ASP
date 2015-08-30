@@ -13,8 +13,8 @@ for i=0 to chatroomnum
 sjjh_roominfo=split(Application("sjjh_room"),";")
 chatinfo=split(sjjh_roominfo(nowinroom),"|")
 onlinekill=onlinenow/40+1
-if onlinenow<3 and chatinfo(0)<>"高手E线" then
-	Response.Write "<script language=JavaScript>{alert('江湖在线人数低于3人不能动武！想打去[高手E线].那里没有限制');}</script>"
+if onlinenow<3 and chatinfo(0)<>"高手房间" then
+	Response.Write "<script language=JavaScript>{alert('江湖在线人数低于3人不能动武！想打去[高手房间].那里没有限制');}</script>"
 	Response.End
 end if
 next
@@ -31,7 +31,7 @@ sjjh_jhdj=Session("sjjh_jhdj")
 sjjh_roominfo=split(Application("sjjh_room"),";")
 chatinfo=split(sjjh_roominfo(nowinroom),"|")
 f=Minute(time())
-if f<33 and chatinfo(0)<>"高手E线" then
+if f<33 and chatinfo(0)<>"高手房间" then
 	Response.Write "<script language=JavaScript>{alert('动武时间为每小时的后30分钟！');window.close();}</script>"
 	Response.End 
 end if
@@ -75,7 +75,7 @@ Set conn=Server.CreateObject("ADODB.CONNECTION")
 Set rs=Server.CreateObject("ADODB.RecordSet")
 conn.open Application("sjjh_usermdb")
 if Weekday(date())=6 and (Hour(time())=21) and chatinfo(0)="快乐江湖"  then
-Response.Write "<script Language=Javascript>alert('提示：[快乐江湖]房间里现在是只给堂主和护法、长老、掌门等进行门派大战的，其他人等在场可让你门派加强，想打架到[高手E线]房间去吧！');parent.f2.document.af.mdsx.checked=true;parent.m.location.reload();</script>"
+Response.Write "<script Language=Javascript>alert('提示：[快乐江湖]房间里现在是只给堂主和护法、长老、掌门等进行门派大战的，其他人等在场可让你门派加强，想打架到[高手房间]房间去吧！');parent.f2.document.af.mdsx.checked=true;parent.m.location.reload();</script>"
 	Response.End
 end if
 rs.open "select 门派,等级,保护,grade,宝物,死亡时间 from 用户 where 姓名='" & to1 &"'",conn,2,2

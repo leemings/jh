@@ -21,7 +21,7 @@ chatinfo=split(sjjh_roominfo(nowinroom),"|")
 fjname=chatinfo(0)
 erase sjjh_roominfo
 erase chatinfo
-if fjname="高手E线" then
+if fjname="高手房间" then
 	Response.Write "<script language=JavaScript>{alert('提示：夺宝大赛中不可以使用赠送物品！');}</script>"
 	Response.End
 end if

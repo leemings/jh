@@ -17,7 +17,7 @@ if chatroomsn=mychatroomsn then
   response.write "<Script language=javascript>alert('你已经在『"&chatroomname&"』不能重复进入！');parent.m.location.reload();</script>"
   response.end
 end if
-if (sjz>72020 and sjz<72050) and mm="高手E线" and sjjh_grade<6 then
+if (sjz>72020 and sjz<72050) and mm="高手房间" and sjjh_grade<6 then
 	response.write "<Script language=javascript>alert('即然已经走进『"&chatroomname&"』参赛，则无路可退，除非你退出聊天室！');parent.m.location.reload();</script>"
 	response.end
 end if
@@ -44,7 +44,7 @@ i=mychatroomsn
 online=split(trim(Application("sjjh_useronlinename"&i))," ")	'取房间人员名单
 onlinenum=ubound(online)+1
 sj_chat_info=split(chatroominfo(i),"|")	'分离要去的房间数据
-if sj_chat_info(0)="高手E线" and sjjh_grade<>10 then
+if sj_chat_info(0)="高手房间" and sjjh_grade<>10 then
 	if (sjz>71200 and sjz<72020) or sjz>72030 then
 		erase sj_chat_info
 		erase online
@@ -69,7 +69,7 @@ if sj_chat_info(0)="高手E线" and sjjh_grade<>10 then
 		end if
 	end if
 end if
-if (sjz>=72020 and sjz<=72030) and (sjjh_grade>=6 and sjjh_name<>"回首当年") and chatroomname="高手E线" then
+if (sjz>=72020 and sjz<=72030) and (sjjh_grade>=6 and sjjh_name<>"回首当年") and chatroomname="高手房间" then
 		Response.Write "<script language=JavaScript>{alert('提示：官府人员不可参与夺宝！');}</script>"
 		Response.End
 	end if
@@ -119,7 +119,7 @@ tlsx=rs("等级")*sjjh_tlsx+5260+rs("体力加")
 nlsx=rs("等级")*sjjh_nlsx+2000+rs("内力加")
 w1=rs("w1")
 rs.close
-if sj<3 and sjjh_grade<6 and sj_chat_info(0)<>"高手E线" then
+if sj<3 and sjjh_grade<6 and sj_chat_info(0)<>"高手房间" then
 	s=3-sj
 	set rs=nothing	
 	conn.close
@@ -130,7 +130,7 @@ if sj<3 and sjjh_grade<6 and sj_chat_info(0)<>"高手E线" then
 	Response.Write "<script language=JavaScript>{alert('提示：转换房间请等["&s&"分钟]再操作！');parent.m.location.reload();}</script>"
 	Response.End
 end if
-if sjz>=72020 and sjz<=72030 and jhmp="出家" and chatroomname="高手E线" then
+if sjz>=72020 and sjz<=72030 and jhmp="出家" and chatroomname="高手房间" then
         Response.Write "<script language=JavaScript>{alert('提示：出家人不可参与夺宝！');parent.m.location.reload();}</script>"
 	rs.close
 	set rs=nothing	
@@ -138,7 +138,7 @@ if sjz>=72020 and sjz<=72030 and jhmp="出家" and chatroomname="高手E线" then
 	set conn=nothing
 	Response.End
 end if
-if (sjz>72020 and sjz<72030) and sjjh_grade<6 and sj_chat_info(0)="高手E线" then
+if (sjz>72020 and sjz<72030) and sjjh_grade<6 and sj_chat_info(0)="高手房间" then
 	a=mywpsl(w1,"千年人参")
 	b=mywpsl(w1,"万年灵芝")
 	butl=a*5000
@@ -159,7 +159,7 @@ end if
 '姓名,性别,门派,身份,头象,等级,id
 myzanli=0
 if Instr(LCase(application("sjjh_zanli")),LCase("!"&sjjh_name&"!"))>0 then myzanli=1
-if myzanli=1 and (sj_chat_info(0)="高手E线" or sj_chat_info(0)="快乐江湖") then
+if myzanli=1 and (sj_chat_info(0)="高手房间" or sj_chat_info(0)="快乐江湖") then
 	set rs=nothing	
 	conn.close
 	set conn=nothing
@@ -246,7 +246,7 @@ towho="大家"
 addwordcolor="660099"
 saycolor="008888"
 addsays="对"
-if (sjz>72020 and sjz<72030) and sj_chat_info(0)="高手E线" then
+if (sjz>72020 and sjz<72030) and sj_chat_info(0)="高手房间" then
 	says="<font color=black>【换房】</font><font color=#009933>一周一次的夺宝时间终于到了，<font color=red>" & sjjh_name & "</font>满怀自信地从<font color=red>〖" & mychatroomname & "〗</font>阔步迈进了<font color=red>【" &chatroomname & "】</font>房间，让我们大家祝他好运吧！</font><font class=t>(" & time() & ")</font><bgsound src='readonly/cd.mid' loop='1'>"
 else
 	says="<font color=black>【换房】</font><font color=#009933><font color=red>" & sjjh_name & "</font>施展出“凌波微步”轻功，转眼间便从<font color=red>〖" & mychatroomname & "〗</font>消失了，原来是去<font color=red>【" &chatroomname & "】</font>了。</font><font class=t>(" & time() & ")</font><bgsound src='readonly/cd.mid' loop='1'>"
@@ -262,7 +262,7 @@ towho="大家"
 addwordcolor="660099"
 saycolor="008888"
 addsays="对"
-if (sjz>72020 and sjz<72030) and sj_chat_info(0)="高手E线" then
+if (sjz>72020 and sjz<72030) and sj_chat_info(0)="高手房间" then
 	says="<font color=#cc0000>【上线】</font><font color=#009933>一周一次的夺宝时间终于到了，<a href=javascript:parent.sw('『" & sjjh_name & "』'); target=f2>" & sjjh_name & "</a>满怀自信地从<font color=red>〖" & mychatroomname & "〗</font>阔步迈进了<font color=red>【" &chatroomname & "】</font>房间，让我们大家祝他好运吧！</font><font class=t>(" & t & ")</font><bgsound src='readonly/cdcd.wav' loop='1'>"	'受话者
 else
 	says="<font color=#cc0000>【上线】</font><font color=#009933><a href=javascript:parent.sw('『" & sjjh_name & "』'); target=f2>" & sjjh_name & "</a>施展出“凌波微步”轻功，转眼间从〖" & mychatroomname & "〗来到了【" &chatroomname & "】。</font><font class=t>(" & t & ")</font><bgsound src='readonly/cdcd.wav' loop='1'>"	'受话者

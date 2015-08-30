@@ -13,12 +13,12 @@ if Instr(LCase(Application("sjjh_useronlinename"&nowinroom)),LCase(" "&sjjh_name
 end if
 sjjh_roominfo=split(Application("sjjh_room"),";")
 chatinfo=split(sjjh_roominfo(nowinroom),"|")
-if chatinfo(0)="高手E线" then
+if chatinfo(0)="高手房间" then
 	Response.Write "<script language=JavaScript>{alert('提示：要出家或还俗到别的房间去，夺宝大赛中不可以出家！');}</script>"
 	Response.End
 end if
 if Weekday(date())=6 and (Hour(time())=21) and chatinfo(0)="快乐江湖"  then
-Response.Write "<script Language=Javascript>alert('提示：[快乐江湖]房间里现在是只给堂主和护法，长老，掌门等进行门派大战，其他人等在场可让你门派加强，想打架到[高手E线]房间去吧！');parent.f2.document.af.mdsx.checked=true;parent.m.location.reload();</script>"
+Response.Write "<script Language=Javascript>alert('提示：[快乐江湖]房间里现在是只给堂主和护法，长老，掌门等进行门派大战，其他人等在场可让你门派加强，想打架到[高手房间]房间去吧！');parent.f2.document.af.mdsx.checked=true;parent.m.location.reload();</script>"
 	Response.End
 end if
 erase sjjh_roominfo
