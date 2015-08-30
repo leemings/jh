@@ -611,9 +611,11 @@ function clsay(){if(cs<6){setTimeout("this.f2.document.af.sytemp.value=''",0);}}
 function IsBadWord(m){var tmp = "" ;for(var i=0;i<m.length; i++){for(var j=0;j<badstr.length;j++)if(m.charAt(i) == badstr.charAt(j)) break;if(j==badstr.length) tmp += m.charAt(i) ;}for(i=0;i<badword.length;i++) if(tmp.search(badword[i]) != -1) return true;return false;}
 function Warning(){this.f2.document.af.sytemp.value='';if(bc > 12) d.location.href="autokick.asp";else{bc++;alert("请不要在聊天室内使用禁语,否则踢出！");}}
 function checksays()
-{if(this.f2.document.af.addvalues.checked)
-{alert("您目前打开了自动泡点功能，无法发言！")
-return false;}
+{
+	if(this.f2.document.af.addvalues.checked){
+		//alert("您目前打开了自动泡点功能，无法发言！")
+		//return false;
+	}
 if(IsBadWord(this.f2.document.af.sytemp.value)){Warning();return false;}
 var maxlingual=20;
 var pos=0;
@@ -777,8 +779,14 @@ else
 if (nowmsg=="//"){act="say.asp";}else{act="say.asp"}
 this.f2.document.af.action=act;
 //this.f2.document.af.sjjhaction.value=act;
-{this.f2.document.af.sy.value='';if(saystemp!=''){if((this.f2.document.af.oldsays.value==saystemp)&&(this.f2.document.af.oldtowho.value==this.f2.document.af.towho.value)){alert('内容不可重复！');
-this.f2.document.af.sytemp.focus();this.f2.document.af.sytemp.select();return false;}this.f2.document.af.oldtowho.value=this.f2.document.af.towho.value;
+{this.f2.document.af.sy.value='';if(saystemp!=''){
+	//if((this.f2.document.af.oldsays.value==saystemp)&&(this.f2.document.af.oldtowho.value==this.f2.document.af.towho.value)){
+	//	alert('内容不可重复！');
+	//	this.f2.document.af.sytemp.focus();
+	//	this.f2.document.af.sytemp.select();
+	//	return false;
+	//}
+this.f2.document.af.oldtowho.value=this.f2.document.af.towho.value;
 this.f2.document.af.sy.value=saystemp;this.f2.document.af.oldsays.value=saystemp;this.f2.document.af.addsign.options[0].selected=true;
 this.f2.document.af.tu.options[0].selected=true;this.f2.document.af.sytemp.focus();this.f2.document.af.sytemp.value='';
 ty=new Date();var nh=ty.getHours();var nm=ty.getMinutes();var ns=ty.getSeconds();var ct=(nh*3600)+(nm*60)+ns;
