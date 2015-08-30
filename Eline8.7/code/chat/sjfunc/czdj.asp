@@ -14,6 +14,7 @@ jhdj_xx=18				               '吸星大法
 jhdj_aq=20				               '暗器等级
 jhdj_ai=25				               '魔宝等级
 jhdj_fz=11				'发招攻击
+jhdj_xscz=11				'对新手操作
 jhdj_cs=25				               '传授内力
 jhdj_sq=20				               '送钱等级
 jhdj_so=25			                       '送法力等级

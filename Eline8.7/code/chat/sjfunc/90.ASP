@@ -90,7 +90,7 @@ if rs("grade")>=6 and sjjh_grade<10 then
 	Response.Write "<script language=JavaScript>{alert('提示：请不要对官府进行攻击！！');}</script>"
 	Response.End
 end if
-if rs("等级")<=2 and rs("宝物")="无" and sjjh_grade<10 then
+if rs("等级")<jhdj_xscz and rs("宝物")="无" and sjjh_grade<10 then
 	rs.close
 	set rs=nothing
 	conn.close

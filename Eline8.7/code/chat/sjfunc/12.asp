@@ -91,7 +91,7 @@ if rs("保护")=True then
 	Response.Write "<script language=JavaScript>{alert('对方正在练功保护请不要偷袭!');}</script>"
 	Response.End
 end if
-if rs("等级")<=15 then
+if rs("等级")<jhdj_xscz then
 	rs.close
 	set rs=nothing
 	conn.close
