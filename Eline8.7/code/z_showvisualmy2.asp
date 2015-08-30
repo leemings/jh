@@ -24,7 +24,7 @@ sub myshow(username,visualwidth,sex)
 
 dim tconn,tconnstr,tdb,trs,tsql
 '更改数据库名字，下面改成你自己的数据库
-tdb="/eline/bbs/data/eline_bbs_6.3.0.asp"
+tdb="../bbs/data/eline_bbs_6.3.0.asp"
 Set tconn = Server.CreateObject("ADODB.Connection")
 tconnstr="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & Server.MapPath(tdb)
 tconn.Open tconnstr
