@@ -5,7 +5,7 @@ sjjh_name=Session("sjjh_name")
 sjjh_grade=Session("sjjh_grade")
 sjjh_jhdj=Session("sjjh_jhdj")
 if sjjh_name="" then Response.Redirect "../error.asp?id=440"
-if sjjh_grade<>10 and sjjh_name<>"回首当年" then Response.Redirect "manerr.asp?id=255"
+if sjjh_grade<>10 or instr(Application("sjjh_admin"),sjjh_name)=0 then Response.Redirect "manerr.asp?id=255"
 pass=request.form("pass")
 if pass="" then
 session("sjjh_adminok")=false
