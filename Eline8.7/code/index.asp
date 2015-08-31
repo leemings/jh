@@ -1,4 +1,3 @@
-<bgsound src="wma/04.wma" loop="1">
 <%@ LANGUAGE=VBScript codepage ="936" %>
 <%
 Dim SplitReflashPage
