@@ -31,7 +31,7 @@ Application("sjjh_baowusm")="Õâ±¦ÎïÊÇ»ØÊ×µ±ÄêÑ°±é´ó½­ÄÏ±±£¬²ÅÐÁÐÁ¿à¿àÕÒµ½µÄ¡£µ«Ê
 '*ÒÔÏÂ½­ºþ¹ÜÀíÉèÖÃ£¬ÇÐ¼Ç²»Òª¸Ä´í£¬·ñÔòÎÞ·¨Õý³£ÔËÐÐ *
 '*¹ºÂò[¿ìÀÖ½­ºþ V8.7¼«ÏÞ°æ]ÇëÁªÏµQQ:249357828£¡     *
 '***************************************************
-Application("sjjh_admin")="»ØÊ×µ±Äê,ÒÁÈ»,ÄîÄî²»Íü" 'Õ¾³¤Ãû:¶à¸öÕ¾³¤Ö®¼äÒÔ°ë½Ç¶ººÅ,·Ö¸ôÈç£ºÕÅÈý,ÀîËÄ
+Application("sjjh_admin")="»ØÊ×µ±Äê,ÒÁÈ»,ÄîÄî²»Íü,·çÁ÷" 'Õ¾³¤Ãû:¶à¸öÕ¾³¤Ö®¼äÒÔ°ë½Ç¶ººÅ,·Ö¸ôÈç£ºÕÅÈý,ÀîËÄ
 Application("hidden_admin")="»ØÊ×µ±Äê,ÎÞ·Ç,Ãµ×Ó,ÓÄÁéÇéÊé,²£Á§ÃÀÈË¶ù"  'ÒþÉíµÄ¹ÜÀíÔ±Ãû×ÖÈç£ºÕÅÈý,ÀîËÄ	
 Application("sjjh_adminkey")="123456" 'Õ¾³¤¹ÜÀíÃÜÂë£¬¿ÉÒÔ¸Ä³ÉÄã×Ô¼ºÐèÒªµÄ£¡
 Application("sjjh_killman")=10	      '½­ºþÒ»ÌìµÄÉ±ÈËÊý£¬¶á±¦Ò»´ÎËãÒ»´ÎÉ±ÈË£¡			
