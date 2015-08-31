@@ -97,6 +97,13 @@ if len(s)=1 then s="0" & s
 if len(f)=1 then f="0" & f
 if len(m)=1 then m="0" & m
 sj=n & "-" & y & "-" & r & " " & s & ":" & f & ":" & m
+if y=2 And r>28 Then
+	r=28
+Else
+	if r=31 Then	
+		r=30 
+	End if
+end if
 if y<10 then
 huiqi=n & "-" & y+3 & "-" & r
 else
