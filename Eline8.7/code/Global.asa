@@ -23,6 +23,17 @@ Application("sjjh_softjm")=-28972
 Application("sjjh_tltie")="☆★欢迎来到"&Application("sjjh_chatroomname")&"总站！本站永久地址:happyjh.com★☆("&Application("sjjh_user")&")"
 Application("sjjh_DoReflashPage")=false
 rs.close
+
+rs.open "setting",conn,1,2	
+do while Not rs.EOF
+	Select Case rs("属性")
+		Case "访问人数"
+			Application("tuziji_visitor")=rs("属性值")			
+	end select
+	rs.MoveNext
+Loop
+rs.Close
+
 set rs=nothing 
 conn.close
 set conn=nothing
@@ -43,7 +54,15 @@ next
 End sub
 
 Sub Session_OnStart
- Session.Timeout=1
+	Session.Timeout=1
+	application.Lock 
+	Application("tuziji_visitor")=Application("tuziji_visitor")+1
+	application.UnLock
+	Set conn=Server.CreateObject("ADODB.CONNECTION")
+	Set rs=Server.CreateObject("ADODB.RecordSet")
+	conn.open Application("sjjh_usermdb")
+	conn.execute "update setting set 属性值='"&Application("tuziji_visitor")&"' where 属性='访问人数'"
+	conn.close
 End Sub
 
 Sub Session_OnEnd
