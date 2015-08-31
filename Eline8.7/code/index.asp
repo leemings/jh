@@ -116,13 +116,7 @@ else {return true;}
 			  </font>开放时间：<font color="#993300">   
 			  <%=Application("sjjh_sn")%></font> 
 			  访问统计：<font color="#993300">  
-			  <%=Application("tuziji_visitor")%>
-			  </font>会员功能：<font color="#993300">  
-			  <%if Application("Ba_jxqy_fellow")=true then%>
-			  开放
-			  <%else%>
-			  关闭
-			  <%end if%>
+			  <%=Application("tuziji_visitor")%>			  
 			  </font>  
 			</div>
         </td>  
