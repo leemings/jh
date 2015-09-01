@@ -153,15 +153,15 @@ mysls="["&rs("sl")&"]"
 
 mycdsj = DateDiff("n", rs("lasttime"), Now())
 xzcdsj=int(rnd*10)
-if mycdsj<xzcdsj then
-	rs.close
-	set rs=nothing	
-	conn.close
-	set conn=nothing
-	sss=xzcdsj+1-mycdsj
-	Response.Write "<script Language=Javascript>alert('"&sjjh_name&"：系统会自动为您存点，要手动请在["& sss &"]分钟后再保存！');location.href = 'javascript:history.go(-1)';</script>"
-	Response.End
-end if
+'if mycdsj<xzcdsj then
+'	rs.close
+'	set rs=nothing	
+'	conn.close
+'	set conn=nothing
+'	sss=xzcdsj+1-mycdsj
+'	Response.Write "<script Language=Javascript>alert('"&sjjh_name&"：系统会自动为您存点，要手动请在["& sss &"]分钟后再保存！');location.href = 'javascript:history.go(-1)';</script>"
+'	Response.End
+'end if
 
 if mysl>0 then
 	Select Case rs("sl")
