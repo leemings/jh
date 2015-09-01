@@ -7,11 +7,11 @@ Response.AddHeader "Pragma","No-Cache"
 Response.AddHeader "Cache-Control","Private"
 Response.CacheControl = "No-Cache"
 sjjh_sid=trim(request.cookies("yxjh")("sjjh_sid")) 
-if (sjjh_sid="" or  sjjh_sid<>session.sessionid) and Session("sjjh_grade")<6 then
- Session("sjjh_inthechat")="0" 
- Response.Write "<script language=javascript>{top.location.href='chaterr.asp?id=003';alert('您一机上多号，被系统请出！');}</script>"
- Response.End 
-end if
+'if (sjjh_sid="" or  sjjh_sid<>session.sessionid) and Session("sjjh_grade")<6 then
+' Session("sjjh_inthechat")="0" 
+' Response.Write "<script language=javascript>{top.location.href='chaterr.asp?id=003';alert('您一机上多号，被系统请出！');}</script>"
+' Response.End 
+'end if
 
 Response.Write "<SCRIPT LANGUAGE=javascript>if(window.name!='f3'){top.location.href='exitlt.asp'}</SCRIPT>"
 tmp=Chr(115) & Chr(106) & Chr(106) & Chr(104) & Chr(95) & Chr(120) & Chr(117) & Chr(108) & Chr(105) & Chr(101) & Chr(104) & Chr(97) & Chr(111)

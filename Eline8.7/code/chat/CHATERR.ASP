@@ -35,7 +35,8 @@ if id="001" or id="002" then
 	End Sub
 	end if
 end if
-
+%>
+<!--
 if id="003" then
 	if sjjh_name<>"" then
 	to1=sjjh_name
@@ -68,7 +69,8 @@ if id="003" then
 	End Sub
 	end if
 end if
-
+-->
+<%
 Session.Abandon
 Select Case id
 Case "000"

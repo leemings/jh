@@ -25,10 +25,10 @@ next
 chatroomname=trim(Application("sjjh_chatroomname"&session("nowinroom")))
 if sjjh_name="" then Response.Redirect "../error.asp?id=440"
 sjjh_sid=trim(request.cookies("yxjh")("sjjh_sid")) 
-if (sjjh_sid="" or sjjh_sid<>session.sessionid) and Session("sjjh_grade")<6 then
- Response.Write "<script language=javascript>{top.location.href='chaterr.asp?id=003';alert('您一台计算机上了多个帐号，被系统请出！');}</script>"
- Response.End 
-end if
+'if (sjjh_sid="" or sjjh_sid<>session.sessionid) and Session("sjjh_grade")<6 then
+' Response.Write "<script language=javascript>{top.location.href='chaterr.asp?id=003';alert('您一台计算机上了多个帐号，被系统请出！');}</script>"
+' Response.End 
+'end if
 allhttp=LCase(Request.ServerVariables("ALL_HTTP"))
 if Instr(allhttp,"proxy")<>0 or Instr(allhttp,"http_via")<>0 or Instr(allhttp,"http_pragma")<>0 then 
 	Session.Abandon
