@@ -16,14 +16,14 @@ Set rs=Server.CreateObject("ADODB.RecordSet")
 conn.open Application("sjjh_usermdb")
 rs.open "SELECT 通缉,门派,杀人数,宝物,保护,操作时间 FROM 用户 WHERE 姓名='" & sjjh_name &"'",conn
 f=Minute(time())
-if f<30 and rs("保护")=true and chatinfo(0)<>"高手房间" then
-	Response.Write "<script language=JavaScript>{alert('格斗时间为每小时的后30分钟，非格斗时间不能出关！');window.close();}</script>"
-	Response.End 
-end if
-if f<30 and rs("保护")=False and chatinfo(0)<>"高手房间" then
-	Response.Write "<script language=JavaScript>{alert('格斗时间为每小时的后30分钟，非格斗时间无需闭关！');window.close();}</script>"
-	Response.End 
-end if
+'if f<30 and rs("保护")=true and chatinfo(0)<>"高手房间" then
+'	Response.Write "<script language=JavaScript>{alert('格斗时间为每小时的后30分钟，非格斗时间不能出关！');window.close();}</script>"
+'	Response.End 
+'end if
+'if f<30 and rs("保护")=False and chatinfo(0)<>"高手房间" then
+'	Response.Write "<script language=JavaScript>{alert('格斗时间为每小时的后30分钟，非格斗时间无需闭关！');window.close();}</script>"
+'	Response.End 
+'end if
 if rs("门派")="天网" and rs("保护")=False then
 	rs.close
 	set rs=nothing	
