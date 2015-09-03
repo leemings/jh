@@ -15,10 +15,10 @@ if sjjh_grade<6  then
 	response.end
 end if
 f=Minute(time())
-if f<30 then
-	Response.Write "<script language=JavaScript>{alert('动武时间为每小时的后30分钟！');window.close();}</script>"
-	Response.End 
-end if
+'if f<30 then
+'	Response.Write "<script language=JavaScript>{alert('动武时间为每小时的后30分钟！');window.close();}</script>"
+'	Response.End 
+'end if
 Application.Lock
 Application("sjjh_dalie")="PK" 
 Application.UnLock

@@ -13,10 +13,10 @@ for i=0 to chatroomnum
 sjjh_roominfo=split(Application("sjjh_room"),";")
 chatinfo=split(sjjh_roominfo(nowinroom),"|")
 onlinekill=onlinenow/40+1
-if onlinenow<3 and chatinfo(0)<>"高手房间" then
-	Response.Write "<script language=JavaScript>{alert('江湖在线人数低于3人不能动武！想打去[高手房间].那里没有限制');}</script>"
-	Response.End
-end if
+'if onlinenow<3 and chatinfo(0)<>"高手房间" then
+'	Response.Write "<script language=JavaScript>{alert('江湖在线人数低于3人不能动武！想打去[高手房间].那里没有限制');}</script>"
+'	Response.End
+'end if
 next
 %>
 <%'发招(比拼内力)♀wWw.happyjh.com♀
@@ -31,10 +31,10 @@ sjjh_jhdj=Session("sjjh_jhdj")
 sjjh_roominfo=split(Application("sjjh_room"),";")
 chatinfo=split(sjjh_roominfo(nowinroom),"|")
 f=Minute(time())
-if f<33 and chatinfo(0)<>"高手房间" then
-	Response.Write "<script language=JavaScript>{alert('动武时间为每小时的后30分钟！');window.close();}</script>"
-	Response.End 
-end if
+'if f<33 and chatinfo(0)<>"高手房间" then
+'	Response.Write "<script language=JavaScript>{alert('动武时间为每小时的后30分钟！');window.close();}</script>"
+'	Response.End 
+'end if
 if chatinfo(5)<>0 then
 	Response.Write "<script language=JavaScript>{alert('提示：在["&chatinfo(0)&"]房间不可以发招！');}</script>"
 	Response.End
