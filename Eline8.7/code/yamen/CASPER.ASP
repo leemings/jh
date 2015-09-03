@@ -5,7 +5,6 @@ Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"
 Response.AddHeader "Cache-Control","Private"
 Response.CacheControl = "No-Cache"
-myid=Request.form("id")
 name=request.form("name")
 pass=trim(request.form("pass"))
 for each element in Request.Form
@@ -32,7 +31,7 @@ wbpf=1
 end if
 rs.close
 pass=md5(pass)
-rs.open "select * from 用户 where id="& myid &" and 姓名='" & name & "'",conn
+rs.open "select * from 用户 where 姓名='" & name & "'",conn
 if rs.eof or rs.bof then
 	rs.close
 	set rs=nothing

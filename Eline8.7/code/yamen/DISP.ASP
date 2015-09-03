@@ -19,10 +19,7 @@ cellspacing="10" bgcolor="#000000">
         <table width="254" align="center" height="194">
           <tr>
             <td height="126"> 
-              <div align="center"> <font color="#FFFFFF">×¢²áID£º</font> 
-                <input type=password name=id size=8 maxlength="10">
-                <br>
-                <br>
+              <div align="center">
                 <font color="#FFFFFF">ÐÕÃû£º</font> 
                 <input type="text" name="name" size="10" maxlength="10">
                 <br>
