@@ -1,6 +1,6 @@
 <SCRIPT LANGUAGE="VBScript" RUNAT="Server">
 sub Application_OnStart
-Application("sjjh_usermdb")="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & Server.MapPath("Eline_Home_db/eline_8.7.0_db.asa")
+Application("sjjh_usermdb")="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & Server.MapPath("/Eline_Home_db/eline_8.7.0_db.asa")
 
 Set conn=Server.CreateObject("ADODB.CONNECTION")
 Set rs=Server.CreateObject("ADODB.RecordSet")
