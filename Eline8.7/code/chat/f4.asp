@@ -102,7 +102,7 @@ function ex(){parent.t.location.href='about:blank';top.location.href="exitlt.asp
         <tr align="center"> 
           <td height="20"><a href="wupin.asp" onClick="javascript:s()" onMouseOver="window.status='看看你现在有哪些物品';return true" onMouseOut="window.status='';return true" target="f3" title="看看你有什么物品">物品</font></a></td>
           <td height="20"><a href='setwg3.asp' onClick="javascript:s()" target=f3 onMouseOver="window.status='发招。';return true" onMouseOut="window.status='';return true" title="你派的武功">动武</font></a></td>
-          <td height="20"><a href='pic.asp' onClick="javascript:s()" target=f3 onMouseOver="window.status='改变对话区字体的磅值及行距，设置完成后必须点“清屏”才能起作用。';return true" onMouseOut="window.status='';return true" title="表情库">图库</a></td>
+          <td height="20"><a href='../garden/hua.asp' onClick="javascript:s()" onMouseOver="window.status='看看花养的如何了';return true" onMouseOut="window.status='';return true" target="_blank")" title="看看花养的如何了">花园</font></a></td>
           <td height="20"><a href="xlwupin.asp" onClick="javascript:s()" onMouseOver="window.status='拍卖物品。';return true" onMouseOut="window.status='';return true" target="f3" title="在线拍卖">拍卖</font></a></td>
         </tr>
         <tr align="center"> 
@@ -111,12 +111,12 @@ function ex(){parent.t.location.href='about:blank';top.location.href="exitlt.asp
           <td><a href="song.asp" onMouseOver="window.status='点歌给自己或其他聊友。';return true" onMouseOut="window.status='';return true" target="f3" title="经典歌曲">歌库</font></a></td>
           <td><a href='../10top.asp' onClick="javascript:s()" onMouseOver="window.status='查看江湖10大';return true" onMouseOut="window.status='';return true" target="f3")" title="查看江湖爬行榜">排行</font></a></td>
         </tr>
-		<tr align="center"> 
-          <td><a href="../tq/Weather.asp" title="全国天气预报" target="f3" onClick="javascript:s()" onMouseOver="window.status='全国天气预报';return true" onMouseOut="window.status='';return true">天气</font></a></td>
-          <td><a href='../garden/hua.asp' onClick="javascript:s()" onMouseOver="window.status='看看花养的如何了';return true" onMouseOut="window.status='';return true" target="_blank")" title="看看花养的如何了">花园</font></a></td>
-          <td><a href="#" onClick="window.open('../drtq/index.asp','','scrollbars=yes,resizable=yes,width=600,height=400')" title="个人台球!">台球</a></td>
-          <td><a href='st.asp' onClick="javascript:s()" onMouseOver="window.status='在线广播和电视';return true" onMouseOut="window.status='';return true" target="f3")" title="音乐不断，给您精彩！">视听</a></td>
-        </tr>
+		<!-- <tr align="center"> 
+		          <td><a href="../tq/Weather.asp" title="全国天气预报" target="f3" onClick="javascript:s()" onMouseOver="window.status='全国天气预报';return true" onMouseOut="window.status='';return true">天气</font></a></td>
+		          <td><a href='pic.asp' onClick="javascript:s()" target=f3 onMouseOver="window.status='改变对话区字体的磅值及行距，设置完成后必须点“清屏”才能起作用。';return true" onMouseOut="window.status='';return true" title="表情库">图库</a></td>
+		          <td><a href="#" onClick="window.open('../drtq/index.asp','','scrollbars=yes,resizable=yes,width=600,height=400')" title="个人台球!">台球</a></td>
+		          <td><a href='st.asp' onClick="javascript:s()" onMouseOver="window.status='在线广播和电视';return true" onMouseOut="window.status='';return true" target="f3")" title="音乐不断，给您精彩！">视听</a></td>
+		        </tr> -->
 		<tr align="center"> 
           <td><a href="../bbs/index.asp" title="来看看论坛，站长不在江湖就肯定在那了" target="_blank" onClick="javascript:s()" onMouseOver="window.status='来看看论坛，站长不在江湖就肯定在那了';return true" onMouseOut="window.status='';return true">论坛</a></td>
           <td><a href='setwg4.asp' onClick="javascript:s()" onMouseOver="window.status='个人轩辕武功';return true" onMouseOut="window.status='';return true" target="f3")" title="个人轩辕武功">轩辕</font></a></td>

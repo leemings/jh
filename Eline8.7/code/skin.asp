@@ -505,47 +505,47 @@ set conn=nothing%>
                                         </TR></TBODY></TABLE></td>
                   </tr>
                   <tr align="center"> 
-                    <td><a href="music/" target="_blank" title="最新最全的音乐！新歌老歌全包揽！">一线视听</a></td>
+                    <td><a href="#"onClick="window.open('wabao/wabao.asp','diaoyu','scrollbars=yes,resizable=yes,width=450,height=340')">挖掘宝藏</a></td>
                     <td><a href="#"onClick="window.open('wish/wish.asp','','scrollbars=yes,resizable=yes,width=700,height=400')">江湖祈愿</a></td>
                     <td><a href="chat/jbhelp.asp" target="_blank">江湖竞标</a></td>
                     <td><a href="hit/feixing.ASP" target="_blank">江湖飞行</a></td>
                     <td><a href="#"onClick="window.open('hcjs/wldh/MEETING.ASP','','scrollbars=yes,resizable=yes,width=650,height=400')" title="侠客挑榜">武林大会</a></td>
                     <td><a href="chat/loot/loot.asp" target="_blank">抢劫银行</a></td>
                   </tr>
-                  <tr align="center"> 
-                    
-                  <td><a href="flash/" target="_blank" title="最流行的歌曲、最酷的动漫Flash！">动画频道</a></td>
+                  <tr align="center">                     
+					<td><a title="出海走私！" style="TEXT-DECORATION: none" onclick="window.open('work/catch/catch.asp','dzwq','scrollbars=yes,resizable=yes,width=780,height=460')" href="#">江湖走私</a></td>
+                    <td><a href="tao/index.asp" target="_blank">江湖淘金</a></td>
                     <td><a href="#" onClick="window.open('jtbc/buy.asp','','scrollbars=no,resizable=no,width=400,height=400')">江湖博彩</a></td>
-                    <td><a href="game/ft.htm" target="_blank">拼图游戏</a></td>
                     <td><a href="chat/sea/index.asp" target="_blank">江湖航海</a></td>
                     <td><a href="FINDBAO/Index.asp" target="_blank">孤岛冒险</a></td>
                     <td><a href="mj/MUJUAN.ASP" target="_blank">江湖募捐</a></td>
                   </tr>
-                  <tr align="center"> 
-                    
-                  <td><a href="dj/" target="_blank" title="最新最劲的舞曲！让身体动起来！"><b>DJ</b> 
-                    舞吧</a></td>
-                    <td><a href="#"onClick="window.open('wabao/wabao.asp','diaoyu','scrollbars=yes,resizable=yes,width=450,height=340')">挖掘宝藏</a></td>
-                    <td><a title="出海走私！" style="TEXT-DECORATION: none" onclick="window.open('work/catch/catch.asp','dzwq','scrollbars=yes,resizable=yes,width=780,height=460')" href="#">江湖走私</a></td>
-                    <td><a href="tao/index.asp" target="_blank">江湖淘金</a></td>
-                    <td><a href="FENGXUE/Fengxue.asp" target="_blank">飞花舞剑</a></td>
-                    <td><a href="game/21.asp" target="_blank">疯狂21点</a></td>
-                  </tr>
-                  <tr align="center"> 
-                    <td><a href="yule.html" target="_blank">极品图库</a></td>
-                    <td><a href="#" onClick="window.open('macin/index.asp','zhuangti','scrollbars=yes,resizable=no,width=600,height=300')" title="来打麻将吧">江湖麻将</a></td>
-                    <td><a href="chat/FINDBAO/BAO/Index.asp" target="_blank">江湖宝物</a></td>
+                  <tr align="center">  
+					<td><a href="chat/FINDBAO/BAO/Index.asp" target="_blank">江湖宝物</a></td>
                     <td><a href="xiang/index.asp" target="_blank">江湖拜神</a></td>
+					<td><a href="wokou/index.asp" target="_blank">抗击倭寇</a></td>
+					<td><a href="#" onClick="window.open('macin/index.asp','zhuangti','scrollbars=yes,resizable=no,width=600,height=300')" title="来打麻将吧">江湖麻将</a></td>
+					<td><a href="#" onClick="window.open('hcjs/zgjm/index.asp','','scrollbars=yes,resizable=yes,width=670,height=400')" title="周公解梦">周公解梦</a></td>
+                    <td><a href="FENGXUE/Fengxue.asp" target="_blank">飞花舞剑</a></td>
+
+                  </tr>
+                  <!-- <tr align="center"> 
+                  					<td><a href="game/ft.htm" target="_blank">拼图游戏</a></td>
+                  					<td><a href="music/" target="_blank" title="最新最全的音乐！新歌老歌全包揽！">一线视听</a></td>					
+                    <td><a href="game/21.asp" target="_blank">疯狂21点</a></td>
                     <td><a href="#" onClick="window.open('drtq/index.asp','','scrollbars=yes,resizable=yes,width=600,height=400')" title="个人台球!">单人台球</a></td>
                     <td><a href='bbs/z_tq.asp' onClick="javascript:s()" onMouseOver="window.status='多人台球';return true" onMouseOut="window.status='';return true" target="_blank")" title="多人台球">多人台球</a></td>
-                  </tr>
+                  					<td><a href="flash/" target="_blank" title="最流行的歌曲、最酷的动漫Flash！">动画频道</a></td>
+                  </tr> -->
 				  <tr align="center"> 
-                    <td><a href="wokou/index.asp" target="_blank">抗击倭寇</a></td>
-                    <td><a href="#" onClick="window.open('hcjs/zgjm/index.asp','','scrollbars=yes,resizable=yes,width=670,height=400')" title="周公解梦">周公解梦</a></td>
+					<!-- <td><a href="yule.html" target="_blank">极品图库</a></td> -->
+					<!-- <td><a href="dj/" target="_blank" title="最新最劲的舞曲！让身体动起来！"><b>DJ</b>舞吧</a></td> -->
                     <td><%if sjjh_grade>=10 then%><a href="Eline-home-yxt/login.asp" target="_blank"><font color=#ff0000>管理入口</font></a><%else%>&nbsp;<%end if%></td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
                   </tr>
                   <tr> 
                                     <td colspan="6"><TABLE class=font height=33 cellSpacing=0 cellPadding=0 width=178 

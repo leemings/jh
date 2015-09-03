@@ -608,7 +608,9 @@ if sjjh_grade>=10 then%>
 </select> 
  
 <input type=button name="tbclutch" value="全屏" onClick="javascript:parent.tbclutch();" title="合屏/分屏/垂直切换" style="height: 18;background-color:006699;color:ccffff;border: 1 double" onmouseover="this.style.color='ffffff'" onmouseout="this.style.color='ccffff'">                                                                          
- <input type=button value='僵尸' onClick="window.open('co/cins.asp','f3')" title="释放僵尸王" style="height: 18;background-color:006699;color:ccffff;border: 1 double" onmouseover="this.style.color='ffffff'" onmouseout="this.style.color='ccffff'"><br>                                                                    
+ <input type=button value='僵尸' onClick="window.open('co/cins.asp','f3')" title="释放僵尸王" style="height: 18;background-color:006699;color:ccffff;border: 1 double" onmouseover="this.style.color='ffffff'" onmouseout="this.style.color='ccffff'">
+ <input type=button value='表情' onClick="window.open('pic.asp','f3')" title="表情包" style="height: 18;background-color:006699;color:ccffff;border: 1 double" onmouseover="this.style.color='ffffff'" onmouseout="this.style.color='ccffff'">
+ <br>                                                                    
  
                 <input type=text name='clock' style="text-align: right; font-size: 9pt; height: 18; background-color:006699;color:b7d4f1;border: 1 double" value="" size=3 readonly>                                                                           
  
