@@ -1,4 +1,5 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
+<!--#include file="config.asp"-->
 <%Response.Buffer=true
 Response.CacheControl = "no-cache"
 Response.AddHeader "Pragma", "no-cache"
