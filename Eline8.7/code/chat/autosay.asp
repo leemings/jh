@@ -1,4 +1,5 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
+<!--#include file="sayRandom.asp"-->
 <%Response.Buffer=true
 sjjh_name=Session("sjjh_name")
 inroom=session("nowinroom")
@@ -37,6 +38,9 @@ saycolor="008888"
 addsays="¶Ô"
 saystr="<script>parent.sh("& chr(39) & addwordcolor & chr(39) &","& chr(39) & saycolor & chr(39) &","& chr(39) & act & chr(39) &","& chr(39) & sjjh_name & chr(39) &","& chr(39) & addsays & chr(39) &","& chr(39) & towho & chr(39) &"," & chr(39) & says & chr(39) &"," & towhoway &  ","& inroom & ");<"&"/script>"
 addmsg saystr
+
+RandomSay
+
 Function Yushu(a)
 	Yushu=(a and 31)
 End Function
@@ -48,3 +52,4 @@ Application(i)=Str
 Application.UnLock()
 End Sub
 %>
+
