@@ -1,4 +1,5 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
+<!--#include file="config.asp"-->
 <%
 Dim SplitReflashPage
 Dim DoReflashPage
