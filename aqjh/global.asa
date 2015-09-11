@@ -23,6 +23,16 @@ Application("aqjh_zudui")=5
 Application("hidden_man")="转生隐身人员列表"       '这个里面可以随意写,但是必须超过江湖注册名字的最大字数,一般情况下没有必要修改
 Application("aqjh_tltie")="购买会员支持江湖发展<img src=pic/click.gif><a href=hy.asp target=_blank>╋━点击进入</a>"
 rs.close
+
+rs.open "setting",conn,1,2	
+do while Not rs.EOF
+	Select Case rs("属性")
+		Case "访问人数"
+			Application("tuziji_visitor")=rs("属性值")			
+	end select
+	rs.MoveNext
+Loop
+rs.Close
 set rs=nothing 
 conn.close
 set conn=nothing
@@ -40,7 +50,15 @@ next
  Application("aqjh_webicqname")=webicqname
 End sub
 Sub Session_OnStart
- Session.Timeout=1
+ 	Session.Timeout=1
+	application.Lock 
+	Application("tuziji_visitor")=Application("tuziji_visitor")+1
+	application.UnLock
+	Set conn=Server.CreateObject("ADODB.CONNECTION")
+	conn.open Application("aqjh_usermdb")
+	conn.execute "update setting set 属性值='"&Application("tuziji_visitor")&"' where 属性='访问人数'"
+	conn.close
+	set conn=nothing 
 End Sub
 Sub Session_OnEnd
 roomsn=session("nowinroom")
