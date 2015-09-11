@@ -1,0 +1,1 @@
+<table width=100%><tr><td><center><a href=readme.asp>花赛说明</a> | <a href=hfyb.asp>大赛风云榜</a> | <a href=index.asp>大赛投票处</a> | <a href=mod.asp>我要报名</a></td></tr></table>

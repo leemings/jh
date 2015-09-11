@@ -1,0 +1,121 @@
+A:link,A:visited,A:Active { TEXT-DECORATION: none; COLOR: #000000 }
+A:hover { TEXT-DECORATION: none; COLOR: #000000 }
+
+.a1 {
+	BACKGROUND-image: url('titlebg.gif');
+	COLOR: #ffffff;
+	height: 25px; BACKGROUND-COLOR: #A0B8C8
+}
+.a2 {
+	BORDER: #C5100A 1px solid;
+	BACKGROUND-COLOR: #c9c9c9
+}
+.a3 { BACKGROUND-COLOR: #f8f9fd }
+.a4 { BACKGROUND-COLOR: #ffffff }
+
+
+.menuskin {
+	BORDER-top: #cdcdcd 1px solid;
+	BORDER-left: #cdcdcd 1px solid;
+	BORDER-right: #999999 1px solid;
+	BORDER-bottom: #999999 1px solid;
+	BACKGROUND-IMAGE: url(menubg.gif);
+	FILTER: alpha(opacity=85)/*progid:DXImageTransform.Microsoft.Shadow(Color=#C0C0C0,Direction=120,strength=4)*/;
+	POSITION: absolute;
+	VISIBILITY: hidden
+}
+
+.menuitems {
+	PADDING-RIGHT: 1px;
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-BOTTOM: 1px;
+	MARGIN: 2px;
+	font-size:9pt;
+	line-height:14pt;
+}
+.menuskin A {
+	PADDING-RIGHT: 20px;
+	PADDING-LEFT: 10px
+}
+
+.menuskin {
+	BORDER-RIGHT: #999999 1px solid;
+	BORDER-TOP: #eeeeee 1px solid;
+	BORDER-LEFT: #eeeeee 1px solid;
+	BORDER-BOTTOM: #999999 1px solid;
+	BACKGROUND-IMAGE: url(menubg.gif);
+	FILTER: alpha(opacity=85)progid:DXImageTransform.Microsoft.Shadow(Color=#999999,Direction=120,strength=4);
+	POSITION: absolute;
+	VISIBILITY: hidden;
+}
+
+#mouseoverstyle {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 0px;
+	BORDER-RIGHT: #F5F5F5 1px solid;
+	BORDER-TOP: #F5F5F5 1px solid;
+	BORDER-LEFT: #F5F5F5 1px solid;
+	BORDER-BOTTOM: #F5F5F5 1px solid;
+	BACKGROUND-COLOR: #DEEAFF 
+}
+
+.menuskin A {PADDING-RIGHT:10px;PADDING-LEFT:30px;}
+#TableTitleLink A {
+	COLOR: #ffffff
+}
+
+input {
+	font-family: Arial, 宋体;
+	font-size: 9pt;
+	color: #627BCD;
+	text-decoration: none;
+	border: 1px solid #C1CCE8;
+	background-position: left top;
+}
+
+TEXTAREA {
+	font-family: Arial, 宋体;
+	font-size: 9pt;
+	color: #627BCD;
+	text-decoration: none;
+	border: 1px solid #C1CCE8;
+	background-position: left top;
+}
+
+select {
+	font-family: Arial, 宋体;
+	font-size: 9pt;
+	color: #575757;
+	background-color: #ffffff;
+	border: 1px solid #C6D3F9;
+}
+
+option {
+	font-family: Arial, 宋体;
+	font-size: 9pt;
+	color: #627BCD;
+	text-decoration: none;
+	border: 1px solid #C1CCE8;
+	background-position: left top;
+}
+
+BODY,TD,DIV,SELECT,TEXTAREA {
+	FONT-SIZE: 9pt;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif"
+}
+
+BODY{
+background-image:url(bg.jpg);background-position:center;
+SCROLLBAR-FACE-COLOR: #B80000; 
+SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+SCROLLBAR-SHADOW-COLOR: #ffffff; 
+SCROLLBAR-3DLIGHT-COLOR: #cccccc; 
+SCROLLBAR-ARROW-COLOR: #FF95BE; 
+SCROLLBAR-TRACK-COLOR: #EFEFEF; 
+SCROLLBAR-DARKSHADOW-COLOR: #B80000; 
+SCROLLBAR-BASE-COLOR: #000000
+}
+.tdc{width:800}

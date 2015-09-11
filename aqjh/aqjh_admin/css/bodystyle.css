@@ -1,0 +1,39 @@
+/* CSS Document */
+BODY,TD,FORM,INPUT,SELECT,TEXTAREA {
+font-family:ËÎÌו,Verdana,Arial;font-size:12px
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff6600; POSITION: relative; TOP: 1px; TEXT-DECORATION: underline
+}
+
+.white_font {
+font-family:ËÎÌו,Verdana,Arial;font-size:12px
+}
+A.white_font:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.white_font:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.white_font:hover {
+	COLOR: #ff6600; POSITION: relative; TOP: 1px; TEXT-DECORATION: underline
+}
+
+.big_font {
+font-family:ËÎÌו,Verdana,Arial;font-size:14px
+}
+A.big_font:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.big_font:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.big_font:hover {
+	COLOR: #ff6600; POSITION: relative; TOP: 1px; TEXT-DECORATION: underline
+}

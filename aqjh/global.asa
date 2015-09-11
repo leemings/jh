@@ -1,0 +1,89 @@
+<SCRIPT LANGUAGE="VBScript" RUNAT="Server">
+sub Application_OnStart
+Application("aqjh_usermdb")="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & Server.MapPath("aqjh_data/aqjh.asp")
+'江湖秀数据库
+Application("showmdb")="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & Server.MapPath("aqjh_data/show.asp")
+Application("renwudb")="Provider=Microsoft.Jet.OLEDB.4.0;Jet OLEDB:Database Password=usermdb;Data Source=" & Server.MapPath("aqjh_data/renwu.asp")
+Application("jhshowurl")="http://qqshow-item.tencent.com"    	'这是使用tencent的图片
+Set conn=Server.CreateObject("ADODB.CONNECTION")
+Set rs=Server.CreateObject("ADODB.RecordSet")
+conn.open Application("aqjh_usermdb")
+rs.open "SELECT * FROM r order by id",conn
+ do while Not rs.Eof
+	Application("aqjh_room")=Application("aqjh_room")&rs("a")&"|"&rs("b")&"|"&rs("c")&"|"&rs("d")&"|"&rs("e")&"|"&rs("f")&"|"&rs("g")&"|"&rs("h")&"|"&rs("i")&"|"&rs("j")&"|"&rs("l")&"|"&rs("m")&";"
+	rs.MoveNext
+ loop
+'江湖系统设置不要修改，否则江湖会不正常运行！
+Application("aqjh_copyright")="爱情江湖"
+Application("aqjh_ver")="爱情江湖love9.9"
+Application("aqjh_softuser")=-63617
+Application("aqjh_softjm")=-28972
+Application("aqjh_npc")=""
+Application("aqjh_zudui")=5
+Application("hidden_man")="转生隐身人员列表"       '这个里面可以随意写,但是必须超过江湖注册名字的最大字数,一般情况下没有必要修改
+Application("aqjh_tltie")="购买会员支持江湖发展<img src=pic/click.gif><a href=hy.asp target=_blank>╋━点击进入</a>"
+rs.close
+set rs=nothing 
+conn.close
+set conn=nothing
+ Dim nameindex(0)
+aqjh_roominfo=split(Application("aqjh_room"),";")
+for roomsn=0 to ubound(aqjh_roominfo)-1
+	Application("aqjh_onlinelist"&roomsn)=nameindex
+	fenroom=split(aqjh_roominfo(roomsn),"|")
+	application("aqjh_chatroomname"&roomsn)=fenroom(0)
+	Application("aqjh_useronlinename"&roomsn)=""
+next 
+ Dim wbq(0)
+ Application("aqjh_webicq")=wbq
+ webicqname=" "
+ Application("aqjh_webicqname")=webicqname
+End sub
+Sub Session_OnStart
+ Session.Timeout=1
+End Sub
+Sub Session_OnEnd
+roomsn=session("nowinroom")
+nickname=Session("aqjh_name")
+if nickname="" then exit sub
+useronlinename=Application("aqjh_useronlinename"&roomsn)
+if InStr(useronlinename," " & nickname & " ")<>0  then
+Application.Lock
+	onlinelist=Application("aqjh_onlinelist"&roomsn)
+	onno=ubound(onlinelist)
+	for i=1 to onno
+	 if InStr(onlinelist(i),nickname & "|")=1 then
+		  for j=i to onno-1
+			   onlinelist(j)=onlinelist(j+1)
+		  next
+		  ReDim Preserve onlinelist(onno-1)
+	  exit for
+	 end if
+	next
+Application("aqjh_onlinelist"&roomsn)=onlinelist
+Application("aqjh_useronlinename"&roomsn)=Replace(Application("aqjh_useronlinename"&roomsn)," " & nickname & " ","")
+Application.UnLock
+act="退出"
+towhoway=0
+towho="大家"
+addwordcolor="660099"
+saycolor="008888"
+addsays="对"
+says="<font color=black>【公告】</font><font color=F08000>" & Replace("“砰”的一声，%%重重地摔了下了马，回家养伤去了，好倒霉啊……","%%","<font color=black>" & nickname & "</font>") & "</font><font class=t>(" & time() & ")</font>"
+Msg="<"&"script>parent.sh("& chr(39) & addwordcolor & chr(39) &","& chr(39) & saycolor & chr(39) &","& chr(39) & act & chr(39) &","& chr(39) & nickname & chr(39) &","& chr(39) & addsays & chr(39) &","& chr(39) & towho & chr(39) &"," & chr(39) & says & chr(39) &"," & towhoway &  "," & roomsn & ");<"&"/script>"
+addmsg msg
+end if
+End sub
+Function Yushu(a)
+	Yushu=(a and 31)
+End Function
+Sub AddMsg(Str)
+	Application.Lock()
+		Application("SayCount")=Application("SayCount")+1
+		i="SayStr"&YuShu(Application("SayCount"))
+		Application(i)=Str
+	Application.UnLock()
+End Sub
+Sub Application_OnEnd
+End sub
+</SCRIPT>

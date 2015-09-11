@@ -1,0 +1,40 @@
+/***/
+var theId = 0; 
+//===========================================object
+/*  liuye object*/
+function LiuYe(s) {
+	if(s==null||s.length<20) return;
+	var _s=s.split("[%:.]");
+	this.content=_s[1];
+    if(_s[0]==null||_s[0].length<16) return;
+	var _s1=_s[0].split("|");
+	this.id=_s1[0];
+	this.postTime=_s1[1];
+	this.writer=_s1[2];
+	this.byname=_s1[3];
+}
+/*liuyelist 's properties*/
+function LiuYeList(s) {
+	if(s==null||s.length<10) return;
+	var _s=s.split("::");
+	this.maxNum=_s[0];	
+    this.inputMode=_s[1];
+    this.MaxLength=_s[2];
+    this.host="yxj2001";
+    this.user="yxj2001";
+}
+function LiuYeS(s) {
+	if(s==null||s.length<16) return;
+	var _s=s.split("[[:]]");
+	this.property=new LiuYeList(_s[0]);
+	if(s.length>30){
+	     this.liuyes=new Array(_s.length-1);
+         for(i=0;i<this.liuyes.length;i++) {
+	        this.liuyes[i]=new LiuYe(_s[i+1]);
+	     }
+	}
+	else this.liuyes=new Array();
+}
+var liuyedata="40::txt::600[[:]]";
+if(liuyedata.length>3)initLiuyeShow(liuyedata);
+

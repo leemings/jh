@@ -1,0 +1,22 @@
+body {
+scrollbar-face-color: #DAECFF;
+scrollbar-highlight-color: #999999;
+scrollbar-shadow-color: #FF0000; 
+scrollbar-3dlight-color: #8173AF; 
+scrollbar-arrow-color: #8173AF; 
+scrollbar-darkshadow-color: #8173AF;
+}
+A:link {FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none}
+A:visited {FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none}
+A:active {FONT-SIZE: 9pt; TEXT-DECORATION: none}
+A:hover {FONT-SIZE: 9pt; COLOR: #ff0000; TEXT-DECORATION: none}
+TABLE {	font-family: "ËÎÌו";FONT-SIZE: 9pt }
+SELECT{ FONT-SIZE: 9pt }
+BODY {	FONT-SIZE: 9pt }
+td {font-size:9pt;line-height:13pt;}
+.p1 {  font-family: "ËÎÌו"; font-size: 9pt}
+.p2 {font-family: "ËÎÌו"; font-size: 11pt}
+.input {BORDER-RIGHT: #333333 1px dashed; BORDER-TOP: #333333 1px dashed; FONT-SIZE: 9pt; BORDER-LEFT: #333333 1px dashed; COLOR: #00215A; BORDER-BOTTOM: #333333 1px dashed; HEIGHT: 16px; BACKGROUND-COLOR: #DAECFF
+}
+.input1 {font-size: 9pt; height: 19px; BACKGROUND: #EEF7FF}
+.3d {  font-size: 24px; COLOR: #FFFFFF; FILTER: glow(color=000000,strength=2) dropshadow(color=#aaaaaa,offx=1, offy=1, positive=2); MARGIN: 0px 0px; TEXT-DECORATION: none ; clip:   rect(   )}

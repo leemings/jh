@@ -1,0 +1,5 @@
+直接上传文件即可
+在hc3w_admin/menu.asp中做一个首页站长公告管理的链接，地址是 ../gg/administrator/ggadmin.asp
+在首页找位置调用最新公告显示文件：newgg.asp
+代码如下：
+<script language=JavaScript src="gg/newgg.asp"></script>

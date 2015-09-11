@@ -1,0 +1,63 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #dddec5; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #666b52; SCROLLBAR-3DLIGHT-COLOR: #666b52; SCROLLBAR-ARROW-COLOR: #666b52; SCROLLBAR-TRACK-COLOR: #dddec5; SCROLLBAR-DARKSHADOW-COLOR: #666b52
+}
+A:visited {
+	COLOR: #666b52; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #666b52; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #666b52; TEXT-DECORATION: none
+}
+BODY {
+	FONT-SIZE: 12px; FONT-FAMILY: "Verdana", "arial"
+}
+TABLE {
+	FONT-SIZE: 12px; FONT-FAMILY: "Verdana", "arial"
+}
+TR {
+	FONT-SIZE: 9pt; FILTER: DropShadow(Color=#dddec5, OffX=-1, OffY=-1, Positive=true); COLOR: #666b52; LINE-HEIGHT: 13pt; FONT-FAMILY: "宋体"
+}
+TD {
+	FONT-SIZE: 12px; WORD-BREAK: break-all; FONT-FAMILY: "Verdana", "arial"
+}
+INPUT {
+	BORDER-RIGHT: #666b52 0px solid; BORDER-TOP: #666b53 0px solid; FONT-SIZE: 9pt; BACKGROUND-IMAGE: url(../images/input.gif); BORDER-LEFT: #666b52 0px solid; COLOR: #666b52; BORDER-BOTTOM: #666b52 0px solid; FONT-FAMILY: "宋体"; TEXT-DECORATION: none;background-color:#F2F2EA
+}
+TEXTAREA {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-LEFT-COLOR: #cccccc; BACKGROUND: #fefefe; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; PADDING-BOTTOM: 1px; BORDER-TOP-COLOR: #cccccc; PADDING-TOP: 1px; FONT-FAMILY: "宋体"; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc
+}
+SELECT {
+	FONT-SIZE: 12px; BACKGROUND: #fefefe; FONT-FAMILY: "宋体"
+}
+.list_table {
+	BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+.list_data {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px
+}
+.list_title {
+	BORDER-RIGHT: 0px
+}
+.main_search {
+	FONT-SIZE: 12px; HEIGHT: 20px
+}
+.copyright {
+	FONT-SIZE: 7pt; FONT-FAMILY: "Tahoma"
+}
+.font1 {
+	FONT-SIZE: 9pt; FILTER: DropShadow(Color=#F2F2EA, OffX=1, OffY=1, Positive=true); COLOR: #595e26; LINE-HEIGHT: 13pt; FONT-FAMILY: "宋体"
+}
+.input-box {
+	BORDER-RIGHT: #666b52 1px solid; BORDER-TOP: #666b52 1px solid; FONT-SIZE: 9pt; BACKGROUND-IMAGE: url(../images/input.gif); BORDER-LEFT: #666b52 1px solid; COLOR: #666b52; LINE-HEIGHT: 15pt; BORDER-BOTTOM: #666b52 1px solid; FONT-FAMILY: "宋体"
+}
+.bg {
+	BORDER-RIGHT: #dddec5 1px solid; BORDER-TOP: #dddec5 1px solid; BORDER-LEFT: #dddec5 1px solid; BORDER-BOTTOM: #dddec5 1px solid
+}
+.1px-table {
+	BORDER-RIGHT: #999999 1px dotted; BORDER-TOP: #999999 1px dotted; BORDER-LEFT: #999999 1px dotted; BORDER-BOTTOM: #999999 1px dotted
+}

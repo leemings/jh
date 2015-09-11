@@ -1,0 +1,16 @@
+TD	{FONT-SIZE: 12px; COLOR: #000000; WORD-BREAK: break-all; }
+
+A       	{COLOR: #000099; TEXT-DECORATION: none}
+A:link  	{COLOR: #000099; TEXT-DECORATION: none}
+A:visited	{COLOR: #000099; TEXT-DECORATION: none}
+A:hover 	{COLOR: #ff0000; TEXT-DECORATION: underline}
+A:active	{TEXT-DECORATION: none}
+
+A.1     	{COLOR: #ffffff; TEXT-DECORATION: NONE}
+A.1:link	{COLOR: #ffffff; TEXT-DECORATION: NONE}
+A.1:visited {COLOR: #ffffff; TEXT-DECORATION: NONE}
+A.1:hover	{COLOR: yellow; TEXT-DECORATION: NONE}
+A.1:active	{TEXT-DECORATION: NONE}
+
+input    	{FONT-SIZE: 12px;BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid;BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid}
+textarea    {color:#301603;border-style:solid;border-width:1}

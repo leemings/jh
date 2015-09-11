@@ -1,0 +1,18 @@
+TD {
+	FONT-SIZE: 9pt; FONT-FAMILY: "ËÎÌו"
+}
+BODY {
+	FONT-SIZE: 9pt; FONT-FAMILY: "ËÎÌו"
+}
+A:link {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 9pt; COLOR: #ff0000; TEXT-DECORATION: none
+}
+.input {
+	BORDER-RIGHT: #996633 1px solid; BORDER-TOP: #996633 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #996633 1px solid; WIDTH: 90px; BORDER-BOTTOM: #996633 1px solid
+}

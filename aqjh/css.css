@@ -1,0 +1,59 @@
+BODY {
+	FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; scrollbar-face-color: 5B4A4A; scrollbar-shadow-color: 644E49; scrollbar-highlight-color: 97836F; scrollbar-3dlight-color: 644E49; scrollbar-darkshadow-color: 000000; scrollbar-track-color: 97836F; scrollbar-arrow-color: FFC625
+}
+HTML {
+	COLOR: #000000; FONT-SIZE: 9pt
+}
+TD {
+	FONT-FAMILY: "宋体"; FONT-SIZE: 9pt
+}
+
+
+A:visited {
+	COLOR: #000000; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #000000; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; FONT-SIZE: 9pt; TEXT-DECORATION: underline
+}
+.button {
+	BACKGROUND-COLOR: #182b00; BORDER-BOTTOM: #59714b 1px solid; BORDER-LEFT: #59714b 1px solid; BORDER-RIGHT: #59714b 1px solid; BORDER-TOP: #59714b 1px solid; COLOR: #000000; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; MARGIN: auto auto
+}
+.button2 {
+	BACKGROUND-COLOR: #6d563d; BORDER-BOTTOM: #a07e58 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-RIGHT: #a07e58 1px solid; BORDER-TOP: #000000 1px solid; CLEAR: none; COLOR: #d0d0c8; FLOAT: none; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; LIST-STYLE: none; MARGIN: auto auto
+}
+.title {
+	COLOR: #ffcc00; FONT-FAMILY: "宋体"; FONT-SIZE: 10.5pt; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+.redbutton {
+	BACKGROUND-COLOR: #480000; BORDER-BOTTOM-COLOR: #4a2322; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #6e1700; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #4a2322; BORDER-RIGHT-WIDTH: 1px; BORDER-TOP-COLOR: #6e1700; BORDER-TOP-WIDTH: 1px; COLOR: #cc8a00; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; MARGIN: 0px 0px; padding: 0px 0px
+}
+.inputarea5 {
+	BACKGROUND-COLOR: #080808; BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-RIGHT: 0px; BORDER-TOP: 0px; COLOR: #66cc33; FONT-FAMILY: "宋体"; FONT-SIZE: 12px; TEXT-ALIGN: center; VERTICAL-ALIGN: bottom
+}
+.blackbutton {
+	BACKGROUND-COLOR: #000000; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none; COLOR: #cc8a00; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; MARGIN: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.greenbutton {
+	BACKGROUND-COLOR: #304810; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #59714b 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #59714b 1px solid; COLOR: #d9e8b5; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; MARGIN: 2px; PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; PADDING-RIGHT: 1px; PADDING-TOP: 4px
+}
+.button_default {
+	BACKGROUND-COLOR: #5b4a4a; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #97836f 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #97836f 1px solid; COLOR: #97836f; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; MARGIN: 2px; PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; PADDING-RIGHT: 1px; PADDING-TOP: 4px
+}
+.dialog {
+	COLOR: #ffcc99; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; FONT-WEIGHT: bold
+}
+.umberbutton {
+	BACKGROUND-COLOR: #5b4a4a; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #97836f 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #97836f 1px solid; COLOR: #ffc625; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; MARGIN: 2px; PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; PADDING-RIGHT: 1px; PADDING-TOP: 4px
+}
+.enfont {
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; FONT-SIZE: 7pt
+}
+.noborderbutton {
+	BACKGROUND-COLOR: #000000; BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-RIGHT: medium none; BORDER-TOP: medium none; COLOR: #cc8a00; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; MARGIN: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.cityinfo {
+	BACKGROUND-COLOR: #182b00; BORDER-BOTTOM: #182b00 1px solid; BORDER-LEFT: #182b00 1px solid; BORDER-RIGHT: #182b00 1px solid; BORDER-TOP: #182b00 1px solid; COLOR: #899e6a; FONT-FAMILY: "宋体"; FONT-SIZE: 9pt; MARGIN: 2px; PADDING-BOTTOM: 1px; PADDING-LEFT: 4px; PADDING-RIGHT: 1px; PADDING-TOP: 4px
+}

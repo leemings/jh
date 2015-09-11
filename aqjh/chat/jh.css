@@ -1,0 +1,73 @@
+BODY {BACKGROUND-ATTACHMENT: fixed; BACKGROUND-REPEAT: repeat; FONT-FAMILY: "宋体", "Arial", "Times New Roman"; FONT-SIZE: 9pt; LINE-HEIGHT: normal;}
+TABLE {
+	FONT-FAMILY: "宋体", "System"; FONT-SIZE: 12px
+}
+A:link {
+	COLOR: #0000ff; FONT-FAMILY: "宋体", "System"; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #0000ff; FONT-FAMILY: "宋体", "System"; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; FONT-FAMILY: "宋体", "System"; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #ff0000; FONT-FAMILY: "宋体", "System"; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.main:link {
+	COLOR: #0000ff; FONT-FAMILY: "宋体", "System"; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.main:visited {
+	COLOR: #0000ff; FONT-FAMILY: "宋体", "System"; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.main:hover {
+	COLOR: #ff0000; FONT-FAMILY: "宋体", "System"; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.main:active {
+	COLOR: #ff0000; FONT-FAMILY: "宋体", "System"; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.text {
+	BACKGROUND-COLOR: #f5f5f5; BORDER-BOTTOM: 1px inset; BORDER-LEFT: 1px inset; BORDER-RIGHT: 1px inset; BORDER-TOP: 1px inset; FONT-SIZE: 12px; HEIGHT: 14px
+}
+.button {
+	BORDER-BOTTOM: #000000 1px dotted; BORDER-LEFT: #ffffff 1px dotted; BORDER-RIGHT: #000000 1px dotted; BORDER-TOP: #ffffff 1px dotted; CURSOR: hand; FONT-SIZE: 12px; HEIGHT: 20px; PADDING-TOP: 1px
+}
+.search {
+	BACKGROUND-COLOR: #c8c8c8; BORDER-BOTTOM: 1px inset; BORDER-LEFT: 1px inset; BORDER-RIGHT: 1px inset; BORDER-TOP: 1px inset; FONT-SIZE: 12px; HEIGHT: 18px
+}
+.textarea {
+	BACKGROUND-COLOR: #f5f5f5; BORDER-BOTTOM: 1px inset; BORDER-LEFT: 1px inset; BORDER-RIGHT: 1px inset; BORDER-TOP: 1px inset; FONT-SIZE: 12px
+}
+.bg {
+	BACKGROUND-ATTACHMENT: fixed; BACKGROUND-IMAGE: url(../images/Center.jpg); BACKGROUND-POSITION: right center; BACKGROUND-REPEAT: no-repeat
+}
+.select {
+	BORDER-BOTTOM: 1px outset; BORDER-LEFT: 1px outset; BORDER-RIGHT: 1px outset; BORDER-TOP: 1px outset; FONT-SIZE: 12px; HEIGHT: 12px
+}
+.Formselect {
+	BACKGROUND-COLOR: #f5f5f5; BORDER-BOTTOM: 1px inset; BORDER-LEFT: 1px inset; BORDER-RIGHT: 1px inset; BORDER-TOP: 1px inset; FONT-SIZE: 12px; HEIGHT: 12px
+}
+.Line_b {
+	BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 0px solid; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 0px solid
+}
+.Line_A {
+	BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: black 0px solid; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid
+}
+.Txt_bottom {
+	CLIP: ; FILTER: Shadow(Color=#B0B0B0, Direction=45)
+}
+.Txt {
+	COLOR: #ffd862; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; FONT-SIZE: 40px; FONT-STYLE: normal; FONT-WEIGHT: bold; LINE-HEIGHT: normal; TEXT-DECORATION: none
+}
+.Line_T {
+	BORDER-BOTTOM: #000000 0px solid; BORDER-LEFT: #000000 0px solid; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid
+}
+.Table_H {
+	BACKGROUND-COLOR: #003366; COLOR: #ffffff; FONT-FAMILY: "宋体", "Arial"; FONT-SIZE: 12px; HEIGHT: 20px; VERTICAL-ALIGN: bottom
+}
+.Table_N {
+	BACKGROUND-COLOR: #d0d0d0; COLOR: #000000; FONT-FAMILY: "宋体", "Arial"; FONT-SIZE: 12px; HEIGHT: 20px
+}
+.Table_H1 {
+	BACKGROUND-COLOR: #abc2ed; COLOR: #ffffff; FONT-FAMILY: "宋体", "Arial"; FONT-SIZE: 12px
+}

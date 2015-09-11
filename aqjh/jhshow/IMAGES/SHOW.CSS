@@ -1,0 +1,51 @@
+TD {
+	FONT-SIZE: 9pt; FONT-FAMILY: "ËÎÌו"
+}
+.p1 {
+	FONT-SIZE: 9pt
+}
+.p2 {
+	FONT-SIZE: 10.5pt; LINE-HEIGHT: 130%
+}
+.p3 {
+	FONT-SIZE: 12pt
+}
+.p7 {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 130%; FONT-FAMILY: "ËÎÌו"
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #c40000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #6a006a; TEXT-DECORATION: none
+}
+A.title2:link {
+	COLOR: #0000ff; LINE-HEIGHT: 130%; TEXT-DECORATION: underline
+}
+A.title2:visited {
+	COLOR: #330066; LINE-HEIGHT: 130%; TEXT-DECORATION: underline
+}
+A.title2:hover {
+	LINE-HEIGHT: 130%; TEXT-DECORATION: underline
+}
+A.title3:link {
+	COLOR: #0000ff; LINE-HEIGHT: 130%; TEXT-DECORATION: underline
+}
+A.title3:visited {
+	COLOR: #330066; LINE-HEIGHT: 130%; TEXT-DECORATION: underline
+}
+A.title3:hover {
+	LINE-HEIGHT: 130%; TEXT-DECORATION: underline
+}
+A.title4:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.title4:hover {
+	COLOR: #c40000; TEXT-DECORATION: none
+}
+A.title4:visited {
+	COLOR: #6a006a; TEXT-DECORATION: none
+}

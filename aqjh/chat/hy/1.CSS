@@ -1,0 +1,78 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #f0f0f6; FONT-SIZE: 9pt; BACKGROUND-ATTACHMENT: fixed; SCROLLBAR-HIGHLIGHT-COLOR: #f0f0f6; SCROLLBAR-SHADOW-COLOR: #f0f0f6; SCROLLBAR-3DLIGHT-COLOR: #6699cc; LINE-HEIGHT: normal; SCROLLBAR-ARROW-COLOR: #6699cc; SCROLLBAR-TRACK-COLOR: #6699cc; BACKGROUND-REPEAT: repeat; FONT-FAMILY: "宋体", "Arial", "Times New Roman"; SCROLLBAR-DARKSHADOW-COLOR: #6699cc
+}
+TABLE {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体", "System"
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #0000ff; FONT-FAMILY: "宋体", "System"; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #0000ff; FONT-FAMILY: "宋体", "System"; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: "宋体", "System"; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: "宋体", "System"; TEXT-DECORATION: none
+}
+A.main:link {
+	FONT-SIZE: 12px; COLOR: #0000ff; FONT-FAMILY: "宋体", "System"; TEXT-DECORATION: none
+}
+A.main:visited {
+	FONT-SIZE: 12px; COLOR: #0000ff; FONT-FAMILY: "宋体", "System"; TEXT-DECORATION: none
+}
+A.main:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: "宋体", "System"; TEXT-DECORATION: none
+}
+A.main:active {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: "宋体", "System"; TEXT-DECORATION: none
+}
+.text {
+	BORDER-RIGHT: 1px inset; BORDER-TOP: 1px inset; FONT-SIZE: 12px; BORDER-LEFT: 1px inset; BORDER-BOTTOM: 1px inset; HEIGHT: 14px; BACKGROUND-COLOR: #f5f5f5
+}
+.button {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #ffffff 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #ffffff 1px solid; CURSOR: hand; PADDING-TOP: 1px; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 20px
+}
+.search {
+	BORDER-RIGHT: 1px inset; BORDER-TOP: 1px inset; FONT-SIZE: 12px; BORDER-LEFT: 1px inset; BORDER-BOTTOM: 1px inset; HEIGHT: 18px; BACKGROUND-COLOR: #c8c8c8
+}
+.textarea {
+	BORDER-RIGHT: 1px inset; BORDER-TOP: 1px inset; FONT-SIZE: 12px; BORDER-LEFT: 1px inset; BORDER-BOTTOM: 1px inset; BACKGROUND-COLOR: #f5f5f5
+}
+.bg {
+	BACKGROUND-POSITION: right center; BACKGROUND-ATTACHMENT: fixed; BACKGROUND-IMAGE: url(file:///C|/Documents%20and%20Settings/cd8net01/Local%20Settings/Temporary%20Internet%20Files/Content.IE5/images/Center.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.select {
+	BORDER-RIGHT: 1px outset; BORDER-TOP: 1px outset; FONT-SIZE: 12px; BORDER-LEFT: 1px outset; BORDER-BOTTOM: 1px outset; HEIGHT: 12px
+}
+.Formselect {
+	BORDER-RIGHT: 1px inset; BORDER-TOP: 1px inset; FONT-SIZE: 12px; BORDER-LEFT: 1px inset; BORDER-BOTTOM: 1px inset; HEIGHT: 12px; BACKGROUND-COLOR: #f5f5f5
+}
+.Line_b {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 0px solid; BORDER-LEFT: #000000 0px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.Line_A {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: black 0px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.Txt_bottom {
+	FILTER: Shadow(Color=#B0B0B0, Direction=45); CLIP: 
+}
+.Txt {
+	FONT-WEIGHT: bold; FONT-SIZE: 40px; COLOR: #ffd862; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; TEXT-DECORATION: none
+}
+.Line_T {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 0px solid; BORDER-BOTTOM: #000000 0px solid
+}
+.Table_H {
+	FONT-SIZE: 12px; VERTICAL-ALIGN: bottom; COLOR: #ffffff; FONT-FAMILY: "宋体", "Arial"; HEIGHT: 20px; BACKGROUND-COLOR: #003366
+}
+.Table_N {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "宋体", "Arial"; HEIGHT: 20px; BACKGROUND-COLOR: #d0d0d0
+}
+.Table_H1 {
+	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: "宋体", "Arial"; BACKGROUND-COLOR: #abc2ed
+}
+.hr {
+	BORDER-RIGHT: #000000 0px; BORDER-TOP: #000000 1px dotted; BORDER-LEFT: #000000 0px; BORDER-BOTTOM: #000000 0px
+}

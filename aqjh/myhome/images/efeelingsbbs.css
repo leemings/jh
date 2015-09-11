@@ -1,0 +1,51 @@
+A {
+	FONT-FAMILY: 宋体; FONT-SIZE: 9pt; TEXT-DECORATION: none; TEXT-TRANSFORM: none
+}
+A:link {
+	COLOR: #000000
+}
+A:visited {
+	COLOR: #660066
+}
+A:active {
+	COLOR: #ff9999
+}
+A:hover {
+	COLOR: #ff3333
+}
+BODY {
+	FONT-FAMILY: 宋体; FONT-SIZE: 9pt
+}
+P {
+	FONT-FAMILY: 宋体; FONT-SIZE: 9pt
+}
+DIV {
+	FONT-FAMILY: 宋体; FONT-SIZE: 9pt
+}
+SPAN {
+	FONT-FAMILY: 宋体; FONT-SIZE: 9pt
+}
+TD {
+	FONT-FAMILY: 宋体; FONT-SIZE: 9pt
+}
+.tdline {
+	FONT-SIZE: 1pt
+}
+.transparent {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.5pt {
+	FONT-FAMILY: 宋体; FONT-SIZE: 10.5pt; LINE-HEIGHT: 14pt
+}
+.10px {
+	FONT-FAMILY: 黑体; FONT-SIZE: 10px; LINE-HEIGHT: 14px
+}
+.5pt {
+	FONT-FAMILY: 宋体; FONT-SIZE: 14.5pt; LINE-HEIGHT: 18pt
+}
+.p5 {
+	FONT-SIZE: 1pt
+}
+IMG {
+	VERTICAL-ALIGN: top
+}

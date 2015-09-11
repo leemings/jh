@@ -1,0 +1,56 @@
+function parseNull(s){
+	if (s==null) return "";
+	if (s=="null") return "";
+	return s;
+}
+function boolean2Int(s){
+	if (s=="true") return 1;
+	if (s=="false") return 0;
+	return 0;
+}
+
+function Player(s){
+	if(s==null||s.length<10) return;
+	var _s=s.split("|");
+	if(_s.length<4) return ;
+	this.id=_s[0];
+	this.name=_s[1];
+	this.cname=_s[2];
+	this.sex=_s[3];
+	this.member=_s[4];
+	this.online=boolean2Int(_s[5]);
+	if(_s[6]==null) this.lastlogin="最近没有来过";
+		else this.lastlogin=_s[6];
+	this.honor=parseNull(_s[7]);
+	this.medal=parseNull(_s[8]);
+	this.byname=parseNull(_s[9]);
+	this.bbsjb=_s[10]; 
+	this.meili=_s[11];
+	this.bbscount=_s[12];
+	this.bbslocation=parseNull(_s[13]);
+	this.spouse=parseNull(_s[14]);
+	if(_s[15]!=null&&_s[15]>0&&_s[15]<7)this.towntype=_s[15];
+	else this.towntype=0;
+	if(_s[16]!=null&&_s[16]>0)this.townid=_s[16];
+	else this.townid=0;
+	this.town=parseNull(_s[17]);
+	this.hutnumber=parseNull(_s[18]);//if(this.hutnumber!="")this.hutnumber=this.hutnumber+"#";
+	this.hutlevel=parseNull(_s[19]);
+	this.career=parseNull(_s[20]);if(this.career==0||this.career==null) this.career="";
+	this.playerjb=parseNull(_s[21]);
+//	this.playlocation=parseNull(_s[23]);	if(_s.length>23) this.money=_s[23];else 
+	this.money=parseNull(_s[23]);
+}
+
+function getPlayersInfo(data){
+	var UserSplit="[%]";
+	var _us=data.split(UserSplit);
+	var players=new Array(_us.length);
+	for(var i=0;i<players.length;i++){
+		players[i]=new Player(_us[i]);
+	}
+	return players;
+}
+
+top.players=getPlayersInfo("917495|yxj2001|☆笑傲浆糊☆|1|0|true|03/8/14_08/00/08||null|☆笑傲浆糊☆|初来乍到|100|0|null|null|||||||||84052|[%]");
+
