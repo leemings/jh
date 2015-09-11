@@ -40,6 +40,7 @@ Application("aqjh_admin_send")="||"      '财神爷，多个用|和|隔开
 Application("aqjh_guibin")="||"      '江湖贵宾(贵宾不参与任何江湖恩怨)，多个用|和|隔开
 Application("aqjh_adminuser")="永不放弃"      '站长管理用户名
 Application("aqjh_adminkey")="123456"      '站长管理密码
+Application("tuziji_DoReflashPage") = False  '页面防止刷新'
 '*********************************************************
 '*如果要设置广告内容请见：chat/jhchat.asp文件开始处
 '*泡分的点数可以由自己设置，详见：paodian.asp文件开始处
