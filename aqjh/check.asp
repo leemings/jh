@@ -401,6 +401,6 @@ if aqjh_myie=1 then
  call Chkmyie()
 else
  Response.Write "<script Language=Javascript>chatwin=window.open('chat/jhchat.asp','aqjh','left=0,top=0,status=no,scrollbars=no,resizable=no');chatwin.resizeTo(screen.availWidth,screen.availHeight);</script>"
- Response.Write "<script Language=Javascript>location.href = 'jh.HTM';</script>"
+ Response.Write "<script Language=Javascript>location.href = 'AQjh.HTM';</script>"
 end if
 %>

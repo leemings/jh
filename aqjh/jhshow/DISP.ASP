@@ -48,10 +48,7 @@ myrnd=int(rnd*999)+1000
 Response.Write "document.write ("& chr(34) &"<div id=show"& myrnd &" style='PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 140px; PADDING-TOP: 0px; POSITION: relative; TOP: 0px; HEIGHT: 226px;'></div>"& chr(34) &");"
 Response.Write "var showArray = jhshow.split('|');"
 Response.Write "var s='';"
-Response.Write "for (var i=0; i<25; i++){if(showArray[i] != ''){j = i + 1;"
-Response.Write "s+='<IMG id=s'+j+' "& showgif1 &" style="& chr(34) &"padding:0;position:absolute;top:0;left:0;width:140;height:226;z-index:'+j+';"& chr(34) &">';"
-Response.Write "}}"
-Response.Write "s+='<IMG src=jhshow/images/blank.gif style="& chr(34) &"padding:0;position:absolute;top:0;left:0;width:140;height:226;z-index:50;"& chr(34) &">';"
+Response.Write "s+='<IMG src=imgafa/3.png style="& chr(34) &"padding:0;position:absolute;top:0;left:0;width:260;height:270;z-index:50;"& chr(34) &">';"
 Response.Write "show"& myrnd &".innerHTML=s;"
 rs.close
 set rs=nothing

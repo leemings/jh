@@ -1,14 +1,17 @@
-<div style="position:absolute; left:137px; top:166px; width:332px; height:95px; z-index:2; background-image: url(home2.files/map/back.gif); layer-background-image: url(home2.files/map/back.gif); border: 1px none #000000; visibility: hidden;" id="Layer1">
+<!-- 所有div先相对居中，再绝对置顶 -->
+<div style="margin-left: auto;margin-right: auto;width:400px;" border=1>
+<div style="position:absolute; left:370px; top:350px; width:332px; height:130px; z-index:2; background-image: url(home2.files/map/back.gif); layer-background-image: url(home2.files/map/back.gif); border: 1px none #000000; visibility: hidden;" id="Layer1">
 <table width=100%><tr><td width=45><img src=home2.files/map/t1.gif></td><td>
 <table width=100%>
 <tr><td><a href=# onClick="window.open('hcjs/jhzb/index.asp','aqjh_win','scrollbars=0,resizable=0,width=700,height=400')">我的装备</A></td><td><a href=# onclick="window.open('hcjs/jhzb/myhua.asp','aqjh_win','scrollbars=0,resizable=0,width=430,height=340')">我的鲜花</a></td><td><a href=# onClick="window.open('JHMP/MP5.ASP','aqjh_win','scrollbars=0,resizable=0,width=690,height=440')">我的徒弟</a></td><td><a href=# onClick="window.open('hcjs/box/index.asp','aqjh_win','scrollbars=1,resizable=1,width=760,height=400')">我的储物</a></td</tr>
-<tr><td><a href=# onClick="window.open('yamen/regmodi.asp','aqjh_win','scrollbars=1,resizable=0,width=480,height=470')">档案修改</a></td><td><a href=# onClick="window.open('yamen/editpass2.asp','aqjh_win','scrollbars=1,resizable=0,width=520,height=340')">密码保护</A></td><td><a href=# onClick="window.open('yamen/modify.asp','aqjh_win','scrollbars=1,resizable=0,width=520,height=340')">修改密码</a></td><td><a href=# onClick="window.open('hcjs/jhmt/index.asp','aqjh_win','width=550,height=410,resizable=0,scrollbars=0')">江湖密探</a></td></tr>
+<tr><td><a href=# onClick="window.open('yamen/regmodi.asp','aqjh_win','scrollbars=1,resizable=0,width=480,height=470')">档案修改</a></td><td><a href=# onClick="window.open('yamen/editpass2.asp','aqjh_win','scrollbars=1,resizable=0,width=520,height=340')">密码保护</A></td><td><a href=# onClick="window.open('yamen/modify.asp','aqjh_win','scrollbars=1,resizable=0,width=520,height=340')">修改密码</a></td><td><a href=# onClick="window.open('hcjs/jhmtindex.asp','aqjh_win','width=550,height=410,resizable=0,scrollbars=0')">江湖密探</a></td></tr>
 <tr><td><a href=# onClick="window.open('jhmp/wuguan.asp','aqjh_win','scrollbars=0,resizable=0,width=700,height=400')">江湖密室</a></td><td><a href=# onClick="window.open('HCJS/zstt/zs.asp','aqjh_win','scrollbars=0,resizable=0,width=690,height=440')">转世投胎</a></td><td><a href=# onClick="window.open('jhmp/money.asp','aqjh_win','scrollbars=0,resizable=0,width=430,height=440')">领取工资</a></td><td><a href=# onclick="window.open('yamen/gmhx.asp','aqjh_win','scrollbars=1,resizable=1,width=400,height=300')">更改姓名</a></td></tr>
 <tr><td><a href=# onClick="window.open('jhmp/myfriend.asp','aqjh_win','scrollbars=1,resizable=1,width=700,height=400')">拉人记录</a></td><td><a href="#" onMouseDown="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','hide')"><font color="yellow">关闭窗口</font></a></td></tr>
 </table>
 </td></tr></table>
 </div>
-<div style="position:absolute; left:137px; top:166px; width:332px; height:95px; z-index:2; background-image: url(home2.files/map/back.gif); layer-background-image: url(home2.files/map/back.gif); border: 1px none #000000; visibility: hidden;" id="Layer2">
+
+<div style="position:absolute; left:370px; top:350px; width:332px; height:130px;  z-index:2; background-image: url(home2.files/map/back.gif); layer-background-image: url(home2.files/map/back.gif); border: 1px none #000000; visibility: hidden;" id="Layer2">
 <table width=100%><tr><td width=45><img src=home2.files/map/t2.gif></td><td>
 <table width=100%>
 <tr><td><a href=# onClick="window.open('WORK/CATCH/CATCH.ASP','aqjh_win','scrollbars=1,resizable=0,width=700,height=400')">出海走私</A></td><td><a href=# onClick="window.open('twt/hit/DIAOYU.ASP','aqjh_win','scrollbars=1,resizable=0,width=700,height=400')">江湖飞行</A></td><td><a href=# onClick="window.open('twt/hunyin/killer.asp','aqjh_win','scrollbars=1,resizable=0,width=640,height=480')">雇佣杀手</A></td><td><a href=# onClick="window.open('twt/fengxue/fengxue.asp','aqjh_win','scrollbars=1,resizable=0,width=690,height=440')">风雪舞剑</a></td></tr><tr><td><a href=# onClick="window.open('twt/findbao/index.asp','aqjh_win','scrollbars=1,resizable=0,width=700,height=400')">孤岛冒险</A></td><td><a href=# onClick="window.open('twt/diaoyu/diaoyu.asp','aqjh_win','scrollbars=1,resizable=1,width=640,height=380')">休闲钓鱼</A></td><td><a href=# onClick="window.open('twt/grade/DIAOYU.ASP','aqjh_win','scrollbars=1,resizable=0,width=700,height=400')">江湖寻宝</A></td><td><a href=# onClick="window.open('twt/wokou/index.asp','aqjh_win','scrollbars=1,resizable=1,width=640,height=380')">抗击倭寇</A></td></tr><tr><td><a href=# onClick="window.open('twt/loot/loot.asp','aqjh_win','scrollbars=1,resizable=1,width=640,height=380')">抢劫银行</A></td><td><a href=# onClick="window.open('twt/hunyin/stunt.asp','aqjh_win','scrollbars=1,resizable=1,width=580,height=350')">合体特技</A></td><td><a href=# onClick="window.open('work/tie/tiemain.asp','aqjh_win','scrollbars=1,resizable=0,width=500,height=370')">矿石炼铁</a></td><td><a href=# onClick="window.open('work/mine/minemain.asp','aqjh_win','scrollbars=1,resizable=0,width=500,height=470')">江湖采矿</A></td></tr>
@@ -16,7 +19,7 @@
 </table>
 </td></tr></table>
 </div>
-<div style="position:absolute; left:137px; top:166px; width:432px; height:95px; z-index:2; background-image: url(home2.files/map/back.gif); layer-background-image: url(home2.files/map/back.gif); border: 1px none #000000; visibility: hidden;" id="Layer3">
+<div style="position:absolute; left:370px; top:350px; width:450px; height:150px;  z-index:2; background-image: url(home2.files/map/back.gif); layer-background-image: url(home2.files/map/back.gif); border: 1px none #000000; visibility: hidden;" id="Layer3">
 <table width=100%><tr><td width=45><img src=home2.files/map/t3.gif></td><td>
 <table width=100%>
 <tr><td><a href="CHANGAN/xiaowu.asp" target=_blank>爱的小屋</A></td><td><a href=# onClick="window.open('hcjs/qr/index.asp','aqjh_win','scrollbars=1,resizable=0,width=650,height=450')">情人小筑</A></td><td><a href=# onClick="window.open('jhjd/jd.asp','aqjh_win','scrollbars=0,resizable=0,width=740,height=450')">江湖酒店</A></td><td><a href=# onClick="window.open('hcjs/pub/pub.asp','aqjh_win','scrollbars=1,resizable=0,width=700,height=400')">龙门客栈</A></td><td><a href=# onClick="window.open('hcjs/jhjs/hua.asp','aqjh_win','scrollbars=1,resizable=1,width=670,height=460')"">江湖花店</A></td><td><a href=# onClick="window.open('hcjs/jhjs/wuqi.asp','aqjh_win','scrollbars=0,resizable=0,width=650,height=550')">武器商店</A></td></tr>
@@ -29,7 +32,7 @@
 </table>
 </td></tr></table>
 </div>
-<div style="position:absolute; left:137px; top:166px; width:232px; height:95px; z-index:2; background-image: url(home2.files/map/back.gif); layer-background-image: url(home2.files/map/back.gif); border: 1px none #000000; visibility: hidden;" id="Layer4">
+<div style="position:absolute; left:370px; top:350px; width:332px; height:130px; z-index:2; background-image: url(home2.files/map/back.gif); layer-background-image: url(home2.files/map/back.gif); border: 1px none #000000; visibility: hidden;" id="Layer4">
 <table width=100%><tr><td width=45><img src=home2.files/map/t4.gif></td><td>
 <table width=100%>
 <tr align=center><td><a href=# onClick="window.open('jhmp/index.asp','aqjh_win','scrollbars=1,resizable=0,width=760,height=450')">七门八派</A></td><td><a href=# onClick="window.open('jhmp/setwg.asp','aqjh_win','scrollbars=1,resizable=0,width=700,height=400')">武功设置</A></td></tr>
@@ -39,7 +42,7 @@
 </table>
 </td></tr></table>
 </div>
-<div style="position:absolute; left:137px; top:166px; width:232px; height:95px; z-index:2; background-image: url(home2.files/map/back.gif); layer-background-image: url(home2.files/map/back.gif); border: 1px none #000000; visibility: hidden;" id="Layer5">
+<div style="position:absolute; left:370px; top:350px; width:332px; height:130px; z-index:2; background-image: url(home2.files/map/back.gif); layer-background-image: url(home2.files/map/back.gif); border: 1px none #000000; visibility: hidden;" id="Layer5">
 <table width=100%><tr><td width=45><img src=home2.files/map/t5.gif></td><td>
 <table width=100%>
 <tr align=center><td><a href=# onClick="window.open('yamen/admin.asp','aqjh_win','scrollbars=0,resizable=0,width=740,height=450')">网管名单</A></td><td><a href=# onClick="window.open('yamen/laofan.asp','aqjh_win','scrollbars=0,resizable=0,width=700,height=400')">江湖天牢</A></td></tr>
@@ -50,7 +53,7 @@
 </table>
 </td></tr></table>
 </div>
-<div style="position:absolute; left:137px; top:166px; width:232px; height:95px; z-index:2; background-image: url(home2.files/map/back.gif); layer-background-image: url(home2.files/map/back.gif); border: 1px none #000000; visibility: hidden;" id="Layer6">
+<div style="position:absolute; left:370px; top:350px; width:332px; height:130px; z-index:2; background-image: url(home2.files/map/back.gif); layer-background-image: url(home2.files/map/back.gif); border: 1px none #000000; visibility: hidden;" id="Layer6">
 <table width=100%><tr><td width=45><img src=home2.files/map/t6.gif></td><td>
 <table width=100%>
 <tr><td><a href="chat/hy.asp" target=_blank>购买会员</A></td><td><a href=# onClick="window.open('jhmp/hy.asp','aqjh_win','scrollbars=1,resizable=0,width=680,height=470')">会员列表</A></td><td><a href=# onClick="window.open('hcjs/card/card.asp','aqjh_win','scrollbars=1,resizable=0,width=700,height=400')">会员卡片</A></td></tr>
@@ -59,4 +62,5 @@
 <tr><td><a href="#" onMouseDown="MM_showHideLayers('document.layers[\'Layer6\']','document.all[\'Layer6\']','hide')"><font color="yellow">关闭窗口</font></a></td><td></td></tr>
 </table>
 </td></tr></table>
+</div>
 </div>

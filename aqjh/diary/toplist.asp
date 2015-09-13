@@ -36,7 +36,7 @@ titlename=rs1("日记标题")
 		if len(titlename)>Cint(request("tlen")) then
 			titlename=left(titlename,request("tlen"))&"..."
 		end if
-response.write "document.write('<img height=14 src=diary/images/hot.gif width=11><a href=diary/show.asp?id=" & rs1("id") & " & wj=list.asp title=" & chr(34) & "作者：" & rs1("用户名") & " 鲜花:" & rs1("鲜花") & " 鸡蛋:" & rs1("鸡蛋") & " 留言:" & rs1("留言数") & " 方式:" & bm & "" & chr(34) & " target=blank>" & titlename & "</a><br>');"
+response.write "document.write('<img height=14 src=diary/images/hot.gif width=11>   <a href=diary/show.asp?id=" & rs1("id") & " & wj=list.asp title=" & chr(34) & "作者：" & rs1("用户名") & " 鲜花:" & rs1("鲜花") & " 鸡蛋:" & rs1("鸡蛋") & " 留言:" & rs1("留言数") & " 方式:" & bm & "" & chr(34) & " target=blank>" & titlename & "</a><br>');"
 news=news+1
 rs1.movenext
 loop
@@ -45,7 +45,7 @@ rs1.close
 set rs=nothing
 conn1.close
 set conn1=nothing 
-Response.Write "document.write('<div align=right><a href=" & chr(34) & "diary/list.asp " & chr(34) & "target=blank><img border=0 src=" & chr(34) & "diary/images/gd.gif" & chr(34) & " alt=" & chr(34) & "查看更多日记" & chr(34) & ">查看更多┈</a></div>');"
+Response.Write "document.write('<div align=right><a href=" & chr(34) & "diary/list.asp " & chr(34) & "target=blank><img border=0 src=" & chr(34) & "diary/images/gd.gif" & chr(34) & " alt=" & chr(34) & "查看更多日记" & chr(34) & ">   查看更多┈</a></div>');"
 function badstr(str)
 	badword="射精,奸,屎,妈,娘,尻,操,王八,逼,贱,狗,婊,叉你,插你,干你,鸡巴,睾丸,蛋,包皮,龟头,屄,赑,妣,肏,奶,尻,屌,作爱,做爱,床,抱抱,鸡八,处女,打炮,十八摸,爸,我儿,·,主席,泽民,法伦,洪志,大法,公安,政府,反动,法院,升天,周天,功,'"
 	bad=split(badword,",")

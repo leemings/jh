@@ -172,29 +172,24 @@ buildMenu();
 </SCRIPT>
 
 <SCRIPT language=JavaScript>
-<!--
 function MM_showHideLayers() { //v2.0
-var i, visStr, args, theObj;
-args = MM_showHideLayers.arguments;
-for (i=0; i<(args.length-2); i+=3) { //with arg triples (objNS,objIE,visStr)
-visStr   = args[i+2];
-if (navigator.appName == 'Netscape' && document.layers != null) {
-theObj = eval(args[i]);
-if (theObj) theObj.visibility = visStr;
-} else if (document.all != null) { //IE
-if (visStr == 'show') visStr = 'visible'; //convert vals
-if (visStr == 'hide') visStr = 'hidden';
-theObj = eval(args[i+1]);
-if (theObj) theObj.style.visibility = visStr;
-} }
+	var i, visStr, args, theObj;
+	args = MM_showHideLayers.arguments;
+	
+	for (i=0; i<(args.length-2); i+=3) { //with arg triples (objNS,objIE,visStr)
+		visStr   = args[i+2];		
+		if (visStr == 'show') visStr = 'visible'; //convert vals
+			if (visStr == 'hide') visStr = 'hidden';
+			theObj = eval(args[i+1]);
+			if (theObj) theObj.style.visibility = visStr;
+	}
 }
-//-->
 </SCRIPT>
 <script>if(window.top==window.self){window.top.location.href="AQJH.HTM"}</script>
 <meta http-equiv="Content-Type" content="text/html;">
 </head><noscript><iframe src=*.html></iframe></noscript>
-<body bgColor=731702 topmargin=0 oncontextmenu=window.event.returnValue=false onselectstart=event.returnValue=false>
-<table border="0" cellpadding="0" cellspacing="0" width="775" align=center>
+<body bgColor=#888888 background="images/bg1.gif" topmargin=0 oncontextmenu=window.event.returnValue=false onselectstart=event.returnValue=false>
+<table border="0" cellpadding="0" cellspacing="0" width="775" align=center bgcolor=#AA1702>
   <tr>
    <td><img src="home2.files/spacer.gif" width="13" height="1" border="0" alt=""></td>
    <td><img src="home2.files/spacer.gif" width="12" height="1" border="0" alt=""></td>
@@ -223,21 +218,27 @@ if (theObj) theObj.style.visibility = visStr;
 
   <tr>
    <td rowspan="19" background="home2.files/home2_left_1.jpg"></td>
-   <td colspan="9"><img name="home2_r1_c2" src="home2.files/home2_r1_c2.jpg" width="396" height="61" border="0" alt=""></td>
-   <td rowspan="3" colspan="11"><img name="home2_r1_c11" src="home2.files/home2_r1_c11.jpg" width="351" height="147" border="0" alt=""></td>
+   <td colspan="9" rowspan="4"><!-- <img name="home2_r1_c2" src="home2.files/home2_r1_c2.jpg" width="396" height="61" border="0" alt=""> -->
+   <!-- <td rowspan="4" colspan="4"><img name="home2_r1_c11" src="home2.files/home2_r1_c11.jpg" width="351" height="147" border="0" alt="">
+   	<img name="home2_r1_c11" src="imgafa/1.png" width="351" height="347" border="0" alt=""> -->
+	<img name="home2_r1_c11" src="imgafa/2.png" width="300" height="280" border="0" alt="">
+   </td>
+   <td rowspan="4" colspan="11"><!-- <img name="home2_r1_c11" src="home2.files/home2_r1_c11.jpg" width="351" height="147" border="0" alt=""> -->
+	<img name="home2_r1_c11" src="imgafa/1.png" width="300" height="280" border="0" alt="">
+   </td>
    <td rowspan="19" background="home2.files/home2_right_1.jpg" width="15" height="926" border="0" alt=""></td>
    <td><img src="home2.files/spacer.gif" width="1" height="61" border="0" alt=""></td>
   </tr>
   <tr>
-   <td colspan="9"><img name="home2_r2_c2" src="home2.files/home2_r2_c2.jpg" width="396" height="39" border="0" alt=""></td>
+   <td colspan="9"><!-- <img name="home2_r2_c2" src="home2.files/home2_r2_c2.jpg" width="396" height="39" border="0" alt=""> -->	
+   </td>
    <td><img src="home2.files/spacer.gif" width="1" height="39" border="0" alt=""></td>
   </tr>
   <tr>
-   <td rowspan="2" colspan="9"><img name="home2_r3_c2" src="home2.files/home2_r3_c2.jpg" width="396" height="61" border="0" alt=""></td>
+   <td rowspan="2" colspan="9"><!-- <img name="home2_r3_c2" src="home2.files/home2_r3_c2.jpg" width="396" height="61" border="0" alt=""> -->
    <td><img src="home2.files/spacer.gif" width="1" height="47" border="0" alt=""></td>
   </tr>
   <tr>
-   <td colspan="11"><img name="home2_r4_c11" src="home2.files/home2_r4_c11.jpg" width="351" height="14" border="0" alt=""></td>
    <td><img src="home2.files/spacer.gif" width="1" height="14" border="0" alt=""></td>
   </tr>
   <tr>
@@ -415,10 +416,24 @@ if (theObj) theObj.style.visibility = visStr;
 </map>
 <map name="m_home2_r7_c6">
 <area shape="rect" coords="471,9,529,27" href=exit.asp target=_top>
-<area shape="rect" coords="396,10,456,26" href="#" onmousedown="MM_showHideLayers('document.layers[\'Layer6\']','document.all[\'Layer6\']','show')">
-<area shape="rect" coords="317,10,380,28" href="#" onmousedown="MM_showHideLayers('document.layers[\'Layer5\']','document.all[\'Layer5\']','show')">
-<area shape="rect" coords="243,9,305,28" href="#" onmousedown="MM_showHideLayers('document.layers[\'Layer4\']','document.all[\'Layer4\']','show')">
-<area shape="rect" coords="167,9,228,29" href="#" onmousedown="MM_showHideLayers('document.layers[\'Layer3\']','document.all[\'Layer3\']','show')">
-<area shape="rect" coords="90,8,154,29" href="#" onmousedown="MM_showHideLayers('document.layers[\'Layer2\']','document.all[\'Layer2\']','show')">
-<area shape="rect" coords="8,6,81,28" href="#" onmousedown="MM_showHideLayers('document.layers[\'Layer1\']','document.all[\'Layer1\']','show')">
+<area shape="rect" coords="396,10,456,26" href="#" onmousedown="showLayer(6)">
+<area shape="rect" coords="317,10,380,28" href="#" onmousedown="showLayer(5)">
+<area shape="rect" coords="243,9,305,28" href="#" onmousedown="showLayer(4)">
+<area shape="rect" coords="167,9,228,29" href="#" onmousedown="showLayer(3)">
+<area shape="rect" coords="90,8,154,29" href="#" onmousedown="showLayer(2)">
+<area shape="rect" coords="8,6,81,28" href="#" onmousedown="showLayer(1)">
 </map>
+<SCRIPT language=JavaScript>
+function showLayer(layerid) {
+	for (var i=1; i<=6; i++)
+	{
+		if (i==layerid)
+		{
+			MM_showHideLayers('document.layers[\'Layer'+i+'\']','document.all[\'Layer'+i+'\']','show');
+		}
+		else {
+			MM_showHideLayers('document.layers[\'Layer'+i+'\']','document.all[\'Layer'+i+'\']','hide');
+		}
+	}
+}
+</SCRIPT>
