@@ -46,7 +46,7 @@ if Session("xrfs")=true then
     Response.Write "<script language=JavaScript>{alert('提示：您已经有冰神帮助了，不要再来了！');}</script>"
     Response.End
 end if
-if rs("times")<>3 then
+if rs("times")>4 then
     Response.Write "<script language=JavaScript>{alert('提示：只有新人首次登陆才能有冰神帮助！');}</script>"
     Response.End
 else

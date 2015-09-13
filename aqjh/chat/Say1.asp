@@ -264,17 +264,17 @@ dim re
 	Set re=new RegExp
 	re.IgnoreCase =true
 	re.Global=True
-'re.Pattern="\[QQ@*([0-9]*)\]"
+'re.Pattern="\[afaimg@*([0-9]*)\]"
 'says=re.Replace(says,"&nbsp;<img src=QQ/gif/$1.gif border=0 alt='点击看我超酷表演' onload=ShowQQ('$1');  onmouseover=ShowQQ('$1'); style='cursor: hand;border:1px border-collapse: collapse; border-style: dotted;'>")
-re.Pattern="\[qq@*([0-9]*)\]"
+re.Pattern="\[afaimg@*([0-9]*)\]"
 says=re.Replace(says,"&nbsp;<img src=QQ/gif/$1.gif border=0 alt='点击看我超酷表演' onload=ShowQQ('$1');  onmouseover=ShowQQ('$1'); style='cursor: hand;border:1px border-collapse: collapse; border-style: dotted;'>")
 'says=re.Replace(says,"&nbsp;<img src=QQ/gif/$1.gif border=0 alt=点击看我超酷表演 onload=setTimeout(""ShowQQ('$1')"";,3000);  onmouseover=ShowQQ('$1'); style='cursor: hand;border:1px border-collapse: collapse; border-style: dotted;'>")
 'v1=says
-'If InStr(v1, "[qq@]") <> 0 Then
+'If InStr(v1, "[afaimg@]") <> 0 Then
 
  '       gsz1 = 0
-  '      Do While InStr(v1, "[qq@]") <> 0
-			'v1 = Replace(v1, "[qq@]", "<img src=QQ/gif/", 1, 1)
+  '      Do While InStr(v1, "[afaimg@]") <> 0
+			'v1 = Replace(v1, "[afaimg@]", "<img src=QQ/gif/", 1, 1)
 			'gsz1 = gsz1 + 1
         'Loop
         'gsy1 = 0
