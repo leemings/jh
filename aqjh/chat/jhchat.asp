@@ -379,7 +379,7 @@ erase banners
 %>
 function shake(n) {if (window.top.moveBy) {for (i = 10; i > 0; i--) {for (j = n; j > 0; j--) {window.top.moveBy(0,i);window.top.moveBy(i,0);window.top.moveBy(0,-i);window.top.moveBy(-i,0);}}}}
 if(window!=window.top){window.alert("请使用ie浏览器使用本系统！");top.location.href="../exit.asp"}
-if(window.name!="aqjh"){ var i=1;while (i<=50){window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");i=i+1;}top.location.href="../exit.asp"}
+//if(window.name!="aqjh"){ var i=1;while (i<=50){window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");i=i+1;}top.location.href="../exit.asp"}
 var crm="<%=chatroomname%>",bgc="<%=Application("aqjh_chatcolor")%>",systitle="<%=Application("aqjh_tltie")%>";
 var myn="<%=aqjh_name%>",mywife="<%=mywife%>",chatbgcolor="<%=chatbgcolor%>",chatimage="<%=chatimage%>";
 var hiddenadmin="<%=hiddenadmin%>",cs=<%=aqjh_grade%>,automan="<%=Application("aqjh_automanname")%>";

@@ -1,5 +1,5 @@
 <script lanaguage=javascript>
-if(window.name!="aqjh_win"){ var i=1;while (i<=50){window.alert("ÄãÏë×÷Ê²Ã´Ñ½£¬Äãµ¹ÊÇË¢°¡£¡¹þ£¡ÂýÂýµã50´Î£¡£¡");i=i+1;}top.location.href="../../exit.asp"}
+//if(window.name!="aqjh_win"){ var i=1;while (i<=50){window.alert("ÄãÏë×÷Ê²Ã´Ñ½£¬Äãµ¹ÊÇË¢°¡£¡¹þ£¡ÂýÂýµã50´Î£¡£¡");i=i+1;}top.location.href="../../exit.asp"}
 </script>
 <%If Session("usepro") = true Then%>
 <%

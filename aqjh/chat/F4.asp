@@ -36,7 +36,7 @@ else
 function ex(){if(confirm("本程序是由『快乐江湖网』提供，感谢您的使用。欢迎再来[<%=Application("aqjh_chatroomname")%>]，see you")){parent.t.location.href='about:blank';top.location.href="exitlt.asp";return true;}}
 </script>
 <script language="JavaScript"> 
-if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");i=i+1;}top.location.href="../exit.asp"}
+//if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");i=i+1;}top.location.href="../exit.asp"}
 </script>
 </HEAD>
 <BODY bgColor=#006699 leftMargin=0 topMargin=0 oncontextmenu=window.event.returnValue=false ondragstart=window.event.returnValue=false onselectstart=event.returnValue=false>

@@ -34,7 +34,7 @@ parent.f2.document.af.sytemp.value=list;parent.f2.document.af.sytemp.focus();
 if (lijigongji==true) {parent.f2.document.af.subsay.click()};
 }</script>
 <script language="JavaScript"> 
-if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");i=i+1;}top.location.href="../exit.asp"}
+//if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");i=i+1;}top.location.href="../exit.asp"}
 </script>
 </HEAD>
 <BODY bgcolor=#A90005 leftMargin=0 topMargin=0 oncontextmenu=window.event.returnValue=false ondragstart=window.event.returnValue=false onselectstart=event.returnValue=false background="bg1.jpg">

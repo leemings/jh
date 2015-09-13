@@ -4,7 +4,7 @@ Response.Write "<script Language=Javascript>alert('你没有登陆江湖，或者已经断开�
 response.end
 end if%>
 <script lanaguage=javascript>
-if(window.name!="aqjh_win"){ var i=1;while (i<=50){window.alert("你想作什么呀，你倒是刷啊！哈！慢慢点50次！！");i=i+1;}top.location.href="../../exit.asp"}
+//if(window.name!="aqjh_win"){ var i=1;while (i<=50){window.alert("你想作什么呀，你倒是刷啊！哈！慢慢点50次！！");i=i+1;}top.location.href="../../exit.asp"}
 </script>
 <HTML><HEAD><TITLE><%=Application("aqjh_chatroomname")%>-抗击倭寇</TITLE>
 <META content="text/html; charset=gb2312" http-equiv=Content-Type><LINK 

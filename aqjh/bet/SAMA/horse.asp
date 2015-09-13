@@ -11,7 +11,7 @@ aqjh_jhdj=Session("aqjh_jhdj")
 if aqjh_name="" then Response.Redirect "../../error.asp?id=440"
 %>
 <script>
-if(window.name!="aqjhhorse"){ var i=1;  while (i<=50)  {    window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");    i=i+1;  }top.location.href="../../exit.asp"} </script>
+//if(window.name!="aqjhhorse"){ var i=1;  while (i<=50)  {    window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");    i=i+1;  }top.location.href="../../exit.asp"} </script>
 <head><title><%=Application("aqjh_chatroomname")%>赛马程序，由回首当年完成！</title><link rel=stylesheet href='css.css'></head>
 <frameset rows="*,50">
 <frame name=compfrm src="compete.asp" noresize  scrolling=no >

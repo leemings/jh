@@ -18,7 +18,7 @@ allhttp=LCase(Request.ServerVariables("ALL_HTTP"))
 if aqjh_disproxy=1 then Chkproxy()
 %>
 <script language="JavaScript"> 
-if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");i=i+1;}top.location.href="../exit.asp"}
+//if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");i=i+1;}top.location.href="../exit.asp"}
 </script>
 <%
 aqjh_name=Session("aqjh_name")
