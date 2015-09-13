@@ -62,7 +62,7 @@ case "冰雪"
 			bb=rs("h")*wpsl
 			yin=int(bb/2)
 			conn.execute "update 用户 set w7='"&zstemp&"',金币=金币+" & yin & ",操作时间=now() where 姓名='"&aqjh_name&"'"
-			dan="{"&aqjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值金币"&bb&"元拿到爱情花店由梦幻网络收购，赚了金币"&yin&"个，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
+			dan="{"&aqjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值金币"&bb&"元拿到快乐花店由梦幻网络收购，赚了金币"&yin&"个，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
 		end if
 	end if
 	
@@ -83,7 +83,7 @@ case "逸韵"
 			bb=rs("h")*wpsl
 			yin=int(bb/2)
 			conn.execute "update 用户 set w7='"&zstemp&"',金币=金币+" & yin & ",操作时间=now() where 姓名='"&aqjh_name&"'"
-			dan="{"&aqjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值金币"&bb&"元拿到爱情花店由梦幻网络收购，赚了金币"&yin&"个，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
+			dan="{"&aqjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值金币"&bb&"元拿到快乐花店由梦幻网络收购，赚了金币"&yin&"个，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
 		end if
 	end if
 	
@@ -104,7 +104,7 @@ case "香芸"
 			bb=rs("h")*wpsl
 			yin=int(bb/2)
 			conn.execute "update 用户 set w7='"&zstemp&"',金币=金币+" & yin & ",操作时间=now() where 姓名='"&aqjh_name&"'"
-			dan="{"&aqjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值金币"&bb&"元拿到爱情花店由梦幻网络收购，赚了金币"&yin&"个，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
+			dan="{"&aqjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值金币"&bb&"元拿到快乐花店由梦幻网络收购，赚了金币"&yin&"个，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
 		end if
 	end if
 
@@ -125,7 +125,7 @@ case "忧梦"
 			bb=rs("h")*wpsl
 			yin=int(bb/2)
 			conn.execute "update 用户 set w7='"&zstemp&"',金币=金币+" & yin & ",操作时间=now() where 姓名='"&aqjh_name&"'"
-			dan="{"&aqjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值金币"&bb&"元拿到爱情花店由梦幻网络收购，赚了金币"&yin&"个，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
+			dan="{"&aqjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值金币"&bb&"元拿到快乐花店由梦幻网络收购，赚了金币"&yin&"个，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
 		end if
 	end if
 
@@ -146,7 +146,7 @@ case "烈焰"
 			bb=rs("h")*wpsl
 			yin=int(bb/2)
 			conn.execute "update 用户 set w7='"&zstemp&"',金币=金币+" & yin & ",操作时间=now() where 姓名='"&aqjh_name&"'"
-			dan="{"&aqjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值银两"&bb&"元拿到爱情花店由梦幻网络收购，赚了银两"&yin&"元，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
+			dan="{"&aqjh_name&"}把自己不用的"&lx&":["&wpname&"]"&wpsl&"朵原值银两"&bb&"元拿到快乐花店由梦幻网络收购，赚了银两"&yin&"元，大叫：“真值。。。”<font color=#ff00ff>("&time&")</font>"
 		end if
 	end if
 	case "牡丹","雏菊","郁金香","此情不渝","醉百合","昨日香","玫瑰","月季","迎风笑","飞杨","满天星","黑郁金香","雪莲花","牵手","蝴蝶兰","火烈鸟","百年好合","马蹄莲","高风亮节","浓情似火","美满幸福","幸福泉源","情意浓浓","健康永远","节日献礼","梦中情人","温馨的爱","灿烂人生","此情可待","真情歉意","幸福安康","粉色舞蹈","水晶之恋","爱的诉说","无言感激","红袖留香","我的牵挂","风情玫瑰","快乐时光","情定一生","一往情深","两情相悦","祝你快乐","特别的爱","青春永存","平安快乐","生意兴隆","爱到永远","千里相思"

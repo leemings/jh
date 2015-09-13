@@ -32,7 +32,7 @@ set conn=nothing
 <html>
 <head>
 <meta http-equiv='content-type' content='text/html; charset=gb2312'>
-<title>爱情江湖总站免费会员申请系统-----免费一级会员申请</title>
+<title>快乐江湖总站免费会员申请系统-----免费一级会员申请</title>
 <link rel="stylesheet" href="../css.css">
 </head>
 <body bgcolor="#000080" background="BJ.jpg">

@@ -118,7 +118,7 @@ conn1.execute "insert into a(yhid,姓名,礼物) values ('"&myid&"','"&aqjh_name&"',
 set rs=nothing
 conn.close
 set conn=nothing
-says="【<font color=#ff0000>周六礼物</font>】<font color=blue>恭喜<font color=red><b>【"& aqjh_name &"】</b></font>从站长那里得到了【<font color=red><b>"& lw &"</b></font>】，大家快去菜单的<font color=red><b>【周六礼物】</b></font>处领礼物啊！去晚了就没有了啊！<font color=red size=+1><b>祝各位玩家在爱情江湖玩得开心!</b></font>"			'聊天数据
+says="【<font color=#ff0000>周六礼物</font>】<font color=blue>恭喜<font color=red><b>【"& aqjh_name &"】</b></font>从站长那里得到了【<font color=red><b>"& lw &"</b></font>】，大家快去菜单的<font color=red><b>【周六礼物】</b></font>处领礼物啊！去晚了就没有了啊！<font color=red size=+1><b>祝各位玩家在快乐江湖玩得开心!</b></font>"			'聊天数据
 says=replace(says,"'","\'")
 says=replace(says,chr(34),"\"&chr(34))
 act="消息"
@@ -158,7 +158,7 @@ set conn1=nothing
 <br>
 <br>
 <br>
-[爱情江湖]</div></td>
+[快乐江湖]</div></td>
   </tr>
 </table>
 </body>

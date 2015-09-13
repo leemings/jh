@@ -147,5 +147,5 @@ size=2>银两</FONT>
       href="http://www.lingfei.com/lfjh/sc/jzw/jbzjk.asp"><FONT color=#ff0000  
       size=2>转换</FONT></A></TD></TR></TBODY></TABLE></DIV> 
 <DIV align=center>　</DIV> 
-<DIV align=center><font color="#ffffff" size="3">爱情</font><font color="#ffffff" size="3">江湖</font><FONT  
+<DIV align=center><font color="#ffffff" size="3">快乐</font><font color="#ffffff" size="3">江湖</font><FONT  
 color=#ffffff><FONT size=3>修改制作</FONT> </FONT></DIV></BODY></HTML> 

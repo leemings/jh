@@ -236,7 +236,7 @@ End Sub
 says=replace(says,chr(39),"\'") 
 says=replace(says,chr(34),"\"&chr(34)) 
 
-into="爱情江湖大侠<font color=red><b>id:"& aqjh_name &"</b></font>的神兽<font color=blue><b>"& id &"</b></font>被召唤！！{"&xinxi&"}神兽体力"&tili&"点，内力"&nl&"点，武功"&wg&"等级"&dj&"级....."
+into="快乐江湖大侠<font color=red><b>id:"& aqjh_name &"</b></font>的神兽<font color=blue><b>"& id &"</b></font>被召唤！！{"&xinxi&"}神兽体力"&tili&"点，内力"&nl&"点，武功"&wg&"等级"&dj&"级....."
 
 '-------------------------------------------------------------------------------------------
 '这里加入在聊天室显示信息的代码
@@ -246,7 +246,7 @@ towho="大家"
 addwordcolor="660099"
 saycolor="008888"
 addsays="对"
-'says="<font color=red>〖npc加入〗</font><font color=green>爱情江湖总站</font><font color=#0000ff>npc</font><img src="&jhtx&" width=60 height=60><s><font color=#0000ff>"& id &"</font></s>来到江湖,大家赶快杀啊!~有经验得哦了"   '聊天数据
+'says="<font color=red>〖npc加入〗</font><font color=green>快乐江湖总站</font><font color=#0000ff>npc</font><img src="&jhtx&" width=60 height=60><s><font color=#0000ff>"& id &"</font></s>来到江湖,大家赶快杀啊!~有经验得哦了"   '聊天数据
 says="<font color=black>【召唤神兽】</font><font color=008800>" & Replace(into,"##","<img src="&jhtx&"><a href=javascript:parent.sw(\'[" & id & "]\'); target=f2>" & id &"</a><font color=red><b>id:"& aqjh_id &"</b></font>") & "</font><bgsound src=readonly/cd.mid loop=1>"
 saystr="<script>parent.sh("& chr(39) & addwordcolor & chr(39) &","& chr(39) & saycolor & chr(39) &","& chr(39) & act & chr(39) &","& chr(39) & id & chr(39) &","& chr(39) & addsays & chr(39) &","& chr(39) & towho & chr(39) &"," & chr(39) & says & chr(39) &"," & towhoway &  ","& nowinroom & ");<"&"/script>"
 addmsg saystr

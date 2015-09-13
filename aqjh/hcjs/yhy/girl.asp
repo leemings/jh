@@ -123,22 +123,22 @@ if newnl>=nlsx then
 end if
 select case r
 	case 1
-		mess=aqjh_name &"在爱情怡红园和小姐"&mingji&"促膝长谈人生哲理，直至深夜，"&aqjh_name&"体力消耗五百点，魅力增加100点，内力增加"& nlj &"点，付给红园小姐"&mingji&"银两"&int(yin)&"，红园从中收取一半银两，小姐"&mingji&"美貌度增加10点！"
+		mess=aqjh_name &"在快乐怡红园和小姐"&mingji&"促膝长谈人生哲理，直至深夜，"&aqjh_name&"体力消耗五百点，魅力增加100点，内力增加"& nlj &"点，付给红园小姐"&mingji&"银两"&int(yin)&"，红园从中收取一半银两，小姐"&mingji&"美貌度增加10点！"
 		conn.execute "update 用户 set 银两=银两-" & yin & ",魅力=魅力+100,体力=体力-500,内力=" & newnl & ",操作时间=now() where 姓名='" & aqjh_name & "'"
 		
 		connt.execute "update 妓女 set 美貌度=美貌度+10 where id=" & id
 	case 2
-		mess=aqjh_name &"在爱情怡红园和小姐"&mingji&"聊天，没想到话不投机半句多，没说两句就吵了起来，"& aqjh_name &"道德下降100点，体力下降300点，还白白花了"& yin &"两银子。小姐"& mingji &"美貌度下降10点！"
+		mess=aqjh_name &"在快乐怡红园和小姐"&mingji&"聊天，没想到话不投机半句多，没说两句就吵了起来，"& aqjh_name &"道德下降100点，体力下降300点，还白白花了"& yin &"两银子。小姐"& mingji &"美貌度下降10点！"
 		conn.execute "update 用户 set 银两=银两-" & yin & ",道德=道德-100,体力=体力-300,操作时间=now() where 姓名='" & aqjh_name & "'"
 		
 		connt.execute "update 妓女 set 美貌度=美貌度-10 where id=" & id
 	case 3
-		mess=aqjh_name &"在爱情怡红园和小姐"&mingji&"大谈人生，从中领悟一些真缔，道德上升100点，内力增加"& int(meimao/2) &"点，临走时放下"& yin &"两银子，小姐"& mingji &"得到基中的一半，美貌度上升20点！"
+		mess=aqjh_name &"在快乐怡红园和小姐"&mingji&"大谈人生，从中领悟一些真缔，道德上升100点，内力增加"& int(meimao/2) &"点，临走时放下"& yin &"两银子，小姐"& mingji &"得到基中的一半，美貌度上升20点！"
 		conn.execute "update 用户 set 银两=银两-" & yin & ",道德=道德+100,体力=体力-500,内力=" & newnl & ",操作时间=now() where 姓名='" & aqjh_name & "'"
 		
 		connt.execute "update 妓女 set 美貌度=美貌度+20 where id=" & id
 	case 4
-		mess=aqjh_name &"在爱情怡红园对小姐"& mingji &"不怀好意，动手动脚，道德败坏，被红院保镖暴打一顿，体力下降100，内力下降"& int(meimao/3) &"，道德下降100，魅力下降100！"
+		mess=aqjh_name &"在快乐怡红园对小姐"& mingji &"不怀好意，动手动脚，道德败坏，被红院保镖暴打一顿，体力下降100，内力下降"& int(meimao/3) &"，道德下降100，魅力下降100！"
 		conn.execute "update 用户 set 体力=体力-100,内力=内力-int(meimao/3),道德=道德-100,魅力=魅力-100,银两=银两-" & yin & ",操作时间=now() where 姓名='" & aqjh_name & "'"
 end select
 says="<font color=#ff0000><b>【怡红院】</b></font>"&mess			'聊天数据

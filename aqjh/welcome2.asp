@@ -35,7 +35,7 @@ woiwo.outerHeight=screen.availHeight
 }
 </SCRIPT>
 <SCRIPT language=JavaScript>
-var msg = "爱情江湖总站欢迎你！欢迎体验爱情江湖10.0完美版带给您的全“心”感受！ " ;
+var msg = "快乐江湖总站欢迎你！欢迎体验快乐江湖完善完美版带给您的全“心”感受！ " ;
 var interval = 300
 var spacelen = 300;
 var space10=" ";

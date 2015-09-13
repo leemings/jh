@@ -7,7 +7,7 @@
 <body bgColor=#dcdec6 text=#000000 link=#003366 vLink=#006666 oncontextmenu=window.event.returnValue=false ondragstart=window.event.returnValue=false  onselectstart=event.returnValue=false><center>
 <table height=30><tr><td></td></tr></table>
 <table width=500><tr><td>
-<font color=red>+++欢迎您使用『爱情江湖』管理系统+++</font><br><br>
+<font color=red>+++欢迎您使用『快乐江湖』管理系统+++</font><br><br>
 <a href=txt.asp><font color=green>『帮助首页』</font></a>　　<a href=txt_admin.asp><font color=green>『后台说明』</font></a>　　<a href=txt_sql.asp><font color=green>『SQL常规使用』</font></a><br><br>
 <font color=green>门派武功：</font><br>
 1、添加门派：手工为添加一个门派，建议让他们去自立门派<br>
@@ -63,6 +63,6 @@
 官方江湖<a href=http://www.7758530.com target=_blank>http://www.7758530.com</a><br><br>
 
 
------------爱情江湖总站 程序//美工:永不放弃------------<br><br>
+-----------快乐江湖总站 程序//美工:回首当年------------<br><br>
 -------------------2005年5月18日--------------------<br><br>
 </td></tr></table>

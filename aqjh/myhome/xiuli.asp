@@ -81,7 +81,7 @@ set conn=nothing
 function show(x,y,sm){Layer1.style.visibility="visible";mess.innerHTML="<img src=pic/hut"+x+y+".jpg width=185 height=125><br><div align=center>"+sm+y+"级</div>";}
 function hidden(){Layer1.style.visibility="hidden";}
 document.onmousedown=click;
-function click(){if(event.button==2){alert("欢迎来到勇者爱情江湖！");}}
+function click(){if(event.button==2){alert("欢迎来到勇者快乐江湖！");}}
 function shLayers(n,n1){
 if(n.style.visibility=="visible"){n.style.visibility="hidden";}else if(n.style.visibility=="hidden"){n.style.visibility="visible";}
 if(n1.style.visibility=="visible"){n1.style.visibility="hidden";}

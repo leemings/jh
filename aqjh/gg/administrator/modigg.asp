@@ -31,10 +31,10 @@ rs.close
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
 <link rel="stylesheet" href="../../hc3w_Admin/setup.css">
-<title>爱情江湖物品修改</title></head>
+<title>快乐江湖物品修改</title></head>
 
 <body text="#000000" background="../../jhimg/bk_hc3w.gif" link="#0000FF" vlink="#0000FF" alink="#0000FF">
-<p align="center"><font size="2" color="#000000">爱情江湖首页站长公告修改程序！<br>
+<p align="center"><font size="2" color="#000000">快乐江湖首页站长公告修改程序！<br>
   </font></p>
 <form method="post" action="modiggok.asp">
   <table border="1" cellspacing="1" align="center" cellpadding="0" bordercolor="#000000"
@@ -99,4 +99,4 @@ value="<%=ck%>" size="10">
     </tr>
   </table>
 </form>
-<div align="center">本程序由爱情江湖总站<font color="#0000FF">永不放弃</font>制作</div>
+<div align="center">本程序由快乐江湖总站<font color="#0000FF">回首当年</font>制作</div>

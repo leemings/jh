@@ -60,7 +60,7 @@ if fn1>200000 then
 	set rs=nothing
 	conn.close
 	set conn=nothing
-    fakuan="##想奖励徒弟%%银两" & fn1 & "，但由于数目超过江湖规定,！爱情规定奖励最大限制为20万！"
+    fakuan="##想奖励徒弟%%银两" & fn1 & "，但由于数目超过江湖规定,！快乐规定奖励最大限制为20万！"
 	exit function
 end if
 if rs("银两")>=fn1 then

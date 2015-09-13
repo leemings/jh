@@ -62,8 +62,8 @@ Application("aqjh_room")=Application("aqjh_room")&rs("a")&"|"&rs("b")&"|"&rs("c"
 Application("aqjh_npc"&rs("a"))=""
 	rs.MoveNext
  loop
-Application("aqjh_copyright")="爱情江湖"
-Application("aqjh_ver")="爱情江湖9.2"
+Application("aqjh_copyright")="快乐江湖"
+Application("aqjh_ver")="快乐江湖9.2"
 Application("aqjh_softuser")=-63617
 Application("aqjh_softjm")=-28972
 Application("aqjh_tltie")="【"&Application("aqjh_chatroomname")&"】"&Application("aqjh_homepage")&"购买会员支持江湖发展("&Application("aqjh_user")&")"

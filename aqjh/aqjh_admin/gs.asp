@@ -27,7 +27,7 @@ return; }
 <SELECT name=gslist onchange=DoTitle(this.options[this.selectedIndex].value)> 
 <OPTION selected value="">快速指令</OPTION> 
 <OPTION value="购买江湖会员，支持江湖发展！">购买江湖会员</OPTION>
-<OPTION value="购买江湖程序、江湖空间，请登陆<a href=http://www.7758530.com target=_blank>爱情官方网站</a>">购买江湖最新程序</OPTION>
+<OPTION value="购买江湖程序、江湖空间，请登陆<a href=http://www.7758530.com target=_blank>快乐官方网站</a>">购买江湖最新程序</OPTION>
 <OPTION value="祝大家玩得开心^O^本站江湖为您提供良好的聊天环境！">祝大家玩得开心^O^</OPTION>
 </SELECT><br>
     <br>

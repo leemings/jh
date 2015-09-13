@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML><HEAD><TITLE>爱情江湖总站会员简介</TITLE>
+<HTML><HEAD><TITLE>快乐江湖总站会员简介</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=gb2312">
 <META content="MSHTML 6.00.2600.0" name=GENERATOR>
 <STYLE>BODY {
@@ -83,7 +83,7 @@ TH {
     <TD vAlign=center align=middle width=542 
     background=hy/SANJI_06.jpg height=59>
       <DIV class=new align=center><FONT color=#ff0000 
-      size=4><STRONG>爱情江湖总站会员简介</STRONG></FONT></DIV></TD></TR></TBODY></TABLE>
+      size=4><STRONG>快乐江湖总站会员简介</STRONG></FONT></DIV></TD></TR></TBODY></TABLE>
 <TABLE height=450 cellSpacing=0 cellPadding=0 width=778 border=0>
   <TBODY>
   <TR>
@@ -99,7 +99,7 @@ height=786>
             color=#0000ff><B>会员帮您成为江湖顶尖高手，让您成为江湖帅男、靓女瞩目的焦点</B></FONT></P>
             <P class=new align=left><FONT 
             color=#993300><B>１、为什么要开始会员功能？</B></FONT><BR><FONT 
-            color=#000000>作为一个江湖网站，租用一台稳定高速的江湖主机来存放日夜不停止运作的江湖，其年租价都在万元左右，加上站长长期的上网费用、软件开发的时间精力和广告经费都是非常之高的，单凭站长一个人支付这些费用是难于承受下去的，所以希望大家都来支持本站的发展，从中也可以得到更高的娱乐性节省泡点时间，希望大家能给予支持和理解！加入会员是自愿的，不加入会员不会影响玩家使用爱情江湖！</FONT></P>
+            color=#000000>作为一个江湖网站，租用一台稳定高速的江湖主机来存放日夜不停止运作的江湖，其年租价都在万元左右，加上站长长期的上网费用、软件开发的时间精力和广告经费都是非常之高的，单凭站长一个人支付这些费用是难于承受下去的，所以希望大家都来支持本站的发展，从中也可以得到更高的娱乐性节省泡点时间，希望大家能给予支持和理解！加入会员是自愿的，不加入会员不会影响玩家使用快乐江湖！</FONT></P>
             <P class=new><FONT 
             color=#993300><B>２、会员制对站方和会员双方的得益？</B></FONT><BR><FONT 
             color=#000000>对于站方来说，收取的会费主要用于租用更好、速度更快的服务器，开发更具有娱乐性的程序，有利于江湖的长期发展，对于会员来说，比普通玩家拥有更多的功能、更多娱乐性和减少泡点的时间，省了泡点的时间节约了上网费用，何乐而不为！</FONT></P>
@@ -247,7 +247,7 @@ height=786>
                   <P><FONT 
                   color=#993300><STRONG>房间买卖：</STRONG></FONT>除官方房间（如江湖大厅等）外，其他江湖房间一律公开拍卖，房间的名字、进入房间的条件等由主人定，每个房间拍卖价格:200元/一年，为了使你的弟子有所归宿，也为了吸引更多的弟子，欢迎各派掌门前来购买。<BR></P></TD></TR></TBODY></TABLE>
             <P class=new><FONT color=#993300><B>注意事项：</B></FONT><FONT 
-            color=#000000>所有爱情江湖会员一次交款！会员到期时系统所加的存点清除，赠送的银两、攻击、防御、江湖上限、金卡不清！<U>为了保证江湖的公平性，购买任何会员谢绝还价和要求额外赠送物品！</U></FONT></P>
+            color=#000000>所有快乐江湖会员一次交款！会员到期时系统所加的存点清除，赠送的银两、攻击、防御、江湖上限、金卡不清！<U>为了保证江湖的公平性，购买任何会员谢绝还价和要求额外赠送物品！</U></FONT></P>
             <P class=new><FONT color=#993300><B>怎样才能做掌门？</B></FONT><FONT face=宋体 
             color=black><SPAN style="FONT-SIZE: 10pt"><BR></SPAN></FONT><FONT 
             color=#000000>购买３５０元以上的等级会员可以送掌门半年！购买５００元以上的等级会员可以送掌门一年！购买８００元以上的等级会员可以送掌门一年并且可以自立门派、自立房间！没有达到赠送掌门标准的会员，请升级会员才能做掌门！</FONT></P>
@@ -276,8 +276,8 @@ height=786>
             color=#993300><B>问：如果我去汇了站长怎么知道是我汇的呢？<BR></B></FONT><FONT 
             color=#000000>答：您汇款了银行会给您一张汇款回单，回单上有您的流水帐号，站长在网上银行可以查到证明是您汇的！</FONT></P>
             <P class=new><FONT color=#993300><SPAN 
-            style="FONT-SIZE: 11pt"><B>站长：永不放弃　 
-            ＱＱ：51726805　手机：13635716119</B></SPAN></FONT></P></TD></TR></TBODY></TABLE></TD>
+            style="FONT-SIZE: 11pt"><B>站长：回首当年　 
+            ＱＱ：865240608　手机：13635716119</B></SPAN></FONT></P></TD></TR></TBODY></TABLE></TD>
     <TD vAlign=bottom width=67 background=hy/sanji_09.jpg 
     rowSpan=3><IMG height=116 src="hy/sanji_13.jpg" 
   width=67></TD></TR>

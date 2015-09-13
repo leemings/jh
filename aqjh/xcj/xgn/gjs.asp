@@ -7,7 +7,7 @@ Response.CacheControl = "No-Cache"
 session("aqjh_jm")=session("aqjh_jm")+1
 if session("aqjh_jm")>30 then Response.Redirect "../chat/readonly/bomb.htm"
 %>
-<HTML><HEAD><TITLE>爱情弓箭手职能区—祝大家开心！^-^</TITLE>
+<HTML><HEAD><TITLE>快乐弓箭手职能区—祝大家开心！^-^</TITLE>
 <LINK href="lyy.css" rel=stylesheet></HEAD>
 <BODY background=BG.gif oncontextmenu=self.event.returnValue=false>
 <form method="POST" action="closeok.asp">
@@ -17,7 +17,7 @@ if session("aqjh_jm")>30 then Response.Redirect "../chat/readonly/bomb.htm"
 <TD width="373" background=M1.gif height=15>　</TD>
 <TD width="244" height=15><IMG src="T2.gif" border=0></TD></TR>
   <TR><TD width="11" background=M2.gif rowSpan=3 height="1"></TD>
-    <TD width="373" height=23><P align=center><SPAN lang=en>&copy;爱情江湖弓箭手职能说明区</P></SPAN></TD> 
+    <TD width="373" height=23><P align=center><SPAN lang=en>&copy;快乐江湖弓箭手职能说明区</P></SPAN></TD> 
     <TD width="244" background=M2.gif height=1 rowSpan=3></TD></TR> 
   <TR> 
     <TD width="373" height=1> 
@@ -51,7 +51,7 @@ if session("aqjh_jm")>30 then Response.Redirect "../chat/readonly/bomb.htm"
           </tr>     
           <tr>     
             <td height="4" width="415" colspan="3">      
-<SPAN lang=en>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &copy;爱情江湖首创&nbsp;&nbsp;&nbsp;    
+<SPAN lang=en>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &copy;快乐江湖首创&nbsp;&nbsp;&nbsp;    
 <a href="sm.asp">返回首页</a></SPAN>     
 </td>      
           </tr>      

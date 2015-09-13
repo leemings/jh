@@ -29,7 +29,7 @@ if DateDiff("d",rs("结婚记念日"),date())<2 then
 	set rs=nothing
 	conn.close
 	set conn=nothing
-	Response.Write "<script Language=Javascript>alert('提示：您的爱情还不够稳定，等2天后吧！');parent.f2.document.af.mdsx.checked=true;parent.m.location.reload();</script>"
+	Response.Write "<script Language=Javascript>alert('提示：您的快乐还不够稳定，等2天后吧！');parent.f2.document.af.mdsx.checked=true;parent.m.location.reload();</script>"
 	response.end
 end if
 rs.close

@@ -19,26 +19,26 @@ Application("aqjh_chat_maxpeople")=500      '江湖最大人数限制
 Application("aqjh_closedoor")=0      '聊天室关门，1为关门
 Application("aqjh_baowu")=1      '是否有宝物当为0时没有宝物！宝物出现是会影响聊天室速度的，服务器不好关闭！
 aqjh_sx=1      '是否有上限0没有上限，1有上限
-Application("aqjh_automanname")="爱情天使"      '聊神名称设置
+Application("aqjh_automanname")="快乐天使"      '聊神名称设置
 Application("aqjh_userout")="“%%向大家挥挥手说声再见，然后离开了聊天室！”"      '退出时聊天室显示的信息
 aqjh_dieip="218.75.59.42;218.62.122.70;219.134.19.203;61.141.144.113;218.17.61.239;218.17.59.90;"      'ip永久封锁使用前按格式书，多个用分号隔开，后面请保留有分号
-Application("aqjh_baowuname")="爱情水晶石"      '宝物名及宝物说明
+Application("aqjh_baowuname")="快乐水晶石"      '宝物名及宝物说明
 Application("aqjh_baowusm")="这宝物是霄逸寻便大江南北，才辛辛苦苦找到的。但是想不道，不知道让司空摘星盗走，唉。。。"      '宝物在聊天室中显示信息
 '***************************************************
 '*以下江湖管理设置，切记不要改错，否则无法正常运行 *
 '***************************************************
-Application("aqjh_chatroomname")="爱情江湖"      '江湖名称
+Application("aqjh_chatroomname")="快乐江湖"      '江湖名称
 Application("aqjh_homepage")="http://www.7758530.com"      '江湖主页
 Application("aqjh_sn")="love888"      '江湖序列号，正版标志，修改后后果自负
 Application("aqjh_user")="千万"      '江湖站长
-Application("aqjh_qq")="51726805"      '站长qq
+Application("aqjh_qq")="865240608"      '站长qq
 Application("aqjh_email")="119yejin@163.com"      '站长email
-Application("aqjh_admin")="永不放弃"      '设置10级聊管，多个用逗号隔开
-Application("hidden_admin")="永不放弃"      '隐身人员，多个用逗号隔开
-Application("aqjh_slbox")="永不放弃"      '可以查看私聊的人，多个用逗号隔开
+Application("aqjh_admin")="回首当年"      '设置10级聊管，多个用逗号隔开
+Application("hidden_admin")="回首当年"      '隐身人员，多个用逗号隔开
+Application("aqjh_slbox")="回首当年"      '可以查看私聊的人，多个用逗号隔开
 Application("aqjh_admin_send")="||"      '财神爷，多个用|和|隔开
 Application("aqjh_guibin")="||"      '江湖贵宾(贵宾不参与任何江湖恩怨)，多个用|和|隔开
-Application("aqjh_adminuser")="永不放弃"      '站长管理用户名
+Application("aqjh_adminuser")="回首当年"      '站长管理用户名
 Application("aqjh_adminkey")="123456"      '站长管理密码
 Application("tuziji_DoReflashPage") = False  '页面防止刷新'
 '*********************************************************

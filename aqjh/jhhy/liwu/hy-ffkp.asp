@@ -50,9 +50,9 @@ regjm=int(rnd*9998)+1
         2005.06.01<br>
         2005.07.01<br>
         2005.08.01<br>
-        2005.10.01<br>
+        2005.完善1<br>
                ……<br>
-        [爱情江湖]欢迎大家<a href="../chat/hy.ASP" ><font color="#FFFFFF">购买会员</font></a>！ 
+        [快乐江湖]欢迎大家<a href="../chat/hy.ASP" ><font color="#FFFFFF">购买会员</font></a>！ 
       </td>
     </table>
 

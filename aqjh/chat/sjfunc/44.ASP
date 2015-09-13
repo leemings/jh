@@ -158,39 +158,39 @@ case "合好卡"
 	kapian="<img src=card/he.gif><bgsound src=wav/hua.wav loop=1><font color=green>【卡片】<font color=" & saycolor & ">##真诚得对%%使用了合好卡,为其送上了99个金币.真是有心,朋友请不要一些小事,就失去了我们的友谊.愿我们重归于好,友谊地久天长,一起唱,朋友一生一起走,那些日子不在有,一句话,一辈子,一生情,一杯酒<img src=card/he1.gif>...</font>"
 case "神剑卡"
 	conn.Execute ("update 用户 set 攻击=攻击+1000 where 姓名='" & to1 &"'")
-	Response.Write "<script language=JavaScript>{alert('["&to1&"]爱情江湖总站最高最美最强之物圣灵之剑,为对方献上了1000攻击,真是如意宝贝!');}</script>"
+	Response.Write "<script language=JavaScript>{alert('["&to1&"]快乐江湖总站最高最美最强之物圣灵之剑,为对方献上了1000攻击,真是如意宝贝!');}</script>"
 	kapian="<img src=card/jian.gif><bgsound src=readonly/okok.wav loop=1><font color=green>【卡片】<font color=" & saycolor & ">##真诚得对%%使用了依恋蝶最强最好最美之卡-------神剑卡<img src=card/jian1.gif>,梦幻之剑在瞬间发送耀眼的光彩.为其送上了1000攻击,这回天下无敌了,%%真是太感动了啊.呵呵，可不可以在来一张呀:)...</font>"
 case "魔盾卡"
 	conn.Execute ("update 用户 set 防御=防御+1000 where 姓名='" & to1 &"'")
-	Response.Write "<script language=JavaScript>{alert('["&to1&"]爱情江湖总站最高最美最强之物依恋圣龙之盾,为对方献上了10000防御!');}</script>"
-	kapian="<img src=card/dun.gif><bgsound src=wav/hua.wav loop=2><font color=green>【卡片】<font color=" & saycolor & ">##真诚得对%%使用了爱情江湖总站最强最好最美之卡-------魔盾卡<img src=card/dun1.gif>,梦幻之盾在瞬间发送耀眼的光彩.为其送上了1000防御,这回天下无敌了,%%真是太感动了啊.呵呵，救世主呀:)...</font>"
+	Response.Write "<script language=JavaScript>{alert('["&to1&"]快乐江湖总站最高最美最强之物依恋圣龙之盾,为对方献上了10000防御!');}</script>"
+	kapian="<img src=card/dun.gif><bgsound src=wav/hua.wav loop=2><font color=green>【卡片】<font color=" & saycolor & ">##真诚得对%%使用了快乐江湖总站最强最好最美之卡-------魔盾卡<img src=card/dun1.gif>,梦幻之盾在瞬间发送耀眼的光彩.为其送上了1000防御,这回天下无敌了,%%真是太感动了啊.呵呵，救世主呀:)...</font>"
 case "天戒卡"
     conn.Execute ("update 用户 set 轻功=轻功+2000 where 姓名='" & to1 &"'")
-	Response.Write "<script language=JavaScript>{alert('["&to1&"]爱情江湖总站最高最美最强之物圣龙之盾,为对方献上了2000轻功！');}</script>"
-	kapian="<img src=card/jie.gif><bgsound src=wav/hua.wav loop=2><font color=green>【卡片】<font color=" & saycolor & ">##真诚得对%%使用了爱情江湖总站最强最好最美之卡-------天戒卡<img src=card/jie1.gif>,梦幻之戒在瞬间发送耀眼的光彩.为其送上了2000轻功,这回天下无敌了,%%真是太感动了啊.呵呵，救世主呀:)...</font>"
+	Response.Write "<script language=JavaScript>{alert('["&to1&"]快乐江湖总站最高最美最强之物圣龙之盾,为对方献上了2000轻功！');}</script>"
+	kapian="<img src=card/jie.gif><bgsound src=wav/hua.wav loop=2><font color=green>【卡片】<font color=" & saycolor & ">##真诚得对%%使用了快乐江湖总站最强最好最美之卡-------天戒卡<img src=card/jie1.gif>,梦幻之戒在瞬间发送耀眼的光彩.为其送上了2000轻功,这回天下无敌了,%%真是太感动了啊.呵呵，救世主呀:)...</font>"
 case "战神卡"
     conn.Execute ("update 用户 set 武功=武功+2000 where 姓名='" & to1 &"'")
-	Response.Write "<script language=JavaScript>{alert('["&to1&"]爱情江湖网最高最美最强之物圣蝶之刃,为对方献上了2000武功！');}</script>"
-	kapian="<img src=card/zhan.gif><bgsound src=cd.mid loop=1><font color=green>【卡片】<font color=" & saycolor & ">##真诚得对%%使用了爱情江湖总站最强最好最美之卡-------战神卡<img src=card/zhan1.gif>,梦幻之刃在瞬间发送耀眼的光彩.为其送上了2000武功,这回天下无敌了,%%真是太感动了啊.呵呵，救世主呀:)...</font>"
+	Response.Write "<script language=JavaScript>{alert('["&to1&"]快乐江湖网最高最美最强之物圣蝶之刃,为对方献上了2000武功！');}</script>"
+	kapian="<img src=card/zhan.gif><bgsound src=cd.mid loop=1><font color=green>【卡片】<font color=" & saycolor & ">##真诚得对%%使用了快乐江湖总站最强最好最美之卡-------战神卡<img src=card/zhan1.gif>,梦幻之刃在瞬间发送耀眼的光彩.为其送上了2000武功,这回天下无敌了,%%真是太感动了啊.呵呵，救世主呀:)...</font>"
 case "仙靴卡"
     conn.Execute ("update 用户 set allvalue=allvalue+3000 where 姓名='" & to1 &"'")
-	Response.Write "<script language=JavaScript>{alert('["&to1&"]爱情江湖总站最高最美最强之物圣仙之靴,为对方献上了30000存点！');}</script>"
-	kapian="<img src=card/xue.gif><bgsound src=wav/hua.wav loop=2><font color=green>【卡片】<font color=" & saycolor & ">##真诚得对%%使用了爱情江湖网最强最好最美之卡-------仙靴卡<img src=card/xue1.gif>,梦幻之靴在瞬间发送耀眼的光彩.为其送上了3000存点,%%快点存点哦:)...</font>"
+	Response.Write "<script language=JavaScript>{alert('["&to1&"]快乐江湖总站最高最美最强之物圣仙之靴,为对方献上了30000存点！');}</script>"
+	kapian="<img src=card/xue.gif><bgsound src=wav/hua.wav loop=2><font color=green>【卡片】<font color=" & saycolor & ">##真诚得对%%使用了快乐江湖网最强最好最美之卡-------仙靴卡<img src=card/xue1.gif>,梦幻之靴在瞬间发送耀眼的光彩.为其送上了3000存点,%%快点存点哦:)...</font>"
 case "天之卡"
     conn.Execute ("update 用户 set allvalue=allvalue+1000") 
-	Response.Write "<script language=JavaScript>{alert('["&to1&"]为爱情江湖网所有玩家增加1000存点，永不放弃对你表示忠心感谢！');}</script>"
-	kapian="<img src=card/tzk.gif><bgsound src=wav/hua.wav loop=2><font color=green>【卡片】<font color=" & saycolor & ">##笑眯眯得对大家使用了天之卡<img src=card/tzk1.gif>,天地万物,唯我独尊.##的天之卡在明月的衬托下更加靓丽,所有玩家存点加1000.MYLOVE..这种宝贝,也真是##所拥有!让大家都好好感谢你吧,##你真是爱情江湖的福神啊.大家快点存点哦.</font>"
+	Response.Write "<script language=JavaScript>{alert('["&to1&"]为快乐江湖网所有玩家增加1000存点，回首当年对你表示忠心感谢！');}</script>"
+	kapian="<img src=card/tzk.gif><bgsound src=wav/hua.wav loop=2><font color=green>【卡片】<font color=" & saycolor & ">##笑眯眯得对大家使用了天之卡<img src=card/tzk1.gif>,天地万物,唯我独尊.##的天之卡在明月的衬托下更加靓丽,所有玩家存点加1000.MYLOVE..这种宝贝,也真是##所拥有!让大家都好好感谢你吧,##你真是快乐江湖的福神啊.大家快点存点哦.</font>"
 case "神之卡"
     conn.Execute ("update 用户 set 金币=金币+18") 
-	Response.Write "<script language=JavaScript>{alert('["&to1&"]为爱情江湖总站所有玩家增加18个金币！');}</script>"
-	kapian="<img src=card/szk.gif><bgsound src=wav/hua.wav loop=2><font color=green>【卡片】<font color=" & saycolor & ">##笑眯眯得对大家使用了神之卡<img src=card/szk1.gif>,天地万物,唯我独尊.##的神之卡在明月的衬托下更加靓丽,所有玩家金币加18.MYLOVE..这种宝贝,也真是##所拥有!让大家都好好感谢你吧,##你真是爱情江湖的福神啊.</font>"
+	Response.Write "<script language=JavaScript>{alert('["&to1&"]为快乐江湖总站所有玩家增加18个金币！');}</script>"
+	kapian="<img src=card/szk.gif><bgsound src=wav/hua.wav loop=2><font color=green>【卡片】<font color=" & saycolor & ">##笑眯眯得对大家使用了神之卡<img src=card/szk1.gif>,天地万物,唯我独尊.##的神之卡在明月的衬托下更加靓丽,所有玩家金币加18.MYLOVE..这种宝贝,也真是##所拥有!让大家都好好感谢你吧,##你真是快乐江湖的福神啊.</font>"
 case "魔之卡"
     conn.Execute ("update 用户 set 状态='正常',体力=体力+15000") 
 	Response.Write "<script language=JavaScript>{alert('["&to1&"]天皇神卡真牛.！');}</script>"
-	kapian="<img src=card/mzk.gif><bgsound src=wav/hua.wav loop=2><font color=green>【卡片】<font color=" & saycolor & ">##笑眯眯使用了如来佛主赐予的魔之卡<img src=card/mzk1.gif>,天地万物,唯我独尊.##的魔之卡在明月的衬托下更加靓丽,一道佛光在爱情大厅折射出神奇的光芒.那些冬眠的,被点穴的,被打死的,所有人都回来了,真是不知道赶怎样形容这种宝贝了。##你真是爱情江湖网的大救星啊.</font>"			
+	kapian="<img src=card/mzk.gif><bgsound src=wav/hua.wav loop=2><font color=green>【卡片】<font color=" & saycolor & ">##笑眯眯使用了如来佛主赐予的魔之卡<img src=card/mzk1.gif>,天地万物,唯我独尊.##的魔之卡在明月的衬托下更加靓丽,一道佛光在快乐大厅折射出神奇的光芒.那些冬眠的,被点穴的,被打死的,所有人都回来了,真是不知道赶怎样形容这种宝贝了。##你真是快乐江湖网的大救星啊.</font>"			
 case "会员卡"
 	conn.Execute ("update 用户 set 会员等级=1,会员日期=date()+30  where 姓名='" & aqjh_name &"'")
-	Response.Write "<script language=JavaScript>{alert('["&aqjh_name&"]使用了最高最美最强之物会员之神卡,恭喜你成为爱情江湖总站的会员啦！');}</script>"
+	Response.Write "<script language=JavaScript>{alert('["&aqjh_name&"]使用了最高最美最强之物会员之神卡,恭喜你成为快乐江湖总站的会员啦！');}</script>"
 	kapian="<font color=red>【卡片】<font color=" & saycolor & ">##使用了梦幻之卡，在瞬间发送耀眼的光彩.让自己成为了一级会员，真是幸福啊,快刷新或重进吧！</font>"
 case "超级红卡"
  conn.Execute ("update 用户 set 武功加=武功加+200,防御加=防御加+200,攻击加=攻击加+200,内力加=内力加+200,体力加=体力加+200 where 姓名='"&aqjh_name&"'")
@@ -233,7 +233,7 @@ case "亲亲卡"
         exit function
     end if
     conn.Execute ("update 用户 set allvalue=allvalue+50  where 姓名='" & aqjh_name &"'")
-	Response.Write "<script language=JavaScript>{alert('["&aqjh_name&"]使用了亲亲卡，泡点数上涨50点！既能亲美女（衰锅），还能增加泡点，真的是好福气！此卡由永不放弃制作！');}</script>"
+	Response.Write "<script language=JavaScript>{alert('["&aqjh_name&"]使用了亲亲卡，泡点数上涨50点！既能亲美女（衰锅），还能增加泡点，真的是好福气！此卡由回首当年制作！');}</script>"
     kapian="<table border=0><tr><td><img src=card/ai1.gif></td><td><font color=green><bgsound src=WAV/123.wav loop=1>【卡片】<font color=" & saycolor & ">"&aqjh_name&"对"&to1&"使用亲亲卡,终于如愿以尝的与"&to1&"在江湖的大厅疯狂的<img src=card/ai.gif>起来!真叫人羡慕啊！同时"&aqjh_name&"的泡点上升50点！你看！把"&aqjh_name&"乐得都跳起来了！大叫：<img src=card/qin.gif></font></td></tr></table>" 
 case "羞羞卡"
    wnky=wnk(to1)
@@ -364,7 +364,7 @@ case "加钱卡"
 	kapian="<font color=red>【门派卡片】<font color=" & saycolor & ">##使用了门派卡片加钱卡，自己的小荷包都装不下了，6000万呀！</font>"
 case "宝物卡"
 	conn.Execute ("update 用户 set 保护=false,宝物修练=0,宝物='"& Application("aqjh_baowuname") &"' where 姓名='"&aqjh_name &"'")
-	Response.Write "<script language=JavaScript>{alert('您使用了珍宝卡，获得爱情至宝1枚！');}</script>"
+	Response.Write "<script language=JavaScript>{alert('您使用了珍宝卡，获得快乐至宝1枚！');}</script>"
 	kapian="<font color=green>【卡片】<font color=" & saycolor & ">##运气真是好，居然使用了传说中的宝物卡，获得了江湖至宝"&Application("aqjh_baowuname")&"<img src=img/z1.gif>1枚！大家还不快抢！……</font>"
 
 case "攻防卡"

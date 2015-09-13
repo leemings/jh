@@ -183,15 +183,15 @@ elseif userinfo2=0 then
 	randomize timer
 	ii=int(rnd()*10)
         if aqjh_grade=10 then
-	aqjh_userinto="我们的"&zhanz&"##乘坐"&vhname&"<img src=../hcjs/jhjs/images/"&vhwj&">，在各路神仙的簇拥下，带着五彩光环来到『"&Application("aqjh_chatroomname")&"』，向大家挥手致意！"&mytimes&"<br><font color=red>【爱情消息】</font>"&zhanz&"%%来到江湖了，请各路英雄欢迎。。。。[%%]魅力大涨1000000点！体力上涨1000000点"
+	aqjh_userinto="我们的"&zhanz&"##乘坐"&vhname&"<img src=../hcjs/jhjs/images/"&vhwj&">，在各路神仙的簇拥下，带着五彩光环来到『"&Application("aqjh_chatroomname")&"』，向大家挥手致意！"&mytimes&"<br><font color=red>【快乐消息】</font>"&zhanz&"%%来到江湖了，请各路英雄欢迎。。。。[%%]魅力大涨1000000点！体力上涨1000000点"
 	conn.execute "update 用户 set 魅力=魅力+1000000,体力=体力+1000000 where 姓名='"&aqjh_name&"'"
 	end if
         if aqjh_grade=5 then
-	aqjh_userinto="##<font color=blue>["&mmp&"掌门]</font>乘坐"&vhname&"<img src=../hcjs/jhjs/images/"&vhwj&">，在弟子的陪同下，神气活现来到了江湖，大喝一声“小的们，我来了！”"&mytimes&"<br><font color=red>【爱情消息】</font>["&mmp&"]掌门[%%]来到江湖了，请帮中弟子欢迎。。。[%%]魅力大涨10000点！体力上涨10000点"
+	aqjh_userinto="##<font color=blue>["&mmp&"掌门]</font>乘坐"&vhname&"<img src=../hcjs/jhjs/images/"&vhwj&">，在弟子的陪同下，神气活现来到了江湖，大喝一声“小的们，我来了！”"&mytimes&"<br><font color=red>【快乐消息】</font>["&mmp&"]掌门[%%]来到江湖了，请帮中弟子欢迎。。。[%%]魅力大涨10000点！体力上涨10000点"
 	conn.execute "update 用户 set 魅力=魅力+10000,体力=体力+10000 where 姓名='"&aqjh_name&"'"
 	end if
         if aqjh_grade>5 and aqjh_grade<10 then
-	aqjh_userinto="##[<font color=red>官府</font>"&jhsf&"]乘坐"&vhname&"<img src=../hcjs/jhjs/images/"&vhwj&">，在电闪雷鸣中，杀气腾腾地来到了『"&Application("aqjh_chatroomname")&"』，怒吼道：“洒家来也！”"&mytimes&"<br><font color=red>【爱情消息】</font>[官府"&jhsf&"][%%]来到江湖了，请大家小心从事。。。。[%%]魅力大涨50000点！体力上涨50000点"
+	aqjh_userinto="##[<font color=red>官府</font>"&jhsf&"]乘坐"&vhname&"<img src=../hcjs/jhjs/images/"&vhwj&">，在电闪雷鸣中，杀气腾腾地来到了『"&Application("aqjh_chatroomname")&"』，怒吼道：“洒家来也！”"&mytimes&"<br><font color=red>【快乐消息】</font>[官府"&jhsf&"][%%]来到江湖了，请大家小心从事。。。。[%%]魅力大涨50000点！体力上涨50000点"
 	conn.execute "update 用户 set 魅力=魅力+50000,体力=体力+50000 where 姓名='"&aqjh_name&"'"
 	end if
      if aqjh_grade>4 then
@@ -205,22 +205,22 @@ elseif userinfo2=0 then
 		if sj>35 or vhnj<10 then
 			if ii<3 then
 				conn.execute "update vh set j=true where id="&id
-				aqjh_userinto="##["&mmp&""&jhsf&"]乘坐着自家的"&vhname&"<img src=../hcjs/jhjs/images/"&vhwj&">要来『"&Application("aqjh_chatroomname")&"』，可是心爱的座驾出了些问题--（肯定是使用过度或年久失修，损坏了）"&mytimes&"<br><font color=red>【爱情消息】</font>[%%]的座驾损坏了，只好跑步进入江湖，满身大汗淋漓。。。。"
+				aqjh_userinto="##["&mmp&""&jhsf&"]乘坐着自家的"&vhname&"<img src=../hcjs/jhjs/images/"&vhwj&">要来『"&Application("aqjh_chatroomname")&"』，可是心爱的座驾出了些问题--（肯定是使用过度或年久失修，损坏了）"&mytimes&"<br><font color=red>【快乐消息】</font>[%%]的座驾损坏了，只好跑步进入江湖，满身大汗淋漓。。。。"
 			else
 				if Isnull(vhname) or vhname="" or vhname="无" then vhname=rs("a")
 				aqjh_userinto=replace(aqjh_userinto,"$$",vhname&"<img src=../hcjs/jhjs/images/"&vhwj&">",1,2,1)
-				aqjh_userinto=aqjh_userinto&"<br><font color=red>【爱情消息】</font>众小虾呆呆地看着[%%]，流露出一付羡煞慕煞的表情，几时自己也能有。。。[%%]魅力大涨28点！体力上涨1000点"
+				aqjh_userinto=aqjh_userinto&"<br><font color=red>【快乐消息】</font>众小虾呆呆地看着[%%]，流露出一付羡煞慕煞的表情，几时自己也能有。。。[%%]魅力大涨28点！体力上涨1000点"
 				conn.execute "update 用户 set 魅力=魅力+28,体力=体力+1000 where 姓名='"&aqjh_name&"'"
 				conn.execute "update vh set i=i-1 where id="&id
 			end if
 		else
 			if ii<2 then
-				aqjh_userinto="##["&mmp&""&jhsf&"]乘坐着自家的"&vhname&"<img src=../hcjs/jhjs/images/"&vhwj&">要来『"&Application("aqjh_chatroomname")&"』，可是碰上交通堵塞，只好一路跑步前进，进入"&Application("aqjh_chatroomname")&"时满身大汗淋漓。"&mytimes&"<br><font color=red>【爱情消息】</font>众小虾看着满身大汗淋漓的[%%]，流露出一付钦佩的表情。。。[%%]魅力上涨18点！"
+				aqjh_userinto="##["&mmp&""&jhsf&"]乘坐着自家的"&vhname&"<img src=../hcjs/jhjs/images/"&vhwj&">要来『"&Application("aqjh_chatroomname")&"』，可是碰上交通堵塞，只好一路跑步前进，进入"&Application("aqjh_chatroomname")&"时满身大汗淋漓。"&mytimes&"<br><font color=red>【快乐消息】</font>众小虾看着满身大汗淋漓的[%%]，流露出一付钦佩的表情。。。[%%]魅力上涨18点！"
 				conn.execute "update 用户 set 魅力=魅力+18 where 姓名='"&aqjh_name&"'"
 			else
 				if Isnull(vhname) or vhname="" or vhname="无" then vhname=rs("a")
 				aqjh_userinto=replace(aqjh_userinto,"$$",vhname&"<img src=../hcjs/jhjs/images/"&vhwj&">",1,2,1)
-				aqjh_userinto=aqjh_userinto&"<br><font color=red>【爱情消息】</font>众小虾呆呆地看着[%%]，流露出一付羡煞慕煞的表情，几时自己也能有。。。[%%]魅力大涨28点！体力上涨1000点"
+				aqjh_userinto=aqjh_userinto&"<br><font color=red>【快乐消息】</font>众小虾呆呆地看着[%%]，流露出一付羡煞慕煞的表情，几时自己也能有。。。[%%]魅力大涨28点！体力上涨1000点"
 				conn.execute "update 用户 set 魅力=魅力+28,体力=体力+1000 where 姓名='"&aqjh_name&"'"
 			end if
 			conn.execute "update vh set i=i-1 where id="&id
@@ -652,7 +652,7 @@ else jhjh="";
 	if (showtype != 0){if (showstr.search(showseek) != -1 || lis[0]==myn){wmd(ss);}}else{wmd(ss);}}}
 function md3(){
 	if (this.f2.document.af.mdsx.checked == false){return;}
-		wmd("<br><div align=\"center\"><a href=http://www.7758530.com/ target=_blank><img src=../logo.gif width=88 height=31 border=0 alt=全力打造精彩江湖与论坛></a><HR size=1 color=b3d4ff><font class=banq style='font-size:9pt'><font color=FFFFFF>男玩家</font> <font color=#00FFFF>男会员</font><br><font color=00FF00>女玩家</font> <font color=FF00FF>女会员</font><br>版本:爱情10.0-完美版<br>程序/美工：永不放弃<br><a href=http://wpa.qq.com/msgrd?V=1&Uin=51726805&Site=永不放弃&Menu=yes target=_blank><img src=QQ.gif width=130 height=29 border=0 alt=有什么建议和意见请与站长联系！><br>");
+		wmd("<br><div align=\"center\"><a href=http://www.7758530.com/ target=_blank><img src=../logo.gif width=88 height=31 border=0 alt=全力打造精彩江湖与论坛></a><HR size=1 color=b3d4ff><font class=banq style='font-size:9pt'><font color=FFFFFF>男玩家</font> <font color=#00FFFF>男会员</font><br><font color=00FF00>女玩家</font> <font color=FF00FF>女会员</font><br>版本:快乐完善-完美版<br>程序/美工：回首当年<br><a href=http://wpa.qq.com/msgrd?V=1&Uin=865240608&Site=回首当年&Menu=yes target=_blank><img src=QQ.gif width=130 height=29 border=0 alt=有什么建议和意见请与站长联系！><br>");
 	if (listfaces==true){wmd("为自己.<img src='../jhimg/self.gif' width='12' height='12'><img src='../jhimg/friend.gif' width='12' height='12'>.为好友</font></div>");}
 	wmd("</td></tr></table></body></html>")
 	this.f3.document.close();

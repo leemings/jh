@@ -29,7 +29,7 @@ ip=Request.ServerVariables("LOCAL_ADDR")
 ip="127.0.0.1"
 sip=split(ip,".")
 num=cint(sip(0))*256*256*256+cint(sip(1))*256*256+cint(sip(2))*256+cint(sip(3))-1
-if InStr(Request.ServerVariables("HTTP_USER_AGENT"),"MSIE")=0 then Response.Redirect "error.asp?id=010"
+'if InStr(Request.ServerVariables("HTTP_USER_AGENT"),"MSIE")=0 then Response.Redirect "error.asp?id=010"
 allhttp=LCase(Request.ServerVariables("ALL_HTTP"))
 if aqjh_disproxy=1 then  Chkproxy()
 n=Year(date())
@@ -223,7 +223,7 @@ dldate=rs("登录")
 denglucha=DateDiff("d",dldate,now())
 if denglucha>10 and rs("grade")>5 and rs("grade")<9 then
 conn.execute("update 用户 set grade=1,门派='游侠' where 姓名='" &aqjh_name& "'")
-Response.Write "<script Language=javascript>alert('【爱情江湖】提示：你已经"& denglucha &"天未登录爱情江湖。\n6-8级官府超过10天未登录，自动撤职！');</script>"
+Response.Write "<script Language=javascript>alert('【快乐江湖】提示：你已经"& denglucha &"天未登录快乐江湖。\n6-8级官府超过10天未登录，自动撤职！');</script>"
 end if
 if zt="监禁" then
 	rs.close
@@ -333,7 +333,7 @@ end if
 '计数器处理
 conn.execute("update [count] set num=num+1 where count='计数器'")
    '=========================================================
-   ' BbsXp 5.13b for 爱情江湖9.9插件
+   ' BbsXp 5.13b for 快乐江湖9.9插件
    '=========================================================
    dim bbsconn,rs1,rsbbs,UserQuesion,UserAnswer,passjh,readme,myboardid,jhtx
    db="bbs/database/aqjh_bbs.asp"

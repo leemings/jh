@@ -17,7 +17,7 @@ href="../../css.css" rel=stylesheet>
 <div align="center">
 <table border=1 cellspacing=0 cellpadding=2 align="center" bordercolordark="#000000" width="32%" height="31">
 <tr align="center"> 
-<td bgcolor="#669900" width="100%" height="25"><b><font size="4" color="#FFFFFF">爱情怡红院</font></b></td>
+<td bgcolor="#669900" width="100%" height="25"><b><font size="4" color="#FFFFFF">快乐怡红院</font></b></td>
 </tr>
 </table>
 <br>
@@ -31,7 +31,7 @@ style="PADDING-LEFT: 15px; PADDING-RIGHT: 15px" valign=top>
 <tr> 
           <td align="center" colspan="2" width="552"> <b> 
  <font size="2" color="#65251C"> 
-            <font color="#FF0000"><%=aqjh_name%></font><font color="#800000">进入</font></font><font color="#800000" size="2">爱情</font><font size="2" color="#65251C">怡红院，在这儿，你可以找到美丽的姑娘聊天哦</font> 
+            <font color="#FF0000"><%=aqjh_name%></font><font color="#800000">进入</font></font><font color="#800000" size="2">快乐</font><font size="2" color="#65251C">怡红院，在这儿，你可以找到美丽的姑娘聊天哦</font> 
             </b> 
           </td>
 </tr>

@@ -8,7 +8,7 @@ tj=trim(request("tj"))
 <title>购买小区</title>
 <script language="JavaScript" type="text/JavaScript">
 document.onmousedown=click;
-function click(){if(event.button==2){alert("欢迎来到爱情江湖！");}}
+function click(){if(event.button==2){alert("欢迎来到快乐江湖！");}}
 </script>
 <LINK href="style.css" rel=stylesheet>
 </head>

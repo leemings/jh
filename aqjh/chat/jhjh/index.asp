@@ -107,7 +107,7 @@ end if
 .style4 {color: #0000FF}
 -->
 </style>
-<HEAD><TITLE>爱情江湖时代进化系统</TITLE>
+<HEAD><TITLE>快乐江湖时代进化系统</TITLE>
 <body bgcolor="#739EEF" background="">
 
 <META content=zh-cn http-equiv=Content-Language>
@@ -155,7 +155,7 @@ A:active {
             <TABLE border=1 cellPadding=0 cellSpacing=0 width="100%">
               <TBODY>
               <TR bordercolor="#FFFFFF" bgcolor="#DEE7FF">
-                <td height="27" colspan="6" align="center" bordercolorlight="#000000" bordercolordark="#FFFFFF"><span style="font-size: 10pt; font-weight: bold; color: #CC3399;">欢迎光临爱情江湖时代进化→<a href="help.htm" target="_blank">点击查看进化帮助系统</a></span>
+                <td height="27" colspan="6" align="center" bordercolorlight="#000000" bordercolordark="#FFFFFF"><span style="font-size: 10pt; font-weight: bold; color: #CC3399;">欢迎光临快乐江湖时代进化→<a href="help.htm" target="_blank">点击查看进化帮助系统</a></span>
                   <p align="center"><font size=2 color=#3366CC><%=aqjh_name%></FONT><span class="style1"><font size=2>你现在的进化名号是:</FONT></span><font size=2></FONT><font size=2 color=#3366CC><%=rs("进化")%></FONT></p></td>
                 </TR>
 			  <TR bordercolor="#FFFFFF" bgcolor="#DEE7FF">
@@ -273,7 +273,7 @@ A:active {
               </TBODY></TABLE>            </TD>
         </TR>
 		<tr bgcolor="#FFFFFF"> 
-          <td bgcolor="#CCCCFF" colspan="3"><div align="center"><span class="style4">&copy; 版权所有 2005-2006 <A href="http://www.7758530.com/" target=_blank>爱情江湖总站</A></span> </div></td>
+          <td bgcolor="#CCCCFF" colspan="3"><div align="center"><span class="style4">&copy; 版权所有 2005-2006 <A href="http://www.7758530.com/" target=_blank>快乐江湖总站</A></span> </div></td>
         </tr>
 			  
         <TR bgColor=#686468>

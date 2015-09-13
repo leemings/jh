@@ -31,7 +31,7 @@ function FormCheck(){
       <td colspan="2">◇ <a href="qqlist.asp">申请者列表</a> ◇ <a href="qqlist.asp?id=1">获奖者名单</a> ◇ <a href="qqlist.asp?id=2">处罚名单</a> ◇ <a href="qqlist.asp?id=3">尚未处理名单</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%if request("id")=2 then%><font color="#FF0000">请正确填写QQ号码！</font><%end if%></td>
     </tr>
     <tr> 
-      <td colspan="2" align="center">爱情江湖QQ宣传奖励申请单</td>
+      <td colspan="2" align="center">快乐江湖QQ宣传奖励申请单</td>
     </tr>
     <tr> 
       <td colspan="2" align="center"> 

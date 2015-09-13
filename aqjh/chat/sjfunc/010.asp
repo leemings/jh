@@ -86,364 +86,364 @@ randomize
 r=int(rnd*51)+1
 select case r
 case 1
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>风之舞</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f4.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>风之舞</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f4.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"风之舞",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 
 case 2
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠给您礼物[<b><font color=red>鹊桥相会</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f3.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠给您礼物[<b><font color=red>鹊桥相会</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f3.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"鹊桥相会",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 
 case 3
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>好梦</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f21.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>好梦</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f21.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"好梦",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 4
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠给您礼物[<b><font color=red>柔情蜜意</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f5.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠给您礼物[<b><font color=red>柔情蜜意</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f5.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"柔情蜜意",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 5
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠给您礼物[<b><font color=red>玫瑰衷情</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f7.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠给您礼物[<b><font color=red>玫瑰衷情</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f7.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"玫瑰衷情",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 6
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠给您礼物[<b><font color=red>无限爱意</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f1.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠给您礼物[<b><font color=red>无限爱意</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f1.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"无限爱意",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 7
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠给您礼物[<b><font color=red>爱的韵味</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f2.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠给您礼物[<b><font color=red>爱的韵味</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f2.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"风之舞",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 8
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>纯洁的爱</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f8.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>纯洁的爱</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f8.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"纯洁的爱",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 9
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>情深款款</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f16.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>情深款款</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f16.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"情深款款",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 9
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>爱之泉</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f18.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>爱之泉</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f18.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"爱之泉",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 10
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>温情绽放</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f22.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>温情绽放</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f22.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"温情绽放",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 11
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>可人儿</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f19.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>可人儿</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f19.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"可人儿",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 12
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>热恋</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f14.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>热恋</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f14.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"热恋",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 13
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>比翼双飞</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f13.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>比翼双飞</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f13.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"比翼双飞",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 14
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>想你念你</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f9.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>想你念你</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f9.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"想你念你",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 15
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>蝶之舞</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f12.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>蝶之舞</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f12.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"蝶之舞",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 16
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>美满生活</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f24.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>美满生活</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f24.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"美满生活",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 17
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>恋爱热吻</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f6.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>恋爱热吻</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f6.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"恋爱热吻",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 18
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>永远有你</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f20.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>永远有你</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f20.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"永远有你",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 19
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>情有独钟</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f10.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>情有独钟</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f10.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"情有独钟",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 20
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>爱慕</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f11.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>爱慕</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f11.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"爱慕",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 21
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>一生有你</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f4.jpg'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>一生有你</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/f4.jpg'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"一生有你",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 
 case 22
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠给您礼物[<b><font color=red>浓情似火</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower17.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠给您礼物[<b><font color=red>浓情似火</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower17.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"浓情似火",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 
 case 23
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>百年好合</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower18.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>百年好合</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower18.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"百年好合",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 24
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠给您礼物[<b><font color=red>美满幸福</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower19.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠给您礼物[<b><font color=red>美满幸福</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower19.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"美满幸福",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 25
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠给您礼物[<b><font color=red>情意浓浓</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower21.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠给您礼物[<b><font color=red>情意浓浓</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower21.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"情意浓浓",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 26
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠给您礼物[<b><font color=red>健康永远</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower22.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠给您礼物[<b><font color=red>健康永远</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower22.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"健康永远",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 27
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠给您礼物[<b><font color=red>一往情深</font></b>]<img src='picwords/2.gif'><img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower33.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠给您礼物[<b><font color=red>一往情深</font></b>]<img src='picwords/2.gif'><img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower33.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"一往情深",29)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 28
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>红袖留香</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower24.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>红袖留香</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower24.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"红袖留香",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 29
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>风情玫瑰</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower25.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>风情玫瑰</font></b>]<img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower25.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"风情玫瑰",9)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 30
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>特别的爱</font></b>]<img src='picwords/3.gif'><img src='picwords/1.gif'>朵<img src='../hcjs/jhjs/images/flower30.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>特别的爱</font></b>]<img src='picwords/3.gif'><img src='picwords/1.gif'>朵<img src='../hcjs/jhjs/images/flower30.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"特别的爱",31)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 31
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>跳舞的玫瑰</font></b>]<img src='picwords/1.gif'><img src='picwords/1.gif'>朵<img src='../hcjs/jhjs/images/flower390.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>跳舞的玫瑰</font></b>]<img src='picwords/1.gif'><img src='picwords/1.gif'>朵<img src='../hcjs/jhjs/images/flower390.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"跳舞的玫瑰",11)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 32
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>拍手的玫瑰</font></b>]<img src='picwords/8.gif'>朵<img src='../hcjs/jhjs/images/flower350.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>拍手的玫瑰</font></b>]<img src='picwords/8.gif'>朵<img src='../hcjs/jhjs/images/flower350.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"拍手的玫瑰",8)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 33
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>失望的玫瑰</font></b>]<img src='picwords/7.gif'>朵<img src='../hcjs/jhjs/images/flower320.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>失望的玫瑰</font></b>]<img src='picwords/7.gif'>朵<img src='../hcjs/jhjs/images/flower320.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"失望的玫瑰",7)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 34
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>想飞的玫瑰</font></b>]<img src='picwords/6.gif'>朵<img src='../hcjs/jhjs/images/flower400.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>想飞的玫瑰</font></b>]<img src='picwords/6.gif'>朵<img src='../hcjs/jhjs/images/flower400.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"想飞的玫瑰",6)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 35
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>摇摆的玫瑰</font></b>]<img src='picwords/5.gif'>朵<img src='../hcjs/jhjs/images/flower330.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>摇摆的玫瑰</font></b>]<img src='picwords/5.gif'>朵<img src='../hcjs/jhjs/images/flower330.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"摇摆的玫瑰",5)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 36
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>转圈的玫瑰</font></b>]<img src='picwords/4.gif'>朵<img src='../hcjs/jhjs/images/flower340.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>转圈的玫瑰</font></b>]<img src='picwords/4.gif'>朵<img src='../hcjs/jhjs/images/flower340.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"转圈的玫瑰",4)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 37
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>致谢的玫瑰</font></b>]<img src='picwords/8.gif'><img src='picwords/8.gif'>朵<img src='../hcjs/jhjs/images/flower360.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>致谢的玫瑰</font></b>]<img src='picwords/8.gif'><img src='picwords/8.gif'>朵<img src='../hcjs/jhjs/images/flower360.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"致谢的玫瑰",88)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 38
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>摇头的玫瑰</font></b>]<img src='picwords/8.gif'>朵<img src='../hcjs/jhjs/images/flower370.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>摇头的玫瑰</font></b>]<img src='picwords/8.gif'>朵<img src='../hcjs/jhjs/images/flower370.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"摇头的玫瑰",8)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 39
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>蹦跳的玫瑰</font></b>]<img src='picwords/7.gif'>朵<img src='../hcjs/jhjs/images/flower380.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>蹦跳的玫瑰</font></b>]<img src='picwords/7.gif'>朵<img src='../hcjs/jhjs/images/flower380.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"蹦跳的玫瑰",7)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 40
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>点头的玫瑰</font></b>]<img src='picwords/8.gif'>朵<img src='../hcjs/jhjs/images/flower310.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>点头的玫瑰</font></b>]<img src='picwords/8.gif'>朵<img src='../hcjs/jhjs/images/flower310.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"点头的玫瑰",8)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 41
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>梦中情人</font></b>]<img src='picwords/1.gif'><img src='picwords/8.gif'>朵<img src='../hcjs/jhjs/images/flower48.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>梦中情人</font></b>]<img src='picwords/1.gif'><img src='picwords/8.gif'>朵<img src='../hcjs/jhjs/images/flower48.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"梦中情人",18)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 
 case 42
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>爱到永远</font></b>]<img src='picwords/1.gif'><img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower49.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>爱到永远</font></b>]<img src='picwords/1.gif'><img src='picwords/9.gif'>朵<img src='../hcjs/jhjs/images/flower49.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"爱到永远",19)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 43
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>温馨的爱</font></b>]<img src='picwords/1.gif'><img src='picwords/7.gif'>朵<img src='../hcjs/jhjs/images/flower47.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>温馨的爱</font></b>]<img src='picwords/1.gif'><img src='picwords/7.gif'>朵<img src='../hcjs/jhjs/images/flower47.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"温馨的爱",17)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 44
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>此情可待</font></b>]<img src='picwords/1.gif'><img src='picwords/6.gif'>朵<img src='../hcjs/jhjs/images/flower45.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>此情可待</font></b>]<img src='picwords/1.gif'><img src='picwords/6.gif'>朵<img src='../hcjs/jhjs/images/flower45.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"此情可待",16)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 45
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>水晶之恋</font></b>]<img src='picwords/2.gif'><img src='picwords/0.gif'>朵<img src='../hcjs/jhjs/images/flower41.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>水晶之恋</font></b>]<img src='picwords/2.gif'><img src='picwords/0.gif'>朵<img src='../hcjs/jhjs/images/flower41.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"水晶之恋",20)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 46
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>爱的诉说</font></b>]<img src='picwords/2.gif'><img src='picwords/1.gif'>朵<img src='../hcjs/jhjs/images/flower40.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>爱的诉说</font></b>]<img src='picwords/2.gif'><img src='picwords/1.gif'>朵<img src='../hcjs/jhjs/images/flower40.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"爱的诉说",21)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 47
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>千里相思</font></b>]<img src='picwords/2.gif'><img src='picwords/8.gif'>朵<img src='../hcjs/jhjs/images/flower38.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>千里相思</font></b>]<img src='picwords/2.gif'><img src='picwords/8.gif'>朵<img src='../hcjs/jhjs/images/flower38.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"千里相思",28)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 48
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>此情不渝</font></b>]<img src='picwords/2.gif'><img src='picwords/6.gif'>朵<img src='../hcjs/jhjs/images/flower36.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>此情不渝</font></b>]<img src='picwords/2.gif'><img src='picwords/6.gif'>朵<img src='../hcjs/jhjs/images/flower36.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"此情不渝",26)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 49
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>情定一生</font></b>]<img src='picwords/2.gif'><img src='picwords/7.gif'>朵<img src='../hcjs/jhjs/images/flower34.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>情定一生</font></b>]<img src='picwords/2.gif'><img src='picwords/7.gif'>朵<img src='../hcjs/jhjs/images/flower34.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"情定一生",27)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 50
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>我的牵挂</font></b>]<img src='picwords/1.gif'><img src='picwords/8.gif'>朵<img src='../hcjs/jhjs/images/flower37.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>我的牵挂</font></b>]<img src='picwords/1.gif'><img src='picwords/8.gif'>朵<img src='../hcjs/jhjs/images/flower37.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"我的牵挂",18)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 51
-xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>两情相悦</font></b>]<img src='picwords/3.gif'><img src='picwords/0.gif'>朵<img src='../hcjs/jhjs/images/flower32.gif'>。"
+xunfaqi=aqjh_name & "在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>两情相悦</font></b>]<img src='picwords/3.gif'><img src='picwords/0.gif'>朵<img src='../hcjs/jhjs/images/flower32.gif'>。"
 	rs.open "SELECT w7 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	xianhua=add(rs("w7"),"两情相悦",30)
 	conn.execute "update 用户 set  w7='"&xianhua&"' where 姓名='"&aqjh_name&"'"

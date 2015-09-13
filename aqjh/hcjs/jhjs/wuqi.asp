@@ -38,7 +38,7 @@ if(confirm("您现在将要购买的是 ["+name+"]  \n您现在可以点确定购买。")) {document
       <FORM action=wuqiok.asp method=post name=form1>
         <td width="4">&nbsp;
         <TR bgcolor="#307028"> 
-          <TD colSpan=5><marquee border='1' onmouseover=this.stop(); onmouseout=this.start();>欢迎您来到[爱情江湖]武器店……</marquee></TD>
+          <TD colSpan=5><marquee border='1' onmouseover=this.stop(); onmouseout=this.start();>欢迎您来到[快乐江湖]武器店……</marquee></TD>
         </TR>
         <TR> 
           <TD bgColor=#307028 rowSpan=5 width="4"><IMG height=379 src="images/index_02.gif" width=4></TD>

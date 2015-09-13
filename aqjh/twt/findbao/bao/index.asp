@@ -43,7 +43,7 @@ scrollbar-arrow-color:#000000;
 </head>
 
 <body  background='../../bg.gif' oncontextmenu=self.event.returnValue=false leftmargin="5" marginwidth="5">
-<div align="center"><font color="#FFFFFF"> </font> <font size="2"> <font color="#800000">[你花了88888两来到了爱情江湖宝物调查所，这里有各种都市人士从不同的地方打探到的藏宝消息]</font><br>
+<div align="center"><font color="#FFFFFF"> </font> <font size="2"> <font color="#800000">[你花了88888两来到了快乐江湖宝物调查所，这里有各种都市人士从不同的地方打探到的藏宝消息]</font><br>
 </font><font size="2"><br>
   </font> <font color="#008080" size="4"><b>孤 岛 冒 险</b></font><font size="2"> 
   </font> </div>
@@ -142,7 +142,7 @@ conn.close
 <font color="#FFFF00"> 
 &lt;&lt;寻宝必读&gt;&gt;</font> 
 </p> 
-        <p style="margin-left: 5; margin-right: 5; margin-bottom: 8"><font color="#FFFFFF">1、据说宝物都埋藏在另人闻风丧胆的</font><font color="#FFFF00">[爱情孤岛]</font><font color="#FFFFFF">，而且寻找到的机会可以说是微乎其微，而且随时有可能宝物没拿到手就意外死于孤岛了。</font><br> 
+        <p style="margin-left: 5; margin-right: 5; margin-bottom: 8"><font color="#FFFFFF">1、据说宝物都埋藏在另人闻风丧胆的</font><font color="#FFFF00">[快乐孤岛]</font><font color="#FFFFFF">，而且寻找到的机会可以说是微乎其微，而且随时有可能宝物没拿到手就意外死于孤岛了。</font><br> 
 <br> 
 <font color="#FFFFFF"> 
 2、宝物都是江湖中稀世珍宝，江湖黑白两道都想得到手呵，所以如果有谁拿到宝物的话可要保管好呵，因为您很快会成为帮派的</font><font color="#FFFF00">攻击对象</font><font color="#FFFFFF">呵。</font> 

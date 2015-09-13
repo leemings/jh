@@ -1,7 +1,7 @@
 <%@ LANGUAGE=VBScript codepage ="936" %>
 <%
 if session("aqjh_jhdj")<50 then
-	Response.Write "<script Language=Javascript>alert('提示：等级低于50级，爱情站长是不让你用金卡换会员的');location.href = 'javascript:history.go(-1)';</script>"
+	Response.Write "<script Language=Javascript>alert('提示：等级低于50级，快乐站长是不让你用金卡换会员的');location.href = 'javascript:history.go(-1)';</script>"
 	Response.End
 end if
 Set conn=Server.CreateObject("ADODB.CONNECTION")
@@ -32,7 +32,7 @@ set conn=nothing
 <html>
 <head>
 <meta http-equiv='content-type' content='text/html; charset=gb2312'>
-<title>爱情江湖总站免费会员申请系统-----金卡换免费会员</title>
+<title>快乐江湖总站免费会员申请系统-----金卡换免费会员</title>
 <link rel="stylesheet" href="../css.css">
 </head>
 <body bgcolor="#000080" background="BJ.jpg">
@@ -73,7 +73,7 @@ set conn=nothing
 #000000 solid">
 </p>
 </form>
-              <p align="center"><font face="方正舒体" size="5"><b><span style="background-color: #00FF00">爱情江湖,創意無限</span></b></font><font color="#000000"><%=Application("aqjh_chatroomname")%></font><font size="2"><br>
+              <p align="center"><font face="方正舒体" size="5"><b><span style="background-color: #00FF00">快乐江湖,創意無限</span></b></font><font color="#000000"><%=Application("aqjh_chatroomname")%></font><font size="2"><br>
                 </font></p></td>
 </tr>
 </table>

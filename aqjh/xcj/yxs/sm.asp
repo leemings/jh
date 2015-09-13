@@ -7,7 +7,7 @@ Response.CacheControl = "No-Cache"
 session("aqjh_jm")=session("aqjh_jm")+1
 if session("aqjh_jm")>30 then Response.Redirect "../chat/readonly/bomb.htm"
 %>
-<HTML><HEAD><TITLE>爱情江湖月薪领取—祝大家开心！^-^</TITLE>
+<HTML><HEAD><TITLE>快乐江湖月薪领取—祝大家开心！^-^</TITLE>
 <LINK href="lyy.css" rel=stylesheet></HEAD>
 <BODY background=BG.gif oncontextmenu=self.event.returnValue=false>
 <form method="POST" action="closeok.asp">
@@ -17,7 +17,7 @@ if session("aqjh_jm")>30 then Response.Redirect "../chat/readonly/bomb.htm"
 <TD width="373" background=M1.gif height=15>　</TD>
 <TD width="224" height=15><IMG src="T2.gif" border=0></TD></TR>
   <TR><TD width="11" background=M2.gif rowSpan=3 height="1"></TD>
-    <TD width="373" height=23><P align=center><SPAN lang=en>&copy;爱情会员月薪水领取说明</P></SPAN></TD> 
+    <TD width="373" height=23><P align=center><SPAN lang=en>&copy;快乐会员月薪水领取说明</P></SPAN></TD> 
     <TD width="224" background=M2.gif height=1 rowSpan=3></TD></TR> 
   <TR> 
     <TD width="373" height=1> 
@@ -37,7 +37,7 @@ if session("aqjh_jm")>30 then Response.Redirect "../chat/readonly/bomb.htm"
 <p><font color="#0000FF">第五：刚上线没达到15分钟的不能领</font></p>
 </td>      
           </tr>      
-<TR><TD align=middle width="441" height="1"> <SPAN lang=en>&copy;爱情江湖首创&nbsp;&nbsp;&nbsp;<a href="yxs.asp">返回上页</a>     
+<TR><TD align=middle width="441" height="1"> <SPAN lang=en>&copy;快乐江湖首创&nbsp;&nbsp;&nbsp;<a href="yxs.asp">返回上页</a>     
     </SPAN> </TD></TR>            
 </table>            
 <!=></TD></TR></form>            

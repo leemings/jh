@@ -14,7 +14,7 @@ if aqjh_name="" then Response.Redirect "../error.asp?id=440"
 <title><%=Application("aqjh_chatroomname")%>江湖门派排行</title>
 <LINK href="../css.css" rel=stylesheet>
 </head><body leftmargin="0" bgcolor="#FFFFFF" topmargin="7" background=../bg.gif>
-<p align=center><font size=3>爱情江湖门派属性排行</p>
+<p align=center><font size=3>快乐江湖门派属性排行</p>
 <table width="778" border="0" cellspacing="0" cellpadding="0">
 <tr><td width=70 valign="top"></td>
     <td width="603" align="center" valign="top"> 
@@ -55,7 +55,7 @@ do while not rs.bof and not rs.eof
             <div align="center"><a href="bx.asp?my=<%=aqjh_name%>&amp;id=<%=rs("a")%>" ><%=rs("a")%></a></div>
           </td>
           <td width="66" height="2"> 
-            <div align="center"><a href="bx1.asp?my=<%=aqjh_name%>&amp;id=<%=rs("a")%>" title='谢谢来到爱情做客，这里永远欢迎您~'>等级</a></div>
+            <div align="center"><a href="bx1.asp?my=<%=aqjh_name%>&amp;id=<%=rs("a")%>" title='谢谢来到快乐做客，这里永远欢迎您~'>等级</a></div>
           </td>
           <td width="40" height="2"> 
             <div align="center"><a href="bx2.asp?my=<%=aqjh_name%>&amp;id=<%=rs("a")%>" title='祝你财源滚滚~！'>金币</a></div>
@@ -89,7 +89,7 @@ set conn=nothing
     </td>
 </tr>
 </table>
-<p align="center"><font color="#000000" size=2>　<font color="#FF0000"> 欢迎来到爱情江湖，在这里我祝大家愉快~开心!</font><br>
+<p align="center"><font color="#000000" size=2>　<font color="#FF0000"> 欢迎来到快乐江湖，在这里我祝大家愉快~开心!</font><br>
 <font color="#0000FF">谁都想找一位好的老大照着,加入门派是没错的!</font></font>
 </body>
 </html>

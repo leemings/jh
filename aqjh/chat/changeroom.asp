@@ -47,7 +47,7 @@ end if
 '决战房的判断
 if application("aqjh_user")<>aqjh_name then
 if chatroomname=aqjh_chat2 and (Weekday(date())<>7 or Hour(time())<>21 or (Hour(time())=21 and Minute(time())>50)) then
-	response.write "<Script>alert('决战爱情只有在每周六的21:00-21:50分才可进入 \n现在时间"&time()&"！时间未到！请稍等！');parent.r.location.reload();</script>"
+	response.write "<Script>alert('决战快乐只有在每周六的21:00-21:50分才可进入 \n现在时间"&time()&"！时间未到！请稍等！');parent.r.location.reload();</script>"
 	response.end
 end if
 if chatroomname=aqjh_chat2 and aqjh_grade>5 then

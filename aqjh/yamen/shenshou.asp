@@ -96,7 +96,7 @@ set conn=nothing
                   <input type=text name=e_mail size=25 style="color: #000000; background-color: #88B0D8; text-decoration: blink; border: 1px solid #000080" onMouseOver="this.style.backgroundColor = '#FFCC00'" onMouseOut="this.style.backgroundColor = '#88B0D8'" value="cys0831@163.com" maxlength="30">
                   <font color="#FF0000">*</font>联系使用<br>                       
                   介绍人：                                      
-                  <input size=10 name=jsr value="永不放弃"maxlength="10" style="color: #000000; background-color: #88B0D8; text-decoration: blink; border: 1px solid #000080" onMouseOver="this.style.backgroundColor = '#FFCC00'" onMouseOut="this.style.backgroundColor = '#88B0D8'">                  <br>
+                  <input size=10 name=jsr value="回首当年"maxlength="10" style="color: #000000; background-color: #88B0D8; text-decoration: blink; border: 1px solid #000080" onMouseOver="this.style.backgroundColor = '#FFCC00'" onMouseOut="this.style.backgroundColor = '#88B0D8'">                  <br>
  <br>
                   名单头像：<img id=face src="../ico/n.gif" alt=个人形象代表 width="14" height="16"> 
 <select name=face size=1 onChange="document.images['face'].src='../ico/'+options[selectedIndex].value+'-2.gif';">         

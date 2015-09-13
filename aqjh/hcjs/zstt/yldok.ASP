@@ -64,7 +64,7 @@ conn.execute "update 用户 set 攻击=攻击+10000,防御=防御+10000,攻击加=攻击加+100,
 rs.close
 set rs=nothing	
 set conn=nothing
-says="<font color=#ff0000><b>【幽灵盾】爱情江湖" & aqjh_name & "</b>大侠，使用幽灵盾成功，增加攻击10000和防御10000，攻击防御上限上升100和200点,继续努力吧！当转生人就是好咯！！！）</font>"			'聊天数据
+says="<font color=#ff0000><b>【幽灵盾】快乐江湖" & aqjh_name & "</b>大侠，使用幽灵盾成功，增加攻击10000和防御10000，攻击防御上限上升100和200点,继续努力吧！当转生人就是好咯！！！）</font>"			'聊天数据
 says=replace(says,chr(39),"\'")
 says=replace(says,chr(34),"\"&chr(34))
 act="消息"

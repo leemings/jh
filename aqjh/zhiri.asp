@@ -16,7 +16,7 @@ Set Rs=conn.Execute(sql)
 %>
 <html>
 <head>
-<title>《爱情江湖》值班人员</title>
+<title>《快乐江湖》值班人员</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="css.css">
 </head>

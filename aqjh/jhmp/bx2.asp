@@ -132,5 +132,5 @@ set conn=nothing
 </td>
 </tr>
 <tr align="center">
-<td background="top3.gif" width="500" height="28"><font color="#FFFFFF">版权所有『爱情江湖总站』</font></td>
+<td background="top3.gif" width="500" height="28"><font color="#FFFFFF">版权所有『快乐江湖总站』</font></td>
 </tr></table></body></html>

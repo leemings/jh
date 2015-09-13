@@ -8,7 +8,7 @@
 <!--#include file="top.asp"-->
 <table width="760" border="0" cellspacing="1" cellpadding="0" align="center" bgcolor=#0080C0>
   <tr>
-    <td bgcolor="#0080C0" height=20 align=center colspan=2><font color=#ffffff>爱情江湖　回复</font></td>
+    <td bgcolor="#0080C0" height=20 align=center colspan=2><font color=#ffffff>快乐江湖　回复</font></td>
   </tr>
 <form name="form1" method="post" action="guest_re_save.asp?action=add">
 <input name="id" type="hidden" value="<%=request("id")%>">

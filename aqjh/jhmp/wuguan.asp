@@ -21,7 +21,7 @@ set conn=nothing
 %>
 <html>
 <link rel="stylesheet" href="../../css.css">
-<title>爱情江湖</title>
+<title>快乐江湖</title>
 <body leftmargin="0" topmargin="0" bgcolor="#CCCCCC" background="../bg.gif">
 <table border="0" cellspacing="0" cellpadding="0" width="97" align="center">
 <tr>
@@ -72,7 +72,7 @@ set conn=nothing
 </td>
 </tr>
 </table>
-<div align="center"><font color="#00FF66"><font color="#0000FF"><FONT color=#0000ff>&copy; 版权所有 2004-2005 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>爱情江湖</FONT></A></font></b></font>
+<div align="center"><font color="#00FF66"><font color="#0000FF"><FONT color=#0000ff>&copy; 版权所有 2004-2005 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>快乐江湖</FONT></A></font></b></font>
 </div>
 </body>
 </html>

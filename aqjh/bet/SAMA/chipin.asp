@@ -77,7 +77,7 @@ set conn=nothing
 </tr>
 <tr>
 <td colspan=10 height="16">
-<div align="center"><font size="-1"><%=Application("aqjh_chatroomname")%>赛马场，本程序由<a href="<%=Application("aqjh_homepage")%>" target="_blank"><%=Application("aqjh_chatroomname")%></a>永不放弃完成</font>！</div>
+<div align="center"><font size="-1"><%=Application("aqjh_chatroomname")%>赛马场，本程序由<a href="<%=Application("aqjh_homepage")%>" target="_blank"><%=Application("aqjh_chatroomname")%></a>回首当年完成</font>！</div>
 </td>
 <td colspan=4 align=right valign="top" height="16">
 <div align="center"><font size="-1">

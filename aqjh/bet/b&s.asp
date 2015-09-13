@@ -82,7 +82,7 @@ set conn=nothing
       </td>
     </tr>
   </table>
-<p align="center">版权所有≮爱情江湖总站≯</p>
+<p align="center">版权所有≮快乐江湖总站≯</p>
 </div>
 </BODY>
 </HTML>

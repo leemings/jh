@@ -6,7 +6,7 @@ i=i+1;}window.close();}
 </script>
 <html><head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>巧嘴娃娃_爱情江湖</title>
+<title>巧嘴娃娃_快乐江湖</title>
 </head>
 <Style>
 body {font-family:"宋体"; font-size: 9pt;}

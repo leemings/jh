@@ -37,7 +37,7 @@ Response.CacheControl = "No-Cache"
           <TD align=middle><FONT 
             color=#0000ff>&copy; 版权所有 2004-2005 </FONT><A 
             href="http://www.7758530.com/" target=_blank><FONT 
-            color=#0000ff>爱情江湖网</FONT></A> </TD></TR>
+            color=#0000ff>快乐江湖网</FONT></A> </TD></TR>
 </table>
 <!=></TD></TR>
 <TR><TD width="3%" height=6><IMG src="pic/T3.gif" border=0></TD>

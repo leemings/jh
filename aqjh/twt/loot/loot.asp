@@ -149,7 +149,7 @@ connt.close%>
           </tr>
          <td><hr>
           <tr>
-            <td width="100%" align="center">版权所有『爱情江湖总站』</td>
+            <td width="100%" align="center">版权所有『快乐江湖总站』</td>
           </tr>
         </table>
   </center>

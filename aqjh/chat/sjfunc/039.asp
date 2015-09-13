@@ -87,7 +87,7 @@ lbsw=to1 & "的等级太低了,不够120级，不能奖励！"
 else
 zstemp=add(rs("w5"),"养猪卡",5)
 conn.execute "update 用户 set 记录2=true,w5='"&zstemp&"',会员金卡=会员金卡+120 where 姓名='" & to1 &"'"
-lbsw="谢谢<font color=blue>[%%]</font>您的支持，您已经120以上，<font color=blue>[##]</font>我代表爱情谢谢你，并奖励您养猪卡<font color=red>5</font>张，快去养您的小猪猪吧，再送您会员金卡<font color=red>120</font>块，多带朋友来玩哦！</font>"
+lbsw="谢谢<font color=blue>[%%]</font>您的支持，您已经120以上，<font color=blue>[##]</font>我代表快乐谢谢你，并奖励您养猪卡<font color=red>5</font>张，快去养您的小猪猪吧，再送您会员金卡<font color=red>120</font>块，多带朋友来玩哦！</font>"
 end if
 rs.close
 set rs=nothing	

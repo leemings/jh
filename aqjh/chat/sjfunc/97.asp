@@ -91,7 +91,7 @@ if DateDiff("d",rs("结婚记念日"),date())<2 then
 	set rs=nothing
 	conn.close
 	set conn=nothing
-	Response.Write "<script Language=Javascript>alert('提示：您的爱情还不够稳定，等2天后吧！');parent.f2.document.af.mdsx.checked=true;parent.m.location.reload();</script>"
+	Response.Write "<script Language=Javascript>alert('提示：您的快乐还不够稳定，等2天后吧！');parent.f2.document.af.mdsx.checked=true;parent.m.location.reload();</script>"
 	response.end
 end if
 zz=rs("配偶")
@@ -114,7 +114,7 @@ zstemp=huaname&"|"&huasex&"|"&now()&"|1000|1000|1000|0"&"|"&now()
 conn.execute "update 用户 set 银两=银两-" & yin & ",金币=金币-"&jinbi&",体力=体力-"&tili&",操作时间=now(),boy='"&zstemp&"',boysex='"&boysex&"' where 姓名='"&aqjh_name&"'"
 conn.execute "update 用户 set 操作时间=now(),boy='"&zstemp&"',boysex='"&boysex&"' where 姓名='"&zz&"'"
 conn.execute "insert into l(a,b,c,d,e) values (now(),'"& aqjh_name &"','"& zz &"','操作','生了个乖宝宝')"
-xiaohai="##觉得婚姻太寂寞，经过一番思想斗争，##与<font color=red>"&zz&"</font>亲亲爱爱，经[爱情]计生所所长的批准，生下了一个<font color=red>"&huasex&"婴</font>，名字叫<font color=red>"&huaname&"</font>"
+xiaohai="##觉得婚姻太寂寞，经过一番思想斗争，##与<font color=red>"&zz&"</font>亲亲爱爱，经[快乐]计生所所长的批准，生下了一个<font color=red>"&huasex&"婴</font>，名字叫<font color=red>"&huaname&"</font>"
 rs.close
 set rs=nothing	
 conn.close

@@ -132,7 +132,7 @@ set rs=nothing
 conn.close
 set conn=nothing
 if Instr(Application("aqjh_useronlinename"&session("nowinroom"))," "&poxm&" ")<>0 then
-says="<font color=red>【情人小筑】</font><font color=#8000FF>"&aqjh_name&"在爱情江湖的情人小筑为他和"&poxm&"租下了<font color=red>※"&fwm&"※</font>房间，"&aqjh_name&"已在小屋中等候，"&poxm&"快去呀，呵呵..</font>"		'聊天数据
+says="<font color=red>【情人小筑】</font><font color=#8000FF>"&aqjh_name&"在快乐江湖的情人小筑为他和"&poxm&"租下了<font color=red>※"&fwm&"※</font>房间，"&aqjh_name&"已在小屋中等候，"&poxm&"快去呀，呵呵..</font>"		'聊天数据
 act="消息"
 towhoway=0
 towho="大家"

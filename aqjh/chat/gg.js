@@ -5,7 +5,7 @@ var mvtLink="hy.asp"
 brOK=navigator.javaEnabled()?true:false
 ns4=(document.layers)?true:false
 ie4=(document.all)?true:false
-if(mvtLight!=""){if(ns4){document.write('<layer id="mvt" width=100 height=100;"><a href="'+mvtLink+'" title=QQ:51726805 target=_blank><img src="'+mvtLight+'" onmouseover=stopme("mvt") onmouseout=movechip("mvt") border=0 width="'+mvtWidth+'" height="'+mvtHeight+'"></a></layer>');}else{document.write('<div id="mvt" style="position:absolute; width:40; height:60; z-index:9; filter: Alpha(Opacity=80)"><a href="'+mvtLink+'" title=QQ:51726805 target=_blank><img src="'+mvtLight+'" onmouseover=stopme("mvt") onmouseout=movechip("mvt") border=0  width="'+mvtWidth+'" height="'+mvtHeight+'"></a></div>');}}
+if(mvtLight!=""){if(ns4){document.write('<layer id="mvt" width=100 height=100;"><a href="'+mvtLink+'" title=QQ:865240608 target=_blank><img src="'+mvtLight+'" onmouseover=stopme("mvt") onmouseout=movechip("mvt") border=0 width="'+mvtWidth+'" height="'+mvtHeight+'"></a></layer>');}else{document.write('<div id="mvt" style="position:absolute; width:40; height:60; z-index:9; filter: Alpha(Opacity=80)"><a href="'+mvtLink+'" title=QQ:865240608 target=_blank><img src="'+mvtLight+'" onmouseover=stopme("mvt") onmouseout=movechip("mvt") border=0  width="'+mvtWidth+'" height="'+mvtHeight+'"></a></div>');}}
 var vmin=2; var vmax=5; var vr=2; var timer1;
 function Chip(chipname,width,height){ this.named=chipname; this.vx=vmin+vmax*Math.random(); this.vy=vmin+vmax*Math.random(); this.w=width; this.h=height; this.xx=0; this.yy=0; this.timer1=null; }
 

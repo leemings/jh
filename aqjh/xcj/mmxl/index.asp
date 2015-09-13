@@ -13,7 +13,7 @@ end if
 </head>
 <body topmargin="5" bgcolor="#000000" leftmargin="5">
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-<font size="3">爱情首创门派绝学修炼圣地</font></font></p>
+<font size="3">快乐首创门派绝学修炼圣地</font></font></p>
       <TABLE align=left border=1 borderColor=#cccccc borderColorDark=#ffffff          
 borderColorLight=#000000 cellPadding=0 cellSpacing=0          
 style="FONT-SIZE: 9pt" width="600" bordercolordard="#ffffff">          

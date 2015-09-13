@@ -15,6 +15,6 @@
   还会杀死你的......</font></p>
 <p align="center">&nbsp;</p>
 <p align="center">&nbsp;</p>
-<p align="center"><font size="2" color="#000000">≮爱情江湖总站≯</font></p>
+<p align="center"><font size="2" color="#000000">≮快乐江湖总站≯</font></p>
 </BODY>
 </HTML>

@@ -137,7 +137,7 @@ p{font-size:16;color:#000000;}
 <tr><td bgcolor=#C6BD9B>
 <table height="260">
 <tr>
-          <td height="37"> <strong><font color="#800080">爱情江湖--修炼会员金卡:</font></strong> 
+          <td height="37"> <strong><font color="#800080">快乐江湖--修炼会员金卡:</font></strong> 
         <tr>
           <td height="182" valign="top"><img src="jk.gif" width="50" height="40" border="0"><font color="#FF0000">辛辛苦苦修炼了一天，你获得金币1个,金卡1个！消耗体力50万法力10万银两500万，五行之金木土水减少100，智力减少80点！</font><font color="#FF00FF"><Br>
             </font><Br>

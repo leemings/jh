@@ -27,7 +27,7 @@ if aqjh_grade<9 then
 end if
 f=Minute(time())
 if f<1 or f>15 then
-	Response.Write "<script language=JavaScript>{alert('永不放弃现在还没有发放卡片，寻找卡片时间为每小时的前15分钟！');window.close();}</script>"
+	Response.Write "<script language=JavaScript>{alert('回首当年现在还没有发放卡片，寻找卡片时间为每小时的前15分钟！');window.close();}</script>"
 	Response.End 
 end if
 act=1
@@ -84,7 +84,7 @@ if hydj<3 then
         set rs=nothing
         conn.close
         set conn=nothing
-	Response.Write "<script language=JavaScript>{alert('提示：会员等级为3级才可以进行寻找卡片！购买加QQ51726805 ');}</script>"
+	Response.Write "<script language=JavaScript>{alert('提示：会员等级为3级才可以进行寻找卡片！购买加QQ865240608 ');}</script>"
 	Response.End
 end if
 
@@ -94,7 +94,7 @@ randomize
 r=int(rnd*12)+1
 select case r
 case 1
-xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到大方的<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>福神卡</font></b>]<img src='picwords/1.gif'>张。"
+xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到大方的<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>福神卡</font></b>]<img src='picwords/1.gif'>张。"
 	rs.open "SELECT w5 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	kapian=add(rs("w5"),"福神卡",1)
 	conn.execute "update 用户 set  w5='"&kapian&"' where 姓名='"&aqjh_name&"'"
@@ -102,7 +102,7 @@ xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到
 
 
 case 2
-xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到大方的<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>查税卡</font></b>]<img src='picwords/1.gif'>张。"
+xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到大方的<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>查税卡</font></b>]<img src='picwords/1.gif'>张。"
 	rs.open "SELECT w5 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	kapian=add(rs("w5"),"查税卡",1)
 	conn.execute "update 用户 set  w5='"&kapian&"' where 姓名='"&aqjh_name&"'"
@@ -110,67 +110,67 @@ xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到
 
 	
 case 3
-xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到大方的<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>涨钱卡</font></b>]<img src='picwords/1.gif'>张。"
+xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到大方的<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>涨钱卡</font></b>]<img src='picwords/1.gif'>张。"
 	rs.open "SELECT w5 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	kapian=add(rs("w5"),"涨钱卡",1)
 	conn.execute "update 用户 set  w5='"&kapian&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 4
-xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到大方的<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>练功卡</font></b>]<img src='picwords/1.gif'>张。"
+xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到大方的<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>练功卡</font></b>]<img src='picwords/1.gif'>张。"
 	rs.open "SELECT w5 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	kapian=add(rs("w5"),"练功卡",1)
 	conn.execute "update 用户 set  w5='"&kapian&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 5
-xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到大方的<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>亲亲卡</font></b>]<img src='picwords/2.gif'>张。"
+xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到大方的<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>亲亲卡</font></b>]<img src='picwords/2.gif'>张。"
 	rs.open "SELECT w5 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	kapian=add(rs("w5"),"亲亲卡",2)
 	conn.execute "update 用户 set  w5='"&kapian&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 
 case 6
-xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到大方的<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>种花卡</font></b>]<img src='picwords/2.gif'>张。"
+xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到大方的<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>种花卡</font></b>]<img src='picwords/2.gif'>张。"
 	rs.open "SELECT w5 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	kapian=add(rs("w5"),"种花卡",2)
 	conn.execute "update 用户 set  w5='"&kapian&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 
 case 7
-xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到大方的<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>健身卡</font></b>]<img src='picwords/1.gif'>张。"
+xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到大方的<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>健身卡</font></b>]<img src='picwords/1.gif'>张。"
 	rs.open "SELECT w5 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	kapian=add(rs("w5"),"健身卡",1)
 	conn.execute "update 用户 set  w5='"&kapian&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 
 case 8
-xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到大方的<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>抱抱卡</font></b>]<img src='picwords/2.gif'>张。"
+xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到大方的<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>抱抱卡</font></b>]<img src='picwords/2.gif'>张。"
 	rs.open "SELECT w5 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	kapian=add(rs("w5"),"抱抱卡",2)
 	conn.execute "update 用户 set  w5='"&kapian&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 9
-xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到大方的<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>财神卡</font></b>]<img src='picwords/1.gif'>张。"
+xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到大方的<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>财神卡</font></b>]<img src='picwords/1.gif'>张。"
 	rs.open "SELECT w5 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	kapian=add(rs("w5"),"财神卡",1)
 	conn.execute "update 用户 set  w5='"&kapian&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 10
-xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到大方的<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>养猪卡</font></b>]<img src='picwords/1.gif'>张。"
+xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到大方的<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>养猪卡</font></b>]<img src='picwords/1.gif'>张。"
 	rs.open "SELECT w5 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	kapian=add(rs("w5"),"养猪卡",1)
 	conn.execute "update 用户 set  w5='"&kapian&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 case 11
-xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。本想乘此机会大捞一把，哪知刚进门就踩到狗大便，武功减少200，真是衰啊！~"
+xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。本想乘此机会大捞一把，哪知刚进门就踩到狗大便，武功减少200，真是衰啊！~"
 	rs.open "SELECT 武功 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	conn.execute "update 用户 set  武功=武功-200 where 姓名='"&aqjh_name&"'"
 	rs.close
 case 12
-xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。赶紧大步特步的跑过去，哪知碰到小石头，摔了一绞，体力减少200点，背到家了~！"
+xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。赶紧大步特步的跑过去，哪知碰到小石头，摔了一绞，体力减少200点，背到家了~！"
 	rs.open "SELECT 体力 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	conn.execute "update 用户 set  体力=体力-200 where 姓名='"&aqjh_name&"'"
 	rs.close

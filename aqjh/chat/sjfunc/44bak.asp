@@ -300,7 +300,7 @@ case "练功卡"
 	kapian="<font color=green>【卡片】<font color=" & saycolor & ">##使用了练功卡，武功可是大幅度上涨，看来江湖又要不太平了！</font>"
 case "珍宝卡"
 	conn.Execute ("update 用户 set 保护=false,宝物修练=0,宝物='"& Application("aqjh_baowuname") &"' where 姓名='"&aqjh_name &"'")
-	Response.Write "<script language=JavaScript>{alert('您使用了珍宝卡，获得爱情至宝1枚！');}</script>"
+	Response.Write "<script language=JavaScript>{alert('您使用了珍宝卡，获得快乐至宝1枚！');}</script>"
 	kapian="<font color=green>【卡片】<font color=" & saycolor & ">##运气真是好，居然使用了传说中的珍宝卡，获得了江湖至宝"&Application("aqjh_baowuname")&"<img src=img/z1.gif>1枚！大家还不快抢！……</font>"
 case "攻防卡"
 	conn.Execute ("update 用户 set 攻击=攻击+300,防御=防御+300  where  姓名='" & aqjh_name &"'")
@@ -450,7 +450,7 @@ case "亲亲卡"
         exit function
     end if
     conn.Execute ("update 用户 set allvalue=allvalue+50  where 姓名='" &aqjh_name&"'")
-	Response.Write "<script language=JavaScript>{alert('["&aqjh_name&"]使用了加点卡，泡点数上涨50点！此卡由永不放弃制作！');}</script>"
+	Response.Write "<script language=JavaScript>{alert('["&aqjh_name&"]使用了加点卡，泡点数上涨50点！此卡由回首当年制作！');}</script>"
     kapian="<table border=0><tr><td><img src=card/ai1.gif></td><td><font color=green><bgsound src=123.wav loop=1>【卡片】<font color=" &saycolor& ">"&aqjh_name&"对"&to1&"使用亲亲卡,终于如愿以尝的与"&to1&"在江湖的大厅疯狂的<img src=card/ai.gif>起来!真叫人羡慕啊！同时"&aqjh_name&"的泡点上升50点！你看！把"&aqjh_name&"乐得都跳起来了！大叫：<img src=card/qin.gif></font></td></tr></table>" 
 case "变性卡"
 	rs.close

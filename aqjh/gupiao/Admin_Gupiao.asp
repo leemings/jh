@@ -440,11 +440,11 @@ sub newgupiao()
 	</tr>				
 	<tr>
 		<td BGCOLOR="#E4E4EF">开盘价格</td>
-		<td bgcolor="#FFFFFF">&nbsp;<input type=text name=openprice value="10.00"> 元</td>
+		<td bgcolor="#FFFFFF">&nbsp;<input type=text name=openprice value="完善0"> 元</td>
 	</tr>
 	<tr>
 		<td BGCOLOR="#E4E4EF">当前价格</td>
-		<td bgcolor="#FFFFFF">&nbsp;<input type=text name=nowprice value="10.00"> 元</td>
+		<td bgcolor="#FFFFFF">&nbsp;<input type=text name=nowprice value="完善0"> 元</td>
 	</tr>
 	<tr>
 		<td BGCOLOR="#E4E4EF">状态</td>

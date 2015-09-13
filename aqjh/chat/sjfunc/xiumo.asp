@@ -83,7 +83,7 @@ if rs("种族")<>"魔族"  then
 end if
 if rs("武功")<rs("等级")*aqjh_nlsx+2000+rs("武功加") then
 	conn.execute "update 用户 set 魔力=魔力+1,知质=知质-20,智力=智力-10,操作时间=now() where 姓名='" & aqjh_name &"'"
-	dazhuo="##在魔宫里修炼地狱重生，突破了本身的修为，爱情老魔特奖励他魔力<font color=red>+1</font>点!"
+	dazhuo="##在魔宫里修炼地狱重生，突破了本身的修为，快乐老魔特奖励他魔力<font color=red>+1</font>点!"
 	rs.close
 	set rs=nothing	
 	conn.close

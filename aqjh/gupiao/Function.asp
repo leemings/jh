@@ -47,7 +47,7 @@ sub endinfo(flag)
 		response.Write "<b>产生错误的可能原因：</b><br><br><li>您是否仔细阅读了股市指南，可能您还没有登陆或者不具有使用当前功能的权限"	
 		response.Write "<font color=red>"&errmess&"</font>"
 	else
-		response.Write "<b>操作成功：</b><br><br><li>欢迎光临爱情江湖股票交易中心，请返回进行其它操作"
+		response.Write "<b>操作成功：</b><br><br><li>欢迎光临快乐江湖股票交易中心，请返回进行其它操作"
 		response.Write "<font color=navy>"&sucmess&"</font>"
 	end if		
 %>	

@@ -59,7 +59,7 @@ if fn1=Application("aqjh_xinyu") then
 	conn.close
 	set rs=nothing
 	set conn=nothing
-	xingyu="★爱情风采★：恭喜##您中了爱情风采福利采票，号码："&fn1&"<img src='img/251.gif'>奖金500万<img src='img/251.gif'>，大家表示恭喜！"
+	xingyu="★快乐风采★：恭喜##您中了快乐风采福利采票，号码："&fn1&"<img src='img/251.gif'>奖金500万<img src='img/251.gif'>，大家表示恭喜！"
 else
 	rs.open "select 银两 FROM 用户 WHERE 姓名='" & aqjh_name &"'",conn,2,2
 	if rs("银两")<1000 then
@@ -75,7 +75,7 @@ else
 	set rs=nothing
 	conn.close
 	set conn=nothing
-	xingyu="★爱情风采★：##购买了采票，为爱情福利事业作贡献！号码："&fn1&"没有中奖,还有下一次，还有机会！奖金：500万"
+	xingyu="★快乐风采★：##购买了采票，为快乐福利事业作贡献！号码："&fn1&"没有中奖,还有下一次，还有机会！奖金：500万"
 end if
 end function
 %>

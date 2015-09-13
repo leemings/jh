@@ -9,9 +9,9 @@
 <table width="643" border="1" cellpadding="5" cellspacing="5" background="b2.gif" height="383">
   <tr bgcolor="#FFFFFF">
     <td width="617" background="BG5.JPG" height="365"> 
-      <p align=center><font color="#FF6600"><b><strong><blink>爱情江湖免费会员申请系统</blink></strong></b></font></p>
+      <p align=center><font color="#FF6600"><b><strong><blink>快乐江湖免费会员申请系统</blink></strong></b></font></p>
       <div> 
-        <p>当你的等级达到爱情江湖规定的等级时,可以在线申请到爱情江湖免费会员一到三级一个月！具体說明如下:</p>
+        <p>当你的等级达到快乐江湖规定的等级时,可以在线申请到快乐江湖免费会员一到三级一个月！具体說明如下:</p>
         <p>1.当 <span style="background-color: #00FF00">50&lt;你的等级&lt;55</span>-----获得自助申请免费<font color="#FF00FF"><b>一级会员一个月</b></font>的资格。。如符合条件,<a href="reg1.asp"><font color="#0000FF"><u>请点<b>这里</b>进行<b>申请</b></u></font></a></p> 
         <p>2.当 <span style="background-color: #FF00FF">250&lt;你的等级&lt;260</span>-----获得自助申请免费<font color="#FF00FF"><b>二级会员2个月</b></font>的资格。。如符合条件,<a href="reg2.asp"><font color="#0000FF"><u>请点<b>这里</b>进行<b>申</b><b>请</b></u></font></a></p> 
         <p>3.当 <span style="background-color: #FF00FF"><font color="#CCFFFF">500&lt;你的等级&lt;501</font></span>-----获得自助申请免费<font color="#FF00FF"><b>三级会员3个月</b></font>的资格。。如符合条件,<a href="reg3.asp"><font color="#0000FF"><u>请点<b>这里</b>进行<b>申</b><b>请</b></u></font></a></p> 
@@ -72,7 +72,7 @@
           具体说明请</b><a href="../../chat/hy.asp" target="_blank"><font color="#0000FF"><b>点击这里!</b></font></a></font></p>
         <p align="center">　<br>
           <br>
-          <%=Application("aqjh_name")%>  <font color="#0000FF"><a href="http://WWW.7758530.com"><b>爱情江湖总站首创</b></a> Copyright  
+          <%=Application("aqjh_name")%>  <font color="#0000FF"><a href="http://WWW.7758530.com"><b>快乐江湖总站首创</b></a> Copyright  
         2004-2008</font></p>
       </div>
       </td>

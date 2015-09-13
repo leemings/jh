@@ -48,14 +48,14 @@ function mengzhu()
 Set conn=Server.CreateObject("ADODB.CONNECTION")
 Set rs=Server.CreateObject("ADODB.RecordSet")
 conn.open Application("aqjh_usermdb")
-if chatroomname<>"决战爱情" then
- mengzhu="[##]申请盟主只有在[决战爱情]房间内进行！"
+if chatroomname<>"决战快乐" then
+ mengzhu="[##]申请盟主只有在[决战快乐]房间内进行！"
  exit function
 end if
 '判断房间在线
 for i=0 to chatroomnum
  chatroomname=Application("aqjh_chatroomname"&i)
- if chatroomname="决战爱情" then
+ if chatroomname="决战快乐" then
 	online=split(trim(Application("aqjh_useronlinename"&i)),"  ")
 	onlinenum=ubound(online)+1
 	onlinenow=onlinenow+onlinenum

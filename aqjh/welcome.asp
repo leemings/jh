@@ -21,7 +21,7 @@ rs.close
 %>
 <html>
 <head>
-<title>『<%=Application("aqjh_chatroomname")%>』-版本≮爱情江湖love9.9≯图形版</title>
+<title>『<%=Application("aqjh_chatroomname")%>』-版本≮快乐江湖love9.9≯图形版</title>
 <LINK href="home2.files/css.css" rel=stylesheet>
 <style>
 BODY{
@@ -363,7 +363,7 @@ if (theObj) theObj.style.visibility = visStr;
 <area shape="rect" coords="154,156,210,188" onmouseover="drs('<b>∷武器商店∷</b><br>闯荡江湖没有武器可<br>是危险大大的'); return true;" onclick="window.open('hcjs/jhjs/wuqi.asp','aqjh_win','left=0,scrollbars=yes,resizable=yes,width=550,height=450')" 
       onmouseout="nd(); return true;" href="#">
 <area shape="rect" coords="78,153,127,188" href=# onClick="window.open('hcjs/jhjs/dan.asp','aqjh_win','scrollbars=1,resizable=0,width=700,height=400')" onmouseover="drs('<b>∷江湖当铺∷</b><br>没钱了，把你值钱的东西拿来当吧！'); return true;" onmouseout="nd(); return true;">
-<area shape="rect" coords="0,157,46,188" href=# onClick="window.open('jhjd/jd.asp','aqjh_win','scrollbars=0,resizable=0,width=740,height=450')"  onmouseover="drs('<b>∷爱情酒店∷</b><br>来此喝酒可以增加属<br>性和状态，不过要看<br>看你腰包鼓不鼓了'); return true;" onmouseout="nd(); return true;">
+<area shape="rect" coords="0,157,46,188" href=# onClick="window.open('jhjd/jd.asp','aqjh_win','scrollbars=0,resizable=0,width=740,height=450')"  onmouseover="drs('<b>∷快乐酒店∷</b><br>来此喝酒可以增加属<br>性和状态，不过要看<br>看你腰包鼓不鼓了'); return true;" onmouseout="nd(); return true;">
 <area shape="rect" coords="169,97,213,134" href=# onClick="window.open('jhmp/wuguan.asp','aqjh_win','scrollbars=0,resizable=0,width=700,height=400')"  onmouseover="drs('<b>∷江湖密室∷</b><br>有师傅的可以来密室里习武！'); return true;" onmouseout="nd(); return true;">
 <area shape="rect" coords="186,52,234,86" onmouseover="drs('<b>∷江湖帮派∷</b><br>闯荡江湖找个好老大<br>照顾准没错'); return true;" onclick="window.open('jhmp/index.asp','aqjh_win','left=0,scrollbars=yes,resizable=yes,width=760,height=450')" onmouseout="nd(); return true;" href="#">
 <area shape="rect" coords="46,96,94,128" href=# onClick="window.open('hcjs/pub/pub.asp','aqjh_win','scrollbars=1,resizable=0,width=700,height=400')"  onmouseover="drs('<b>∷龙门客栈∷</b><br>跑了一天，一定累了吧，来这里歇歇脚！'); return true;" onmouseout="nd(); return true;">
@@ -397,7 +397,7 @@ if (theObj) theObj.style.visibility = visStr;
 <area shape="rect" coords="86,32,129,73" onmouseover="drs('<b>∷江湖花店∷</b><br>很漂亮的鲜花，应有尽有...'); return true;" onclick="window.open('hcjs/jhjs/hua.asp','aqjh_win','left=0,scrollbars=1,resizable=1,width=670,height=460')" onmouseout="nd(); return true;" href="#">
 <area shape="rect" coords="0,48,68,87" onmouseover="drs('<b>∷可爱宠物店∷</b><br>各类宠物应有尽有，<br>大侠要不要搞只回去<br>玩玩？还可以帮助你<br>攻击敌人！'); return true;" onclick="window.open('hcjs/jhjs/cw.asp','aqjh_win','left=0,scrollbars=yes,resizable=yes,width=550,height=400')" 
       onmouseout="nd(); return true;" href="#">
-<area shape="rect" coords="15,0,63,25" href=# onClick="window.open('yamen/yiyuan.asp','aqjh_win','scrollbars=1,resizable=0,width=700,height=400')" onmouseover="drs('<b>∷人民医院∷</b><br>爱情江湖第一人民医院...！'); return true;" onmouseout="nd(); return true;">
+<area shape="rect" coords="15,0,63,25" href=# onClick="window.open('yamen/yiyuan.asp','aqjh_win','scrollbars=1,resizable=0,width=700,height=400')" onmouseover="drs('<b>∷人民医院∷</b><br>快乐江湖第一人民医院...！'); return true;" onmouseout="nd(); return true;">
 </map>
 <map name="m_home2_r12_c2">
 <area shape="rect" coords="47,171,122,208" onmouseover="drs('<b>∷转世投胎∷</b><br>这里是转世投胎轮回盘，通过它你可以到另一个世界...'); return true;" onclick="window.open('HCJS/zstt/zs.asp','aqjh_win','left=0,scrollbars=0,resizable=0,width=690,height=440')" 

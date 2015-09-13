@@ -66,7 +66,7 @@ set conn=nothing
           </tr> 
         </table> 
 <p><font color="#FFFF00" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-<img border="0" src="gem01.gif"></font><font size="2" color="#0000FF">爱情江湖独创 
+<img border="0" src="gem01.gif"></font><font size="2" color="#0000FF">快乐江湖独创 
 2005-01-12</font></p>
 </body> 
 </html>

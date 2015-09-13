@@ -69,7 +69,7 @@ rs.close
 set rs=nothing
 conn.close
 set conn=nothing
-says="<font color=red>【极品合成】["&aqjh_name&"]</font><font color=blue>合成了爱情终极武器[<font color=red>"&wqname&"</font>]，称霸爱情的日子不远了!</font>"
+says="<font color=red>【极品合成】["&aqjh_name&"]</font><font color=blue>合成了快乐终极武器[<font color=red>"&wqname&"</font>]，称霸快乐的日子不远了!</font>"
 call showchat(says)
 %>
 <script Language="Javascript">

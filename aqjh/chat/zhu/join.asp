@@ -37,7 +37,7 @@ if nowsj>=30 then
         Application.Lock
 	Application("aqjh_jointime")=""
         Application.UnLock
-	Response.Write "<script language=JavaScript>{alert('【爱情江湖网】提示：邀请加入组有效时间30秒，过期作废。');window.close();}</script>"
+	Response.Write "<script language=JavaScript>{alert('【快乐江湖网】提示：邀请加入组有效时间30秒，过期作废。');window.close();}</script>"
 	Response.End
 end if
 Set conn=Server.CreateObject("ADODB.CONNECTION")

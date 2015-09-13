@@ -156,4 +156,4 @@ width=600>
     <TD align=middle width=70><A  
       href="laohurou.asp"><FONT color=#ff0000  
       size=2>生产</FONT></A></TD></TR></TBODY></TABLE></DIV> 
-<P align=center><FONT color=#c0c0c0 size=2>爱情江湖独家首创</FONT></P></BODY></HTML>
+<P align=center><FONT color=#c0c0c0 size=2>快乐江湖独家首创</FONT></P></BODY></HTML>

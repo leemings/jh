@@ -75,7 +75,7 @@ rs.close
 	set conn=nothing
 Response.End
 end if
-sljk="爱情江湖站长看到[##]泡点的辛苦，已经连续在线<font color=red>"&mycd&"</font>分钟了，因此送他<img src='picwords/2.gif'>个金卡作为奖励,月积分减少<img src='picwords/2.gif'><img src='picwords/0.gif'><img src='picwords/0.gif'><img src='picwords/0.gif'>点！"
+sljk="快乐江湖站长看到[##]泡点的辛苦，已经连续在线<font color=red>"&mycd&"</font>分钟了，因此送他<img src='picwords/2.gif'>个金卡作为奖励,月积分减少<img src='picwords/2.gif'><img src='picwords/0.gif'><img src='picwords/0.gif'><img src='picwords/0.gif'>点！"
 rs.close
 set rs=nothing	
 conn.close

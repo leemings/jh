@@ -174,13 +174,13 @@ End Sub
 <body bgcolor="#000000" text="#FF9900">
 <table width=401 height="227" border=3 align=center cellpadding="5" cellspacing="10" bordercolor="#6633CC">
   <tr bgcolor="#FFFFFF" align="center"> 
-      <td width="367" height="252" bgcolor="#000000"><div align="center"><b>恭喜你从<font color="#FF0000">爱情江湖</font>总站那里得到了<br>
+      <td width="367" height="252" bgcolor="#000000"><div align="center"><b>恭喜你从<font color="#FF0000">快乐江湖</font>总站那里得到了<br>
         <font color="#66FF00"><%=lw%></font></b><br>
 <br>
 <br>
 <br>
 <br>
-[爱情江湖]</div></td>
+[快乐江湖]</div></td>
   </tr>
 </table>
 </body>

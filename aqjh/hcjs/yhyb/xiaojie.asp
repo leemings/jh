@@ -96,5 +96,5 @@ set connt=nothing
 </table>
 <div align="center"><br>
   <a href="index.asp">返回</a></div><br><br>
-<div align="center"><font color="#000000"><b>版权:『爱情江湖总站』</b></font></div>
+<div align="center"><font color="#000000"><b>版权:『快乐江湖总站』</b></font></div>
 </BODY></HTML>

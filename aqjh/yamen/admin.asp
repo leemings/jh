@@ -101,5 +101,5 @@ set conn=nothing
 </table>
 <div align="center"><br>
 <font color="#000000" size="-1"><br>
-【授权:<%=Application("aqjh_user")%> 序列号:<%=Application("aqjh_sn")%>】 </font><br><br>≮爱情江湖总站≯</div>
+【授权:<%=Application("aqjh_user")%> 序列号:<%=Application("aqjh_sn")%>】 </font><br><br>≮快乐江湖总站≯</div>
 </body></html>

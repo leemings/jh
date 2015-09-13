@@ -1,6 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <!-- saved from url=(0019)http://www.7758530.com-->
-<HTML><HEAD><TITLE>爱情江湖总站汇款一览表</TITLE>
+<HTML><HEAD><TITLE>快乐江湖总站汇款一览表</TITLE>
 <META http-equiv=Content-Type content="text/html; charset=gb2312"><LINK 
 href="hy/1.css" type=text/css rel=stylesheet>
 <META content="MSHTML 6.00.2600.0" name=GENERATOR></HEAD>
@@ -84,6 +84,6 @@ href="hy/1.css" type=text/css rel=stylesheet>
         <TR vAlign=center align=left>
           <TD bgColor=#ffffff 
   colSpan=3>&nbsp;</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
-<P align=center>Tel:(0)13635716119,QQ:51726805<BR>
+<P align=center>Tel:(0)13635716119,QQ:865240608<BR>
   <BR><IMG height=48 
 src="hy/biaoshi.gif" width=40> </P></BODY></HTML>

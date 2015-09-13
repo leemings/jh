@@ -36,7 +36,7 @@ else
 	lb3="心情日记1"
 end if
 %>
-<html><head><title>爱情江湖-日记个人注册</title><meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<html><head><title>快乐江湖-日记个人注册</title><meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <SCRIPT language=JavaScript>
 function textCounter(field, countfield, maxlimit) {
 if (field.value.length > maxlimit)field.value = field.value.substring(0, maxlimit);

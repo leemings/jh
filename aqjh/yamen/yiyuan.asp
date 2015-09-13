@@ -12,7 +12,7 @@ if aqjh_name="" then Response.Redirect "../error.asp?id=210"
 %>
 <html>
 <head>
-<title><%=Application("aqjh_chatroomname")%>-爱情医院</title>
+<title><%=Application("aqjh_chatroomname")%>-快乐医院</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 <style type="text/css">td           { font-family: 宋体; font-size: 9pt }
 body         { font-family: 宋体; font-size: 9pt }
@@ -29,7 +29,7 @@ underline }
 <table width="700" border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td width="318"><font size="4">&nbsp;</font></td>
-<td width="460"><font color="#FF3300" size="4"><b>欢迎光临爱情医院</b></font> </td>
+<td width="460"><font color="#FF3300" size="4"><b>欢迎光临快乐医院</b></font> </td>
 </tr>
 </table>
 <br>

@@ -16,7 +16,7 @@ if aqjh_name="" then Response.Redirect "../error.asp?id=440"
 <table border="0" cellspacing="0" cellpadding="0" width="97" align="center">
 <tr>
 <td height="81" valign="top">
-      <div align="center"><font color="#000000"><b><font color=blue><%=aqjh_name%></font>光临爱情孤儿院</b></font></div>
+      <div align="center"><font color="#000000"><b><font color=blue><%=aqjh_name%></font>光临快乐孤儿院</b></font></div>
 <form method=POST action='gryok.asp'>
 <table width="300" align="center">
 <tr>
@@ -53,7 +53,7 @@ if aqjh_name="" then Response.Redirect "../error.asp?id=440"
 </td>
 </tr>
 </table>
-<div align="center"><font color="#00FF66"><b><font color="#0000FF">版权所有『爱情江湖总站』</font></b></font>
+<div align="center"><font color="#00FF66"><b><font color="#0000FF">版权所有『快乐江湖总站』</font></b></font>
 </div>
 </body>
 </html>

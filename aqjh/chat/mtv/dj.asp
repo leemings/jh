@@ -4,7 +4,7 @@ if session("aqjh_name")="" then response.end
 song=Request.QueryString("song")
 'response.write "<center><bgsound src="&song&" loop=-1 width=150 height=60 autostart=true></center>"
 %>
-<title>爱情点歌台</title><body background=../bg.gif oncontextmenu=self.event.returnValue=false>
+<title>快乐点歌台</title><body background=../bg.gif oncontextmenu=self.event.returnValue=false>
 <center>
 <object id="mPlayer1" width=200 height=60 classid="CLSID:6BF52A52-394A-11D3-B153-00C04F79FAA6" type=application/x-oleobject standby="Loading Windows Media Player components...">
 <param name="URL" value="<%=song%>">

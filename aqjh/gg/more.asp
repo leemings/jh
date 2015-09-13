@@ -8,7 +8,7 @@ aqjh_name=Session("aqjh_name")
 aqjh_grade=Session("aqjh_grade")
 %>
 <html>
-<title>爱情江湖公告</title>
+<title>快乐江湖公告</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <LINK href="style.css" rel=stylesheet></head><body background=images/bg.gif>
 <%
@@ -89,7 +89,7 @@ Loop%>
     </td>
   </tr>
 </table>
-<p align=center>爱情江湖</p></body></html>
+<p align=center>快乐江湖</p></body></html>
 <%
 end if
 rs.close

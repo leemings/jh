@@ -108,7 +108,7 @@ rs.open "select * from fw",conn
 		  conn.close
 		  set conn=nothing%>
         </table><br>
-<center>≮爱情江湖总站≯</center>
+<center>≮快乐江湖总站≯</center>
       </TD>
 </form>
 </body>

@@ -83,7 +83,7 @@ window.moveTo(40,30);
 <script language="javascript">
 <!--
 function clock(){i=i-1
-document.title="爱情江湖花园支持在线游戏，本窗口将在"+i+"秒后自动关闭!";
+document.title="快乐江湖花园支持在线游戏，本窗口将在"+i+"秒后自动关闭!";
 if(i>0)setTimeout("clock();",1000);
 else self.close();}
 var i=30

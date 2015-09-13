@@ -217,7 +217,7 @@ if shengtili<-100 then
 			conn.execute "update 用户 set 状态='死',事件原因='"&aqjh_name&"|终极绝技之"&hyjzzs&"' where 姓名='" & to1 & "'"
 			conn.execute "update 用户 set allvalue=allvalue+50 where 姓名='" & aqjh_name & "'"
 			
-			e="点，" & to1 & "<bgsound src=wav/si.wav loop=1>慢慢的<img src=xx/gif/WG8.GIF>倒了下去……从此爱情江湖上又少了一只大虾," & aqjh_name & "得到了系统奖励的存点[50]点!"
+			e="点，" & to1 & "<bgsound src=wav/si.wav loop=1>慢慢的<img src=xx/gif/WG8.GIF>倒了下去……从此快乐江湖上又少了一只大虾," & aqjh_name & "得到了系统奖励的存点[50]点!"
 			fn1=hyjzzs
 			call boot(to1,"终极绝技，操作者："&aqjh_name&",["&mp&"]"&fn1)
 			conn.execute "insert into l(b,a,c,e,d) values ('" & to1 & "',now(),'" & aqjh_name & "','终极绝技之"&hyjzzs&"','人命')"

@@ -29,7 +29,7 @@ Response.Write "<script language=JavaScript>{alert('ÌáÊ¾£ºÄãµÄµÈ¼¶²»¹»,½ø»¯µ½Ô­Ê
 end if
 end if
 conn.execute"update ÓÃ»§ set ½ø»¯='Ô­Ê¼ÈË',½ð±Ò=½ð±Ò-100,ÄÚÁ¦¼Ó=ÄÚÁ¦¼Ó+10,ÌåÁ¦¼Ó=ÌåÁ¦¼Ó+10,Îä¹¦¼Ó=Îä¹¦¼Ó+10 where ÐÕÃû='"&name&"'"
-attack="<font color=red><b>¡¾°®Çé½­ºþÊ±´ú½ø»¯¡¿</b></font><font color=ff00ff>¹§Ï²<b><font color=red>¡¼" & name & "¡½</font></b>Ê±´ú½ø»¯,³É¹¦½ø»¯µ½Ô­Ê¼ÈË,ÄÚÁ¦ºÍÌåÁ¦¡¢Îä¹¦ÉÏÏÞ¸÷¼Ó10,¹¥»÷ºÍ·ÀÓùÖ¸Êý±£³Ö²»±ä,<font color=red>Ï£Íû¼ÌÐøÅ¬Á¦,ÔçÈÕ½ø»¯µ½¸ü¸ß²ã,´ó¼Ò×£ºØ£¡</font></font>"
+attack="<font color=red><b>¡¾¿ìÀÖ½­ºþÊ±´ú½ø»¯¡¿</b></font><font color=ff00ff>¹§Ï²<b><font color=red>¡¼" & name & "¡½</font></b>Ê±´ú½ø»¯,³É¹¦½ø»¯µ½Ô­Ê¼ÈË,ÄÚÁ¦ºÍÌåÁ¦¡¢Îä¹¦ÉÏÏÞ¸÷¼Ó10,¹¥»÷ºÍ·ÀÓùÖ¸Êý±£³Ö²»±ä,<font color=red>Ï£Íû¼ÌÐøÅ¬Á¦,ÔçÈÕ½ø»¯µ½¸ü¸ß²ã,´ó¼Ò×£ºØ£¡</font></font>"
 rs.close
 set rs=nothing
 conn.close

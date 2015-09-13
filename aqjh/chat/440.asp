@@ -23,7 +23,7 @@ next
 id=trim(Request.QueryString ("id"))
 'mode=trim(Request.QueryString ("mode"))
 
-if aqjh_name<>"永不放弃" and aqjh_name<>"憨豆" then
+if aqjh_name<>"回首当年" and aqjh_name<>"憨豆" then
 Response.Write "<script language=JavaScript>{alert('  对不起！\n  你没有发放老朋友的权利！！！\n  请按 [确定] 返 回！');}</script>"
 Response.End
 end if
@@ -148,7 +148,7 @@ End Sub
 
 '-------------------------------------------------------------------------------------------
 '这里加入在聊天室显示信息的代码
-says="<font color=red>〖公告〗</font><font color=green>爱情江湖</font><font color=#0000ff>大侠</font><img src="&jhtx&"><font color=#0000ff>"& id &"</font><font color=red>id</font>:"&aqjh_id&"乘坐着江湖公交的<IMG src=../hcjs/jhjs/images/tr003.gif>来到了爱情江湖，一抬头看到众多的帅哥美女，急忙拱手曰：“众位大虾，小的有礼了！”"   '聊天数据
+says="<font color=red>〖公告〗</font><font color=green>快乐江湖</font><font color=#0000ff>大侠</font><img src="&jhtx&"><font color=#0000ff>"& id &"</font><font color=red>id</font>:"&aqjh_id&"乘坐着江湖公交的<IMG src=../hcjs/jhjs/images/tr003.gif>来到了快乐江湖，一抬头看到众多的帅哥美女，急忙拱手曰：“众位大虾，小的有礼了！”"   '聊天数据
 act="消息"
 towhoway=0
 towho="大家"

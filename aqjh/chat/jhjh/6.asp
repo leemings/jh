@@ -29,7 +29,7 @@ Response.Write "<script language=JavaScript>{alert('ÌáÊ¾£ºÄãµÄ×Ê¸ñ²»¹»,½ø»¯µ½°×¸
 end if
 end if
 conn.execute"update ÓÃ»§ set ½ø»¯='°×¸ÖÈË',½ð±Ò=½ð±Ò-9000,ÄÚÁ¦¼Ó=ÄÚÁ¦¼Ó+600,ÌåÁ¦¼Ó=ÌåÁ¦¼Ó+60,Îä¹¦¼Ó=Îä¹¦¼Ó+60 where ÐÕÃû='"&name&"'"
-attack="<font color=red><b>¡¾°®Çé½­ºþÊ±´ú½ø»¯¡¿</b></font><font color=ff00ff>¹§Ï²<b><font color=red>¡¼" & name & "¡½</font></b>Ê±´ú½ø»¯°×¸ÖÈË³É¹¦,ÄÚÁ¦ºÍÌåÁ¦¡¢Îä¹¦ÉÏÏÞ¸÷¼Ó60,<font color=red>Ï£Íû¼ÌÐøÅ¬Á¦,ÔçÈÕ½ø»¯µ½¸ü¸ß²ã,´ó¼Ò×£ºØ£¡</font></font>"
+attack="<font color=red><b>¡¾¿ìÀÖ½­ºþÊ±´ú½ø»¯¡¿</b></font><font color=ff00ff>¹§Ï²<b><font color=red>¡¼" & name & "¡½</font></b>Ê±´ú½ø»¯°×¸ÖÈË³É¹¦,ÄÚÁ¦ºÍÌåÁ¦¡¢Îä¹¦ÉÏÏÞ¸÷¼Ó60,<font color=red>Ï£Íû¼ÌÐøÅ¬Á¦,ÔçÈÕ½ø»¯µ½¸ü¸ß²ã,´ó¼Ò×£ºØ£¡</font></font>"
 rs.close
 set rs=nothing
 conn.close

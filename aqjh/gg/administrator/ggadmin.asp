@@ -132,6 +132,6 @@ set conn=nothing
   <a href="list.asp?page=<%=page+1%>">下一页</A> 
   <%end if%>
 </p>
-<p align="center">本程序由永不放弃编写</p>
+<p align="center">本程序由回首当年编写</p>
 </body>
 </html>

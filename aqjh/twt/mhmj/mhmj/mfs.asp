@@ -111,8 +111,8 @@ rs.open "select * from 怪物 where 姓名='"&gwm&"'",conn,2,2
 <% rs.close %>
 </table><br><br><br><br>
 <table align=center width="600">
-<div align=center><a href=index.asp><font color=ffff00>【返回上页】</font></a> <a href="javascript:location.reload()"><font color=00ff00>【刷新本页】</font></a><br><br><br><font size="2">版权所有 <font color="#FFFFFF">『爱情江湖网』</font></font> 
-  <font color="#FF0000" size="2">永不放弃</font><font size="2"> 修改制作  请保留版权</font></div>
+<div align=center><a href=index.asp><font color=ffff00>【返回上页】</font></a> <a href="javascript:location.reload()"><font color=00ff00>【刷新本页】</font></a><br><br><br><font size="2">版权所有 <font color="#FFFFFF">『快乐江湖网』</font></font> 
+  <font color="#FF0000" size="2">回首当年</font><font size="2"> 修改制作  请保留版权</font></div>
 
 
 

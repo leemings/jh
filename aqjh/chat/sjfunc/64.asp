@@ -42,7 +42,7 @@ if len(fn1)>3 then
 	Response.Write "<script language=JavaScript>{alert('心情状态长度不可大于3个字符！');}</script>"
 	Response.End
 end if
-badword="站长,爱情,阿南,射精,奸,死,屎,妈,娘,尻,操,王八,逼,贱,狗,婊,表,靠,叉,插,干,鸡巴,睾丸,蛋,包皮,龟头,屄,赑,妣,肏,奶,尻,屌,作爱,做爱,床,抱抱,鸡八,处女,打炮,十八摸,爸,我儿,·,主席,泽民,法伦,洪志,六扇门,官府"
+badword="站长,快乐,阿南,射精,奸,死,屎,妈,娘,尻,操,王八,逼,贱,狗,婊,表,靠,叉,插,干,鸡巴,睾丸,蛋,包皮,龟头,屄,赑,妣,肏,奶,尻,屌,作爱,做爱,床,抱抱,鸡八,处女,打炮,十八摸,爸,我儿,·,主席,泽民,法伦,洪志,六扇门,官府"
 bad=split(badword,",")
 for i=0 to ubound(bad)-1
 	if InStr(LCase(fn1),bad(i))<>0 then 

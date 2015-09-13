@@ -67,7 +67,7 @@ if rs("体力")<20000  then
 end if
 if rs("体力")<rs("等级")*aqjh_nlsx+2000+rs("体力加") then
 	conn.execute "update 用户 set 智力=智力+60,体力=体力-10000,操作时间=now() where 姓名='" & aqjh_name &"'"
-	dazhuo="##<bgsound src=wav/dz.wav loop=1>在爱情江湖智力院向智力哒摩拜师，经提点后有所领悟<bgsound src=wav/dz.wav loop=1>,疲劳增加使得体力失去-10000，智力提升+60,从今世上将多了一位有智之人，希望能把智慧发挥正途上!"
+	dazhuo="##<bgsound src=wav/dz.wav loop=1>在快乐江湖智力院向智力哒摩拜师，经提点后有所领悟<bgsound src=wav/dz.wav loop=1>,疲劳增加使得体力失去-10000，智力提升+60,从今世上将多了一位有智之人，希望能把智慧发挥正途上!"
 	rs.close
 	set rs=nothing	
 	conn.close
@@ -76,7 +76,7 @@ if rs("体力")<rs("等级")*aqjh_nlsx+2000+rs("体力加") then
 end if
 if rs("体力加")<=rs("等级")*15000 then
 	conn.execute "update 用户 set 智力=智力+80,体力=体力-10000,操作时间=now() where 姓名='" & aqjh_name &"'"
-	dazhuo="##<bgsound src=wav/dz.wav loop=1>在爱情江湖智力院向智力哒摩拜师，经提点后有所领悟<bgsound src=wav/dz.wav loop=1>,疲劳增加使得体力失去<font color=red>-10000</font>点,智力提升提升<font color=red>+80</font>点,一代功名万古枯!"
+	dazhuo="##<bgsound src=wav/dz.wav loop=1>在快乐江湖智力院向智力哒摩拜师，经提点后有所领悟<bgsound src=wav/dz.wav loop=1>,疲劳增加使得体力失去<font color=red>-10000</font>点,智力提升提升<font color=red>+80</font>点,一代功名万古枯!"
 else
 	Response.Write "<script language=JavaScript>{alert('现在你的上限满了，等升了级再练吧');}</script>"
 	rs.close

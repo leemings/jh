@@ -24,7 +24,7 @@ body         { font-family: 宋体; font-size: 12px;}
 <body bgcolor='#006699' background="<%=chatimage%>" leftmargin="0" topmargin="0" oncontextmenu=self.event.returnValue=false>
 <table border="1" width="140" cellspacing="0" cellpadding="0" bgcolor="#006699" height="16" align="center" bordercolorlight="#000000" bordercolordark="#FFFFFF" background="<%=chatimage%>">
   <tr> 
-        <td width="100%" height="28"> <div align="center"><font color="red" size="2"><strong>爱情赌场</strong></font></div></td>
+        <td width="100%" height="28"> <div align="center"><font color="red" size="2"><strong>快乐赌场</strong></font></div></td>
       </tr>
     </table>
 	

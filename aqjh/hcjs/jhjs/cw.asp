@@ -12,7 +12,7 @@ if aqjh_name="" then Response.Redirect "../../error.asp?id=440"
 %>
 <html>
 <head>
-<title>爱情江湖宠物店</title><LINK href="../../css.css" type=text/css rel=stylesheet>
+<title>快乐江湖宠物店</title><LINK href="../../css.css" type=text/css rel=stylesheet>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 </head>
 <body bgcolor="#FFFFFF" text="#000000" background="huaimg/bg.gif" topmargin="0">

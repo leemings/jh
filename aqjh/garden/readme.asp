@@ -21,5 +21,5 @@
 （注：参赛之人的种花不得脱离主题，否则种的再好，也只是二、三等奖的料，只有漂亮的鲜花加上完美的主题才能荣获一等奖）<br>
 <b>领奖说明：领奖之前一定要把自己的花给收了，要不然你的花就会被系统清理掉！</b>
 </td></tr>
-</table><br><br><FONT color=#0000ff>&copy; 版权所有 2005-2006 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>爱情江湖网</FONT></A>
+</table><br><br><FONT color=#0000ff>&copy; 版权所有 2005-2006 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>快乐江湖网</FONT></A>
 </body></html>

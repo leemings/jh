@@ -75,7 +75,7 @@ set rs=nothing
 	Response.Write "<script language=javascript>alert('你的江湖["& hygrade &"]级会员兑换完成！');history.back();</script>"
 conn.close
 set conn=nothing
-says="官方消息</font>爱情江湖大侠"& aqjh_name &"转换2级别会员成功,非会员的朋友赶快到会员转换处,去转换会员吧!"&mess			'聊天数据
+says="官方消息</font>快乐江湖大侠"& aqjh_name &"转换2级别会员成功,非会员的朋友赶快到会员转换处,去转换会员吧!"&mess			'聊天数据
 says=replace(says,"'","\'")
 says=replace(says,chr(34),"\"&chr(34))
 act="消息"

@@ -36,8 +36,8 @@ if Page<1 Then Page=1
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <meta http-equiv="Content-Language" content="zh-cn">
-<meta name="keywords" content="爱情江湖,Woodcoal Design">
-<meta name="description" content="永不放弃,Woodcoal Design">
+<meta name="keywords" content="快乐江湖,Woodcoal Design">
+<meta name="description" content="回首当年,Woodcoal Design">
 <title>魔幻表情</title>
 <style type="text/css">
 <!--

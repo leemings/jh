@@ -106,7 +106,7 @@ p{font-size:16;color:#000000;}
 <tr><td bgcolor=#C6BD9B>
 <table height="260">
 <tr>
-          <td height="37"> <strong><font color="#800080">爱情江湖独创--门派修炼:</font></strong> 
+          <td height="37"> <strong><font color="#800080">快乐江湖独创--门派修炼:</font></strong> 
         <tr>
           <td height="182" valign="top"><font color="#FF0000">你在门派修炼圣地修炼第二阶段武功，经过10分钟的修炼，小有成就，基本战斗力提高25点（积分）！</font><font color="#FF00FF"><Br>
             </font><Br>

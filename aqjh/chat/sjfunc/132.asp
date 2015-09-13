@@ -53,7 +53,7 @@ else
     conn.Execute ("update 用户 set sl='冰神',slsj=now()+1,times=times+3 where 姓名='" & aqjh_name &"'")
     Session("xrfs")=true
 end if
-xrfs="[##]初次来爱情江湖，突然出现一道金光，神灵赋在身上了！获得三天冰神护身！"
+xrfs="[##]初次来快乐江湖，突然出现一道金光，神灵赋在身上了！获得三天冰神护身！"
 rs.close
 set rs=nothing	
 conn.close
@@ -68,7 +68,7 @@ else
     conn.Execute ("update 用户 set sl='冰神',slsj=now()+1,times=times+3 where 姓名='" & towho &"'")
     conn.Execute ("update 用户 set 道德=道德+100 where 姓名='" & aqjh_name &"'")
 end if
-xrfs="[%%]初次来爱情江湖，[##]对[%%]使用了新人冰神，突然出现一道金光，神灵赋在[%%]身上了！获得一天爱情之神护身，泡点速度2.5倍！[%%]连声道谢！[##]道德上升100点！"
+xrfs="[%%]初次来快乐江湖，[##]对[%%]使用了新人冰神，突然出现一道金光，神灵赋在[%%]身上了！获得一天快乐之神护身，泡点速度2.5倍！[%%]连声道谢！[##]道德上升100点！"
 rs.close
 set rs=nothing	
 conn.close

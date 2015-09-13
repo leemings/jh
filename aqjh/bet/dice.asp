@@ -60,7 +60,7 @@ set conn=nothing
 <p align="center">警告：每次赌钱，你的魅力值会扣 <font color="#FF0000">1 </font>！<br>
 <br>
 </p>
-<p align="center">版权所有≮爱情江湖总站≯</p>
+<p align="center">版权所有≮快乐江湖总站≯</p>
 </div>
 
 </BODY>

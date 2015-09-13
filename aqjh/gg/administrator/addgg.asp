@@ -73,4 +73,4 @@ rs.open "select * from l",conn
     </tr>
   </table>
 </form>
-<div align="center">本程序由爱情江湖总站<font color="#0000FF">永不放弃</font>制作</div>
+<div align="center">本程序由快乐江湖总站<font color="#0000FF">回首当年</font>制作</div>

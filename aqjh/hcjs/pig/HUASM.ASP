@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>爱情江湖养猪说明</title>
+<title>快乐江湖养猪说明</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 </head>
 
@@ -70,7 +70,7 @@ border=0 background="images/dw.gif">
     </td>
   </tr>
   <tr> 
-      <td> <p align="center"><font color="#FFFFFF"><a href="http://www.7758530.com"><font color="#FF0000">爱情江湖网制作</font></a> 
+      <td> <p align="center"><font color="#FFFFFF"><a href="http://www.7758530.com"><font color="#FF0000">快乐江湖网制作</font></a> 
           <font color="#000000">授权--<%=Application("aqjh_chatroomname")%></font></font></p>
     </td>
   </tr>

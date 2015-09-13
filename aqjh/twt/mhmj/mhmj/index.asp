@@ -1,12 +1,12 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=gb2312">
-<title>爱情江湖总站--梦幻魔界</title>
+<title>快乐江湖总站--梦幻魔界</title>
 </head>
 <body oncontextmenu=window.event.returnValue=false bgcolor="#FFCCFF" text="black" link="blue" vlink="purple" alink="red">
 <table align="center" cellpadding="0" cellspacing="0" width=500>
 <tr>
-<td align=center><font size="4" face="楷体_GB2312"><b class="3d"><font size="5">爱情江湖总站 
+<td align=center><font size="4" face="楷体_GB2312"><b class="3d"><font size="5">快乐江湖总站 
   之 初级怪物区</font></b></font><br><font size="2" color=blue><b>进入条件：<font size="2" color=red>50级--100级的玩家可以进入<br><font size="2" color=blue>物品暴率：</font>怪物所暴的物品类别为：特殊物品、药品、金币、经验（存点）</font></b></td>
 </tr>
 <tr>
@@ -17,7 +17,7 @@
 </td>
 </tr>
 <tr>
-<td align=center><br><font size="4" face="楷体_GB2312"><b class="3d"><font size="5">爱情江湖总站 
+<td align=center><br><font size="4" face="楷体_GB2312"><b class="3d"><font size="5">快乐江湖总站 
   之 中级怪物区</font></b></font><br><font size="2" color=blue><b>进入条件：<font size="2" color=red>100级以上的玩家可以进入<br><font size="2" color=blue>物品暴率：</font>怪物所暴的物品类别为：特殊物品、药品、极品装备、金币、经验（存点）</font></b></td></td>
 </tr>
 <tr>
@@ -28,7 +28,7 @@
 </td>
 </tr>
 <tr>
-<td align=center><br><font size="4" face="楷体_GB2312"><b class="3d"><font size="5"><b>爱情江湖总站 
+<td align=center><br><font size="4" face="楷体_GB2312"><b class="3d"><font size="5"><b>快乐江湖总站 
   之 高级怪物区</font></b></font><br><font size="2" color=blue>进入条件：<font size="2" color=red>只有会员允许进入<br><font size="2" color=blue>物品暴率：</font>怪物所暴的物品类别为：特殊物品、药品、极品装备、卡片、配药、金币、经验（存点）</font></b></td></td>
 </tr>
 <tr>
@@ -39,8 +39,8 @@
 </td>
 </tr>
 <tr>
-<td align=center><font size="2">此程序由 <font color="#008000">『爱情江湖总站』</font></font> 
-  <font color="#FF0000" size="2">永不放弃</font><font size="2"> 编写制作 请保留版权</font> 
+<td align=center><font size="2">此程序由 <font color="#008000">『快乐江湖总站』</font></font> 
+  <font color="#FF0000" size="2">回首当年</font><font size="2"> 编写制作 请保留版权</font> 
 </td>
 </tr>
 </table>

@@ -37,6 +37,6 @@ call chatsay(act,towhoway,towho,saycolor,addwordcolor,addsays,says)
 
 
 function sjgg(fn1)
-sjgg="欢迎新人光临爱情江湖总站，希望这里能成为你温馨的家！~请使用功能一区的♂新人福神♀,有问题请在论坛里发表</a>！<marquee behavior=alternate>" & fn1 & " 颁布：<font color=red>##</font></marquee>"
+sjgg="欢迎新人光临快乐江湖总站，希望这里能成为你温馨的家！~请使用功能一区的♂新人福神♀,有问题请在论坛里发表</a>！<marquee behavior=alternate>" & fn1 & " 颁布：<font color=red>##</font></marquee>"
 end function 
 %>

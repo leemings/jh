@@ -44,7 +44,7 @@ rs.movenext
 Response.Flush
 loop 
 conn.close
-says="<font color=black>【清理房屋】</font><font color=red>站长[ " & aqjh_name &" ]对爱情江湖房屋进行了清理，所有无主房屋都被清理完毕！</font>"			'聊天数据
+says="<font color=black>【清理房屋】</font><font color=red>站长[ " & aqjh_name &" ]对快乐江湖房屋进行了清理，所有无主房屋都被清理完毕！</font>"			'聊天数据
 says=replace(says,"'","\'")
 says=replace(says,chr(34),"\"&chr(34))
 act="消息"

@@ -17,7 +17,7 @@ if session("aqjh_jm")>30 then Response.Redirect "../chat/readonly/bomb.htm"
 <TD width="373" background=M1.gif height=15>　</TD>
 <TD width="244" height=15><IMG src="T2.gif" border=0></TD></TR>
   <TR><TD width="11" background=M2.gif rowSpan=3 height="1"></TD>
-    <TD width="373" height=1><P align=center><SPAN lang=en>&copy;爱情江湖职业技能说明</P></SPAN></TD> 
+    <TD width="373" height=1><P align=center><SPAN lang=en>&copy;快乐江湖职业技能说明</P></SPAN></TD> 
     <TD width="244" background=M2.gif height=1 rowSpan=3></TD></TR> 
   <TR> 
     <TD width="373" height=1> 
@@ -46,7 +46,7 @@ if session("aqjh_jm")>30 then Response.Redirect "../chat/readonly/bomb.htm"
 </td>  
           </tr>  
 <TR><TD align=middle width="882" height="1" colspan="2"> <SPAN lang=en>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
-    &copy;爱情江湖首创&nbsp;&nbsp;<a href="gjs.asp">返回上页</a></SPAN> </TD></TR>    
+    &copy;快乐江湖首创&nbsp;&nbsp;<a href="gjs.asp">返回上页</a></SPAN> </TD></TR>    
 </table>    
 <!=></TD></TR></form>    
 <TR><TD width="11" height=14><IMG src="T3.gif" border=0></TD>    

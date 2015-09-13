@@ -116,6 +116,6 @@ if s<5 then
 <br>
   [杀伤力=<b><font color="#0000FF">((男方攻击+女方攻击)</font></b><font color="#FF0000">-对方防御</font>)+所用内力]<br>
 <br><br>
-<center>版权所有『爱情江湖总站』
+<center>版权所有『快乐江湖总站』
 </font></p>
 </body></html>

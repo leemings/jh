@@ -64,7 +64,7 @@ set conn=nothing
 </td>
 </tr>
 </table>
-<div align="center"><font color="#00FF66"><font color="#0000FF">≮爱情江湖总站≯</font></font>
+<div align="center"><font color="#00FF66"><font color="#0000FF">≮快乐江湖总站≯</font></font>
 </div>
 </body>
 </html>

@@ -18,7 +18,7 @@ rs.open "Select * from 用户 where 姓名='" & aqjh_name &"'",conn,3,3
 %>
 <html><head>
 <link rel="stylesheet" href="../../css.css">
-<title>茅厕--[爱情江湖社区首创]</title>
+<title>茅厕--[快乐江湖社区首创]</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <style fprolloverstyle>A:hover {color: #FF0000; font-weight: bold}
 </style>

@@ -6,7 +6,7 @@
 function show(myshow){Layer2.style.visibility="visible";mess.innerHTML=myshow;}
 function hidden(){Layer2.style.visibility="hidden";}
 document.onmousedown=click;
-function click(){if(event.button==2){alert("欢迎来到爱情江湖！");}}
+function click(){if(event.button==2){alert("欢迎来到快乐江湖！");}}
 function shLayers(n,n1){
 if(n.style.visibility=="visible"){n.style.visibility="hidden";}else if(n.style.visibility=="hidden"){n.style.visibility="visible";}
 if(n1.style.visibility=="visible"){n1.style.visibility="hidden";}
@@ -27,7 +27,7 @@ if(n1.style.visibility=="visible"){n1.style.visibility="hidden";}
 <div id="Layer1" style="position: absolute; width: 150px; height: 113px; z-index: 2; left: 61px; top: 156px; background-color: #009900; layer-background-color: #009900; visibility: hidden; background-image: url('IMAGES/bg2.jpg'); layer-background-image: url(IMAGES/bg2.jpg); border: 1px none #000000">
 <table width="100%" border="0">
 <tr> <form name="form" method="post" action="xiuxiok.asp?act=1">
-<td height="106" align="center"><font color="#0000FF">爱情江湖单身侠客休息</font><font color="#FFFFFF"><br>
+<td height="106" align="center"><font color="#0000FF">快乐江湖单身侠客休息</font><font color="#FFFFFF"><br>
 <br>
 <font color="#000000">选择时间: 
 <select name="sj">
@@ -79,7 +79,7 @@ if(n1.style.visibility=="visible"){n1.style.visibility="hidden";}
 <table width="100%" height="115" border="0">
 <tr>
 <form name="form" method="post" action="xiuxiok.asp?act=2">
-<td height="105" align="center"> <font color="#0000FF">爱情江湖已婚侠客休息</font><font color="#FFFFFF"><br>
+<td height="105" align="center"> <font color="#0000FF">快乐江湖已婚侠客休息</font><font color="#FFFFFF"><br>
 <br><font color="#000000">21-23点开放,每次休息时间为8小时,增加体力<strong><font color="#0000FF">100</font></strong>万点</font><br><br>
 <input type="submit" name="Submit" value="确定"></font></td>
 </form>

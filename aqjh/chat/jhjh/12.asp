@@ -28,7 +28,7 @@ Response.Write "<script language=JavaScript>{alert('лАй╬ё╨дЦ╣двй╦Я╡╩╧╩,╫Ь╩╞╣╫втс
 	Response.End 
 end if
 conn.execute"update сц╩╖ set ╫Ь╩╞='втсихк',╫П╠р=╫П╠р-80000,дза╕╪с=дза╕╪с+120,лЕа╕╪с=лЕа╕╪с+120,нД╧╕╪с=нД╧╕╪с+120 where пуцШ='"&name&"'"
-attack="<font color=red><b>║╬╟╝гИ╫╜╨Чй╠╢З╫Ь╩╞║©</b></font><font color=ff00ff>╧╖о╡<b><font color=red>║╪" & name & "║╫</font></b>й╠╢З╫Ь╩╞втсихкЁи╧╕,дза╕╨млЕа╕║╒нД╧╕иооч╦В╪с120,<font color=red>оёмШ╪лпЬе╛а╕,тГху╫Ь╩╞╣╫╦Э╦ъ╡Ц,╢С╪рвё╨ьё║</font></font>"
+attack="<font color=red><b>║╬©Люж╫╜╨Чй╠╢З╫Ь╩╞║©</b></font><font color=ff00ff>╧╖о╡<b><font color=red>║╪" & name & "║╫</font></b>й╠╢З╫Ь╩╞втсихкЁи╧╕,дза╕╨млЕа╕║╒нД╧╕иооч╦В╪с120,<font color=red>оёмШ╪лпЬе╛а╕,тГху╫Ь╩╞╣╫╦Э╦ъ╡Ц,╢С╪рвё╨ьё║</font></font>"
 rs.close
 set rs=nothing
 conn.close

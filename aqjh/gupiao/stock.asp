@@ -479,7 +479,7 @@ end if
 	<tr>  
 		<td  height=32 background="images/footer.gif" valign=top>
 			<table border=0 width="100%" cellspacing=0 cellpadding=5 bordercolorlight="#ffffff" bordercolordark="#ffffff">
-				<tr valign="bottom"><td id="clock" width="185" align="left">欢迎您</td><td width="*" id="CopyRight" align="center">制作小组：爱情江湖总站</td><td width="170" align="right">页面执行时间：<%=FormatNumber((timer()-startime)*1000,3)%>毫秒</td></tr>
+				<tr valign="bottom"><td id="clock" width="185" align="left">欢迎您</td><td width="*" id="CopyRight" align="center">制作小组：快乐江湖总站</td><td width="170" align="right">页面执行时间：<%=FormatNumber((timer()-startime)*1000,3)%>毫秒</td></tr>
 			</table>	
 		</td>
 	</tr>

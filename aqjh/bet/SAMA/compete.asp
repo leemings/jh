@@ -72,7 +72,7 @@ msg=msg&"</table></div></body>"
 erase horse
 Response.Write msg
 %>
-<html><title><%=Application("aqjh_chatroomname")%>赛马程序，由永不放弃完成！</title>
+<html><title><%=Application("aqjh_chatroomname")%>赛马程序，由回首当年完成！</title>
 <body bgcolor="#CCCCCC">
 <br>
 </html>

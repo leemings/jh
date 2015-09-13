@@ -14,7 +14,7 @@ conn.open Application("aqjh_usermdb")
 %>
 <html>
 <head>
-<title>爱情江湖鲜花店</title>
+<title>快乐江湖鲜花店</title>
 <link rel="stylesheet" href="../../css.css">
 </head>
 <body topmargin="6" leftmargin="0" bgcolor="#FFFFFF" background="bk2.gif" oncontextmenu=self.event.returnValue=false>
@@ -102,5 +102,5 @@ if rs.recordcount<>0 then
 </td>
 </tr>
 </table>
-<p align=center><FONT color=#0000ff>&copy; 版权所有 2005-2006 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>爱情江湖网</FONT></A></p>
+<p align=center><FONT color=#0000ff>&copy; 版权所有 2005-2006 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>快乐江湖网</FONT></A></p>
 </body>

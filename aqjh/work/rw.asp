@@ -96,7 +96,7 @@ A:hover 	{font-family:verdana,arial,helvetica,Tahoma; text-decoration: none; col
     <tr>
       <td width="88%" height="70" align="center"><font size="2">&nbsp;&nbsp;&nbsp;&nbsp;</font>
                     <p><font color="red" size="2"><br>
-                    <marquee style="font-weight: bold" scrollamount="5">爱情江湖--→完成任务会有意想不到的收获哦！！</marquee>
+                    <marquee style="font-weight: bold" scrollamount="5">快乐江湖--→完成任务会有意想不到的收获哦！！</marquee>
                     </font>
         <p>　</p>
       </td>
@@ -153,7 +153,7 @@ A:hover 	{font-family:verdana,arial,helvetica,Tahoma; text-decoration: none; col
          <td><hr>
 
           <tr>
-            <td width="100%" align="center">爱情江湖版权所有</td>
+            <td width="100%" align="center">快乐江湖版权所有</td>
           </tr>
         </table>
       </td>

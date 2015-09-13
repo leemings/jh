@@ -76,7 +76,7 @@ if fn1>20 then
 	set rs=nothing
 	conn.close
 	set conn=nothing
-    fakuan="<font color=" & saycolor & ">##欲使用[<b><font color=red>杀气锐减</font></b>]减少自己杀气，但爱情天界规定最大销减数为<font color=red>20</font>哦,你看[%%]在取笑你呢~~嘿嘿~~"
+    fakuan="<font color=" & saycolor & ">##欲使用[<b><font color=red>杀气锐减</font></b>]减少自己杀气，但快乐天界规定最大销减数为<font color=red>20</font>哦,你看[%%]在取笑你呢~~嘿嘿~~"
 	exit function
 end if
 if rs("会员金卡")>=fn1 then

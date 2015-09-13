@@ -28,7 +28,7 @@ act=1
 towhoway=0
 i=instr(says,"$")
 fnn1=mid(says,i+1)
-says="<font color=red>【爱情魔法】<font color=" & saycolor & ">"+xyns()+"</font>"
+says="<font color=red>【快乐魔法】<font color=" & saycolor & ">"+xyns()+"</font>"
 towhoway=1
 towho=aqjh_name
 call chatsay(act,towhoway,towho,saycolor,addwordcolor,addsays,says)
@@ -58,7 +58,7 @@ if rs("武功")<100000  then
 end if
 if rs("攻击") then
 	conn.execute "update 用户 set 攻击=攻击+100,武功=武功-100000,操作时间=now() where 姓名='" & aqjh_name &"'"
-	xyns="##<bgsound src=wav/xyns.wav loop=1>使用【爱情魔法】新阴那山,去了阴那山以后武功失去<font color=red>-100000</font>点,攻击增加<font color=red>+100</font>点,##连声说下次我还要去雁南飞!"
+	xyns="##<bgsound src=wav/xyns.wav loop=1>使用【快乐魔法】新阴那山,去了阴那山以后武功失去<font color=red>-100000</font>点,攻击增加<font color=red>+100</font>点,##连声说下次我还要去雁南飞!"
 	rs.close
 	set rs=nothing	
 	conn.close

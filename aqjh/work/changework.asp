@@ -149,7 +149,7 @@ A:hover {
     <TD height=1 vAlign=top width="88%">　</TD></TR>
   <TR>
     <TD height=18 width="88%">
-      <P align=center>爱情江湖版权所有@2003</P></TD></TR>
+      <P align=center>快乐江湖版权所有@2003</P></TD></TR>
   <TR>
     <TD background=../images/picc/k2.gif colSpan=3 height=18 
   width="100%">　</TD></TR></TBODY></TABLE></CENTER></DIV>

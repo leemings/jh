@@ -93,6 +93,6 @@ set conn=nothing
 <br>
 <font color="#FF00FF" size=4><a href="myvh.asp" target="_self" title="装备交通工具及定制进入退出聊天室公告">点击这儿返回[装备座驾]页面</a></font><br><br></div>
 <DIV align=center>
-<br><br>版权所有『爱情江湖总站』</div>
+<br><br>版权所有『快乐江湖总站』</div>
 </body>
 </html>

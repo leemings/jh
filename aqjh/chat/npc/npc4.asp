@@ -35,7 +35,7 @@ conn.execute "insert into l(b,a,c,e,d) values ('" & st & "',now(),'吝啬','体力不
 	call boot(st,"怪物，操作者：怪物，咆哮！")
 else
 	conn.execute "update 用户 set 知质=知质+"& tempjs *10&" where 姓名='" & st & "'"
-	kl="<font color=#0000FF>"&st&"</font>很不幸,与灯神决斗时胜利了,灯神死了,"&st&"真牛，为此永不放弃特奖励知质"&tempjs*10&"点！"
+	kl="<font color=#0000FF>"&st&"</font>很不幸,与灯神决斗时胜利了,灯神死了,"&st&"真牛，为此回首当年特奖励知质"&tempjs*10&"点！"
 	end if
 	rs.close
 set rs=nothing

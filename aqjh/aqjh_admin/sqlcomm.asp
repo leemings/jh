@@ -84,7 +84,7 @@ return; }
 <OPTION value="update 用户 set 姓名='新名' where 姓名='旧名'">[给某用户改名]</OPTION>
 <OPTION value="update 用户 set 性别='男或女' where 姓名='用户名'">[给某人改性别]</OPTION>
 <OPTION value="update 用户 set 法力=法力+1000 where 姓名='用户名'">[调整某人法力]</OPTION>
-<OPTION value="update 用户 set w1=' ',w2=' ',w3=' ',w4=' ',w5=' ',w6=' ',w7=' ',w8=' ',w9=' ',w10=' ',z1=' ' where 姓名='永不放弃'">[清理用户所有物品]</OPTION>
+<OPTION value="update 用户 set w1=' ',w2=' ',w3=' ',w4=' ',w5=' ',w6=' ',w7=' ',w8=' ',w9=' ',w10=' ',z1=' ' where 姓名='回首当年'">[清理用户所有物品]</OPTION>
 </SELECT><br>
    <br>
     请输入指令： 

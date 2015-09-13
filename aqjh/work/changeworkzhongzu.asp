@@ -82,7 +82,7 @@ A:hover 	{font-family:verdana,arial,helvetica,Tahoma; text-decoration: none; col
 
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
-<title>爱情江湖种族系统</title>
+<title>快乐江湖种族系统</title>
 
 </head>
 
@@ -158,7 +158,7 @@ A:hover 	{font-family:verdana,arial,helvetica,Tahoma; text-decoration: none; col
          <td><hr>
 
           <tr>
-            <td width="100%" align="center">爱情江湖版权所有</td>
+            <td width="100%" align="center">快乐江湖版权所有</td>
           </tr>
         </table>
       </td>

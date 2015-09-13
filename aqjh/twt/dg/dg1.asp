@@ -70,13 +70,13 @@ End Sub
 body{font-size:9pt;color:#000000;}
 p{font-size:16;color:#000000;}
 </style>
-<title>爱情江湖</title></head>
+<title>快乐江湖</title></head>
 <body bgproperties="fixed" bgcolor="#000000" vlink="#000000">
 <table border=1 bgcolor="#948754" align=center width=350 cellpadding="10" cellspacing="13">
 <tr><td bgcolor=#C6BD9B>
 <table height="260">
 <tr>
-          <td height="37"> <font color="#000000"><strong>爱情江湖打工:</strong></font> 
+          <td height="37"> <font color="#000000"><strong>快乐江湖打工:</strong></font> 
         <tr>
 <td height="182" valign="top">辛辛苦苦作了一天店小二，你获得银两4000！体力下降100！<Br><Br>
           </td>

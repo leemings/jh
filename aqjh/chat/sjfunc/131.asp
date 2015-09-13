@@ -56,12 +56,12 @@ if rs("会员等级")=4 then
 	myjbsl=jbmoney*hyjb*mycd
         conn.execute "update 用户 set 金币=金币+"& myjbsl &" where 姓名='" & aqjh_name & "'"
         Session("sljb_time")=now()
-	sljb="##为<font color=blue>"& hy &"</font>级会员，乃付费会员，在江湖努力泡点<font color=red><b>"& mycd &"</b></font>小时,得到金币:<font color=red>"& myjbsl &"</font>个,##会继续努力,支持爱情江湖的发展!"
+	sljb="##为<font color=blue>"& hy &"</font>级会员，乃付费会员，在江湖努力泡点<font color=red><b>"& mycd &"</b></font>小时,得到金币:<font color=red>"& myjbsl &"</font>个,##会继续努力,支持快乐江湖的发展!"
 else
 	myjbsl1=jbmoney*mycd
         conn.execute "update 用户 set 金币=金币+"& myjbsl1 &" where 姓名='" & aqjh_name & "'"
         Session("sljb_time")=now()
-	sljb="##为<font color=blue>"& hy &"</font>级会员，乃免费会员，在江湖努力泡点<font color=red><b>"& mycd &"</b></font>小时,得到金币:<font color=red>"& myjbsl1 &"</font>个,##会继续努力,支持爱情江湖的发展!"
+	sljb="##为<font color=blue>"& hy &"</font>级会员，乃免费会员，在江湖努力泡点<font color=red><b>"& mycd &"</b></font>小时,得到金币:<font color=red>"& myjbsl1 &"</font>个,##会继续努力,支持快乐江湖的发展!"
 end if
 rs.close
 set rs=nothing	

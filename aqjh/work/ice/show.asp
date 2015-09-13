@@ -6,7 +6,7 @@ Response.Write "<script Language=Javascript>parent.fs.location.href = 'ice.asp';
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 </head>
 <body bgcolor="#CADEFD" text="#000000" topmargin="0" link="#0000FF" vlink="#0000FF" alink="#0000FF">
-<div align="center"><font size="-1">爱情江湖</font> </div>
+<div align="center"><font size="-1">快乐江湖</font> </div>
 <FORM action="icejl.asp" method=POST name="shiform" target="cz">
   <table width="100%" border="1" cellspacing="3" cellpadding="3">
     <tr> 

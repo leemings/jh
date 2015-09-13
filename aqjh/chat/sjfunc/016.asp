@@ -99,7 +99,7 @@ duyao=abate(rs("w5"),"宝物卡",1)
 conn.execute "update 用户 set  w5='"&duyao&"' where 姓名='"&aqjh_name&"'"
 duyao=add(rs("w5"),"升级卡",1)
 conn.execute "update 用户 set 智力=智力-100,金币=金币-2,w5='"&duyao&"' where 姓名='"&aqjh_name&"'"
-peibashi=aqjh_name & "<bgsound src=wav/m2.mid loop=1>取出涨钱卡、练功卡、宝物卡三种无敌卡片，三种卡片纠集在一起，一道黑色光芒升起，三种卡片唰的一声，化做一到白烟消失得无影无踪，只见地上遗留了当年卡片之王发明的方术族族宝<font color=red>升级卡<img src=card/ywk.gif></font>1张," & aqjh_name & "机缘巧合之下获得的至宝有可能使他增加自身强大的能量，狂傲爱情....."
+peibashi=aqjh_name & "<bgsound src=wav/m2.mid loop=1>取出涨钱卡、练功卡、宝物卡三种无敌卡片，三种卡片纠集在一起，一道黑色光芒升起，三种卡片唰的一声，化做一到白烟消失得无影无踪，只见地上遗留了当年卡片之王发明的方术族族宝<font color=red>升级卡<img src=card/ywk.gif></font>1张," & aqjh_name & "机缘巧合之下获得的至宝有可能使他增加自身强大的能量，狂傲快乐....."
  
 
 rs.close

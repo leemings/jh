@@ -10,13 +10,13 @@ if aqjh_name="" then Response.Redirect "../error.asp?id=440"
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>爱情江湖购买</title>
+<title>快乐江湖购买</title>
 <script language="JavaScript" type="text/JavaScript">
 window.moveTo(100,50);
 function show(myshow){Layer1.style.visibility="visible";msgshow.innerHTML=myshow;}
 function hidden(){Layer1.style.visibility="hidden";}
 document.onmousedown=click;
-function click(){if(event.button==2){alert("欢迎来到爱情江湖！");}}
+function click(){if(event.button==2){alert("欢迎来到快乐江湖！");}}
 </script>
 <LINK href="style.css" rel=stylesheet>
 </head>
@@ -61,7 +61,7 @@ rs.open "Select * from [housetype] where ht_序号=3",conn,1,1%>
 <%rs.close
 rs.open "Select * from [housetype] where ht_序号=2",conn,1,1%>  
   <area shape="rect" coords="410,145,503,208" href="buy.asp?id=2&name=<%=trim(rs("ht_小区名"))%>&tj=<%=trim(rs("ht_1级条件"))%>" onmouseover="show('<%=trim(rs("ht_小区名"))%>:<%=trim(rs("ht_小区说明"))%><br>居民:<%=rs("ht_居民")%>人 资产:<%=rs("ht_小区资产")%><br>区长:<%=rs("ht_小区区长")%>');" onmouseout="hidden();">
-  <area shape="rect" coords="295,152,355,233" href="#" onmouseover="show('欢迎使用爱情江湖，在这里你可以购买属于自己的房屋！<br>有了房屋就可以取妻生子了．');" onmouseout="hidden();">
+  <area shape="rect" coords="295,152,355,233" href="#" onmouseover="show('欢迎使用快乐江湖，在这里你可以购买属于自己的房屋！<br>有了房屋就可以取妻生子了．');" onmouseout="hidden();">
 </map>
 <%rs.close
 set rs=nothing

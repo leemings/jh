@@ -82,7 +82,7 @@ if sysj=20 or (sysj=21 and r<>5 and r<>6) then
 	xhtl=babytl+1000
 	xhnl=int(xhtl*3/4)
 	xhz="小孩|"&xhxb&"|"&xhtl&"|"&xhnl&"|200|200|"&now()&"|乳|0|"&now()&"|0"
-	hh="<img src=images/"&t&"><BR><BR><img src='img/004.gif'><br><marquee width=100% behavior=alternate scrollamount=5><font color=red size=+1>喜喜</font></marquee><BR>恭喜你，你顺利生下一个"& h1 &"，孩子体力："& xhtl &"，内力："&xhnl&"，攻击：200，防御：200，快去告诉孩子的爸爸，和他一起给孩子起个名。这是你们爱情的结晶。"
+	hh="<img src=images/"&t&"><BR><BR><img src='img/004.gif'><br><marquee width=100% behavior=alternate scrollamount=5><font color=red size=+1>喜喜</font></marquee><BR>恭喜你，你顺利生下一个"& h1 &"，孩子体力："& xhtl &"，内力："&xhnl&"，攻击：200，防御：200，快去告诉孩子的爸爸，和他一起给孩子起个名。这是你们快乐的结晶。"
 	mess="恭喜<font color=blue>"& aqjh_name &"</font>生下一个<font color=red><b>"& h1 &"</b></font><BR><marquee width=100% behavior=alternate scrollamount=5><font color=red size=+1>喜喜</font></marquee>"
 else
 	hh="由于你在孕期第20天的时候未能及时来医院，延误了一天的时间。虽然经过医生的努力，但你的孩子还是死掉了。对不起，请节哀顺便。"

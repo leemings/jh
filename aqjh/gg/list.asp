@@ -17,7 +17,7 @@ A:hover {
 </STYLE>
 
 <head>
-<TITLE>◆爱情江湖◆总站『7758530.CoM』→打造一个新的品牌</TITLE>
+<TITLE>◆快乐江湖◆总站『7758530.CoM』→打造一个新的品牌</TITLE>
 <%randomize timer
 mysound=int(rnd*4)+1
 Response.Write "<bgsound src=mid/midi"&mysound&".mid loop=-1 volume=100>"
@@ -35,7 +35,7 @@ style="Z-INDEX: 1; LEFT: 687px; WIDTH: 150px; POSITION: absolute; TOP: 22px; HEI
 style="CURSOR: hand" 
 onclick="this.style.behavior='url(#default#homepage)';&#10;&#10;this.setHomePage('http://www.7758530.com')" 
 href="#">设为首页</A> | <A  
-href="javascript:window.external.AddFavorite('http://www.7758530.com','『爱情江湖总站』')">收藏本站</A> 
+href="javascript:window.external.AddFavorite('http://www.7758530.com','『快乐江湖总站』')">收藏本站</A> 
 </DIV>
 <DIV align=center>
 <TABLE height=221 cellSpacing=0 cellPadding=0 width=775 align=center border=0>
@@ -306,6 +306,6 @@ background=index1.files/bottom_t.jpg border=0>
   <TR>
     <TD height=70>
       <CENTER>Copyright&copy;2004 7758530.CoM&#8482; All Rights Reserved  
-      爱情江湖总站<BR>全站设计修改:爱情江湖　客服QQ:51726805  
+      快乐江湖总站<BR>全站设计修改:快乐江湖　客服QQ:865240608  
 TEL:13635716119</CENTER></TD></TR></TBODY></TABLE></DIV></FORM></BODY>
 </html>

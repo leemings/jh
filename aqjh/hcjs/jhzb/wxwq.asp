@@ -178,6 +178,6 @@ set conn=nothing
   <br>
   说明：每样装备只能维修三次，三次后此装备将无法修复。</p>
 <p align="center"><a href="index.asp">返回</a></p>
-<p align="center"><font size="2">版权所有『爱情江湖总站』</font></p>
+<p align="center"><font size="2">版权所有『快乐江湖总站』</font></p>
 </body>
 </html>

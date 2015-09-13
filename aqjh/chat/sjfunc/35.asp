@@ -130,7 +130,7 @@ select case r
 		lw="世上无奇不有，只见一雕闪过，天上降下<font color=brown>养猪卡</font><font color=red>"&n&"</font>张"
 end select 
 conn.execute "update 用户 set 宝物修练=宝物修练+1,内力=内力-2500,操作时间=now() where 姓名='" & aqjh_name &"'"
-xiulian="##拥有江湖宝物"& Application("aqjh_baowuname") &"进行修练，这是你第:"& rs("宝物修练") & "次进行宝物修练....<font color=0088FF>爱情奇宝，世间罕有，每修炼一次暴一物品，</font><font color=blue>"&lw&"</font>!! "
+xiulian="##拥有江湖宝物"& Application("aqjh_baowuname") &"进行修练，这是你第:"& rs("宝物修练") & "次进行宝物修练....<font color=0088FF>快乐奇宝，世间罕有，每修炼一次暴一物品，</font><font color=blue>"&lw&"</font>!! "
 rs.close
 set rs=nothing	
 conn.close

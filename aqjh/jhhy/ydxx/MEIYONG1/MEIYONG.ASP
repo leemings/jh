@@ -62,16 +62,16 @@ case 1
 	sql="update 用户 set 操作时间=now(),内力=内力-1000,武功=武功-666 where 姓名='"&aqjh_name&"'"
 	erase js
 case 2
-	mess="在一个漆黑的夜晚，三国吕布来到了爱情江湖，打伤"& aqjh_name &"体力下降20000<img src='img/kkkkk.gif'>"
+	mess="在一个漆黑的夜晚，三国吕布来到了快乐江湖，打伤"& aqjh_name &"体力下降20000<img src='img/kkkkk.gif'>"
 	sql="update 用户 set 操作时间=now(),金币=体力-20000 where 姓名='"&aqjh_name&"'"
 case 3
-	mess="在爱情江湖大道上闲逛，"& aqjh_name &"误入董卓的圈套，武功大失9999点<img src='img/kkkkk.gif'>"
+	mess="在快乐江湖大道上闲逛，"& aqjh_name &"误入董卓的圈套，武功大失9999点<img src='img/kkkkk.gif'>"
 	sql="update 用户 set 操作时间=now(),武功=武功-9999 where 姓名='"&aqjh_name&"'"
 case 4
 	mess=""& aqjh_name &"在后山与刘备大战三百回合，体力大失<img src='img/kkkkk.gif'>30000点"
 	sql="update 用户 set 操作时间=now(),体力=体力-30000 where 姓名='"&aqjh_name&"'"
 case 5
-	mess=""& aqjh_name &"碰到了永不放弃，永不放弃带他与张飞切磋，武功大增2000点<img src='img/kkkkk.gif'>"
+	mess=""& aqjh_name &"碰到了回首当年，回首当年带他与张飞切磋，武功大增2000点<img src='img/kkkkk.gif'>"
 	sql="update 用户 set 操作时间=now(),武功=武功+2000 where 姓名='"&aqjh_name&"'"
 case 6
 	mess=""& aqjh_name &"在一处溪流处饮水，意外的学习到关羽的健身拳，使体力增加2000点，真是幸运哦"

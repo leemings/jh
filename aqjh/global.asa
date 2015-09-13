@@ -14,8 +14,8 @@ rs.open "SELECT * FROM r order by id",conn
 	rs.MoveNext
  loop
 '江湖系统设置不要修改，否则江湖会不正常运行！
-Application("aqjh_copyright")="爱情江湖"
-Application("aqjh_ver")="爱情江湖love9.9"
+Application("aqjh_copyright")="快乐江湖"
+Application("aqjh_ver")="快乐江湖love9.9"
 Application("aqjh_softuser")=-63617
 Application("aqjh_softjm")=-28972
 Application("aqjh_npc")=""

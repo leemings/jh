@@ -165,8 +165,8 @@ case "七伤拳"
 	    	set conn=nothing
 	        exit function
 		end if
-        if rs("门派")="爱情训练营" then 
-            jiuqingdao="<font color=green>【七伤拳】<font color=" & saycolor & ">"&aqjh_name&",你不能对爱情训练营的人使用!"
+        if rs("门派")="快乐训练营" then 
+            jiuqingdao="<font color=green>【七伤拳】<font color=" & saycolor & ">"&aqjh_name&",你不能对快乐训练营的人使用!"
            	rs.close
 			set rs=nothing
 			conn.close
@@ -195,8 +195,8 @@ case "盗取令"
 	    	set conn=nothing
 	        exit function
 		end if
-        if rs("门派")="爱情训练营" then 
-            jiuqingdao="<font color=green>【盗取令】<font color=" & saycolor & ">"&aqjh_name&",你不能对爱情训练营的人使用!"
+        if rs("门派")="快乐训练营" then 
+            jiuqingdao="<font color=green>【盗取令】<font color=" & saycolor & ">"&aqjh_name&",你不能对快乐训练营的人使用!"
            	rs.close
 			set rs=nothing
 			conn.close
@@ -223,8 +223,8 @@ case "天堂令"
 	    	set conn=nothing
 	        exit function
 		end if
-        if rs("门派")="爱情训练营" then 
-            jiuqingdao="<font color=green>【天堂令】<font color=" & saycolor & ">"&aqjh_name&",你不能对爱情训练营的人使用!"
+        if rs("门派")="快乐训练营" then 
+            jiuqingdao="<font color=green>【天堂令】<font color=" & saycolor & ">"&aqjh_name&",你不能对快乐训练营的人使用!"
            	rs.close
 			set rs=nothing
 			conn.close
@@ -252,8 +252,8 @@ case "九阳神功"
 	    	set conn=nothing
 	        exit function
 		end if
-        if rs("门派")="爱情训练营" then 
-            jiuqingdao="<font color=green>【九阳神功】<font color=" & saycolor & ">"&aqjh_name&",你不能对爱情训练营的人使用!"
+        if rs("门派")="快乐训练营" then 
+            jiuqingdao="<font color=green>【九阳神功】<font color=" & saycolor & ">"&aqjh_name&",你不能对快乐训练营的人使用!"
            	rs.close
 			set rs=nothing
 			conn.close
@@ -282,8 +282,8 @@ case "圣火令"
 	    	set conn=nothing
 	        exit function
 		end if
-        if rs("门派")="爱情训练营" then 
-            jiuqingdao="<font color=green>【圣火令】<font color=" & saycolor & ">"&aqjh_name&",你不能对爱情训练营的人使用!"
+        if rs("门派")="快乐训练营" then 
+            jiuqingdao="<font color=green>【圣火令】<font color=" & saycolor & ">"&aqjh_name&",你不能对快乐训练营的人使用!"
            	rs.close
 			set rs=nothing
 			conn.close
@@ -312,8 +312,8 @@ case "铁笔银勾"
 	    	set conn=nothing
 	        exit function
 		end if
-        if rs("门派")="爱情训练营" then 
-            jiuqingdao="<font color=green>【铁笔银勾】<font color=" & saycolor & ">"&aqjh_name&",你不能对爱情训练营的人使用!"
+        if rs("门派")="快乐训练营" then 
+            jiuqingdao="<font color=green>【铁笔银勾】<font color=" & saycolor & ">"&aqjh_name&",你不能对快乐训练营的人使用!"
            	rs.close
 			set rs=nothing
 			conn.close
@@ -343,8 +343,8 @@ case "玄冥棒"
 	    	set conn=nothing
 	        exit function
 		end if
-        if rs("门派")="爱情训练营" then 
-            jiuqingdao="<font color=green>【玄冥棒】<font color=" & saycolor & ">"&aqjh_name&",你不能对爱情训练营的人使用!"
+        if rs("门派")="快乐训练营" then 
+            jiuqingdao="<font color=green>【玄冥棒】<font color=" & saycolor & ">"&aqjh_name&",你不能对快乐训练营的人使用!"
            	rs.close
 			set rs=nothing
 			conn.close

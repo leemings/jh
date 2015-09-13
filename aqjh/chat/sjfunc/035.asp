@@ -63,7 +63,7 @@ Response.End
 else
 conn.execute "update 用户 set 银两=银两-20000 where 姓名='" & aqjh_name & "'" 
 conn.execute "update 用户 set 魅力=魅力+100 where 姓名='" & to1 & "'"
-lenyin="##对%%边祝福边唱生日歌，Happy birthday tu you！恭祝你生日也快乐，恭祝你生辰快乐，年年有今朝，岁岁有今日……接着，爱情众多朋友一起祝福%%天天快乐，%%感动的和大家一起度过了美好的一天，一起分享了喜讯，这夜……大家狂欢到4点还依依不舍！" & to1 & "开心的吃了<IMG src='img/1-2.gif'>，魅力增加了<font color=red>100</font>，感叹到，真希望此时常久……！！"
+lenyin="##对%%边祝福边唱生日歌，Happy birthday tu you！恭祝你生日也快乐，恭祝你生辰快乐，年年有今朝，岁岁有今日……接着，快乐众多朋友一起祝福%%天天快乐，%%感动的和大家一起度过了美好的一天，一起分享了喜讯，这夜……大家狂欢到4点还依依不舍！" & to1 & "开心的吃了<IMG src='img/1-2.gif'>，魅力增加了<font color=red>100</font>，感叹到，真希望此时常久……！！"
 end if
 conn.close
 set conn=nothing

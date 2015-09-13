@@ -18,7 +18,7 @@ if lb="" then lb="药品"
 <html>
 
 <head>
-<title>爱情江湖物品管理程序</title>
+<title>快乐江湖物品管理程序</title>
 <style></style>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <LINK href="css/css.css" type=text/css rel=stylesheet>

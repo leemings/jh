@@ -24,7 +24,7 @@ if f>pktime then
 	response.end
 end if
 '对决战房的判断
-if chatinfo(0)="决战爱情" and Hour(time())=18 then
+if chatinfo(0)="决战快乐" and Hour(time())=18 then
         Response.Write "<script language=JavaScript>{alert('提示：决战房PK时间未到！');}</script>"
 	response.end
 end if

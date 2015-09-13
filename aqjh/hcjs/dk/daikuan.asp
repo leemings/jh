@@ -130,7 +130,7 @@ set conn=nothing%>
 贷款期限是一个星期7天。俗话说&quot;欠债还钱，没钱还命&quot;，到期不还者本庄将雇<br>
 杀人将其杀之，<font color=red>(将删除江湖ID)</font>望各位大侠相互转告！！！！！！ <br>
 (高利贷还钱比例为贷100两，还150两，不是我心黑呀，现在赚钱难呀！) </p>
-<p align="center"><font color=red>≮爱情江湖总站≯</font></p>
+<p align="center"><font color=red>≮快乐江湖总站≯</font></p>
 </body>
 </html>
 <%

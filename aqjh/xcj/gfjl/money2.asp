@@ -126,15 +126,15 @@ A:hover {COLOR: #cc0033; FONT-FAMILY: "宋体"; FONT-SIZE: 16pt; TEXT-DECORATION: 
 </head>
 <body bgcolor="#CCCCCC" text="#000000" leftmargin="0" background="../jhimg/bk_hc3w.gif">
 <div align="center">
-<p><font size="2"><font color="#000000"><b>爱情奖励领取处</b></font> <br>
+<p><font size="2"><font color="#000000"><b>快乐奖励领取处</b></font> <br>
 <br>
-今天你从爱情领取到奖励<b><font color="#FF0000"><%=money%>个金币</font></b>，小心保存，不要乱花！        
+今天你从快乐领取到奖励<b><font color="#FF0000"><%=money%>个金币</font></b>，小心保存，不要乱花！        
 <% 
 rs.close 
 conn.close 
 set rs=nothing 
 set conn=nothing 
-fn1="<font size=2 color=red>【奖励颁发】☆"&aqjh_name&"☆</font><font size=2 color=blue>贵为爱情官府人员，多次支持爱情，站长奖励<font color=red>"&money&"</font>个<font color=brown>金币</font>，要再努力哦~~</font>" 
+fn1="<font size=2 color=red>【奖励颁发】☆"&aqjh_name&"☆</font><font size=2 color=blue>贵为快乐官府人员，多次支持快乐，站长奖励<font color=red>"&money&"</font>个<font color=brown>金币</font>，要再努力哦~~</font>" 
 says=nuhou(fn1) 
 function nuhou(fn1) 
 nuhou="<marquee height=80 behavior=alternate loop=100 direction=left >" & fn1 & "" & "</marquee>" 

@@ -89,7 +89,7 @@ Application.Lock
 Application("aqjh_webicq")=wbq
 Application("aqjh_webicqname")=webicqname
 Application.UnLock
-says="<font color=green>【爱情信使】["&aqjh_name&"]---->["&towho&"]</font>"
+says="<font color=green>【快乐信使】["&aqjh_name&"]---->["&towho&"]</font>"
 act="消息"
 towhoway=0
 towho="大家"

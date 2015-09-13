@@ -159,7 +159,7 @@ end if
 function show(x,y,sm){Layer1.style.visibility="visible";mess.innerHTML="<img src=pic/hut"+x+y+".jpg width=185 height=125><br><div align=center>"+sm+y+"级</div>";}
 function hidden(){Layer1.style.visibility="hidden";}
 document.onmousedown=click;
-function click(){if(event.button==2){alert("欢迎来到勇者爱情江湖！");}}
+function click(){if(event.button==2){alert("欢迎来到勇者快乐江湖！");}}
 function shLayers(n,n1){
 if(n.style.visibility=="visible"){n.style.visibility="hidden";}else if(n.style.visibility=="hidden"){n.style.visibility="visible";}
 if(n1.style.visibility=="visible"){n1.style.visibility="hidden";}
@@ -176,7 +176,7 @@ if(document.form.uproomdj[0].checked==false && document.form.uproomdj[1].checked
       <form name="form" method="post" action="uproom.asp?act=uproom" onsubmit='return(check());'>
 <table width="98%" border="0" cellpadding="0" cellspacing="0">
 <tr>
-<td><font color="#0000FF"><strong>爱情江湖小屋升级系统</strong></font><br>升级可不是一项简单的事情， 你需<br>
+<td><font color="#0000FF"><strong>快乐江湖小屋升级系统</strong></font><br>升级可不是一项简单的事情， 你需<br>
 要准备各种物品，升过级的小 屋会<br>
 有更新更漂亮的形像，功能对应的<br>
 功能也会更加强大！</td>

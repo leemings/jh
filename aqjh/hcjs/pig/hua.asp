@@ -292,7 +292,7 @@ function count() {
 <META content="MSHTML 6.00.2600.0" name=GENERATOR></HEAD>
 <BODY bgColor=#70ac58 topMargin=0 onload=doPreload(); MARGINWIDTH="0" MARGINHEIGHT="0" >
 
-<table width=100%><tr><td height=350> </td></tr><tr><td align=center><p align=center><font color="#FFFFFF"><a href="http://www.7758530.com" target=_blank><font color="#FF0000">爱情江湖网</font></a> 
+<table width=100%><tr><td height=350> </td></tr><tr><td align=center><p align=center><font color="#FFFFFF"><a href="http://www.7758530.com" target=_blank><font color="#FF0000">快乐江湖网</font></a> 
         <font color="#000000">授权:<%=Application("aqjh_chatroomname")%></font></font><font style=font-size:9pt color=#000000></font></p></table>
 <DIV id=field style="Z-INDEX: 3; LEFT: 160px; WIDTH: 367px; POSITION: absolute; TOP: 40px; HEIGHT: 253px">
 <TABLE height=280 cellSpacing=0 cellPadding=0 width="100%" background=images/dw0.gif border=0>

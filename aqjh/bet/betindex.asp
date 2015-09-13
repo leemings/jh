@@ -61,6 +61,6 @@ target="_blank">21点</a></td>
 堵场混混：欢迎大侠来玩，如果哪位不知趣抽老千，让我们老大发现了，一事实上打你小子满地找牙！</td>
 </tr>
 </table>
-<div align="center"><br>版权所有≮爱情江湖总站≯</div>
+<div align="center"><br>版权所有≮快乐江湖总站≯</div>
 </body>
 </html>

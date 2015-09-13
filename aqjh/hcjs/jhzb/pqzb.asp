@@ -65,5 +65,5 @@ set conn=nothing
   <br>
   <a href="index.asp">返回</a> <br>
   <br>
-  <font size="2">版权所有『爱情江湖总站』</font> </p>
+  <font size="2">版权所有『快乐江湖总站』</font> </p>
 </body></html>

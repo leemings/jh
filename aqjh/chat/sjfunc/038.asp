@@ -87,7 +87,7 @@ lbsw=to1 & "的等级太低了,不够30级，不能奖励！"
 else
 zstemp=add(rs("w5"),"涨钱卡",2)
 conn.execute "update 用户 set 记录=true,w5='"&zstemp&"',金币=金币+100 where 姓名='" & to1 &"'"
-lbsw="欢迎<font color=blue>[%%]</font>到爱情江湖做客，您已经30级以上，<font color=blue>[##]</font>我用最真诚的心欢迎您，颁发奖励涨钱卡<font color=red>2</font>张，金币<font color=red>100</font>个，谢谢支持爱情江湖发展，多带朋友来玩哦！</font>"
+lbsw="欢迎<font color=blue>[%%]</font>到快乐江湖做客，您已经30级以上，<font color=blue>[##]</font>我用最真诚的心欢迎您，颁发奖励涨钱卡<font color=red>2</font>张，金币<font color=red>100</font>个，谢谢支持快乐江湖发展，多带朋友来玩哦！</font>"
 end if
 rs.close
 set rs=nothing	

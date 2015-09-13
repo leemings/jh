@@ -94,7 +94,7 @@ lbsw=to1 & "的等级太低了，不能被使用此功能奖励！"
 else
 zstemp=add(rs("w5"),"加点卡",fn1)
 conn.execute "update 用户 set w5='"&zstemp&"',金币=金币+"&fn1*50&" where 姓名='" & to1 &"'"
-lbsw="<font color=blue>[%%]</font>介绍玩家<font color=red>" & fn1 & "</font>位到爱情做客，经过<font color=blue>[##]</font>核查确认后，颁发奖励加点卡<font color=red>" & fn1 & "</font>张，金币<font color=red>" &fn1*50& "</font>个，谢谢支持爱情发展，多带朋友来玩哦！</font>"
+lbsw="<font color=blue>[%%]</font>介绍玩家<font color=red>" & fn1 & "</font>位到快乐做客，经过<font color=blue>[##]</font>核查确认后，颁发奖励加点卡<font color=red>" & fn1 & "</font>张，金币<font color=red>" &fn1*50& "</font>个，谢谢支持快乐发展，多带朋友来玩哦！</font>"
 end if
 rs.close
 set rs=nothing	

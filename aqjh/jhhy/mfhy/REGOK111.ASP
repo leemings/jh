@@ -16,7 +16,7 @@ if hygrade<>1 and hygrade<>2 and hygrade<>3 then
 	Response.End 
 end if
 if hymonth<1 then
-	Response.Write "<script language=JavaScript>{alert('提示：爱情江湖免费会员只能申请一个月！');location.href = 'javascript:history.go(-1)';}</script>"
+	Response.Write "<script language=JavaScript>{alert('提示：快乐江湖免费会员只能申请一个月！');location.href = 'javascript:history.go(-1)';}</script>"
 	Response.End 
 end if
 for each element in Request.Form

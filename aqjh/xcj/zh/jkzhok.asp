@@ -65,7 +65,7 @@ rs.close
 set rs=nothing
 conn.close
 set conn=nothing
-says="<font color=red>【转换市场】["&aqjh_name&"]</font><font color=blue>把"&input&"元会员金卡转换成了"&int(input*10)&"枚金币,瞬间财力比永不放弃还富有!</font>"
+says="<font color=red>【转换市场】["&aqjh_name&"]</font><font color=blue>把"&input&"元会员金卡转换成了"&int(input*10)&"枚金币,瞬间财力比回首当年还富有!</font>"
 call showchat(says)
 Response.Write "<script Language=Javascript>alert('"&aqjh_name&"您转换金币:"&input*10&"枚！');location.href = 'jkzh.asp';</script>"
 %>

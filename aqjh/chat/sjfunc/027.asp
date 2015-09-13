@@ -66,7 +66,7 @@ if fn1>5000 then
 	set rs=nothing
 	conn.close
 	set conn=nothing
-    fakuan="<font color=" & saycolor & "><font color=red>【照顾新人】</font><font color=blue>##</font>照顾爱情江湖新人，请来得到高僧及爱情大红人传授，##要求传授<font color=red>" & fn1 & "</font>奖励新人<font color=blue>[%%]</font>，但由于数目太多，失败，二位高人答应的最多只有<font color=red>5000</font>点！</font>"
+    fakuan="<font color=" & saycolor & "><font color=red>【照顾新人】</font><font color=blue>##</font>照顾快乐江湖新人，请来得到高僧及快乐大红人传授，##要求传授<font color=red>" & fn1 & "</font>奖励新人<font color=blue>[%%]</font>，但由于数目太多，失败，二位高人答应的最多只有<font color=red>5000</font>点！</font>"
 	exit function
 end if
 if rs("银两")>=fn1 then
@@ -76,7 +76,7 @@ if rs("银两")>=fn1 then
 	set rs=nothing
 	conn.close
 	set conn=nothing
-	fakuan="<font color=" & saycolor & "><font color=red>【照顾新人】</font><font color=blue>[##]</font>遵照爱情良风，奉站长之命帮助新人<font color=blue>[%%]</font>，<font color=blue>[%%]</font>体力增加<font color=red>100万</font>，体力上限增加<font color=red>10万</font>，魅力增加了<font color=red>" & fn1 & "</font>，<font color=blue>[##]</font>由于帮助新人，道德上涨<font color=red>1000</font>点，还多了一些莫名奇妙的属性！</font>"
+	fakuan="<font color=" & saycolor & "><font color=red>【照顾新人】</font><font color=blue>[##]</font>遵照快乐良风，奉站长之命帮助新人<font color=blue>[%%]</font>，<font color=blue>[%%]</font>体力增加<font color=red>100万</font>，体力上限增加<font color=red>10万</font>，魅力增加了<font color=red>" & fn1 & "</font>，<font color=blue>[##]</font>由于帮助新人，道德上涨<font color=red>1000</font>点，还多了一些莫名奇妙的属性！</font>"
 	exit function
 end if
 fakuan="<font color=blue><font color=red>##</font>,<font color=red>%%</font>他已经有<font color=red>"&fn1&"</font>。。。。。。。。</font>"

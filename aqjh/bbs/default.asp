@@ -84,7 +84,7 @@ else%>
 		<td>&nbsp;::
 		<a href="message.asp">我的留言</a></td>
 		<td>&nbsp;::
-		<a href="http://www.7758530.com/bbs" target=_blank>爱情论坛</a></td>
+		<a href="http://www.7758530.com/bbs" target=_blank>快乐论坛</a></td>
 	</tr>
 	<tr>
 		<td>&nbsp;::

@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>爱情江湖</title>
+<title>快乐江湖</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link href="css.css" type=text/css rel=stylesheet>
 <style>

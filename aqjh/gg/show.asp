@@ -209,7 +209,7 @@ set rs=nothing
 conn.close
 set conn=nothing%>
 <HR color=red SIZE=1><P align=center><input type=button value="关闭窗口" onclick="window.close()" class="input">
-<br><br>爱情江湖</P></BLOCKQUOTE>
+<br><br>快乐江湖</P></BLOCKQUOTE>
 <P align=center><br></P></TD><TD align=middle width=8 bgColor=#808080></TD></TR>
 <TR style="FONT-SIZE: 3pt" align=middle><TD width=16 height=8></TD><TD bgColor=#808080 height=8></TD>
 <TD width=8 bgColor=#808080 height=8></TD></TR></TBODY></TABLE></CENTER></body></html>

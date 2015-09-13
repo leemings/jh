@@ -16,7 +16,7 @@ aqjh_jhdj=Session("aqjh_jhdj")
 if aqjh_name="" then Response.Redirect "../error.asp?id=440"
 %>
 <!--#include file="dadata.asp"-->
-<HTML><HEAD><TITLE>爱情大酒店</TITLE>
+<HTML><HEAD><TITLE>快乐大酒店</TITLE>
 <META content="text/html; charset=gb2312" http-equiv=Content-Type>
 <LINK href="jd/the9.css" rel=stylesheet>
 <META content="MSHTML 5.00.3315.2870" name=GENERATOR></HEAD>
@@ -28,7 +28,7 @@ width=760 align="center">
 <TR>
 <TD width=48><IMG src="jd/empty.gif"></TD>
 <TD width=34><IMG src="jd/position.gif" width="22" height="22"></TD>
-<TD class=head-l width=660>您当前位置：<a href="../welcome.asp"><font color="#FFFFFF">爱情江湖</font></a>-&gt;<a href="jd.asp"><font color="#FFFFFF">爱情大酒店</font></a>-&gt;海誓山盟宴会</TD>
+<TD class=head-l width=660>您当前位置：<a href="../welcome.asp"><font color="#FFFFFF">快乐江湖</font></a>-&gt;<a href="jd.asp"><font color="#FFFFFF">快乐大酒店</font></a>-&gt;海誓山盟宴会</TD>
 <TD align=right vAlign=top width=18><IMG
 src="jd/rc.gif"></TD></TR></TBODY></TABLE>
 <TABLE border=0 cellPadding=0 cellSpacing=0 width=760 align="center">
@@ -176,7 +176,7 @@ width=123> </td>
 <tr bgcolor=#ffffff>
 <td height=150><img height=1 src="jd/empty.gif" width=1>
 <div style="HEIGHT: 50px; WIDTH: 150px"> <marquee direction=up height=150 onMouseOut=this.start()
-onMouseOver=this.stop() scrollamount=1 scrolldelay=30>在爱情大酒店中，你可以<br>
+onMouseOver=this.stop() scrollamount=1 scrolldelay=30>在快乐大酒店中，你可以<br>
 定酒席，请你的亲朋好友<br>
 来这参加你定下的酒席，酒席分为结婚宴，生日宴<br>
 请功宴，请罪宴等等。不同的酒席，参加者所得到<br>

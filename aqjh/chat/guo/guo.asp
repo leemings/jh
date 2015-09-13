@@ -123,6 +123,6 @@ end if%>
 </table>
 </td>
     </tr>
-    <tr><td width="100%" align="center">『爱情江湖总站』</td>
+    <tr><td width="100%" align="center">『快乐江湖总站』</td>
     </tr>
   </table></div></body></html>

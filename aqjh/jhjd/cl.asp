@@ -74,7 +74,7 @@ sub deljd()
 <%
 end sub
 sub callexit()
-says="<font color=black>【清理酒店】</font><font color=red>站长[ " & aqjh_name &" ]对爱情江湖酒店进行了清理，所有超过[ " & deld &" ]天的洒宴都被删除了！</font>"			'聊天数据
+says="<font color=black>【清理酒店】</font><font color=red>站长[ " & aqjh_name &" ]对快乐江湖酒店进行了清理，所有超过[ " & deld &" ]天的洒宴都被删除了！</font>"			'聊天数据
 says=replace(says,"'","\'")
 says=replace(says,chr(34),"\"&chr(34))
 act="消息"

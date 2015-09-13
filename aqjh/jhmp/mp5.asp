@@ -111,5 +111,5 @@ set conn=nothing
 </td>
 </tr>
 <tr align="center">
-<td width="500" height="28"><FONT color=#0000ff>&copy; 版权所有 2004-2005 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>爱情江湖网</FONT></A></td>
+<td width="500" height="28"><FONT color=#0000ff>&copy; 版权所有 2004-2005 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>快乐江湖网</FONT></A></td>
 </tr></table></body></html>

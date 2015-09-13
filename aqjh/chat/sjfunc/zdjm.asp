@@ -84,7 +84,7 @@ newjl=application("aqjh_zzffjl")&aqjh_name&"|"&hour(time())&"|"&myip&";"
 application.lock()
 application("aqjh_zzffjl")=newjl
 application.unlock()
-fffff="<marquee width=100% scrollamount=8><font color=green>【爱情发放】</font><font color=red>"&aqjh_name&"</font>领到了站长发放的<font color=red><b>50点存点</b>，站长支持在线，真正玩游戏，不要开小差呀，等会还会发！</font>！</marquee>"&tt
+fffff="<marquee width=100% scrollamount=8><font color=green>【快乐发放】</font><font color=red>"&aqjh_name&"</font>领到了站长发放的<font color=red><b>50点存点</b>，站长支持在线，真正玩游戏，不要开小差呀，等会还会发！</font>！</marquee>"&tt
 conn.execute "update 用户 set allvalue=allvalue+50,操作时间=now()+(31/86400) where 姓名='"&aqjh_name&"'"
 conn.close
 set conn=nothing

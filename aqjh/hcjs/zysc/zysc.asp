@@ -47,7 +47,7 @@ width="32%">　</TD>
                   <td  STYLE="background-color: transparent;color:#ffffff;border=0px none; " class="Glow" width="548" height="1">
                   <P class=p9  STYLE="background-color: transparent;color:#ffffff;border=0px none; " class="Glow" align="center">
                   <br>
-                  这里是爱情江湖中最大的自由市场，在这里，你可以买到很多好东西，但没钱你也只能看看啊<br>
+                  这里是快乐江湖中最大的自由市场，在这里，你可以买到很多好东西，但没钱你也只能看看啊<br>
 　</P>
                   </td STYLE="background-color: transparent;color:#ffffff;border=0px none; " class="Glow1">
                   <table width="548" border="0" cellspacing="0" cellpadding="0" align="center" height="224">

@@ -138,6 +138,6 @@ end sub
 </td> 
 </tr> 
 </table> 
-<br>版权所有『爱情江湖总站』</div>
+<br>版权所有『快乐江湖总站』</div>
 </body>
 </html>

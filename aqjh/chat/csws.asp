@@ -2681,6 +2681,6 @@ width="39%"> </TD></TR></TBODY></TABLE><B>
 <DIV align=center>
 <CENTER>
 
-爱情江湖总站 永不放弃制作</CENTER></DIV>
+快乐江湖总站 回首当年制作</CENTER></DIV>
 </BODY>
 <script language=javascript>document.write("<META HTTP-EQUIV=\"Pragma\" CONTENT=\"no-cache\"> ");</script>

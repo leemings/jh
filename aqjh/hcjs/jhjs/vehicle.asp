@@ -66,5 +66,5 @@ set conn=nothing
 </div>
 <div align="center">
 <br><font color="#FF00FF"><a href="myvh.asp" target="_self"  title="装备交通工具及定制进入退出聊天室公告">点击这儿进入[装备座驾]页面</a></font><br><br>
-<font color="#ff00ff"><FONT color=#0000ff>&copy; 版权所有 2004-2005 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>爱情江湖网</FONT></A></font></div>
+<font color="#ff00ff"><FONT color=#0000ff>&copy; 版权所有 2004-2005 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>快乐江湖网</FONT></A></font></div>
 </div></body></html>

@@ -253,7 +253,7 @@ conn.execute("Update 用户 set 银两=银两-"&betcash&",赌次数=赌次数+1,魅力=魅力-1,
 </tr>
 </table>
 <%end if%>
-<p>版权所有『爱情江湖总站』</p>
+<p>版权所有『快乐江湖总站』</p>
 </div>
 </body>
 </html>

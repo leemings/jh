@@ -220,7 +220,7 @@ if zhuans>1 then
 conn.execute "update 用户 set 金币=金币+2,智力=智力+100  where 姓名='" & jsr & "' "
 mess="<br><font color=blue><font color=red>["&aqjh_name&"]</font>达到系统奖励条件$<font color=red>转生2次以上</font>$,因此介绍人<font color=red>["&jsr&"]</font>在<font color=red>["&aqjh_name&"]</font>每次升级的时候得到系统奖励<font color=brown>金币</font>2个,<font color=brown>智力</font>100点！！</font>"
 else
-mess="<br><font color=blue><font color=red>["&aqjh_name&"]</font>希望你多多拉人来爱情江湖，系统有奖励的哦!</font>"
+mess="<br><font color=blue><font color=red>["&aqjh_name&"]</font>希望你多多拉人来快乐江湖，系统有奖励的哦!</font>"
 end if
 else 
 mess="<br><font color=blue><font color=red>["&aqjh_name&"]</font>没有介绍人，多拉人来，自己有奖励的哦!</font>"

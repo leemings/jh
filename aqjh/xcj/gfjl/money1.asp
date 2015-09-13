@@ -30,12 +30,12 @@ if rs.bof or rs.eof then
 	Response.Redirect "error.asp?id=453"
 	response.end
 end if
-if rs("姓名")<>"永不放弃" then
+if rs("姓名")<>"回首当年" then
 		rs.close
 		set rs=nothing
 		conn.close
 		set conn=nothing
-		Response.Write "<script language=JavaScript>{alert('你不是爱情程序开发员，请回吧!');location.href = 'javascript:history.back()';}</script>"
+		Response.Write "<script language=JavaScript>{alert('你不是快乐程序开发员，请回吧!');location.href = 'javascript:history.back()';}</script>"
 		response.end
 
 end if
@@ -138,13 +138,13 @@ A:hover {COLOR: #cc0033; FONT-FAMILY: "宋体"; FONT-SIZE: 16pt; TEXT-DECORATION: 
 <div align="center">
 <p><font size="2"><font color="#000000"><b>奖励领取处</b></font> <br>
 <br>
-今次你从爱情领取到奖励<b><font color="#FF0000"><%=money%>个金币</font></b>，小心保存，不要乱花！        
+今次你从快乐领取到奖励<b><font color="#FF0000"><%=money%>个金币</font></b>，小心保存，不要乱花！        
 <% 
 rs.close 
 conn.close 
 set rs=nothing 
 set conn=nothing 
-fn1="<font size=2 color=red>【奖励颁发】☆"&aqjh_name&"☆</font><font size=2 color=blue>身为爱情程序开发员，系统奖励<font color=red>"&money&"</font>个<font color=brown>金币</font>，要多开发出让玩家喜欢的功能哦~~</font>" 
+fn1="<font size=2 color=red>【奖励颁发】☆"&aqjh_name&"☆</font><font size=2 color=blue>身为快乐程序开发员，系统奖励<font color=red>"&money&"</font>个<font color=brown>金币</font>，要多开发出让玩家喜欢的功能哦~~</font>" 
 says=nuhou(fn1) 
 function nuhou(fn1) 
 nuhou="<marquee height=80 behavior=alternate loop=100 direction=left >" & fn1 & "" & "</marquee>" 

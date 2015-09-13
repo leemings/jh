@@ -33,5 +33,5 @@ href="../../css.css" rel=stylesheet>
     <td width="27%"><a href="wokou3.asp" target="_self">踏入战场</a></td>
   </tr>
 </table>
-<p align=center><font style=font-size:9pt color=#000000>版权所有『爱情江湖总站』</font></p>
+<p align=center><font style=font-size:9pt color=#000000>版权所有『快乐江湖总站』</font></p>
 </BODY></HTML>

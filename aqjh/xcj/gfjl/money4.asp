@@ -45,7 +45,7 @@ if rs("姓名")<>"" then
 		set rs=nothing
 		conn.close
 		set conn=nothing
-		Response.Write "<script language=JavaScript>{alert('你没有为爱情论坛做出贡献!别捣乱!');location.href = 'javascript:history.back()';}</script>"
+		Response.Write "<script language=JavaScript>{alert('你没有为快乐论坛做出贡献!别捣乱!');location.href = 'javascript:history.back()';}</script>"
 		response.end
 end if
 if rs("mvalue")<100000 then
@@ -117,15 +117,15 @@ A:hover {COLOR: #cc0033; FONT-FAMILY: "宋体"; FONT-SIZE: 16pt; TEXT-DECORATION: 
 </head>
 <body bgcolor="#CCCCCC" text="#000000" leftmargin="0" background="../jhimg/bk_hc3w.gif">
 <div align="center">
-<p><font size="2"><font color="#000000"><b>爱情奖励领取处</b></font> <br>
+<p><font size="2"><font color="#000000"><b>快乐奖励领取处</b></font> <br>
 <br>
-今天你从爱情领取到奖励<b><font color="#FF0000"><%=money%>个金币</font></b>，小心保存，不要乱花！        
+今天你从快乐领取到奖励<b><font color="#FF0000"><%=money%>个金币</font></b>，小心保存，不要乱花！        
 <% 
 rs.close 
 conn.close 
 set rs=nothing 
 set conn=nothing 
-fn1="<font size=2 color=red>【奖励颁发】☆"&aqjh_name&"☆</font><font size=2 color=blue>支持带动爱情论坛发展，功不可默，站长奖励<font color=red>"&money&"</font>个<font color=brown>金币</font>，相信未来在你带动下会更好的哦~~</font>" 
+fn1="<font size=2 color=red>【奖励颁发】☆"&aqjh_name&"☆</font><font size=2 color=blue>支持带动快乐论坛发展，功不可默，站长奖励<font color=red>"&money&"</font>个<font color=brown>金币</font>，相信未来在你带动下会更好的哦~~</font>" 
 says=nuhou(fn1) 
 function nuhou(fn1) 
 nuhou="<marquee height=80 behavior=alternate loop=100 direction=left >" & fn1 & "" & "</marquee>" 

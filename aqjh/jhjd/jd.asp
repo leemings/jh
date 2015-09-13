@@ -188,7 +188,7 @@ var tc_union="";
 var tc_type="1";
 </script>
 </span><marquee direction=up height=150 onMouseOut=this.start()
-onMouseOver=this.stop() scrollamount=1 scrolldelay=30>在爱情大酒店中，你可以定酒席，请你的亲朋好友来这参加你定下的酒席，酒席分为结婚宴，生日宴请功宴，请罪宴等等。不同的酒席，参加者所得到得东西是不同的，当然参加的人数也是不一样的。
+onMouseOver=this.stop() scrollamount=1 scrolldelay=30>在快乐大酒店中，你可以定酒席，请你的亲朋好友来这参加你定下的酒席，酒席分为结婚宴，生日宴请功宴，请罪宴等等。不同的酒席，参加者所得到得东西是不同的，当然参加的人数也是不一样的。
 <font
 color=#cc0000></font><br>
 </marquee></div>

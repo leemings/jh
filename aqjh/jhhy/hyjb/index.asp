@@ -17,7 +17,7 @@ end if
 <td></td>   
 </tr>   
 </table>   
-爱情江湖现有会员修炼： <font color="#FF0000">（修练金币、会员金卡都要损失一些看见或看不见的东西，请各位侠士慎重选择）</font><br>      <TABLE align=left border=1 borderColor=#cccccc borderColorDark=#ffffff          
+快乐江湖现有会员修炼： <font color="#FF0000">（修练金币、会员金卡都要损失一些看见或看不见的东西，请各位侠士慎重选择）</font><br>      <TABLE align=left border=1 borderColor=#cccccc borderColorDark=#ffffff          
 borderColorLight=#000000 cellPadding=0 cellSpacing=0          
 style="FONT-SIZE: 9pt" width="600" bordercolordard="#ffffff">          
 <TBODY>          

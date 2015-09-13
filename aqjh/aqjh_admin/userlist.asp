@@ -139,7 +139,7 @@ if I<>CurPage then %>
       </table></td>
   </tr>
 </table>
-<p align=center>≮爱情江湖总站≯</p></body></html>
+<p align=center>≮快乐江湖总站≯</p></body></html>
 <%
 end if
 rs.close

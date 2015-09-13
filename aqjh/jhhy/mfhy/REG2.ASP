@@ -32,7 +32,7 @@ set conn=nothing
 <html>
 <head>
 <meta http-equiv='content-type' content='text/html; charset=gb2312'>
-<title>爱情江湖总站免费会员申请系统-----免费2级会员申请</title>
+<title>快乐江湖总站免费会员申请系统-----免费2级会员申请</title>
 <link rel="stylesheet" href="../css.css">
 </head>
 <body bgcolor="#000080" background="BJ.jpg">
@@ -73,7 +73,7 @@ set conn=nothing
 #000000 solid">
 </p>
 </form>
-              <p align="center"><font face="方正舒体" size="5"><b><span style="background-color: #00FF00">爱情江湖,創意無限</span></b></font><font color="#000000"><%=Application("aqjh_chatroomname")%></font><font size="2"><br>
+              <p align="center"><font face="方正舒体" size="5"><b><span style="background-color: #00FF00">快乐江湖,創意無限</span></b></font><font color="#000000"><%=Application("aqjh_chatroomname")%></font><font size="2"><br>
                 </font></p></td>
 </tr>
 </table>

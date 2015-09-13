@@ -22,7 +22,7 @@ input {  font-size: 9pt; color: #000000; background-color: #f7f7f7; padding-top:
 
 <body >
 <p>&nbsp;</p>
-<p align="center"><b><font size="3">爱情</font></b><b><font size="3">江湖奖励系统</font></b></p>
+<p align="center"><b><font size="3">快乐</font></b><b><font size="3">江湖奖励系统</font></b></p>
 <form action="jiangli2.asp" method=POST >
   <div align="center"> 奖励  
     <select name="dj">

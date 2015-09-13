@@ -44,7 +44,7 @@ sql="update 用户 set 道德=道德+1000,状态='死' where 姓名='" & aqjh_name & "'"
 conn.execute sql
 call boot(aqjh_name,"自杀，操作者："&aqjh_name&","&fn1)
 conn.execute "insert into l(b,a,c,e,d) values ('" & aqjh_name & "',now(),'" & aqjh_name & "','自杀','人命')"
-zs=aqjh_name&"大声狂吼：我受不了了....狂奔到爱情江湖最高的生死崖奋不顾身跳了下去,惨啊，又是人间悲剧，[因为勘破生死玄关，道德增加1000点。]"
+zs=aqjh_name&"大声狂吼：我受不了了....狂奔到快乐江湖最高的生死崖奋不顾身跳了下去,惨啊，又是人间悲剧，[因为勘破生死玄关，道德增加1000点。]"
 conn.close
 set conn=nothing
 end function

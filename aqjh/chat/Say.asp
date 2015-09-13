@@ -336,7 +336,7 @@ if Application("aqjh_zzfafang")<>""  then
        erase fffdata
     end if 
  if DateDiff("s",ffsj,now())>5 then
-   sayyq="<bgsound src=wav/ling.wma loop=1><br><font color=red>【爱情发放】爱情发放50点存点，请真正支持江湖的人来拿，时效20秒。</font><input  type=button value='我要！' onClick=javascript:zsdzff"&rnd1&".disabled=1;window.open('sjfunc/zdjm.asp','d') name=zsdzff"&rnd1&">"
+   sayyq="<bgsound src=wav/ling.wma loop=1><br><font color=red>【快乐发放】快乐发放50点存点，请真正支持江湖的人来拿，时效20秒。</font><input  type=button value='我要！' onClick=javascript:zsdzff"&rnd1&".disabled=1;window.open('sjfunc/zdjm.asp','d') name=zsdzff"&rnd1&">"
       Application.Lock
       Application("aqjh_zzfafang")="50|"&now()
       application("aqjh_zzffjl")=""
@@ -352,7 +352,7 @@ if Application("aqjh_zzfafang")<>""  then
        erase fffdata
     end if 
  if DateDiff("s",ffsj,now())>5 then
-   sayyq="<bgsound src=wav/ling.wma loop=1><br><font color=red>【属性发放】爱情自动发放练轩辕用的属性，请真正支持江湖的人来拿，时效10秒。</font><input  type=button value='领取！' onClick=javascript:zsdzff"&rnd1&".disabled=1;window.open('sjfunc/lqsx.asp','d') name=zsdzff"&rnd1&">"
+   sayyq="<bgsound src=wav/ling.wma loop=1><br><font color=red>【属性发放】快乐自动发放练轩辕用的属性，请真正支持江湖的人来拿，时效10秒。</font><input  type=button value='领取！' onClick=javascript:zsdzff"&rnd1&".disabled=1;window.open('sjfunc/lqsx.asp','d') name=zsdzff"&rnd1&">"
       Application.Lock
       Application("aqjh_zzfafang")="10|"&now()
       application("aqjh_zzffjl")=""
@@ -381,7 +381,7 @@ if rnd1<=16 then
 else
 select case rnd1
 case 18
-banner="本江湖现在正常运行中，本站已经在信息部备案，备案名称：爱情江湖总站！; 一个最公平的江湖,在我们的江湖绝对不会乱调状态,为大家创造一个良好的休闲环境; 江湖可以为大家承接系统随机广告，有意者联系站长; 本站江湖站长的QQ号是：51726805，没有什么事情的话请不要打扰！; 本站江湖的玩家联系群为：9489521，欢迎加入！; 本站官府尽职尽责，如果有不满意的地方，请去论坛站务管理处投拆或发表意见！"
+banner="本江湖现在正常运行中，本站已经在信息部备案，备案名称：快乐江湖总站！; 一个最公平的江湖,在我们的江湖绝对不会乱调状态,为大家创造一个良好的休闲环境; 江湖可以为大家承接系统随机广告，有意者联系站长; 本站江湖站长的QQ号是：865240608，没有什么事情的话请不要打扰！; 本站江湖的玩家联系群为：9489521，欢迎加入！; 本站官府尽职尽责，如果有不满意的地方，请去论坛站务管理处投拆或发表意见！"
 banners=Split(Trim(banner),";",-1)
 total=UBound(banners)
 randomize timer
@@ -607,7 +607,7 @@ r=int(rnd*30)+1
 Application.Lock
 Application("aqjh_klt8")=r
 Application.UnLock
-	sayyq="<font color=green>【怪物袭击】</font><font color=red>金奥克在深山被一股野火驱赶下山，游荡进爱情江湖，饥不择食，吸收<font color=#0000FF>" &aqjh_name& "</font>道德"&Application("aqjh_klt8")*50&"点！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc8.asp?r="&Application("aqjh_klt8")&" target=optfrm><img src=img/mon28.gif border=0></a></marquee><bgsound src=../mid/KAI.WAV loop=3>"
+	sayyq="<font color=green>【怪物袭击】</font><font color=red>金奥克在深山被一股野火驱赶下山，游荡进快乐江湖，饥不择食，吸收<font color=#0000FF>" &aqjh_name& "</font>道德"&Application("aqjh_klt8")*50&"点！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc8.asp?r="&Application("aqjh_klt8")&" target=optfrm><img src=img/mon28.gif border=0></a></marquee><bgsound src=../mid/KAI.WAV loop=3>"
 Set conn=Server.CreateObject("ADODB.CONNECTION")
 Set rs=Server.CreateObject("ADODB.RecordSet")
 conn.open Application("aqjh_usermdb")
@@ -627,7 +627,7 @@ r=int(rnd*30)+1
 Application.Lock
 Application("aqjh_klt10")=r
 Application.UnLock
-	sayyq="<font color=green>【怪物偷袭】</font><font color=red>哇~~~好酷的一只鸭!真是林子大了，什么鸟都有，一只蹩脚鸭跑进爱情江湖，偷了<font color=#0000FF>" &aqjh_name& "</font>白银"&Application("aqjh_klt10")*500&"点！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc10.asp?r="&Application("aqjh_klt10")&" target=optfrm><img src=img/mon3.gif border=0></a></marquee><bgsound src=../mid/KAI.WAV loop=3>"
+	sayyq="<font color=green>【怪物偷袭】</font><font color=red>哇~~~好酷的一只鸭!真是林子大了，什么鸟都有，一只蹩脚鸭跑进快乐江湖，偷了<font color=#0000FF>" &aqjh_name& "</font>白银"&Application("aqjh_klt10")*500&"点！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc10.asp?r="&Application("aqjh_klt10")&" target=optfrm><img src=img/mon3.gif border=0></a></marquee><bgsound src=../mid/KAI.WAV loop=3>"
 Set conn=Server.CreateObject("ADODB.CONNECTION")
 Set rs=Server.CreateObject("ADODB.RecordSet")
 conn.open Application("aqjh_usermdb")
@@ -657,7 +657,7 @@ r=int(rnd*30)+1
 Application.Lock
 Application("aqjh_klt13")=r
 Application.UnLock
-	sayyq="<font color=green>【怪物袭击】</font><font color=red>一只火史莱姆蹦蹦跳跳闯进爱情江湖，向<font color=#0000FF>" &aqjh_name& "</font>挑衅似的吸取内力"&Application("aqjh_klt13")*100&"点！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc13.asp?r="&Application("aqjh_klt13")&" target=optfrm><img src=img/mon9.gif border=0></a></marquee><bgsound src=../mid/KAI.WAV loop=3>"
+	sayyq="<font color=green>【怪物袭击】</font><font color=red>一只火史莱姆蹦蹦跳跳闯进快乐江湖，向<font color=#0000FF>" &aqjh_name& "</font>挑衅似的吸取内力"&Application("aqjh_klt13")*100&"点！</font><br><marquee width=100% behavior=alternate scrollamount=15><a href=npc/npc13.asp?r="&Application("aqjh_klt13")&" target=optfrm><img src=img/mon9.gif border=0></a></marquee><bgsound src=../mid/KAI.WAV loop=3>"
 Set conn=Server.CreateObject("ADODB.CONNECTION")
 Set rs=Server.CreateObject("ADODB.RecordSet")
 conn.open Application("aqjh_usermdb")
@@ -809,7 +809,7 @@ ask=replace(ask,chr(10),"")
                 Application.Lock
                 Application("aqjh_ask")=ask
                 Application("aqjh_reply")=reply
-                Application("aqjh_askuser")="爱情智囊团"
+                Application("aqjh_askuser")="快乐智囊团"
                 Application("aqjh_asksilver")=int(rnd*9999)+100000
                 Application.UnLock
                 sayyq="<bgsound src=wav/zhanfa.wav loop=1>【系统出题】<font color=balck>" & Application("aqjh_ask") & "？ </font>正确答案是什么？[提问人]:<font color=red>["&Application("aqjh_askuser")&"]</font><font color=green>奖励："&Application("aqjh_asksilver")&"两!</font>"

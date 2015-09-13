@@ -65,5 +65,5 @@ if rs.recordcount<>0 then
 </table><br>
 <center>
 <font color=red>注意：领奖前请先进行收花，否则系统将自动清理你的鲜花，以备下一届花赛的举行！</font><br><br>
-<FONT color=#0000ff>&copy; 版权所有 2005-2006 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>爱情江湖网</FONT></A>
+<FONT color=#0000ff>&copy; 版权所有 2005-2006 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>快乐江湖网</FONT></A>
 </body></html>

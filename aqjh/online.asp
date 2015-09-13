@@ -15,7 +15,7 @@ for i=0 to chatroomnum
 	onlinenow=onlinenow+onlinenum
 next 
 %>
-document.write("<option selected>爱情江湖有<%=onlinenow%>人聊天</option>");
+document.write("<option selected>快乐江湖有<%=onlinenow%>人聊天</option>");
 <%
 for i=0 to chatroomnum	
 	chatroomxx=split(aqjh_roominfo(i),"|")

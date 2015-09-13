@@ -55,7 +55,7 @@ if sysj>=10 and sysj<20 and baby<>"针1" then
 end if
 if sysj=20 then
 	babyzt="生"
-	top="哎呀，你马上就要生了，快去产房吧。爱情医院出于人道主义，对生小孩免收任何费用。"
+	top="哎呀，你马上就要生了，快去产房吧。快乐医院出于人道主义，对生小孩免收任何费用。"
 end if
 if sysj=21 then
 	babyzt="难"

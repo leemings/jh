@@ -11,7 +11,7 @@ end if
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <LINK href="css.css" rel=stylesheet  content="text/css">
-<title>爱情江湖</title>
+<title>快乐江湖</title>
 </head>
 
 <!--#include file="top.asp"-->

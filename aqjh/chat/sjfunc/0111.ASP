@@ -2,7 +2,7 @@
 <!--#include file="sjfunc.asp"-->
 <!--#include file="../../mywp.asp"-->
 
-<%'寻找暗器♀爱情江湖→wWw.7758530.com♀
+<%'寻找暗器♀快乐江湖→wWw.7758530.com♀
 Response.Expires=0
 Response.ExpiresAbsolute = Now() - 1
 Response.AddHeader "Pragma","No-Cache"
@@ -63,7 +63,7 @@ if hydj<3 then
         set rs=nothing
         conn.close
         set conn=nothing
-	Response.Write "<script language=JavaScript>{alert('提示：会员等级为3级才可以进行寻找暗器！购买2级会员赠送200级每天可以领到100个金币！购买加QQ51726805 或打电话：13635716119');}</script>"
+	Response.Write "<script language=JavaScript>{alert('提示：会员等级为3级才可以进行寻找暗器！购买2级会员赠送200级每天可以领到100个金币！购买加QQ865240608 或打电话：13635716119');}</script>"
 	Response.End
 end if
 sj=DateDiff("s",rs("操作时间"),now())
@@ -95,7 +95,7 @@ randomize
 r=int(rnd*10)+1
 select case r
 case 1
-xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>铁蒺藜</font></b>]一个。"
+xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>铁蒺藜</font></b>]一个。"
 	rs.open "SELECT w4 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	anqi=add(rs("w4"),"铁蒺藜",1)
 	conn.execute "update 用户 set  w4='"&anqi&"' where 姓名='"&aqjh_name&"'"
@@ -103,7 +103,7 @@ xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到
 
 
 case 2
-xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>柳叶镖</font></b>]一个。"
+xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了回首当年也在那里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>柳叶镖</font></b>]一个。"
 	rs.open "SELECT w4 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	anqi=add(rs("w4"),"柳叶镖",1)
 	conn.execute "update 用户 set  w4='"&anqi&"' where 姓名='"&aqjh_name&"'"
@@ -111,56 +111,56 @@ xunfaqi=aqjh_name & "你在" & to1 & "的家里做客，碰到了永不放弃也在那里聚会。收到
 
 	
 case 3
-xunfaqi=aqjh_name & "到永不放弃家里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>梅花镖</font></b>]一个>。"
+xunfaqi=aqjh_name & "到回首当年家里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>梅花镖</font></b>]一个>。"
 	rs.open "SELECT w4 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	anqi=add(rs("w4"),"梅花镖",1)
 	conn.execute "update 用户 set  w4='"&anqi&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 4
-xunfaqi=aqjh_name & "到永不放弃家里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>袖箭</font></b>]一个。"
+xunfaqi=aqjh_name & "到回首当年家里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>袖箭</font></b>]一个。"
 	rs.open "SELECT w4 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	anqi=add(rs("w4"),"袖箭",1)
 	conn.execute "update 用户 set  w4='"&anqi&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 5
-xunfaqi=aqjh_name & "到永不放弃家里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>毒镖</font></b>]一个"
+xunfaqi=aqjh_name & "到回首当年家里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>毒镖</font></b>]一个"
 	rs.open "SELECT w4 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	anqi=add(rs("w4"),"毒镖",1)
 	conn.execute "update 用户 set  w4='"&anqi&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 
 case 6
-xunfaqi=aqjh_name & "到永不放弃家里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>铜钱镖</font></b>]一个。"
+xunfaqi=aqjh_name & "到回首当年家里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>铜钱镖</font></b>]一个。"
 	rs.open "SELECT w4 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	anqi=add(rs("w4"),"铜钱镖",1)
 	conn.execute "update 用户 set  w4='"&anqi&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 
 case 7
-xunfaqi=aqjh_name & "到永不放弃家里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>毒龙镖</font></b>]一个。"
+xunfaqi=aqjh_name & "到回首当年家里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>毒龙镖</font></b>]一个。"
 	rs.open "SELECT w4 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	anqi=add(rs("w4"),"毒龙镖",1)
 	conn.execute "update 用户 set  w4='"&anqi&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 
 case 8
-xunfaqi=aqjh_name & "到永不放弃家里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>袖剑</font></b>]一个。"
+xunfaqi=aqjh_name & "到回首当年家里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>袖剑</font></b>]一个。"
 	rs.open "SELECT w4 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	anqi=add(rs("w4"),"袖剑",1)
 	conn.execute "update 用户 set  w4='"&anqi&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 9
-xunfaqi=aqjh_name & "到永不放弃家里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>毒针</font></b>]一个。"
+xunfaqi=aqjh_name & "到回首当年家里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>毒针</font></b>]一个。"
 	rs.open "SELECT w4 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	anqi=add(rs("w4"),"毒针",1)
 	conn.execute "update 用户 set  w4='"&anqi&"' where 姓名='"&aqjh_name&"'"
 	rs.close
 	
 case 10
-xunfaqi=aqjh_name & "永不放弃家里聚会。收到站长<font color=#0000FF>永不放弃</font>赠送给您礼物[<b><font color=red>飞蝗石</font></b>]一个。"
+xunfaqi=aqjh_name & "回首当年家里聚会。收到站长<font color=#0000FF>回首当年</font>赠送给您礼物[<b><font color=red>飞蝗石</font></b>]一个。"
 	rs.open "SELECT w4 FROM 用户 WHERE 姓名='"&aqjh_name&"'",conn
 	anqi=add(rs("w4"),"飞蝗石",1)
 	conn.execute "update 用户 set  w4='"&anqi&"' where 姓名='"&aqjh_name&"'"

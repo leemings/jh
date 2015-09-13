@@ -389,7 +389,7 @@ nlj=rs("内力加")
 </table><br><center><FONT 
             color=#0000ff>&copy; 版权所有 2005-2006 </FONT><A 
             href="http://www.7758530.com/" target=_blank><FONT 
-            color=#0000ff>爱情江湖网</FONT></A>
+            color=#0000ff>快乐江湖网</FONT></A>
 <%rs.close
 set rs=nothing
 conn.close

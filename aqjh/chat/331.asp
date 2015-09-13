@@ -23,7 +23,7 @@ rs.Open ("select top 500 召唤兽1 from 用户 where 姓名='"&aqjh_name&"'"),conn
 %>
 <html>
 <head>
-<title>爱情江湖</title>
+<title>快乐江湖</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <link rel="stylesheet" href="../css.CSS">
 </head>

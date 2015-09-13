@@ -39,7 +39,7 @@ regjm=int(rnd*9998)+1
         [<font color="#FF0000">在线奖励只有在每个月的最后四天才可以领取！</font>]<br>
         [<font color="#FF0000">金卡＝(月点分÷1000)*会员等级！</font>]<br>
         ……<br>
-        [爱情江湖]欢迎大家<font color="#FFFFFF">购买会员</font></a>！ 
+        [快乐江湖]欢迎大家<font color="#FFFFFF">购买会员</font></a>！ 
       </td>
     </table>
 

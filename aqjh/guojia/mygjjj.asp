@@ -49,7 +49,7 @@ if aqjh_name="" then Response.Redirect "../error.asp?id=440"
 <p>国家基金，是一项取之于民，用之于民的政策，所取得金额存放于本国金库中，由国家君主分配给所需要的人。您对本国的付出我会有应有的回报的。对于本国支持最大或从本国取钱最多的人我们都会有记录排行的，请到江湖排行中查询！</p>
 </td>
 </tr>
-</table><br><br><center><FONT color=#0000ff>&copy; 版权所有 2004-2005 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>爱情江湖</FONT></A>
+</table><br><br><center><FONT color=#0000ff>&copy; 版权所有 2004-2005 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>快乐江湖</FONT></A>
 </form>
 </td>
 </tr>

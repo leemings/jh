@@ -93,7 +93,7 @@ set conn=nothing
 %>
 </table>
 </div>
-<div align="center"><br><br>≮爱情江湖总站≯
+<div align="center"><br><br>≮快乐江湖总站≯
 </div>
 </body>
 </html>

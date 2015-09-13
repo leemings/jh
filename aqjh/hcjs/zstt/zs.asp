@@ -73,8 +73,8 @@ end if
 <IMG height=25 src="image/wonderofitallbar.jpg" width=488 border=0> 
 <br>
                             <font size="2" color="#FFFFFF">&copy; Copyright 2005 
-                            www.7758530.com &#153; All Rights Reserved 爱情江湖 
+                            www.7758530.com &#153; All Rights Reserved 快乐江湖 
                             ◆版权所有 禁止抄袭<br>
-                            设计制作：永不放弃　QQ:51726805</font> </TD>
+                            设计制作：回首当年　QQ:865240608</font> </TD>
                         </TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
 </TD></TR></TBODY></TABLE></CENTER></DIV></BODY></HTML>

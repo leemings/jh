@@ -31,7 +31,7 @@ href="../../css.css" rel=stylesheet>
 <table border=1 bgcolor="#FFFFFF" align=center width=541 cellpadding="0" cellspacing="1" bordercolor="#FFCC00">
 <tr bgcolor="#669900"> 
 <td height="16" colspan="6" width="533"> 
-<p align=center class="p9"><font color="#FF3333"><b><font color="#FFFFFF">爱情怡红院</font></b></font></p>
+<p align=center class="p9"><font color="#FF3333"><b><font color="#FFFFFF">快乐怡红院</font></b></font></p>
 <tr bgcolor=#74E76D bordercolor="#000000"> 
 <td height="15" bgcolor="#FFFFCC" bordercolor="#FF6600" width="45"> 
 <div align="center">
@@ -102,5 +102,5 @@ set connt=nothing
 </table>
 <div align="center"><br>
   <a href="index.asp">返回</a></div><br><br>
-<div align="center"><font color="#000000"><b>爱情江湖</b></font></div>
+<div align="center"><font color="#000000"><b>快乐江湖</b></font></div>
 </BODY></HTML> 

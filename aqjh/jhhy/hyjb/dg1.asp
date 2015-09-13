@@ -121,7 +121,7 @@ p{font-size:16;color:#000000;}
 <tr><td bgcolor=#C6BD9B>
 <table height="260">
 <tr>
-          <td height="37"> <strong><font color="#800080">爱情江湖--修炼金币:</font></strong> 
+          <td height="37"> <strong><font color="#800080">快乐江湖--修炼金币:</font></strong> 
         <tr>
           <td height="182" valign="top"><img src="../../chat/img/menoy.gif" width="50" height="40" border="0"><font color="#FF0000">辛辛苦苦修炼了一天，你获得金币2个！消耗体力10万内力10万银两80万，五行之金木减少50，智力减少20点！</font><font color="#FF00FF"><Br>
             </font><Br>

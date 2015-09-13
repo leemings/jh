@@ -41,7 +41,7 @@ input  {
               <TBODY>
                 <TR>
                   <TD width="23"><IMG src="list_image4.gif" width="23" height="37" border="0"></TD>
-                  <TD background="list_image7.gif"><FONT color="#ffffff">【江湖密探】->爱情江湖网</FONT></TD>
+                  <TD background="list_image7.gif"><FONT color="#ffffff">【江湖密探】->快乐江湖网</FONT></TD>
                   <TD width="21"><IMG src="list_image5.gif" width="21" height="37" border="0"></TD>
                   <TD background="list_image6.gif"></TD>
                 </TR>

@@ -33,7 +33,7 @@ parent.m.location.href="f3.asp";}
 else
 {parent.m.location.reload();}
 }
-function ex(){if(confirm("本程序是由『爱情江湖网』提供，感谢您的使用。欢迎再来[<%=Application("aqjh_chatroomname")%>]，see you")){parent.t.location.href='about:blank';top.location.href="exitlt.asp";return true;}}
+function ex(){if(confirm("本程序是由『快乐江湖网』提供，感谢您的使用。欢迎再来[<%=Application("aqjh_chatroomname")%>]，see you")){parent.t.location.href='about:blank';top.location.href="exitlt.asp";return true;}}
 </script>
 <script language="JavaScript"> 
 if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");i=i+1;}top.location.href="../exit.asp"}
@@ -68,7 +68,7 @@ if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑
           <TD><a href="cw/cw.asp" onClick="javascript:s()" target=f3>宠物</a></TD></TR>
         <TR align=middle>
           <TD><a href=../help.asp target=_blank>帮助</a></TD>
-          <TD><a href="mtv/song.asp" onClick="javascript:s()" target="f3"><font color=blue>音</font></a><a href="#" onClick="window.open('../song/top.asp','','scrollbars=yes,resizable=yes,width=600,height=500')" title="爱情江湖点歌系统">乐</TD>
+          <TD><a href="mtv/song.asp" onClick="javascript:s()" target="f3"><font color=blue>音</font></a><a href="#" onClick="window.open('../song/top.asp','','scrollbars=yes,resizable=yes,width=600,height=500')" title="快乐江湖点歌系统">乐</TD>
           <TD><a href="face.asp" onClick="javascript:s()" target="f3">头像</a></TD>
           <TD><a href='setfontsize.asp' onClick="javascript:s()" target=f3>字体</a></TD></TR>
         <TR align=middle>

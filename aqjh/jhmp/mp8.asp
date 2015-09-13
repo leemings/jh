@@ -100,6 +100,6 @@ End Sub
 <br>
 江湖告示：<%=message%> </div>
 <hr>
-<div align="center">版权所有『爱情江湖总站』</div> 
+<div align="center">版权所有『快乐江湖总站』</div> 
 </body>
 </html>
