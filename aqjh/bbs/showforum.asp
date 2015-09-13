@@ -135,7 +135,7 @@ count=toltopic
 end if
 
 
-
+TotalPage=0
 TotalPage=cint(count/pagesetup)  '×ÜÒ³Êý
 if TotalPage < count/pagesetup then TotalPage=TotalPage+1
 PageCount = cint(Request.QueryString("ToPage"))
@@ -150,7 +150,7 @@ sql="select * from [forum] "&topsql&" order by toptopic Desc,"&order&" Desc"
 rs.Open sql,Conn,1
 end if
 
-if TotalPage>1 then RS.Move (PageCount-1) * pagesetup
+if TotalPage>1 And Not RS.EOF then RS.Move (PageCount-1) * pagesetup
 
 if RS.EOF and toltopic>0 then UpTolTopic
 

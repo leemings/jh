@@ -1,7 +1,5 @@
 <%
-if pass="0" then
-error("<li>本论坛暂时关闭，不再接受访问！")
-elseif pass="2" then
+if pass="2" then
 if Request.Cookies("username")=empty then error("<li>只有<a href=login.asp>登录</a>后才能浏览论坛")
 elseif pass="3" then
 if instr("|"&userlist&"|","|"&Request.Cookies("username")&"|")<=0 or Request.Cookies("username")=empty then error("<li>该论坛并未授权您访问！")
