@@ -62,7 +62,7 @@ if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑
           <TD><a href="selectchatroom.asp" onClick="javascript:s()" target="f3">房间</A></TD><td><a href="yuanqi.asp" onClick="javascript:s()" title="泡点得到的元气可以杀人！" target="f3">元气</A></td></TR>
         <TR align=middle>
           <TD><a href="KING1.asp" onClick="javascript:s()" title="江湖功能区！" target=f3><font color=blue>功</font></a><a href="king.asp" onClick="javascript:s()" target="f3"><font color=red>能</font></a></TD>
-          <TD><a href="#" onClick="window.open('../garden/hua.asp','','scrollbars=yes,resizable=yes,width=700,height=400')" title="种花参加花园大赛做种花状元"><font color=blue>花</font></a><a href="#" onClick="window.open('../jhshow/z_home.asp','','scrollbars=yes,resizable=yes,width=700,height=400')" title="我的家园！"><font color=red>园</font></font></a></TD>
+          <TD><a href="#" onClick="window.open('../garden/hua.asp','','scrollbars=yes,resizable=yes,width=700,height=400')" title="种花参加花园大赛做种花状元">花园</a></TD>
           <TD><a href="#" onClick="window.open('../twt/mhmj/mhmj/index.asp','','scrollbars=yes,resizable=yes,width=700,height=400')" title="这里的怪物很多，打死了得到很多东西！"><font color=red>魔界</font></font></a></TD>
          <TD><a href="new2.asp" target="_blank" title="快乐茶壶任务系统"><font color="red">任务</font></a></td>           
         <TR align=middle>

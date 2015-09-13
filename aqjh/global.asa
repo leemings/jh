@@ -1,6 +1,6 @@
 <SCRIPT LANGUAGE="VBScript" RUNAT="Server">
 sub Application_OnStart
-Application("aqjh_usermdb")="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & Server.MapPath("aqjh_data/aqjh.asp")
+Application("aqjh_usermdb")="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & Server.MapPath("aqjh_data/aqjh.mdb")
 '½­ºþÐãÊý¾Ý¿â
 Application("showmdb")="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & Server.MapPath("aqjh_data/show.asp")
 Application("renwudb")="Provider=Microsoft.Jet.OLEDB.4.0;Jet OLEDB:Database Password=usermdb;Data Source=" & Server.MapPath("aqjh_data/renwu.asp")
