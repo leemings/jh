@@ -56,7 +56,8 @@ if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑
           <TD><a href="KING1.asp" onClick="javascript:s()" title="江湖功能区！" target=f3><font color=blue>功</font></a><a href="king.asp" onClick="javascript:s()" target="f3"><font color=red>能</font></a></TD>
           <TD><a href="#" onClick="window.open('../garden/hua.asp','','scrollbars=yes,resizable=yes,width=700,height=400')" title="种花参加花园大赛做种花状元">花园</a></TD>
           <TD><a href="#" onClick="window.open('../twt/mhmj/mhmj/index.asp','','scrollbars=yes,resizable=yes,width=700,height=400')" title="打怪的好地方！"><font color=red>魔界</font></font></a></TD>
-          <TD><a href="new2.asp" target="_blank" title="快乐茶壶任务系统"><font color="red">任务</font></a></td>         
+<!--           <TD><a href="new2.asp" target="_blank" title="快乐茶壶任务系统"><font color="red">任务</font></a></td> -->
+		  <TD><a href="#" onClick="alert('任务暂未开放，敬请期待');"><font color="red">任务</font></a></td>
         <TR align=middle>
           <TD><a href='setwg3.asp' onClick="javascript:s()" target=f3>动武</a></TD>
           <TD><a href="setwg4.asp" title="轩辕" target="f3" onClick="javascript:s()">轩辕</a></TD>
