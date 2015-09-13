@@ -1,6 +1,6 @@
 <%@LANGUAGE="VBSCRIPT" CodePage="936"%>
 <%
-'7758530.com
+'happyjh.com
 Option Explicit
 Response.Buffer = True
 Server.scriptTimeout="20"

@@ -67,7 +67,7 @@ A:hover {
 </STYLE>
 
 <head>
-<TITLE>¡ô¿ìÀÖ½­ºş¡ô×ÜÕ¾¡º7758530.CoM¡»¡ú´òÔìÒ»¸öĞÂµÄÆ·ÅÆ</TITLE>
+<TITLE>¡ô¿ìÀÖ½­ºş¡ô×ÜÕ¾¡ºhappyjh.CoM¡»¡ú´òÔìÒ»¸öĞÂµÄÆ·ÅÆ</TITLE>
 <%randomize timer
 mysound=int(rnd*4)+1
 Response.Write "<bgsound src=mid/midi"&mysound&".mid loop=-1 volume=100>"
@@ -83,9 +83,9 @@ text=#000000 bgColor=#ff0000 background=../index1.files/tstdn_5.jpg>
 <DIV id=Layer1 
 style="Z-INDEX: 1; LEFT: 687px; WIDTH: 150px; POSITION: absolute; TOP: 22px; HEIGHT: 21px"><A 
 style="CURSOR: hand" 
-onclick="this.style.behavior='url(#default#homepage)';&#10;&#10;this.setHomePage('http://www.7758530.com')" 
+onclick="this.style.behavior='url(#default#homepage)';&#10;&#10;this.setHomePage('http://www.happyjh.com')" 
 href="#">ÉèÎªÊ×Ò³</A> | <A  
-href="javascript:window.external.AddFavorite('http://www.7758530.com','¡º¿ìÀÖ½­ºş×ÜÕ¾¡»')">ÊÕ²Ø±¾Õ¾</A> 
+href="javascript:window.external.AddFavorite('http://www.happyjh.com','¡º¿ìÀÖ½­ºş×ÜÕ¾¡»')">ÊÕ²Ø±¾Õ¾</A> 
 </DIV>
 <DIV align=center>
 <TABLE height=221 cellSpacing=0 cellPadding=0 width=775 align=center border=0>
@@ -106,15 +106,15 @@ href="javascript:window.external.AddFavorite('http://www.7758530.com','¡º¿ìÀÖ½­º
         <TR>
           <TD height=27>
             <DIV align=right>
-            <P align=center><A href="http://www.7758530.com">Ê×Ò³</A> <A 
-            href="http://www.7758530.com/bbs/" target=_blank>½­ºşÂÛÌ³</A> <A 
-            href="http://www.7758530.com/jiaoyou/index.asp" 
+            <P align=center><A href="http://www.happyjh.com">Ê×Ò³</A> <A 
+            href="http://www.happyjh.com/bbs/" target=_blank>½­ºşÂÛÌ³</A> <A 
+            href="http://www.happyjh.com/jiaoyou/index.asp" 
             target=_blank>½­ºş½»ÓÑ</A> <A 
-            href="http://www.7758530.com/joke/index.asp" 
+            href="http://www.happyjh.com/joke/index.asp" 
             target=_blank>½­ºşĞ¦»°</A> <A 
-            href="http://www.7758530.com/ie.exe" 
+            href="http://www.happyjh.com/ie.exe" 
             target=_blank>Çå³ıÁÙÊ±ÎÄ¼ş½â¾öµôÏß</A> <A 
-            href="http://www.7758530.com/jhbook/index.asp" 
+            href="http://www.happyjh.com/jhbook/index.asp" 
             target=_blank>ÁôÑÔ±¾Õ¾</A></P></DIV></TD></TR>
   </TBODY></TABLE><FONT 
       size=2>&nbsp;</FONT></TD></TR><TR>
@@ -321,7 +321,7 @@ background=index1.files/bottom_t.jpg border=0>
   <TBODY>
   <TR>
     <TD height=70>
-      <CENTER>Copyright&copy;2004 7758530.CoM&#8482; All Rights Reserved  
+      <CENTER>Copyright&copy;2004 happyjh.CoM&#8482; All Rights Reserved  
       ¿ìÀÖ½­ºş×ÜÕ¾<BR>È«Õ¾Éè¼ÆĞŞ¸Ä:¿ìÀÖ½­ºş¡¡¿Í·şQQ:865240608  
 TEL:13635716119</CENTER></TD></TR></TBODY></TABLE></DIV></FORM></BODY>
 </html>

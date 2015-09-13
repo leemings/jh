@@ -39,9 +39,9 @@ regjm=int(rnd*9998)+1
          [<font color="#FF0000">福神卡</font>],<font color="#FF0000">会员等级*1</font><br>
          下次发放[<font color="#FF0000">种花卡</font>],<font color="#FF0000">会员等级*1</font>万<br>
         时间为：星期五<br>
-        2005.06.03<br>
-        2005.06.10<br>
-        2005.06.17<br>
+        2015.06.03<br>
+        2015.06.10<br>
+        2015.06.17<br>
         ……<br>
         [快乐江湖]欢迎大家您的光临</font></a>！ 
       </td>

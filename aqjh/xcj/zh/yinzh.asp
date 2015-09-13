@@ -74,6 +74,6 @@ set conn=nothing
         </table>   
 <p><font color="#FFFF00" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
 <img border="0" src="gem01.gif"></font><font size="2" color="#0000FF">¿ìÀÖ½­ºþ¶À´´  
-2005-01-12</font></p> 
+2015-09-13</font></p> 
 </body>   
 </html>

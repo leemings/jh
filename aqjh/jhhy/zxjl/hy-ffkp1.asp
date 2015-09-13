@@ -36,7 +36,7 @@ if len(s)=1 then s="0" & s
 if len(f)=1 then f="0" & f
 if len(m)=1 then m="0" & m
 sj=n & "-" & y & "-" & r
-if sj<"2005-05-28" and sj>"2005-05-29" and sj>"2005-05-30"and sj>"2005-05-31" then
+if sj<"2015-05-28" and sj>"2015-05-29" and sj>"2015-05-30"and sj>"2015-05-31" then
 	Response.Write "<script Language=Javascript>alert('对不起，在线奖励时间超时！');location.href = 'javascript:history.go(-1)';</script>"
 	response.end
 end if

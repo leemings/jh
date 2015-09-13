@@ -338,5 +338,5 @@ if sj<=60 then%>
 </TR>
 <%end if%>
 <TR bgColor=#000000>
-<TD align=middle colspan="7" height="28"><FONT color=#ffffff>&copy; 版权所有 2004-2005 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#ffffff>快乐江湖网</FONT></A></TD>
+<TD align=middle colspan="7" height="28"><FONT color=#ffffff>&copy; 版权所有 2015-2015 </FONT><A href="http://www.happyjh.com/" target=_blank><FONT color=#ffffff>快乐江湖网</FONT></A></TD>
 </TR></TBODY></TABLE></DIV></BODY></HTML>

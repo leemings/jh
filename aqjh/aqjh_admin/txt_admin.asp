@@ -59,10 +59,10 @@
 10、清理论坛：江湖中不存在的用户在论坛中也是没用的，可以进行清理<br>
 11、空间探测：检测一下江湖空间及数据库的大小<br>
 12、系统重启：如果你对江湖房间进行了修改或者江湖出错，可以通过此功能进行重启，注意重启后所有人都会掉线的<br><br>
-如果您是正版程序，请观注官方站点，及时更新最新补丁程序<a href=http://www.7758530.com target=_blank>http://www.7758530.com</a><br><br>
-官方江湖<a href=http://www.7758530.com target=_blank>http://www.7758530.com</a><br><br>
+如果您是正版程序，请观注官方站点，及时更新最新补丁程序<a href=http://www.happyjh.com target=_blank>http://www.happyjh.com</a><br><br>
+官方江湖<a href=http://www.happyjh.com target=_blank>http://www.happyjh.com</a><br><br>
 
 
 -----------快乐江湖总站 程序//美工:回首当年------------<br><br>
--------------------2005年5月18日--------------------<br><br>
+-------------------2015年5月18日--------------------<br><br>
 </td></tr></table>

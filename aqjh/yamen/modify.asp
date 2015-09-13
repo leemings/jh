@@ -58,8 +58,8 @@ name="button" style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT
 来删除记录！以免帐号被盗用</td></tr>
         <TR>
           <TD align=middle><FONT 
-            color=#0000ff>&copy; 版权所有 2004-2005 </FONT><A 
-            href="http://www.7758530.com/" target=_blank><FONT 
+            color=#0000ff>&copy; 版权所有 2015-2015 </FONT><A 
+            href="http://www.happyjh.com/" target=_blank><FONT 
             color=#0000ff>快乐江湖网</FONT></A> </TD></TR>
 </table>
 <!=></TD></TR></form>

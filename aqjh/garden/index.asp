@@ -117,5 +117,5 @@ if rs.recordcount<>0 then
 共<font color=2020dd><% =rs.pagecount %></font>页<font color=2020dd><% =rs.recordcount %></font>张 当前:<font color=2020dd><%=page%></font>/<%=rs.pagecount%>&nbsp;&nbsp;<a href=index.asp?pageno=1>首页</a>&nbsp;<a href=index.asp?pageno=<% =page-1 %>>上页</a>&nbsp;<a href=index.asp?pageno=<% =page+1 %>>下页</a>&nbsp;<a href=index.asp?pageno=<% =rs.pagecount %>>末页</a>
 <%end if%>
 </table><br>
-<center><FONT color=#0000ff>&copy; 版权所有 2005-2006 </FONT><A href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>快乐江湖网</FONT></A>
+<center><FONT color=#0000ff>&copy; 版权所有 2015-2015 </FONT><A href="http://www.happyjh.com/" target=_blank><FONT color=#0000ff>快乐江湖网</FONT></A>
 </body></html>

@@ -35,8 +35,8 @@ Response.CacheControl = "No-Cache"
 自我保释一定有要3000万银两才可以，等着坐牢房过日子吧！<br>注意：本功能只对逮捕有用，被坐牢和监禁者无法保释。</td></tr>
         <TR>
           <TD align=middle><FONT 
-            color=#0000ff>&copy; 版权所有 2004-2005 </FONT><A 
-            href="http://www.7758530.com/" target=_blank><FONT 
+            color=#0000ff>&copy; 版权所有 2015-2015 </FONT><A 
+            href="http://www.happyjh.com/" target=_blank><FONT 
             color=#0000ff>快乐江湖网</FONT></A> </TD></TR>
 </table>
 <!=></TD></TR>

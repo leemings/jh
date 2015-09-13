@@ -48,7 +48,7 @@ A:hover {
 </STYLE>
 
 <head>
-<title>◆快乐江湖社区◆www.7758530.net◆领潮网络新生活</title>
+<title>◆快乐江湖社区◆www.happyjh.net◆领潮网络新生活</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
 <META NAME="Keywords" CONTENT="快乐江湖，江湖社区，快乐江湖，正版江湖，网络游戏，娱乐休闲，交友，聊天，音乐，电影，笑话，SHOW，江湖秀，广西，江湖，快乐江湖，互动游戏，网络生活">
 <META NAME="Description" CONTENT="快乐江湖社区，大型网络游戏，领潮网络新生活，是大家交友聊天的好去处，功能多多，欢迎大家体验！">
@@ -122,7 +122,7 @@ A:hover {
           <TR> 
             <TD height="58" align="center" bgcolor="#412800"><font color="#FF9900">☆建议使用分辨率：800×600　Windows　Internet 
               Explorer V6.0 or higher☆<br>
-              Copyright 2003-2004 〖www.7758530.com〗 All Rights Reserved 快乐江湖总站 
+              Copyright 2003-2004 〖www.happyjh.com〗 All Rights Reserved 快乐江湖总站 
               ◆版权所有 禁止抄袭<br>
               站点维护：『快乐江湖网』　QQ：865240608</font></TD>
           </TR>

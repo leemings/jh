@@ -375,7 +375,7 @@ function count() {
       </TBODY>
      </TABLE></TD></TR></TBODY></TABLE></DIV>
 
-<table width=100%><tr><td height=350> </td></tr><tr><td align=center><p align=center><font color="#FFFFFF"><a href="http://www.7758530.com"><font color="#FF0000">快乐江湖网制作</font></a> 
+<table width=100%><tr><td height=350> </td></tr><tr><td align=center><p align=center><font color="#FFFFFF"><a href="http://www.happyjh.com"><font color="#FF0000">快乐江湖网制作</font></a> 
         <font color="#000000">授权--<%=Application("aqjh_chatroomname")%></font></font><font style=font-size:9pt color=#000000></font></p></table>
 </BODY></HTML>
 <%

@@ -42,8 +42,8 @@ if session("aqjh_jm")>30 then Response.Redirect "../chat/readonly/bomb.htm"
 <input type="submit" name="submit" value="确定" style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; BACKGROUND-COLOR: #e8e8d8">
 <input type="button" value="关闭" onclick="window.close()"
 name="button" style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid; BACKGROUND-COLOR: #e8e8d8"></td></tr>
-<TR><TD align=middle><FONT color=#0000ff>&copy; 版权所有 2004-2005 </FONT><A 
-            href="http://www.7758530.com/" target=_blank><FONT color=#0000ff>快乐江湖网</FONT></A> </TD></TR>
+<TR><TD align=middle><FONT color=#0000ff>&copy; 版权所有 2015-2015 </FONT><A 
+            href="http://www.happyjh.com/" target=_blank><FONT color=#0000ff>快乐江湖网</FONT></A> </TD></TR>
 </table>
 <!=></TD></TR></form>
 <TR><TD width="3%" height=6><IMG src="pic/T3.gif" border=0></TD>

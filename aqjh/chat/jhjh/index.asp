@@ -273,7 +273,7 @@ A:active {
               </TBODY></TABLE>            </TD>
         </TR>
 		<tr bgcolor="#FFFFFF"> 
-          <td bgcolor="#CCCCFF" colspan="3"><div align="center"><span class="style4">&copy; 版权所有 2005-2006 <A href="http://www.7758530.com/" target=_blank>快乐江湖总站</A></span> </div></td>
+          <td bgcolor="#CCCCFF" colspan="3"><div align="center"><span class="style4">&copy; 版权所有 2015-2015 <A href="http://www.happyjh.com/" target=_blank>快乐江湖总站</A></span> </div></td>
         </tr>
 			  
         <TR bgColor=#686468>

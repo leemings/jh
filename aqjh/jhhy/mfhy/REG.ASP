@@ -72,7 +72,7 @@
           具体说明请</b><a href="../../chat/hy.asp" target="_blank"><font color="#0000FF"><b>点击这里!</b></font></a></font></p>
         <p align="center">　<br>
           <br>
-          <%=Application("aqjh_name")%>  <font color="#0000FF"><a href="http://WWW.7758530.com"><b>快乐江湖总站首创</b></a> Copyright  
+          <%=Application("aqjh_name")%>  <font color="#0000FF"><a href="http://WWW.happyjh.com"><b>快乐江湖总站首创</b></a> Copyright  
         2004-2008</font></p>
       </div>
       </td>

@@ -72,8 +72,8 @@ end if
 <a href="#" onclick="javascript:window.close();"><img height=53 src="image/wonderofitallbutterflydark.jpg" width=60 border=0 alt="关闭窗口"></a><br>
 <IMG height=25 src="image/wonderofitallbar.jpg" width=488 border=0> 
 <br>
-                            <font size="2" color="#FFFFFF">&copy; Copyright 2005 
-                            www.7758530.com &#153; All Rights Reserved 快乐江湖 
+                            <font size="2" color="#FFFFFF">&copy; Copyright 2015 
+                            www.happyjh.com &#153; All Rights Reserved 快乐江湖 
                             ◆版权所有 禁止抄袭<br>
                             设计制作：回首当年　QQ:865240608</font> </TD>
                         </TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>

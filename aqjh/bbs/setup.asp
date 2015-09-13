@@ -188,7 +188,7 @@ end sub
 sub htmlend
 %><title><%=clubname%> - Powered By BBSxp</title><p>
 <table cellspacing=0 cellpadding=0 width=97% align=center><tr><td align=middle>
-<%=adcode%><br>Powered by <font color=ffffff> <a target=_blank href=http://www.bbsxp.com/download.htm><font color=000000>BBSxp <%=ver%></font></a></font>/<a  href=Licence.asp><font color=000000>Licence</font></a>&nbsp;&copy; 1998-2005<br>
+<%=adcode%><br>Powered by <font color=ffffff> <a target=_blank href=http://www.bbsxp.com/download.htm><font color=000000>BBSxp <%=ver%></font></a></font>/<a  href=Licence.asp><font color=000000>Licence</font></a>&nbsp;&copy; 1998-2015<br>
 Script Execution Time:<%=fix((timer()-startime)*1000)%>ms
 </td></tr></table>
 <script>bbsxpbottom()</script>

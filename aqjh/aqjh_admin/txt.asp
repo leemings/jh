@@ -16,10 +16,10 @@
 为此，对于本程充产生的任何后果将不负任何法律上的责任！<br><br>
 最后谢谢您的使用！<br><br>
 本套程序采用了数据库加密，唯一网管理等新技术防黑，是现在最安全、速度最快的江湖<br><br>
-如果您是正版程序，请观注官方站点，及时更新最新补丁程序<a href=http://www.7758530.com target=_blank>http://www.7758530.com</a><br><br>
-官方江湖<a href=http://www.7758530.com target=_blank>http://www.7758530.com</a><br><br>
+如果您是正版程序，请观注官方站点，及时更新最新补丁程序<a href=http://www.happyjh.com target=_blank>http://www.happyjh.com</a><br><br>
+官方江湖<a href=http://www.happyjh.com target=_blank>http://www.happyjh.com</a><br><br>
 
 
 -----------快乐江湖总站 程序//美工:回首当年------------<br><br>
--------------------2005年5月18日--------------------<br><br>
+-------------------2015年5月18日--------------------<br><br>
 </td></tr></table>

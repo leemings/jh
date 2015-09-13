@@ -8,6 +8,6 @@
 <p align="center"><font color="#CCCCCC" size="2">免费程序不提供此功能</font></p>
 <p align="center"><font color="#CCCCCC" size="2">购买正版程序</font></p>
 <p align="center"><font color="#CCCCCC" size="2">请您联系QQ：865240608</font></p>
-<p align="center"><font color="#CCCCCC"><a href="http://www.7758530.com/" target="_blank"><font color="#FF33FF" size="2">http://</font><font size="2"><font color="#FF33FF">www.7758530.com</font></font></a><br>
+<p align="center"><font color="#CCCCCC"><a href="http://www.happyjh.com/" target="_blank"><font color="#FF33FF" size="2">http://</font><font size="2"><font color="#FF33FF">www.happyjh.com</font></font></a><br>
   </font> </p>
 

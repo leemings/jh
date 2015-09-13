@@ -652,7 +652,7 @@ else jhjh="";
 	if (showtype != 0){if (showstr.search(showseek) != -1 || lis[0]==myn){wmd(ss);}}else{wmd(ss);}}}
 function md3(){
 	if (this.f2.document.af.mdsx.checked == false){return;}
-		wmd("<br><div align=\"center\"><a href=http://www.7758530.com/ target=_blank><img src=../logo.gif width=88 height=31 border=0 alt=全力打造精彩江湖与论坛></a><HR size=1 color=b3d4ff><font class=banq style='font-size:9pt'><font color=FFFFFF>男玩家</font> <font color=#00FFFF>男会员</font><br><font color=00FF00>女玩家</font> <font color=FF00FF>女会员</font><br>版本:快乐完善-完美版<br>程序/美工：回首当年<br><a href=http://wpa.qq.com/msgrd?V=1&Uin=865240608&Site=回首当年&Menu=yes target=_blank><img src=QQ.gif width=130 height=29 border=0 alt=有什么建议和意见请与站长联系！><br>");
+		wmd("<br><div align=\"center\"><a href=http://www.happyjh.com/ target=_blank><img src=../logo.gif width=88 height=31 border=0 alt=全力打造精彩江湖与论坛></a><HR size=1 color=b3d4ff><font class=banq style='font-size:9pt'><font color=FFFFFF>男玩家</font> <font color=#00FFFF>男会员</font><br><font color=00FF00>女玩家</font> <font color=FF00FF>女会员</font><br>版本:快乐完善-完美版<br>程序/美工：回首当年<br><a href=http://wpa.qq.com/msgrd?V=1&Uin=865240608&Site=回首当年&Menu=yes target=_blank><img src=QQ.gif width=130 height=29 border=0 alt=有什么建议和意见请与站长联系！><br>");
 	if (listfaces==true){wmd("为自己.<img src='../jhimg/self.gif' width='12' height='12'><img src='../jhimg/friend.gif' width='12' height='12'>.为好友</font></div>");}
 	wmd("</td></tr></table></body></html>")
 	this.f3.document.close();

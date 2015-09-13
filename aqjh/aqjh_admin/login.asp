@@ -62,7 +62,7 @@ border=0>
     <TD class=forumRowHighlight align=middle colSpan=2><INPUT class=kuang type=submit value="登陆" name=Submit>&nbsp;&nbsp;<INPUT class=kuang onclick=window.location.reload() type=button value=刷新 name=refresh>&nbsp; 
 <INPUT class=kuang onclick="javascript:window.close();" type=button value=关闭 name=Submit1></TD></TR></TBODY></TABLE></FORM>
 <P align=center>[版权所有：<A 
-href="http://www.7758530.com/">快乐江湖网</A> 客服QQ：865240608]</P></DIV></BODY></HTML>
+href="http://www.happyjh.com/">快乐江湖网</A> 客服QQ：865240608]</P></DIV></BODY></HTML>
 <%elseif pass=Application("aqjh_adminkey") and user=Application("aqjh_adminuser") then
 session("aqjh_adminok")=true
 Set conn=Server.CreateObject("ADODB.CONNECTION")

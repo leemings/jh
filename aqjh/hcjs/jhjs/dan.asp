@@ -135,5 +135,5 @@ set conn=nothing
 end sub
 %>
 </table>
-<p align=center><FONT color=#0000ff>&copy; 版权所有 2005-2006 </FONT><A href="http://cys.hxjhw.com/" target=_blank><FONT color=#0000ff>快乐江湖网</FONT></A></p>
+<p align=center><FONT color=#0000ff>&copy; 版权所有 2015-2015 </FONT><A href="http://cys.hxjhw.com/" target=_blank><FONT color=#0000ff>快乐江湖网</FONT></A></p>
 </body>

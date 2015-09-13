@@ -76,7 +76,7 @@ else%>
 		<td>&nbsp;::
 		<a onclick="javascript:open('message.asp?menu=post','','width=320,height=170')" href="#">发送短信</a></td>
 		<td>&nbsp;::
-		<a href="http://www.7758530.com/" target=_blank>官方江湖</a></td>
+		<a href="http://www.happyjh.com/" target=_blank>官方江湖</a></td>
 	</tr>
 	<tr>
 		<td>&nbsp;::
@@ -84,7 +84,7 @@ else%>
 		<td>&nbsp;::
 		<a href="message.asp">我的留言</a></td>
 		<td>&nbsp;::
-		<a href="http://www.7758530.com/bbs" target=_blank>快乐论坛</a></td>
+		<a href="http://www.happyjh.com/bbs" target=_blank>快乐论坛</a></td>
 	</tr>
 	<tr>
 		<td>&nbsp;::

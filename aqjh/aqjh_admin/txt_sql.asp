@@ -46,10 +46,10 @@
 　　　此sql是删除总积分小于5的所有用户<br>
 4、其它还有好几个命令，这里就不介绍了，比如通过sql添加字段名，建立数据表等，这些用处不大，也比较少，不提倡大家使用的<br>
 5、有关常用sql指令，大家可以在后台的sql指令里找到的<br><br>
-如果您是正版程序，请观注官方站点，及时更新最新补丁程序<a href=http://www.7758530.com target=_blank>http://www.7758530.com</a><br><br>
-官方江湖<a href=http://www.7758530.com target=_blank>http://www.7758530.com</a><br><br>
+如果您是正版程序，请观注官方站点，及时更新最新补丁程序<a href=http://www.happyjh.com target=_blank>http://www.happyjh.com</a><br><br>
+官方江湖<a href=http://www.happyjh.com target=_blank>http://www.happyjh.com</a><br><br>
 
 
 ----------快乐江湖总站 程序//美工:回首当年------------<br><br>
--------------------2005年5月18日--------------------<br><br>
+-------------------2015年5月18日--------------------<br><br>
 </td></tr></table>

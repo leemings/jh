@@ -56,8 +56,8 @@ name="button" style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT
 由于IE5会记录输入的密码，请在网吧上网的朋友通过“清除历史记录”来删除记录！以免帐号被盗用，此密码为保护密码，并非登录时的密码！</td></tr>
         <TR>
           <TD align=middle><FONT 
-            color=#0000ff>&copy; 版权所有 2004-2005 </FONT><A 
-            href="http://www.7758530.com/" target=_blank><FONT 
+            color=#0000ff>&copy; 版权所有 2015-2015 </FONT><A 
+            href="http://www.happyjh.com/" target=_blank><FONT 
             color=#0000ff>快乐江湖网</FONT></A> </TD></TR>
 </table>
 <!=></TD></TR></form>

@@ -42,9 +42,9 @@ TD {COLOR: #B6B6B6;FONT-SIZE: 12px; LINE-HEIGHT: 15px}
 <SCRIPT> 
 <!--
 //Static Slide Menu 6.5 ?MaXimuS 2004-2008, All Rights Reserved.
-//Site: http://www.7758530.com
+//Site: http://www.happyjh.com
 //E-mail: 119yejin@163.com
-//Script featured on Dynamic Drive (http://www.7758530.com)
+//Script featured on Dynamic Drive (http://www.happyjh.com)
 
 NS6 = (document.getElementById&&!document.all)
 IE = (document.all)
@@ -160,9 +160,9 @@ barText="★快速通道★";
 ssmItems[0]=["++风格++"] 
 ssmItems[1]=["正规版面", "welcome.asp", ""]
 ssmItems[2]=["美化版面", "welcome2.asp",""]
-ssmItems[3]=["江湖出售", "http://www.7758530.com", "_blank"]
+ssmItems[3]=["江湖出售", "http://www.happyjh.com", "_blank"]
 
-ssmItems[4]=["技术论坛", "http://www.7758530.com/bbs", "_blank"]
+ssmItems[4]=["技术论坛", "http://www.happyjh.com/bbs", "_blank"]
 
 
 

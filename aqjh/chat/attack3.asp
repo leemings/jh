@@ -156,7 +156,7 @@ nn=int(rnd()*5500000*myzs)+1
 	ii=int(rnd()*1000000*myzs)+1
 	iii=int(rnd()*200000*myzs)+1000
 	aa=int(rnd()*1500000*myzs)+1
-conn.Execute ("update 用户 set 状态='正常',保护=false,武功="&ii&"+146534,防御="&iii&"+1000,体力="&aa&"+1000,等级="&qq&"*"&myzs&",内力="&nn&"+1000,操作时间=now(),死亡时间='2005-3-15 20:24:45' where 姓名='"&id&"'")
+conn.Execute ("update 用户 set 状态='正常',保护=false,武功="&ii&"+146534,防御="&iii&"+1000,体力="&aa&"+1000,等级="&qq&"*"&myzs&",内力="&nn&"+1000,操作时间=now(),死亡时间='2015-3-15 20:24:45' where 姓名='"&id&"'")
 conn.Execute ("update 用户 set 银两=银两-10000000,法力=法力-1000,金币=金币-5 where 姓名='"&aqjh_name&"'")
 
 Session("aqjh_inthechat")="1"

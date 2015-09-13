@@ -70,7 +70,7 @@ border=0 background="images/dw.gif">
     </td>
   </tr>
   <tr> 
-      <td> <p align="center"><font color="#FFFFFF"><a href="http://www.7758530.com"><font color="#FF0000">快乐江湖网制作</font></a> 
+      <td> <p align="center"><font color="#FFFFFF"><a href="http://www.happyjh.com"><font color="#FF0000">快乐江湖网制作</font></a> 
           <font color="#000000">授权--<%=Application("aqjh_chatroomname")%></font></font></p>
     </td>
   </tr>

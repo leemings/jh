@@ -28,7 +28,7 @@ Application("aqjh_baowusm")="Õâ±¦ÎïÊÇÏöÒİÑ°±ã´ó½­ÄÏ±±£¬²ÅĞÁĞÁ¿à¿àÕÒµ½µÄ¡£µ«ÊÇÏë²
 '*ÒÔÏÂ½­ºş¹ÜÀíÉèÖÃ£¬ÇĞ¼Ç²»Òª¸Ä´í£¬·ñÔòÎŞ·¨Õı³£ÔËĞĞ *
 '***************************************************
 Application("aqjh_chatroomname")="¿ìÀÖ½­ºş"      '½­ºşÃû³Æ
-Application("aqjh_homepage")="http://www.7758530.com"      '½­ºşÖ÷Ò³
+Application("aqjh_homepage")="http://www.happyjh.com"      '½­ºşÖ÷Ò³
 Application("aqjh_sn")="love888"      '½­ºşĞòÁĞºÅ£¬Õı°æ±êÖ¾£¬ĞŞ¸Äºóºó¹û×Ô¸º
 Application("aqjh_user")="»ØÊ×µ±Äê"      '½­ºşÕ¾³¤
 Application("aqjh_qq")="865240608"      'Õ¾³¤qq

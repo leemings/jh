@@ -45,12 +45,12 @@ regjm=int(rnd*9998)+1
         下次只发放[<font color="#FF0000">涨钱卡</font>],<font color="#FF0000">会员等级</font>张<br>
         下次只发放[<font color="#FF0000">健身卡</font>],<font color="#FF0000">会员等级</font>张<br>
         时间为：法定节假日<br>
-        2005.03.08<br>
-        2005.05.01<br>
-        2005.06.01<br>
-        2005.07.01<br>
-        2005.08.01<br>
-        2005.完善1<br>
+        2015.03.08<br>
+        2015.05.01<br>
+        2015.06.01<br>
+        2015.07.01<br>
+        2015.08.01<br>
+        2015.完善1<br>
                ……<br>
         [快乐江湖]欢迎大家<a href="../chat/hy.ASP" ><font color="#FFFFFF">购买会员</font></a>！ 
       </td>

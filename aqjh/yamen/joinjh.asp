@@ -149,7 +149,7 @@ function CheckIfEnglish( String )
             color=#ff0000>你来这个江湖的人的名字，以便对其适当奖励</FONT></TD></TR>
         <TR>
           <TD align=middle colSpan=3><FONT 
-            color=#0000ff>&copy; 版权所有 2004-2008 </FONT><a href="http://www.7758530.com/" target="_blank"><font color="#0000ff">快乐江湖网</font></a> </TD></TR>  
+            color=#0000ff>&copy; 版权所有 2004-2008 </FONT><a href="http://www.happyjh.com/" target="_blank"><font color="#0000ff">快乐江湖网</font></a> </TD></TR>  
 </table><!=></TD></TR>
 <TR><TD width="3%" height=6><IMG src="pic/T3.gif" border=0></TD>
     <TD width="94%" background=pic/M3.gif height=6>　</TD>

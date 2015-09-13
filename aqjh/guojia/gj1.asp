@@ -24,7 +24,7 @@ onpaste="return false" oncontextmenu="return false">
 </p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><strong><font color="#FFFF33">您所使用程序来自</font> <a href="http://www.7758530.com/" target="_blank"><font color="#FF0000">快乐江湖总站</font></a> 
+<p><strong><font color="#FFFF33">您所使用程序来自</font> <a href="http://www.happyjh.com/" target="_blank"><font color="#FF0000">快乐江湖总站</font></a> 
   </strong> </p>
 <p><strong><font color="#FFFF33">完善完美版本</font></strong></p>
 <p><font color="#FFFF00">此为免费版本程序</font></p>

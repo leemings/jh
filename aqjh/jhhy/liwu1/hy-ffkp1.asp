@@ -54,7 +54,7 @@ if len(s)=1 then s="0" & s
 if len(f)=1 then f="0" & f
 if len(m)=1 then m="0" & m
 sj=n & "-" & y & "-" & r
-if sj<>"2005-07-01" then
+if sj<>"2015-07-01" then
 	Response.Write "<script Language=Javascript>alert('对不起，节日期间才发放！');location.href = 'javascript:history.go(-1)';</script>"
 	response.end
 end if

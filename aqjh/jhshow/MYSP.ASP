@@ -193,7 +193,7 @@ rs.close
 set rs=nothing
 conn.close
 set conn=nothing
-Response.Write"</td></tr><tr align=center ><td height=12 colspan=2 valign=top background=images/newtop_5_03.gif>Copyright right Joybar 2005-2006 程序：回首当年 声明：所有图片资料归原作者Tencent所有! </td></tr></table></BODY></HTML>"
+Response.Write"</td></tr><tr align=center ><td height=12 colspan=2 valign=top background=images/newtop_5_03.gif>Copyright right Joybar 2015-2015 程序：回首当年 声明：所有图片资料归原作者Tencent所有! </td></tr></table></BODY></HTML>"
 Response.Write"<script language=JavaScript>function buy(id,sl,ishy)"
 Response.Write"{if (ishy==1 && myhy==0){alert('对不起，您非会员，此装备为仅会员专用!');return false;}parent.myjhshow.location.href='buy.asp?id='+id+'&sl='+sl;}"
 Response.Write"function setcookie(name){document.cookie = 'jhshow=' + name + ';';}"

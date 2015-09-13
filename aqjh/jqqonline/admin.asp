@@ -1,6 +1,6 @@
 <%@LANGUAGE="VBSCRIPT" CodePage="936"%>
 <%
-'7758530.com
+'happyjh.com
 Option Explicit
 Response.Buffer = True
 Server.scriptTimeout="20"
@@ -318,7 +318,7 @@ sub nlogin()
 </table>
 <table border="0" width="500" cellpadding="0" cellspacing="0" align="center">
   <tr>
-    <td width="500" height="20">通用网站在线咨询JQQonline插件 V3.0 <a href="http://www.7758530.com" target="_blank">7758530.Com</a></td>                                                                           
+    <td width="500" height="20">通用网站在线咨询JQQonline插件 V3.0 <a href="http://www.happyjh.com" target="_blank">happyjh.Com</a></td>                                                                           
   </tr>
 </table>
 </form>
@@ -553,7 +553,7 @@ dim enddtime:enddtime=timer()
     <td width="500" height="10"></td>
   </tr>
   <tr>
-    <td width="500" height="20" align="center">通用网站在线咨询JQQonline插件 <a href="http://www.7758530.com" target="_blank">7758530.Com</a> 执行时间:<%=FormatNumber((enddtime-starttime)*1000,3)%>毫秒</td>
+    <td width="500" height="20" align="center">通用网站在线咨询JQQonline插件 <a href="http://www.happyjh.com" target="_blank">happyjh.Com</a> 执行时间:<%=FormatNumber((enddtime-starttime)*1000,3)%>毫秒</td>
   </tr>
 </table>
 <%

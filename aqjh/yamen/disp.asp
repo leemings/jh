@@ -49,8 +49,8 @@ name="button" style="BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT
 一定要记住这个日子!!!这是你死去的日子,我可以让你重生,你一定要复仇!!!<br></td></tr>
         <TR>
           <TD align=middle><FONT 
-            color=#0000ff>&copy; 版权所有 2004-2005 </FONT><A 
-            href="http://www.7758530.com/" target=_blank><FONT 
+            color=#0000ff>&copy; 版权所有 2015-2015 </FONT><A 
+            href="http://www.happyjh.com/" target=_blank><FONT 
             color=#0000ff>快乐江湖网</FONT></A> </TD></TR>
 </table>
 <!=></TD></TR></form>

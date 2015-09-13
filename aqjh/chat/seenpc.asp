@@ -389,7 +389,7 @@ NPC物品暴出比例见上面：<strong><font color="#00FF00"><%=application("aqjh_npcwp"
 管理多少级的可以手动发放及踢出NPC：<strong><font color="#00FF00"><%=application("aqjh_npcff")%></font></strong>级<br>
 <br>
 </font>最后如果您对江湖NPC有什么建议、想法、要求请给我们提出！<br>
-论坛地址：<a href=http://bbs.7758530.com target=_blank><font color=yellow>http://www.7758530.com</font></a><br>联系回首当年 QQ:865240608</p>
+论坛地址：<a href=http://bbs.happyjh.com target=_blank><font color=yellow>http://www.happyjh.com</font></a><br>联系回首当年 QQ:865240608</p>
 </td>
 </tr>
 </table>
