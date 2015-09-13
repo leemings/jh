@@ -44,6 +44,15 @@ case "个人行李"
 <tr><td><a href=# onClick="window.open('../jhmp/money.asp','aqjh_win','scrollbars=0,resizable=0,width=430,height=440')">领取工资</a></td><td><a href=# onclick="window.open('../work/changeworkzhongzu.asp','aqjh_win','scrollbars=1,resizable=1,width=400,height=300')">更换种族</a></td></tr>
 <tr><td><a href=# onClick="window.open('../jhmp/myfriend.asp','aqjh_win','scrollbars=1,resizable=1,width=700,height=400')">拉人记录</a></td><td><a href=# onClick="window.open('../hcjs/sendphoto/PHOTO.ASP','aqjh_win','scrollbars=1,resizable=1,width=750,height=500')">网友照片</a></td></tr>
 <tr><td><a href=# onClick="window.open('../hcjs/long/long.asp','aqjh_win','scrollbars=1,resizable=1,width=700,height=400')">神龙商店</a></td><td><a href=# onClick="window.open('../hcjs/long/longeat.asp','aqjh_win','scrollbars=1,resizable=1,width=750,height=500')">购买龙粮</a></td></tr>
+
+<tr>
+	<td><a href='setfontsize.asp'>字体设置</a></td>
+	<td><a href='face.asp'>头像设置</a></td>
+</tr>
+<tr>
+	<td><a href=# onClick="window.open('webicq.asp','aqjh_win','scrollbars=1,resizable=1,width=700,height=400')">飞鸽传书</a></td></td>
+	<td><a href=../help.asp target=_blank>帮助</a></td>
+</tr>
 </table>
 <%
 case "天外有天"

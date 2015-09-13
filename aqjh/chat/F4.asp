@@ -39,20 +39,12 @@ function ex(){if(confirm("本程序是由『快乐江湖网』提供，感谢您的使用。欢迎再来[<
 if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");i=i+1;}top.location.href="../exit.asp"}
 </script>
 </HEAD>
-<BODY bgColor=#666699 leftMargin=0 topMargin=0 oncontextmenu=window.event.returnValue=false ondragstart=window.event.returnValue=false onselectstart=event.returnValue=false>
-<table height="24" cellSpacing="0" cellPadding="0" width="100%" align="center" border="0">
-  <tr align="middle" bgColor="#b7d4f1">
-    <td onmouseover="this.style.backgroundColor='#E7E3F7'" onmouseout="this.style.backgroundColor=''" width="361" bgColor="#E7E3F7" height="24">
-      <p align="center"><img src="AQ_menu01.gif" width="69" height="24" border="0" usemap="#Map"></p>    </td>
-    <td onmouseover="this.style.backgroundColor='#E7E3F7'" onmouseout="this.style.backgroundColor=''" width="424" bgColor="#E7E3F7" height="24">
-    <p align="center" class="style1"><img src="AQ_menu02.gif" width="69" height="23" border="0" usemap="#Map2"></p>    </td>
-  </tr>
-</table>
-<TABLE height=85 cellSpacing=0 cellPadding=0 width=100% align=center border=0>  <TBODY>
+<BODY bgColor=#006699 leftMargin=0 topMargin=0 oncontextmenu=window.event.returnValue=false ondragstart=window.event.returnValue=false onselectstart=event.returnValue=false>
+<TABLE height=120 cellSpacing=0 cellPadding=0 width=100% align=center border=0>  <TBODY>
   <TR>
-    <TD width=100% background=BG1.jpg height=57 rowSpan=2>
+    <TD width=100% background=1.jpg height=115 rowSpan=2>
       <DIV align=left>
-      <TABLE style="BORDER-COLLAPSE: collapse" borderColor=#ffffff height=63 
+      <TABLE style="BORDER-COLLAPSE: collapse" borderColor=#ffffff height=125 
       cellSpacing=0 borderColorDark=#ffffff cellPadding=0 width=94% 
       borderColorLight=#ffffff border=1>
         <TBODY>
@@ -74,12 +66,17 @@ if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑
           <TD><a href="zhuangtai.asp" onClick="javascript:s()" target="f3"><font color=red>状</font></a><a href="#"  onclick="javascript:window.open('zt.ASP','zhuantai','scrollbars=no,toolbar=no,menubar=no,location=no,status=no,resizable=no,width=630,height=480,top=0,left=0')" target="_self"><font color=green>态</font></font></a></TD>
           <TD><a href="stuntlist.asp" onClick="javascript:s()" target="f3">特技</a></TD>
           <TD><a href="#" onClick="window.open('../fish/index.asp','','scrollbars=yes,resizable=yes,width=700,height=400')" title="全新的钓鱼系统"><font color=blue>钓鱼</font></a></TD>
-          <TD><a href="#" onMouseOver="window.status='退出聊天室，并自动保存经验值。';return true" onMouseOut="window.status='';return true" onclick="javascript:ex()">离开</font></a></TD></TR></TBODY></TABLE></CENTER></DIV></TD>
-</TR></TBODY></TABLE>
-<map name="Map">
-  <area shape="rect" coords="4,2,63,21" href="AQ_menu01.asp">
-</map>
-<map name="Map2">
-  <area shape="rect" coords="4,1,67,21" href="AQ_menu02.asp">
-</map>
+          <TD><a href="331.asp" onClick="javascript:s()" target="f3"><font color="#00FFFF">兽</font></a><a href="long/myanimal.asp" onClick="javascript:s()" target="f3"><font color="red">龙</TD>
+        <TR align=middle>
+          <TD><a href=dushu.asp onClick="javascript:s()" target=f3>赌局</a></TD>
+          <TD><a href="mp/mp.asp" onClick="javascript:s()" target=f3>大战</a></TD>
+          <TD><a href="boy/boy.ASP" onClick="javascript:s()" target=f3><font color=yellow>小孩</font></a></TD>
+          <TD><a href="cw/cw.asp" onClick="javascript:s()" target=f3>宠物</a></TD></TR>
+        <TR align=middle>
+          <TD><a href="xlwupin.asp" onClick="javascript:s()" target="f3">拍卖</font></a></TD>
+          <TD><a href="mtv/song.asp" onClick="javascript:s()" target="f3"><font color=blue>音</font></a><a href="#" onClick="window.open('../song/top.asp','','scrollbars=yes,resizable=yes,width=600,height=500')" title="快乐江湖点歌系统">乐</TD>
+          <TD><a href="map/npc.asp" onClick="javascript:s()" target=f3>行走</a></TD>
+          <TD><a href="#" onMouseOver="window.status='退出聊天室，并自动保存经验值。';return true" onMouseOut="window.status='';return true" onclick="javascript:ex()">离开</font></a></TD></TR>	
+</TBODY></TABLE></CENTER></DIV></TD></TR>
+		</TBODY></TABLE>
 </BODY></HTML>

@@ -1,5 +1,5 @@
 <%
-Application("aqjh_chatbgcolor")="4a79b5"      'ÁÄÌìÊÒ±³¾°ÑÕÉ«´úÂë
+Application("aqjh_chatbgcolor")="006699"      'ÁÄÌìÊÒ±³¾°ÑÕÉ«´úÂë
 Application("aqjh_chatimage")="1.jpg"      'ÁÄÌìÊÒÍâ²¿±ß¿òÍ¼Æ¬
 Application("aqjh_chatcolor")="effaff"      'ÁÄÌìÊÒÎÄ×ÖÇø±³¾°É«
 Application("aqjh_iplocktime")=1200000      'ËøIPÊ±¼ä

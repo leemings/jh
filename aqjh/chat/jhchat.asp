@@ -531,7 +531,7 @@ function md1(ren){
 	wmd("<html><head><meta http-equiv='content-type' content='text/html; charset=gb2312'><title>在线用户列表</title><style type='text/css'>");
 	wmd("body{CURSOR: url('3.cur');font-family:\"黑体\";font-size:12pt;}td{font-family:\"宋体\";font-size:10pt;line-height:125%;}A{color:#ffffff;text-decoration:none;}A:Hover{color: #FF0000;font-family: \"宋体\"; position: relative; left: 2px; top: 1px; clip:  rect(   )}A:Active {color:#ffffff}.b{color:#ffffff;}.g{color:#00FF00;}.hb{color:#00FFFF;}.hg{color:FF00FF;}.d{font-family:\"宋体\";font-size:10pt;color:#E5E5E5;}.z{font-family:\"宋体\";font-size:10pt;color:orange;}.xinxi{font-family:\"宋体\";font-size:10pt;}.banq{font-family:\"宋体\";font-size:10pt;color:ffff00; filter: DropShadow(Color=000000, OffX=1, OffY=1, Positive=1)}.gf{font-family:\"宋体\";font-size:10pt;color:ff6600;}.gfm{font-size:10pt;color:ff0000;}.zl{color:FFFFFF;text-decoration: line-through;}</style>");
 	wmd("<div align=\"center\"><font color=\"#b3d4ff\"<b>『"+crm+"』</b></font><hr size=1 color=b3d4ff>");
-	wmd("<font color=\"RED\" style=\"font-size:10.5pt\";font-family:\"黑体\">双击滚屏右键秀</font><br><font color=\"RED\" style=\"font-size:12pt\">--</font> <font color=red><b>"+ren+"</b></font><font color=\"RED\" style=\"font-size:10pt\">人在线</font> <font color=\"RED\" style=\"font-size:12pt\">--</font><br></div>");
+	wmd("<font color=\"#ffff00\" style=\"font-size:10.5pt\";font-family:\"黑体\">双击滚屏右键秀</font><br><font color=\"#ffff00\" style=\"font-size:12pt\">--+</font> <font color=#ffff00><b>"+ren+"</b></font><font color=\"#ffff00\" style=\"font-size:10pt\">人在线</font> <font color=\"#ffff00\" style=\"font-size:12pt\">+--</font><br></div>");
 	wmd("<div id='Tips' style='position:absolute; left:0; top:0; height: 226px;width:140; display=none;'><IFRAME frameBorder=no height=226px marginHeight=0 marginWidth=0 name=show width=140px scrolling=NO noresize></IFRAME></div>");
 	wmd("<div id='myTips' style='position:absolute; left:0; top:0; height: 226px;width:130; display=none;'></div>");
 	wmd("<\script language=\"JavaScript\">var NS4=(document.layers);var IE4=(document.all);var win=window;var n=0;function findInPage(str){var txt,i,found;if(str==\"\"){return false;}if(NS4){if(!win.find(str))while(win.find(str,false,true))n++;else{n++;}if(n==0)alert(\"您要的名字没有找到！\");}if(IE4){txt=win.document.body.createTextRange();for(i=0;i<=n && (found=txt.findText(str))!=false;i++){txt.moveStart(\"character\",1);txt.moveEnd(\"textedit\");}if(found){txt.moveStart(\"character\",-1);txt.findText(str);txt.select();txt.scrollIntoView();n++;}else{if(n>0){n=0;findInPage(str);}else{alert(\"您要的名字没有找到！\");}}}return false;}");
@@ -915,7 +915,7 @@ var nullframe = '<HTML><BODY BGCOLOR=#000000 text=#ffffff style="font-size:10pt"
 <frame src="F2.asp" name="f2" scrolling="NO" marginwidth="3" marginheight="8" noresize>
 <frame src="about:blank" name="d" scrolling="NO" noresize>
 </frameset>
-<frameset rows="0,0,22,*,0,0,104" cols="*" name="tbymd">
+<frameset rows="0,0,22,*,0,0,130" cols="*" name="tbymd">
 <frame src="about:blank" name="m">
 <frame src="about:blank" name="ps">
 <frame src="chang_room.asp" marginwidth="5" marginheight="5" scrolling="no" name="r" noresize>
