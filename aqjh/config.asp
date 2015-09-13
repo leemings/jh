@@ -29,10 +29,10 @@ Application("aqjh_baowusm")="Õâ±¦ÎïÊÇÏöÒİÑ°±ã´ó½­ÄÏ±±£¬²ÅĞÁĞÁ¿à¿àÕÒµ½µÄ¡£µ«ÊÇÏë²
 '***************************************************
 Application("aqjh_chatroomname")="¿ìÀÖ½­ºş"      '½­ºşÃû³Æ
 Application("aqjh_homepage")="http://www.happyjh.com"      '½­ºşÖ÷Ò³
-Application("aqjh_sn")="love888"      '½­ºşĞòÁĞºÅ£¬Õı°æ±êÖ¾£¬ĞŞ¸Äºóºó¹û×Ô¸º
+Application("aqjh_sn")="2015-09-14"      '½­ºşĞòÁĞºÅ£¬Õı°æ±êÖ¾£¬ĞŞ¸Äºóºó¹û×Ô¸º
 Application("aqjh_user")="»ØÊ×µ±Äê"      '½­ºşÕ¾³¤
 Application("aqjh_qq")="865240608"      'Õ¾³¤qq
-Application("aqjh_email")="119yejin@163.com"      'Õ¾³¤email
+Application("aqjh_email")="865240608@qq.com"      'Õ¾³¤email
 Application("aqjh_admin")="»ØÊ×µ±Äê"      'ÉèÖÃ10¼¶ÁÄ¹Ü£¬¶à¸öÓÃ¶ººÅ¸ô¿ª
 Application("hidden_admin")="»ØÊ×µ±Äê"      'ÒşÉíÈËÔ±£¬¶à¸öÓÃ¶ººÅ¸ô¿ª
 Application("aqjh_slbox")="»ØÊ×µ±Äê"      '¿ÉÒÔ²é¿´Ë½ÁÄµÄÈË£¬¶à¸öÓÃ¶ººÅ¸ô¿ª

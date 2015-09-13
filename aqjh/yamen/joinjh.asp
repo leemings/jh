@@ -128,7 +128,7 @@ function CheckIfEnglish( String )
         <TR>
           <TD width="21%" height=25>*电子信箱：</TD>
           <TD width="31%" height=25><INPUT class=input maxLength=25 size=11 
-            name=e_mail value="119yejin@163.com"></TD>
+            name=e_mail value=""></TD>
           <TD width="48%" height=25>正确填写真实信箱</TD></TR>        <TR>
           <TD width="21%" height=25>介绍人：</TD>
           <TD width="31%" height=25><INPUT class=input maxLength=5 size=11 name=jsr value=""></TD>

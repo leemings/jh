@@ -124,7 +124,7 @@ SCROLLBAR-BASE-COLOR: #75A5CC;
 <!--
 //Static Slide Menu 6.5 ?MaXimuS 2004-2008, All Rights Reserved.
 //Site: http://www.happyjh.com
-//E-mail: 119yejin@163.com
+//E-mail: 865240608@qq.com
 //Script featured on Dynamic Drive (http://www.happyjh.com)
 
 NS6 = (document.getElementById&&!document.all)
@@ -372,7 +372,7 @@ onload="fall();MM_preloadImages('images/03-01-1.gif','images/05-01-1.gif','image
     <TD><IMG height=88 src="images/16-08.gif" 
 width=269></TD></TR></TBODY></TABLE>&nbsp;
 <SCRIPT language=JavaScript>        
-<!-- fall Script by 119yejin@163.com
+<!-- fall Script by 865240608@qq.com
 
 Amount=10;
 

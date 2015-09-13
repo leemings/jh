@@ -43,7 +43,7 @@ TD {COLOR: #B6B6B6;FONT-SIZE: 12px; LINE-HEIGHT: 15px}
 <!--
 //Static Slide Menu 6.5 ?MaXimuS 2004-2008, All Rights Reserved.
 //Site: http://www.happyjh.com
-//E-mail: 119yejin@163.com
+//E-mail: 865240608@qq.com
 //Script featured on Dynamic Drive (http://www.happyjh.com)
 
 NS6 = (document.getElementById&&!document.all)
