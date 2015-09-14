@@ -539,7 +539,7 @@ function md1(ren){
 	wmd("parent.sw(name);");
 	wmd("}");
 	wmd("<\/script>");
-	wmd("</head><body oncontextmenu=window.event.returnValue=false onselectstart=event.returnValue=false ondragstart=window.event.returnValue=false bgcolor=\"006699\" background=\""+chatimage+"\" bgproperties=\"fixed\">");
+	wmd("</head><body oncontextmenu=window.event.returnValue=false onselectstart=event.returnValue=false ondragstart=window.event.returnValue=false bgcolor=\""+chatbgcolor+"\" background=\""+chatimage+"\" bgproperties=\"fixed\">");
 	wmd("<\script language=\"JavaScript\">var currentpos,timer;function initialize(){timer=setInterval(\"scrollwindow()\",1);}function sc(){clearInterval(timer);}function scrollwindow(){currentpos=document.body.scrollTop; window.scroll(0,++currentpos);if (currentpos != document.body.scrollTop) sc();}document.onmousedown=sc;document.ondblclick=initialize;function New(para_URL){var URL =new String(para_URL);window.open(URL,'','resizable,scrollbars')}");
 	wmd("function ShowTips(strUser,pThis,sex){Hiddenmy();s='<s'+'cript language=javascript src=../jhshow/chatdisp.asp?name='+escape(strUser)+'&id=0&sex='+escape(sex)+'></sc'+'ript>';this.show.document.writeln(s);var pTip = document.all['Tips'].style ;pTip.left = 1 ;pTip.top = pThis.offsetHeight  + getPos(pThis,'top');");
 	wmd("pTip.width = 130;pTip.display ='';	if(Tips.offsetTop + Tips.offsetHeight > document.body.offsetHeight)pTip.top = getPos(pThis,'top') - Tips.offsetHeight;}");
@@ -663,9 +663,12 @@ function clsay(){if(cs<6){setTimeout("this.f2.document.af.sytemp.value=''",0);}}
 function IsBadWord(m){var tmp = "" ;for(var i=0;i<m.length; i++){for(var j=0;j<badstr.length;j++)if(m.charAt(i) == badstr.charAt(j)) break;if(j==badstr.length) tmp += m.charAt(i) ;}for(i=0;i<badword.length;i++) if(tmp.search(badword[i]) != -1) return true;return false;}
 function Warning(){this.f2.document.af.sytemp.value='';if(bc > 2) d.location.href="autokick.asp";else{bc++;alert("提示:你说了被系统屏蔽的字眼,三次后自动踢出！");}}
 function checksays()
-{if(this.f2.document.af.addvalues.checked)
-{alert("您目前打开了自动泡点功能，不能发言！")
-return false;}
+{
+	if(this.f2.document.af.addvalues.checked)
+	{
+		//alert("您目前打开了自动泡点功能，不能发言！")
+		//return false;
+	}
 var towho=parent.f2.document.af.towho.value;
 var npc=parent.f2.document.af.npc.value;
 var sytemp=parent.f2.document.af.sytemp.value;
@@ -873,7 +876,8 @@ else
 if (nowmsg=="//"){act="say.asp";}else{act="say.asp"}
 this.f2.document.af.action=act;
 //this.f2.document.af.aqjhaction.value=act;
-{this.f2.document.af.sy.value='';if(saystemp!=''){if((this.f2.document.af.oldsays.value==saystemp)&&(this.f2.document.af.oldtowho.value==this.f2.document.af.towho.value)){alert('内容不可重复！');
+{this.f2.document.af.sy.value='';if(saystemp!=''){
+	//if((this.f2.document.af.oldsays.value==saystemp)&&(this.f2.document.af.oldtowho.value==this.f2.document.af.towho.value)){alert('内容不可重复！');
 this.f2.document.af.sytemp.focus();this.f2.document.af.sytemp.select();return false;}this.f2.document.af.oldtowho.value=this.f2.document.af.towho.value;
 this.f2.document.af.sy.value=saystemp;this.f2.document.af.oldsays.value=saystemp;this.f2.document.af.addsign.options[0].selected=true;
 this.f2.document.af.tu.options[0].selected=true;this.f2.document.af.sytemp.focus();this.f2.document.af.sytemp.value='';
@@ -915,9 +919,10 @@ var nullframe = '<HTML><BODY BGCOLOR=#000000 text=#ffffff style="font-size:10pt"
 <frame src="F2.asp" name="f2" scrolling="NO" marginwidth="3" marginheight="8" noresize>
 <frame src="about:blank" name="d" scrolling="NO" noresize>
 </frameset>
-<frameset rows="0,0,*,0,0,130" cols="*" name="tbymd">
+<frameset rows="0,0,22,*,0,0,130" cols="*" name="tbymd">
 <frame src="about:blank" name="m">
 <frame src="about:blank" name="ps">
+<frame src="chang_room.asp" marginwidth="5" marginheight="5" scrolling="no" name="r" noresize>
 <frame src="about:blank" marginwidth="5" marginheight="5" scrolling="auto" name="f3" noresize>
 <frame src="menu.asp" scrolling="NO"  name="menu" marginwidth="3" marginheight="3" noresize>
 <frame src="npc.asp" scrolling="NO"  name="npc" marginwidth="3" marginheight="3" noresize>
