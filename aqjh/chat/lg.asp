@@ -82,9 +82,11 @@ end if
 if rs("保护")=true then
 	conn.Execute "update 用户 set 保护=false,操作时间=now() where 姓名='" & aqjh_name &"'"	
 	diaox="学艺有成，<img src=xx/gif/wg13.gif>现在可以大展拳脚狠杀一次了，哈哈。。。"
+	Response.Write "<script language=JavaScript>{alert('现在可以大展拳脚狠杀一次了，哈哈！');}</script>"
 else
 	conn.Execute "update 用户 set 保护=true,操作时间=now() where 姓名='" & aqjh_name &"'"
 	diaox="为了逃避仇家追杀，进行了练功保护操作，谁也打不了！"
+	Response.Write "<script language=JavaScript>{alert('为了逃避仇家追杀，进行了练功保护操作，谁也打不了');}</script>"
 end if
 conn.close
 set rs=nothing
