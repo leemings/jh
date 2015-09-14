@@ -106,7 +106,7 @@ end if
 userinfo2=0
 mytimes="<font color=#000000>（第</font><font color=#990000><b>"&newuser&"</b></font><font color=#000000>次登陆）</font>"
 if aqjh_name=Application("aqjh_user") then
-	zhanz="<font color=red>[官府]</font>"
+	zhanz="<font color=red>[站长]</font>"
 else
 	zhanz="<font color=red>[官府]</font>"
 end if
