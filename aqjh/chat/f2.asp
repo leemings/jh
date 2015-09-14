@@ -37,7 +37,7 @@ if (lijigongji==true) {parent.f2.document.af.subsay.click()};
 //if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");i=i+1;}top.location.href="../exit.asp"}
 </script>
 </HEAD>
-<BODY bgcolor=#A90005 leftMargin=0 topMargin=0 oncontextmenu=window.event.returnValue=false ondragstart=window.event.returnValue=false onselectstart=event.returnValue=false background="bg1.jpg">
+<BODY bgcolor=<%=Application("aqjh_chatbgcolor")%> leftMargin=0 topMargin=0 oncontextmenu=window.event.returnValue=false ondragstart=window.event.returnValue=false onselectstart=event.returnValue=false>
 <TABLE height=83 cellSpacing=0 cellPadding=0 width=100% align=right border=0 bordercolor=yellow style="border-collapse: collapse"><TR><TD>
 <DIV align=center>
 <form name=af method=POST action='say.asp'  target='d' onsubmit='javascript:if(document.af.ctz.checked==true){if(document.af.sytemp.value.indexOf("/")!=0){document.af.sytemp.value="/粗体字$"+document.af.sytemp.value;}}  return(parent.checksays());'>
