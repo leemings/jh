@@ -877,8 +877,11 @@ if (nowmsg=="//"){act="say.asp";}else{act="say.asp"}
 this.f2.document.af.action=act;
 //this.f2.document.af.aqjhaction.value=act;
 {this.f2.document.af.sy.value='';if(saystemp!=''){
-	//if((this.f2.document.af.oldsays.value==saystemp)&&(this.f2.document.af.oldtowho.value==this.f2.document.af.towho.value)){alert('内容不可重复！');
-this.f2.document.af.sytemp.focus();this.f2.document.af.sytemp.select();return false;}this.f2.document.af.oldtowho.value=this.f2.document.af.towho.value;
+	//if((this.f2.document.af.oldsays.value==saystemp)&&(this.f2.document.af.oldtowho.value==this.f2.document.af.towho.value)){
+	//	alert('内容不可重复！');
+	//	this.f2.document.af.sytemp.focus();this.f2.document.af.sytemp.select();return false;
+	//}
+this.f2.document.af.oldtowho.value=this.f2.document.af.towho.value;
 this.f2.document.af.sy.value=saystemp;this.f2.document.af.oldsays.value=saystemp;this.f2.document.af.addsign.options[0].selected=true;
 this.f2.document.af.tu.options[0].selected=true;this.f2.document.af.sytemp.focus();this.f2.document.af.sytemp.value='';
 ty=new Date();var nh=ty.getHours();var nm=ty.getMinutes();var ns=ty.getSeconds();var ct=(nh*3600)+(nm*60)+ns;
