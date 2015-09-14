@@ -37,6 +37,14 @@ if aqjh_name<>Application("aqjh_user") then Response.Redirect "../error.asp?id=4
 三级会员泡分倍数<br>
 <input type="text" name="hy4" value="<%=hy4%>">
 四级会员泡分倍数<br>
+<input type="text" name="hy5" value="<%=hy5%>">
+五级会员泡分倍数<br>
+<input type="text" name="hy6" value="<%=hy6%>">
+六级会员泡分倍数<br>
+<input type="text" name="hy7" value="<%=hy7%>">
+七级会员泡分倍数<br>
+<input type="text" name="hy8" value="<%=hy8%>">
+八级会员泡分倍数<br>
 <input type="text" name="paodian" value="<%=paodian%>">
 泡点会员的倍数<br><br>
 <input type="submit" name="Submit" value="修改设置">
@@ -62,6 +70,10 @@ writeStr=writeStr & "hy1="& request.form("hy1")&"      '一级会员泡分倍数"& chr(1
 writeStr=writeStr & "hy2="& request.form("hy2")&"      '二级会员泡分倍数"& chr(13) & chr(10)
 writeStr=writeStr & "hy3="& request.form("hy3")&"      '三级会员泡分倍数"& chr(13) & chr(10)
 writeStr=writeStr & "hy4="& request.form("hy4")&"      '四级会员泡分倍数"& chr(13) & chr(10)
+writeStr=writeStr & "hy5="& request.form("hy5")&"      '五级会员泡分倍数"& chr(13) & chr(10)
+writeStr=writeStr & "hy6="& request.form("hy6")&"      '六级会员泡分倍数"& chr(13) & chr(10)
+writeStr=writeStr & "hy7="& request.form("hy7")&"      '七级会员泡分倍数"& chr(13) & chr(10)
+writeStr=writeStr & "hy8="& request.form("hy8")&"      '八级会员泡分倍数"& chr(13) & chr(10)
 writeStr=writeStr & "paodian="& request.form("paodian")&"      '泡点会员泡分倍数"& chr(13) & chr(10)
 writeStr=writeStr & "'*********************************************************"
 %>
