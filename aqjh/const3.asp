@@ -2,7 +2,7 @@
 '*****************开关配置*********************
 aqjh_ifnpc=1      'NPC开关,1为开,0为关
 aqjh_chatkptime=50      '聊天大厅用卡时间限制，每小时前xx分钟，不能超过60
-aqjh_onlinekill=10      '聊天大厅动武人限，低于此人数，禁止动武
+aqjh_onlinekill=1      '聊天大厅动武人限，低于此人数，禁止动武
 chatshuaxin_time=10      '聊天室防刷新时间为xx秒
 aqjh_dongtai=0      '是否显示动态广告，具体见：chat/gg.js文件内容！0为不显示，1为显示
 aqjh_disproxy=0      '代理服务器，1为限制，0为不限制
