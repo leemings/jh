@@ -728,18 +728,25 @@ if (jhsf="长老" or jhsf="掌门" or jhsf="元老") and aqjh_grade>=4 then%>
 <option value="ffffff" STYLE="background-color:#ffffff">白色
 <option value="f7f7f7" STYLE="background-color:#f7f7f7">默认
 </select>
-<select name="bgc1" onchange="parent.gg.document.bgColor=parent.f3.document.bgColor=parent.f2.document.bgColor=parent.CW_MENU.document.bgColor=this.options[selectedIndex].value;this.value='#eeeeee';"  style="font-size:12px">
-<option value="#eeeeee" selected>右侧栏
-<option value="<%=Application("aqjh_chatbgcolor")%>" STYLE="background-color:#<%=Application("aqjh_chatbgcolor")%>">默认
-<option value="FBE7DB" STYLE="background-color:#FBE7DB">淡橙
-<option value="ffeaea" STYLE="background-color:#ffeaea">粉红
-<option value="FCF8E2" STYLE="background-color:#FCF8E2">乳黄
-<option value="eaffea" STYLE="background-color:#eaffea">浅绿
-<option value="effaff" STYLE="background-color:#effaff">淡青
-<option value="f2f2ff" STYLE="background-color:#f2f2ff">浅紫
-<option value="eaeaff" STYLE="background-color:#eaeaff">蓝紫
-<option value="000000" STYLE="background-color:#eaeaff">黑色
-<option value="ffffff" STYLE="background-color:#ffffff">白色
+<select name="bgc1" onchange="parent.gg.document.bgColor=parent.f3.document.bgColor=parent.f2.document.bgColor=parent.CW_MENU.document.bgColor=this.options[selectedIndex].value;this.value='#<%=Application("aqjh_chatbgcolor")%>';"  style="font-size:12px">
+<option value="#<%=Application("aqjh_chatbgcolor")%>" selected>右侧栏
+<option value="<%=Application("aqjh_chatbgcolor")%>" STYLE="background-color:#<%=Application("aqjh_chatbgcolor")%>">默认</option>
+<option value="ffeaea" STYLE="background-color:#ffeaea">粉红</option>
+<option style="color:000000" value="000000">颜色1</option> 
+<option style="color:0000FF" value="0000FF">颜色2</option> 
+<option style="color:000088" value="000088">颜色3</option> 
+<option style="color:888800" value="888800">颜色4</option> 
+<option style="color:008888" value="008888">颜色5</option> 
+<option style="color:008800" value="008800">颜色6</option> 
+<option style="color:8888FF" value="8888FF">颜色7</option> 
+<option style="color:AA00CC" value="AA00CC">颜色8</option> 
+<option style="color:8800FF" value="8800FF">颜色9</option> 
+<option style="color:888888" value="888888">颜色10</option> 
+<option style="color:CCAA00" value="CCAA00">颜色11</option> 
+<option style="color:FF8800" value="FF8800">颜色12</option> 
+<option style="color:CC3366" value="CC3366">颜色13</option> 
+<option style="color:FF00FF" value="FF00FF">颜色14</option> 
+<option style="color:3366CC" value="3366CC">颜色15</option>
 </select>
 <input type=button name="tbclutch" value="全屏" onClick="javascript:parent.tbclutch();" title="合屏/分屏/垂直切换" onMouseOver="window.status='合屏/分屏/垂直切换。';return true" onMouseOut="window.status='';return true" style="BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; COLOR: #ffffff; BACKGROUND-COLOR: #008888; BORDER-RIGHT-WIDTH: 1px">  <input type=button value='僵' onClick="window.open('fafang/cins.asp','f3')" style="BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; COLOR: #ffffff; BACKGROUND-COLOR: #8800ff; BORDER-RIGHT-WIDTH: 1px" onmouseover="this.style.color='FFFF00'" onmouseout="this.style.color='FFFFFF'"> <input type=button value='NPC' onClick="window.open('npc_list.asp','f3')" style="BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; COLOR: #ffffff; BACKGROUND-COLOR: #cc0000; BORDER-RIGHT-WIDTH: 1px" onmouseover="this.style.color='FFFF00'" onmouseout="this.style.color='FFFFFF'">  <input type=button value='养猪' onClick="window.open('../hcjs/pig/zhu.asp','aqjh_win','scrollbars=0,resizable=0,width=670,height=400')" style="BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; COLOR: #ffffff; BACKGROUND-COLOR: #cc0000; BORDER-RIGHT-WIDTH: 1px" onmouseover="this.style.color='FFFF00'" onmouseout="this.style.color='FFFFFF'">  <br>
 <!功能三行>
