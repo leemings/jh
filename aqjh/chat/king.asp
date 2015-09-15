@@ -118,13 +118,13 @@ case "其他功能"
 <tr align=center><td><a href=# onClick="window.open('../xcj/yxs/yxs.ASP','aqjh_win','scrollbars=0,resizable=0,width=700,height=470')">月薪领取</A></td><td><a href=# onClick="window.open('../liwu/zllw.asp','f3')">周六礼物</A></td></tr>
 <tr align=center><td><a href=# onClick="window.open('../jhmp/bxmp.asp','aqjh_win','scrollbars=1,resizable=0,width=700,height=400')">门派排行</A></td><td><a href=# onClick="window.open('../liwu/zwlw.asp','f3')">周五礼物</A></td></tr>
 <tr align=center><td><a href=# onClick="window.open('../xcj/xgn/sm.ASP','aqjh_win','scrollbars=0,resizable=0,width=620,height=400')">功能说明</A></td><td><a href=../bbs/ target=_blank><font color=red>江湖论坛</a></td></tr>
-<tr align=center><td><a href=# onClick="window.open('../hcjs/pig/zhu.ASP','aqjh_win','scrollbars=0,resizable=0,width=700,height=420')">养猪致富</A></td><td><a href=# onClick="window.open('../xcj/maoyi/maoyi.ASP','aqjh_win','scrollbars=0,resizable=0,width=700,height=420')">贸易市场
+<tr align=center><td><a href=# onClick="window.open('../hcjs/pig/zhu.ASP','aqjh_win','scrollbars=0,resizable=0,width=700,height=420')">养猪致富</A></td><td><a href=# onClick="window.open('jhjh/index.ASP','aqjh_win','scrollbars=0,resizable=0,width=700,height=420')">进化系统</A>
 <tr align=center><td><a href=# onClick="window.open('../liwu/zmlw.asp','f3')">周末礼品</A></td><td><a href=# onClick="window.open('../liwu/zzlw.asp','f3')">站长礼物</A></td></tr>
 <tr align=center><td><a href=# onClick="window.open('../liwu/ymlw.asp','f3')">月末奖励</A></td><td><a href=# onClick="window.open('../liwu/jrlw.asp','f3')">节日礼物</A></td></tr>
 <tr align=center><td><a href=# onClick="window.open('../mhmj/mhmj/index.asp','aqjh_win','scrollbars=1,resizable=0,width=700,height=400')">梦幻魔界</A></td><td><a href=# onClick="window.open('../hcjs/zstt/yld.asp','aqjh_win','scrollbars=0,resizable=0,width=700,height=420')">幽灵盾牌</A></td></tr>
 <tr align=center><td><a href=# onClick="window.open('../jhhy/hyzh/zhuan.asp','aqjh_win','scrollbars=1,resizable=0,width=620,height=400')">转换会员</A></td><td><a href=# onClick="window.open('../jhhy/ydxx/DAJIA.ASP','aqjh_win','scrollbars=0,resizable=0,width=700,height=420')">造化三国</A></td></tr>
 
-</A></td></tr><tr align=center><td><a href=# onClick="window.open('jhjh/index.ASP','aqjh_win','scrollbars=0,resizable=0,width=700,height=420')">进化系统</A></td>
+</A></td></tr><tr align=center><td></td>
 </table>
 <%
 end select

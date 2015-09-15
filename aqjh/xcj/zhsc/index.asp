@@ -7,9 +7,7 @@
 <P align=center><FONT color=#ff0000 face=华文新魏 size=5><B>欢迎</FONT><FONT 
 color=#00ff00 face=华文新魏 size=5><%=session("aqjh_name")%></FONT><FONT color=#ff0000 face=华文新魏 
 size=5>光临转换市场<IMG border=0 src="31.gif"></FONT></B></P>
-<DIV align=center><FONT color=#ffffff><A 
-href="mysc.asp"><FONT color=#ff9900 
-size=2>贸易市场</FONT></A>&nbsp;&nbsp;&nbsp;&nbsp; <A    
+<DIV align=center>&nbsp;&nbsp;&nbsp;&nbsp; <A    
 href="scsc.asp"><FONT color=#ff9900    
 size=2>生产市场</FONT></A></FONT></DIV>   
 <DIV align=center>   

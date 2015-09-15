@@ -20,9 +20,7 @@ size=2>自由市场</FONT></A><FONT color=#ff9900 size=2>&nbsp; </FONT><A
 href="dzwq/index.asp"><FONT color=#00ffff  
 size=2>锻造武器</FONT></A><FONT color=#00ffff size=2>&nbsp; </FONT><A  
 href="/peiyao.asp"><FONT color=#00ffff  
-size=2>配制药品</FONT></A><FONT color=#00ffff size=2>&nbsp; </FONT><A  
-href="sc/bzsc.asp"><FONT color=#00ffff  
-size=2>包装市场</FONT></A></FONT></DIV> 
+size=2>配制药品</FONT></A><FONT color=#00ffff size=2>&nbsp; </FONT></DIV> 
 <DIV align=center> 
 <TABLE border=1 borderColorDark=#ffffff borderColorLight=#000000 cellSpacing=1  
 width=600> 

@@ -15,14 +15,10 @@ size=5>光临生产市场<IMG border=0 src="31.gif"></FONT></B></DIV>
 <DIV align=center><FONT color=#ffffff><A 
 href="../../xcj/zh/index.asp"><FONT color=#ff9900 
 size=2>转换市场</FONT></A><FONT color=#ff9900 size=2>&nbsp; </FONT><A    
-href="../../xcj/maoyi/maoyi.asp"><FONT color=#ff9900  
-size=2>贸易市场</FONT></A><FONT color=#ff9900 size=2>&nbsp; </FONT><A    
 href="../../hcjs/dzwq/index.asp"><FONT color=#00ffff  
 size=2>锻造武器</FONT></A><FONT color=#00ffff size=2>&nbsp; </FONT><A    
 href="../../twt/peiyao/peiyao.asp"><FONT color=#00ffff  
-size=2>配制药品</FONT></A><FONT color=#00ffff size=2>&nbsp; </FONT><A    
-href="../../xcj/bzsc/bzsc.asp"><FONT color=#00ffff  
-size=2>包装市场</FONT></A></FONT></DIV> 
+size=2>配制药品</FONT></A></FONT></DIV> 
 <DIV align=center> 
 <TABLE border=1 borderColorDark=#ffffff borderColorLight=#000000 cellSpacing=1  
 width=600> 
