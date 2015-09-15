@@ -4,7 +4,7 @@ aqjh_name=Session("aqjh_name")
 aqjh_grade=Session("aqjh_grade")
 aqjh_jhdj=Session("aqjh_jhdj")
 if aqjh_name="" then Response.Redirect "../error.asp?id=440"
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"
 name=aqjh_name

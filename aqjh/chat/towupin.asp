@@ -15,7 +15,7 @@ if aqjh_grade<9 then
 	Response.Write "<script Language=Javascript>alert('ÄãÏë×÷Ê²Ã´¹ö£¡');window.close();</script>"
 	Response.End
 end if
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"
 %>

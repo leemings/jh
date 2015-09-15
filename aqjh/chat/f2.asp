@@ -5,7 +5,7 @@ Response.AddHeader "Cache-Control","Private"
 Response.CacheControl = "No-Cache"
 aqjh_roominfo=split(Application("aqjh_room"),";")
 chatinfo=split(aqjh_roominfo(session("nowinroom")),"|")
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 aqjh_name=Session("aqjh_name")
 aqjh_grade=Session("aqjh_grade")
@@ -37,7 +37,7 @@ if (lijigongji==true) {parent.f2.document.af.subsay.click()};
 //if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");i=i+1;}top.location.href="../exit.asp"}
 </script>
 </HEAD>
-<BODY bgcolor=<%=Application("aqjh_chatbgcolor")%> leftMargin=0 topMargin=0 oncontextmenu=window.event.returnValue=false ondragstart=window.event.returnValue=false onselectstart=event.returnValue=false>
+<BODY bgcolor=<%=Session("afa_chatbgcolor")%> leftMargin=0 topMargin=0 oncontextmenu=window.event.returnValue=false ondragstart=window.event.returnValue=false onselectstart=event.returnValue=false>
 <TABLE height=83 cellSpacing=0 cellPadding=0 width=100% align=right border=0 bordercolor=yellow style="border-collapse: collapse"><TR><TD>
 <DIV align=center>
 <form name=af method=POST action='say.asp'  target='d' onsubmit='javascript:if(document.af.ctz.checked==true){if(document.af.sytemp.value.indexOf("/")!=0){document.af.sytemp.value="/粗体字$"+document.af.sytemp.value;}}  return(parent.checksays());'>
@@ -728,9 +728,9 @@ if (jhsf="长老" or jhsf="掌门" or jhsf="元老") and aqjh_grade>=4 then%>
 <option value="ffffff" STYLE="background-color:#ffffff">白色
 <option value="f7f7f7" STYLE="background-color:#f7f7f7">默认
 </select>
-<select name="bgc1" onchange="parent.gg.document.bgColor=parent.f3.document.bgColor=parent.f2.document.bgColor=parent.CW_MENU.document.bgColor=this.options[selectedIndex].value;this.value='#<%=Application("aqjh_chatbgcolor")%>';"  style="font-size:12px">
-<option value="#<%=Application("aqjh_chatbgcolor")%>" selected>右侧栏
-<option value="<%=Application("aqjh_chatbgcolor")%>" STYLE="background-color:#<%=Application("aqjh_chatbgcolor")%>">默认</option>
+<select name="bgc1" onchange="var xxx =parent.aqjh_chatbgcolor=parent.gg.document.bgColor=parent.f3.document.bgColor=parent.f2.document.bgColor=parent.CW_MENU.document.bgColor=this.options[selectedIndex].value;this.value='#<%=Session("afa_chatbgcolor")%>';window.open('afasetting.asp?color='+xxx,'d');"  style="font-size:12px">
+<option value="#<%=Session("afa_chatbgcolor")%>" selected>右侧栏
+<option style="color:006699" value="006699">默认</option>
 <option value="ffeaea" STYLE="background-color:#ffeaea">粉红</option>
 <option style="color:000000" value="000000">颜色1</option> 
 <option style="color:0000FF" value="0000FF">颜色2</option> 

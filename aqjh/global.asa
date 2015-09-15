@@ -50,6 +50,7 @@ next
  Application("aqjh_webicqname")=webicqname
 End sub
 Sub Session_OnStart
+	Session("afa_chatbgcolor")="006699"
  	Session.Timeout=1
 	application.Lock 
 	Application("tuziji_visitor")=Application("tuziji_visitor")+1

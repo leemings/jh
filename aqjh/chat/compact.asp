@@ -56,7 +56,7 @@ if rs("grade")>5 then
 	response.end
 end if
 rs.close
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"
 %>

@@ -24,7 +24,7 @@ if aqjh_name<>Application("aqjh_user") then Response.Redirect "../error.asp?id=4
 <a href="javascript:history.go(0)">Ë¢ÐÂ</a> 
 <hr noshade size="1" color=009900>
 <form name="form1" method="post" action="">
-<input type="hidden" name="aqjh_chatbgcolor" value="<%=Application("aqjh_chatbgcolor")%>">
+<input type="hidden" name="aqjh_chatbgcolor" value="<%=Session("afa_chatbgcolor")%>">
 <input type="hidden" name="aqjh_chatimage" value="<%=Application("aqjh_chatimage")%>">
 <input type="hidden" name="aqjh_chatcolor" value="<%=Application("aqjh_chatcolor")%>">
 <input type="hidden" name="aqjh_iplocktime" value="<%=Application("aqjh_iplocktime")%>">

@@ -5,7 +5,7 @@ Response.AddHeader "Cache-Control","Private"
 Response.CacheControl = "No-Cache"
 aqjh_roominfo=split(Application("aqjh_room"),";")
 chatinfo=split(aqjh_roominfo(session("nowinroom")),"|")
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 nickname=session("aqjh_name")
 grade=session("aqjh_grade")

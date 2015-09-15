@@ -21,7 +21,7 @@ if len(m)=1 then m="0" & m
 sj1=n & "-" & y & "-" & r
 sj2=s & ":" & f & ":" & m
 sj3=sj1 & " " & sj2
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 Set conn=Server.CreateObject("ADODB.CONNECTION")
 Set rs=Server.CreateObject("ADODB.RecordSet")

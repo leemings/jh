@@ -14,7 +14,7 @@ aqjh_grade=Session("aqjh_grade")
 aqjh_jhdj=Session("aqjh_jhdj")
 nowinroom=session("nowinroom")
 if aqjh_name="" then Response.Redirect "../error.asp?id=440"
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"
 aqjh_roominfo=split(Application("aqjh_room"),";")

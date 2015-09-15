@@ -2,7 +2,7 @@
 <%Response.Expires=0
 id=Trim(Request.QueryString("id"))
 chatroombgimage=Application("aqjh_chatimage")
-chatroombgcolor=Application("aqjh_chatbgcolor")
+chatroombgcolor=Session("afa_chatbgcolor")
 Select Case id
 Case "100"
 nl="成功修改密码，新密码为 <font color=red>" & Request.QueryString("new") & "</font>，请记牢。"

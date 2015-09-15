@@ -23,7 +23,7 @@ f=Minute(time())
   </p>
 </div>
 <%
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"
 if aqjh_name="" then Response.Redirect "../error.asp?id=440"

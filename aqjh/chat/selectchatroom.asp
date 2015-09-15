@@ -22,7 +22,7 @@ a:hover{color:FFFF00;
 text-decoration:underline;}
 </style>
 </head>
-<body oncontextmenu=self.event.returnValue=false bgcolor="<%=Application("aqjh_chatbgcolor")%>" background="<%=Application("aqjh_chatimage")%>" bgproperties="fixed" leftMargin=1 marginwidth=0 marginheight=0 topMargin=1>
+<body oncontextmenu=self.event.returnValue=false bgcolor="<%=Session("afa_chatbgcolor")%>" background="<%=Application("aqjh_chatimage")%>" bgproperties="fixed" leftMargin=1 marginwidth=0 marginheight=0 topMargin=1>
 <div align=center><br><br>
 <font color="#FFFFFF">【房间列表】</font>
 <hr size="1" noshade color=FFFF00>

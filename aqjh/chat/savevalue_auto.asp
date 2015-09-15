@@ -15,7 +15,7 @@ aqjh_name=Session("aqjh_name")
 aqjh_grade=Session("aqjh_grade")
 if aqjh_yjdh=1 then Chkyjdh()
 inroom=session("nowinroom")
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"
 if Instr(LCase(Application("aqjh_useronlinename"&session("nowinroom")))," "&LCase(aqjh_name)&" ")=0 then

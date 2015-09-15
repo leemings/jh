@@ -1,5 +1,5 @@
 <%@ LANGUAGE=VBScript codepage ="936" %><%response.expires=0
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"
 aqjh_name=Session("aqjh_name")

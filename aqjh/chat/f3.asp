@@ -6,7 +6,7 @@ Response.AddHeader "Pragma","No-Cache"
 Response.AddHeader "Cache-Control","Private"
 Response.CacheControl = "No-Cache"
 Response.Expires=0
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"
 nowinroom=session("nowinroom")
@@ -17,7 +17,7 @@ chatinfo=split(aqjh_roominfo(nowinroom),"|")
 %>
 <script Language="JavaScript">
 if(parent.document.URL.indexOf("file:")>=0||parent.f2.document.URL.indexOf("file:")>=0){parent.location.href='chaterr.asp?id=001';}
-parent.md1(<%=onlineno%>);
+parent.md1(<%=onlineno%>, '<%=Session("afa_chatbgcolor")%>');
 var chat="<%=nowinroom%>"
 <%
 for o = 1 to onlineno 

@@ -56,7 +56,7 @@ Application("aqjh_webicqname")=webicqname
 Application.UnLock
 end if
 chatroombgimage=Application("aqjh_chatimage")
-chatroombgcolor=Application("aqjh_chatbgcolor")%><html>
+chatroombgcolor=Session("afa_chatbgcolor")%><html>
 <head>
 <title>消息列表</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">

@@ -325,7 +325,7 @@ end if
 saystr="<script>parent.sh("& chr(39) & addwordcolor & chr(39) &","& chr(39) & saycolor & chr(39) &","& chr(39) & act & chr(39) &","& chr(39) & aqjh_name & chr(39) &","& chr(39) & addsays & chr(39) &","& chr(39) & towho & chr(39) &"," & chr(39) & says & chr(39) &"," & towhoway &  ","& nowinroom & ");<"&"/script>"
 addmsg saystr
 end if
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"
 hiddenadmin="|"&Application("hidden_admin")&"|"
@@ -524,7 +524,7 @@ if(tbclu){
 //显示状态
 function wmd(b){this.f3.document.writeln(b);}
 function shake(n) {if (window.top.moveBy) {for (i = 10; i > 0; i--) {for (j = n; j > 0; j--) {window.top.moveBy(0,i);window.top.moveBy(i,0);window.top.moveBy(0,-i);window.top.moveBy(-i,0);}}}}
-function md1(ren){
+function md1(ren,sessionBgColor){
 //名单自动刷新
         if (this.f2.document.af.mdsx.checked == false){return;}
 	this.f3.document.open();
@@ -539,7 +539,7 @@ function md1(ren){
 	wmd("parent.sw(name);");
 	wmd("}");
 	wmd("<\/script>");
-	wmd("</head><body oncontextmenu=window.event.returnValue=false onselectstart=event.returnValue=false ondragstart=window.event.returnValue=false bgcolor=\""+chatbgcolor+"\" background=\""+chatimage+"\" bgproperties=\"fixed\">");
+	wmd("</head><body oncontextmenu=window.event.returnValue=false onselectstart=event.returnValue=false ondragstart=window.event.returnValue=false bgcolor=\""+sessionBgColor+"\" background=\""+chatimage+"\" bgproperties=\"fixed\">");
 	wmd("<\script language=\"JavaScript\">var currentpos,timer;function initialize(){timer=setInterval(\"scrollwindow()\",1);}function sc(){clearInterval(timer);}function scrollwindow(){currentpos=document.body.scrollTop; window.scroll(0,++currentpos);if (currentpos != document.body.scrollTop) sc();}document.onmousedown=sc;document.ondblclick=initialize;function New(para_URL){var URL =new String(para_URL);window.open(URL,'','resizable,scrollbars')}");
 	wmd("function ShowTips(strUser,pThis,sex){Hiddenmy();s='<s'+'cript language=javascript src=../jhshow/chatdisp.asp?name='+escape(strUser)+'&id=0&sex='+escape(sex)+'></sc'+'ript>';this.show.document.writeln(s);var pTip = document.all['Tips'].style ;pTip.left = 1 ;pTip.top = pThis.offsetHeight  + getPos(pThis,'top');");
 	wmd("pTip.width = 130;pTip.display ='';	if(Tips.offsetTop + Tips.offsetHeight > document.body.offsetHeight)pTip.top = getPos(pThis,'top') - Tips.offsetHeight;}");

@@ -7,7 +7,7 @@ Response.CacheControl = "No-Cache"
 aqjh_name=Session("aqjh_name")
 aqjh_grade=Session("aqjh_grade")
 aqjh_jhdj=Session("aqjh_jhdj")
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"
 %>

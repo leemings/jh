@@ -8,7 +8,7 @@ if aqjh_name="" then Response.Redirect "../error.asp?id=440"
 useronlinename=Application("aqjh_useronlinename"&session("nowinroom"))
 if aqjh_name="" or Session("aqjh_inthechat")<>"1" or Instr(useronlinename," "&aqjh_name&" ")=0 then Response.Redirect "chaterr.asp?id=001"
 chatroombgimage=Application("aqjh_chatimage")
-chatroombgcolor=Application("aqjh_chatbgcolor")%>
+chatroombgcolor=Session("afa_chatbgcolor")%>
 <html>
 <head>
 <title>消息列表</title>

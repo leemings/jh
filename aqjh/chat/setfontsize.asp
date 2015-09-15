@@ -7,7 +7,7 @@ aqjh_jhdj=Session("aqjh_jhdj")
 if aqjh_name="" then Response.Redirect "../error.asp?id=440"
 useronlinename=Application("aqjh_useronlinename"&session("nowinroom"))
 if aqjh_name="" or Session("aqjh_inthechat")<>"1" or Instr(useronlinename," "&aqjh_name&" ")=0 then Response.Redirect "chaterr.asp?id=001"
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"%><html>
 <script Language="JavaScript">

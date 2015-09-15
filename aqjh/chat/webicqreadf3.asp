@@ -76,7 +76,7 @@ Application("aqjh_webicq")=wbq
 Application("aqjh_webicqname")=webicqname
 Application.UnLock
 end if
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 chatroomname=Application("aqjh_chatroomname")
 if chatbgcolor="" then chatbgcolor="008888"%><html>

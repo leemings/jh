@@ -14,7 +14,7 @@ if who="" then who=aqjh_name
 show=Split(Trim(useronlinename),"  ",-1)
 x=UBound(show)
 chatroombgimage=Application("aqjh_chatimage")
-chatroombgcolor=Application("aqjh_chatbgcolor")
+chatroombgcolor=Session("afa_chatbgcolor")
 Set conn=Server.CreateObject("ADODB.CONNECTION")
 Set rs=Server.CreateObject("ADODB.RecordSet")
 conn.open Application("aqjh_usermdb")
@@ -28,7 +28,7 @@ if rs.bof or rs.eof then
 	Response.End 
 end if
 pai=rs("цееи")
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"
 %>

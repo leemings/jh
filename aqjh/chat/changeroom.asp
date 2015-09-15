@@ -106,7 +106,7 @@ if cstr(sj_chat_info(2))=1 and aqjh_grade<7 then
 		set rs=nothing	
 		conn.close
 		set conn=nothing
-		Response.Write "<html><head><meta http-equiv='Content-Type' content='text/html; charset=gb2312'><meta http-equiv='pragma' content='no-cache'></head><body bgcolor=" + Application("aqjh_chatbgcolor") + " background=" + Application("aqjh_chatimage") + " bgproperties=fixed>"
+		Response.Write "<html><head><meta http-equiv='Content-Type' content='text/html; charset=gb2312'><meta http-equiv='pragma' content='no-cache'></head><body bgcolor=" + Session("afa_chatbgcolor") + " background=" + Application("aqjh_chatimage") + " bgproperties=fixed>"
 		Response.Write "<script language=JavaScript>{alert('进入["&sj_chat_info(0)&"]的条件是："&sj_chat_info(3)&"');parent.r.location.reload();}</script>"
 		Response.End
 	end if

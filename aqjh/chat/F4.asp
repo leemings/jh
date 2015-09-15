@@ -5,7 +5,7 @@ Response.AddHeader "Cache-Control","Private"
 Response.CacheControl = "No-Cache"
 aqjh_roominfo=split(Application("aqjh_room"),";")
 chatinfo=split(aqjh_roominfo(session("nowinroom")),"|")
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 aqjh_name=Session("aqjh_name")
 aqjh_grade=Session("aqjh_grade")
@@ -39,7 +39,7 @@ function ex(){if(confirm("本程序是由『快乐江湖网』提供，感谢您的使用。欢迎再来[<
 //if(window.top==window.self){var i=1;while (i<=50){window.alert("你想作什么呀，黑我？这里是不行的，去别处玩去吧！哈！慢慢点50次！！");i=i+1;}top.location.href="../exit.asp"}
 </script>
 </HEAD>
-<BODY bgColor=<%=Application("aqjh_chatbgcolor")%> leftMargin=0 topMargin=0 oncontextmenu=window.event.returnValue=false ondragstart=window.event.returnValue=false onselectstart=event.returnValue=false>
+<BODY bgColor=<%=Session("afa_chatbgcolor")%> leftMargin=0 topMargin=0 oncontextmenu=window.event.returnValue=false ondragstart=window.event.returnValue=false onselectstart=event.returnValue=false>
 <TABLE height=120 cellSpacing=0 cellPadding=0 width=100% align=center border=0>  <TBODY>
   <TR>
     <TD width=100% background=1.jpg height=115 rowSpan=2>

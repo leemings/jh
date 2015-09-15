@@ -5,7 +5,7 @@ Response.AddHeader "Pragma", "no-cache"
 Response.Expires = 0
 aqjh_name=Session("aqjh_name")
 if aqjh_name="" then Response.Redirect "../error.asp?id=440"
-chatbgcolor=Application("aqjh_chatbgcolor")
+chatbgcolor=Session("afa_chatbgcolor")
 chatimage=Application("aqjh_chatimage")
 if chatbgcolor="" then chatbgcolor="008888"
 %>

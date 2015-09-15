@@ -49,7 +49,7 @@ a:hover{
 </style>
 
 </head>
-<body bgcolor=<%=Application("aqjh_chatbgcolor")%>  topmargin=""0"">
+<body bgcolor=<%=Session("afa_chatbgcolor")%>  topmargin=""0"">
 
 <p align="center"><td><b><a href=# onClick="window.open('../liwu/xrlw.asp','f3')"><span class="style1">※</span><span class="style2">新人</span><font color="#00FFFF">礼物</font><span class="style1">※ </span></a></font></b></td>
 <td><b><a href=# onClick="window.open('../liwu/zzlw.asp','f3')"><span class="style1">◆</span><span class="style2">站长</span><font color="#FFFF00">礼物</font><span class="style1">◆</span></a></font></b></td><td>

@@ -21,7 +21,7 @@ if who="" then who=aqjh_name
 show=Split(Trim(useronlinename)," ",-1)
 x=UBound(show)
 chatroombgimage=Application("aqjh_chatimage")
-chatroombgcolor=Application("aqjh_chatbgcolor")%><html>
+chatroombgcolor=Session("afa_chatbgcolor")%><html>
 <head>
 <title>呼叫聊友</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
